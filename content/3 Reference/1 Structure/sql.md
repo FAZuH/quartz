@@ -9,7 +9,6 @@
 
 ## Notes
 
-- [[3 Reference/1 Structure/mysql data types\|mysql data types]]
 - [[3 Reference/Aggregate Functions\|Aggregate Functions]]
 - [[3 Reference/Init Database User, Db, Privileges\|Init Database User, Db, Privileges]]
 - [[3 Reference/SQL Commands\|SQL Commands]]
@@ -20,6 +19,7 @@
 
 ## Subindexes
 
+- [[3 Reference/1 Structure/mysql data types\|mysql data types]]
 
 
 ## Archived

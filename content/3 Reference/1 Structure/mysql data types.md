@@ -1,5 +1,5 @@
 ---
-{"creation-time":"2025-03-14 03:42","tags":[],"parent":["[[sql]]"],"status":"ongoing","publish":true,"PassFrontmatter":true}
+{"creation-time":"2025-03-14 03:42","tags":["type/index"],"parent":["[[sql]]"],"status":"ongoing","publish":true,"PassFrontmatter":true}
 ---
 
 
