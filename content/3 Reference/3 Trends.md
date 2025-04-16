@@ -52,12 +52,12 @@ Regression estimates deterministic trends via least squares.
   Example: Random walk fit yields $\hat{\beta}_0 = -1.008$, $\hat{\beta}_1 = 0.1341$.
 
 - **Seasonal Means**: For monthly data, $\mu_t = \beta_j$ (e.g., $j = 1$ for January):
-  $$ \mu_t = \begin{cases} 
-  \beta_1, t = 1, 13, 25, \ldots \\
-  \beta_2, t = 2, 14, 26, \ldots \\
-  \vdots \\
-  \beta_{12}, t = 12, 24, 36, \ldots 
-  \end{cases} $$
+$$ \mu_t = \begin{cases} 
+\beta_1, t = 1, 13, 25, \ldots \\
+\beta_2, t = 2, 14, 26, \ldots \\
+\vdots \\
+\beta_{12}, t = 12, 24, 36, \ldots 
+\end{cases} $$
   Estimates are monthly averages; e.g., temperature data fit gives $\beta_1 = 16.608$ (January).
 
 - **Cosine Trends**: $\mu_t = \beta_0 + \beta_1 \cos(2\pi f t) + \beta_2 \sin(2\pi f t)$, $f = 1/12$ for monthly data. Example: Temperature fit yields $\hat{\beta}_0 = 46.2660$, $\hat{\beta}_1 = -26.7079$, $\hat{\beta}_2 = -2.1697$.
