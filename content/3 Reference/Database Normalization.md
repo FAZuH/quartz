@@ -4,6 +4,7 @@
 
 
 Definitions:
+
 - **Multi-valued Dependency**:
     - When an attribute has a specific  of available values
     - $\text{Model}\twoheadrightarrow\text{Color}$: Each model has possible color
@@ -11,10 +12,9 @@ Definitions:
 - **Attribute**: Column/variable of a database table
 
 - **Normal Form (NF)**:
-    - Analogy: Safety level
     - Rules to **prevent bad database** design (not normalized), causing data integrity failure
     - Prevent redundancy, contradiction, and anomalies (insertion, update, deletion)
-    - Easier to understand, enhance, extend
+    - Makes databases easier to understand, enhance, extend
 
 ## 1 NF
 
@@ -33,7 +33,7 @@ If not 2NF: Vulnerable to **deletion, update, insertion anomaly**
 - ✅: $\text{Player\_ID}, \text{Item\_Type}\to\text{Item\_Quantity}$ 
 - ❌: $\text{Player\_ID}, \textcolor{yellow}{\text{Item\_Type}}\to\textcolor{yellow}{\text{Player\_Rating}}$
 	
-	`Item Type` is treated as a key, yet `Player Rating` is independent of it.
+	$\text{Item\_Type}$ is treated as a key, yet $\text{Player\_Rating}$ is independent of it.
 
 ## 3 NF (Boyce-Codd Normal Form)
 
@@ -41,27 +41,25 @@ Every attribute in a table should **depend on the key, the whole key, and nothin
 
 If not 3NF: Vulnerable to **update anomaly**
 
-- ❌ $\text{Player\_ID}\to\text{Player\_Skill\_Level}\to\text{Player\_Rating}$
+- ❌ $\text{Player\_ID}\to \textcolor{yellow}{\text{Player\_Skill\_Level}}\to \textcolor{lime}{\text{Player\_Rating}}$
 
-	`Player Skill Level` is not a key, yet `Player Rating` depends on it.
+	$\textcolor{yellow}{\text{Player\_Skill\_Level}}$ is not a key, yet $\textcolor{lime}{\text{Player\_Rating}}$ depends on it.
 	
-	Update anomaly occurs when `Player Skill Level` is updated, yet for some reason `Player Rating` is not updated, causing inconsistensy.
+	Update anomaly occurs when $\textcolor{yellow}{\text{Player\_Skill\_Level}}$ is updated, yet for some reason $\textcolor{lime}{\text{Player\_Rating}}$ is not updated, causing inconsistensy.
 
 	![Pasted image 20250326164032.png|300](../Assets/Pasted%20image%2020250326164032.png)
 
 - ✅
-  $\text{Player\_ID}\to\text{Player\_Skill\_Level}$
-  $\text{Player\_Skill\_Level}\to\text{Player\_Rating}$
+  $\text{Player\_ID}\to\textcolor{yellow}{\text{Player\_Skill\_Level}}$
+  $\textcolor{yellow}{\text{Player\_Skill\_Level}}\to\textcolor{lime}{\text{Player\_Rating}}$
 
 ## 4 NF
 #TODO
 
 Multi-valued dependencies in a table must be multi-valued dependencies on the key
 
-For example, table of:
-- $\text{Model}\to\text{Color},\text{Style}$
-The table above violates 4 NF, because key is all $\text{Model, Color, Style}$?
-Solution is separate to two tables, $\text{Model}\twoheadrightarrow\text{Color}$, $\text{Model}\twoheadrightarrow\text{Style}$
+- For example, table of: $\text{Model}\to\text{Color},\text{Style}$
+  The table above violates 4 NF, because key is all $\text{Model, Color, Style}$?Solution is separate to two tables, $\text{Model}\twoheadrightarrow\text{Color}$, $\text{Model}\twoheadrightarrow\text{Style}$
 
 ## 5 NF
 
