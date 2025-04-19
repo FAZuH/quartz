@@ -7,6 +7,7 @@
 
 ## Notes
 
+- [[2 Personal/ChatGPT Customization\|ChatGPT Customization]]
 - [[3 Reference/How I studied for 12 hours a day for over a year\|How I studied for 12 hours a day for over a year]]
 - [[3 Reference/PARA Method\|PARA Method]]
 - [[3 Reference/The 10-to-15 Rule\|The 10-to-15 Rule]]

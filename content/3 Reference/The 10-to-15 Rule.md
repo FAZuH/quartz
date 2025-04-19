@@ -1,5 +1,5 @@
 ---
-{"creation-time":"2025-02-28 17:03","status":"adult","tags":null,"parent":["[[studying]]","[[methodology]]"],"publish":true,"PassFrontmatter":true}
+{"creation-time":"2025-02-28 17:03","status":"adult","tags":null,"parent":["[[studying]]"],"publish":true,"PassFrontmatter":true}
 ---
 
 

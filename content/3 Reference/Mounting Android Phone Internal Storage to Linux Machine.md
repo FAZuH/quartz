@@ -1,5 +1,5 @@
 ---
-{"creation-time":"2025-03-21 19:05","status":"adult","tags":null,"parent":["[[linux]]","[[file systems]]"],"publish":true,"PassFrontmatter":true}
+{"creation-time":"2025-03-21 19:05","status":"adult","tags":["content-type/procedural"],"parent":["[[linux]]","[[file systems]]"],"publish":true,"PassFrontmatter":true}
 ---
 
 

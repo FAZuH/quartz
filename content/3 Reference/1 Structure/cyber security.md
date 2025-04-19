@@ -6,6 +6,8 @@
 
 ## Notes
 
+- [[3 Reference/Importing and Exporting GPG Keys\|Importing and Exporting GPG Keys]]
+- [[3 Reference/Setting up PAM with USB\|Setting up PAM with USB]]
 
 
 ## Subindexes

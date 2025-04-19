@@ -13,6 +13,7 @@
 - [[3 Reference/Mount a Remote Directory Through SSH\|Mount a Remote Directory Through SSH]]
 - [[3 Reference/Mounting Android Phone Internal Storage to Linux Machine\|Mounting Android Phone Internal Storage to Linux Machine]]
 - [[3 Reference/Mounting a Windows File System in Linux\|Mounting a Windows File System in Linux]]
+- [[3 Reference/Setting up PAM with USB\|Setting up PAM with USB]]
 
 
 ## Subindexes
