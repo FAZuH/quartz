@@ -3,14 +3,15 @@
 ---
 
 
+How to organize your digital information into actionable categories for better productivity
+
+---
+
 > "Your professional success and quality of life depend directly on your quality to manage inforrmation effectively."
 > 
 > - Tiago Forte
 
-
-How to organize your digital information into actionable categories for better productivity
-
-- Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
+Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
 
 > [!NOTE]
 > These categories are sorted from **most actionable** to **least actionable**.
