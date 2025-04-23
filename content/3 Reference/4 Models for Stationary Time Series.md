@@ -20,19 +20,22 @@ Assuming $\psi_0 = 1$, the mean is $E(Y_t) = 0$, and autocovariance is:
 
 $$ \gamma_k = \sigma_e^2 \sum_{i=0}^\infty \psi_i \psi_{i+k}, \quad k \geq 0 $$
 
-- convergent if $\sum_{i=1}^\infty \psi_i^2 < \infty$.
+It is convergent if $\sum_{i=1}^\infty \psi_i^2 < \infty$.
 
-**Example**:
+- Example:
 
-$\psi_j = \phi^j$, $|\phi| < 1$, yields:
-
-$$ \operatorname{Var}(Y_t) = \frac{\sigma_e^2}{1 - \phi^2}, \quad \operatorname{Corr}(Y_t, Y_{t-k}) = \phi^k $$
-
-This process is stationary, with autocovariance depending only on lag.
-
+	Suppose $\psi_j = \phi^j$ and $|\phi| < 1$.
+	
+	Then,	
+	$$ \operatorname{Var}(Y_t) = \frac{\sigma_e^2}{1 - \phi^2}, \quad \operatorname{Corr}(Y_t, Y_{t-k}) = \phi^k $$
+	
+	This process is stationary, with autocovariance depending only on lag.
+	
 ## Moving average (MA) processes
 
 An MA($q$) process has finite nonzero $\psi$-weights:
+
+$$Y_t = e_t - \sum_{i=1}^q \theta_i e_{t-i}$$
 
 $$ Y_t = e_t - \theta_1 e_{t-1} - \cdots - \theta_q e_{t-q} $$
 
@@ -80,6 +83,7 @@ For $Y_t = e_t - \sum_{i=1}^q \theta_{i}e_{t-i}$
 An AR($p$) process satisfies:
 
 $$ Y_t = \phi_1 Y_{t-1} + \cdots + \phi_p Y_{t-p} + e_t $$
+$$Y_t = e_t + \sum_{i=1}^p \phi_i Y_{t-i}$$
 
 ### AR(1) Process
 
@@ -130,6 +134,8 @@ $$ \rho_k = \phi_1 \rho_{k-1} + \cdots + \phi_p \rho_{k-p}, \quad k \geq 1 $$
 An ARMA($p$,$q$) model is:
 
 $$ Y_t = \phi_1 Y_{t-1} + \cdots + \phi_p Y_{t-p} + e_t - \theta_1 e_{t-1} - \cdots - \theta_q e_{t-q} $$
+
+$$Y_t = e_t + \sum_{i=1}^p \phi_i Y_{t-i} - \sum_{i=1}^q \theta_ie_{t-i}$$
 
 ### ARMA(1,1) Model
 For $Y_t = \phi Y_{t-1} + e_t - \theta e_{t-1}$, $|\phi| < 1$ ensures stationarity:

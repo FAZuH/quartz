@@ -5,7 +5,9 @@
 
 **Stratified random sampling** is a sampling method that splits popultaion into [strata](Strata.md) that is internally homogeneous, but not from each other. We would then take samples from each strata.
 
-## Concept
+---
+
+## About systematic random sampling
 
 Simple or [[3 Reference/Systematic Random Sampling\|systematic random sampling]] is only suitable for homogeneous populations.
 
@@ -23,15 +25,13 @@ The population is divided into several subpopulations called [[3 Reference/Strat
 
 Stratified random sampling is the process of **grouping population into strata**, then **selecting samples from each stratum** and combining these samples to estimate population parameters.
 
-### Advantages
+## Advantages
 
 1. Improves precision.
 2. In addition to information about the population, information about each stratum is also obtained.
 3. Information is easier to collect.
 
-## Reference
-
-### Parameter estimation
+## Parameter estimation
 
 A population of size $N$ is divided into $L$ strata with sizes $N_1, N_2, \dots, N_L$, with sample sizes $n_1, n_2, \dots, n_L$, where $n = n_1, n_2, \dots, n_L$.
 
@@ -52,7 +52,7 @@ Where:
 
 These estimators are unbiased because simple random sampling is also used for each stratum.
 
-### Variance analysis
+## Variance analysis
 
 **Population variance**
 
@@ -73,7 +73,7 @@ Homogeneous strata reduce the within-stratum variance ($\sigma_w^2$).
 
 As a result, stratified sampling is more accurate than simple random sampling.
 
-### Determining sample size
+## Determining sample size
 
 Suppose we desire:
 - $d_0$: Precision
@@ -84,51 +84,56 @@ $$V(\bar{x}_{st}) = \frac{d_0^2}{z_0^2} = D^2$$
 
 Solve for $n$ in the variance formula for each allocation method, yielding:
 
-**Equal allocation**
+- **Equal allocation**
+
 $$n = \frac{L \sum_{h=1}^L N_h^2 S_h^2}{D^2 N^2}$$
 
-**Proportional allocation**
+- **Proportional allocation**
+
 $$n = \frac{\sum_{h=1}^L N_h S_h^2}{D^2 N + \frac{1}{N} \sum_{h=1}^L N_h S_h^2}$$
 
-**Optimum allocation**
+- **Optimum allocation**
+
 $$n = \frac{\left( \sum_{h=1}^L N_h S_h \sqrt{C_h} \right) \left( \sum_{h=1}^L \frac{N_h S_h}{\sqrt{C_h}} \right)}{D^2 N^2 + \sum_{h=1}^L N_h S_h^2}$$
 
-**Neyman allocation**
+- **Neyman allocation**
+
 $$n = \frac{\left( \sum_{h=1}^L N_h S_h \right)^2}{D^2 N^2 + \sum_{h=1}^L N_h S_h^2}$$
 
-### Sample allocation methods
+## Sample allocation methods
 
-#### Equal allocation
+- **Equal allocation**
 
 $$n_h = \frac{n}{L}$$
-
-- The sample size is the same for each stratum.
-- Does not consider cost functions.
-
-#### Proportional allocation
-
+	
+	- The sample size is the same for each stratum.
+	- Does not consider cost functions.
+	
+- **Proportional allocation**
+	
 $$n_h = \frac{N_h}{N} \cdot n$$
-
-- The sample size is proportional to the stratum size.
-- Most commonly used.
-- Does not consider cost functions.
-
-#### Optimum allocation
-
-Suppose:
-- $C_0$: Fixed cost
-- $C_h$: Cost per sampling unit in the $h$-th stratum.
-
+	
+	- The sample size is proportional to the stratum size.
+	- **Most commonly** used.
+	- Does not consider cost functions.
+	
+- **Optimum allocation**
+	Suppose:
+	- $C_0$: Fixed cost
+	- $C_h$: Cost per sampling unit in the $h$-th stratum.
+	
 $$n_h = \frac{N_h S_h / \sqrt{C_h}}{\sum_{h=1}^L N_h S_h / \sqrt{C_h}} \cdot n$$
-
-- Considers costs.
-- Costs vary across strata.
-
-#### Neyman allocation
-
+	
+	- Considers costs.
+	- Costs vary across strata.
+	
+- **Neyman allocation**
+	
 $$n_h = \frac{N_h S_h}{\sum_{h=1}^L N_h S_h} \cdot n$$
-
-- Considers costs.
-- Costs are the same across strata.
-
+	
+	- Considers costs.
+	- Costs are the same across strata.
+	
 ## Procedure
+
+#TODO

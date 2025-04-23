@@ -1,5 +1,5 @@
 ---
-{"creation-time":"2025-03-27 15:50","status":"baby","tag":null,"parent":["[[time series analysis]]"],"publish":true,"PassFrontmatter":true}
+{"creation-time":"2025-03-27 15:50","status":"baby","tags":["content-type/referential"],"parent":["[[time series analysis]]"],"publish":true,"PassFrontmatter":true}
 ---
 
 
@@ -92,7 +92,7 @@ For $Y_t = \mu_t + X_t$, $E(X_t) = 0$, $X_t$ stationary with $\gamma_k$, $\rho_k
 
 Least squares is asymptotically efficient for large $n$ compared to best linear unbiased estimates (BLUE), but standard errors assume white noise.
 
-## Interpreting regression output
+## Interpretation of regression output
 
 Regression output (e.g., random walk fit) includes $\hat{\beta}_0$, $\hat{\beta}_1$, standard errors, $t$-values, $R^2$ (e.g., 0.812), and residual standard error $s = \sqrt{\frac{1}{n-p} \sum_{t=1}^n (Y_t - \hat{\mu}_t)^2}$.
 
