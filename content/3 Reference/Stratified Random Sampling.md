@@ -1,5 +1,5 @@
 ---
-{"creation-time":"2025-03-05 14:10","status":"elder","tags":["content-type/combined"],"parent":["[[sampling methods]]"],"publish":true,"PassFrontmatter":true}
+{"creation-time":"2025-03-05 14:10","status":"elder","tags":["content-type/conceptual","content-type/referential"],"parent":["[[sampling methods]]"],"publish":true,"PassFrontmatter":true}
 ---
 
 
@@ -7,7 +7,7 @@
 
 ---
 
-## About systematic random sampling
+## About stratified random sampling
 
 Simple or [[3 Reference/Systematic Random Sampling\|systematic random sampling]] is only suitable for homogeneous populations.
 
@@ -103,15 +103,13 @@ $$n = \frac{\left( \sum_{h=1}^L N_h S_h \right)^2}{D^2 N^2 + \sum_{h=1}^L N_h S_
 ## Sample allocation methods
 
 - **Equal allocation**
-
-$$n_h = \frac{n}{L}$$
+	$$n_h = \frac{n}{L}$$
 	
 	- The sample size is the same for each stratum.
 	- Does not consider cost functions.
 	
 - **Proportional allocation**
-	
-$$n_h = \frac{N_h}{N} \cdot n$$
+	$$n_h = \frac{N_h}{N} \cdot n$$
 	
 	- The sample size is proportional to the stratum size.
 	- **Most commonly** used.
@@ -122,14 +120,13 @@ $$n_h = \frac{N_h}{N} \cdot n$$
 	- $C_0$: Fixed cost
 	- $C_h$: Cost per sampling unit in the $h$-th stratum.
 	
-$$n_h = \frac{N_h S_h / \sqrt{C_h}}{\sum_{h=1}^L N_h S_h / \sqrt{C_h}} \cdot n$$
+	$$n_h = \frac{N_h S_h / \sqrt{C_h}}{\sum_{h=1}^L N_h S_h / \sqrt{C_h}} \cdot n$$
 	
 	- Considers costs.
 	- Costs vary across strata.
 	
 - **Neyman allocation**
-	
-$$n_h = \frac{N_h S_h}{\sum_{h=1}^L N_h S_h} \cdot n$$
+	$$n_h = \frac{N_h S_h}{\sum_{h=1}^L N_h S_h} \cdot n$$
 	
 	- Considers costs.
 	- Costs are the same across strata.
