@@ -15,7 +15,7 @@ Projects $\mathbf{y}$ onto a line maximizing group separation.
 $$
 z = \mathbf{a}^\prime \mathbf{y} = (\overline{\mathbf{y}}_1 - \overline{\mathbf{y}}_2)^\prime \mathbf{S}_{\text{pl}}^{-1} \mathbf{y}
 $$
-where $\mathbf{S}_{\text{pl}}$ is the pooled covariance matrix.
+where $\mathbf{S}_{\text{pl}}$ is the pooled covariance matrix #TODO how to compute spl.
 
 See [[3 Reference/Two-Group Discriminant Analysis\|Two-Group Discriminant Analysis]] or [[3 Reference/Multiple Group Discriminant Analysis\|Multiple Group Discriminant Analysis]] to read further.
 
@@ -28,7 +28,7 @@ $$z > \frac{1}{2}(\bar{z}_1 + \bar{z}_2)$$
 where:
 - $\bar{z}_1 = \mathbf{a}^\prime \overline{\mathbf{y}}_1$
 - $\bar{z}_2 = \mathbf{a}^\prime \overline{\mathbf{y}}_2$
-- $z$: Discriminant score of new record
+- $z$: Discriminant score of new observation
 
 Otherwise, assign to $G_2$.
 

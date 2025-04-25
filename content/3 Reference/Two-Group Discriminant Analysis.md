@@ -4,12 +4,16 @@
 
 
 Two-group discriminant analysis is a statistical technique used to:
-1. **DIfferentiate between two distinct groups** based on a set of variables.
-2. **Classify future observations** into one of the groups.
 
-## Concept
+1. **Differentiate** between two distinct groups based on a set of variables.
 
-### Geometric interpretation
+2. **Classify** future observations into one of the groups.
+
+---
+
+#TODO need rewrite
+
+## About geometric interpretation of discriminant analysis
 
 The geometric view is like **looking at a plot to figure out how to split two groups**—like “most-admired” and “least-admired” companies—based on some measurements (e.g., their profits or sales).
 
@@ -24,7 +28,7 @@ Multivariate (This method):
 - Now, imagine checking the fruit’s color (red for apples, orange for oranges).
 - By **combining weight *and* color, it’s way easier to sort them**—light red fruits are apples, heavy orange ones are oranges.
 
-#### Discriminant function: Finding the magic line
+## About discriminant function: Finding the magic line
 
 - Picture all the company dots on your graph. The discriminant function is like drawing a slanted line through the map that **separates the two groups as cleanly as possible**.
 - Instead of guessing where to draw it, we compute the linear combination of two variables (e.g., profit and return).
@@ -33,55 +37,59 @@ Multivariate (This method):
 
 This line isn’t random—it’s the *best* line that puts the most space between the groups while keeping each group’s dots close together.
 
-#### Classification: Sorting with the line
+### About classification using the discriminant function
 
 - Pick a middle score to split the groups. If a company’s score is above the middle score, it’s most-admired; below, it’s least-admired.
 - Imagine your fruit scores: Apples get 8 or 9, oranges get 2 or 3. 
 - You set 5 as the middle score. Fruit with score higher than 5 is an apple, otherwise it's an orange.
 - On the graph, the middle score is a line cutting across, splitting the map into two zones.
 
-## Reference
+## Assumptions of discriminant analysis
 
-### Assumptions
+- **Multivariate Normality**: Required for significance tests and classification validity; violations may affect error rates.
 
-- **Multivariate Normality**
-	Required for significance tests and classification validity; violations may affect error rates but overall robustness is noted.
+- **Equal Covariance Matrices**: Assumed for linear discriminant analysis; violations inflate significance levels and affect classification.
 
-- **Equal Covariance Matrices**
-	Assumed for linear discriminant analysis; violations inflate significance levels and affect classification, potentially requiring quadratic functions for small samples.
+## Variable selection methods
 
-### Variable selection
+Selects the best subset of variables when many are available.
 
-- **Purpose**: Selects the best subset of variables when many are available (e.g., adding MKTBOOK, ROE, REASS).
+Some methods include: 
 
-- **Methods**: Forward, backward, or stepwise selection, using criteria like Wilks’ Lambda, Rao’s V, or Mahalanobis distance.
+- Forward, backward, or stepwise selection.
+- Criteria like Wilks’ Lambda, Rao’s V, or Mahalanobis distance.
 
-- **Example**: Using five financial ratios, stepwise selection chooses EBITASS and REASS, with multicollinearity affecting variable inclusion and interpretation.
+#TODO: Create separate note about variable selection method
 
-### Model accuracy validation
+## About model accuracy validation
 
-Classification accuracy on the training sample may be biased; external validation ensures generalizability.
+ Model validation **ensures the trained model can be generalized**, used for future data, as classification accuracy on the training sample may be biased.
 
-- **Holdout**: Split sample into training and test sets.
-- **U-Method**: Leave-one-out cross-validation.
-- **Bootstrap**: Repeated sampling to estimate error rates.
+- Holdout: Split sample into training and test sets.
+- U-Method: Leave-one-out cross-validation.
+- Bootstrap: Repeated sampling to estimate error rates.
 
-### Regression approach 
+#TODO: Create separate note
+
+## About regression approach in discriminant analysis
 
 Two-group discriminant analysis can be reformulated as a multiple regression problem with a binary dependent variable (e.g., 0 for least-admired, 1 for most-admired). The resulting $R = 0.897$ matches the canonical correlation, but normality assumptions may be violated.
 
-## Procedure
 
-#TODO 
+## Python example
 
-### Python example
+See 
+
+- [Step 2](#2.%20Compute%20discriminant%20function): For actual discriminant function.
+- [Step 3](#3.%20Compute%20discriminant%20score): For computing discriminant score based on discriminant function.
+- [Step 4](#4.%20Set%20cutoff%20and%20classify): Classifying new data
 
 #TODO 
 - Add descriptions to each step
 - Refer formulas from the original book (LaTeX & formula numbers)
 - Show output
 
-#### 0. Setup
+### 0. Setup
 ```python
 # Import
 import numpy as np
@@ -123,7 +131,7 @@ train_data = pd.concat([X_train, y_train.rename('group')], axis=1)
 test_data = pd.concat([X_test, y_test.rename('group')], axis=1)
 ```
 
-#### 1. Variable selection
+### 1. Variable selection
 
 ```python
 selector = SelectKBest(score_func=f_classif, k=2)
@@ -136,7 +144,11 @@ X_test_selected = X_test[['weight', 'color']]
 print("\nSelected variables (train sample):\n", X_train_selected.head())
 ```
 
-#### 2. Compute discriminant function
+### 2. Compute discriminant function
+
+- Ending with `_a`: Apple
+
+- Ending with `_o`: Orange
 
 ```python
 X_train_a = X_train_selected[y_train == 1]
@@ -163,7 +175,7 @@ w = S_pooled_inv @ mean_diff
 print("\nDiscriminant function weights (w):", w)
 ```
 
-#### 3. Compute discriminant score
+### 3. Compute discriminant score
 
 ```python
 # Step 4: Compute Discriminant Scores
@@ -177,7 +189,7 @@ print(
 )
 ```
 
-#### 4. Set cutoff and classify
+### 4. Set cutoff and classify
 
 ```python
 mean_score_apples = train_scores[y_train == 1].mean()
@@ -197,7 +209,7 @@ accuracy = (test_data["predicted_numeric"] == test_data["group"]).mean()
 print("\nTest classification accuracy:", accuracy)
 ```
 
-#### Extra: Visualize
+### Extra: Visualize
 
 ```python
 plt.scatter(

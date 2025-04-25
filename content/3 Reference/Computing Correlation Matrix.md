@@ -3,7 +3,7 @@
 ---
 
 
-## Procedure
+## Computing correlation matrix
 
 ### 1. Prepare the Data
 
@@ -15,12 +15,7 @@ Ensure your data is clean and suitable for correlation analysis:
 
 ### 2. Choose a Correlation Method
 
-Select the appropriate correlation coefficient based on your data and analysis goals:
-
-- **Pearson Correlation**: Measures linear relationships between continuous variables. Assumes normality.
-	$$r_{xy} = \frac{\sum{(x_i - \bar{x})(y_i - \bar{y})}}{\sqrt{\sum{(x_i - \bar{x})^2} \sum{(y_i - \bar{y})^2}}}$$
-- **Spearman Correlation**: Non-parametric, rank-based method for monotonic relationships.
-- **Kendall’s Tau**: Another non-parametric method, suitable for small samples or ordinal data.
+Select the appropriate correlation coefficient based on your data and analysis goals. See [Correlation measurement formulas](#Correlation%20measurement%20formulas).
 
 ### 3. Compute the Correlation Matrix
 
@@ -54,11 +49,74 @@ Steps:
 - Compute p-values to assess whether correlations are significant.
 - Use heatmaps, pairplots, or scatter plots to visualize correlations for better interpretation.
 
-## Example
+## Correlation measurement formulas
+
+
+### Pearson Correlation
+
+Measures linear relationships between continuous variables. **Assumes normality**.  
+
+$$
+\begin{align*}
+r_{ij} &= \frac{\text{Cov}(X_i, X_j)}{\sqrt{\text{Var}(X_i) \text{Var}(X_j)}} \\
+&= \frac{\sum_{k=1}^n (x_{ik} - \bar{x}_i)(x_{jk} - \bar{x}_j)}{\sqrt{\sum_{k=1}^n (x_{ik} - \bar{x}_i)^2 \sum_{k=1}^n (x_{jk} - \bar{x}_j)^2}}
+\end{align*}
+$$
+
+**Variables**:
+- $r_{ij}$: Pearson correlation coefficient between variables $X_i$ and $X_j$.
+- $x_{ik}$: $k$-th observation of variable $X_i$.
+- $\bar{x}_i$: Mean of variable $X_i$.
+- $n$: Number of observations.
+
+Where:
+
+- $x_i, y_i$: Observations
+- $\bar{x}, \bar{y}$: Observation means
+
+### Spearman Correlation
+
+Non-parametric, rank-based method for **monotonic** relationships.  
+
+$$\rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)}$$  
+
+Where:
+
+- $d_i$: Difference between ranks of $x_i$ and $y_i$
+- $n$: Number of observations
+
+### Kendall’s Tau
+
+Non-parametric method, suitable for **small samples or ordinal data**.  
+
+$$\tau = \frac{2}{n(n-1)} \sum_{i < j} \text{sgn}(x_i - x_j) \text{sgn}(y_i - y_j)$$  
+
+Where 
+
+- $\text{sgn}$ is the sign function  #TODO 
+- $n$: Number of observations
+- $i, j$: index pairs
+
+## Covariance matrix vs correlation matrix
+
+A correlation matrix and a covariance matrix are related but distinct.
+
+- Covariance Matrix:  
+	- Diagonals: **Variances** of variables ($s_{ii} = \text{Var}(X_i)$).  
+	- Off-diagonals: **Covariances** between variables ($s_{ij} = \text{Cov}(X_i, X_j)$).  
+	$$\mathbf{S} = \frac{1}{n-1} \mathbf{X}^\top \mathbf{X}$$
+	
+- Correlation Matrix:  
+	- Diagonals: **Always 1** (since a variable’s correlation with itself is 1).  
+	- Off-diagonals: **Pearson correlation** coefficients ($r_{ij} = \frac{\text{Cov}(X_i, X_j)}{\sqrt{\text{Var}(X_i) \text{Var}(X_j)}}$).  
+	$$\mathbf{R} = \text{diag}(\mathbf{S})^{-1/2} \mathbf{S} \text{diag}(\mathbf{S})^{-1/2}$$
+    where $\text{diag}(\mathbf{S})^{-1/2}$ is a diagonal matrix with entries $1/\sqrt{s_{ii}}$.
+
+The correlation matrix standardizes the covariance matrix by dividing each covariance by the product of the standard deviations, resulting in dimensionless correlation coefficients (ranging from -1 to 1).
+
+## Python example
 
 Below is an example of computing a Pearson correlation matrix using a small data set.
-
-### Python Implementation
 
 ```python
 import numpy as np

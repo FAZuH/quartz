@@ -3,26 +3,32 @@
 ---
 
 
-## Brief intuition behind PCA
+PCA simplifies a dataset while minimizing lost off information. PCA does this by "transforming" the data and reducing the variables, such the majority of "information" contained in the data are "highlighted"  or "retained" as much as possible.
 
-Principal Component Analysis (PCA) **transforms a dataset into a new coordinate system** where the axes—called principal components—align with the directions of maximum variance.
+---
 
-Imagine a cloud of data points: PCA finds the **"longest" direction the cloud stretches, then the next longest perpendicular to it, and so on**. These directions are the principal components.
+## About PCA (Principal Component Analysis)
+
+Principal Component Analysis (PCA) transforms a dataset into a new coordinate system where the axes—called principal components—align with the directions of maximum variance.
+
+Imagine a cloud of data points: PCA finds the "longest" direction the cloud stretches, then the next longest perpendicular to it, and so on. These directions are the principal components.
 
 By doing this, it **reorients the data such that the information are "highlighted" as much as possible**, making it easier to analyze or compress while preserving as much information as possible.
 
 ## Reason to do PCA
 
-PCA is employed to simplify data without losing its essence. In high-dimensional datasets, features often overlap or contain noise, making analysis cumbersome.
+PCA is used to simplify data while minimizing loss of information.
 
-PCA reduces this complexity by projecting the data onto a smaller set of principal components that retain the majority of the information (variance).
+PCA does this by projecting the data onto a smaller set of principal components that retain the majority of the information (variance).
 
 This reduction is valuable for 
 - **Visualization** (e.g., plotting 2D views of 100D data)
 - **Speeding up computations** (fewer dimensions mean less processing)
 - **Improving model performance** (reducing the amount of compuattion required for the model to think)
 
-## PCA compuatation
+## Performing PCA
+
+See [Python example: PCA computation](#1.%20PCA%20computation) for an overview of manual PCA computation in Python.
 
 ### 1: Center the data
 
@@ -45,7 +51,7 @@ This ensures each feature’s mean is zero in $\mathbf{Y}_{\text{centered}}$, se
 
 With the data centered, computing the covariance matrix captures how features vary together. This step quantifies relationships between variables, providing PCA with the structure needed to identify the most significant directions of spread.
 
-- **Sample covariance matrix**:
+- Sample covariance matrix:
 	$$\mathbf{S} = \frac{1}{n-1} \mathbf{Y}_{\text{centered}}^T \mathbf{Y}_{\text{centered}}$$  
 
 This matrix serves as the allows PCA to extract principal directions of variance.
@@ -56,18 +62,22 @@ Eigen decomposition breaks down the covariance matrix into its core components�
 
 This step is crucial for PCA because it provides the optimal axes—eigenvectors—that has maximum variance.
 
-- **Eigen decomposition**
-	$$\mathbf{S} = \mathbf{C} \boldsymbol{\Lambda} \mathbf{C}^T$$  
-	where $\boldsymbol{\Lambda} = \text{diag}(\lambda_1, \lambda_2, \dots, \lambda_p)$ contains the eigenvalues, and $\mathbf{C}$ has eigenvectors as columns.  
-	
-	Each column of $\mathbf{C}$ is an **eigenvector**. PCA uses these as the principal components—new axes that capture the data’s spread.
-	
-	**Eigenvalues $\lambda_i$ quantify the variance along each eigenvector**, and $\mathbf{C}$ is orthogonal ($\mathbf{C}^T \mathbf{C} = \mathbf{I}$).
-	
-	**Orthogonality ensures the principal components are independent** (uncorrelated), a key property for PCA to separate variance contributions cleanly—without it, overlapping directions would disturb the analysis.
-	
+The eigen decomposition is as follows:
+
+$$\mathbf{S} = \mathbf{C} \boldsymbol{\Lambda} \mathbf{C}^T$$  
+where $\boldsymbol{\Lambda} = \text{diag}(\lambda_1, \lambda_2, \dots, \lambda_p)$ contains the eigenvalues, and $\mathbf{C}$ has eigenvectors as columns.  
+
+Each column of $\mathbf{C}$ is an **eigenvector**. PCA uses these as the principal components—new axes that capture the data’s spread.
+
+**Eigenvalues $\lambda_i$ quantify the variance along each eigenvector**, and $\mathbf{C}$ is orthogonal ($\mathbf{C}^T \mathbf{C} = \mathbf{I}$).
+
+**Orthogonality ensures the principal components are independent** (uncorrelated), a key property for PCA to separate variance contributions cleanly—without it, overlapping directions would disturb the analysis.
 
 This step identifies all possible principal components, setting up the prioritization process.
+
+For further reading, read
+- https://zief0002.github.io/matrix-algebra/eigenvalues-and-eigenvectors.html
+- https://zief0002.github.io/matrix-algebra/spectral-decompostion.html
 
 ### 4: Sort eigenvalues and eigenvectors
 
@@ -130,7 +140,7 @@ First 3 samples:
 
 ### 1. PCA computation
 
-Next we will compute the principal components based on [[3 Reference/Principal Component Analysis#PCA analysis\|#PCA analysis]] section.
+Next we will compute the principal components based on [Performing PCA](#Performing%20PCA) section.
 
 
 ```python title:"PCA computation" fold

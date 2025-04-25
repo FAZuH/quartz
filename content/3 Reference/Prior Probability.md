@@ -1,23 +1,29 @@
 ---
-{"creation-time":"2025-03-21 12:07","status":"baby","tags":null,"parent":["[[multivariate analysis]]"],"publish":true,"PassFrontmatter":true}
+{"creation-time":"2025-03-21 12:07","status":"adult","tags":["content-type/conceptual"],"parent":["[[multivariate analysis]]"],"publish":true,"PassFrontmatter":true}
 ---
 
 
-We define the prior probabilities as follows: 
 
-$p_1$ is the proportion of observations in $G_1$ 
+## About of prior probabilities
 
-$p_2$ is the proportion in $G_2$, where $p_2 = 1 - p_1$
+Prior probabilities represent the **proportion of observations in each group** before observing new data.
 
-For example, suppose that at a certain university 70% of entering freshmen ultimately graduate.
+For $k$ groups $G_1, G_2, \dots, G_k$:
 
-Then $p_1 = .7$ and $p_2 = .3$
+- $p_i$: Proportion of observations in group $G_i$, calculated as:  
+    $$p_i = \frac{n_i}{N}$$
 
-**In general**:
-$$
-p_i = \frac{n_i}{N}
-$$
+**Variables**:
 
-Where:
 - $n_i$: Number of observations in group $G_i$.
-- $N$: Total number of observations across all groups ($N = n_1 + n_2 + \cdots + n_k$).
+- $N$: Total number of observations across all groups, $N = n_1 + n_2 + \dots + n_k$.
+- $p_i$: Satisfies $\sum_{i=1}^k p_i = 1$.
+
+**Example**:  
+
+Suppose 70% of freshmen at a university graduate ($G_1$) and 30% do not ($G_2$)
+
+Then:
+
+- $p_1 = 0.7$
+- $p_2 = 1 - p_1 = 0.3$

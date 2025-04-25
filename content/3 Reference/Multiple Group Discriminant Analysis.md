@@ -3,9 +3,11 @@
 ---
 
 
-Multiple-Group Discriminant Analysis (MDA) **extends [[3 Reference/Two-Group Discriminant Analysis\|Two-Group Discriminant Analysis]] to distinguish between three or more groups** using multiple variables.
+Multiple-Group Discriminant Analysis (MDA) extends [Two-Group Discriminant Analysis](Two-Group%20Discriminant%20Analysis.md) to **distinguish between three or more groups** using multiple variables.
 
-## Concept
+---
+
+## About MDA (Multiple-group Discriminant Analysis)
 
 Picture a fruit stand with apples, oranges, and bananas: instead of just separating apples from oranges with one line, MDA draws multiple lines (or planes) to separate all three based on traits like weight, color, and size.
 
@@ -13,48 +15,44 @@ These lines are **discriminant functions—new axes that maximize group separati
 
 Unlike two-group analysis, which needs only one function, MDA may require several to capture all differences.
 
-### Reason to Do MDA
+## Reason to Do MDA
 
 MDA is ideal when you need to **classify or understand differences across multiple groups**. It reduces complex data into fewer dimensions while preserving distinctions, useful for:
 - **Classification**: Sorting new items into categories (e.g., apple, orange, banana).
 - **Visualization**: Plotting high-dimensional data in 2D or 3D to see group patterns.
 - **Simplification**: Condensing many variables into a few key functions (e.g., 5 variables into 2 axes).
 
-### Geometric View of MDA
 
-## Reference
+## Performing MDA
 
-### Analytical Approach
-
-#### 1: Test Variable Significance
+### 1: Test Variable Significance
 
 Use an **$F$-test** to check if variables differ across groups:
 - Hypotheses: $H_0: \mu_1 = \mu_2 = \cdots = \mu_G$ vs. $H_a$: At least one pair differs.
 - Compute Wilks’ $\Lambda$ or $F$-statistic to confirm discriminatory power.
 
-#### 2: Compute Discriminant Functions
+### 2: Compute Discriminant Functions
 
 Find functions $Z_i = w_{i1} X_1 + \cdots + w_{ip} X_p$ maximizing:
 $$\lambda_i = \frac{\text{between-groups SS of } Z_i}{\text{within-group SS of } Z_i}$$
 
-- **Steps**:
-  1. Compute group means and overall mean.
-  2. Calculate within-group SSCP matrix $\mathbf{W}$.
-  3. Calculate between-group SSCP matrix $\mathbf{B}$.
-  4. Solve for eigenvalues and eigenvectors of $\mathbf{W}^{-1} \mathbf{B}$.
-  5. Use eigenvectors as weights $w_{ij}$.
+Steps:
 
-#### 3: Classify Observations
+1. Compute group means and overall mean.
+2. Calculate within-group SSCP matrix $\mathbf{W}$.
+3. Calculate between-group SSCP matrix $\mathbf{B}$.
+4. Solve for eigenvalues and eigenvectors of $\mathbf{W}^{-1} \mathbf{B}$.
+5. Use eigenvectors as weights $w_{ij}$.
+
+### 3: Classify Observations
 
 Project data onto $Z_i$ and divide the space into $G$ regions with cutoff lines based on maximum $\lambda_i$.
 
-## Procedure
-
-### Python Example
+## Python Example
 
 We’ll apply MDA manually to a synthetic dataset of apples, oranges, and bananas, using weight and color, adapting the two-group example for three groups.
 
-#### 0: Setup
+### 0: Setup
 
 ```python title:"Setup" fold
 import numpy as np
@@ -96,9 +94,9 @@ banana    50
 Name: group, dtype: int64
 ```
 
-#### 1: Manual MDA Computation
+### 1: Manual MDA Computation
 
-##### 1.1: Compute Group Means and Overall Mean
+#### 1.1: Compute Group Means and Overall Mean
 
 $$\mu_i = \frac{1}{n_i} \sum_{j \in G_i} \mathbf{x}_j, \quad \mu = \frac{1}{n} \sum_{i=1}^n \mathbf{x}_i$$
 
@@ -120,7 +118,7 @@ banana   2.974  4.984
 Overall mean: [3.976  4.990]
 ```
 
-##### 1.2: Compute Within-Group SSCP Matrix (W)
+#### 1.2: Compute Within-Group SSCP Matrix (W)
 
 $$\mathbf{W} = \sum_{i=1}^G \sum_{j \in G_i} (\mathbf{x}_j - \mu_i)(\mathbf{x}_j - \mu_i)^T$$
 
@@ -141,7 +139,7 @@ W matrix:
  [   2.306  49.197]]
 ```
 
-##### 1.3: Compute Between-Group SSCP Matrix (B)
+#### 1.3: Compute Between-Group SSCP Matrix (B)
 
 $$\mathbf{B} = \sum_{i=1}^G n_i (\mu_i - \mu)(\mu_i - \mu)^T$$
 
@@ -161,7 +159,7 @@ B matrix:
  [ -43.501  539.391]]
 ```
 
-##### 1.4: Solve for Eigenvalues and Eigenvectors
+#### 1.4: Solve for Eigenvalues and Eigenvectors
 
 $$\mathbf{W}^{-1} \mathbf{B} \mathbf{w}_i = \lambda_i \mathbf{w}_i$$
 
@@ -187,7 +185,7 @@ Eigenvectors:
 - $\lambda_1 = 14.609$, $\mathbf{w}_1 = [-0.094, -0.996]^T$
 - $\lambda_2 = 0.933$, $\mathbf{w}_2 = [0.996, -0.094]^T$
 
-##### 1.5: Compute Discriminant Scores
+#### 1.5: Compute Discriminant Scores
 
 $$Z_i = \mathbf{X} \mathbf{w}_i$$
 
@@ -213,7 +211,7 @@ First few scores:
 4    5.389  7.872  apple  -2.844   1.373
 ```
 
-#### 2: Visualize Results
+### 2: Visualize Results
 
 ```python title:"Visualize MDA" fold
 plt.figure(figsize=(8, 6))
