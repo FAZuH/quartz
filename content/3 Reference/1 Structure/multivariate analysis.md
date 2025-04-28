@@ -7,9 +7,9 @@
 
 ## Notes
 
+- [[3 Reference/MANOVA\|MANOVA]]
 - [[3 Reference/Principal Component Analysis\|Principal Component Analysis]]
 - [[3 Reference/Prior Probability\|Prior Probability]]
-- [[3 Reference/MANOVA\|MANOVA]]
 
 
 ## Subindexes
