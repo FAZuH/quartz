@@ -85,7 +85,7 @@ Where:
 - $d_i$: Difference between ranks of $x_i$ and $y_i$
 - $n$: Number of observations
 
-### Kendall’s Tau
+### Kensdall’s Tau
 
 Non-parametric method, suitable for **small samples or ordinal data**.  
 

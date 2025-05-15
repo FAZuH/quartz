@@ -16,9 +16,9 @@
 
 ## Subindexes
 
+- [[3 Reference/1 Structure/limits\|limits]]
 - [[3 Reference/1 Structure/sequences and series\|sequences and series]]
 - [[3 Reference/1 Structure/the real numbers\|the real numbers]]
-- [[3 Reference/1 Structure/limits\|limits]]
 
 
 ## Archived
