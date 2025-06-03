@@ -3,7 +3,7 @@
 ---
 
 
-Stationarity assumes the process’s **statistical properties are time-invariant**.
+In time series, stationarity means dependence of previous observations "declines" over time, or formally, assumes the process’s **statistical properties are time-invariant**.
 
 - **Strict Stationarity**: The joint distribution of $\{Y_{t_1}, \ldots, Y_{t_n}\}$ equals that of $\{Y_{t_1-k}, \ldots, Y_{t_n-k}\}$ for all $t_i$ and $k$. Implies **constant mean and variance**, and $\gamma_{t,s} = \gamma_{0,|t-s|}$.
 - **Weak (Second-Order) Stationarity**: Requires constant mean and $\gamma_{t,t-k} = \gamma_{0,k}$ for all $t$ and $k$. Used throughout the book unless specified otherwise.
@@ -11,6 +11,17 @@ Stationarity assumes the process’s **statistical properties are time-invariant
 For stationary processes, we denote $\gamma_k = \operatorname{Cov}(Y_t, Y_{t-k})$, $\rho_k = \frac{\gamma_k}{\gamma_0}$, with properties: $\gamma_0 = \operatorname{Var}(Y_t)$, $\rho_0 = 1$, $\gamma_k = \gamma_{-k}$, $|\rho_k| \leq 1$.
 
 ![stationaryvsnonstationary.webp|400](../Assets/stationaryvsnonstationary.webp)
+
+#TODO
+Common solution to stationary data is to use differencing. Differencing works for these:
+![|600](../Assets/Pasted image 20250602023740.png)
+
+But not these:
+![|600](../Assets/Pasted image 20250602023941.png)
+
+## See also
+
+- https://www.youtube.com/watch?v=aIdTGKjQWjA
 
 ## Examples
 

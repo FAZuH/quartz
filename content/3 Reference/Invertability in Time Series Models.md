@@ -13,7 +13,7 @@ For an MA($q$) process:
 
 $$ Y_t = e_t - \theta_1 e_{t-1} - \theta_2 e_{t-2} - \cdots - \theta_q e_{t-q} $$
 
-where $\{e_t\}$ is white noise, invertibility allows rewriting it as:
+invertibility allows rewriting it as:
 
 $$ Y_t = \pi_1 Y_{t-1} + \pi_2 Y_{t-2} + \pi_3 Y_{t-3} + \cdots + e_t $$
 
@@ -21,7 +21,7 @@ with coefficients $\pi_j$. This is possible when the MA characteristic polynomia
 
 $$ \theta(x) = 1 - \theta_1 x - \theta_2 x^2 - \cdots - \theta_q x^q $$
 
-has roots exceeding 1 in modulus (absolute value).
+has roots exceeding 1 in modulus ($|\theta|<1$ for MA(1)).
 
 Invertibility resolves nonuniqueness in MA models, where different $\theta$ values yield the same autocorrelation function.
 

@@ -16,6 +16,8 @@ ARIMA models cover stationary and nonstationary series. The specification proces
 
 ## Properties of the Sample Autocorrelation Function
 
+The Autocorrelation Function (ACF) measures the correlation between a time series and its own lagged values, showing how values at time $t$ relate to values at previous times $t-k$. Values range from -1 to 1; significant spikes indicate strong correlation at specific lags $k$.
+
 The sample ACF, $r_k = \frac{\sum_{t=k+1}^n (Y_t - \bar{Y})(Y_{t-k} - \bar{Y})}{\sum_{t=1}^n (Y_t - \bar{Y})^2}$, estimates the theoretical ACF $\rho_k$. Its sampling properties are complex, but for a stationary series $Y_t = \mu + \sum_{j=0}^\infty \psi_j e_{t-j}$ (with $\sum_{j=0}^\infty \vert \psi_j \vert < \infty$, $\sum_{j=0}^\infty j \psi_j^2 < \infty$), $\sqrt{n}(r_k - \rho_k)$ is asymptotically normal with variance:
 
 $$ c_{kk} = \sum_{k=-\infty}^\infty (\rho_{k+i} \rho_{k+j} + \rho_{k-i} \rho_{k+j} - 2 \rho_i \rho_k \rho_{k+j} - 2 \rho_j \rho_k \rho_{k+i} + 2 \rho_i \rho_j \rho_k^2) $$
@@ -35,7 +37,11 @@ $$ c_{kk} = \sum_{k=-\infty}^\infty (\rho_{k+i} \rho_{k+j} + \rho_{k-i} \rho_{k+
 ## Partial and Extended Autocorrelation Functions
 
 ### Partial Autocorrelation Function (PACF)
-The PACF, $\phi_{kk}$, measures correlation between $Y_t$ and $Y_{t-k}$ after removing effects of $Y_{t-1}, \ldots, Y_{t-k+1}$:
+
+- Measures the correlation between a time series and its lagged values, after removing the effects of earlier lags.
+- For lag $k$, PACF shows the direct correlation between $y_t$ and $y_{t-k}$, adjusting for correlations at lags $< k$.
+
+The PACF, $\phi_{kk}$, measures **correlation between $Y_t$ and $Y_{t-k}$ after removing effects of $Y_{t-1}, \ldots, Y_{t-k+1}$:**
 - $\phi_{kk} = \operatorname{Corr}(Y_t - \hat{Y}_t, Y_{t-k} - \hat{Y}_{t-k})$, where $\hat{Y}_t$ is the best linear predictor.
 - **AR(p)**: $\phi_{kk} = 0$ ($k > p$).
 - **MA(1)**: $\phi_{kk} = -\frac{\theta^k (1 - \theta^2)}{1 - \theta^{2(k+1)}}$ ($k \geq 1$), decays exponentially.
@@ -44,7 +50,11 @@ The PACF, $\phi_{kk}$, measures correlation between $Y_t$ and $Y_{t-k}$ after re
 Sample PACF, $\hat{\phi}_{kk}$, uses $r_k$ in place of $\rho_k$; for AR(p), $\hat{\phi}_{kk} \sim N(0, \frac{1}{n})$ ($k > p$).
 
 ### Extended Autocorrelation Function (EACF)
-For ARMA($p,q$), the EACF filters out AR components, leaving an MA(q) process. Define $W_{t,k,j} = Y_t - \sum_{m=1}^k \tilde{\phi}_m Y_{t-m}$, where $\tilde{\phi}_m$ are estimated iteratively. The sample ACF of $W_{t,k,j}$ cuts off after lag $q$ when $k = p$, forming a triangle of zeros in an EACF table.
+
+- A tool to identify both AR and MA orders ($p$ and $q$) in ARIMA models by analyzing the autocorrelation of residuals after fitting an AR model.
+- Presented as a table, where rows are AR orders and columns are MA orders; a "zero triangle" of insignificant autocorrelations indicates the appropriate $(p, q)$.
+
+For ARMA($p,q$), the **EACF filters out AR components, leaving an MA(q) process.** Define $W_{t,k,j} = Y_t - \sum_{m=1}^k \tilde{\phi}_m Y_{t-m}$, where $\tilde{\phi}_m$ are estimated iteratively. The sample ACF of $W_{t,k,j}$ cuts off after lag $q$ when $k = p$, forming a triangle of zeros in an EACF table.
 
 | Model Behavior | ACF             | PACF            |
 |----------------|-----------------|-----------------|

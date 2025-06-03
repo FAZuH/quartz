@@ -21,12 +21,23 @@ More generally, if $Y_t = M_t + X_t$ and $M_t$ changes slowly (deterministic or 
 
 ## ARIMA Models
 
-An ARIMA($p,d,q$) model defines $W_t = \nabla^d Y_t$ as a stationary ARMA($p,q$) process, where $d$ is the differencing order (typically 1 or 2). The model is:
+An ARIMA($p,d,q$) model defines $W_t = \nabla^d Y_t$ as a stationary ARMA($p,q$) process, where $d$ is the differencing order (typically 1 or 2). It is defined as:
 
-$$ \phi(B)(1 - B)^d Y_t = \theta(B) e_t $$
+$$\phi_p(B)(1-B)^d Y_t = \theta_0 + \theta_q(B) \varepsilon_t$$
 
-using the backshift operator $B$ ($B Y_t = Y_{t-1}$).
+where:
+- $Y_t$: Time series value at time $t$.
+- $\varepsilon_t$: Error term (white noise) at time $t$.
+- $\theta_0$: Constant term (mean of differenced series).
+- $p$: Order of autoregressive terms.
+- $d$: Order of differencing.
+- $q$: Order of moving average terms.
+- $B$: Backshift operator ($B Y_t = Y_{t-1}$).
+- $(1-B)^d$: Differencing operator, applied $d$ times to make series stationary.
+- $\phi_p(B)$: Autoregressive operator, $\phi_p(B) = 1 - \phi_1 B - \phi_2 B^2 - \dots - \phi_p B^p$.
+- $\theta_q(B)$: Moving average operator, $\theta_q(B) = 1 + \theta_1 B + \theta_2 B^2 + \dots + \theta_q B^q$.
 
+The model combines autoregressive (AR), differencing (I), and moving average (MA) components to model stationary or non-stationary time series.
 ### IMA(1,1) Model
 $Y_t = Y_{t-1} + e_t - \theta e_{t-1}$:
 
@@ -60,3 +71,48 @@ If $\sqrt{\operatorname{Var}(Y_t)} = \mu_t \sigma$, then $\operatorname{Var}(\lo
 
 ### Power Transformations
 Box-Cox transformation: $g(x) = \begin{cases} \frac{x^\lambda - 1}{\lambda}, & \lambda \neq 0 \\ \log x, & \lambda = 0 \end{cases}$. Applied to positive data, $\lambda$ is estimated (e.g., $\lambda \approx 0$ for electricity data, Exhibit 5.11).
+
+## Examples
+
+### ARIMA(1,1,1)
+
+To create an ARIMA(1,1,1) model as described in [ARIMA Models](#ARIMA%20Models), we set $p=1$, $d=1$, $q=1$. Below is the step-by-step derivation:
+
+1. **Identify parameters**:
+   - $p=1$: One autoregressive term.
+   - $d=1$: One differencing.
+   - $q=1$: One moving average term.
+
+2. **Substitute into the general formula**:
+   $$
+   \phi_1(B)(1-B)^1 Y_t = \theta_0 + \theta_1(B) \varepsilon_t
+   $$
+   Plugging in the operators:
+   $$
+   (1 - \phi_1 B)(1-B) Y_t = \theta_0 + (1 + \theta_1 B) \varepsilon_t
+   $$
+
+3. **Expand the left-hand side**:
+   Compute $(1 - \phi_1 B)(1-B)$:
+   $$
+   (1 - \phi_1 B)(1-B) = 1 - B - \phi_1 B + \phi_1 B^2 = 1 - (1 + \phi_1) B + \phi_1 B^2
+   $$
+   So the left-hand side becomes:
+   $$
+   [1 - (1 + \phi_1) B + \phi_1 B^2] Y_t
+   $$
+
+4. **Write the full equation**:
+   $$
+   [1 - (1 + \phi_1) B + \phi_1 B^2] Y_t = \theta_0 + (1 + \theta_1 B) \varepsilon_t
+   $$
+
+5. **Apply the backshift operator**:
+   - $B Y_t = Y_{t-1}$, $B^2 Y_t = Y_{t-2}$.
+   - Left-hand side: $Y_t - (1 + \phi_1) Y_{t-1} + \phi_1 Y_{t-2}$.
+   - Right-hand side: $\theta_0 + \varepsilon_t + \theta_1 \varepsilon_{t-1}$.
+
+7. **Final ARIMA(1,1,1) model**:
+   $$
+   Y_t - (1 + \phi_1) Y_{t-1} + \phi_1 Y_{t-2} = \theta_0 + \varepsilon_t + \theta_1 \varepsilon_{t-1}
+   $$
