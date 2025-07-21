@@ -137,8 +137,10 @@ function renderTranscludes(
             return
           }
 
+          const isEmbed = classNames.includes("embed")
+          const sliceStart = isEmbed ? startIdx + 1 : startIdx
           node.children = [
-            ...(page.htmlAst.children.slice(startIdx, endIdx) as ElementContent[]).map((child) =>
+            ...(page.htmlAst.children.slice(sliceStart, endIdx) as ElementContent[]).map((child) =>
               normalizeHastElement(child as Element, slug, transcludeTarget),
             ),
             {
@@ -152,22 +154,27 @@ function renderTranscludes(
           ]
         } else if (page.htmlAst) {
           // page transclude
+          const isEmbed = classNames.includes("embed")
           node.children = [
-            {
-              type: "element",
-              tagName: "h1",
-              properties: {},
-              children: [
-                {
-                  type: "text",
-                  value:
-                    page.frontmatter?.title ??
-                    i18n(cfg.locale).components.transcludes.transcludeOf({
-                      targetSlug: page.slug!,
-                    }),
-                },
-              ],
-            },
+            ...(isEmbed
+              ? []
+              : [
+                  {
+                    type: "element",
+                    tagName: "h1",
+                    properties: {},
+                    children: [
+                      {
+                        type: "text",
+                        value:
+                          page.frontmatter?.title ??
+                          i18n(cfg.locale).components.transcludes.transcludeOf({
+                            targetSlug: page.slug!,
+                          }),
+                      },
+                    ],
+                  },
+                ]),
             ...(page.htmlAst.children as ElementContent[]).map((child) =>
               normalizeHastElement(child as Element, slug, transcludeTarget),
             ),
