@@ -1,0 +1,26 @@
+---
+{"publish":true,"tags":["type/index"],"cssclasses":""}
+---
+
+
+
+
+
+## Notes
+
+- [[3 Reference/Correspondence Analysis\|Correspondence Analysis]]
+- [[3 Reference/MANOVA\|MANOVA]]
+- [[3 Reference/Multivariate Regression\|Multivariate Regression]]
+- [[3 Reference/Principal Component Analysis\|Principal Component Analysis]]
+- [[3 Reference/Prior Probability\|Prior Probability]]
+
+
+## Subindexes
+
+- [[3 Reference/1 Structure/discriminant analysis\|discriminant analysis]]
+- [[3 Reference/1 Structure/factor analysis\|factor analysis]]
+
+
+## Archived
+
+

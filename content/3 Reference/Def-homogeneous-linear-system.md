@@ -1,0 +1,20 @@
+---
+{"publish":true,"aliases":"Definition of Homogeneous Linear System Homogeneous Linear System","cssclasses":""}
+---
+
+
+## Definition
+**Homogeneous linear system** is defined as a linear system with $b_{i}=0$, for all $i=1,\dots,n$.
+
+It is written as 
+$$ \begin{matrix}
+a_{11}x_{1} & + & a_{12}x_{2} & + & \dots & + &  a_{1n}x_{n} & = & 0 \\
+a_{21}x_{1} & + & a_{22}x_{2} & + & \dots & + &  a_{2n}x_{n} & = & 0 \\
+\vdots & & \vdots & &&  & \vdots &  & \vdots \\
+a_{m1}x_{1} & + & a_{m2}x_{2} & + & \dots & + &  a_{mn}x_{n} & = & 0 \\
+\end{matrix} $$
+
+## Related theorems
+- [[3 Reference/1.2 Gaussian Elimination#Theorem Solution of homogeneous linear system]]
+- [[3 Reference/1.2 Gaussian Elimination#Theorem 1.2.1 Free variable for homogeneous system]]
+- [[3 Reference/1.2 Gaussian Elimination#Theorem 1.2.2]]

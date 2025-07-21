@@ -1,0 +1,25 @@
+---
+{"publish":true,"aliases":"Rao-Cramer Lower Bound","cssclasses":""}
+---
+
+
+## Definition
+
+Let
+- $X_{1},\dots,X_{n}$: [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|Random sample]], with
+	- [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta),\theta\in \Omega$
+- $Y=u(X_{1},X_{2},\dots,X_{n})$ : [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]], with
+	- [[3 Reference/Def-mean\|Mean]] $E(Y)=E[u(X_{1},X_{2},\dots,X_{n})] = k(\theta)$
+- $I(\theta)$ : [[3 Reference/fisher-information_202507170919\|Fisher information]]
+
+Assume [[3 Reference/mathstat6.1#Assumptions 6.1.1 Regularity conditions\|regularity conditions]] and [[3 Reference/rao-cramer-lower-bound_202507171109#Assumptions 6.2.1 Additional regularity conditions 1\|additional regularity conditions 1]] hold.
+
+Then
+$$ \operatorname{Var}(Y)\geq \boxed{\frac{[k'(\theta)]^2}{nI(\theta)}} $$
+- We say $[k'(\theta)]^2/nI(\theta)$ is the **Rao-Cramer lower bound** of $Y$
+
+## Remark
+
+The Rao-Cramér lower bound provides a theoretical minimum variance for unbiased estimators when regularity conditions hold. 
+
+If the bound cannot be computed or doesn't seem to apply, then **one or more regularity conditions may have been violated**.

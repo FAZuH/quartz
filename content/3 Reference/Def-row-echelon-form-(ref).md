@@ -1,0 +1,31 @@
+---
+{"publish":true,"aliases":"Definition of Row Echelon Form (REF) Row Echelon Form (REF)","cssclasses":""}
+---
+
+
+## Definition
+
+**Row echelon form** is defined as the [[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Augmented matrix\|augmented matrix]] of a [[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Linear system\|linear system]] with the following properties:
+1. If a row does not consist entirely of zeros, then the first nonzero number in the row is a 1. We call this a **leading 1.** ^def-leading1
+2. If there are any rows that consist entirely of zeros, then they are grouped together at the bottom of the matrix. 
+3. In any two successive rows that do not consist entirely of zeros, the leading 1 in the lower row occurs farther to the right than the leading 1 in the higher row. 
+
+## Remark
+
+For example, 
+$$
+\begin{bmatrix}
+1 & 0 &  3 & -1 \\
+0 & 1 & -4 & 2
+\end{bmatrix}
+$$
+
+The above augmented matrix correspond to the linear system 
+$$
+\begin{matrix}
+x &  & +\ 3z & = & -1 \\
+ & y & -\ 4z & = & 2
+\end{matrix}
+$$
+
+Since $x$ and $y$ correspond to the leading 1's in the augmented matrix, we call them **leading variables**. The remaining variables (in this case $z$) are called **free variables**. ^def-leading-free-variable
