@@ -1,8 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import breadcrumbsStyle from "./styles/breadcrumbs.scss"
-import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
+import { FullSlug, SimpleSlug, resolveRelative, pathToRoot } from "../util/path"
 import { classNames } from "../util/lang"
-import { trieFromAllFiles } from "../util/ctx"
 
 type CrumbData = {
   displayName: string
@@ -35,45 +34,82 @@ const defaultOptions: BreadcrumbOptions = {
   showCurrentPage: true,
 }
 
-function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
-  return {
-    displayName: displayName.replaceAll("-", " "),
-    path: resolveRelative(baseSlug, currentSlug),
-  }
-}
-
 export default ((opts?: Partial<BreadcrumbOptions>) => {
   const options: BreadcrumbOptions = { ...defaultOptions, ...opts }
   const Breadcrumbs: QuartzComponent = ({
     fileData,
     allFiles,
     displayClass,
-    ctx,
   }: QuartzComponentProps) => {
-    const trie = (ctx.trie ??= trieFromAllFiles(allFiles))
-    const slugParts = fileData.slug!.split("/")
-    const pathNodes = trie.ancestryChain(slugParts)
-
-    if (!pathNodes) {
-      return null
+    const slug = fileData.slug!
+    const ancestry: (typeof fileData)[] = []
+    let parentSlug: string | undefined
+    const parentFrontmatter = fileData.frontmatter?.parent
+    if (typeof parentFrontmatter === 'string') {
+      const match = parentFrontmatter.match(/\[\[(.*?)\]\]/)
+      parentSlug = match && match[1] ? match[1] : parentFrontmatter
+    } else if (Array.isArray(parentFrontmatter) && parentFrontmatter.length > 0) {
+      const parentLink = parentFrontmatter[0]
+      const match = parentLink.match(/\[\[(.*?)\]\]/)
+      parentSlug = match && match[1] ? match[1] : parentLink
+    }
+    while (parentSlug) {
+      const parentFile = allFiles.find((f) =>
+        f.slug === resolveRelative(slug, parentSlug) ||
+        f.frontmatter?.title === parentSlug ||
+        (f.frontmatter?.aliases && Array.isArray(f.frontmatter.aliases) && f.frontmatter.aliases.includes(parentSlug as string))
+      )
+      if (parentFile) {
+        ancestry.unshift(parentFile)
+        const nextParentFrontmatter = parentFile.frontmatter?.parent
+        if (typeof nextParentFrontmatter === 'string') {
+          const match = nextParentFrontmatter.match(/\[\[(.*?)\]\]/)
+          parentSlug = match && match[1] ? match[1] : nextParentFrontmatter
+        } else if (Array.isArray(nextParentFrontmatter) && nextParentFrontmatter.length > 0) {
+          const parentLink = nextParentFrontmatter[0]
+          const match = parentLink.match(/\[\[(.*?)\]\]/)
+          parentSlug = match && match[1] ? match[1] : parentLink
+        } else {
+          parentSlug = undefined
+        }
+      } else {
+        parentSlug = undefined
+      }
     }
 
-    const crumbs: CrumbData[] = pathNodes.map((node, idx) => {
-      const crumb = formatCrumb(node.displayName, fileData.slug!, simplifySlug(node.slug))
-      if (idx === 0) {
-        crumb.displayName = options.rootName
+    const crumbs: CrumbData[] = [
+      {
+        displayName: options.rootName,
+        path: pathToRoot(slug),
+      },
+    ]
+
+    const allCrumbData = [...ancestry]
+    if (options.showCurrentPage) {
+      allCrumbData.push(fileData)
+    }
+
+    for (const [i, page] of allCrumbData.entries()) {
+      const aliases = page.frontmatter?.aliases
+      const alias = page.frontmatter?.alias
+      let displayTitle = page.frontmatter?.title ?? page.slug!.split("/").pop()!
+
+      if (aliases && Array.isArray(aliases) && aliases.length > 0) {
+        displayTitle = aliases[0]
+      } else if (alias && typeof alias === 'string') {
+        displayTitle = alias
       }
 
-      // For last node (current page), set empty path
-      if (idx === pathNodes.length - 1) {
-        crumb.path = ""
+      if (displayTitle.endsWith('.md')) {
+        displayTitle = displayTitle.slice(0, -3)
       }
 
-      return crumb
-    })
-
-    if (!options.showCurrentPage) {
-      crumbs.pop()
+      const isCurrentPage = i === allCrumbData.length - 1
+      const crumb = {
+        displayName: displayTitle,
+        path: isCurrentPage && options.showCurrentPage ? "" : resolveRelative(slug, page.slug as SimpleSlug),
+      }
+      crumbs.push(crumb)
     }
 
     return (
