@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Fisher Information","Fisher Information"],"created":"2025-07-24T11:50:56.406+07:00","modified":"2025-07-24T11:50:56.407+07:00","published":"2025-07-24T11:50:56.407+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Definition of Fisher Information","Fisher Information"],"created":"2025-07-24T11:50:56.406+07:00","modified":"2025-08-05T12:27:54.627+07:00","published":"2025-08-05T12:27:54.627+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 
@@ -9,7 +9,7 @@ Let
 
 - $X$ : [[3 Reference/Def-random-variable\|Random variable]], with
     - [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta)$, for $\theta \in \Omega$
-- $S(X;\theta)$ : [[3 Reference/def-fisher-information_202507170919#Definition Score function\|Score function]]
+- $S(X;\theta)$ : [[3 Reference/def-score-function_202507170918\|Score Function]]
 
 Then the **Fisher information** is defined as: 
 $$

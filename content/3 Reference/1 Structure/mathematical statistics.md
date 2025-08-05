@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.355+07:00","modified":"2025-07-29T13:23:38.744+07:00","published":"2025-07-29T13:23:38.744+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-07-24T11:50:56.355+07:00","modified":"2025-08-05T22:29:55.749+07:00","published":"2025-08-05T22:29:55.749+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
 ---
 
 - *italic*: Definition
@@ -94,7 +94,13 @@ If you're looking for a summary, you may be interested in [[3 Reference/1 Struct
 - [[3 Reference/mathstat4.4\|4.4 Order Statistics]]
 	- *[[3 Reference/Def-order-statistics\|Order Statistics]]*
 - [[3 Reference/4.5-introduction-to-hypothesis-testing_202507291322\|4.5 Introduction to Hypothesis Testing]]
-	- *[[3 Reference/def-size-of-critical-region_202507291323\|Size of Critical Region]]*	
+	- *[[3 Reference/def-hypothesis_202508050806\|Hypothesis]]*
+	- *[[3 Reference/def-test_202508050827\|Test]]*
+	- *[[3 Reference/def-test-error-types_202508050828\|Test Error Types]]*
+	- *[[3 Reference/def-size-of-critical-region_202507291323\|Size of Critical Region]]*
+	- *[[3 Reference/def-power-of-a-test_202508050833\|Power of a Test]]*
+	- *[[3 Reference/def-power-function_202508050833\|Power Function]]*
+	- *[[3 Reference/def-types-of-statistical-hypotheses_202508051003\|Types of Statistical Hypotheses]]*
 
 **Chapter 5: Concistency and limiting distributions**
 - [[3 Reference/mathstat5.1\|5.1 Convergence in Probability]]
@@ -123,6 +129,7 @@ If you're looking for a summary, you may be interested in [[3 Reference/1 Struct
 	- *[[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|Minimum Variance Unbiased Estimator (MVUE)]]*
 - [[3 Reference/mathstat7.2\|7.2 A Sufficient Statistic for a Parameter]]
 	- *[[3 Reference/def-sufficient-statistic_202507170925\|Sufficient Statistic]]*
+	- **[[3 Reference/theorem-neyman-theorem_202508052229\|Neyman Theorem]]**
 - [[3 Reference/mathstat7.3\|7.3 Properties of a Sufficient Statistic]]
 - [[3 Reference/mathstat7.4\|7.4 Completeness and Uniqueness]]
 	- *[[3 Reference/def-complete-family-of-pdf-pmf_202507170933\|Complete Family of pdf/pmf]]*
@@ -134,6 +141,14 @@ If you're looking for a summary, you may be interested in [[3 Reference/1 Struct
 - [[3 Reference/7.7-the-case-of-several-parameters_202507171019\|7.7 The Case of Several Parameters]]
 	- *[[3 Reference/def-jointly-sufficient-statistic_202507171021\|Jointly Sufficient Statistic]]*
 	- *[[3 Reference/def-regular-exponential-class-on-random-vectors_202507171021\|Regular Exponential Class on Random Vectors]]*
+
+**Chapter 8: Optimal Tests of Hypotheses**
+- [[3 Reference/8.1-most-powerful-tests_202508050958\|8.1 Most Powerful Tests]]
+	- *[[3 Reference/def-best-critical-region_202508052110\|Best Critical Region]]*
+	- **[[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]]**
+- [[3 Reference/8.2-uniformly-most-powerful-test_202508052115\|8.2 Uniformly Most Powerful Test]]
+	- *[[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|Uniformly Most Powerful Critical Region]]*
+	- *[[3 Reference/def-uniformly-most-powerful-test_202508052119\|Uniformly Most Powerful Test]]*
 
 ## Definition hierarchy
 - [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]]

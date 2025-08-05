@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Sufficient Statistic","Sufficient Statistic"],"created":"2025-07-24T11:50:56.312+07:00","modified":"2025-07-24T11:50:56.313+07:00","published":"2025-07-24T11:50:56.313+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Definition of Sufficient Statistic","Sufficient Statistic"],"created":"2025-07-24T11:50:56.312+07:00","modified":"2025-08-05T22:30:31.773+07:00","published":"2025-08-05T22:30:31.773+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 
@@ -24,3 +24,7 @@ Also, a sufficient statistic **does not require the random variables to be indep
 
 ## Subdefinition
 - [[3 Reference/def-complete-sufficient-statistic_202507170931\|Complete Sufficient Statistic]]
+- [[3 Reference/def-jointly-sufficient-statistic_202507171021\|Jointly Sufficient Statistic]]
+
+## Related theorems
+- [[3 Reference/theorem-neyman-theorem_202508052229\|Neyman Theorem]]

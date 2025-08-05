@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Probability Mass Function (pmf)","Probability Mass Function (pmf)"],"created":"2025-07-24T11:50:56.409+07:00","modified":"2025-07-24T11:50:56.410+07:00","published":"2025-07-24T11:50:56.410+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Definition of Probability Mass Function (pmf)","Probability Mass Function (pmf)","pmf"],"created":"2025-07-24T11:50:56.409+07:00","modified":"2025-08-05T21:33:28.314+07:00","published":"2025-08-05T21:33:28.314+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

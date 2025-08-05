@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-07-24T11:50:57.480+07:00","modified":"2025-07-24T11:52:31.684+07:00","published":"2025-07-24T11:52:31.684+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[statistika matematika 2]]"]}
+{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-07-24T11:50:57.480+07:00","modified":"2025-08-05T12:07:16.782+07:00","published":"2025-08-05T12:07:16.782+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[statistika matematika 2]]"]}
 ---
 
 
@@ -138,7 +138,29 @@ $$
 **7_8.2**
 - [[3 Reference/mathstat6.2#Theorem 6.2.1 Rao-Cramér lower bound\|Rao-Cramer Lower Bound]]: $\operatorname{Var}(Y)\geq \boxed{\frac{[k'(\theta)]^2}{nI(\theta)}}$
 - [[3 Reference/mathstat6.2#Corollary 6.2.1 Rao-Cramér bound for unbiased estimators\|Rao-Cramer Lower Bound for Unbiased Estimators]]
-- [[3 Reference/def-efficient-estimator_202507170919\|Efficient Estimator]]: $Y$ unbiased, $nI(\theta)\cdot \operatorname{Var}(Y)=1$
+	- [[3 Reference/mathstat6.2#^def-efficiency\|def-efficiency]]
+- [[3 Reference/def-efficient-estimator_202507170919\|Efficient Estimator]] 
+	- $Y$ unbiased 
+	- $nI(\theta)\cdot \operatorname{Var}(Y)=1$
+
+**8_6.2**
+- [[3 Reference/4.2-confidence-intervals_202507220822\|4.2 Confidence Intervals]]
+
+**8_6.3**
+- [[3 Reference/4.2.1-confidence-intervals-for-difference-in-means_202507220835\|4.2.1 Confidence Intervals for Difference in Means]]
+- [[3 Reference/4.2.2-confidence-interval-for-difference-in-proportion_202507220849\|4.2.2 Confidence Interval for Difference in Proportion]]
+
+**9_6.4**
+- [[3 Reference/4.5-introduction-to-hypothesis-testing_202507291322\|4.5 Introduction to Hypothesis Testing]]
+
+**11_9.1**
+- [[3 Reference/8.1-most-powerful-tests_202508050958\|8.1 Most Powerful Tests]]
+
+**12_9.2**
+
+
+**14_9.3**
+
 
 ### Also,
 - [[3 Reference/Discrete Distributions]]
