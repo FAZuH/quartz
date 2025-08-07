@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Neyman-Pearson Theorem"],"created":"2025-08-05T21:32:34.925+07:00","modified":"2025-08-05T21:43:23.025+07:00","published":"2025-08-05T21:43:23.025+07:00","cssclasses":"","creation-time":"2025-08-05 21:32","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Neyman-Pearson Theorem"],"created":"2025-08-05T21:32:34.925+07:00","modified":"2025-08-07T16:02:24.493+07:00","published":"2025-08-07T16:02:24.493+07:00","cssclasses":"","creation-time":"2025-08-05 21:32","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 ## Theorem
@@ -19,3 +19,15 @@ Let
 
 Then $C$ is a [[3 Reference/def-best-critical-region_202508052110\|best critical region]] of [[3 Reference/def-size-of-critical-region_202507291323\|size]] $\alpha$ for testing the [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|simple hypothesis]] $H_{0}: \theta=\theta'$ against the [[3 Reference/def-hypothesis_202508050806\|alternative simple hypothesis]] $H_{1}: \theta=\theta''$
 
+## Corollary
+
+As in [[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]],
+
+Let 
+- $C$ : [[3 Reference/def-test_202508050827\|Critical region]] of the [[3 Reference/def-best-critical-region_202508052110\|best test]] of $H_{0}: \theta=\theta'$ versus $H_{1}: \theta = \theta''$
+- $\alpha$ : [[3 Reference/def-size-of-critical-region_202507291323\|Significance level]] of the test
+- $\gamma_{C}(\theta'') = P_{\theta''}[\mathbf{X}\in C]$ : [[3 Reference/def-power-function_202508050833\|Power function]] of the test
+
+Then
+- $$ \alpha \leq \gamma_{C}(\theta'') $$
+- The best test is an [[3 Reference/def-unbiased-test_202508071550\|unbiased test]]

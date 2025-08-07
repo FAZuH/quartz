@@ -1,11 +1,11 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.355+07:00","modified":"2025-08-05T22:29:55.749+07:00","published":"2025-08-05T22:29:55.749+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-07-24T11:50:56.355+07:00","modified":"2025-08-07T16:04:43.457+07:00","published":"2025-08-07T16:04:43.457+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
 ---
 
 - *italic*: Definition
 - **Bold**: Theorem/Corollary
 
-If you're looking for a summary, you may be interested in [[3 Reference/1 Structure/mathematical statistics#Cheatsheets]] or [[2 Personal/internal-links-for-weekly-material_202507170955\|Materi Statmat 2]]
+If you're looking for a summaries, you may be interested in [[3 Reference/1 Structure/mathematical statistics#Cheatsheets]] or [[2 Personal/internal-links-for-weekly-material_202507170955\|Materi Statmat 2]]
 
 ## Content by Hogg & Craig, 8th ed
 **Chapter 1: Probability and distributions**
@@ -146,9 +146,11 @@ If you're looking for a summary, you may be interested in [[3 Reference/1 Struct
 - [[3 Reference/8.1-most-powerful-tests_202508050958\|8.1 Most Powerful Tests]]
 	- *[[3 Reference/def-best-critical-region_202508052110\|Best Critical Region]]*
 	- **[[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]]**
+	- *[[3 Reference/def-unbiased-test_202508071550\|Unbiased Test]]*
 - [[3 Reference/8.2-uniformly-most-powerful-test_202508052115\|8.2 Uniformly Most Powerful Test]]
 	- *[[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|Uniformly Most Powerful Critical Region]]*
 	- *[[3 Reference/def-uniformly-most-powerful-test_202508052119\|Uniformly Most Powerful Test]]*
+	- *[[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]]*	
 
 ## Definition hierarchy
 - [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]]
@@ -193,9 +195,9 @@ If you're looking for a summary, you may be interested in [[3 Reference/1 Struct
     - [[3 Reference/def-efficient-estimator_202507170919\|Efficient estimator]] (already under estimator)
 
 ## Cheatsheets
-- [[3 Reference/common-expectation-and-variance-operations_202507220854\|Common Expectation and Variance Operations]]
 - [Continuous Distributions](Continuous%20Distributions)
 - [Discrete Distributions](Discrete%20Distributions)
+- [[3 Reference/common-expectation-and-variance-operations_202507220854\|Common Expectation and Variance Operations]]
 - [[3 Reference/common-distribution-equations_202507221712\|Common Distribution Equations]]
 - [[3 Reference/common-confidence-intervals_202507241355\|Common Confidence Intervals]]
 
