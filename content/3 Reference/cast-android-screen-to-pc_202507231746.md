@@ -6,4 +6,4 @@
 
 Customable: Can cast camera only, audio only, adjust bitrate, limit fps, connect wirelessly, etc.
 
-![[Assets/Pasted image 20250723174810.png]]
+![[assets/Pasted image 20250723174810.png]]

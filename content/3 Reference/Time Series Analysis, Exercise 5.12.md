@@ -3,7 +3,7 @@
 ---
 
 
-![[Assets/Pasted image 20250327221623.png]]
+![[assets/Pasted image 20250327221623.png]]
 
 ---
 
@@ -20,7 +20,7 @@ plot(SP, type="l", xlab="Time (Q1 1936 - Q4 1977)", ylab="S&P Index", main="S&P 
 
 Output:
 
-![[Assets/Pasted image 20250327221758.png]]
+![[assets/Pasted image 20250327221758.png]]
 
 Interpretasi:
 - Trend naik (perkembangan ekonomi).
@@ -38,7 +38,7 @@ plot(log_SP, type="l", xlab="Time", ylab="Log(S&P Index)", main="Log S&P Index")
 
 Output:
 
-![[Assets/Pasted image 20250327222047.png]]
+![[assets/Pasted image 20250327222047.png]]
 
 Efeknya adalah trend menjadi lebih linear dan variansi menjadi lebih stabil.
 
@@ -60,7 +60,7 @@ cat("Large changes (mean):", mean(rel_change[large_idx] - log_diff[large_idx]), 
 
 Output:
 
-![[Assets/Pasted image 20250327222301.png]]
+![[assets/Pasted image 20250327222301.png]]
 
 Untuk data dengan nilai yang kecil, perbedaan juga untuk kecil.
 

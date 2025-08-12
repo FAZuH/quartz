@@ -1,15 +1,13 @@
 ---
-{"publish":true,"aliases":["Rao-Cramer Lower Bound"],"created":"2025-07-24T11:50:56.235+07:00","modified":"2025-07-24T11:50:56.235+07:00","published":"2025-07-24T11:50:56.235+07:00","cssclasses":"","creation-time":"2025-07-17 11:09","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Rao-Cramer Lower Bound"],"created":"2025-07-24T11:50:56.235+07:00","modified":"2025-08-08T07:19:55.906+07:00","published":"2025-08-08T07:19:55.906+07:00","cssclasses":"","creation-time":"2025-07-17 11:09","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 
 ## Definition
 
 Let
-- $X_{1},\dots,X_{n}$: [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|Random sample]], with
-	- [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta),\theta\in \Omega$
-- $Y=u(X_{1},X_{2},\dots,X_{n})$ : [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]], with
-	- [[3 Reference/Def-mean\|Mean]] $E(Y)=E[u(X_{1},X_{2},\dots,X_{n})] = k(\theta)$
+- $X_{1},\dots,X_{n}$: [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|Random sample]], with [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta),\theta\in \Omega$
+- $Y=u(X_{1},X_{2},\dots,X_{n})$ : [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]], with [[3 Reference/Def-mean\|Mean]] $E(Y)= k(\theta)$
 - $I(\theta)$ : [[3 Reference/def-fisher-information_202507170919\|Fisher information]]
 
 Assume [[3 Reference/mathstat6.1#Assumptions 6.1.1 Regularity conditions\|regularity conditions]] and [[3 Reference/def-rao-cramer-lower-bound_202507171109#Assumptions 6.2.1 Additional regularity conditions 1\|additional regularity conditions 1]] hold.

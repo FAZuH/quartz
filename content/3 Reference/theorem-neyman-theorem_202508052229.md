@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Neyman Theorem"],"created":"2025-08-05T22:29:14.964+07:00","modified":"2025-08-05T22:49:13.059+07:00","published":"2025-08-05T22:49:13.059+07:00","cssclasses":"","creation-time":"2025-08-05 22:29","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Neyman Theorem"],"created":"2025-08-05T22:29:14.964+07:00","modified":"2025-08-08T01:11:30.333+07:00","published":"2025-08-08T01:11:30.333+07:00","cssclasses":"","creation-time":"2025-08-05 22:29","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 
@@ -12,5 +12,5 @@ Let
 Then $Y_{1}$ is a [[3 Reference/def-sufficient-statistic_202507170925\|Sufficient statistic]] for $\theta$ 
 
 If and only if 
-- $\exists k_{1},k_{2} \ni \prod_{i=1}^n = k_{1}[u_{1}(\mathbf{x});\theta]k_{2}(\mathbf{x})$
+- $$\exists k_{1},k_{2} \ni \prod_{i=1}^n f(x_{i};\theta) = k_{1}[u_{1}(\mathbf{x});\theta]k_{2}(\mathbf{x})$$
 - $k_{2}(\mathbf{x})$ is independent of $\theta$

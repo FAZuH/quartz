@@ -3,11 +3,11 @@
 ---
 
 
-![[Assets/Pasted image 20250227234017.png]]
+![[assets/Pasted image 20250227234017.png]]
 
 **Graph** is a [non-linear data structure](https://www.geeksforgeeks.org/introduction-to-hierarchical-data-structure) consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( **$V$** ) and a set of edges( **$E$** ).
 
-![[Assets/Pasted image 20250227234037.png|600]]
+![[assets/Pasted image 20250227234037.png|600]]
 
 ## Definitions
 
@@ -21,7 +21,7 @@
 
 Graph can be represented using an **adjacency matrix**, by forming a $V\times V$ matrix, and assigning each entry as the edge of $i-$th and $j-$th vertex.
 
-![[Assets/Pasted image 20250227234134.png]]
+![[assets/Pasted image 20250227234134.png]]
 
 ### Properties
 
@@ -32,7 +32,7 @@ Graph can be represented using an **adjacency matrix**, by forming a $V\times V$
 
 Represent graph with a collection of linked lists, where the first element in each list correspond to a vertex in the graph, and the following elements correspond to the neighboring vertex.
 
-![[Assets/Pasted image 20250227234147.png]]
+![[assets/Pasted image 20250227234147.png]]
 
 ### Properties
 
@@ -41,7 +41,7 @@ Represent graph with a collection of linked lists, where the first element in ea
 
 ## Code
 
-![[Assets/Pasted image 20250227234156.png]]
+![[assets/Pasted image 20250227234156.png]]
 
 ```python
 @dataclass(frozen=True, repr=False)

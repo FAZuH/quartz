@@ -38,4 +38,4 @@ So, based on the data, the MLE estimate suggests that the probability of a bulb 
 
 ## Exercise
 
-![image](Assets/image 11.png)
+![image](assets/image 11.png)

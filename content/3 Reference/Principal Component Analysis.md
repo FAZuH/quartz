@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.296+07:00","modified":"2025-07-24T11:50:56.297+07:00","published":"2025-07-24T11:50:56.297+07:00","cssclasses":"","creation-time":"2025-02-20 16:07","status":"elder","tags":null,"parent":["[[multivariate analysis]]"]}
+{"publish":true,"created":"2025-07-24T11:50:56.296+07:00","modified":"2025-08-11T17:32:13.269+07:00","published":"2025-08-11T17:32:13.269+07:00","cssclasses":"","creation-time":"2025-02-20 16:07","status":"elder","tags":null,"parent":["[[multivariate analysis]]"]}
 ---
 
 
@@ -204,8 +204,8 @@ Notice from the 2d graph that there are blue dots that by K-Means clustering sho
 
 Since the clustering was done in 4 dimensions, the cause of the mismatched are due to the information lost in the reduction of dimensions.
 
-![[Assets/kmeans_4d_pca_3d.png|500]]
-![[Assets/kmeans_4d_pca_2d.png|500]]
+![[assets/kmeans_4d_pca_3d.png|500]]
+![[assets/kmeans_4d_pca_2d.png|500]]
 
 ```python title=Code
 clusters = 3

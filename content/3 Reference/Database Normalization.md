@@ -47,7 +47,7 @@ If not 3NF: Vulnerable to **update anomaly**
 	
 	Update anomaly occurs when $\textcolor{yellow}{\text{Player\_Skill\_Level}}$ is updated, yet for some reason $\textcolor{lime}{\text{Player\_Rating}}$ is not updated, causing inconsistensy.
 
-	![[Assets/Pasted image 20250326164032.png|300]]
+	![[assets/Pasted image 20250326164032.png|300]]
 
 - ✅
   $\text{Player\_ID}\to\textcolor{yellow}{\text{Player\_Skill\_Level}}$

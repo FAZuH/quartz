@@ -82,7 +82,7 @@ Syntax
 Where:
 - `M`: Number of bits stored. Ranges 1-64. Default 1.
 
-To specify bit values in [[3 Reference/1 Structure/sql]], use  `b'value'`, where the value is binary in zeros and ones, e.g., `b'111'`.
+To specify bit values in [[3 Reference/structure/sql]], use  `b'value'`, where the value is binary in zeros and ones, e.g., `b'111'`.
 
 ## AUTO_INCREMENT attribute
 

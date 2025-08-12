@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.450+07:00","modified":"2025-07-24T11:50:56.451+07:00","published":"2025-07-24T11:50:56.451+07:00","cssclasses":"","creation-time":"2025-03-21 07:05","status":"adult","tags":[],"parent":["[[3 Reference/1 Structure/discriminant analysis]]"]}
+{"publish":true,"created":"2025-07-24T11:50:56.450+07:00","modified":"2025-07-24T11:50:56.451+07:00","published":"2025-07-24T11:50:56.451+07:00","cssclasses":"","creation-time":"2025-03-21 07:05","status":"adult","tags":[],"parent":["[[3 Reference/structure/discriminant analysis]]"]}
 ---
 
 
@@ -52,7 +52,7 @@ Unlike [[discriminant analysis]], it focuses on allocation, not just separation.
 	\end{align}$$
 
 Classification table example:
-![[Assets/Pasted image 20250321083842.png|300]] ^d9b524
+![[assets/Pasted image 20250321083842.png|300]] ^d9b524
 
 ## Python example
 

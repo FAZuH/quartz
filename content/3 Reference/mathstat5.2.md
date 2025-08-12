@@ -20,7 +20,7 @@
 > $$X_{n}\xrightarrow{D}b \iff X_{n}\xrightarrow{P}b$$
 
 > [!note]
-> Although in ![[3 Reference/1 Structure/mathematical statistics#^reference-mathematicalstatistics-1]] it is said stated that $X_{n}\xrightarrow{D}b \implies X_{n}\xrightarrow{P}b$, the converse is actually true. So we use $\iff$ instead.
+> Although in ![[3 Reference/structure/mathematical statistics#^reference-mathematicalstatistics-1]] it is said stated that $X_{n}\xrightarrow{D}b \implies X_{n}\xrightarrow{P}b$, the converse is actually true. So we use $\iff$ instead.
 
 ## Theorem 5.2.3
 > Suppose
@@ -365,12 +365,12 @@ $$
 Misalkan $X$ variabel acak dengan berdistribusi $N(0,1)$. Artinya, $M_{X}(t)=e^{t^2/2}$. Berdasarkan [[3 Reference/mathstat5.2#Theorem 5.2.10 MGF technique\|teorema 5.2.10]], karena $\lim_{ n \to \infty }M_{Y_{n}}(t)=M_{X}(t)$, maka $Y_{n}\xrightarrow D X$, sehingga $Y_{n}\xrightarrow D N(0,1)$. Terbukti bahwa limiting distribution dari $Y_{n}$ adalah distribusi normal dengan mean $0$ dan variansi $1$.
 
 ### Example 1
-![[Assets/Pasted image 20250702162934.png]]
-![[Assets/Pasted image 20250702162947.png]]
+![[assets/Pasted image 20250702162934.png]]
+![[assets/Pasted image 20250702162947.png]]
 
 ### Example 2
 
-![[Assets/Pasted image 20250702162907.png]]
+![[assets/Pasted image 20250702162907.png]]
 
 [^1]: Taken from Theorem 1 in Section 5.2: Convergence in Probability of Hogg & Craig 5th ed.
 

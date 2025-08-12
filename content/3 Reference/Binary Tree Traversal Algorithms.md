@@ -3,7 +3,7 @@
 ---
 
 
-![[Assets/Pasted image 20250227233237.png|600]]
+![[assets/Pasted image 20250227233237.png|600]]
 
 ## Depth-first search
 

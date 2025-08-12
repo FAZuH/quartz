@@ -19,4 +19,4 @@ As of 2025-07-23
 
 For reference here's performance after hosting email, web (+ portainer agent, nginx node, wazuh agent, tailscale)
 
-![[Assets/Pasted image 20250723182241.png]]
+![[assets/Pasted image 20250723182241.png]]

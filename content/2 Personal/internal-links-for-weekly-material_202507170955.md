@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-07-24T11:50:57.480+07:00","modified":"2025-08-05T12:07:16.782+07:00","published":"2025-08-05T12:07:16.782+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[statistika matematika 2]]"]}
+{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-07-24T11:50:57.480+07:00","modified":"2025-08-08T04:53:53.033+07:00","published":"2025-08-08T04:53:53.033+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[statistika matematika 2]]"]}
 ---
 
 
@@ -120,7 +120,7 @@ $$
 	2. [[3 Reference/def-space_202507171031\|Space]] $\Omega$ contains a nonempty, $m$-dimensional open rectangle
 	3. $p_{j}(\boldsymbol{\theta})$ are all nontrivial, functionally independent, continuous functions of $\boldsymbol{\theta}$
 	4. If $X$ [[3 Reference/Def-continuous-random-variable\|continuous random variable]], then
-		1. $K'_{j}(x)$ are all [[3 Reference/1 Structure/continuous functions\|continuous]] for $a<x<b$, not [[3 Reference/Def-homogeneous-linear-equation\|homogeneous linear function]] of the others.
+		1. $K'_{j}(x)$ are all [[3 Reference/structure/continuous functions\|continuous]] for $a<x<b$, not [[3 Reference/Def-homogeneous-linear-equation\|homogeneous linear function]] of the others.
 		2. $H(x)$ : Continuous function of $x\in \mathcal{S}$
 	5. If $X$ [[3 Reference/Def-discrete-random-variable\|discrete random variable]], then
 		1. $K'_{j}(x)$ are all nontrivial functions of $x\in \mathcal{S}$, not homogeneous linear function of the others
@@ -151,13 +151,29 @@ $$
 - [[3 Reference/4.2.2-confidence-interval-for-difference-in-proportion_202507220849\|4.2.2 Confidence Interval for Difference in Proportion]]
 
 **9_6.4**
-- [[3 Reference/4.5-introduction-to-hypothesis-testing_202507291322\|4.5 Introduction to Hypothesis Testing]]
+- [[3 Reference/def-hypothesis_202508050806\|Hypothesis]]: [[3 Reference/def-hypothesis_202508050806\|Null hypothesis]], [[3 Reference/def-hypothesis_202508050806\|Alternative hypothesis]]
+- [[3 Reference/def-test_202508050827\|Test]]
+- [[3 Reference/def-test_202508050827\|Critical region]] / [[3 Reference/def-test_202508050827\|Rejection region]]
+- [[3 Reference/def-power-of-a-test_202508050833\|Power]] : $P_{\theta}(\mathbf{X}\in C)$
+- [[3 Reference/def-power-function_202508050833\|Power Function]] : $\gamma_{C}(\theta)=P_{\theta}(\mathbf{X}\in C), \theta\in \omega_{1}$
+- [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|Types of Statistical Hypotheses]]: [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|Simple statistical hypothesis]], [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|Composite statistical hypothesis]]
+	- Simple: $H_{0}: \theta=10$
+	- Composite: $H_{0}: \theta\leq 10$
+- [[3 Reference/def-size-of-critical-region_202507291323\|Significance level]] / [[3 Reference/def-size-of-critical-region_202507291323\|Size]] : $\alpha=\max_{\theta\in \omega_{0}}P(\mathbf{X}\in C)$
+
+![[assets/Pasted image 20250808000634.png|400]]
 
 **11_9.1**
-- [[3 Reference/8.1-most-powerful-tests_202508050958\|8.1 Most Powerful Tests]]
+- [[3 Reference/def-best-critical-region_202508052110\|Best Critical Region]], [[3 Reference/def-best-critical-region_202508052110\|Best Test]]
+- [[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]] : $C$ best critical region of size $\alpha$ for test $H_{0}: \theta=\theta'$ vs $H_{1}: \theta=\theta''$
+	- $k>0$
+	- $\alpha=P_{H_{0}}[\mathbf{X}\in C]$
+	- $$ \frac{L(\theta';\mathbf{x})}{L(\theta'';\mathbf{x})} \leq k, \quad \forall \mathbf{x}\in C $$
 
 **12_9.2**
-
+- [[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|UMPCR]] : $C$ from test simple $H_{0}$ vs composite $H_{1}$. If $C$ BCR from test simple $H_{0}$ vs all simple $H_{1}$, then $C$ UMPCR
+- [[3 Reference/def-uniformly-most-powerful-test_202508052119\|UMPT]]: If $C$ UMPCR, then its test UMPT
+- [[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]] : If $\frac{L(\theta_{1},\mathbf{x})}{L(\theta_{2},\mathbf{x})},\forall \theta_{1}<\theta_{2}$ monotonic function of $y=u(\mathbf{x})$, then $L(\theta,\mathbf{x})$ has MLR in $y=u(\mathbf{x})$
 
 **14_9.3**
 

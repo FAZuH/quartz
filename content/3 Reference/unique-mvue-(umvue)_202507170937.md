@@ -14,7 +14,7 @@ If $\phi(Y_{1})$ is an [[3 Reference/mathstat4.1#Definition 4.1.3 Unbiased estim
 
 Then $\phi(Y_{1})$ is the **unique [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]]** (UMVUE) of $\theta$
 
-![[Assets/Pasted image 20250721081812.png]]
+![[assets/Pasted image 20250721081812.png]]
 ## Remark
 
 In the reference book, this theorem is called Lehmann and Scheffe theorem.

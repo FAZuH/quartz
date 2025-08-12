@@ -163,7 +163,7 @@ Steps:
 	- Start at the root, follow splits (e.g., if eyehd < 11.95, go left).
 	- Reach a terminal node and assign $\mathbf{y}_0$ to its group.
 
-![[Assets/Pasted image 20250321132055.png|400]]
+![[assets/Pasted image 20250321132055.png|400]]
 
 ## Python example
 

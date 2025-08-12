@@ -6,7 +6,7 @@
 SPF (Sender Policy Framework) specifies servers/hosts authorized to send email on behalf of a domain.
 
 Consider the following illustration:
-![|600](Assets/Pasted image 20250621134516.png)
+![|600](assets/Pasted image 20250621134516.png)
 
 Suppose `mail.fazuh.com` is sending an email to `mail.google.com`. In this case, the "Sending Email Server" is `fazuh.com`'s mail server, and the "Receiving Email Server" is `google.com`'s mail server.
 

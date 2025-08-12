@@ -227,7 +227,7 @@ plt.savefig("mda_fruit_manual.png")
 plt.show()
 ```
 
-![[Assets/mda_fruit_manual.png|500]]
+![[assets/mda_fruit_manual.png|500]]
 
 - **$Z_1$** separates oranges (low color) from apples and bananas (higher color).
 - **$Z_2$** distinguishes bananas (lower weight) from apples (higher weight).

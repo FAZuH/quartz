@@ -6,4 +6,4 @@
  
  [https://github.com/simonmichael/hledger](https://github.com/simonmichael/hledger "https://github.com/simonmichael/hledger")
 
-![[Assets/Pasted image 20250723175324.png]]
+![[assets/Pasted image 20250723175324.png]]

@@ -3,8 +3,8 @@
 ---
 
 
-![[Assets/Pasted image 20250710090305.png]]
-![[Assets/Pasted image 20250710090314.png]]
+![[assets/Pasted image 20250710090305.png]]
+![[assets/Pasted image 20250710090314.png]]
 ## 1.a
 $$
 \begin{align}

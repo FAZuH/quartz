@@ -87,7 +87,7 @@ With "initial state" $Y_{1} = e_{1}$.
 
 Also notice the following autororrelation values
 
-![foo|500](Assets/Pasted image 20250428140032.png)
+![foo|500](assets/Pasted image 20250428140032.png)
 
 Values of $Y$ at neighboring time points are more and **more strongly and positively correlated as time goes by**.
 

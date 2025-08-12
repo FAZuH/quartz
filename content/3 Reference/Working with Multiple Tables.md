@@ -11,7 +11,7 @@ A primary key column in a SQL table is used to **uniquely identify each record
 
 A foreign key is a **reference in one table’s records to the primary key of another table**. To maintain multiple records for a specific row, the use of foreign key plays a vital role. For instance, to track all the orders of a specific customer, the table `order` (illustrated at the bottom of the image) can contain a foreign key.
 
-![[Assets/Pasted image 20250306092243.png|300]]
+![[assets/Pasted image 20250306092243.png|300]]
 
 ## WITH clause
 
@@ -41,7 +41,7 @@ FROM last_names
 
 ## Joins
 
-![[Assets/Pasted image 20250306092207.png|300]]
+![[assets/Pasted image 20250306092207.png|300]]
 
 ### Inner join
 
@@ -52,7 +52,7 @@ JOIN authors
   ON books.author_id = authors.id;
 ```
 
-![[Assets/inner-join.webp|300]]
+![[assets/inner-join.webp|300]]
 
 ### Left join
 
@@ -63,4 +63,4 @@ LEFT JOIN table2
   ON table1.column_name = table2.column_name;
 ```
 
-![[Assets/left-join.webp|300]]
+![[assets/left-join.webp|300]]

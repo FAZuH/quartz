@@ -46,7 +46,7 @@ where:
 
 These models are called **short memory models**, since the errors doesn't last long into the future. To illustrate:
 
-![](Assets/Pasted image 20250602022612.png)
+![](assets/Pasted image 20250602022612.png)
 
 This goes back to the idea of [stationarity](Stationarity.md), where the dependence of previous observations "declines" over time, or in the case of MA models, actually disappear completely as you go into the future.
 
@@ -85,7 +85,7 @@ $$Y_t = e_t - \theta_1 e_{t-1} - \theta_2 e_{t-2}$$
 | Covariance      |                                                                                                                                                                                               |
 | Autocorrelation | $$\begin{align} \rho_1 &= \frac{-\theta_1 + \theta_1 \theta_2}{1 + \theta_1^2 + \theta_2^2} \\ \rho_2 &= \frac{-\theta_2}{1 + \theta_1^2 + \theta_2^2} \\ \rho_k &= 0, k \geq 3 \end{align}$$ |
 
-![](Assets/Pasted image 20250414091346.png)
+![](assets/Pasted image 20250414091346.png)
 
 ### See also
 

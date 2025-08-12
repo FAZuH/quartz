@@ -5,7 +5,7 @@
 For recent notes, see the bottom of any note.
 
 ## Note types
-- Index: Structural note that links a collection of other notes based on a topic, e.g., [[3 Reference/1 Structure/mathematics]]
+- Index: Structural note that links a collection of other notes based on a topic, e.g., [[3 Reference/structure/mathematics]]
 - Note: A normal note/page
 	Types
 	- Procedural: To describe procedures to complete a certain task. Based on [this](https://docs.github.com/en/contributing/style-guide-and-content-model/procedural-content-type). Titles of these notes begin with a gerund, e.g., [[3 Reference/Mounting Android Phone Internal Storage to Linux Machine]]
@@ -15,20 +15,20 @@ For recent notes, see the bottom of any note.
 
 ## Top-level index notes
 i.e., index notes that has no parents
-- [[3 Reference/1 Structure/computers\|computers]]
-- [[3 Reference/1 Structure/cyber security\|cyber security]]
-- [[3 Reference/1 Structure/file systems\|file systems]]
-- [[3 Reference/1 Structure/finance\|finance]]
-- [[3 Reference/1 Structure/git\|git]]
-- [[3 Reference/1 Structure/mathematics\|mathematics]]
-- [[3 Reference/1 Structure/network engineering\|network engineering]]
-- [[3 Reference/1 Structure/philosophy\|philosophy]]
-- [[3 Reference/1 Structure/rust\|rust]]
-- [[3 Reference/1 Structure/self-hosting\|self-hosting]]
-- [[3 Reference/1 Structure/statistics\|statistics]]
-- [[3 Reference/1 Structure/system administration\|system administration]]
-- [[3 Reference/1 Structure/studying\|studying]]
-- [[3 Reference/1 Structure/time series analysis\|time series analysis]]
+- [[3 Reference/structure/computers\|computers]]
+- [[3 Reference/structure/cyber security\|cyber security]]
+- [[3 Reference/structure/file systems\|file systems]]
+- [[3 Reference/structure/finance\|finance]]
+- [[3 Reference/structure/git\|git]]
+- [[3 Reference/structure/mathematics\|mathematics]]
+- [[3 Reference/structure/network engineering\|network engineering]]
+- [[3 Reference/structure/philosophy\|philosophy]]
+- [[3 Reference/structure/rust\|rust]]
+- [[3 Reference/structure/self-hosting\|self-hosting]]
+- [[3 Reference/structure/statistics\|statistics]]
+- [[3 Reference/structure/studying\|studying]]
+- [[3 Reference/structure/system administration\|system administration]]
+- [[3 Reference/structure/time series analysis\|time series analysis]]
 
 
 ## Contact

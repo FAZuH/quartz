@@ -12,19 +12,19 @@
 
 BFS in tree
 
-![[Assets/BFS in tree.gif|300]]
+![[assets/BFS in tree.gif|300]]
 
 BFS in maze
 
-![[Assets/BFS in maze.gif|300]]
+![[assets/BFS in maze.gif|300]]
 
 BFS in graph
 
-![[Assets/BFS in graph.gif|300]]
+![[assets/BFS in graph.gif|300]]
 
 DFS vs BFS
 
-![[Assets/BFS vs DFS.png|300]]
+![[assets/BFS vs DFS.png|300]]
 
 ## Algorithms
 

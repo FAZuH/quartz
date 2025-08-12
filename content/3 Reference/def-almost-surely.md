@@ -13,4 +13,4 @@ Then $A$ happens **almost surely**
 ## Remark
 $P(A)=1$ is equivalent to $P(A^C)=1$
 
-![[Assets/Pasted image 20250714232900.png]]
+![[assets/Pasted image 20250714232900.png]]

@@ -3,7 +3,7 @@
 ---
 
 
-![[Assets/Pasted image 20250327201755.png]]
+![[assets/Pasted image 20250327201755.png]]
 
 ---
 

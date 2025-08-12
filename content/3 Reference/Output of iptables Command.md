@@ -59,7 +59,7 @@ iptables -A INPUT -s fazuh.com -j DROP
 ```
 Here we append an input rule (`-A`), so that all packets from the site (`-s fazuh.com`) gets dropped (`-j DROP`).
 
-![](Assets/Pasted image 20250621132246.png)
+![](assets/Pasted image 20250621132246.png)
 
 
 ## Appendix: iptables command synopsis

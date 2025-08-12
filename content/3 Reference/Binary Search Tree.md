@@ -8,4 +8,4 @@ A **binary search tree** is a [binary tree](https://www.notion.so/Binary-tree-16
 - The value in the left node is lower. And,
 - The value in the right node is larger.
 
-![[Assets/Pasted image 20250227233505.png|600]]
+![[assets/Pasted image 20250227233505.png|600]]

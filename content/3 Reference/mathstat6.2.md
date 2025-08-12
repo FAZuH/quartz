@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["6.2 Rao-Cramér Lower Bound and Efficiency.md"],"created":"2025-07-24T11:50:56.388+07:00","modified":"2025-07-26T20:10:19.319+07:00","published":"2025-07-26T20:10:19.319+07:00","cssclasses":"","creation-time":"2025-07-06 23:56","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["6.2 Rao-Cramér Lower Bound and Efficiency.md"],"created":"2025-07-24T11:50:56.388+07:00","modified":"2025-08-08T00:48:04.723+07:00","published":"2025-08-08T00:48:04.723+07:00","cssclasses":"","creation-time":"2025-07-06 23:56","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 
@@ -33,7 +33,7 @@
 > 1. If efficiency = 1, then $Y$ is [[3 Reference/def-efficient-estimator_202507170919\|efficient]]
 > 2. If efficiency approaches 1, then $Y$ is asymptotically efficient
 >
-> Thus $Y$ is efficient if and only if $\operatorname{Var}(Y)=\frac{1}{nI(\theta)}\iff nI(\theta)\cdot \operatorname{Var}Y=1$
+> Thus $Y$ is efficient if and only if $\operatorname{Var}(Y)=\frac{1}{nI(\theta)}\iff nI(\theta)\cdot \operatorname{Var}Y=1$ [[3 Reference/mathstat6.2#Assumptions 6.2.1 Additional regularity conditions 1]] holds
 
 ^def-efficiency
 

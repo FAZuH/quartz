@@ -79,7 +79,7 @@ A row profile shows a row’s column category distribution, summing to 1. Simila
 
 A column profile shows a column’s row category distribution, summing to 1. Similar column profiles, like "Yes" and "Unknown" with more 1st class, mean similar row patterns, positioning their points near each other in the plot.
 
-![|500](Assets/Pasted image 20250509120130.png)
+![|500](assets/Pasted image 20250509120130.png)
 
 Inertia and chi-square ($p$-value) indicate association strength; high inertia in the first two dimensions (e.g., >80%) suggests a good 2D fit.
 
@@ -102,9 +102,9 @@ Distances between points in the resulting plot are not as meaningful as in corre
 Illustration:
 
 1. Four-way contingency table
-![|500](Assets/Pasted image 20250516105832.png)
+![|500](assets/Pasted image 20250516105832.png)
 2. $\mathbf{G}$ matrix of the table above
-![|500](Assets/Pasted image 20250516105944.png)
+![|500](assets/Pasted image 20250516105944.png)
 
 ### Python example
 
@@ -186,7 +186,7 @@ $\mathbf{G}^{\prime}\mathbf{G}$ has:
 - Square block on the diagonal of each variable. Each is a diagonal matrix showing frequencies in its corresponding variable.
 - Rectangular block off-diagonal for each pair of vairables. Each is a two-way contingency table for the corresponding pair of variables.
 
-![|500](Assets/Pasted image 20250516114142.png)
+![|500](assets/Pasted image 20250516114142.png)
 
 ## Assumptions
 
@@ -302,6 +302,6 @@ Survived Coordinates (first two dimensions):
 
 Chi-square Statistic (19.4526, $p$-value < 0.001) indicates a moderate association between class and survival status in the Titanic data. It also indicates dependence, **implying survival varies across passenger classes** beyond random chance.
 
-![|500](Assets/Pasted image 20250509121557.png)
+![|500](assets/Pasted image 20250509121557.png)
 
 Proximity in the plot (e.g., 1st class near "No") suggests lower survival for 1st class passengers, while 2nd and 3rd class near "Yes" indicates higher survival. 

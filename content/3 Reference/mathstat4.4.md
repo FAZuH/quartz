@@ -141,7 +141,7 @@ Let $Y_{1} < Y_{2} < Y_{3} < Y_{4}$ be the order statistics of a random sample o
 
 We will use [CDF of order statistics](#CDF%20of%20order%20statistics) to solve this problem.
 
-![[Assets/Pasted image 20250624044727.png]]
+![[assets/Pasted image 20250624044727.png]]
 
 [^1]: https://en.wikipedia.org/wiki/Order_statistic#Cumulative_distribution_function_of_order_statistics (Taken in 2025-06-24)
 
