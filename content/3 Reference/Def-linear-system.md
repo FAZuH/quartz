@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Linear System","Linear System"],"created":"2025-07-24T11:50:56.387+07:00","modified":"2025-07-24T11:50:56.388+07:00","published":"2025-07-24T11:50:56.388+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[linear algebra]]"}
+{"publish":true,"aliases":["Linear System","Linear System"],"created":"2025-08-16T00:08:21.428+07:00","modified":"2025-08-16T00:08:21.428+07:00","published":"2025-08-16T00:08:21.428+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[linear algebra]]"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Bounded in Probability","Bounded in Probability"],"created":"2025-07-24T11:50:56.222+07:00","modified":"2025-07-24T11:50:56.223+07:00","published":"2025-07-24T11:50:56.223+07:00","cssclasses":"","creation-time":"2025-07-15 07:35","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Bounded in Probability","Bounded in Probability"],"created":"2025-08-16T00:08:21.401+07:00","modified":"2025-08-16T00:08:21.401+07:00","published":"2025-08-16T00:08:21.401+07:00","cssclasses":"","creation-time":"2025-07-15 07:35","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

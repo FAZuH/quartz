@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.10 Important Inequalities.md"],"created":"2025-07-24T11:50:56.385+07:00","modified":"2025-07-24T11:50:56.385+07:00","published":"2025-07-24T11:50:56.385+07:00","cssclasses":"","creation-time":"2025-06-24 01:06","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["1.10 Important Inequalities.md"],"created":"2025-08-15T13:53:58.613+07:00","modified":"2025-08-15T13:53:58.614+07:00","published":"2025-08-15T13:53:58.614+07:00","cssclasses":"","creation-time":"2025-06-24 01:06","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

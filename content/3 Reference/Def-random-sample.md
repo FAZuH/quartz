@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Random Sample","Random Sample"],"created":"2025-07-24T11:50:56.331+07:00","modified":"2025-07-24T11:50:56.332+07:00","published":"2025-07-24T11:50:56.332+07:00","cssclasses":"","creation-time":"2025-07-15 07:12","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Random Sample","Random Sample"],"created":"2025-08-16T00:08:21.422+07:00","modified":"2025-08-16T00:08:21.423+07:00","published":"2025-08-16T00:08:21.423+07:00","cssclasses":"","creation-time":"2025-07-15 07:12","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

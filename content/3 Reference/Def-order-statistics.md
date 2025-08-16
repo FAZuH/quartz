@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Order Statistics","Order Statistics"],"created":"2025-07-24T11:50:56.445+07:00","modified":"2025-07-24T11:50:56.446+07:00","published":"2025-07-24T11:50:56.446+07:00","cssclasses":"","creation-time":"2025-07-15 07:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Order Statistics","Order Statistics"],"created":"2025-08-16T00:08:21.443+07:00","modified":"2025-08-16T00:08:21.444+07:00","published":"2025-08-16T00:08:21.444+07:00","cssclasses":"","creation-time":"2025-07-15 07:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

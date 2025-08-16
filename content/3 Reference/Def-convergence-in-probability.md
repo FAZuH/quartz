@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Convergence in Probability","Convergence in Probability"],"created":"2025-07-24T11:50:56.452+07:00","modified":"2025-07-24T11:50:56.453+07:00","published":"2025-07-24T11:50:56.453+07:00","cssclasses":"","creation-time":"2025-07-15 07:28","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Convergence in Probability","Convergence in Probability"],"created":"2025-08-16T00:08:21.446+07:00","modified":"2025-08-16T00:08:21.447+07:00","published":"2025-08-16T00:08:21.447+07:00","cssclasses":"","creation-time":"2025-07-15 07:28","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

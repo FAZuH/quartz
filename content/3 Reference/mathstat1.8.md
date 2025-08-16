@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.8 Expectation of Random Variable"],"created":"2025-07-24T11:50:56.441+07:00","modified":"2025-07-24T11:50:56.442+07:00","published":"2025-07-24T11:50:56.442+07:00","cssclasses":"","creation-time":"2025-06-28 18:05","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["1.8 Expectation of Random Variable"],"created":"2025-08-15T13:53:58.707+07:00","modified":"2025-08-15T13:53:58.708+07:00","published":"2025-08-15T13:53:58.708+07:00","cssclasses":"","creation-time":"2025-06-28 18:05","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat1.7\|1.7 Continuous Random Variables]] | [[3 Reference/mathstat1.9\|1.9 Some Special Expectations.md]] >>

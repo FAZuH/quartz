@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.380+07:00","modified":"2025-08-12T00:30:30.261+07:00","published":"2025-08-12T00:30:30.261+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-27 16:53","status":"baby","tag":"type/index","parent":null,"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.703+07:00","modified":"2025-08-15T13:53:58.704+07:00","published":"2025-08-15T13:53:58.704+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-27 16:53","status":"baby","parent":["[[computers]]"],"PassFrontmatter":true}
 ---
 
 **Referential**

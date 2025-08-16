@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Neyman Theorem"],"created":"2025-08-05T22:29:14.964+07:00","modified":"2025-08-08T01:11:30.333+07:00","published":"2025-08-08T01:11:30.333+07:00","cssclasses":"","creation-time":"2025-08-05 22:29","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Neyman Theorem"],"created":"2025-08-15T13:53:58.585+07:00","modified":"2025-08-15T13:53:58.586+07:00","published":"2025-08-15T13:53:58.586+07:00","cssclasses":"","creation-time":"2025-08-05 22:29","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

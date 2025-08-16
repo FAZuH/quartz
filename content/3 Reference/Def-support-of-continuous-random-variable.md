@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Support of Continuous Random Variable","Support of Continuous Random Variable"],"created":"2025-07-24T11:50:56.243+07:00","modified":"2025-07-24T11:50:56.244+07:00","published":"2025-07-24T11:50:56.244+07:00","cssclasses":"","creation-time":"2025-07-15 06:26","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Support of Continuous Random Variable","Support of Continuous Random Variable"],"created":"2025-08-16T00:08:21.407+07:00","modified":"2025-08-16T00:08:21.408+07:00","published":"2025-08-16T00:08:21.408+07:00","cssclasses":"","creation-time":"2025-07-15 06:26","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Homogeneous Linear Equation","Homogeneous Linear Equation"],"created":"2025-07-24T11:50:56.435+07:00","modified":"2025-07-24T11:50:56.436+07:00","published":"2025-07-24T11:50:56.436+07:00","cssclasses":"","creation-time":"2025-07-15 01:44","status":"baby","tag":null,"parent":"[[linear algebra]]"}
+{"publish":true,"aliases":["Homogeneous Linear Equation","Homogeneous Linear Equation"],"created":"2025-08-16T00:08:21.441+07:00","modified":"2025-08-16T00:08:21.441+07:00","published":"2025-08-16T00:08:21.441+07:00","cssclasses":"","creation-time":"2025-07-15 01:44","status":"baby","tag":null,"parent":"[[linear algebra]]"}
 ---
 
 

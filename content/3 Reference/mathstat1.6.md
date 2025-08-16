@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.6 Discrete Random Variables"],"created":"2025-07-24T11:50:56.259+07:00","modified":"2025-07-24T11:50:56.260+07:00","published":"2025-07-24T11:50:56.260+07:00","cssclasses":"","creation-time":"2025-06-26 01:46","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["1.6 Discrete Random Variables"],"created":"2025-08-15T13:53:58.522+07:00","modified":"2025-08-15T13:53:58.523+07:00","published":"2025-08-15T13:53:58.523+07:00","cssclasses":"","creation-time":"2025-06-26 01:46","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat1.5\|1.5 Random Variables]] | [[3 Reference/mathstat1.7\|1.7 Continuous Random Variables]] >>

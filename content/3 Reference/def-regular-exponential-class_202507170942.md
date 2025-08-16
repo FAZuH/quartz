@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Regular Exponential Class","Regular Exponential Class"],"created":"2025-07-24T11:50:56.227+07:00","modified":"2025-07-24T11:50:56.228+07:00","published":"2025-07-24T11:50:56.228+07:00","cssclasses":"","creation-time":"2025-07-17 09:42","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Regular Exponential Class","Regular Exponential Class"],"created":"2025-08-16T00:08:21.402+07:00","modified":"2025-08-16T00:08:21.403+07:00","published":"2025-08-16T00:08:21.403+07:00","cssclasses":"","creation-time":"2025-07-17 09:42","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

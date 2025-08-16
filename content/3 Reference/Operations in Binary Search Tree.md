@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.307+07:00","modified":"2025-07-24T11:50:56.308+07:00","published":"2025-07-24T11:50:56.308+07:00","cssclasses":"","creation-time":"2025-02-27 23:45","status":"elder","tags":null,"parent":["[[Binary Tree]]","[[algorithm]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.571+07:00","modified":"2025-08-16T21:16:49.559+07:00","published":"2025-08-16T21:16:49.559+07:00","cssclasses":"","creation-time":"2025-02-27 23:45","status":"elder","tags":null,"parent":["[[Tree]]","[[algorithm]]"]}
 ---
 
 

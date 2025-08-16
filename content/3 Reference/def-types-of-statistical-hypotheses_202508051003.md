@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Types of Statistical Hypotheses","Statistical hypothesis","Simple statistical hypothesis","Composite statistical hypothesis"],"created":"2025-08-05T10:03:27.227+07:00","modified":"2025-08-05T10:04:26.511+07:00","published":"2025-08-05T10:04:26.511+07:00","cssclasses":"","creation-time":"2025-08-05 10:03","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Types of Statistical Hypotheses","Statistical hypothesis","Simple statistical hypothesis","Composite statistical hypothesis"],"created":"2025-08-15T13:53:58.647+07:00","modified":"2025-08-15T13:53:58.648+07:00","published":"2025-08-15T13:53:58.648+07:00","cssclasses":"","creation-time":"2025-08-05 10:03","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

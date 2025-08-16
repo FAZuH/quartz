@@ -1,21 +1,16 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.361+07:00","modified":"2025-08-11T17:28:58.618+07:00","published":"2025-08-11T17:28:58.618+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-02-27 23:25","parent":["[[computers]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.685+07:00","modified":"2025-08-16T10:51:12.419+07:00","published":"2025-08-16T10:51:12.419+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-02-27 23:25","parent":["[[computers]]"],"PassFrontmatter":true}
 ---
 
 
+**Referential**
+- [[3 Reference/general-procedure-of-a-dsa-problem_202508150141\|General Procedure of a DSA Problem]]
 
-
-## Notes
-
-
-
-## Subindexes
-
+**Index**
 - [[3 Reference/structure/algorithm\|algorithm]]
 - [[3 Reference/structure/data structure\|data structure]]
-- [[3 Reference/structure/dsa problems\|dsa problems]]
 
-
-## Archived
-
-
+**Exercise**
+- [[3 Reference/Contains Duplicate\|Contains Duplicate]]
+- [[3 Reference/Two Sum\|Two Sum]]
+- [[3 Reference/Valid Anagram\|Valid Anagram]]

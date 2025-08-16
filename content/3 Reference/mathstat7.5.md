@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["7.5 The Exponential Class of Distributions.md"],"created":"2025-07-24T11:50:56.420+07:00","modified":"2025-07-24T11:50:56.421+07:00","published":"2025-07-24T11:50:56.421+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["7.5 The Exponential Class of Distributions.md"],"created":"2025-08-15T13:53:58.654+07:00","modified":"2025-08-15T13:53:58.655+07:00","published":"2025-08-15T13:53:58.655+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat7.4\|7.4 Completeness and Uniqueness.md]] | [[3 Reference/mathstat7.6_202507171008\|7.6 Functions of Parameter]] >>

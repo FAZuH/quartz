@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Unique MVUE (UMVUE)","Lehmann and Scheffe Theorem","UMVUE","UUMVE"],"created":"2025-07-24T11:50:56.422+07:00","modified":"2025-07-26T20:12:31.957+07:00","published":"2025-07-26T20:12:31.957+07:00","cssclasses":"","creation-time":"2025-07-17 09:37","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Unique MVUE (UMVUE)","Lehmann and Scheffe Theorem","UMVUE","UUMVE"],"created":"2025-08-15T13:53:58.656+07:00","modified":"2025-08-15T13:53:58.657+07:00","published":"2025-08-15T13:53:58.657+07:00","cssclasses":"","creation-time":"2025-07-17 09:37","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

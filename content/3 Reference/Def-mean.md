@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Mean","Mean"],"created":"2025-07-24T11:50:56.428+07:00","modified":"2025-07-24T11:50:56.429+07:00","published":"2025-07-24T11:50:56.429+07:00","cssclasses":"","creation-time":"2025-07-15 06:54","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Mean","Mean"],"created":"2025-08-16T00:08:21.436+07:00","modified":"2025-08-16T00:08:21.437+07:00","published":"2025-08-16T00:08:21.437+07:00","cssclasses":"","creation-time":"2025-07-15 06:54","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

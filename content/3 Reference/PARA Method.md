@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.288+07:00","modified":"2025-07-24T11:50:56.289+07:00","published":"2025-07-24T11:50:56.289+07:00","cssclasses":"","creation-time":"2025-02-28 16:57","status":"elder","tags":null,"parent":["[[studying]]","[[philosophy]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.552+07:00","modified":"2025-08-15T13:53:58.553+07:00","published":"2025-08-15T13:53:58.553+07:00","cssclasses":"","creation-time":"2025-02-28 16:57","status":"elder","tags":null,"parent":["[[studying]]","[[philosophy]]"]}
 ---
 
 

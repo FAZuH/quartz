@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Estimator","Estimator"],"created":"2025-07-24T11:50:56.236+07:00","modified":"2025-07-24T11:50:56.237+07:00","published":"2025-07-24T11:50:56.237+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Estimator","Estimator"],"created":"2025-08-16T00:08:21.405+07:00","modified":"2025-08-16T00:08:21.405+07:00","published":"2025-08-16T00:08:21.405+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

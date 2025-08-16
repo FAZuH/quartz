@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Sufficient Statistic","Sufficient Statistic"],"created":"2025-07-24T11:50:56.312+07:00","modified":"2025-08-08T01:22:28.399+07:00","published":"2025-08-08T01:22:28.399+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Sufficient Statistic","Sufficient Statistic"],"created":"2025-08-16T00:08:21.417+07:00","modified":"2025-08-16T00:08:21.418+07:00","published":"2025-08-16T00:08:21.418+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

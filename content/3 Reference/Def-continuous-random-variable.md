@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Continuous Random Variable","Continuous Random Variable"],"created":"2025-07-24T11:50:56.429+07:00","modified":"2025-07-24T11:50:56.430+07:00","published":"2025-07-24T11:50:56.430+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Continuous Random Variable","Continuous Random Variable"],"created":"2025-08-16T00:08:21.438+07:00","modified":"2025-08-16T00:08:21.438+07:00","published":"2025-08-16T00:08:21.438+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

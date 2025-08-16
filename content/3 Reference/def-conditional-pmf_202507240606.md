@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Conditional pmf"],"created":"2025-07-24T11:50:56.319+07:00","modified":"2025-07-24T11:50:56.320+07:00","published":"2025-07-24T11:50:56.320+07:00","cssclasses":"","creation-time":"2025-07-24 06:06","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Conditional pmf"],"created":"2025-08-15T13:53:58.584+07:00","modified":"2025-08-15T13:53:58.585+07:00","published":"2025-08-15T13:53:58.585+07:00","cssclasses":"","creation-time":"2025-07-24 06:06","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["4.4 Order Statistics.md"],"created":"2025-07-24T11:50:56.295+07:00","modified":"2025-07-29T13:26:06.617+07:00","published":"2025-07-29T13:26:06.617+07:00","cssclasses":"","creation-time":"2025-06-24 01:07","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["4.4 Order Statistics.md"],"created":"2025-08-15T13:53:58.561+07:00","modified":"2025-08-15T13:53:58.562+07:00","published":"2025-08-15T13:53:58.562+07:00","cssclasses":"","creation-time":"2025-06-24 01:07","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/4.2.2-confidence-interval-for-difference-in-proportion_202507220849\|4.2.2 Confidence Interval for Difference in Proportion]] | [[3 Reference/4.5-introduction-to-hypothesis-testing_202507291322\|4.5 Introduction to Hypothesis Testing]] >>

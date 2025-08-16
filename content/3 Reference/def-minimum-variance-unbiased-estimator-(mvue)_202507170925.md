@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Minimum Variance Unbiased Estimator (MVUE)","Minimum Variance Unbiased Estimator (MVUE)","MVUE","UMVE"],"created":"2025-07-24T11:50:56.390+07:00","modified":"2025-07-26T20:12:20.578+07:00","published":"2025-07-26T20:12:20.578+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Minimum Variance Unbiased Estimator (MVUE)","Minimum Variance Unbiased Estimator (MVUE)","MVUE","UMVE"],"created":"2025-08-16T00:08:21.428+07:00","modified":"2025-08-16T00:08:21.429+07:00","published":"2025-08-16T00:08:21.429+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

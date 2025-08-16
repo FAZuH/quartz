@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.345+07:00","modified":"2025-07-24T11:50:56.346+07:00","published":"2025-07-24T11:50:56.346+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-29 15:41","status":"baby","parent":["[[logic and proofing]]"],"source":"https://zimmer.csufresno.edu/~larryc/proofs/proofs.html","PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.672+07:00","modified":"2025-08-15T13:53:58.672+07:00","published":"2025-08-15T13:53:58.672+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-29 15:41","status":"baby","parent":["[[logic and proofing]]"],"source":"https://zimmer.csufresno.edu/~larryc/proofs/proofs.html","PassFrontmatter":true}
 ---
 
 

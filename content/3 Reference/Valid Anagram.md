@@ -1,11 +1,11 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.399+07:00","modified":"2025-07-24T11:50:56.399+07:00","published":"2025-07-24T11:50:56.399+07:00","cssclasses":"","creation-time":"2025-03-11 08:07","status":"adult","tag":null,"parent":["[[dsa problems]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.629+07:00","modified":"2025-08-15T13:53:58.630+07:00","published":"2025-08-15T13:53:58.630+07:00","cssclasses":"","creation-time":"2025-03-11 08:07","status":"adult","tag":null,"parent":["[[dsa problems]]"]}
 ---
 
 
 - Source: https://neetcode.io/problems/is-anagram
 
-## My solution
+## Solution
 
 ```cpp
 class Solution2 {

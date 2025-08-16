@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.197+07:00","modified":"2025-07-24T11:50:56.198+07:00","published":"2025-07-24T11:50:56.198+07:00","tags":["content-type/procedural"],"cssclasses":"","creation-time":"2025-04-19 13:59","status":"adult","parent":["[[cyber security]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.456+07:00","modified":"2025-08-15T13:53:58.457+07:00","published":"2025-08-15T13:53:58.457+07:00","tags":["content-type/procedural"],"cssclasses":"","creation-time":"2025-04-19 13:59","status":"adult","parent":["[[cyber security]]"]}
 ---
 
 

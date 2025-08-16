@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Linear Equation","Linear Equation"],"created":"2025-07-24T11:50:56.454+07:00","modified":"2025-07-24T11:50:56.455+07:00","published":"2025-07-24T11:50:56.455+07:00","cssclasses":"","creation-time":"2025-07-15 01:44","status":"baby","tag":null,"parent":"[[linear algebra]]"}
+{"publish":true,"aliases":["Linear Equation","Linear Equation"],"created":"2025-08-16T00:08:21.447+07:00","modified":"2025-08-16T00:08:21.448+07:00","published":"2025-08-16T00:08:21.448+07:00","cssclasses":"","creation-time":"2025-07-15 01:44","status":"baby","tag":null,"parent":"[[linear algebra]]"}
 ---
 
 

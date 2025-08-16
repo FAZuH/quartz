@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.399+07:00","modified":"2025-07-24T11:50:56.400+07:00","published":"2025-07-24T11:50:56.400+07:00","cssclasses":"","creation-time":"2025-03-31 10:24","status":"baby","tags":null,"parent":["[[git]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.630+07:00","modified":"2025-08-16T21:29:01.349+07:00","published":"2025-08-16T21:29:01.349+07:00","cssclasses":"","creation-time":"2025-03-31 10:24","status":"baby","tags":null,"parent":["[[computers]]"]}
 ---
 
 

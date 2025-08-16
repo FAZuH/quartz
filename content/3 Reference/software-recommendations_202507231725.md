@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Software Recommendations"],"created":"2025-07-24T11:50:56.226+07:00","modified":"2025-07-24T11:50:56.227+07:00","published":"2025-07-24T11:50:56.227+07:00","cssclasses":"","creation-time":"2025-07-23 17:25","status":"baby","tag":null,"parent":"[[computers]]"}
+{"publish":true,"aliases":["Software Recommendations"],"created":"2025-08-15T13:53:58.490+07:00","modified":"2025-08-15T13:53:58.491+07:00","published":"2025-08-15T13:53:58.491+07:00","cssclasses":"","creation-time":"2025-07-23 17:25","status":"baby","tag":null,"parent":"[[computers]]"}
 ---
 
 - 📌 : Actively using (per last update)

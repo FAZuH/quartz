@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Result Methods"],"created":"2025-07-24T11:50:56.414+07:00","modified":"2025-08-06T18:01:38.733+07:00","published":"2025-08-06T18:01:38.733+07:00","cssclasses":"","creation-time":"2025-07-16 00:37","status":"baby","tag":null,"parent":"[[rust|Rust]]"}
+{"publish":true,"aliases":["Common Result Methods"],"created":"2025-08-15T13:53:58.648+07:00","modified":"2025-08-15T13:53:58.649+07:00","published":"2025-08-15T13:53:58.649+07:00","cssclasses":"","creation-time":"2025-07-16 00:37","status":"baby","tag":null,"parent":"[[rust|Rust]]"}
 ---
 
 

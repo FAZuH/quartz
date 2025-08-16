@@ -1,9 +1,8 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.322+07:00","modified":"2025-07-24T11:50:56.323+07:00","published":"2025-07-24T11:50:56.323+07:00","cssclasses":"","creation-time":"2025-02-27 23:26","status":"baby","tags":null,"parent":["[[data structure]]","[[algorithm]]"]}
+{"publish":true,"created":"2025-08-16T11:25:38.134+07:00","modified":"2025-08-16T11:25:38.135+07:00","published":"2025-08-16T11:25:38.135+07:00","cssclasses":"","creation-time":"2025-02-27 23:26","status":"baby","tags":null,"parent":["[[list_202508150439|List]]"]}
 ---
 
 
-## Code
 ```python
 from typing import List, Self
 from dataclasses import dataclass
@@ -11,7 +10,7 @@ from dataclasses import dataclass
 @dataclass(slots=True)
 class Node:
     data: int
-    next: Self | None = None
+    next: Self | None
 
 class LinkedList:
     def __init__(self):
@@ -28,52 +27,53 @@ class LinkedList:
         return curr.data
 		
     def insertHead(self, val: int) -> None:
-        if self.head is None:
-            self.head = Node(val)
-        else:
-            self.head = Node(val, self.head)
+        self.head = Node(val, self.head)
 		
     def insertTail(self, val: int) -> None:
-        new = Node(val)
         curr = self.head
         if curr is None:
-            self.head = new
+            self.insertHead(val)
             return
         while curr.next is not None:
             curr = curr.next
-        curr.next = new
+        curr.next = Node(val, None)
 		
     def remove(self, index: int) -> bool:
-        if self.head is None:  # Empty list case
+        if self.head is None:  # CASE: Empty list
             return False
 			
-        if index == 0:  # Remove head case
+        if index == 0:  # CASE: Remove head node. INVARIANT: Index points to middle or last node.
             self.head = self.head.next
             return True
 			
+        # NOTE: We need to have references to node to remove and its previous for bypassing, 
+        # so we can set next of previous to the node's to remove's next, thus removing all 
+        # reference to the node to remove.
+
         prev = self.head
         curr = self.head.next
-		
+        # NOTE: When this loop ends,
+        # prev is node previous of node to remove
+        # curr is node to remove
         for _ in range(index - 1):
-            if curr is None:  # Index out of bounds
+            if curr is None:  # CASE: Index out of bounds
                 return False
             prev = curr
             curr = curr.next
 			
-        if curr is None:  # Trying to remove beyond the last node
+        if curr is None:  # CASE: Index out of bounds
             return False
 		
-        prev.next = curr.next  # Bypass curr
+        prev.next = curr.next  # CASE: Remove middle or last node
         return True
 		
     def getValues(self) -> List[int]:
-        res = []
+        res: List[int] = []
         curr = self.head
-        if curr is None:
-            return res
-        res.append(curr.data)
-        while curr.next is not None:
-            curr = curr.next
+        # NOTE: Loop is iterated 0 times if list is empty, thus returning empty list
+        # Not empty list is pretty self-explanatory
+        while curr is not None:
             res.append(curr.data)
+            curr = curr.next
         return res
 ```

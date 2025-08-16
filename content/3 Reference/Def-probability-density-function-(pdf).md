@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Probability Density Function (pdf)","Probability Density Function (pdf)","pdf"],"created":"2025-07-24T11:50:56.315+07:00","modified":"2025-07-26T20:07:54.970+07:00","published":"2025-07-26T20:07:54.970+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Probability Density Function (pdf)","Probability Density Function (pdf)","pdf"],"created":"2025-08-16T00:08:21.418+07:00","modified":"2025-08-16T00:08:21.419+07:00","published":"2025-08-16T00:08:21.419+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

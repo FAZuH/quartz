@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.213+07:00","modified":"2025-07-24T11:50:56.213+07:00","published":"2025-07-24T11:50:56.213+07:00","cssclasses":"","creation-time":"2025-06-21 13:51","status":"baby","tags":null,"parent":["[[email administration]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.472+07:00","modified":"2025-08-15T13:53:58.473+07:00","published":"2025-08-15T13:53:58.473+07:00","cssclasses":"","creation-time":"2025-06-21 13:51","status":"baby","tags":null,"parent":["[[email administration]]"]}
 ---
 
 ## About SPF records

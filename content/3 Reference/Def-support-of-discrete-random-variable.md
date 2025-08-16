@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Support of Discrete Random Variable","Support of Discrete Random Variable"],"created":"2025-07-24T11:50:56.196+07:00","modified":"2025-07-24T11:50:56.196+07:00","published":"2025-07-24T11:50:56.196+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Support of Discrete Random Variable","Support of Discrete Random Variable"],"created":"2025-08-16T00:08:21.391+07:00","modified":"2025-08-16T00:08:21.392+07:00","published":"2025-08-16T00:08:21.392+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

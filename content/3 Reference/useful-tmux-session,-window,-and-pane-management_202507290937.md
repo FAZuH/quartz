@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Useful Tmux Session, Window, and Pane Management"],"created":"2025-07-29T09:37:56.435+07:00","modified":"2025-07-29T09:39:24.944+07:00","published":"2025-07-29T09:39:24.944+07:00","cssclasses":"","creation-time":"2025-07-29 09:37","status":"baby","tag":null,"parent":"[[computers]]"}
+{"publish":true,"aliases":["Useful Tmux Session, Window, and Pane Management"],"created":"2025-08-15T13:53:58.479+07:00","modified":"2025-08-15T13:53:58.480+07:00","published":"2025-08-15T13:53:58.480+07:00","cssclasses":"","creation-time":"2025-07-29 09:37","status":"baby","tag":null,"parent":"[[computers]]"}
 ---
 
 

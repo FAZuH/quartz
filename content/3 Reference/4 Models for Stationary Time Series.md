@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.217+07:00","modified":"2025-07-24T11:50:56.218+07:00","published":"2025-07-24T11:50:56.218+07:00","cssclasses":"","creation-time":"2025-03-27 16:56","status":"adult","tags":null,"parent":["[[time series analysis]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.476+07:00","modified":"2025-08-15T13:53:58.477+07:00","published":"2025-08-15T13:53:58.477+07:00","cssclasses":"","creation-time":"2025-03-27 16:56","status":"adult","tags":null,"parent":["[[time series analysis]]"]}
 ---
 
 This note covers autoregressive (AR) and moving average (MA) models, focusing on their statistical properties, [stationarity](Stationarity.md), and invertibility.

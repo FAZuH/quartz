@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Test Error Types","Type I error","Type II error"],"created":"2025-08-05T08:28:07.420+07:00","modified":"2025-08-05T08:40:24.321+07:00","published":"2025-08-05T08:40:24.321+07:00","cssclasses":"","creation-time":"2025-08-05 08:28","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Test Error Types","Type I error","Type II error"],"created":"2025-08-15T13:53:58.544+07:00","modified":"2025-08-15T13:53:58.545+07:00","published":"2025-08-15T13:53:58.545+07:00","cssclasses":"","creation-time":"2025-08-05 08:28","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

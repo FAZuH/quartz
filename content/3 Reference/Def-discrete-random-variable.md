@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Discrete Random Variable","Discrete Random Variable"],"created":"2025-07-24T11:50:56.423+07:00","modified":"2025-07-24T11:50:56.424+07:00","published":"2025-07-24T11:50:56.424+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Discrete Random Variable","Discrete Random Variable"],"created":"2025-08-16T00:08:21.435+07:00","modified":"2025-08-16T00:08:21.436+07:00","published":"2025-08-16T00:08:21.436+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

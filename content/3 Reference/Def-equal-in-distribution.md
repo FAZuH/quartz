@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Equal in Distribution","Equal in Distribution"],"created":"2025-07-24T11:50:56.384+07:00","modified":"2025-07-24T11:50:56.385+07:00","published":"2025-07-24T11:50:56.385+07:00","cssclasses":"","creation-time":"2025-07-15 01:41","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Equal in Distribution","Equal in Distribution"],"created":"2025-08-16T00:08:21.426+07:00","modified":"2025-08-16T00:08:21.427+07:00","published":"2025-08-16T00:08:21.427+07:00","cssclasses":"","creation-time":"2025-07-15 01:41","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

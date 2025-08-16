@@ -1,11 +1,11 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.276+07:00","modified":"2025-07-24T11:50:56.277+07:00","published":"2025-07-24T11:50:56.277+07:00","cssclasses":"","creation-time":"2025-03-11 08:48","status":"adult","tags":null,"parent":["[[dsa problems]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.538+07:00","modified":"2025-08-15T13:53:58.539+07:00","published":"2025-08-15T13:53:58.539+07:00","cssclasses":"","creation-time":"2025-03-11 08:48","status":"adult","tags":null,"parent":["[[dsa problems]]"]}
 ---
 
 
 - Source: https://neetcode.io/problems/two-integer-sum
 
-## My solution
+## Solution
 
 ```cpp
 class Solution {

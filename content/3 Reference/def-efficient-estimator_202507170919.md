@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Efficient Estimator","Efficient Estimator"],"created":"2025-07-24T11:50:56.317+07:00","modified":"2025-07-24T11:50:56.318+07:00","published":"2025-07-24T11:50:56.318+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Efficient Estimator","Efficient Estimator"],"created":"2025-08-16T00:08:21.419+07:00","modified":"2025-08-16T00:08:21.420+07:00","published":"2025-08-16T00:08:21.420+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

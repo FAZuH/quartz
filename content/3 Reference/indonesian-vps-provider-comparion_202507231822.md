@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Indonesian VPS Provider Comparion"],"created":"2025-07-24T11:50:56.230+07:00","modified":"2025-07-24T11:50:56.231+07:00","published":"2025-07-24T11:50:56.231+07:00","cssclasses":"","creation-time":"2025-07-23 18:22","status":"baby","tag":null,"parent":"[[self-hosting]]"}
+{"publish":true,"aliases":["Indonesian VPS Provider Comparion"],"created":"2025-08-15T13:53:58.494+07:00","modified":"2025-08-15T13:53:58.495+07:00","published":"2025-08-15T13:53:58.495+07:00","cssclasses":"","creation-time":"2025-07-23 18:22","status":"baby","tag":null,"parent":"[[self-hosting]]"}
 ---
 
 As of 2025-07-23

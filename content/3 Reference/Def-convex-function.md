@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Convex Function","Convex Function"],"created":"2025-07-24T11:50:56.190+07:00","modified":"2025-07-24T11:50:56.191+07:00","published":"2025-07-24T11:50:56.191+07:00","cssclasses":"","creation-time":"2025-07-15 07:08","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Convex Function","Convex Function"],"created":"2025-08-16T00:08:21.384+07:00","modified":"2025-08-16T00:08:21.385+07:00","published":"2025-08-16T00:08:21.385+07:00","cssclasses":"","creation-time":"2025-07-15 07:08","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

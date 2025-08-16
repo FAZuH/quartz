@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Jointly Sufficient Statistic"],"created":"2025-07-24T11:50:56.212+07:00","modified":"2025-07-24T11:50:56.213+07:00","published":"2025-07-24T11:50:56.213+07:00","cssclasses":"","creation-time":"2025-07-17 10:21","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Jointly Sufficient Statistic"],"created":"2025-08-15T13:53:58.471+07:00","modified":"2025-08-15T13:53:58.472+07:00","published":"2025-08-15T13:53:58.472+07:00","cssclasses":"","creation-time":"2025-07-17 10:21","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

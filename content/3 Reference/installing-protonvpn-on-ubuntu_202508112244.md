@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Installing ProtonVPN on Ubuntu"],"created":"2025-08-11T22:44:22.887+07:00","modified":"2025-08-12T00:53:29.913+07:00","published":"2025-08-12T00:53:29.913+07:00","cssclasses":"","creation-time":"2025-08-11 22:44","status":"baby","tag":null,"parent":"[[self-hosting]]"}
+{"publish":true,"aliases":["Installing ProtonVPN on Ubuntu"],"created":"2025-08-15T13:53:58.576+07:00","modified":"2025-08-15T13:53:58.577+07:00","published":"2025-08-15T13:53:58.577+07:00","cssclasses":"","creation-time":"2025-08-11 22:44","status":"baby","tag":null,"parent":"[[self-hosting]]"}
 ---
 
 https://protonvpn.com/support/official-linux-vpn-ubuntu

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["5.2 Convergence in Distribution.md"],"created":"2025-07-24T11:50:56.260+07:00","modified":"2025-07-24T11:50:56.261+07:00","published":"2025-07-24T11:50:56.261+07:00","cssclasses":"","creation-time":"2025-06-24 04:00","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["5.2 Convergence in Distribution.md"],"created":"2025-08-15T13:53:58.523+07:00","modified":"2025-08-15T13:53:58.524+07:00","published":"2025-08-15T13:53:58.524+07:00","cssclasses":"","creation-time":"2025-06-24 04:00","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.1\|5.1 Convergence in Probability.md]] | [[3 Reference/mathstat5.3\|5.3 Central Limit Theorem.md]] >>

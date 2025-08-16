@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Quantile","Quantile"],"created":"2025-07-24T11:50:56.251+07:00","modified":"2025-07-24T11:50:56.252+07:00","published":"2025-07-24T11:50:56.252+07:00","cssclasses":"","creation-time":"2025-07-15 06:26","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Quantile","Quantile"],"created":"2025-08-16T00:08:21.409+07:00","modified":"2025-08-16T00:08:21.410+07:00","published":"2025-08-16T00:08:21.410+07:00","cssclasses":"","creation-time":"2025-07-15 06:26","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

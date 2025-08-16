@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Definition of Probability Set Function","created":"2025-07-24T11:50:56.411+07:00","modified":"2025-07-24T11:50:56.412+07:00","published":"2025-07-24T11:50:56.412+07:00","cssclasses":"","creation-time":"2025-07-15 01:14","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":"Definition of Probability Set Function","created":"2025-08-15T13:53:58.641+07:00","modified":"2025-08-15T13:53:58.642+07:00","published":"2025-08-15T13:53:58.642+07:00","cssclasses":"","creation-time":"2025-07-15 01:14","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

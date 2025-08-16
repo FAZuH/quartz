@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.239+07:00","modified":"2025-07-24T11:50:56.240+07:00","published":"2025-07-24T11:50:56.240+07:00","tags":["content-type/conceptual","content-type/procedural","content-type/referential"],"cssclasses":"","creation-time":"2025-04-25 03:10","status":"baby","parent":["[[multivariate analysis]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.503+07:00","modified":"2025-08-15T13:53:58.504+07:00","published":"2025-08-15T13:53:58.504+07:00","tags":["content-type/conceptual","content-type/procedural","content-type/referential"],"cssclasses":"","creation-time":"2025-04-25 03:10","status":"baby","parent":["[[multivariate analysis]]"]}
 ---
 
 

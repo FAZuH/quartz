@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.425+07:00","modified":"2025-07-24T11:50:56.426+07:00","published":"2025-07-24T11:50:56.426+07:00","cssclasses":"","creation-time":"2025-06-21 02:13","status":"baby","tags":null,"parent":["[[iptables]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.659+07:00","modified":"2025-08-15T13:53:58.659+07:00","published":"2025-08-15T13:53:58.659+07:00","cssclasses":"","creation-time":"2025-06-21 02:13","status":"baby","tags":null,"parent":["[[iptables]]"]}
 ---
 
 ## Command syntax

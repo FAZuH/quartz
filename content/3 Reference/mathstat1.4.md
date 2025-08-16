@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.4 Conditional Probability and Independence"],"created":"2025-07-24T11:50:56.400+07:00","modified":"2025-07-24T11:50:56.401+07:00","published":"2025-07-24T11:50:56.401+07:00","cssclasses":"","creation-time":"2025-06-18 18:15","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["1.4 Conditional Probability and Independence"],"created":"2025-08-15T13:53:58.630+07:00","modified":"2025-08-15T13:53:58.631+07:00","published":"2025-08-15T13:53:58.631+07:00","cssclasses":"","creation-time":"2025-06-18 18:15","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat1.3\|1.3 The Probability Set Function]] | [[3 Reference/mathstat1.5\|1.5 Random Variables]] >>

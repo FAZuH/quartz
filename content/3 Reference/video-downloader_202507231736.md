@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Video Downloader","yt-dlp"],"created":"2025-07-24T11:50:56.266+07:00","modified":"2025-07-24T11:50:56.267+07:00","published":"2025-07-24T11:50:56.267+07:00","cssclasses":"","creation-time":"2025-07-23 17:36","status":"baby","tags":null,"parent":["[[software-recommendations_202507231725]]"]}
+{"publish":true,"aliases":["Video Downloader","yt-dlp"],"created":"2025-08-15T13:53:58.529+07:00","modified":"2025-08-15T13:53:58.530+07:00","published":"2025-08-15T13:53:58.530+07:00","cssclasses":"","creation-time":"2025-07-23 17:36","status":"baby","tags":null,"parent":["[[software-recommendations_202507231725]]"]}
 ---
 
 [https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file](https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file "https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file") 

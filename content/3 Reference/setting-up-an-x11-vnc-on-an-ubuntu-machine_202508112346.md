@@ -1,10 +1,11 @@
 ---
-{"publish":true,"aliases":["Setting up an x11 VNC on an Ubuntu Machine"],"created":"2025-08-11T23:46:41.986+07:00","modified":"2025-08-12T00:42:38.633+07:00","published":"2025-08-12T00:42:38.633+07:00","cssclasses":"","creation-time":"2025-08-11 23:46","status":"baby","tag":null,"parent":"[[self-hosting]]"}
+{"publish":true,"aliases":["Setting up an x11 VNC on an Ubuntu Machine"],"created":"2025-08-15T13:53:58.663+07:00","modified":"2025-08-15T13:53:58.664+07:00","published":"2025-08-15T13:53:58.664+07:00","cssclasses":"","creation-time":"2025-08-11 23:46","status":"baby","tag":null,"parent":"[[self-hosting]]"}
 ---
 
 
-
 You will be prompted for VNC password (6-8 characters) on `vncpasswd` command
+
+Because vncserver.service runs as user root, vncpasswd has to be run as sudo 
 
 ```bash
 # 1. Install deps
@@ -22,19 +23,19 @@ vncserver -kill :1 >/dev/null 2>&1 || true
 vncserver :1 -geometry 1920x1080 -depth 24 -interface $(tailscale ip --4)
 EOF
 
-sudo mkdir -p $HOME/.vnc
-sudo tee $HOME/.vnc/xstartup > /dev/null <<EOF
+mkdir -p $HOME/.vnc
+tee $HOME/.vnc/xstartup > /dev/null <<EOF
 #!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &
 EOF
 
 sudo chmod +x /usr/local/bin/vncserver-start
-sudo chmod +x $HOME/.vnc/xstartup
+chmod +x $HOME/.vnc/xstartup
 
 
 # 3. Set password
-vncpasswd
+sudo vncpasswd
 
 
 # 4. Setup firewall

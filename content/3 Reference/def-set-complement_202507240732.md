@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Set Complement"],"created":"2025-07-24T11:50:56.244+07:00","modified":"2025-07-24T11:50:56.245+07:00","published":"2025-07-24T11:50:56.245+07:00","cssclasses":"","creation-time":"2025-07-24 07:32","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Set Complement"],"created":"2025-08-15T13:53:58.507+07:00","modified":"2025-08-15T13:53:58.508+07:00","published":"2025-08-15T13:53:58.508+07:00","cssclasses":"","creation-time":"2025-07-24 07:32","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Solution of Linear System","Solution of Linear System"],"created":"2025-07-24T11:50:56.444+07:00","modified":"2025-07-24T11:50:56.445+07:00","published":"2025-07-24T11:50:56.445+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[linear algebra]]"}
+{"publish":true,"aliases":["Solution of Linear System","Solution of Linear System"],"created":"2025-08-16T00:08:21.443+07:00","modified":"2025-08-16T00:08:21.443+07:00","published":"2025-08-16T00:08:21.443+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[linear algebra]]"}
 ---
 
 

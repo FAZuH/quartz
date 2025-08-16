@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Fisher Information","Fisher Information"],"created":"2025-07-24T11:50:56.406+07:00","modified":"2025-08-05T12:27:54.627+07:00","published":"2025-08-05T12:27:54.627+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Fisher Information","Fisher Information"],"created":"2025-08-16T00:08:21.429+07:00","modified":"2025-08-16T00:08:21.430+07:00","published":"2025-08-16T00:08:21.430+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Convergence in Distribution","Convergence in Distribution"],"created":"2025-07-24T11:50:56.220+07:00","modified":"2025-07-24T11:50:56.221+07:00","published":"2025-07-24T11:50:56.221+07:00","cssclasses":"","creation-time":"2025-07-15 07:35","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Convergence in Distribution","Convergence in Distribution"],"created":"2025-08-16T00:08:21.399+07:00","modified":"2025-08-16T00:08:21.400+07:00","published":"2025-08-16T00:08:21.400+07:00","cssclasses":"","creation-time":"2025-07-15 07:35","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

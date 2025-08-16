@@ -16,18 +16,11 @@ For recent notes, see the bottom of any note.
 ## Top-level index notes
 i.e., index notes that has no parents
 - [[3 Reference/structure/computers\|computers]]
-- [[3 Reference/structure/cyber security\|cyber security]]
-- [[3 Reference/structure/file systems\|file systems]]
 - [[3 Reference/structure/finance\|finance]]
-- [[3 Reference/structure/git\|git]]
 - [[3 Reference/structure/mathematics\|mathematics]]
-- [[3 Reference/structure/network engineering\|network engineering]]
 - [[3 Reference/structure/philosophy\|philosophy]]
-- [[3 Reference/structure/rust\|rust]]
-- [[3 Reference/structure/self-hosting\|self-hosting]]
 - [[3 Reference/structure/statistics\|statistics]]
 - [[3 Reference/structure/studying\|studying]]
-- [[3 Reference/structure/system administration\|system administration]]
 - [[3 Reference/structure/time series analysis\|time series analysis]]
 
 

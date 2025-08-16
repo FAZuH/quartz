@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Size of Critical Region","Size","Significance level"],"created":"2025-07-29T13:23:36.786+07:00","modified":"2025-08-05T09:55:51.144+07:00","published":"2025-08-05T09:55:51.144+07:00","cssclasses":"","creation-time":"2025-07-29 13:23","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Size of Critical Region","Size","Significance level"],"created":"2025-08-15T13:53:58.592+07:00","modified":"2025-08-15T13:53:58.593+07:00","published":"2025-08-15T13:53:58.593+07:00","cssclasses":"","creation-time":"2025-07-29 13:23","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

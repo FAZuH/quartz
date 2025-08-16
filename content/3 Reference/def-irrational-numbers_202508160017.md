@@ -1,0 +1,13 @@
+---
+{"publish":true,"aliases":["Irrational Numbers"],"created":"2025-08-16T00:17:59.427+07:00","modified":"2025-08-16T00:19:47.324+07:00","published":"2025-08-16T00:19:47.324+07:00","cssclasses":"","creation-time":"2025-08-16 00:17","status":"baby","tag":null,"parent":"[[real analysis]]"}
+---
+
+
+## Definition
+
+**Irrational numbers** $(\mathbb Q^C)$: Defined as real numbers not in $\mathbb Q$:
+$$
+\mathbb Q^C = \mathbb R - \mathbb Q
+$$
+
+> [!tip] The word "irrational" come from the fact that they cannot be expressed as "ratios" of integers.

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Score Function","Score Function"],"created":"2025-07-24T11:50:56.225+07:00","modified":"2025-07-24T11:50:56.225+07:00","published":"2025-07-24T11:50:56.225+07:00","cssclasses":"","creation-time":"2025-07-17 09:18","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Score Function","Score Function"],"created":"2025-08-16T00:08:21.401+07:00","modified":"2025-08-16T00:08:21.402+07:00","published":"2025-08-16T00:08:21.402+07:00","cssclasses":"","creation-time":"2025-07-17 09:18","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

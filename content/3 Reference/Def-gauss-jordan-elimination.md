@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Gauss-Jordan Elimination","Gauss-Jordan Elimination"],"created":"2025-07-24T11:50:56.421+07:00","modified":"2025-07-24T11:50:56.422+07:00","published":"2025-07-24T11:50:56.422+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"baby","tag":null,"parent":"[[linear algebra]]"}
+{"publish":true,"aliases":["Gauss-Jordan Elimination","Gauss-Jordan Elimination"],"created":"2025-08-16T00:08:21.434+07:00","modified":"2025-08-16T00:08:21.435+07:00","published":"2025-08-16T00:08:21.435+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"baby","tag":null,"parent":"[[linear algebra]]"}
 ---
 
 

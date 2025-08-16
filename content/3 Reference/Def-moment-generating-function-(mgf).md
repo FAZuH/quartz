@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Moment Generating Function (mgf)","Moment Generating Function (mgf)"],"created":"2025-07-24T11:50:56.448+07:00","modified":"2025-07-24T11:50:56.449+07:00","published":"2025-07-24T11:50:56.449+07:00","cssclasses":"","creation-time":"2025-07-15 06:54","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Moment Generating Function (mgf)","Moment Generating Function (mgf)"],"created":"2025-08-16T00:08:21.444+07:00","modified":"2025-08-16T00:08:21.445+07:00","published":"2025-08-16T00:08:21.445+07:00","cssclasses":"","creation-time":"2025-07-15 06:54","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

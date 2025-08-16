@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Definition of Conditional Probability","created":"2025-07-24T11:50:56.316+07:00","modified":"2025-07-24T11:50:56.317+07:00","published":"2025-07-24T11:50:56.317+07:00","cssclasses":"","creation-time":"2025-07-15 01:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":"Definition of Conditional Probability","created":"2025-08-15T13:53:58.579+07:00","modified":"2025-08-15T13:53:58.580+07:00","published":"2025-08-15T13:53:58.580+07:00","cssclasses":"","creation-time":"2025-07-15 01:25","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

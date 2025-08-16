@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Complete Family of pdf/pmf","Complete Family of pdf/pmf"],"created":"2025-07-24T11:50:56.234+07:00","modified":"2025-07-24T11:50:56.235+07:00","published":"2025-07-24T11:50:56.235+07:00","cssclasses":"","creation-time":"2025-07-17 09:33","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Complete Family of pdf/pmf","Complete Family of pdf/pmf"],"created":"2025-08-16T00:08:21.403+07:00","modified":"2025-08-16T00:08:21.405+07:00","published":"2025-08-16T00:08:21.405+07:00","cssclasses":"","creation-time":"2025-07-17 09:33","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

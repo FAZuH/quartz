@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Almost Surely","Almost Surely"],"created":"2025-07-24T11:50:56.191+07:00","modified":"2025-07-24T11:50:56.192+07:00","published":"2025-07-24T11:50:56.192+07:00","cssclasses":"","creation-time":"2025-07-14 23:21","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Almost Surely","Almost Surely"],"created":"2025-08-16T00:08:21.386+07:00","modified":"2025-08-16T00:08:21.388+07:00","published":"2025-08-16T00:08:21.388+07:00","cssclasses":"","creation-time":"2025-07-14 23:21","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 Let

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["7.4 Completeness and Uniqueness.md"],"created":"2025-07-24T11:50:56.439+07:00","modified":"2025-07-24T11:50:56.439+07:00","published":"2025-07-24T11:50:56.439+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["7.4 Completeness and Uniqueness.md"],"created":"2025-08-15T13:53:58.704+07:00","modified":"2025-08-15T13:53:58.705+07:00","published":"2025-08-15T13:53:58.705+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat7.3\|7.3 Properties of a Sufficient Statistic.md]] | [[3 Reference/mathstat7.5\|7.5 The Exponential Class of Distributions.md]] >>

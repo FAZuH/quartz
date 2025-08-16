@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Expectation and Variance Operations"],"created":"2025-07-24T11:50:56.338+07:00","modified":"2025-07-24T11:50:56.339+07:00","published":"2025-07-24T11:50:56.339+07:00","cssclasses":"","creation-time":"2025-07-22 08:54","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Common Expectation and Variance Operations"],"created":"2025-08-15T13:53:58.601+07:00","modified":"2025-08-15T13:53:58.602+07:00","published":"2025-08-15T13:53:58.602+07:00","cssclasses":"","creation-time":"2025-07-22 08:54","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

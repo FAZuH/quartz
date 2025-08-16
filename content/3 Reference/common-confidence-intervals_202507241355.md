@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Confidence Intervals"],"created":"2025-07-24T13:55:39.580+07:00","modified":"2025-07-29T13:46:12.369+07:00","published":"2025-07-29T13:46:12.369+07:00","cssclasses":"","creation-time":"2025-07-24 13:55","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Common Confidence Intervals"],"created":"2025-08-15T13:53:58.508+07:00","modified":"2025-08-15T13:53:58.509+07:00","published":"2025-08-15T13:53:58.509+07:00","cssclasses":"","creation-time":"2025-07-24 13:55","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

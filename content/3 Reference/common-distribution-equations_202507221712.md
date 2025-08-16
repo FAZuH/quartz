@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-07-24T11:50:56.301+07:00","modified":"2025-07-31T14:13:36.507+07:00","published":"2025-07-31T14:13:36.507+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-08-15T13:53:58.567+07:00","modified":"2025-08-15T13:53:58.568+07:00","published":"2025-08-15T13:53:58.568+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 ## Notations

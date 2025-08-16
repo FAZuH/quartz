@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Likelihood Function","Likelihood Function"],"created":"2025-07-24T11:50:56.410+07:00","modified":"2025-07-24T11:50:56.410+07:00","published":"2025-07-24T11:50:56.410+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Likelihood Function","Likelihood Function"],"created":"2025-08-16T00:08:21.433+07:00","modified":"2025-08-16T00:08:21.433+07:00","published":"2025-08-16T00:08:21.433+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

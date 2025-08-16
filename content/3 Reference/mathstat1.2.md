@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.2 Sets"],"created":"2025-07-24T11:50:56.437+07:00","modified":"2025-07-24T11:50:56.438+07:00","published":"2025-07-24T11:50:56.438+07:00","cssclasses":"","creation-time":"2025-07-14 23:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["1.2 Sets"],"created":"2025-08-15T13:53:58.670+07:00","modified":"2025-08-15T13:53:58.671+07:00","published":"2025-08-15T13:53:58.671+07:00","cssclasses":"","creation-time":"2025-07-14 23:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 << [[3 Reference/mathstat1.1\|1.1 Introduction]] | [[3 Reference/mathstat1.3\|1.3 The Probability Set Function]] >>

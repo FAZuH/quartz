@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Finding the pdf of a Transformation","Transformation Technique"],"created":"2025-07-24T13:32:06.011+07:00","modified":"2025-07-24T13:34:17.139+07:00","published":"2025-07-24T13:34:17.139+07:00","cssclasses":"","creation-time":"2025-07-24 13:32","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Finding the pdf of a Transformation","Transformation Technique"],"created":"2025-08-15T13:53:58.580+07:00","modified":"2025-08-15T13:53:58.581+07:00","published":"2025-08-15T13:53:58.581+07:00","cssclasses":"","creation-time":"2025-07-24 13:32","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Homogeneous Linear System","Homogeneous Linear System"],"created":"2025-07-24T11:50:56.449+07:00","modified":"2025-07-24T11:50:56.449+07:00","published":"2025-07-24T11:50:56.449+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"baby","tags":null,"parent":["[[linear algebra]]"]}
+{"publish":true,"aliases":["Homogeneous Linear System","Homogeneous Linear System"],"created":"2025-08-16T00:08:21.445+07:00","modified":"2025-08-16T00:08:21.446+07:00","published":"2025-08-16T00:08:21.446+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"baby","tags":null,"parent":["[[linear algebra]]"]}
 ---
 
 

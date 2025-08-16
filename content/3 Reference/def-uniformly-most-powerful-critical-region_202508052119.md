@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Uniformly Most Powerful Critical Region","UMP Critical Region","UMPCR"],"created":"2025-08-05T21:19:33.650+07:00","modified":"2025-08-08T00:10:37.459+07:00","published":"2025-08-08T00:10:37.459+07:00","cssclasses":"","creation-time":"2025-08-05 21:19","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Uniformly Most Powerful Critical Region","UMP Critical Region","UMPCR"],"created":"2025-08-15T13:53:58.645+07:00","modified":"2025-08-15T13:53:58.645+07:00","published":"2025-08-15T13:53:58.645+07:00","cssclasses":"","creation-time":"2025-08-05 21:19","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

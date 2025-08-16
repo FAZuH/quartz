@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Using git-crypt to Store Encrypted Files in a Git Repository"],"created":"2025-07-24T11:50:56.405+07:00","modified":"2025-07-24T11:50:56.406+07:00","published":"2025-07-24T11:50:56.406+07:00","cssclasses":"","creation-time":"2025-07-22 16:28","status":"baby","tag":null,"parent":"[[cyber security]]"}
+{"publish":true,"aliases":["Using git-crypt to Store Encrypted Files in a Git Repository"],"created":"2025-08-15T13:53:58.636+07:00","modified":"2025-08-15T13:53:58.636+07:00","published":"2025-08-15T13:53:58.636+07:00","cssclasses":"","creation-time":"2025-07-22 16:28","status":"baby","tag":null,"parent":"[[cyber security]]"}
 ---
 
 ## Assumptions

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.280+07:00","modified":"2025-07-31T10:40:00.681+07:00","published":"2025-07-31T10:40:00.681+07:00","cssclasses":"","creation-time":"2025-02-28 16:28","status":"baby","tag":null,"parent":["[[software architecture]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.542+07:00","modified":"2025-08-16T10:54:00.034+07:00","published":"2025-08-16T10:54:00.034+07:00","cssclasses":"","creation-time":"2025-02-28 16:28","status":"baby","tags":null,"parent":["[[object oriented programming]]"]}
 ---
 
 

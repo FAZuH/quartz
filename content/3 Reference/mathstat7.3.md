@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["7.3 Properties of a Sufficient Statistic.md"],"created":"2025-07-24T11:50:56.271+07:00","modified":"2025-07-24T11:50:56.271+07:00","published":"2025-07-24T11:50:56.271+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["7.3 Properties of a Sufficient Statistic.md"],"created":"2025-08-15T13:53:58.533+07:00","modified":"2025-08-15T13:53:58.534+07:00","published":"2025-08-15T13:53:58.534+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

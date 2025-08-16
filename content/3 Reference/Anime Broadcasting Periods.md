@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":[],"created":"2025-07-24T11:50:56.229+07:00","modified":"2025-07-24T11:50:56.230+07:00","published":"2025-07-24T11:50:56.230+07:00","cssclasses":"","creation-time":"2025-04-16 03:19","status":"baby","tags":null,"parent":["[[anime]]"]}
+{"publish":true,"aliases":[],"created":"2025-08-15T13:53:58.494+07:00","modified":"2025-08-15T13:53:58.494+07:00","published":"2025-08-15T13:53:58.494+07:00","cssclasses":"","creation-time":"2025-04-16 03:19","status":"baby","tags":null,"parent":["[[anime]]"]}
 ---
 
 

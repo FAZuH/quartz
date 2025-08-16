@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.330+07:00","modified":"2025-07-24T11:50:56.331+07:00","published":"2025-07-24T11:50:56.331+07:00","tags":["content-type/combined"],"cssclasses":"","creation-time":"2025-05-09 12:24","status":"baby","parent":["[[multivariate analysis]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.594+07:00","modified":"2025-08-15T13:53:58.594+07:00","published":"2025-08-15T13:53:58.594+07:00","tags":["content-type/combined"],"cssclasses":"","creation-time":"2025-05-09 12:24","status":"baby","parent":["[[multivariate analysis]]"]}
 ---
 
 ## About correspondence analysis

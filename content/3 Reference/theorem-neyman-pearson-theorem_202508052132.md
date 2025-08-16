@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Neyman-Pearson Theorem"],"created":"2025-08-05T21:32:34.925+07:00","modified":"2025-08-07T16:02:24.493+07:00","published":"2025-08-07T16:02:24.493+07:00","cssclasses":"","creation-time":"2025-08-05 21:32","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Neyman-Pearson Theorem"],"created":"2025-08-15T13:53:58.627+07:00","modified":"2025-08-15T13:53:58.627+07:00","published":"2025-08-15T13:53:58.627+07:00","cssclasses":"","creation-time":"2025-08-05 21:32","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 ## Theorem

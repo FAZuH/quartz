@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Random Variable","Random Variable"],"created":"2025-07-24T11:50:56.210+07:00","modified":"2025-07-24T11:50:56.211+07:00","published":"2025-07-24T11:50:56.211+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-07-14 23:58","status":"baby","parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Random Variable","Random Variable"],"created":"2025-08-16T00:08:21.397+07:00","modified":"2025-08-16T00:08:21.398+07:00","published":"2025-08-16T00:08:21.398+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-07-14 23:58","status":"baby","parent":["[[mathematical statistics]]"]}
 ---
 
 ## Definition

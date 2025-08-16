@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Row Echelon Form (REF)","Row Echelon Form (REF)"],"created":"2025-07-24T11:50:56.458+07:00","modified":"2025-07-24T11:50:56.459+07:00","published":"2025-07-24T11:50:56.459+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"baby","tags":null,"parent":["[[linear algebra]]"]}
+{"publish":true,"aliases":["Row Echelon Form (REF)","Row Echelon Form (REF)"],"created":"2025-08-16T00:08:21.448+07:00","modified":"2025-08-16T00:08:21.449+07:00","published":"2025-08-16T00:08:21.449+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"baby","tags":null,"parent":["[[linear algebra]]"]}
 ---
 
 

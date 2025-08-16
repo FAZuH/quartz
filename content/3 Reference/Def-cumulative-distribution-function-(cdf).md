@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Cumulative Distribution Function (cdf)","Cumulative Distribution Function (cdf)"],"created":"2025-07-24T11:50:56.299+07:00","modified":"2025-07-24T11:50:56.300+07:00","published":"2025-07-24T11:50:56.300+07:00","cssclasses":"","creation-time":"2025-07-15 01:38","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Cumulative Distribution Function (cdf)","Cumulative Distribution Function (cdf)"],"created":"2025-08-16T00:08:21.413+07:00","modified":"2025-08-16T00:08:21.414+07:00","published":"2025-08-16T00:08:21.414+07:00","cssclasses":"","creation-time":"2025-07-15 01:38","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

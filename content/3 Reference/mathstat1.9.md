@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.9 Some Special Expectations.md"],"created":"2025-07-24T11:50:56.405+07:00","modified":"2025-07-24T11:50:56.405+07:00","published":"2025-07-24T11:50:56.405+07:00","cssclasses":"","creation-time":"2025-06-24 01:28","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["1.9 Some Special Expectations.md"],"created":"2025-08-15T13:53:58.635+07:00","modified":"2025-08-15T13:53:58.636+07:00","published":"2025-08-15T13:53:58.636+07:00","cssclasses":"","creation-time":"2025-06-24 01:28","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Monotone Likelihood Ration (mlr)","mlr"],"created":"2025-08-07T16:04:40.447+07:00","modified":"2025-08-08T04:46:11.995+07:00","published":"2025-08-08T04:46:11.995+07:00","cssclasses":"","creation-time":"2025-08-07 16:04","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Monotone Likelihood Ration (mlr)","mlr"],"created":"2025-08-15T13:53:58.483+07:00","modified":"2025-08-15T13:53:58.484+07:00","published":"2025-08-15T13:53:58.484+07:00","cssclasses":"","creation-time":"2025-08-07 16:04","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 

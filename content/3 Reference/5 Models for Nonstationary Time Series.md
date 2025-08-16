@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.446+07:00","modified":"2025-07-24T11:50:56.447+07:00","published":"2025-07-24T11:50:56.447+07:00","cssclasses":"","creation-time":"2025-03-27 17:19","status":"baby","tags":null,"parent":["[[time series analysis]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.713+07:00","modified":"2025-08-15T13:53:58.713+07:00","published":"2025-08-15T13:53:58.713+07:00","cssclasses":"","creation-time":"2025-03-27 17:19","status":"baby","tags":null,"parent":["[[time series analysis]]"]}
 ---
 
 

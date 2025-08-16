@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.339+07:00","modified":"2025-07-24T11:50:56.339+07:00","published":"2025-07-24T11:50:56.339+07:00","cssclasses":"","creation-time":"2025-06-24 01:32","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.602+07:00","modified":"2025-08-15T13:53:58.603+07:00","published":"2025-08-15T13:53:58.603+07:00","cssclasses":"","creation-time":"2025-06-24 01:32","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 ## Performing MLE

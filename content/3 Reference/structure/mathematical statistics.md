@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.355+07:00","modified":"2025-08-07T16:04:43.457+07:00","published":"2025-08-07T16:04:43.457+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.679+07:00","modified":"2025-08-15T13:53:58.680+07:00","published":"2025-08-15T13:53:58.680+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
 ---
 
 - *italic*: Definition

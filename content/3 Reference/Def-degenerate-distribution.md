@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Definition of Degenerate Distribution"],"created":"2025-07-24T11:50:56.253+07:00","modified":"2025-07-24T11:50:56.253+07:00","published":"2025-07-24T11:50:56.253+07:00","cssclasses":"","creation-time":"2025-06-25 23:22","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
+{"publish":true,"aliases":["Degenerate Distribution"],"created":"2025-08-16T00:08:21.410+07:00","modified":"2025-08-16T00:08:21.411+07:00","published":"2025-08-16T00:08:21.411+07:00","cssclasses":"","creation-time":"2025-06-25 23:22","status":"baby","tags":null,"parent":["[[mathematical statistics]]"]}
 ---
 
 A probability distribution is called a **degenerate distribution** if it is 1 at a point, 0 elsewhere.

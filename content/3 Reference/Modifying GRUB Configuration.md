@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-24T11:50:56.416+07:00","modified":"2025-07-24T11:50:56.417+07:00","published":"2025-07-24T11:50:56.417+07:00","cssclasses":"","creation-time":"2025-03-13 19:15","status":"adult","tags":null,"parent":["[[linux]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.650+07:00","modified":"2025-08-15T13:53:58.651+07:00","published":"2025-08-15T13:53:58.651+07:00","cssclasses":"","creation-time":"2025-03-13 19:15","status":"adult","tags":null,"parent":["[[linux]]"]}
 ---
 
 

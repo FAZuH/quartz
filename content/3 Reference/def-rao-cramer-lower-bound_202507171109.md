@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Rao-Cramer Lower Bound"],"created":"2025-07-24T11:50:56.235+07:00","modified":"2025-08-08T07:19:55.906+07:00","published":"2025-08-08T07:19:55.906+07:00","cssclasses":"","creation-time":"2025-07-17 11:09","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
+{"publish":true,"aliases":["Rao-Cramer Lower Bound"],"created":"2025-08-15T13:53:58.498+07:00","modified":"2025-08-15T13:53:58.499+07:00","published":"2025-08-15T13:53:58.499+07:00","cssclasses":"","creation-time":"2025-07-17 11:09","status":"baby","tag":null,"parent":"[[mathematical statistics]]"}
 ---
 
 

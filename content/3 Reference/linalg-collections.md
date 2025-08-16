@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Collections"],"created":"2025-07-24T11:50:56.306+07:00","modified":"2025-07-24T11:50:56.307+07:00","published":"2025-07-24T11:50:56.307+07:00","cssclasses":"","creation-time":"2025-07-15 03:00","status":"baby","tags":null,"parent":["[[linear algebra]]"]}
+{"publish":true,"aliases":["Collections"],"created":"2025-08-15T13:53:58.571+07:00","modified":"2025-08-15T13:53:58.571+07:00","published":"2025-08-15T13:53:58.571+07:00","cssclasses":"","creation-time":"2025-07-15 03:00","status":"baby","tags":null,"parent":["[[linear algebra]]"]}
 ---
 
 
