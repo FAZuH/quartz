@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.571+07:00","modified":"2025-08-16T21:16:49.559+07:00","published":"2025-08-16T21:16:49.559+07:00","cssclasses":"","creation-time":"2025-02-27 23:45","status":"elder","tags":null,"parent":["[[Tree]]","[[algorithm]]"]}
+{"publish":true,"created":"2025-08-17T21:50:57.828+07:00","modified":"2025-08-17T23:28:27.825+07:00","published":"2025-08-17T23:28:27.825+07:00","cssclasses":"","creation-time":"2025-02-27 23:45","status":"elder","tags":null,"parent":["[[Tree]]"]}
 ---
 
 
@@ -68,7 +68,7 @@ Analogous to a binary search algorithm, we traverse left if our value (the value
 
 During traversal, if we ended up in a null, we can conclude that there is no value equal to our value in the binary search tree.
 
-## Code
+## Implementation
 
 ```python
 from dataclasses import dataclass

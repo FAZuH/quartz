@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.592+07:00","modified":"2025-08-15T13:53:58.592+07:00","published":"2025-08-15T13:53:58.592+07:00","cssclasses":"","creation-time":"2025-06-21 01:47","status":"baby","tags":null,"parent":["[[iptables]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.592+07:00","modified":"2025-08-23T10:18:15.179+07:00","published":"2025-08-23T10:18:15.179+07:00","cssclasses":"","creation-time":"2025-06-21 01:47","status":"baby","tags":null,"parent":["[[iptables]]"]}
 ---
 
 
@@ -10,11 +10,12 @@
 - NAT: Provide network address translation (NAT)
 	- SNAT: Set source IP of outgoing packets statically
 		- Private LAN accessing the internet via a public IP
-	    - VPNs hiding the clients' IP
-	- DNAT: Set destionation IP of incoming packets statically
+		- VPNs hiding the clients' IP
+		- MASQUERADE: Set source IP of outgoing packets dynamically
+			- Laptop sharing internet over WI-FI (IP changes via DHCP)
+	- DNAT: Set destination IP of incoming packets statically
 		- Port forwarding to a web server inside a LAN
-	- MASQUERADE: Set source IP of outgoing packets dynamically
-		- Laptop sharing internet over WI-FI (IP changes via DHCP)
+		- Reverse proxy to a service behind a private network
 - MANGLE: Modify [packet headers](https://www.geeksforgeeks.org/computer-networks/tcp-ip-packet-format/), e.g., TTL, protocol, TOS, etc.
 - RAW: Used for connection tracking
 - SECURITY: Used to set internal SELinux labels

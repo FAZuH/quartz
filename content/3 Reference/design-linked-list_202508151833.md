@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Design Linked List"],"created":"2025-08-16T11:25:38.139+07:00","modified":"2025-08-16T11:25:38.140+07:00","published":"2025-08-16T11:25:38.140+07:00","cssclasses":"","creation-time":"2025-08-15 18:33","status":"baby","tag":null,"parent":"[[list_202508150439]]"}
+{"publish":true,"aliases":["Design Linked List"],"created":"2025-08-16T11:25:38.139+07:00","modified":"2025-08-17T23:24:29.940+07:00","published":"2025-08-17T23:24:29.940+07:00","cssclasses":"","creation-time":"2025-08-15 18:33","status":"baby","tags":null,"parent":["[[dsa-problems_202508172322|dsa problems]]"]}
 ---
 
 https://leetcode.com/problems/design-linked-list/

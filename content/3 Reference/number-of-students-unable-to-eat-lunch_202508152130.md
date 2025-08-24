@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Number of Students Unable to Eat Lunch"],"created":"2025-08-16T11:25:38.133+07:00","modified":"2025-08-16T11:25:38.134+07:00","published":"2025-08-16T11:25:38.134+07:00","cssclasses":"","creation-time":"2025-08-15 21:30","status":"baby","tag":null,"parent":"[[list_202508150439]]"}
+{"publish":true,"aliases":["Number of Students Unable to Eat Lunch"],"created":"2025-08-16T11:25:38.133+07:00","modified":"2025-08-17T23:24:38.525+07:00","published":"2025-08-17T23:24:38.525+07:00","cssclasses":"","creation-time":"2025-08-15 21:30","status":"baby","tags":null,"parent":["[[dsa-problems_202508172322|dsa problems]]"]}
 ---
 
 ## Solution

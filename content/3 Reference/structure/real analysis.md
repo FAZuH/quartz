@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.694+07:00","modified":"2025-08-16T01:09:17.964+07:00","published":"2025-08-16T01:09:17.964+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-02 02:37","parent":["[[mathematics]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.694+07:00","modified":"2025-08-17T19:03:04.643+07:00","published":"2025-08-17T19:03:04.643+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-02 02:37","parent":["[[mathematics]]"],"PassFrontmatter":true}
 ---
 
 
@@ -13,6 +13,8 @@
 	- *[[3 Reference/def-set-union_202507240734\|Set Union]]*
 	- *[[3 Reference/Definition of Set Intersection\|Set Intersection]]*
 	- *[[3 Reference/def-set-complement_202507240732\|Set Complement]]*
+	- *[[3 Reference/def-empty-set_202508171902\|Empty Set]]*
+	- *[[3 Reference/def-disjoint-sets_202508171903\|Disjoint Sets]]*
 
 ### Chapter 2
 - [[3 Reference/2.1 The Algebraic and Order Properties of R\|2.1 The Algebraic and Order Properties of R]]

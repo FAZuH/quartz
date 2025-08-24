@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Computers"],"created":"2025-08-15T13:53:58.701+07:00","modified":"2025-08-16T21:31:51.701+07:00","published":"2025-08-16T21:31:51.701+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
+{"publish":true,"aliases":["Computers"],"created":"2025-08-15T13:53:58.701+07:00","modified":"2025-08-23T10:30:57.633+07:00","published":"2025-08-23T10:30:57.633+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
 ---
 
 
@@ -25,6 +25,7 @@
 - [[3 Reference/structure/self-hosting]]
 - [[3 Reference/structure/software architecture]]
 - [[3 Reference/structure/system administration]]
+- [[3 Reference/structure/docker_202508231030\|docker]]
 
 **Programming languages**
 - [[3 Reference/structure/rust]]

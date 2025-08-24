@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Valid Parantheses"],"created":"2025-08-16T11:25:38.112+07:00","modified":"2025-08-16T11:25:38.120+07:00","published":"2025-08-16T11:25:38.120+07:00","cssclasses":"","creation-time":"2025-08-15 02:52","status":"baby","tags":null,"parent":["[[list_202508150439|List]]"]}
+{"publish":true,"aliases":["Valid Parantheses"],"created":"2025-08-16T11:25:38.112+07:00","modified":"2025-08-17T23:22:50.378+07:00","published":"2025-08-17T23:22:50.378+07:00","cssclasses":"","creation-time":"2025-08-15 02:52","status":"baby","tags":null,"parent":["[[dsa-problems_202508172322|dsa problems]]"]}
 ---
 
 https://neetcode.io/problems/validate-parentheses?list=neetcode150

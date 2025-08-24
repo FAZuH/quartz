@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.535+07:00","modified":"2025-08-15T13:53:58.536+07:00","published":"2025-08-15T13:53:58.536+07:00","cssclasses":"","creation-time":"2025-02-28 00:09","status":"adult","tags":null,"parent":["[[Graph]]","[[algorithm]]"]}
+{"publish":true,"created":"2025-08-17T21:50:57.823+07:00","modified":"2025-08-17T21:50:57.824+07:00","published":"2025-08-17T21:50:57.824+07:00","cssclasses":"","creation-time":"2025-02-28 00:09","status":"adult","tags":null,"parent":["[[Graph]]","[[algorithm]]"]}
 ---
 
 
@@ -14,7 +14,7 @@ The idea is that as we traverse through the verteces, we also keep track the pat
     visited
     
 
-## Code
+## Implementation
 
 ```python
   def bfs_pathfind(self, start: _Vertex, target: _Vertex) -> list[_Vertex] | None:

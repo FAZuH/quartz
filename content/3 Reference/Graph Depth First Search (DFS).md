@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.541+07:00","modified":"2025-08-15T13:53:58.542+07:00","published":"2025-08-15T13:53:58.542+07:00","cssclasses":"","creation-time":"2025-02-27 23:44","status":"adult","tags":null,"parent":["[[Graph]]","[[algorithm]]"]}
+{"publish":true,"created":"2025-08-17T21:50:57.825+07:00","modified":"2025-08-17T21:50:57.826+07:00","published":"2025-08-17T21:50:57.826+07:00","cssclasses":"","creation-time":"2025-02-27 23:44","status":"adult","tags":null,"parent":["[[Graph]]","[[algorithm]]"]}
 ---
 
 
@@ -49,7 +49,7 @@ There are 2 different approaches to implement depth first search in graphs: **st
 
 ### Recursive
 
-## Code
+## Implementation
 
 
 To see the complete code, go to [Code](https://www.notion.so/Code-16fa55f037f280108376c14e88852d4c?pvs=21)

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.542+07:00","modified":"2025-08-15T13:53:58.542+07:00","published":"2025-08-15T13:53:58.542+07:00","cssclasses":"","creation-time":"2025-02-28 00:06","status":"adult","tags":null,"parent":["[[Graph]]","[[algorithm]]"]}
+{"publish":true,"created":"2025-08-17T21:50:57.826+07:00","modified":"2025-08-17T23:40:41.657+07:00","published":"2025-08-17T23:40:41.657+07:00","cssclasses":"","creation-time":"2025-02-28 00:06","status":"adult","tags":null,"parent":["[[3 Reference/Graph]]"]}
 ---
 
 
@@ -26,7 +26,7 @@ DFS vs BFS
 
 ![[assets/BFS vs DFS.png|300]]
 
-## Algorithms
+## Algorithm
 
 There is one primary approach to implement a breadth first search for graphs, that is, using a queue.
 
@@ -40,9 +40,9 @@ There is one primary approach to implement a breadth first search for graphs, th
 5. For each adjacent vertex of the current vertex:
 6. Add the adjacent vertex into the queue.
 
-## Code
+## Implementation
 
-To see the complete code, go to [Code](https://www.notion.so/Code-16fa55f037f280108376c14e88852d4c?pvs=21)
+To see the complete code, go to [[Graph]]
 
 ```python
     def bfs(self, start: _Vertex) -> list[_Vertex]:

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.643+07:00","modified":"2025-08-16T21:16:49.537+07:00","published":"2025-08-16T21:16:49.537+07:00","cssclasses":"","creation-time":"2025-02-27 23:31","status":"adult","tags":null,"parent":["[[Tree]]"]}
+{"publish":true,"created":"2025-08-17T21:50:57.830+07:00","modified":"2025-08-18T11:44:02.507+07:00","published":"2025-08-18T11:44:02.507+07:00","cssclasses":"","creation-time":"2025-02-27 23:31","status":"adult","tags":null,"parent":["[[Tree]]","[[algorithm]]"]}
 ---
 
 
@@ -26,7 +26,7 @@ Algorithm:
 	4. Print the node.
 	5. Add nodes left and right of the dequeued node to the queue.
 
-## Code
+## Implementation
 
 ```python
 type _Node = Node | None

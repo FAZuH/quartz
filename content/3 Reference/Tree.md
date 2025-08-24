@@ -1,13 +1,12 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.664+07:00","modified":"2025-08-16T21:18:25.204+07:00","published":"2025-08-16T21:18:25.204+07:00","cssclasses":"","creation-time":"2025-02-27 23:29","status":"adult","tags":null,"parent":["[[data structure]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.664+07:00","modified":"2025-08-18T11:44:18.777+07:00","published":"2025-08-18T11:44:18.777+07:00","cssclasses":"","creation-time":"2025-02-27 23:29","status":"adult","tags":null,"parent":["[[data structure]]"]}
 ---
 
+## Definition
 
 Non-linear data structure where nodes are organized in a hierarchy.
 
-## Notes
-
-- [[3 Reference/Operations in Binary Search Tree\|Operations in Binary Search Tree]]
+![[assets/Treedatastructure.png]]
 
 ## Terms
 
@@ -38,3 +37,11 @@ class Node[T]:
     left: _Node = None
     right: _Node = None
 ```
+
+## Implementation
+
+See [[3 Reference/Operations in Binary Search Tree]]
+
+## Algorithms
+
+![[3 Reference/structure/algorithm#Tree\|Tree]]
