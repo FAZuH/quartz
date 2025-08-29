@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.684+07:00","modified":"2025-08-16T01:21:50.415+07:00","published":"2025-08-16T01:21:50.415+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.684+07:00","modified":"2025-08-27T18:58:33.976+07:00","published":"2025-08-27T18:58:33.976+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
 ---
 
 ## Index
@@ -19,4 +19,3 @@
 - [[3 Reference/Definition of Corollary\|Definition of Corollary]]
 - [[3 Reference/Geometric Progression\|Geometric Progression]]
 - [[3 Reference/Quadratic Formula\|Quadratic Formula]]
-

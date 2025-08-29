@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.558+07:00","modified":"2025-08-15T13:53:58.559+07:00","published":"2025-08-15T13:53:58.559+07:00","cssclasses":"","creation-time":"2025-02-28 16:51","status":"adult","tags":null,"parent":["[[database]]"]}
+{"publish":true,"created":"2025-08-15T13:53:58.558+07:00","modified":"2025-08-28T05:47:21.917+07:00","published":"2025-08-28T05:47:21.917+07:00","cssclasses":"","creation-time":"2025-02-28 16:51","status":"adult","tags":null,"parent":["[[database]]"]}
 ---
 
 
@@ -20,7 +20,7 @@ Definitions:
 
 1. Don't use **row order to convey information**.
 2. Don't **mix data types** within the same column.
-3. Don't have a table without a [[3 Reference/Working with Multiple Tables#Primary key\|primary key]]/[[3 Reference/Working with Multiple Tables#Foreign key\|foreign key]].
+3. Don't have a table without a [[3 Reference/SQL Query for Multiple Tables#Primary key\|primary key]]/[[3 Reference/SQL Query for Multiple Tables#Foreign key\|foreign key]].
 4. Don't have **repeating groups**.
 5. Don't hold **more than 1 value** in 1 cell.
 

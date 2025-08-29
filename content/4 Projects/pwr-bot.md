@@ -1,0 +1,11 @@
+---
+{"publish":true,"aliases":["pwr-bot"],"created":"2025-07-23T18:48:54.875+07:00","modified":"2025-08-11T17:32:13.284+07:00","published":"2025-08-11T17:32:13.284+07:00","cssclasses":"","creation-time":"2025-07-23 18:48","status":"baby","tags":null,"parent":null}
+---
+
+- GitHub: https://github.com/FAZuH/pwr-bot
+
+## Architecture
+
+- [[4 Projects/sources_202507311343\|Sources]]
+- **Diagram**
+![[assets/pwrbotarchitecture.excalidraw\|1250]]
