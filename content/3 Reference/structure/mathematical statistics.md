@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Introduction to Mathematical Statistics"],"created":"2025-08-15T13:53:58.679+07:00","modified":"2025-09-09T11:07:28.823+07:00","published":"2025-09-09T11:07:28.823+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]","[[book-summaries|book summaries]]"],"PassFrontmatter":true}
+{"publish":true,"aliases":["Introduction to Mathematical Statistics"],"created":"2025-08-15T13:53:58.679+07:00","modified":"2025-09-09T16:02:45.352+07:00","published":"2025-09-09T16:02:45.352+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]","[[book-summaries|book summaries]]"],"PassFrontmatter":true,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). _Introduction to Mathematical Statistics_ (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
 ---
 
 - *italic*: Definition
