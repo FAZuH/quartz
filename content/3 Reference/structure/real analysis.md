@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.694+07:00","modified":"2025-08-17T19:03:04.643+07:00","published":"2025-08-17T19:03:04.643+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-02 02:37","parent":["[[mathematics]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.694+07:00","modified":"2025-09-09T11:06:10.622+07:00","published":"2025-09-09T11:06:10.622+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-02 02:37","parent":["[[mathematics]]","[[book-summaries|book summaries]]"],"PassFrontmatter":true}
 ---
 
 

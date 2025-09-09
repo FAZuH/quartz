@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-07-10T08:50:11.917+07:00","modified":"2025-07-17T09:35:57.983+07:00","published":"2025-07-17T09:35:57.983+07:00","cssclasses":"","creation-time":"2025-07-10 10:43","status":"baby","tags":null,"parent":["[[statistika matematika 2]]"]}
+{"publish":true,"created":"2025-07-10T08:50:11.917+07:00","modified":"2025-09-07T18:17:45.316+07:00","published":"2025-09-07T18:17:45.316+07:00","cssclasses":"","creation-time":"2025-07-10 10:43","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
 ---
 
 

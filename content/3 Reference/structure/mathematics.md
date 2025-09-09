@@ -1,12 +1,14 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.684+07:00","modified":"2025-08-27T18:58:33.976+07:00","published":"2025-08-27T18:58:33.976+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.684+07:00","modified":"2025-09-09T13:05:56.826+07:00","published":"2025-09-09T13:05:56.826+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
 ---
 
 ## Index
+- [[3 Reference/structure/econometrics\|econometrics]]
 - [[3 Reference/structure/linear algebra\|linear algebra]]
+- [[3 Reference/structure/linear-model\|linear model]]
 - [[3 Reference/structure/logic and proofing\|logic and proofing]]
-- [[3 Reference/structure/real analysis\|real analysis]]
 - [[3 Reference/structure/mathematical statistics]]
+- [[3 Reference/structure/real analysis\|real analysis]]
 
 ## Notes
 **Sets**

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.679+07:00","modified":"2025-08-15T13:53:58.680+07:00","published":"2025-08-15T13:53:58.680+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]"],"PassFrontmatter":true}
+{"publish":true,"aliases":["Introduction to Mathematical Statistics"],"created":"2025-08-15T13:53:58.679+07:00","modified":"2025-09-09T11:07:28.823+07:00","published":"2025-09-09T11:07:28.823+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","parent":["[[mathematics]]","[[book-summaries|book summaries]]"],"PassFrontmatter":true}
 ---
 
 - *italic*: Definition
@@ -47,7 +47,12 @@ If you're looking for a summaries, you may be interested in [[3 Reference/struct
 	- *[[3 Reference/Def-characteristic-function\|Characteristic Function]]*
 	- *[[3 Reference/Def-moment-generating-function-(mgf)\|Moment Generating Function (mgf)]]*
 - [[3 Reference/mathstat1.10\|1.10 Important Inequalities]]
+	- **[[3 Reference/theorem-existence-of-lower-order-moments_202509071843\|Existence of Lower Order Moments]]**
+	- **[[3 Reference/theorem-markov's-inequality_202509071843\|Markov's Inequality]]**
+	- **[[3 Reference/theorem-chebyshev's-inequality_202509071843\|Chebyshev's Inequality]]**
 	- *[[3 Reference/Def-convex-function\|Convex Function]]*
+	- **[[3 Reference/theorem-jensen's-inequality_202509071845\|Jensen's Inequality]]**
+
 
 **Chapter 2: Multivariate distributions**
 - [[3 Reference/mathstat2.1\|2.1 Distributions of Two Random Variables]]

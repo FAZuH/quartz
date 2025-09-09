@@ -1,10 +1,11 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.690+07:00","modified":"2025-08-24T08:49:40.444+07:00","published":"2025-08-24T08:49:40.444+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-04-17 19:13","status":"baby","parent":["[[computers]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-08-15T13:53:58.690+07:00","modified":"2025-08-31T23:50:25.097+07:00","published":"2025-08-31T23:50:25.097+07:00","tags":["type/index"],"cssclasses":"","creation-time":"2025-04-17 19:13","status":"baby","parent":["[[computers]]"],"PassFrontmatter":true}
 ---
 
 
 **Conceptual**
 - [[3 Reference/nat-(network-address-translation)_202508240849\|NAT (Network Address Translation)]]
+- [[3 Reference/tcp-3-way-handshake-process_202508312350\|TCP 3-way Handshake Process]]
 
 **Procedural**
 - [Connecting to a Hidden WiFi](Connecting%20to%20a%20Hidden%20WiFi.md)
