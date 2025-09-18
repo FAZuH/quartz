@@ -1,0 +1,16 @@
+---
+{"publish":true,"aliases":["Algebraic Properties of Dot Product"],"created":"2025-10-01T09:17:01.525+07:00","modified":"2025-10-02T02:45:17.556+07:00","published":"2025-10-02T02:45:17.556+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 09:17","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+---
+
+
+## Theorem
+
+Let
+- $\mathbf{u},\mathbf{v},\mathbf{w}$ : Vectors in $R^n$
+- $k$ : Any [[3 Reference/Def-matrix\|scalar]]
+
+Then
+- $\mathbf{u}\cdot \mathbf{v}=\mathbf{v}\cdot \mathbf{u}$ (Symmetric property)
+- $\mathbf{u}\cdot(\mathbf{v}+\mathbf{w})=\mathbf{u}\cdot \mathbf{v}+\mathbf{u}\cdot \mathbf{w}$ (Distributive property)
+- $k(\mathbf{u}\cdot \mathbf{v})=(k\mathbf{u})\cdot \mathbf{v}$ (Homogeneity property)
+-  $\mathbf{v}\cdot \mathbf{v}\geq 0$. $\mathbf{v}\cdot \mathbf{v}=0\iff \mathbf{v}=\mathbf{0}$ (Positivity property)
