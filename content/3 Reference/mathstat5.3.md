@@ -1,34 +1,11 @@
 ---
-{"publish":true,"aliases":["5.3 Central Limit Theorem.md"],"created":"2025-09-13T18:59:05.180+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-02 12:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.3 Central Limit Theorem.md"],"created":"2025-09-13T18:59:05.180+07:00","modified":"2025-09-19T09:46:07.513+07:00","published":"2025-09-19T09:46:07.513+07:00","cssclasses":"","creation-time":"2025-07-02 12:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] | [[3 Reference/mathstat5.4\|5.4 Extensions to Multivariate Distributions.md]] >>
 
 ## Theorem 5.3.1: Central limit theorem
-> Let
-> - $X_{1}\dots X_{n}$ : Observations of a [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|random sample]], with
-> 	- Common mean $\mu$
-> 	- Common variance $\sigma^2\in \mathbb{P}$
-> 
-> If
-> $$ \begin{align}
-> Y_{n} & = \frac{ \sum_{i=1}^n X_{i} - n\mu }{\sqrt{ n }\sigma} \\
->  & = \frac{\sqrt{ n }(\bar{X}_{n}-\mu)}{\sigma}
-> \end{align} $$
-> 
-> Then
-> $$ Y_{n}\xrightarrow D N(0,1) $$
-
-> [!note] 
-> Recall that the notation $Y_{n}\xrightarrow D N(0,1)$ was introduced in [[3 Reference/mathstat5.2#^convergence-to-dist-notation\|convergence in distribution's remark]].
-> 
-> We often state the central limit theorem as:
-> $$
-> \sqrt{ n }(\bar{X}-\mu) \to N(0,\sigma^2)
-> $$
-> 
-> One of the key applications of this theorem is for statistical inference, as shown in Example 5.3.1-5.3.6 in the source book.
-
+![[3 Reference/theorem-central-limit-theorem_202509190924#Theorem]]
 
 ## Exercise
 

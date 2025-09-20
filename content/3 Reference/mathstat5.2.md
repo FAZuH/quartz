@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["5.2 Convergence in Distribution.md"],"created":"2025-09-13T18:59:05.041+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-06-24 04:00","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.2 Convergence in Distribution.md"],"created":"2025-09-13T18:59:05.041+07:00","modified":"2025-09-19T10:35:01.735+07:00","published":"2025-09-19T10:35:01.735+07:00","cssclasses":"","creation-time":"2025-06-24 04:00","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.1\|5.1 Convergence in Probability.md]] | [[3 Reference/mathstat5.3\|5.3 Central Limit Theorem.md]] >>
@@ -196,6 +196,9 @@
 > $$
 
 ## Proposition 5.2.16
+> If $$\lim_{ n \to \infty }\phi(n)=0$$
+>
+> Then
 > $$
 > \begin{align}
 > \lim_{ n \to \infty } \left[ 1+\frac{b}{n} + \frac{\phi(n)}{n} \right]^{cn} & = \lim_{ n \to \infty } \left( 1+\frac{b}{n} \right)^{cn} \\
@@ -269,8 +272,7 @@ Artinya, $Y_{n}\xrightarrow D \theta$. Berdasarkan [[3 Reference/mathstat5.2#The
 ### Hogg & Craig 5th ed. 5.12.
 
 Let
-- $Z_{n}$ : Sequence of random variables, with
-	- $Z_{n}\sim\chi^2(n)$
+- $Z_{n}$ : Sequence of random variables, with $Z_{n}\sim\chi^2(n)$
 - $W_{n} = Z_{n}/n^2$
 
 Find the limiting distribution of $W_{n}$
@@ -319,8 +321,7 @@ Approximate $\operatorname{Pr}(40<X<60)$
 ### Hogg & Craig 5th ed. 5.15.
 
 Let
-- $Z_{n}$ : Sequence of random variable, with
-	- $Z_{n}\sim P(n)$
+- $Z_{n}$ : Sequence of random variable, with $Z_{n}\sim P(n)$
 - $Y_{n}=(Z_{n}-n)/\sqrt{ n }$ 
 
 Show that the limiting distribution of $Y_{n}$ is normal with mean zero and variance $1$.

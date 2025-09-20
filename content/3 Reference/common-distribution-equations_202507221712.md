@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-09-13T18:59:00.310+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-09-13T18:59:00.310+07:00","modified":"2025-09-19T10:40:41.668+07:00","published":"2025-09-19T10:40:41.668+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 ## Notations
@@ -11,9 +11,6 @@
 - $\bar{X}$ : Sample mean
 - $S^2$ : Sample variance
 - $\xrightarrow{D}$ : [[3 Reference/Def-convergence-in-distribution\|Convergence in distribution]]
-
-> [!tip]
-> You may find the [[3 Reference/Def-expectation\|expectation]] and [[3 Reference/Def-variance\|variance]] of these distributions by substituting the parameters to [[3 Reference/Continuous Distributions]] or [[3 Reference/Discrete Distributions]]
 
 ## Sample Mean and Variance Distributions
 
@@ -51,6 +48,11 @@ where $S_p^2 = \frac{(n_1-1)S_X^2 + (n_2-1)S_Y^2}{n_1 + n_2 - 2}$
 
 For independent samples from $N(\mu_1, \sigma_1^2)$ and $N(\mu_2, \sigma_2^2)$
 $$F = \frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2} \sim F(n_1-1, n_2-1)$$
+
+If $X_{1},X_{2},\dots,X_{n}\sim b(1,p)$ independently, then:
+$$
+Y_{n}=X_{1}+X_{2}+\dots+X_{n}\sim b(n,p)
+$$
 
 ## Central Limit Theorem Results
 
