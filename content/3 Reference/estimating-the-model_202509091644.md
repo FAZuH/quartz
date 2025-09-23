@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Estimating the Model"],"created":"2025-09-13T18:59:03.768+07:00","modified":"2025-09-15T07:00:58.042+07:00","published":"2025-09-15T07:00:58.042+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:44","status":"baby","parent":["[[Linear Model]]"]}
+{"publish":true,"aliases":["Estimating the Model","Ordinary Least Square","OLS"],"created":"2025-09-13T18:59:03.768+07:00","modified":"2025-09-23T12:04:07.916+07:00","published":"2025-09-23T12:04:07.916+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:44","status":"baby","parent":["[[Linear Model]]"]}
 ---
 
 
@@ -8,9 +8,11 @@
 $\boldsymbol{\beta}$ of a linear model can be estimated using:
 
 $$
-\boldsymbol \beta = (\mathbf x^T\mathbf x)^{-1}
+\hat{\boldsymbol{\beta}} = (\mathbf x^T\mathbf x)^{-1}
 \mathbf x^T \mathbf y
 $$
+
+We call $\hat{\boldsymbol{\beta}}$ the **ordinarly least square**
 
 ## Estimating the variance of the error
 
