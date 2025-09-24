@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Column Space"],"created":"2025-09-17T08:58:53.227+07:00","modified":"2025-09-17T09:11:29.504+07:00","published":"2025-09-17T09:11:29.504+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-17 08:58","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Column Space"],"created":"2025-09-17T08:58:53.227+07:00","modified":"2025-09-24T08:13:36.710+07:00","published":"2025-09-24T08:13:36.710+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-17 08:58","status":"baby","parent":["[[linear-algebra|linear algebra]]"]}
 ---
 
 

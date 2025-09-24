@@ -1,0 +1,47 @@
+---
+{"publish":true,"aliases":["Inverse of Matrix Product"],"created":"2025-09-24T12:52:31.106+07:00","modified":"2025-09-24T13:30:31.939+07:00","published":"2025-09-24T13:30:31.939+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:52","status":"baby","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+---
+
+
+## Theorem
+
+Let $A,B$ : [[3 Reference/def-inverse-matrix_202509241225\|Invertible matrices]] of the same size
+
+Then $AB$ is invertible and
+$$
+(AB)^{-1}=B^{-1}A^{-1}
+$$
+
+## Remark
+
+This theorem can be extended to:
+
+> [!theorem]
+> A product of any number of invertible matrices is invertible, and the inverse of the product is the product of the inverses in the reverse order.
+
+## Proof
+
+Let $A,B$ : Invertible matrices of the same size
+
+Then
+$$
+\begin{align}
+(AB)(B^{-1}A^{-1}) & = A(BB^{-1})A^{-1} \\
+ & = AIA^{-1} \\
+ & = AA^{-1} \\
+ & = I
+\end{align}
+$$
+and
+$$
+\begin{align}
+(B^{-1}A^{-1})(AB) & = B^{-1}(A^{-1}A)B \\
+ & = B^{-1}IB \\
+ & = B^{-1}B \\
+ & = I
+\end{align}
+$$
+
+By definition of inverse matrix, if $CD=DC=I$, then $C^{-1}=D$
+
+Since we have that $(AB)(B^{-1}A^{-1}) = (B^{-1}A^{-1})(AB) = I$, we conclude that $(AB)^{-1}=B^{-1}A^{-1}$

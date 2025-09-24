@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Matrix"],"created":"2025-09-13T18:58:55.853+07:00","modified":"2025-09-17T07:45:26.947+07:00","published":"2025-09-17T07:45:26.947+07:00","cssclasses":"","creation-time":"2025-07-15 02:13","status":"baby","tag":null,"parent":"[[matrices]]"}
+{"publish":true,"aliases":["Matrix","Scalar","Square Matrix","Main Diagonal","Entry","Entries"],"created":"2025-09-13T18:58:55.853+07:00","modified":"2025-09-24T13:29:35.387+07:00","published":"2025-09-24T13:29:35.387+07:00","cssclasses":"","creation-time":"2025-07-15 02:13","status":"baby","tag":null,"parent":["[[matrices]]","[[linear-algebra|linear algebra]]"]}
 ---
 
 
@@ -7,7 +7,7 @@
 A **matrix** a rectangular array of numbers. The numbers in the array are called the **entries** in the matrix.
 
 ## Remark
-A matrix with only one row is called a **row vector** (or matrix). Similarly, a matrix with only one column is called a **column vector** (or matrix). ^def-row-column-vector
+A matrix with only one row is called a **[[3 Reference/def-row-and-column-vector_202509240741\|row vector]]** (or matrix). Similarly, a matrix with only one column is called a **column vector** (or matrix). ^def-row-column-vector
 
 We use capital letters to denote matrices, and lowercase letter to denote numercal quantities, e.g., 
 $$

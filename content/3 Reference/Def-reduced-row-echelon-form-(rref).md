@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Reduced Row Echelon Form (RREF)","Reduced Row Echelon Form (RREF)"],"created":"2025-09-13T18:58:57.461+07:00","modified":"2025-09-13T01:37:39.000+07:00","published":"2025-09-13T01:37:39.000+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"baby","tag":null,"parent":"[[Elementary Linear Algebra]]"}
+{"publish":true,"aliases":["RREF","Reduced Row Echelon Form"],"created":"2025-09-13T18:58:57.461+07:00","modified":"2025-09-24T13:45:44.247+07:00","published":"2025-09-24T13:45:44.247+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"baby","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
 ---
 
 
@@ -18,7 +18,7 @@ $$
 \end{bmatrix}
 $$
 
-[[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Solution\|Solution set]] of a linear system can be obtained by its reduced row echelon form. For example, consider the following augmented matrix:
+[[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Solution\|Solution set]] of a [[3 Reference/Def-linear-system\|linear system]] can be obtained by its reduced row echelon form. For example, consider the following [[3 Reference/Def-augmented-matrix\|augmented matrix]]:
 $$
 \begin{bmatrix}
 1 & 0 & 0 & 0 & 3 \\
@@ -27,7 +27,7 @@ $$
 0 & 0 & 0 & 1 & 5
 \end{bmatrix}
 $$
-This matrix is in reduced row echelon form and correspond the system of equation
+This [[3 Reference/Def-matrix\|matrix]] is in reduced row echelon form and correspond the system of equation
 $$
 \begin{matrix}
 x_{1}&&&&=& 3 \\

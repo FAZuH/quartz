@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Matrix Equality"],"created":"2025-09-13T18:58:55.747+07:00","modified":"2025-09-17T07:45:37.315+07:00","published":"2025-09-17T07:45:37.315+07:00","cssclasses":"","creation-time":"2025-07-15 02:13","status":"baby","tag":null,"parent":"[[matrices]]"}
+{"publish":true,"aliases":["Matrix Equality"],"created":"2025-09-13T18:58:55.747+07:00","modified":"2025-09-24T13:29:42.993+07:00","published":"2025-09-24T13:29:42.993+07:00","cssclasses":"","creation-time":"2025-07-15 02:13","status":"baby","tag":null,"parent":["[[matrices]]","[[linear-algebra]]"]}
 ---
 
 

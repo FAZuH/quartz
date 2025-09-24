@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Linear System"],"created":"2025-09-13T18:58:55.332+07:00","modified":"2025-09-20T17:54:48.880+07:00","published":"2025-09-20T17:54:48.880+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[Elementary Linear Algebra]]"}
+{"publish":true,"aliases":["Linear System"],"created":"2025-09-13T18:58:55.332+07:00","modified":"2025-09-24T07:13:49.075+07:00","published":"2025-09-24T07:13:49.075+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
 ---
 
 
@@ -18,7 +18,7 @@ a_{21}x_{1} & + & a_{22}x_{2} & + & \dots & + &  a_{2n}x_{n} & = & b_{2} \\
 a_{m1}x_{1} & + & a_{m2}x_{2} & + & \dots & + &  a_{mn}x_{n} & = & b_{m} \\
 \end{matrix} $$
 
-A linear system may also be written in matrix form as  $$ \mathbf{Ax}=\mathbf{b} $$ , where:
+A linear system may also be written in [[3 Reference/Def-matrix\|matrix]] form as  $$ \mathbf{Ax}=\mathbf{b} $$ , where:
 - $\mathbf{A} = [a_{ij}]$ is the $m \times n$ coefficient matrix
 - $\mathbf{x} = [x_1, x_2, \ldots, x_n]^T$ is the variable vector
 - $\mathbf{b} = [b_1, b_2, \ldots, b_m]^T$ is the constant vector

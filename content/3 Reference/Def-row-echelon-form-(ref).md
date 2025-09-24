@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Row Echelon Form (REF)","Row Echelon Form (REF)"],"created":"2025-09-13T18:58:56.991+07:00","modified":"2025-09-13T01:37:39.000+07:00","published":"2025-09-13T01:37:39.000+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"baby","tags":null,"parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Row Echelon Form (REF)"],"created":"2025-09-13T18:58:56.991+07:00","modified":"2025-09-24T07:13:25.852+07:00","published":"2025-09-24T07:13:25.852+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"baby","tags":null,"parent":["[[linear-algebra|linear algebra]]"]}
 ---
 
 
@@ -7,7 +7,7 @@
 
 **Row echelon form** is defined as the [[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Augmented matrix\|augmented matrix]] of a [[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Linear system\|linear system]] with the following properties:
 1. If a row does not consist entirely of zeros, then the first nonzero number in the row is a 1. We call this a **leading 1.** ^def-leading1
-2. If there are any rows that consist entirely of zeros, then they are grouped together at the bottom of the matrix. 
+2. If there are any rows that consist entirely of zeros, then they are grouped together at the bottom of the [[3 Reference/Def-matrix\|matrix]]. 
 3. In any two successive rows that do not consist entirely of zeros, the leading 1 in the lower row occurs farther to the right than the leading 1 in the higher row. 
 
 ## Remark

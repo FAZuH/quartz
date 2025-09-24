@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Augmented Matrix","Augmented Matrix"],"created":"2025-09-13T18:58:54.436+07:00","modified":"2025-09-13T01:37:39.000+07:00","published":"2025-09-13T01:37:39.000+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[Elementary Linear Algebra]]"}
+{"publish":true,"aliases":["Augmented Matrix"],"created":"2025-09-13T18:58:54.436+07:00","modified":"2025-09-24T07:13:34.106+07:00","published":"2025-09-24T07:13:34.106+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"baby","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
 ---
 
 
@@ -12,7 +12,7 @@ a_{21}x_{1} & + & a_{22}x_{2} & + & \dots & + &  a_{2n}x_{n} & = & b_{2} \\
 a_{m1}x_{1} & + & a_{m2}x_{2} & + & \dots & + &  a_{mn}x_{n} & = & b_{m} \\
 \end{matrix} $$
 
-Then the **augmented matrix** of the linear system is written as 
+Then the **augmented [[3 Reference/Def-matrix\|matrix]]** of the linear system is written as 
 $$
 \begin{bmatrix}
 a_{11} & a_{12} & \dots & a_{1n} & b_{1} \\

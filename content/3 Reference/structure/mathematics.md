@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:10.348+07:00","modified":"2025-09-17T07:44:00.080+07:00","published":"2025-09-17T07:44:00.080+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
+{"publish":true,"created":"2025-09-13T18:59:10.348+07:00","modified":"2025-09-24T07:10:58.379+07:00","published":"2025-09-24T07:10:58.379+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
 ---
 
 ## Categories
@@ -8,6 +8,7 @@
 - [[3 Reference/structure/logic and proofing\|logic and proofing]]
 - [[3 Reference/structure/matrices\|matrices]]
 - [[3 Reference/structure/sets\|sets]]
+- [[3 Reference/structure/linear-algebra\|linear algebra]]
 
 ## Books
 - [[3 Reference/structure/Elementary Linear Algebra]]

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Linear Equation","Linear Equation"],"created":"2025-09-13T18:58:55.332+07:00","modified":"2025-09-13T01:37:39.000+07:00","published":"2025-09-13T01:37:39.000+07:00","cssclasses":"","creation-time":"2025-07-15 01:44","status":"baby","tag":null,"parent":"[[Elementary Linear Algebra]]"}
+{"publish":true,"aliases":["Linear Equation"],"created":"2025-09-13T18:58:55.332+07:00","modified":"2025-09-24T07:11:21.889+07:00","published":"2025-09-24T07:11:21.889+07:00","cssclasses":"","creation-time":"2025-07-15 01:44","status":"baby","tag":null,"parent":"[[linear-algebra]]"}
 ---
 
 

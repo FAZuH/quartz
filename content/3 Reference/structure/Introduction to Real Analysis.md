@@ -1,9 +1,9 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.090+07:00","modified":"2025-09-16T03:16:30.044+07:00","published":"2025-09-16T03:16:30.044+07:00","cssclasses":"","creation-time":"2025-03-02 02:37","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"source":"Bartle, R. G., & Sherbert, D. R. (2011). Introduction to Real Analysis (4th ed.)"}
+{"publish":true,"created":"2025-09-13T18:59:09.090+07:00","modified":"2025-09-24T13:41:10.592+07:00","published":"2025-09-24T13:41:10.592+07:00","cssclasses":"","creation-time":"2025-03-02 02:37","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"source":"Bartle, R. G., & Sherbert, D. R. (2011). Introduction to Real Analysis (4th ed.)"}
 ---
 
 
-- *italic*: Definition
+- *Italic*: Definition
 - **Bold**: Theorem/Corollary
 
 ## Content
