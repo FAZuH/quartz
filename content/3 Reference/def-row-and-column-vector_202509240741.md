@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Row Vector","Column Vector"],"created":"2025-09-24T07:41:58.573+07:00","modified":"2025-09-24T07:44:23.652+07:00","published":"2025-09-24T07:44:23.652+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 07:41","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Row Vector","Column Vector","Row and Column Vector"],"created":"2025-09-24T07:41:58.573+07:00","modified":"2025-09-24T22:58:57.460+07:00","published":"2025-09-24T22:58:57.460+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 07:41","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inverse Matrix","Inverse","Invertible"],"created":"2025-09-24T12:25:10.644+07:00","modified":"2025-09-24T13:30:21.974+07:00","published":"2025-09-24T13:30:21.974+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:25","status":"baby","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+{"publish":true,"aliases":["Inverse Matrix","Inverse","Invertible","Nonsingular"],"created":"2025-09-24T12:25:10.644+07:00","modified":"2025-09-24T23:12:02.413+07:00","published":"2025-09-24T23:12:02.413+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:25","status":"baby","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
 ---
 
 

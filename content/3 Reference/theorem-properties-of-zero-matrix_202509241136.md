@@ -1,12 +1,12 @@
 ---
-{"publish":true,"aliases":["Properties of Zero Matrix"],"created":"2025-09-24T11:36:28.674+07:00","modified":"2025-09-24T13:30:14.626+07:00","published":"2025-09-24T13:30:14.626+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 11:36","status":"baby","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+{"publish":true,"aliases":["Properties of Zero Matrix"],"created":"2025-09-24T11:36:28.674+07:00","modified":"2025-09-24T22:55:06.698+07:00","published":"2025-09-24T22:55:06.698+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 11:36","status":"baby","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
 ---
 
 
 ## Theorem
 
 Let 
-- $c$ : scalar
+- $c$ : [[3 Reference/Def-matrix\|Scalar]]
 - $A$ : [[3 Reference/Def-matrix\|Matrix]]
 - $0$ : [[3 Reference/def-zero-matrix_202509241049\|Zero matrix]]
 

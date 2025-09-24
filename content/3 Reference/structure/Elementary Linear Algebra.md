@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.102+07:00","modified":"2025-09-24T13:48:46.952+07:00","published":"2025-09-24T13:48:46.952+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
+{"publish":true,"created":"2025-09-13T18:59:09.102+07:00","modified":"2025-09-24T14:05:15.941+07:00","published":"2025-09-24T14:05:15.941+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
 ---
 
 
@@ -29,6 +29,7 @@
 	- *[[3 Reference/Def-matrix-operations\|Matrix Operations]]*
 	- *[[3 Reference/Def-matrix-scalar-multiplication\|Matrix Scalar Multiplication]]*
 	- *[[3 Reference/Def-matrix-product\|Matrix Product]]*
+	- [[3 Reference/def-partitioned-matrices-and-submatrix\|Partitioned Matrices and Submatrix]]
 	- *[[3 Reference/def-transpose-matrix_202509241332\|Transpose Matrix]]*
 	- *[[3 Reference/def-trace-of-a-matrix_202509241332\|Trace of a Matrix]]*
 - 1.4 Inverses; Algebraic Properties of Matrices 
