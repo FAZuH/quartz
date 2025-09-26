@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.063+07:00","modified":"2025-09-19T09:24:53.060+07:00","published":"2025-09-19T09:24:53.060+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
+{"publish":true,"created":"2025-09-13T18:59:09.063+07:00","modified":"2025-09-26T15:32:54.849+07:00","published":"2025-09-26T15:32:54.849+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
 ---
 
 - *italic*: Definition
@@ -213,6 +213,9 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 - [[3 Reference/common-expectation-and-variance-operations_202507220854\|Common Expectation and Variance Operations]]
 - [[3 Reference/common-distribution-equations_202507221712\|Common Distribution Equations]]
 - [[3 Reference/common-confidence-intervals_202507241355\|Common Confidence Intervals]]
+
+## Exercises
+- [[3 Reference/exercises-from-5th-ed-book_202509261532\|Exercises from 5th ed Book]]
 
 ## Others
 - [[3 Reference/def-almost-surely\|Definition of Almost Surely]]
