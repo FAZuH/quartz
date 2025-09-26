@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["4.4 Order Statistics.md"],"created":"2025-09-13T18:59:05.102+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-06-24 01:07","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["4.4 Order Statistics.md"],"created":"2025-09-13T18:59:05.102+07:00","modified":"2025-09-26T18:16:07.068+07:00","published":"2025-09-26T18:16:07.068+07:00","cssclasses":"","creation-time":"2025-06-24 01:07","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/4.2.2-confidence-interval-for-difference-in-proportion_202507220849\|4.2.2 Confidence Interval for Difference in Proportion]] | [[3 Reference/4.5-introduction-to-hypothesis-testing_202507291322\|4.5 Introduction to Hypothesis Testing]] >>
@@ -24,7 +24,7 @@
 >
 > Then we say $g(y_{1},\dots, y_{n})$ is the **joint pdf** of $Y_{1},\dots, Y_{n}$
 
-## Marginal pdf and of order statistics
+## Marginal pdf of order statistics
 Marginal pdf of order statistics $Y_{1},\dots, Y_{n}$ of $X_{1},\dots, X_{n}$ are given by:
 
 - **$Y_{1}$**
@@ -103,7 +103,7 @@ In a sample of size $n$, the **$k$-th order statistic $Y_k$** is the $k$-th smal
 
 Misal $Y_{1},Y_{2},Y_{3}$ statistik terurut dengan $n=3$.
 
-Menggunakan [Marginal pdf and of order statistics](#Marginal%20pdf%20and%20of%20order%20statistics), dapat diperoleh pdf marginal sebagai berikut:
+Menggunakan [Marginal pdf and of order statistics](#Marginal%20pdf%20of%20order%20statistics), dapat diperoleh pdf marginal sebagai berikut:
 
 1. **pdf marginal untuk $Y_1$** :
 $$

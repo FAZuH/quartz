@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-07-24T11:50:57.480+07:00","modified":"2025-09-07T18:17:45.239+07:00","published":"2025-09-07T18:17:45.239+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
+{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-09-13T18:58:10.057+07:00","modified":"2025-09-26T18:16:07.600+07:00","published":"2025-09-26T18:16:07.600+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
 ---
 
 
@@ -18,7 +18,7 @@ $$
 
 **1_4.6**
 - [[3 Reference/mathstat4.4#Theorem 4.4.1 Joint pdf of order statistics\|Joint pdf of order statistics]]
-- [[3 Reference/mathstat4.4#Marginal pdf and of order statistics\|Marginal pdf of order statistics]]
+- [[3 Reference/mathstat4.4#Marginal pdf of order statistics\|Marginal pdf of order statistics]]
 
 $$
 \begin{align}
