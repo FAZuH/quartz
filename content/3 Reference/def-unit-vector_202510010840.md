@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Unit Vector"],"created":"2025-10-01T08:40:48.021+07:00","modified":"2025-10-02T02:44:23.557+07:00","published":"2025-10-02T02:44:23.557+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 0[[3 Reference/def-norm_202510010836\|norm]]f-norm_202510010836|norm]]f-norm_202510010836|norm]]f-norm_202510010836|norm]]","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Unit Vector"],"created":"2025-10-01T08:40:48.021+07:00","modified":"2025-10-02T22:26:26.144+07:00","published":"2025-10-02T22:26:26.144+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 08:40","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
@@ -15,5 +15,5 @@ $$
 Then we say $\mathbf{u}$ is the **unit vector**
 
 > [!note]
-> A unit vector is a vector with [[def-norm_202510010836|norm]] $1$.
+> A unit vector is a vector with [[3 Reference/def-norm_202510010836\|norm]] $1$.
 
