@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:58:58.136+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-06 23:41","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"created":"2025-09-13T18:58:58.136+07:00","modified":"2025-10-03T09:27:36.313+07:00","published":"2025-10-03T09:27:36.313+07:00","cssclasses":"","creation-time":"2025-07-06 23:41","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
@@ -63,9 +63,14 @@ Let
 	- $\mu$ unknown 
 	- $\sigma^2$ known
 
+We know that 
+- Population moment is $E[X]=\mu$, and 
+- Sample moment is $m_{1}'=\frac{1}{n}\sum_{i=1}^n X_{i}=\bar{X}$.
+
 **Step 1:** Express population moment in terms of parameter: $$\mu_1' = E[X] = \mu$$
 
-**Step 2:** Set equal to sample moment: $$\mu = m_1' = \frac{1}{n}\sum_{i=1}^n X_i = \bar{X}$$
+**Step 2:** Set equal to sample moment: 
+$$E[X] =\mu = m_1' = \bar{X}$$
 
 **Step 3:** Solve: $$\hat{\mu} = \bar{X}$$
 
@@ -76,9 +81,25 @@ Let
 	- $\mu$ unknown 
 	- $\sigma^2$ unknown
 
-**Step 1:** Express population moments in terms of parameters: $$\mu_1' = E[X] = \mu$$ $$\mu_2' = E[X^2] = \text{Var}(X) + [E(X)]^2 = \sigma^2 + \mu^2$$
+**Step 1:** Express population moments in terms of parameters:
+$$
+\begin{align}
+\mu_1' & = E[X] \\
+ &  = \mu \\ \\
 
-**Step 2:** Set equal to sample moments: $$\mu = m_1' = \bar{X}$$ $$\sigma^2 + \mu^2 = m_2' = \frac{1}{n}\sum_{i=1}^n X_i^2$$
+\mu_2' & = E[X^2]  \\
+ & = \text{Var}(X) + [E(X)]^2  \\
+ & = \sigma^2 + \mu^2
+\end{align}
+$$
+
+**Step 2:** Set equal to sample moments: 
+$$
+\begin{align}
+\mu  & = m_1' = \bar{X} \\
+\sigma^2 + \mu^2  & = m_2' = \frac{1}{n}\sum_{i=1}^n X_i^2
+\end{align}
+$$
 
 **Step 3:** Solve: From the first equation: $\hat{\mu} = \bar{X}$
 

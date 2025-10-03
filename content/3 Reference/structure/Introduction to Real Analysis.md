@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.090+07:00","modified":"2025-09-24T13:41:10.592+07:00","published":"2025-09-24T13:41:10.592+07:00","cssclasses":"","creation-time":"2025-03-02 02:37","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"source":"Bartle, R. G., & Sherbert, D. R. (2011). Introduction to Real Analysis (4th ed.)"}
+{"publish":true,"created":"2025-09-13T18:59:09.090+07:00","modified":"2025-10-03T02:55:40.011+07:00","published":"2025-10-03T02:55:40.011+07:00","cssclasses":"","creation-time":"2025-03-02 02:37","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"source":"Bartle, R. G., & Sherbert, D. R. (2011). Introduction to Real Analysis (4th ed.)"}
 ---
 
 
@@ -12,7 +12,7 @@
 	- *[[3 Reference/Def-set-equality\|Set Equality]]*
 	- *[[3 Reference/def-set-union_202507240734\|Set Union]]*
 	- *[[3 Reference/Definition of Set Intersection\|Set Intersection]]*
-	- *[[3 Reference/def-set-complement_202507240732\|Set Complement]]*
+	- *[[3 Reference/def-set-relative-complement_202507240732\|Set Complement]]*
 	- *[[3 Reference/def-empty-set_202508171902\|Empty Set]]*
 	- *[[3 Reference/def-disjoint-sets_202508171903\|Disjoint Sets]]*
 	
@@ -48,8 +48,11 @@
 - [[3 Reference/2.5 Intervals\|2.5 Intervals]]
 
 ### Chapter 3
+- [[3 Reference/3.1 Sequences and Their Limits]]
+	- *[[3 Reference/def-sequence-of-real-numbers_202510030255\|Sequence of Real Numbers]]*
 - [[3 Reference/3.2 Limit Theorems\|3.2 Limit Theorems]]
 - [[3 Reference/3.3 Monotone Sequences\|3.3 Monotone Sequences]]
+	- *[[3 Reference/def-monotone-sequence_202510030252\|Monotone Sequence]]*
 - [[3 Reference/3.4 Subsequences and the Bolzano-Weierstrass Theorem\|3.4 Subsequences and the Bolzano-Weierstrass Theorem]]
 - [[3 Reference/3.5 The Cauchy Criterion\|3.5 The Cauchy Criterion]]
 - [[3 Reference/3.6 Properly Divergent Sequences\|3.6 Properly Divergent Sequences]]

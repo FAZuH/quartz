@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Probability Density Function (pdf)","Probability Density Function (pdf)","pdf"],"created":"2025-09-13T18:58:57.527+07:00","modified":"2025-09-26T18:09:26.038+07:00","published":"2025-09-26T18:09:26.038+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Probability Density Function (pdf)","pdf"],"created":"2025-09-13T18:58:57.527+07:00","modified":"2025-10-03T14:18:44.018+07:00","published":"2025-10-03T14:18:44.018+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"adult","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
@@ -13,7 +13,6 @@ $$ f_{X}(x) = P[X=x] = 0, \quad \forall x\in \mathbb{R} $$
 Then we say that $f_{X}(x)$ is the **probability density function** (pdf) of $X$
 
 ## Properties
-Also,
 - $F_{X}(x)=\int_{-\infty}^x f_{X}(t)dt$
 - $\frac{d}{dx}F_{X}(x)=f_{X}(x)$
 - $P(a<X\leq b)=F_{X}(b)-F_{X}(a)=\int_{a}^b f_{X}(t)dt$

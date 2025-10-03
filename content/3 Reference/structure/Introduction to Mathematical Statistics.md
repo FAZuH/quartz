@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.063+07:00","modified":"2025-10-02T20:40:16.814+07:00","published":"2025-10-02T20:40:16.814+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
+{"publish":true,"created":"2025-09-13T18:59:09.063+07:00","modified":"2025-10-03T10:58:56.028+07:00","published":"2025-10-03T10:58:56.028+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
 ---
 
 - *italic*: Definition
@@ -97,6 +97,9 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 	- [[3 Reference/4.2.2-confidence-interval-for-difference-in-proportion_202507220849\|4.2.2 Confidence Interval for Difference in Proportion]]
 - [[3 Reference/mathstat4.4\|4.4 Order Statistics]]
 	- *[[3 Reference/Def-order-statistics\|Order Statistics]]*
+	- **[[3 Reference/theorem-joint-pdf-of-order-statistics_202510031033\|Joint pdf of Order Statistics]]**
+	- **[[3 Reference/theorem-marginal-pdf-of-order-statistics_202510031045\|Marginal pdf of Order Statistics]]**
+	- **[[3 Reference/theorem-cdf-of-order-statistics_202510031046\|cdf of Order Statistics]]**	
 - [[3 Reference/4.5-introduction-to-hypothesis-testing_202507291322\|4.5 Introduction to Hypothesis Testing]]
 	- *[[3 Reference/def-hypothesis_202508050806\|Hypothesis]]*
 	- *[[3 Reference/def-test_202508050827\|Test]]*
@@ -109,6 +112,8 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 ### Chapter 5: Concistency and limiting distributions
 - [[3 Reference/mathstat5.1\|5.1 Convergence in Probability]]
 	- *[[3 Reference/Def-convergence-in-probability\|Convergence in Probability]]*
+	- **[[3 Reference/theorem-properties-of-convergence-in-probability_202510031053\|Properties of Convergence in Probability]]**
+	- **[[3 Reference/theorem-weak-law-of-large-numbers_202510031058\|Weak Law of Large Numbers]]**
 	- *[[3 Reference/Def-consistent-estimator\|Consistent Estimator]]*
 	- *[[3 Reference/Def-almost-sure-convergence\|Almost Sure Convergence]]*
 - [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution]]

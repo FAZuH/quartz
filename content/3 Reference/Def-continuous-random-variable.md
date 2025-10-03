@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Continuous Random Variable","Continuous Random Variable"],"created":"2025-09-13T18:58:54.532+07:00","modified":"2025-09-13T01:05:23.000+07:00","published":"2025-09-13T01:05:23.000+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Continuous Random Variable"],"created":"2025-09-13T18:58:54.532+07:00","modified":"2025-10-03T14:19:14.663+07:00","published":"2025-10-03T14:19:14.663+07:00","cssclasses":"","creation-time":"2025-07-15 06:25","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 

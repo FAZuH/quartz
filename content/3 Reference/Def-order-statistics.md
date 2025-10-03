@@ -1,17 +1,34 @@
 ---
-{"publish":true,"aliases":["Order Statistics","Order Statistics"],"created":"2025-09-13T18:58:55.960+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-15 07:25","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Order Statistics"],"created":"2025-09-13T18:58:55.960+07:00","modified":"2025-10-03T14:18:57.003+07:00","published":"2025-10-03T14:18:57.003+07:00","cssclasses":"","creation-time":"2025-07-15 07:25","status":"adult","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 
-#TODO move [[3 Reference/mathstat4.4\|4.4 Order Statistics.md]] contents here
 ## Definition
 
-Let
-- $X_{1} ,\dots, X_{n}$ : [[3 Reference/Def-random-sample\|Random Sample]] with
-	- [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x)$
-	- [[3 Reference/Def-support-of-continuous-random-variable\|Support of Continuous Random Variable]] $(a,b)$
+Let $X_{1} ,\dots, X_{n}$ : [[3 Reference/Def-random-sample\|Random Sample]] with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x)$ and [[3 Reference/Def-support-of-continuous-random-variable\|support]] $(a,b)$
+
+If
 - $Y_{1} = \min\{X_1, \dots, X_n\}$
 - $Y_{k}$ : $k$-th smallest value of $X_{1},\dots, X_{n}$
 - $Y_{n} = \max\{X_1,\dots, X_n\}$ 
 
 Then we say $Y_{1}, \dots ,Y_{n}$ is **order statistic** of $X_{1},\dots, X_{n}$
+
+## About order statistics
+
+Imagine you roll several dice at once. After rolling, you sort the numbers you get.
+
+Now, you wonder:
+
+- What’s the probability of getting the **smallest number**?
+- What’s the probability of getting the **second smallest number**?
+- And so on...
+
+These sorted values are called **order statistics**.
+
+In a sample of size $n$, the **$k$-th order statistic $Y_k$** is the $k$-th smallest value from your sample.
+
+> [!TIP]
+> We are asking questions about:
+> - "What's the probability that the smallest value is $\leq$ 3?"
+> - "What's the expected value of the second-largest number?"

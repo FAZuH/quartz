@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-09-13T18:59:06.416+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-09-13T18:59:06.416+07:00","modified":"2025-10-03T10:59:38.957+07:00","published":"2025-10-03T10:59:38.957+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat4.4\|4.4 Order Statistics.md]] | [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] >>
@@ -12,16 +12,7 @@ To emphasize the fact that we are working with sequences of [[3 Reference/mathst
 
 ## Theorem 5.1.1: Weak law of large numbers
 
-> Let
-> - $\{ X_{n} \}$ : Sequence of [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|random samples]], with
-> 	- Common mean $\mu$
-> 	- Common variance $\sigma^2<\infty$
-> - $\bar{X}_{n}=n^{-1}\sum_{i=1}^nX_{i}$
-> 
-> Then
-> $$
-> \bar{X}_{n} \xrightarrow{P}\mu
-> $$
+![[3 Reference/theorem-weak-law-of-large-numbers_202510031058#Theorem]]
 
 In the following sections ([[3 Reference/mathstat5.1#Theorem 5.1.2]] to [[3 Reference/mathstat5.1#Theorem 5.1.5]]) we describe some theorems related to convergence of sequence of random variables. For brevity, we implicitly let:
 

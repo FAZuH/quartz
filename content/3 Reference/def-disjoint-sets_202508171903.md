@@ -1,11 +1,11 @@
 ---
-{"publish":true,"aliases":["Disjoint Sets","Mutually Disjoint Set"],"created":"2025-09-13T18:59:01.294+07:00","modified":"2025-09-13T01:10:46.000+07:00","published":"2025-09-13T01:10:46.000+07:00","cssclasses":"","creation-time":"2025-08-17 19:03","status":"baby","tags":null,"parent":["[[Introduction to Real Analysis]]"]}
+{"publish":true,"aliases":["Disjoint Sets","Mutually Disjoint Set"],"created":"2025-09-13T18:59:01.294+07:00","modified":"2025-10-03T01:26:44.083+07:00","published":"2025-10-03T01:26:44.083+07:00","cssclasses":"","creation-time":"2025-08-17 19:03","status":"adult","tags":null,"parent":["[[sets]]"]}
 ---
 
 
 ## Definition
 
-Let $A,B$: Two sets
+Let $A,B$: Two [[3 Reference/def-set_202510022014\|sets]]
 
 If $A\cap B = \emptyset$
 
