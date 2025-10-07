@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Orthogonal","Perpendicular"],"created":"2025-10-01T16:38:11.723+07:00","modified":"2025-10-02T03:19:06.817+07:00","published":"2025-10-02T03:19:06.817+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 16:38","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Orthogonal","Perpendicular"],"created":"2025-10-01T16:38:11.723+07:00","modified":"2025-10-06T14:40:00.163+07:00","published":"2025-10-06T14:40:00.163+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 16:38","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
@@ -13,11 +13,14 @@ Then we say $\mathbf{u}$ an $\mathbf{v}$ are **orthogonal** (or **perpendicular*
 
 ## Remark
 
-Notice that by definition, the zero vector in $R^n$ is orthogonal to *every* vector in $R^n$.
+Notice that by definition, the [[3 Reference/def-zero-vector_202510020338\|zero vector]] in $R^n$ is orthogonal to *every* vector in $R^n$.
 
-Also, recall from definition [[3 Reference/def-euclidean-inner-product_202510010845\|Euclidean Inner Product]] that the angle $\theta$ between two nonzero vectors in $\mathbf{u},\mathbf{v}$ in $R^n$ is defined by
+Also, recall that the angle $\theta$ between two nonzero vectors in $\mathbf{u},\mathbf{v}$ in $R^n$ is defined by
 $$
 \cos \theta = \frac{\mathbf{u}\cdot \mathbf{v}}{||\mathbf{u}||\; ||\mathbf{v}||}
 $$
+[^1]
 
 It follows that $\theta=\pi/2\iff \mathbf{u}\cdot \mathbf{v}=0$.
+
+[^1]: [[3 Reference/def-dot-product_202510010845#Remark\|Remark]]

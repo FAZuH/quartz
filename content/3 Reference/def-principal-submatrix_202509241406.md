@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Principal Submatrix"],"created":"2025-09-24T14:06:38.101+07:00","modified":"2025-09-24T14:12:40.778+07:00","published":"2025-09-24T14:12:40.778+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 14:06","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Principal Submatrix"],"created":"2025-09-24T14:06:38.101+07:00","modified":"2025-10-06T01:03:52.331+07:00","published":"2025-10-06T01:03:52.331+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 14:06","status":"adult","parent":["[[matrices]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["matrices"],"created":"2025-09-17T07:43:58.093+07:00","modified":"2025-09-24T23:30:02.128+07:00","published":"2025-09-24T23:30:02.128+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
+{"publish":true,"aliases":["matrices"],"created":"2025-09-17T07:43:58.093+07:00","modified":"2025-10-06T16:31:49.990+07:00","published":"2025-10-06T16:31:49.990+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
 ---
 
 
@@ -30,7 +30,7 @@
 	- **[[3 Reference/theorem-transpose-of-invertible-matrix_202509241326\|Transpose of Invertible Matrix]]**
 	- **[[3 Reference/theorem-product-of-a-matrix-with-its-transpose-is-symmetric_202509242112\|Product of a Matrix with its Transpose is Symmetric]]**
 - *[[3 Reference/def-inverse-matrix_202509241225\|Inverse Matrix]]*
-	- **[[3 Reference/theorem-2x2-matrix-inverse-formula_202509241243\|Inverse of 2x2 Matrix]]**
+	- **[[3 Reference/theorem-matrix-invertibility_202509241243\|Matrix Invertibility]]**
 	- **[[3 Reference/theorem-inverse-of-matrix-product_202509241252\|Inverse of Matrix Product]]**
 - *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
 	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
@@ -43,11 +43,12 @@
 - *[[3 Reference/def-symmetric-matrix_202509241413\|Symmetric Matrix]]*
 	- **[[3 Reference/theorem-algebraic-properties-of-symmetric-matrix_202509241420\|Algebraic Properties of Symmetric Matrix]]**
 	- **[[3 Reference/theorem-product-of-symmetric-matrices_202509241420\|Commutativity Condition for Symmetric Matrix Products]]**
-	- **[[3 Reference/theorem-invertibility-of-symmetric-matrices_202509241426\|Invertibility of Symmetric Matrices]]**
+	- **[[3 Reference/theorem-inverse-of-symmetric-matries-are-symmetric_202509241426\|Inverse of Symmetric Matrices are Symmetric]]**
 - *[[3 Reference/def-partitioned-matrices-and-submatrix\|Partitioned Matrices and Submatrix]]*
 	- *[[3 Reference/def-principal-submatrix_202509241406\|Principal Submatrix]]*
 	- #TODO *[[3 Reference/def-scalar-multiples,-transposes,-sums,-and-products-of-partitioned-matrices_202509242325\|Scalar Multiples, Transposes, Sums, and Products of Partitioned Matrices]]*
 	- **[[3 Reference/theorem-determinants-of-partitioned-matrices_202509242310\|Determinants of Partitioned Matrices]]**
+	- **[[3 Reference/theorem-inverse-of-partitioned-matrices_202510060352\|Inverse of Partitioned Matrices]]**
 - *[[3 Reference/def-zero-matrix_202509241049\|Zero Matrix]]*
 	- **[[3 Reference/theorem-properties-of-zero-matrix_202509241136\|Properties of Zero Matrix]]**
 - *[[3 Reference/def-identity-matrix_202509241204\|Identity Matrix]]*

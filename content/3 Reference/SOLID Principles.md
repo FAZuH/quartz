@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.633+07:00","modified":"2025-08-15T13:53:58.634+07:00","published":"2025-08-15T13:53:58.634+07:00","cssclasses":"","creation-time":"2025-02-28 16:43","status":"adult","tags":null,"parent":["[[object oriented programming]]"]}
+{"publish":true,"created":"2025-09-13T18:58:58.840+07:00","modified":"2025-10-05T20:14:15.227+07:00","published":"2025-10-05T20:14:15.227+07:00","cssclasses":"","creation-time":"2025-02-28 16:43","status":"adult","tags":null,"parent":["[[object oriented programming]]"]}
 ---
 
 
@@ -10,11 +10,6 @@ Class should only have one clear reason to change (one responsibility).
 ## Open/Closed Principles
 
 Class should be open to extension ([[3 Reference/Pillars of OOP#inheritance\|inheritance]]), but closed for modification.
-
-> [!NOTE]
-> You should design class to adhere to [[3 Reference/SOLID Principles#Single Responsibility\|single responsibility]].
->
-> Strategy pattern can be applied when responsibilities are properly split into their own unit.
 
 ## Liskov Substitution
 

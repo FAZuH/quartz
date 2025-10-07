@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.102+07:00","modified":"2025-10-02T20:09:07.367+07:00","published":"2025-10-02T20:09:07.367+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
+{"publish":true,"created":"2025-09-13T18:59:09.102+07:00","modified":"2025-10-06T14:53:01.873+07:00","published":"2025-10-06T14:53:01.873+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
 ---
 
 
@@ -44,7 +44,7 @@
 	- **[[3 Reference/theorem-form-of-rref_202509241216\|Form of RREF]]**
 	- *[[3 Reference/def-inverse-matrix_202509241225\|Inverse Matrix]]*
 	- **[[3 Reference/theorem-properties-of-inverse-matrix_202509241235\|Properties of Inverse Matrix]]**
-	- **[[3 Reference/theorem-2x2-matrix-inverse-formula_202509241243\|Inverse of 2x2 Matrix]]**
+	- **[[3 Reference/theorem-matrix-invertibility_202509241243\|Matrix Invertibility]]**
 	- **[[3 Reference/theorem-inverse-of-matrix-product_202509241252\|Inverse of Matrix Product]]**
 	- *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
 	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
@@ -63,6 +63,13 @@
 - 1.7 Diagonal, Triangular, and Symmetric Matrices
 - 1.8 Matrix Transformations
 
+### Chapter 2: Determinants
+
+- 2.1 Determinants by Cofactor Expansion
+- 2.2 Evaluating Determinants by Row Reduction
+- 2.3 Properties of Determinants; Cramer's Rule
+	- **[[3 Reference/theorem-matrix-equivalency-statements_202510061112\|Matrix Equivalency Statements]]**
+
 ### Chapter 3: Euclidean Vector Spaces
 - 3.1 Vectors in 2-Space, 3-Space, and n-Space
 	- *[[3 Reference/def-ordered-n-tuple_202510020339\|Ordered n-Tuple]]*
@@ -77,7 +84,7 @@
 	- **[[3 Reference/theorem-properties-of-norm_202510010838\|Properties of Norm]]**
 	- *[[3 Reference/def-unit-vector_202510010840\|Unit Vector]]*
 	- *[[3 Reference/def-distance-of-vectors_202510010843\|Distance of Vectors]]*	
-	- *[[3 Reference/def-euclidean-inner-product_202510010845\|Euclidean Inner Product]]*
+	- *[[3 Reference/def-dot-product_202510010845\|Dot Product]]*
 	- **[[3 Reference/theorem-algebraic-properties-of-dot-product_202510010917\|Algebraic Properties of Dot Product]]**
 	- **[[3 Reference/theorem-cauchy-schwarz-inequality_202510010923\|Cauchy-Schwarz Inequality]]**
 	- **[[3 Reference/theorem-triangle-inequality-for-vectors-and-distances_202510010929\|Triangle Inequality for Vectors and Distances]]**
@@ -94,23 +101,37 @@
 
 ### Chapter 4: General Vector Spaces
 - 4.1 Real Vector Spaces
-	- *[[3 Reference/def-vector-space_202509240715\|Vector Space]]*
+	- *[[3 Reference/def-vector-space-axioms_202509240715\|Vector Space]]*
 - 4.2 Subspaces
 	- *[[3 Reference/def-subspace_202509240725\|Subspace]]*
 	- **[[3 Reference/theorem-intersection-of-subspaces_202509240731\|Intersection of Subspaces]]**
-	- *[[3 Reference/def-coefficients_202509240733\|Coefficients]]*
 	- *[[3 Reference/def-span_202509240805\|Span]]*
+	- *[[3 Reference/def-solution-space_202510061127\|Solution Space]]*
+	- **[[3 Reference/theorem-consistency-of-linear-system-by-its-constant-vector_202510061135\|Consistency of Linear System by its Constant Vector]]**
 - 4.3 Linear Independence
+	- *[[3 Reference/def-linear-independence_202510060445\|Linear Independence]]*
 - 4.4 Coordinates and Basis
+	- *[[3 Reference/def-basis_202510061042\|Basis]]*
 - 4.5 Dimension
 - 4.6 Change of Basis
 - 4.7 Row Space, Column Space, and Null Space
 	- *[[3 Reference/def-row-and-column-vector_202509240741\|Row and Column Vector]]*
-	- *[[3 Reference/def-row-space_202509170858\|Row Space]]*
-	- *[[3 Reference/def-column-space_202509170858\|Column Space]]*
+	- *[[3 Reference/def-row-space,-column-space,-null-space_202510061124\|Row Space, Column Space, Null Space]]*
 - 4.8 Rank, Nullity, and the Fundamental Matrix Spaces
 - 4.9 Basic Matrix Transformations in R2 and R3
 - 4.10 Properties of Matrix Transformations
+
+### Chapter 6: Inner Product Spaces
+
+- 6.1 Inner Products
+	- *[[3 Reference/def-inner-product_202510061421\|Inner Product]]*
+	- *[[3 Reference/def-real-inner-product-space_202510061214\|Real Inner Product Space]]*
+- 6.3 Gram-Schmidt Process; QR-Decomposition
+	- *[[3 Reference/def-orthogonal-and-orthonormal-sets_202510061213\|Orthogonal and Orthonormal Sets]]*
+	- **[[3 Reference/theorem-linear-independence-of-orthogonal-sets_202510061226\|Linear Independence of Orthogonal Sets]]**
+	- **[[3 Reference/theorem-orthogonal-basis-expansion_202510061230\|Orthogonal Basis Expansion]]**
+	- **[[3 Reference/theorem-projection-theorem_202510061234\|Projection Theorem]]**
+	- [[3 Reference/theorem-gram-schmidt-orthogonalization_202510061401\|The Gram-Schmidt Process]]
 
 ## Collections
 

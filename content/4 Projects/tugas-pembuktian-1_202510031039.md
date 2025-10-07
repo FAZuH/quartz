@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Tugas Pembuktian 1"],"created":"2025-10-03T10:39:59.790+07:00","modified":"2025-10-03T14:17:50.503+07:00","published":"2025-10-03T14:17:50.503+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:39","status":"baby","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
+{"publish":true,"aliases":["Tugas Pembuktian 1"],"created":"2025-10-03T10:39:59.790+07:00","modified":"2025-10-05T19:35:10.471+07:00","published":"2025-10-05T19:35:10.471+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:39","status":"archived","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
 ---
 
 ## 1.
@@ -72,7 +72,7 @@ Ambil sembarang $\epsilon>0$.
 
 Ingat bahwa $X\sim U(0,\theta)$ sehingga $Y_{n}=\max(X_{i})\leq\theta$.
 
-Jika $\epsilon<\theta$ (agar $F_{Y_{n}}(\theta-\epsilon)\neq 0$) maka,
+Misalkan kasus bahwa $\epsilon<\theta$ (sehingga $F_{Y_{n}}(\theta-\epsilon)\neq 0$). Maka,
 $$
 \begin{align}
 P[|Y_{n}-\theta|\geq\epsilon] & = P(\theta-Y_{n}\geq\epsilon) \\
@@ -83,8 +83,10 @@ P[|Y_{n}-\theta|\geq\epsilon] & = P(\theta-Y_{n}\geq\epsilon) \\
 \end{align}
 $$
 
-Misalkan $\epsilon<\theta$. Maka, $0<1-\frac{\epsilon}{\theta}<1$ sehingga $\lim_{ n \to \infty }P[|Y_{n}-\theta|\geq\epsilon]=\lim_{ n \to \infty }\left( 1-\frac{\epsilon}{\theta} \right)^n=0$.
+Karena $\epsilon<\theta$, maka $0<1-\frac{\epsilon}{\theta}<1$ sehingga $\lim_{ n \to \infty }P[|Y_{n}-\theta|\geq\epsilon]=\lim_{ n \to \infty }\left( 1-\frac{\epsilon}{\theta} \right)^n=0$.
 
-Akibatnya, berdasarkan definisi konvergen ke probabilitas, $Y_{n}\xrightarrow{P}\theta$.
+Misalkan kasus bahwa $\epsilon\geq\theta$. Maka $F_{Y_{n}}(\theta-\epsilon)=0$, sehingga $\lim_{ n \to \infty }P[|Y_{n}-\theta|\geq\epsilon]=0$
+
+Jadi, berdasarkan definisi konvergen ke probabilitas, $Y_{n}\xrightarrow{P}\theta$.
 
 Akibatnya, $Y_{n}$ adalah penaksir yang konsisten untuk $\theta$.

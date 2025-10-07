@@ -1,11 +1,11 @@
 ---
-{"publish":true,"aliases":["Intersection of Subspaces"],"created":"2025-09-24T07:31:53.949+07:00","modified":"2025-09-24T07:35:57.326+07:00","published":"2025-09-24T07:35:57.326+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 07:31","status":"baby","parent":["[[linear-algebra|linear algebra]]"]}
+{"publish":true,"aliases":["Intersection of Subspaces"],"created":"2025-09-24T07:31:53.949+07:00","modified":"2025-10-06T04:35:31.746+07:00","published":"2025-10-06T04:35:31.746+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 07:31","status":"baby","parent":["[[linear-algebra|linear algebra]]"]}
 ---
 
 
 ## Theorem
 
-If $W_{1},W_{2},\dots,W_{r}$ subspaces of [[3 Reference/def-vector-space_202509240715\|vector space]] $V$ then intersection of those subspaces is also subspace of $V$.
+If $W_{1},W_{2},\dots,W_{r}$ subspaces of [[3 Reference/def-vector-space-axioms_202509240715\|vector space]] $V$ then intersection of those subspaces is also subspace of $V$.
 
 ## Proof
 

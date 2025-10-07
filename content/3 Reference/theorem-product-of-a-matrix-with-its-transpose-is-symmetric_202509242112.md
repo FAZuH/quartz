@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Product of a Matrix with its Transpose is Symmetric"],"created":"2025-09-24T21:12:37.892+07:00","modified":"2025-09-24T21:35:56.009+07:00","published":"2025-09-24T21:35:56.009+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 21:12","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Product of a Matrix with its Transpose is Symmetric"],"created":"2025-09-24T21:12:37.892+07:00","modified":"2025-10-06T00:49:58.835+07:00","published":"2025-10-06T00:49:58.835+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 21:12","status":"adult","parent":["[[matrices]]"]}
 ---
 
 

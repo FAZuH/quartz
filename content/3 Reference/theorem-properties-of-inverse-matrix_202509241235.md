@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Properties of Inverse Matrix"],"created":"2025-09-24T12:35:05.004+07:00","modified":"2025-10-02T02:22:29.088+07:00","published":"2025-10-02T02:22:29.088+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:35","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+{"publish":true,"aliases":["Properties of Inverse Matrix"],"created":"2025-09-24T12:35:05.004+07:00","modified":"2025-10-06T03:51:31.024+07:00","published":"2025-10-06T03:51:31.024+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:35","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
 ---
 
 
@@ -19,7 +19,7 @@ Thus, $B=C$.
 
 ## Remark
 
-As a consequence of this theorem, if $A$ is invertible, we simply denote inverse of $A$ as $A^{-1}$. Thus,
+As a consequence of this theorem, if $A$ is [[3 Reference/theorem-matrix-invertibility_202509241243\|invertible]], we simply denote inverse of $A$ as $A^{-1}$. Thus,
 $$
 AA^{-1}=A^{-1}A=I
 $$

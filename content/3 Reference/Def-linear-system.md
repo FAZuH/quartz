@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Linear System"],"created":"2025-09-13T18:58:55.332+07:00","modified":"2025-10-02T19:35:00.402+07:00","published":"2025-10-02T19:35:00.402+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"adult","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
+{"publish":true,"aliases":["Linear System","Coefficient Matrix","Variable Vector","Vector of Unknowns","Constant Vector"],"created":"2025-09-13T18:58:55.332+07:00","modified":"2025-10-06T11:34:58.709+07:00","published":"2025-10-06T11:34:58.709+07:00","cssclasses":"","creation-time":"2025-07-15 01:45","status":"adult","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
 ---
 
 

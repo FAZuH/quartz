@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Computers"],"created":"2025-09-13T18:59:09.211+07:00","modified":"2025-09-28T11:03:51.331+07:00","published":"2025-09-28T11:03:51.331+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
+{"publish":true,"aliases":["Computers"],"created":"2025-09-13T18:59:09.211+07:00","modified":"2025-10-05T21:41:11.154+07:00","published":"2025-10-05T21:41:11.154+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true}
 ---
 
 
@@ -30,3 +30,4 @@
 
 **Programming languages**
 - [[3 Reference/structure/rust]]
+- [[angular\|angular]]

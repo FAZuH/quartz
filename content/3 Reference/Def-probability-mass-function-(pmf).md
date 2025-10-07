@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Probability Mass Function (pmf)","Probability Mass Function (pmf)","pmf"],"created":"2025-09-13T18:58:56.353+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Probability Mass Function (pmf)","pmf"],"created":"2025-09-13T18:58:56.353+07:00","modified":"2025-10-03T21:34:57.297+07:00","published":"2025-10-03T21:34:57.297+07:00","cssclasses":"","creation-time":"2025-07-15 06:20","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
