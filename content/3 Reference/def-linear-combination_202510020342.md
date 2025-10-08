@@ -1,15 +1,15 @@
 ---
-{"publish":true,"aliases":["Linear Combination","Coefficient"],"created":"2025-10-02T03:42:56.888+07:00","modified":"2025-10-06T04:51:48.600+07:00","published":"2025-10-06T04:51:48.600+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-02 03:42","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Linear Combination","Coefficient"],"created":"2025-10-02T03:42:56.888+07:00","modified":"2025-10-08T02:43:54.560+07:00","published":"2025-10-08T02:43:54.560+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-02 03:42","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
-## Definition
+## Definition: Vectors
 
 Let 
 - $\mathbf{w}$ and $\mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{4}$ : Vectors in $R^n$
 - $k_{1},k_{2},\dots,k_{r}$ : [[3 Reference/Def-matrix\|Scalars]]
 
-If $\mathbf{w}$ can be expressed in the form
+If 
 $$
 \mathbf{w} = k_{1}\mathbf{v}_{1} + k_{2}\mathbf{v}_{2}+\dots,k_{r}\mathbf{v}_{r}
 $$
@@ -17,3 +17,18 @@ $$
 Then 
 - We say $\mathbf{w}$ is a **linear combination** of $\mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{r}$
 - We call $k_{1},k_{2},\dots,k_{r}$ the **coefficients** of the linear combination
+
+## Definition: Matrices
+
+Let 
+- $B$ and $A_{1},A_{2},\dots,A_{r}$ : [[3 Reference/Def-matrix\|Matrices]] of the same size
+- $c_{1},c_{2},\dots,c_{r}$ : [[3 Reference/Def-matrix\|Scalars]]
+
+If
+$$
+B = c_{1}A_{1}+c_{2}A_{2}+\dots+c_{r}A_{r}
+$$
+
+Then
+- We say $B$ is a **linear combination** of $A_{1},A_{2},\dots A_{r}$
+- We call $c_{1},c_{2},\dots,c_{r}$ the **coefficients** of the linear combination

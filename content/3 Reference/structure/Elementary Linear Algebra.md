@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.102+07:00","modified":"2025-10-06T14:53:01.873+07:00","published":"2025-10-06T14:53:01.873+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
+{"publish":true,"created":"2025-09-13T18:59:09.102+07:00","modified":"2025-10-08T10:27:55.968+07:00","published":"2025-10-08T10:27:55.968+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
 ---
 
 
@@ -33,6 +33,8 @@
 	- *[[3 Reference/Def-matrix-scalar-multiplication\|Matrix Scalar Multiplication]]*
 	- *[[3 Reference/Def-matrix-product\|Matrix Product]]*
 	- [[3 Reference/def-partitioned-matrices-and-submatrix\|Partitioned Matrices and Submatrix]]
+	- **[[3 Reference/theorem-matrix-multiplication-by-columns-and-by-rows_202510080430\|Matrix Multiplication by Columns and by Rows]]**
+	- **[[3 Reference/theorem-product-of-partitioned-matrices_202510080437\|Product of Partitioned Matrices]]**
 	- *[[3 Reference/def-linear-combination-of-matrices_202510020348\|Linear Combination of Matrices]]*
 	- *[[3 Reference/def-transpose-matrix_202509241332\|Transpose Matrix]]*
 	- *[[3 Reference/def-trace-of-a-matrix_202509241332\|Trace of a Matrix]]*
@@ -46,6 +48,7 @@
 	- **[[3 Reference/theorem-properties-of-inverse-matrix_202509241235\|Properties of Inverse Matrix]]**
 	- **[[3 Reference/theorem-matrix-invertibility_202509241243\|Matrix Invertibility]]**
 	- **[[3 Reference/theorem-inverse-of-matrix-product_202509241252\|Inverse of Matrix Product]]**
+	- **[[3 Reference/theorem-inverse-of-2x2-matrix_202510080403\|Inverse of 2x2 Matrix]]**
 	- *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
 	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
 	- **[[3 Reference/theorem-properties-of-transpose-matrix_202509241322\|Properties of Transpose Matrix]]**
@@ -66,9 +69,11 @@
 ### Chapter 2: Determinants
 
 - 2.1 Determinants by Cofactor Expansion
+	- *[[3 Reference/def-determinant-of-matrices_202510080503\|Determinant of Matrices]]*
 - 2.2 Evaluating Determinants by Row Reduction
 - 2.3 Properties of Determinants; Cramer's Rule
 	- **[[3 Reference/theorem-matrix-equivalency-statements_202510061112\|Matrix Equivalency Statements]]**
+	- **[[3 Reference/theorem-determinant-of-matrix-product_202510080401\|Determinant of Matrix Product]]**
 
 ### Chapter 3: Euclidean Vector Spaces
 - 3.1 Vectors in 2-Space, 3-Space, and n-Space
@@ -98,6 +103,7 @@
 	- **[[3 Reference/theorem-orthogonal-projection_202510020333\|Orthogonal Projection]]**
 - 3.4 The Geometry of Linear Systems
 - 3.5 Cross Products
+	- *[[3 Reference/def-cross-product_202510081027\|Cross Product]]*
 
 ### Chapter 4: General Vector Spaces
 - 4.1 Real Vector Spaces
@@ -113,11 +119,15 @@
 - 4.4 Coordinates and Basis
 	- *[[3 Reference/def-basis_202510061042\|Basis]]*
 - 4.5 Dimension
+	- *[[3 Reference/def-dimension_202510080329\|Dimension]]*
 - 4.6 Change of Basis
 - 4.7 Row Space, Column Space, and Null Space
 	- *[[3 Reference/def-row-and-column-vector_202509240741\|Row and Column Vector]]*
 	- *[[3 Reference/def-row-space,-column-space,-null-space_202510061124\|Row Space, Column Space, Null Space]]*
+	- **[[3 Reference/theorem-dimension-of-column-and-row-space-is-equal_202510080336\|Dimension of Column and Row Space is Equal]]**
 - 4.8 Rank, Nullity, and the Fundamental Matrix Spaces
+	- *[[3 Reference/def-rank-and-nullity_202510080316\|Rank and Nullity]]*
+	- *[[3 Reference/def-full-rank_202510080340\|Full Rank]]*
 - 4.9 Basic Matrix Transformations in R2 and R3
 - 4.10 Properties of Matrix Transformations
 

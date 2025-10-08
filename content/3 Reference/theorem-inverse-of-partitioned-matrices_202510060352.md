@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inverse of Partitioned Matrices"],"created":"2025-10-06T03:52:12.555+07:00","modified":"2025-10-06T04:02:20.883+07:00","published":"2025-10-06T04:02:20.883+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 03:52","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Inverse of Partitioned Matrices"],"created":"2025-10-06T03:52:12.555+07:00","modified":"2025-10-08T06:02:12.685+07:00","published":"2025-10-08T06:02:12.685+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 03:52","status":"baby","parent":["[[matrices]]"]}
 ---
 
 
@@ -10,14 +10,13 @@ Let
 - $U$ $m\times n$ matrix
 - $V$ : $n\times m$ matrix 
 - $W$ : $n\times n$ square matrix
--  $A = \begin{bmatrix} T & U \\ V & W \end{bmatrix}$
-- $B  = \begin{bmatrix} W & V \\ U & T \end{bmatrix}$
 
-If 
+Let 
 $$Q=W-VT^{-1}U$$
 
-Then
-- $A$ and $B$ is nonsingular
+If $Q$ is [[3 Reference/theorem-matrix-invertibility_202509241243\|invertible]]
+
+Then $A$ and $B$ is nonsingular
 
 $$
 \begin{align*}
@@ -67,6 +66,59 @@ I_n \\
 Q^{-1}
 \begin{bmatrix}
 I_n & -VT^{-1}
+\end{bmatrix}
+\end{align*}
+$$
+
+## Tip
+
+To make it easier to memorize,
+
+Let 
+- $t=T^{-1}$
+- $u=T^{-1}U$
+- $v=VT^{-1}$
+- $q=Q^{-1}=W-vU$
+
+Then
+$$
+\begin{align*}
+\begin{bmatrix}
+T & U \\
+V & W
+\end{bmatrix}^{-1}
+&=
+\begin{bmatrix}
+t & 0 \\
+0 & 0
+\end{bmatrix}
++
+\begin{bmatrix}
+-u \\
+I_{n}
+\end{bmatrix}
+q
+\begin{bmatrix}
+-v & I_{n}
+\end{bmatrix} \\ \\
+
+\begin{bmatrix}
+W & V \\
+U & T
+\end{bmatrix}^{-1}
+&=
+\begin{bmatrix}
+0 & 0 \\
+0 & t
+\end{bmatrix}
++
+\begin{bmatrix}
+I_n \\
+-u
+\end{bmatrix}
+q
+\begin{bmatrix}
+I_n & -v
 \end{bmatrix}
 \end{align*}
 $$

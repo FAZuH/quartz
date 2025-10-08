@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["matrices"],"created":"2025-09-17T07:43:58.093+07:00","modified":"2025-10-06T16:31:49.990+07:00","published":"2025-10-06T16:31:49.990+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
+{"publish":true,"aliases":["matrices"],"created":"2025-09-17T07:43:58.093+07:00","modified":"2025-10-08T03:06:14.343+07:00","published":"2025-10-08T03:06:14.343+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
 ---
 
 
@@ -29,11 +29,12 @@
 	- **[[3 Reference/theorem-properties-of-transpose-matrix_202509241322\|Properties of Transpose Matrix]]**
 	- **[[3 Reference/theorem-transpose-of-invertible-matrix_202509241326\|Transpose of Invertible Matrix]]**
 	- **[[3 Reference/theorem-product-of-a-matrix-with-its-transpose-is-symmetric_202509242112\|Product of a Matrix with its Transpose is Symmetric]]**
+- *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
+	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
+- *[[3 Reference/def-generalized-inverse-matrix_202510080304\|Generalized Inverse Matrix]]*
 - *[[3 Reference/def-inverse-matrix_202509241225\|Inverse Matrix]]*
 	- **[[3 Reference/theorem-matrix-invertibility_202509241243\|Matrix Invertibility]]**
 	- **[[3 Reference/theorem-inverse-of-matrix-product_202509241252\|Inverse of Matrix Product]]**
-- *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
-	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
 
 ### Matrix forms
 
@@ -56,6 +57,7 @@
 - *[[3 Reference/def-idempotent-matrix_202509242256\|Idempotent Matrix]]*
 - [[3 Reference/Def-augmented-matrix\|Augmented Matrix]]
 - *[[3 Reference/def-orthogonal-matrix_202509242301\|Orthogonal Matrix]]*
+
 
 
 ---

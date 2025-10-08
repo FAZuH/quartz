@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Gram-Schmidt Orthogonalization"],"created":"2025-10-06T14:01:16.873+07:00","modified":"2025-10-06T15:06:13.811+07:00","published":"2025-10-06T15:06:13.811+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:01","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Gram-Schmidt Orthogonalization"],"created":"2025-10-06T14:01:16.873+07:00","modified":"2025-10-08T07:31:21.984+07:00","published":"2025-10-08T07:31:21.984+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:01","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 ## Definition: Vectors
@@ -14,6 +14,10 @@ $$
 Let
 - $\mathcal{V}$ : [[3 Reference/def-linear-space_202509170852\|Linear space]]
 - $\mathbf{A}_{1},\dots,\mathbf{A}_{k}$ : Nonempty [[3 Reference/def-linear-independence_202510060445\|linearly independent]] [[3 Reference/def-set_202510022014\|set]] of [[3 Reference/Def-matrix\|matrices]] in $\mathcal{V}$
+- 
+$$
+x_{ij} = \frac{\mathbf{A}_{j}\cdot\mathbf{B}_{i}}{\mathbf{B}_{i}\cdot{\mathbf{B}_{i}}}, \quad i<j=1,\dots,k
+$$
 
 Then there exists unique scalars $x_{ij}$ ($i<j=1,\dots,k$) such that the set comprising the $k$ matrices
 $$
@@ -28,12 +32,7 @@ $$
 $$
 is orthogonal. 
 
-Further
-- $\mathbf{B}_{1},\mathbf{B}_{2},\dots,\mathbf{B}_{k}$ are nonnull
-- 
-$$
-x_{ij} = \frac{\mathbf{A}_{j}\cdot\mathbf{B}_{i}}{\mathbf{B}_{i}\cdot{\mathbf{B}_{i}}}, \quad i<j=1,\dots,k
-$$
+Further, $\mathbf{B}_{1},\mathbf{B}_{2},\dots,\mathbf{B}_{k}$ are nonnull
 
 ### Corollary
 
