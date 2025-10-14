@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["2.1 Distributions of Two Random Variables.md"],"created":"2025-09-13T18:59:04.955+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-02 23:50","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["2.1 Distributions of Two Random Variables.md"],"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-14T04:15:27.071+07:00","published":"2025-10-14T04:15:27.071+07:00","cssclasses":"","creation-time":"2025-07-02 23:50","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

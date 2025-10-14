@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inverse of Symmetric Matrices are Symmetric"],"created":"2025-09-24T14:26:41.116+07:00","modified":"2025-10-06T03:25:39.668+07:00","published":"2025-10-06T03:25:39.668+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 14:26","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Inverse of Symmetric Matrices are Symmetric"],"created":"2025-10-14T04:15:27.072+07:00","modified":"2025-10-14T04:15:27.072+07:00","published":"2025-10-14T04:15:27.072+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 14:26","status":"baby","parent":["[[matrices]]"]}
 ---
 
 

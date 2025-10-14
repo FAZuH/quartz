@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Events"],"created":"2025-09-13T18:58:54.926+07:00","modified":"2025-10-02T20:18:24.796+07:00","published":"2025-10-02T20:18:24.796+07:00","cssclasses":"","creation-time":"2025-07-15 01:06","status":"adult","tags":null,"parent":["[[Introduction to Real Analysis]]"]}
+{"publish":true,"aliases":["Events"],"created":"2025-10-14T04:15:27.048+07:00","modified":"2025-10-14T04:15:27.048+07:00","published":"2025-10-14T04:15:27.048+07:00","cssclasses":"","creation-time":"2025-07-15 01:06","status":"adult","tags":null,"parent":["[[Introduction to Real Analysis]]"]}
 ---
 
 

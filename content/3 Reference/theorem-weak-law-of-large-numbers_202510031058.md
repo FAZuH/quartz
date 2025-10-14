@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Weak Law of Large Numbers"],"created":"2025-10-03T10:58:54.070+07:00","modified":"2025-10-03T10:59:30.236+07:00","published":"2025-10-03T10:59:30.236+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:58","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Weak Law of Large Numbers"],"created":"2025-10-14T04:15:27.052+07:00","modified":"2025-10-14T04:15:27.052+07:00","published":"2025-10-14T04:15:27.052+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:58","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

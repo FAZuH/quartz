@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:58:50.351+07:00","modified":"2025-09-13T01:40:38.000+07:00","published":"2025-09-13T01:40:38.000+07:00","tags":["content-type/referential"],"cssclasses":"","creation-time":"2025-03-27 15:50","status":"baby","parent":["[[Time Series Analysis With Applications in R]]"]}
+{"publish":true,"created":"2025-10-14T04:15:27.061+07:00","modified":"2025-10-14T04:15:27.061+07:00","published":"2025-10-14T04:15:27.061+07:00","tags":["content-type/referential"],"cssclasses":"","creation-time":"2025-03-27 15:50","status":"baby","parent":["[[Time Series Analysis With Applications in R]]"]}
 ---
 
 

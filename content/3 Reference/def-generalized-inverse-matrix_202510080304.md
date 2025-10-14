@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Generalized Inverse Matrix","Generalized Inverse","G-Inverse"],"created":"2025-10-08T03:04:48.613+07:00","modified":"2025-10-08T05:18:04.130+07:00","published":"2025-10-08T05:18:04.130+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 03:04","status":"adult","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Generalized Inverse Matrix","Generalized Inverse","G-Inverse"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-14T04:15:27.064+07:00","published":"2025-10-14T04:15:27.064+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 03:04","status":"adult","parent":["[[matrices]]"]}
 ---
 
 

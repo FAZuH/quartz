@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Creating Self-Signed Certificates using OpenSSL"],"created":"2025-08-15T13:53:58.611+07:00","modified":"2025-08-15T13:53:58.611+07:00","published":"2025-08-15T13:53:58.611+07:00","cssclasses":"","creation-time":"2025-07-16 23:35","status":"baby","tag":null,"parent":"[[cyber security]]"}
+{"publish":true,"aliases":["Creating Self-Signed Certificates using OpenSSL"],"created":"2025-10-14T04:15:27.059+07:00","modified":"2025-10-14T04:15:27.059+07:00","published":"2025-10-14T04:15:27.059+07:00","cssclasses":"","creation-time":"2025-07-16 23:35","status":"baby","tag":null,"parent":"[[cyber security]]"}
 ---
 
 

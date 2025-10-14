@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Set Equality","Equal Sets"],"created":"2025-09-13T18:58:57.526+07:00","modified":"2025-10-03T02:19:48.088+07:00","published":"2025-10-03T02:19:48.088+07:00","cssclasses":"","creation-time":"2025-07-14 23:32","status":"adult","tags":null,"parent":["[[sets]]"],"categories":["[[sets]]"]}
+{"publish":true,"aliases":["Set Equality","Equal Sets"],"created":"2025-10-14T04:15:27.073+07:00","modified":"2025-10-14T04:15:27.073+07:00","published":"2025-10-14T04:15:27.073+07:00","cssclasses":"","creation-time":"2025-07-14 23:32","status":"adult","tags":null,"parent":["[[sets]]"],"categories":["[[sets]]"]}
 ---
 
 

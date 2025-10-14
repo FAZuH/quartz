@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Properties of Transpose Matrix"],"created":"2025-09-24T13:22:57.893+07:00","modified":"2025-10-02T02:22:42.348+07:00","published":"2025-10-02T02:22:42.348+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 13:22","status":"adult","parent":["[[linear-algebra|linear algebra]]"]}
+{"publish":true,"aliases":["Properties of Transpose Matrix"],"created":"2025-10-14T04:15:27.044+07:00","modified":"2025-10-14T04:15:27.044+07:00","published":"2025-10-14T04:15:27.044+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 13:22","status":"adult","parent":["[[linear-algebra|linear algebra]]"]}
 ---
 
 

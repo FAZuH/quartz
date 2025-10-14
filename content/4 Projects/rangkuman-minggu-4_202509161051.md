@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Rangkuman Minggu 4"],"created":"2025-09-16T10:51:54.947+07:00","modified":"2025-10-05T19:35:25.424+07:00","published":"2025-10-05T19:35:25.424+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-16 10:51","status":"archived","parent":["[[ekonometri_202509051027]]"]}
+{"publish":true,"aliases":["Rangkuman Minggu 4"],"created":"2025-10-14T04:15:27.037+07:00","modified":"2025-10-14T04:15:27.037+07:00","published":"2025-10-14T04:15:27.037+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-16 10:51","status":"archived","parent":["[[ekonometri_202509051027]]"]}
 ---
 
 

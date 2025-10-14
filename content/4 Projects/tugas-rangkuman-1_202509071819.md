@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Tugas Rangkuman 1"],"created":"2025-09-13T18:58:06.126+07:00","modified":"2025-10-05T19:35:35.622+07:00","published":"2025-10-05T19:35:35.622+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-07 18:19","status":"archived","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
+{"publish":true,"aliases":["Tugas Rangkuman 1"],"created":"2025-10-14T04:15:27.035+07:00","modified":"2025-10-14T04:15:27.035+07:00","published":"2025-10-14T04:15:27.035+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-07 18:19","status":"archived","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
 ---
 
 ## Soal

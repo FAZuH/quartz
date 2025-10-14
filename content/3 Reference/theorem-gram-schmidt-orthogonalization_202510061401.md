@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Gram-Schmidt Orthogonalization"],"created":"2025-10-06T14:01:16.873+07:00","modified":"2025-10-08T07:31:21.984+07:00","published":"2025-10-08T07:31:21.984+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:01","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Gram-Schmidt Orthogonalization"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-14T04:15:27.060+07:00","published":"2025-10-14T04:15:27.060+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:01","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 ## Definition: Vectors

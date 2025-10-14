@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["7.2 A Sufficient Statistic for a Parameter"],"created":"2025-09-13T18:59:05.420+07:00","modified":"2025-10-03T09:45:57.104+07:00","published":"2025-10-03T09:45:57.104+07:00","cssclasses":"","creation-time":"2025-07-07 00:29","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["7.2 A Sufficient Statistic for a Parameter"],"created":"2025-10-14T04:15:27.066+07:00","modified":"2025-10-14T04:15:27.066+07:00","published":"2025-10-14T04:15:27.066+07:00","cssclasses":"","creation-time":"2025-07-07 00:29","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

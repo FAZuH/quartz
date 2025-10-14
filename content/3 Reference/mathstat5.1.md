@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-09-13T18:59:06.416+07:00","modified":"2025-10-03T10:59:38.957+07:00","published":"2025-10-03T10:59:38.957+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-10-14T04:15:27.045+07:00","modified":"2025-10-14T04:15:27.045+07:00","published":"2025-10-14T04:15:27.045+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat4.4\|4.4 Order Statistics.md]] | [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] >>

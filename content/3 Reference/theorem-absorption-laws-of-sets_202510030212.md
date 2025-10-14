@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Absorption Laws of Sets"],"created":"2025-10-03T02:12:45.131+07:00","modified":"2025-10-03T02:13:55.278+07:00","published":"2025-10-03T02:13:55.278+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:12","status":"baby","parent":["[[sets]]"]}
+{"publish":true,"aliases":["Absorption Laws of Sets"],"created":"2025-10-14T04:15:27.049+07:00","modified":"2025-10-14T04:15:27.049+07:00","published":"2025-10-14T04:15:27.049+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:12","status":"baby","parent":["[[sets]]"]}
 ---
 
 

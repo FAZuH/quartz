@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Likelihood Function"],"created":"2025-09-13T18:58:55.342+07:00","modified":"2025-10-06T08:25:56.619+07:00","published":"2025-10-06T08:25:56.619+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Likelihood Function"],"created":"2025-10-14T04:15:27.065+07:00","modified":"2025-10-14T04:15:27.065+07:00","published":"2025-10-14T04:15:27.065+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 

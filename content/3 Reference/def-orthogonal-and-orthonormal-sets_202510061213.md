@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Orthogonal and Orthonormal Sets","Orthogonal Set","Orthonormal Set"],"created":"2025-10-06T12:13:10.324+07:00","modified":"2025-10-06T12:22:05.127+07:00","published":"2025-10-06T12:22:05.127+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:13","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Orthogonal and Orthonormal Sets","Orthogonal Set","Orthonormal Set"],"created":"2025-10-14T04:15:27.044+07:00","modified":"2025-10-14T04:15:27.044+07:00","published":"2025-10-14T04:15:27.044+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:13","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Homogeneous Linear System","Homogeneous Linear System"],"created":"2025-09-13T18:58:55.342+07:00","modified":"2025-10-02T18:57:47.199+07:00","published":"2025-10-02T18:57:47.199+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"baby","tags":null,"parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Homogeneous Linear System","Homogeneous Linear System"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-14T04:15:27.057+07:00","published":"2025-10-14T04:15:27.057+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"baby","tags":null,"parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

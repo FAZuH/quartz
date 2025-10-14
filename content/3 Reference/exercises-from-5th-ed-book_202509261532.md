@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-09-26T15:32:52.871+07:00","modified":"2025-09-26T21:13:47.771+07:00","published":"2025-09-26T21:13:47.771+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-14T04:15:27.075+07:00","published":"2025-10-14T04:15:27.075+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 ## Chapter 4

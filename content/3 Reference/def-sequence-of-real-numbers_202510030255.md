@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Sequence of Real Numbers"],"created":"2025-10-03T02:55:38.027+07:00","modified":"2025-10-03T03:00:00.100+07:00","published":"2025-10-03T03:00:00.100+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:55","status":"baby","parent":["[[Introduction to Real Analysis]]"]}
+{"publish":true,"aliases":["Sequence of Real Numbers"],"created":"2025-10-14T04:15:27.050+07:00","modified":"2025-10-14T04:15:27.050+07:00","published":"2025-10-14T04:15:27.050+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:55","status":"baby","parent":["[[Introduction to Real Analysis]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:58:58.039+07:00","modified":"2025-09-27T15:29:29.779+07:00","published":"2025-09-27T15:29:29.779+07:00","cssclasses":"","creation-time":"2025-03-27 16:53","status":"baby","tags":null,"parent":["[[Nextcloud]]"]}
+{"publish":true,"created":"2025-10-14T04:15:27.066+07:00","modified":"2025-10-14T04:15:27.066+07:00","published":"2025-10-14T04:15:27.066+07:00","cssclasses":"","creation-time":"2025-03-27 16:53","status":"baby","tags":null,"parent":["[[Nextcloud]]"]}
 ---
 
 

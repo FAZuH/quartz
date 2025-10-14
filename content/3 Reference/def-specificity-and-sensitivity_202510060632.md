@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Specificity and Sensitivity","Specificity","Sensitivity"],"created":"2025-10-06T06:32:14.827+07:00","modified":"2025-10-06T09:05:19.411+07:00","published":"2025-10-06T09:05:19.411+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 06:32","status":"baby","parent":["[[categorical-data-analysis]]"]}
+{"publish":true,"aliases":["Specificity and Sensitivity","Specificity","Sensitivity"],"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-14T04:15:27.071+07:00","published":"2025-10-14T04:15:27.071+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 06:32","status":"baby","parent":["[[categorical-data-analysis]]"]}
 ---
 
 

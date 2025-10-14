@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Terms and Naming Conventions"],"created":"2025-09-13T18:59:06.034+07:00","modified":"2025-09-30T10:46:39.632+07:00","published":"2025-09-30T10:46:39.632+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 13:13","status":"baby","parent":["[[linear model]]"]}
+{"publish":true,"aliases":["Terms and Naming Conventions"],"created":"2025-10-14T04:15:27.054+07:00","modified":"2025-10-14T04:15:27.055+07:00","published":"2025-10-14T04:15:27.055+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 13:13","status":"baby","parent":["[[linear model]]"]}
 ---
 
 
@@ -12,8 +12,10 @@ There can be many different notations and naming convention for the same measure
 | $SST$ (Sum of Squares Total)      | $TSS$ (Total Sum of Squares), $SS_{yy}$           |                                                                                                           |
 | $MSE$ (Mean Square Error)         | $MSD$ (Mean Square Deviation)                     |                                                                                                           |
 | $RMSE$ (Root Mean Square Error)   | $RMSD$ (Root Mean Square Deviation)               |                                                                                                           |
-| $p$ (Number of predictors)        | $k$                                               |                                                                                                           |
-| $\beta :$  Coefficients           | Parameters                                        | Parameter might be confused with distribution parameters                                                  |
+| $p$ : Number of predictors        | $k$                                               |                                                                                                           |
+| $\beta$ : Coefficients            | Parameters, $b$, $\boldsymbol{\beta}$             | Parameter might be confused with distribution parameters                                                  |
+| $x$ : Predictor<br>$X$            | Independent variable,<br>regressor, $\mathbf{X}$  | Shorter. Easier to see the difference between "Predictor" vs "Response" than "Dependent" vs "Independent" |
+| $y$ : Response<br>$Y$             | Dependent variable, $\mathbf{Y}$                  | To match with predictor                                                                                   |
+| $\epsilon$ : Error                | $\varepsilon$                                     | Easier to type in LaTeX                                                                                   |
 | Decision rule                     | Rejection rule, critical region, rejection region | More direct                                                                                               |
-| $x:$   Predictor                  | Independent variable,<br>regressor                | Shorter. Easier to see the difference between "Predictor" vs "Response" than "Dependent" vs "Independent" |
-| $y :$   Response                  | Dependent variable                                | To match with predictor                                                                                   |
+| $N$ : Total sample                | $n$                                               | $N$ not confused with $n_{i}$; more distinguishable                                                       |

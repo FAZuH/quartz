@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Estimating the Model"],"created":"2025-09-13T18:59:03.840+07:00","modified":"2025-09-16T16:49:32.338+07:00","published":"2025-09-16T16:49:32.338+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:39","status":"baby","parent":["[[the-simple-linear-model_202509091314|The Simple Linear Model]]"]}
+{"publish":true,"aliases":["Estimating the Model"],"created":"2025-10-14T04:15:27.076+07:00","modified":"2025-10-14T04:15:27.076+07:00","published":"2025-10-14T04:15:27.076+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:39","status":"baby","parent":["[[simple-linear-model_202509091314|The Simple Linear Model]]"]}
 ---
 
 

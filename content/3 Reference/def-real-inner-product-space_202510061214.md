@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Real Inner Product Space"],"created":"2025-10-06T12:14:49.419+07:00","modified":"2025-10-06T12:19:21.977+07:00","published":"2025-10-06T12:19:21.977+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:14","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Real Inner Product Space"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-14T04:15:27.064+07:00","published":"2025-10-14T04:15:27.064+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:14","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["6.1 Maximum Likelihood Estimation.md"],"created":"2025-09-13T18:59:06.452+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-02 13:53","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["6.1 Maximum Likelihood Estimation.md"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","cssclasses":"","creation-time":"2025-07-02 13:53","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.4\|5.4 Extensions to Multivariate Distributions.md]] | [[3 Reference/mathstat6.2\|6.2 Rao-Cramér Lower Bound and Efficiency.md]] >>

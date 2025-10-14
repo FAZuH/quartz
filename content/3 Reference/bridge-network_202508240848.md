@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Bridge Network"],"created":"2025-08-24T08:48:40.253+07:00","modified":"2025-08-24T08:48:51.307+07:00","published":"2025-08-24T08:48:51.307+07:00","cssclasses":"","creation-time":"2025-08-24 08:48","status":"baby","tag":null,"parent":"[[docker_202508231030]]"}
+{"publish":true,"aliases":["Bridge Network"],"created":"2025-10-14T04:15:27.073+07:00","modified":"2025-10-14T04:15:27.073+07:00","published":"2025-10-14T04:15:27.073+07:00","cssclasses":"","creation-time":"2025-08-24 08:48","status":"baby","tag":null,"parent":"[[docker_202508231030]]"}
 ---
 
 

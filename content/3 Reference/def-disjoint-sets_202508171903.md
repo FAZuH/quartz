@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Disjoint Sets","Mutually Disjoint Set"],"created":"2025-09-13T18:59:01.294+07:00","modified":"2025-10-03T01:26:44.083+07:00","published":"2025-10-03T01:26:44.083+07:00","cssclasses":"","creation-time":"2025-08-17 19:03","status":"adult","tags":null,"parent":["[[sets]]"]}
+{"publish":true,"aliases":["Disjoint Sets","Mutually Disjoint Set"],"created":"2025-10-14T04:15:27.058+07:00","modified":"2025-10-14T04:15:27.059+07:00","published":"2025-10-14T04:15:27.059+07:00","cssclasses":"","creation-time":"2025-08-17 19:03","status":"adult","tags":null,"parent":["[[sets]]"]}
 ---
 
 

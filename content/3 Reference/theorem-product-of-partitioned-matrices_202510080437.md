@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Product of Partitioned Matrices"],"created":"2025-10-08T04:37:20.432+07:00","modified":"2025-10-08T04:41:47.730+07:00","published":"2025-10-08T04:41:47.730+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 04:37","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Product of Partitioned Matrices"],"created":"2025-10-14T04:15:27.063+07:00","modified":"2025-10-14T04:15:27.063+07:00","published":"2025-10-14T04:15:27.063+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 04:37","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Testing the Overall Utility of the  Model"],"created":"2025-09-13T18:59:08.404+07:00","modified":"2025-09-16T16:53:46.704+07:00","published":"2025-09-16T16:53:46.704+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:46","status":"baby","parent":["[[Linear Mo[[Def-mean|mean]]]"]}
+{"publish":true,"aliases":["Testing the Overall Utility of the  Model"],"created":"2025-10-14T04:15:27.041+07:00","modified":"2025-10-14T04:15:27.041+07:00","published":"2025-10-14T04:15:27.041+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:46","status":"baby","parent":["[[Linear Mo[[Def-mean|mean]]]"]}
 ---
 
 

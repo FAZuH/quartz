@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inverse of 2x2 Matrix"],"created":"2025-10-08T04:03:20.923+07:00","modified":"2025-10-08T04:04:42.298+07:00","published":"2025-10-08T04:04:42.298+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 04:03","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Inverse of 2x2 Matrix"],"created":"2025-10-14T04:15:27.046+07:00","modified":"2025-10-14T04:21:33.427+07:00","published":"2025-10-14T04:21:33.427+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 04:03","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

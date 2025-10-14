@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Linear Space"],"created":"2025-09-17T08:52:34.381+07:00","modified":"2025-09-17T12:57:47.917+07:00","published":"2025-09-17T12:57:47.917+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-17 08:52","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Linear Space"],"created":"2025-10-14T04:15:27.040+07:00","modified":"2025-10-14T04:15:27.040+07:00","published":"2025-10-14T04:15:27.040+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-17 08:52","status":"baby","parent":["[[matrices]]"]}
 ---
 
 

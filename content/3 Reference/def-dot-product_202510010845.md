@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Dot Product"],"created":"2025-10-01T08:45:34.583+07:00","modified":"2025-10-06T15:11:22.356+07:00","published":"2025-10-06T15:11:22.356+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 08:45","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Dot Product"],"created":"2025-10-14T04:15:27.041+07:00","modified":"2025-10-14T04:15:27.041+07:00","published":"2025-10-14T04:15:27.041+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 08:45","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Linear Independence of Orthogonal Sets"],"created":"2025-10-06T12:26:49.983+07:00","modified":"2025-10-06T12:29:03.463+07:00","published":"2025-10-06T12:29:03.463+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:26","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Linear Independence of Orthogonal Sets"],"created":"2025-10-14T04:15:27.050+07:00","modified":"2025-10-14T04:15:27.050+07:00","published":"2025-10-14T04:15:27.050+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:26","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

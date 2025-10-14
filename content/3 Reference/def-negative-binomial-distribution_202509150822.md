@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Negative Binomial Distribution"],"created":"2025-09-15T08:22:52.553+07:00","modified":"2025-09-15T08:25:33.785+07:00","published":"2025-09-15T08:25:33.785+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-15 08:22","status":"baby","parent":["[[mathematical-statistics]]"]}
+{"publish":true,"aliases":["Negative Binomial Distribution"],"created":"2025-10-14T04:15:27.040+07:00","modified":"2025-10-14T04:15:27.040+07:00","published":"2025-10-14T04:15:27.040+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-15 08:22","status":"baby","parent":["[[mathematical-statistics]]"]}
 ---
 
 

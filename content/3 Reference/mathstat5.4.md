@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["5.4 Extensions to Multivariate Distributions.md"],"created":"2025-09-13T18:59:05.325+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-07-02 12:58","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.4 Extensions to Multivariate Distributions.md"],"created":"2025-10-14T04:15:27.039+07:00","modified":"2025-10-14T04:15:27.039+07:00","published":"2025-10-14T04:15:27.039+07:00","cssclasses":"","creation-time":"2025-07-02 12:58","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.3\|5.3 Central Limit Theorem.md]] | [[3 Reference/mathstat6.1\|6.1 Maximum Likelihood Estimation.md]] >>

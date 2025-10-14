@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Scalar Multiples, Transposes, Sums, and Products of Partitioned Matrices"],"created":"2025-09-24T23:25:00.089+07:00","modified":"2025-09-24T23:28:38.532+07:00","published":"2025-09-24T23:28:38.532+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 23:25","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Scalar Multiples, Transposes, Sums, and Products of Partitioned Matrices"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 23:25","status":"baby","parent":["[[matrices]]"]}
 ---
 
 

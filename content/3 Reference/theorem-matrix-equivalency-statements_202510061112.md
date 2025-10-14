@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Matrix Equivalency Statements"],"created":"2025-10-06T11:12:13.823+07:00","modified":"2025-10-08T03:38:53.713+07:00","published":"2025-10-08T03:38:53.713+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:12","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Matrix Equivalency Statements"],"created":"2025-10-14T04:15:27.053+07:00","modified":"2025-10-14T04:15:27.053+07:00","published":"2025-10-14T04:15:27.053+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:12","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

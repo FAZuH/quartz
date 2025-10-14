@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Linear Independence","Linearly Independent","Linearly Dependent"],"created":"2025-10-06T04:45:17.279+07:00","modified":"2025-10-06T05:00:01.849+07:00","published":"2025-10-06T05:00:01.849+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 04:45","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Linear Independence","Linearly Independent","Linearly Dependent"],"created":"2025-10-14T04:15:27.054+07:00","modified":"2025-10-14T04:15:27.054+07:00","published":"2025-10-14T04:15:27.054+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 04:45","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

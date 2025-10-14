@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Specification Error Tests"],"created":"2025-09-16T10:47:50.698+07:00","modified":"2025-09-16T10:48:16.496+07:00","published":"2025-09-16T10:48:16.496+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-16 10:47","status":"baby","parent":["[[econometrics]]"]}
+{"publish":true,"aliases":["Specification Error Tests"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-14T04:15:27.060+07:00","published":"2025-10-14T04:15:27.060+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-16 10:47","status":"baby","parent":["[[econometrics]]"]}
 ---
 
 

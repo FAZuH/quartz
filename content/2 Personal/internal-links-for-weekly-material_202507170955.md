@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-09-13T18:58:10.057+07:00","modified":"2025-09-26T18:16:07.600+07:00","published":"2025-09-26T18:16:07.600+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
+{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-10-14T04:15:27.087+07:00","modified":"2025-10-14T04:15:27.087+07:00","published":"2025-10-14T04:15:27.087+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Distance of Vectors"],"created":"2025-10-01T08:43:28.059+07:00","modified":"2025-10-02T02:44:30.368+07:00","published":"2025-10-02T02:44:30.368+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 08:43","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Distance of Vectors"],"created":"2025-10-14T04:15:27.046+07:00","modified":"2025-10-14T04:15:27.046+07:00","published":"2025-10-14T04:15:27.046+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 08:43","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

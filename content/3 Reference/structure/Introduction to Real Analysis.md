@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:59:09.090+07:00","modified":"2025-10-03T02:55:40.011+07:00","published":"2025-10-03T02:55:40.011+07:00","cssclasses":"","creation-time":"2025-03-02 02:37","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"source":"Bartle, R. G., & Sherbert, D. R. (2011). Introduction to Real Analysis (4th ed.)"}
+{"publish":true,"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-10-14T04:15:27.068+07:00","published":"2025-10-14T04:15:27.068+07:00","cssclasses":"","creation-time":"2025-03-02 02:37","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"source":"Bartle, R. G., & Sherbert, D. R. (2011). Introduction to Real Analysis (4th ed.)"}
 ---
 
 

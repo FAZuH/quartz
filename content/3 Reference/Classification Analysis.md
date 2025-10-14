@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.716+07:00","modified":"2025-08-15T13:53:58.716+07:00","published":"2025-08-15T13:53:58.716+07:00","cssclasses":"","creation-time":"2025-03-21 07:05","status":"adult","tags":[],"parent":["[[3 Reference/structure/discriminant analysis]]"]}
+{"publish":true,"created":"2025-10-14T04:15:27.044+07:00","modified":"2025-10-14T04:15:27.044+07:00","published":"2025-10-14T04:15:27.044+07:00","cssclasses":"","creation-time":"2025-03-21 07:05","status":"adult","tags":[],"parent":["[[3 Reference/structure/discriminant analysis]]"]}
 ---
 
 

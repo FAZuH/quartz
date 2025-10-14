@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Boole's Inequality"],"created":"2025-10-02T20:40:14.704+07:00","modified":"2025-10-03T03:02:24.120+07:00","published":"2025-10-03T03:02:24.120+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-02 20:40","status":"adult","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Boole's Inequality"],"created":"2025-10-14T04:15:27.042+07:00","modified":"2025-10-14T04:15:27.042+07:00","published":"2025-10-14T04:15:27.042+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-02 20:40","status":"adult","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

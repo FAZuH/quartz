@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Selection Sort"],"created":"2025-08-17T23:50:06.880+07:00","modified":"2025-08-18T02:08:15.932+07:00","published":"2025-08-18T02:08:15.932+07:00","cssclasses":"","creation-time":"2025-08-17 23:50","status":"baby","tag":null,"parent":"[[sorting-algorithms_202508172342]]"}
+{"publish":true,"aliases":["Selection Sort"],"created":"2025-10-14T04:15:27.043+07:00","modified":"2025-10-14T04:15:27.043+07:00","published":"2025-10-14T04:15:27.043+07:00","cssclasses":"","creation-time":"2025-08-17 23:50","status":"baby","tag":null,"parent":"[[sorting-algorithms_202508172342]]"}
 ---
 
 ## Implementation

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["cdf of Order Statistics"],"created":"2025-10-03T10:46:22.295+07:00","modified":"2025-10-03T15:19:49.176+07:00","published":"2025-10-03T15:19:49.176+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:46","status":"adult","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["cdf of Order Statistics"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-14T04:15:27.075+07:00","published":"2025-10-14T04:15:27.075+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:46","status":"adult","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

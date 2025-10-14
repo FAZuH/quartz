@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Moment Generating Function (mgf)","mgf"],"created":"2025-09-13T18:58:57.526+07:00","modified":"2025-10-06T06:26:01.044+07:00","published":"2025-10-06T06:26:01.044+07:00","cssclasses":"","creation-time":"2025-07-15 06:54","status":"adult","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Moment Generating Function (mgf)","mgf"],"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-14T04:15:27.071+07:00","published":"2025-10-14T04:15:27.071+07:00","cssclasses":"","creation-time":"2025-07-15 06:54","status":"adult","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 

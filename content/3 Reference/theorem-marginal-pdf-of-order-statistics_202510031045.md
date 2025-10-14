@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Marginal pdf of Order Statistics"],"created":"2025-10-03T10:45:53.674+07:00","modified":"2025-10-03T10:48:17.152+07:00","published":"2025-10-03T10:48:17.152+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:45","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Marginal pdf of Order Statistics"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-14T04:15:27.064+07:00","published":"2025-10-14T04:15:27.064+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:45","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

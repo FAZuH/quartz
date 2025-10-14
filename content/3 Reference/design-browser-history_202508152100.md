@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Design Browser History"],"created":"2025-08-15T21:00:11.834+07:00","modified":"2025-08-17T23:24:35.357+07:00","published":"2025-08-17T23:24:35.357+07:00","cssclasses":"","creation-time":"2025-08-15 21:00","status":"baby","tags":null,"parent":["[[dsa-problems_202508172322|dsa problems]]"]}
+{"publish":true,"aliases":["Design Browser History"],"created":"2025-10-14T04:15:27.050+07:00","modified":"2025-10-14T04:15:27.050+07:00","published":"2025-10-14T04:15:27.050+07:00","cssclasses":"","creation-time":"2025-08-15 21:00","status":"baby","tags":null,"parent":["[[dsa-problems_202508172322|dsa problems]]"]}
 ---
 
 ## Solution

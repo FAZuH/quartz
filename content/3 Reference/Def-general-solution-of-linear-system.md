@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["General Solution of Linear System"],"created":"2025-09-13T18:58:57.075+07:00","modified":"2025-10-02T02:21:31.099+07:00","published":"2025-10-02T02:21:31.099+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"adult","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
+{"publish":true,"aliases":["General Solution of Linear System"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","cssclasses":"","creation-time":"2025-07-15 01:58","status":"adult","tag":null,"parent":"[[linear-algebra|linear algebra]]"}
 ---
 
 

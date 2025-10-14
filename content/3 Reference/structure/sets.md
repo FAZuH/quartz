@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["sets"],"created":"2025-09-16T03:12:03.646+07:00","modified":"2025-10-03T02:43:32.044+07:00","published":"2025-10-03T02:43:32.044+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-16 03:12","status":"baby","parent":["[[mathematics]]"]}
+{"publish":true,"aliases":["sets"],"created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-14T04:15:27.068+07:00","published":"2025-10-14T04:15:27.068+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-16 03:12","status":"baby","parent":["[[mathematics]]"]}
 ---
 
 ## Content

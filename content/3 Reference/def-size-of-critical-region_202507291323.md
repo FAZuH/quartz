@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Size of Critical Region","Size","Significance level"],"created":"2025-09-13T18:59:03.050+07:00","modified":"2025-09-17T07:46:24.047+07:00","published":"2025-09-17T07:46:24.047+07:00","tags":["linker-exclude"],"cssclasses":"","creation-time":"2025-07-29 13:23","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Size of Critical Region","Size","Significance level"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","tags":["linker-exclude"],"cssclasses":"","creation-time":"2025-07-29 13:23","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 

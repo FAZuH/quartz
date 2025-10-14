@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Definition of Equilikely Case","created":"2025-09-13T18:59:03.211+07:00","modified":"2025-10-02T20:33:08.819+07:00","published":"2025-10-02T20:33:08.819+07:00","cssclasses":"","creation-time":"2025-07-15 01:24","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":"Definition of Equilikely Case","created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-14T04:15:27.067+07:00","published":"2025-10-14T04:15:27.067+07:00","cssclasses":"","creation-time":"2025-07-15 01:24","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 

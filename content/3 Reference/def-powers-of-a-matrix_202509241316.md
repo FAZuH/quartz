@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Powers of a Matrix"],"created":"2025-09-24T13:16:01.048+07:00","modified":"2025-10-02T02:22:37.679+07:00","published":"2025-10-02T02:22:37.679+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 13:16","status":"adult","parent":["[[linear-algebra|linear algebra]]"]}
+{"publish":true,"aliases":["Powers of a Matrix"],"created":"2025-10-14T04:15:27.076+07:00","modified":"2025-10-14T04:15:27.076+07:00","published":"2025-10-14T04:15:27.076+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 13:16","status":"adult","parent":["[[linear-algebra|linear algebra]]"]}
 ---
 
 

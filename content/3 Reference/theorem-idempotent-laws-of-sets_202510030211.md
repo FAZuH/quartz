@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Idempotent Laws of Sets"],"created":"2025-10-03T02:11:57.825+07:00","modified":"2025-10-03T02:46:27.080+07:00","published":"2025-10-03T02:46:27.080+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:11","status":"baby","parent":["[[sets]]"]}
+{"publish":true,"aliases":["Idempotent Laws of Sets"],"created":"2025-10-14T04:15:27.043+07:00","modified":"2025-10-14T04:15:27.043+07:00","published":"2025-10-14T04:15:27.043+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:11","status":"baby","parent":["[[sets]]"]}
 ---
 
 

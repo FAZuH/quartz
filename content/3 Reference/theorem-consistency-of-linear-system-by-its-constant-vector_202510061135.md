@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Consistency of Linear System by its Constant Vector"],"created":"2025-10-06T11:35:19.907+07:00","modified":"2025-10-06T11:41:05.793+07:00","published":"2025-10-06T11:41:05.793+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:35","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Consistency of Linear System by its Constant Vector"],"created":"2025-10-14T04:15:27.042+07:00","modified":"2025-10-14T04:15:27.042+07:00","published":"2025-10-14T04:15:27.042+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:35","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

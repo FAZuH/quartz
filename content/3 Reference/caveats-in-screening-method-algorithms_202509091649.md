@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Caveats in Screening Method Algorithms"],"created":"2025-09-13T18:59:00.138+07:00","modified":"2025-09-15T07:00:58.000+07:00","published":"2025-09-15T07:00:58.000+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:49","status":"baby","parent":["[[Linear Model]]"]}
+{"publish":true,"aliases":["Caveats in Screening Method Algorithms"],"created":"2025-10-14T04:15:27.063+07:00","modified":"2025-10-14T04:15:27.063+07:00","published":"2025-10-14T04:15:27.063+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:49","status":"baby","parent":["[[Linear Model]]"]}
 ---
 
 

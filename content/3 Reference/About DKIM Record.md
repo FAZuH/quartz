@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-08-15T13:53:58.627+07:00","modified":"2025-08-15T13:53:58.628+07:00","published":"2025-08-15T13:53:58.628+07:00","cssclasses":"","creation-time":"2025-06-21 14:04","status":"baby","tags":null,"parent":["[[email administration]]"]}
+{"publish":true,"created":"2025-10-14T04:15:27.040+07:00","modified":"2025-10-14T04:15:27.040+07:00","published":"2025-10-14T04:15:27.040+07:00","cssclasses":"","creation-time":"2025-06-21 14:04","status":"baby","tags":null,"parent":["[[email administration]]"]}
 ---
 
 DKIM (DomainKeys Identified Mail) is a mechanism that signs all outbound emails from a domain with a private key. The corresponding public key is published to the DNS so that the receiving server can validate the key pair.

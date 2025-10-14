@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Completeness Property of Real Numbers"],"created":"2025-09-13T18:59:00.979+07:00","modified":"2025-09-13T01:10:46.000+07:00","published":"2025-09-13T01:10:46.000+07:00","cssclasses":"","creation-time":"2025-08-16 01:09","status":"baby","tag":null,"parent":"[[Introduction to Real Analysis]]"}
+{"publish":true,"aliases":["Completeness Property of Real Numbers"],"created":"2025-10-14T04:15:27.043+07:00","modified":"2025-10-14T04:15:27.043+07:00","published":"2025-10-14T04:15:27.043+07:00","cssclasses":"","creation-time":"2025-08-16 01:09","status":"baby","tag":null,"parent":"[[Introduction to Real Analysis]]"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Partitioned Matrices and Submatrix","Submatrix","Matrix Partition","Partitioned Matrix"],"created":"2025-09-13T18:58:56.043+07:00","modified":"2025-10-02T02:22:00.810+07:00","published":"2025-10-02T02:22:00.810+07:00","cssclasses":"","creation-time":"2025-07-15 02:40","status":"adult","tag":null,"parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Partitioned Matrices and Submatrix","Submatrix","Matrix Partition","Partitioned Matrix"],"created":"2025-10-14T04:15:27.043+07:00","modified":"2025-10-14T04:15:27.043+07:00","published":"2025-10-14T04:15:27.043+07:00","cssclasses":"","creation-time":"2025-07-15 02:40","status":"adult","tag":null,"parent":["[[matrices]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Contingency Table"],"created":"2025-10-06T06:49:38.154+07:00","modified":"2025-10-06T06:52:04.111+07:00","published":"2025-10-06T06:52:04.111+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 06:49","status":"adult","parent":["[[categorical-data-analysis]]"]}
+{"publish":true,"aliases":["Contingency Table"],"created":"2025-10-14T04:15:27.047+07:00","modified":"2025-10-14T04:15:27.047+07:00","published":"2025-10-14T04:15:27.047+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 06:49","status":"adult","parent":["[[categorical-data-analysis]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-09-13T18:58:52.669+07:00","modified":"2025-09-13T01:40:38.000+07:00","published":"2025-09-13T01:40:38.000+07:00","cssclasses":"","creation-time":"2025-03-27 16:56","status":"adult","tags":null,"parent":["[[Time Series Analysis With Applications in R]]"]}
+{"publish":true,"created":"2025-10-14T04:15:27.051+07:00","modified":"2025-10-14T04:15:27.051+07:00","published":"2025-10-14T04:15:27.051+07:00","cssclasses":"","creation-time":"2025-03-27 16:56","status":"adult","tags":null,"parent":["[[Time Series Analysis With Applications in R]]"]}
 ---
 
 This note covers autoregressive (AR) and moving average (MA) models, focusing on their statistical properties, [stationarity](Stationarity.md), and invertibility.

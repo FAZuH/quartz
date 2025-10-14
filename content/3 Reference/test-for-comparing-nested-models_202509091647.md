@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Test for Comparing Nested Models"],"created":"2025-09-13T18:59:07.011+07:00","modified":"2025-09-15T07:00:58.174+07:00","published":"2025-09-15T07:00:58.174+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:47","status":"baby","parent":["[[Linear Model]]"]}
+{"publish":true,"aliases":["Test for Comparing Nested Models"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-14T04:15:27.075+07:00","published":"2025-10-14T04:15:27.075+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 16:47","status":"baby","parent":["[[Linear Model]]"]}
 ---
 
 

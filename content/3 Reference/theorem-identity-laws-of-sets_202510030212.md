@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Identity Laws of Sets"],"created":"2025-10-03T02:12:25.788+07:00","modified":"2025-10-03T02:45:14.862+07:00","published":"2025-10-03T02:45:14.862+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:12","status":"baby","parent":["[[sets]]"]}
+{"publish":true,"aliases":["Identity Laws of Sets"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-14T04:15:27.057+07:00","published":"2025-10-14T04:15:27.057+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 02:12","status":"baby","parent":["[[sets]]"]}
 ---
 
 

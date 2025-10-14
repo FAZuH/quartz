@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["De Morgan's Laws for Set Complements"],"created":"2025-10-03T01:43:03.234+07:00","modified":"2025-10-03T01:47:13.171+07:00","published":"2025-10-03T01:47:13.171+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 01:43","status":"adult","parent":["[[sets]]"]}
+{"publish":true,"aliases":["De Morgan's Laws for Set Complements"],"created":"2025-10-14T04:15:27.066+07:00","modified":"2025-10-14T04:15:27.066+07:00","published":"2025-10-14T04:15:27.066+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 01:43","status":"adult","parent":["[[sets]]"]}
 ---
 
 

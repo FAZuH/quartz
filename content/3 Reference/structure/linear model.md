@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["linear model"],"created":"2025-09-13T18:59:11.973+07:00","modified":"2025-09-16T16:57:19.415+07:00","published":"2025-09-16T16:57:19.415+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-09 13:05","status":"baby","parent":["[[mathematics]]","[[statistics]]"]}
+{"publish":true,"aliases":["linear model"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-10-14T05:48:09.433+07:00","published":"2025-10-14T05:48:09.433+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-09 13:05","status":"baby","parent":["[[mathematics]]","[[statistics]]"]}
 ---
 
 
@@ -7,13 +7,15 @@
 
 - [[3 Reference/terms-and-naming-conventions_202509091313\|Terms and Naming Conventions]]
 
+
 ## Simple linear regression
 
-- [[3 Reference/the-simple-linear-model_202509091314\|The Simple Linear Model]]
-- [[3 Reference/model-interpretation_202509161425\|Model Interpretation]]
-- [[3 Reference/assumptions-for-the-error-component_202509091314\|Assumptions for the Error Component]]
-- [[3 Reference/estimating-the-model_202509091639\|Estimating the Model]]
-- [[3 Reference/testing-the-model_202509091637\|Testing the Model]]
+- [[3 Reference/simple-linear-model_202509091314\|Simple Linear Model]]
+	- [[3 Reference/simple-linear-model-interpretation_202509161425\|Interpretation]]
+	- [[3 Reference/assumptions-for-the-error-component_202509091314\|Assumptions for the Error Component]]
+	- [[3 Reference/estimating-the-model_202509091639\|Estimating]]
+	- Tests
+		- [[3 Reference/testing-the-model_202509091637\|Testing the Usefulness Model]]
 	
 ## Multiple linear regression
 
@@ -41,3 +43,9 @@
 - [[3 Reference/stepwise-regression-methods_202509091648\|Stepwise Regression Methods]]
 - [[3 Reference/all-possible-regression-method_202509091649\|All-Possible Regression Method]]
 - [[3 Reference/caveats-in-screening-method-algorithms_202509091649\|Caveats in Screening Method Algorithms]]
+
+## A
+
+- *[[def-sum-of-squares-error_202510140547\|Sum of Squares Error]]*
+- *[[def-sum-of-squares-regression_202510140548\|Sum of Squares Regression]]*
+- *[[def-sum-of-squares-total_202510140548\|Sum of Squares Total]]*

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Projection Theorem"],"created":"2025-10-06T12:34:01.750+07:00","modified":"2025-10-06T12:35:34.976+07:00","published":"2025-10-06T12:35:34.976+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:34","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Projection Theorem"],"created":"2025-10-14T04:15:27.042+07:00","modified":"2025-10-14T04:15:27.042+07:00","published":"2025-10-14T04:15:27.042+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 12:34","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
