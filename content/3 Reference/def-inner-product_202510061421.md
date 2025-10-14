@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inner Product","Euclidean Inner Product"],"created":"2025-10-14T04:15:27.048+07:00","modified":"2025-10-14T04:15:27.048+07:00","published":"2025-10-14T04:15:27.048+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:21","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Inner Product","Euclidean Inner Product","Frobenius Inner Product"],"created":"2025-10-14T04:15:27.048+07:00","modified":"2025-10-15T04:06:32.602+07:00","published":"2025-10-15T04:06:32.602+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:21","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
@@ -16,9 +16,9 @@ $$
 
 Let
 - $\mathcal{V}$ : [[3 Reference/def-linear-space_202509170852\|Linear space]] of  $m\times n$ [[3 Reference/Def-matrix\|matrices]]
-- $\mathbf{A},\mathbf{B}$ : $m\times n$ matrices in $\mathcal{V}$
+- $A,B$ : $m\times n$ matrices in $\mathcal{V}$
 
-Then the **inner product** of $\mathbf{A}$ and $\mathbf{B}$ is
+Then the **inner product** of $A$ and $B$ is
 $$
-\mathbf{A}\cdot \mathbf{B} = \operatorname{tr(\mathbf{A}'\mathbf{B})} = \operatorname{tr}(\mathbf{A}\mathbf{B}')
+A\cdot B=\operatorname{tr}(A^TB)=\operatorname{tr}(AB^T)
 $$

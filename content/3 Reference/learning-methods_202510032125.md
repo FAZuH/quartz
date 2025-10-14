@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Learning Methods"],"created":"2025-10-03T21:25:38.686+07:00","modified":"2025-10-03T22:13:01.928+07:00","published":"2025-10-03T22:13:01.928+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 21:25","status":"baby","parent":["[[studying]]"]}
+{"publish":true,"aliases":["Learning Methods"],"created":"2025-10-14T04:15:27.053+07:00","modified":"2025-10-14T04:15:27.053+07:00","published":"2025-10-14T04:15:27.053+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 21:25","status":"baby","parent":["[[studying]]"]}
 ---
 
 

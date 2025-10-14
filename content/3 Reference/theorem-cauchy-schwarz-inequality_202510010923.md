@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Cauchy-Schwarz Inequality"],"created":"2025-10-01T09:23:23.124+07:00","modified":"2025-10-02T02:45:44.707+07:00","published":"2025-10-02T02:45:44.707+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 09:23","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Cauchy-Schwarz Inequality"],"created":"2025-10-14T04:15:27.053+07:00","modified":"2025-10-14T04:15:27.053+07:00","published":"2025-10-14T04:15:27.053+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 09:23","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

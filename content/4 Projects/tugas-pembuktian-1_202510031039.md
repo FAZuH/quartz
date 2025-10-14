@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Tugas Pembuktian 1"],"created":"2025-10-03T10:39:59.790+07:00","modified":"2025-10-05T19:35:10.471+07:00","published":"2025-10-05T19:35:10.471+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:39","status":"archived","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
+{"publish":true,"aliases":["Tugas Pembuktian 1"],"created":"2025-10-14T04:15:27.037+07:00","modified":"2025-10-14T04:15:27.037+07:00","published":"2025-10-14T04:15:27.037+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:39","status":"archived","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
 ---
 
 ## 1.

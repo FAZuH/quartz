@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Estimator"],"created":"2025-09-13T18:58:54.910+07:00","modified":"2025-10-03T21:36:52.940+07:00","published":"2025-10-03T21:36:52.940+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Estimator"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-14T04:15:27.064+07:00","published":"2025-10-14T04:15:27.064+07:00","cssclasses":"","creation-time":"2025-07-15 07:13","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 

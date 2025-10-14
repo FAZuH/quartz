@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Updating Tailscale Node IP of Headscale"],"created":"2025-08-25T07:58:50.648+07:00","modified":"2025-08-25T08:01:17.575+07:00","published":"2025-08-25T08:01:17.575+07:00","cssclasses":"","creation-time":"2025-08-25 07:58","status":"baby","tag":null,"parent":"[[fleeting]]"}
+{"publish":true,"aliases":["Updating Tailscale Node IP of Headscale"],"created":"2025-10-14T04:15:27.054+07:00","modified":"2025-10-14T04:15:27.054+07:00","published":"2025-10-14T04:15:27.054+07:00","cssclasses":"","creation-time":"2025-08-25 07:58","status":"baby","tag":null,"parent":"[[fleeting]]"}
 ---
 
 1. Open sqlite[^1] on `/var/lib/headscale/sqlite.db`

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["5.3 Central Limit Theorem.md"],"created":"2025-09-13T18:59:05.180+07:00","modified":"2025-09-19T09:46:07.513+07:00","published":"2025-09-19T09:46:07.513+07:00","cssclasses":"","creation-time":"2025-07-02 12:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.3 Central Limit Theorem.md"],"created":"2025-10-14T04:15:27.063+07:00","modified":"2025-10-14T04:15:27.063+07:00","published":"2025-10-14T04:15:27.063+07:00","cssclasses":"","creation-time":"2025-07-02 12:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] | [[3 Reference/mathstat5.4\|5.4 Extensions to Multivariate Distributions.md]] >>

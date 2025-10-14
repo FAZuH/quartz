@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inverse Matrix","Inverse","Singular"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-14T04:15:27.057+07:00","published":"2025-10-14T04:15:27.057+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:25","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+{"publish":true,"aliases":["Inverse Matrix","Inverse","Singular","Left Inverse","Right Inverse"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-15T05:05:18.617+07:00","published":"2025-10-15T05:05:18.617+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:25","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
 ---
 
 
@@ -16,6 +16,10 @@ Then
 - $B$ is called **inverse** of $A$
 
 If no such matrix $B$ is found, then $A$ is said to be **singular**
+
+If $BA=I$, then we say $B$ is **left inverse** of $A$
+
+If $AB=I$, then we say  is **right inverse** of $A$
 
 ## Remark
 

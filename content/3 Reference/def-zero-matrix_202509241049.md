@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Zero Matrix"],"created":"2025-09-24T10:49:17.975+07:00","modified":"2025-10-02T02:22:18.811+07:00","published":"2025-10-02T02:22:18.811+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 10:49","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+{"publish":true,"aliases":["Zero Matrix"],"created":"2025-10-14T04:15:27.042+07:00","modified":"2025-10-14T04:15:27.042+07:00","published":"2025-10-14T04:15:27.042+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 10:49","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
 ---
 
 

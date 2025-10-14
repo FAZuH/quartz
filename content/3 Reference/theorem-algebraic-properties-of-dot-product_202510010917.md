@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Algebraic Properties of Dot Product"],"created":"2025-10-01T09:17:01.525+07:00","modified":"2025-10-02T02:45:17.556+07:00","published":"2025-10-02T02:45:17.556+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 09:17","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Algebraic Properties of Dot Product"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-14T04:15:27.057+07:00","published":"2025-10-14T04:15:27.057+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 09:17","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Inverse of Partitioned Matrices"],"created":"2025-10-14T04:15:27.050+07:00","modified":"2025-10-14T04:15:27.050+07:00","published":"2025-10-14T04:15:27.050+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 03:52","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Inverse of Partitioned Matrices"],"created":"2025-10-14T04:15:27.050+07:00","modified":"2025-10-15T04:50:53.685+07:00","published":"2025-10-15T04:50:53.685+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 03:52","status":"baby","parent":["[[matrices]]"]}
 ---
 
 
@@ -70,55 +70,54 @@ I_n & -VT^{-1}
 \end{align*}
 $$
 
-## Tip
-
-To make it easier to memorize,
-
-Let 
-- $t=T^{-1}$
-- $u=T^{-1}U$
-- $v=VT^{-1}$
-- $q=Q^{-1}=W-vU$
-
-Then
-$$
-\begin{align*}
-\begin{bmatrix}
-T & U \\
-V & W
-\end{bmatrix}^{-1}
-&=
-\begin{bmatrix}
-t & 0 \\
-0 & 0
-\end{bmatrix}
-+
-\begin{bmatrix}
--u \\
-I_{n}
-\end{bmatrix}
-q
-\begin{bmatrix}
--v & I_{n}
-\end{bmatrix} \\ \\
-
-\begin{bmatrix}
-W & V \\
-U & T
-\end{bmatrix}^{-1}
-&=
-\begin{bmatrix}
-0 & 0 \\
-0 & t
-\end{bmatrix}
-+
-\begin{bmatrix}
-I_n \\
--u
-\end{bmatrix}
-q
-\begin{bmatrix}
-I_n & -v
-\end{bmatrix}
-\end{align*}
-$$
+> [!tip]
+> To make it easier to memorize,
+> 
+> Let 
+> - $t=T^{-1}$
+> - $u=T^{-1}U$
+> - $v=VT^{-1}$
+> - $q=Q^{-1}=(W-vU)^{-1}$
+> 
+> Then
+> $$
+> \begin{align*}
+> \begin{bmatrix}
+> T & U \\
+> V & W
+> \end{bmatrix}^{-1}
+> &=
+> \begin{bmatrix}
+> t & 0 \\
+> 0 & 0
+> \end{bmatrix}
+> +
+> \begin{bmatrix}
+> -u \\
+> I_{n}
+> \end{bmatrix}
+> q
+> \begin{bmatrix}
+> -v & I_{n}
+> \end{bmatrix} \\ \\
+> 
+> \begin{bmatrix}
+> W & V \\
+> U & T
+> \end{bmatrix}^{-1}
+> &=
+> \begin{bmatrix}
+> 0 & 0 \\
+> 0 & t
+> \end{bmatrix}
+> +
+> \begin{bmatrix}
+> I_n \\
+> -u
+> \end{bmatrix}
+> q
+> \begin{bmatrix}
+> I_n & -v
+> \end{bmatrix}
+> \end{align*}
+> $$

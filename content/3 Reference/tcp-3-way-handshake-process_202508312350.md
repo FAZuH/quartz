@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["TCP 3-way Handshake Process"],"created":"2025-08-31T23:50:23.134+07:00","modified":"2025-09-01T00:31:25.052+07:00","published":"2025-09-01T00:31:25.052+07:00","tags":[null],"cssclasses":"","creation-time":"2025-08-31 23:50","status":"baby","parent":["[[network engineering]]"]}
+{"publish":true,"aliases":["TCP 3-way Handshake Process"],"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-14T04:15:27.071+07:00","published":"2025-10-14T04:15:27.071+07:00","tags":[null],"cssclasses":"","creation-time":"2025-08-31 23:50","status":"baby","parent":["[[network engineering]]"]}
 ---
 
 ![[assets/Pasted image 20250831235033.png]]

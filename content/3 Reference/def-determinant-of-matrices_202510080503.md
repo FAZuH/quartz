@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Determinant of Matrices"],"created":"2025-10-08T05:03:46.301+07:00","modified":"2025-10-08T05:10:37.539+07:00","published":"2025-10-08T05:10:37.539+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 05:03","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Determinant of Matrices"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-08 05:03","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 

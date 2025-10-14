@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Coefficient of Determination"],"created":"2025-09-13T18:59:00.224+07:00","modified":"2025-09-16T16:55:47.208+07:00","published":"2025-09-16T16:55:47.208+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 17:31","status":"baby","parent":["[[Linear Model]]"]}
+{"publish":true,"aliases":["Coefficient of Determination"],"created":"2025-10-14T04:15:27.045+07:00","modified":"2025-10-14T05:49:25.212+07:00","published":"2025-10-14T05:49:25.212+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 17:31","status":"baby","parent":["[[Linear Model]]"]}
 ---
 
 
@@ -14,11 +14,12 @@ Coefficient determination close to 1 implies a good fit of the model, i.e., the 
 ## Formula
 
 $$
-R^2 = 1 - \frac{SSE}{SST}
+R^2 = 1 - \frac{SSE}{SST} = \frac{SSR}{SST}
 $$
 Where
-- SSE: [[3 Reference/sum-of-squares_202509091730\|Sum of squares]] error
-- SSR: Sum of squares total
+- SSE: [[3 Reference/sum-of-squares_202509091730\|Sum of Squares Error]]
+- SSR: [[3 Reference/sum-of-squares_202509091730\|Sum of Squares Regression]]
+- SST: [[3 Reference/sum-of-squares_202509091730\|Sum of Squares Total]]
 
 ## Relation with F statistic
 

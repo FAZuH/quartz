@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Zero-Inflated Poisson Model"],"created":"2025-09-15T09:11:04.983+07:00","modified":"2025-09-15T09:11:20.457+07:00","published":"2025-09-15T09:11:20.457+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-15 09:11","status":"baby","parent":["[[categorical-data-analysis]]"]}
+{"publish":true,"aliases":["Zero-Inflated Poisson Model"],"created":"2025-10-14T04:15:27.044+07:00","modified":"2025-10-14T04:15:27.044+07:00","published":"2025-10-14T04:15:27.044+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-15 09:11","status":"baby","parent":["[[categorical-data-analysis]]"]}
 ---
 
 
@@ -11,7 +11,9 @@ Zero-inflated Poisson models handle count data with excess zeros beyond what a s
 
 The ZIP model assumes observations come from a mixture of two processes:
 
-$$P(Y = y) = \begin{cases} \pi + (1-\pi)e^{-\lambda} & \text{if } y = 0 \ (1-\pi)\frac{\lambda^y e^{-\lambda}}{y!} & \text{if } y > 0 \end{cases}$$
+$$
+P(Y = y) = \begin{cases} \pi + (1-\pi)e^{-\lambda} & \text{if } y = 0 \\ (1-\pi)\frac{\lambda^y e^{-\lambda}}{y!} & \text{if } y > 0 \end{cases}$$
+
 
 where:
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["1.5 Random Variables"],"created":"2025-09-13T18:59:04.530+07:00","modified":"2025-09-13T01:05:24.000+07:00","published":"2025-09-13T01:05:24.000+07:00","cssclasses":"","creation-time":"2025-06-18 18:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["1.5 Random Variables"],"created":"2025-10-14T04:15:27.059+07:00","modified":"2025-10-14T04:15:27.059+07:00","published":"2025-10-14T04:15:27.059+07:00","cssclasses":"","creation-time":"2025-06-18 18:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat1.4\|1.4 Conditional Probability and Independence]] | [[3 Reference/mathstat1.6\|1.6 Discrete Random Variables]] >>
