@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-17T01:24:46.971+07:00","published":"2025-10-17T01:24:46.971+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-17T01:32:42.171+07:00","published":"2025-10-17T01:32:42.171+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 ## Notations
@@ -15,10 +15,14 @@
 ## Sample Mean and Variance Distributions
 
 If $X_1, X_2, \ldots, X_n \sim N(\mu, \sigma^2)$ independently, then:
-$$ \begin{align}
+
+$$
+\begin{align}
 \bar{X} & = \frac{1}{n}\sum_{i=1}^n X_i && \sim N\left(\mu, \frac{\sigma^2}{n}\right) \\
+
 S^2 & = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X})^2 && \sim N\left( \sigma^2, \frac{2\sigma^4}{n-1} \right) \\
-\end{align} $$
+\end{align} 
+$$
 
 ## Normal Distribution Relationships
 
