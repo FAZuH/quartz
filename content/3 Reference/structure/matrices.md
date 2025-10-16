@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-10-14T04:15:27.068+07:00","published":"2025-10-14T04:15:27.068+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
+{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-10-15T06:41:41.671+07:00","published":"2025-10-15T06:41:41.671+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
 ---
 
 
@@ -17,7 +17,7 @@
 - *[[3 Reference/Def-matrix-product\|Matrix Product]]*
 - **[[3 Reference/theorem-properties-of-matrix-arithmetic_202509240827\|Properties of Matrix Arithmetic]]**
 
-### Function of matrices
+### Function/transformation of matrices
 
 - *[[3 Reference/def-trace-of-a-matrix_202509241332\|Trace of a Matrix]]*
 - *[[3 Reference/Def-row-echelon-form-(ref)\|Row Echelon Form (REF)]]*
@@ -35,6 +35,8 @@
 - *[[3 Reference/def-inverse-matrix_202509241225\|Inverse Matrix]]*
 	- **[[3 Reference/theorem-matrix-invertibility_202509241243\|Matrix Invertibility]]**
 	- **[[3 Reference/theorem-inverse-of-matrix-product_202509241252\|Inverse of Matrix Product]]**
+- **[[3 Reference/theorem-gram-schmidt-orthogonalization_202510061401\|Gram-Schmidt Orthogonalization]]**
+	- **[[3 Reference/theorem-qr-decomposition_202510150641\|QR Decomposition]]**
 
 ### Matrix forms
 

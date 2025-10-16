@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-14T04:15:27.038+07:00","published":"2025-10-14T04:15:27.038+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Common Distribution Equations"],"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-17T01:24:46.971+07:00","published":"2025-10-17T01:24:46.971+07:00","cssclasses":"","creation-time":"2025-07-22 17:12","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 ## Notations
@@ -23,33 +23,55 @@ S^2 & = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X})^2 && \sim N\left( \sigma^2, \f
 ## Normal Distribution Relationships
 
 If $X_1, X_2, \ldots, X_n \sim N(\mu, \sigma^2)$ independently, then:
-$$\frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$$
+
+$$
+\frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)
+$$
 
 
 If $Z_1, Z_2, \ldots, Z_k \sim N(0,1)$ independently, then:
-$$\sum_{i=1}^k Z_i^2 \sim \chi^2(k)$$
+
+$$
+\sum_{i=1}^k Z_i^2 \sim \chi^2(k)
+$$
 
 
 If $U \sim N(0,1)$ and $V \sim \chi^2(r)$ independently, then:
-$$T = \frac{U}{\sqrt{V/r}} \sim t(r)$$
+
+$$
+T = \frac{U}{\sqrt{V/r}} \sim t(r)
+$$
 
 
 If $U \sim \chi^2(r_1)$ and $V \sim \chi^2(r_2)$ independently, then:
-$$F = \frac{U/r_1}{V/r_2} \sim F(r_1, r_2)$$
+
+$$
+F = \frac{U/r_1}{V/r_2} \sim F(r_1, r_2)
+$$
 
 If $X_1, X_2, \ldots, X_n \sim N(\mu, \sigma^2)$ independently, then:
-$$T = \frac{\bar{X} - \mu}{S/\sqrt{n}} \sim t(n-1)$$
+
+$$
+T = \frac{\bar{X} - \mu}{S/\sqrt{n}} \sim t(n-1)
+$$
 
 
 For $X_1, \ldots, X_{n_1} \sim N(\mu_1, \sigma^2)$ and $Y_1, \ldots, Y_{n_2} \sim N(\mu_2, \sigma^2)$ independently:
-$$T = \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{S_p\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} \sim t(n_1 + n_2 - 2)$$
+
+$$
+T = \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{S_p\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} \sim t(n_1 + n_2 - 2)
+$$
 where $S_p^2 = \frac{(n_1-1)S_X^2 + (n_2-1)S_Y^2}{n_1 + n_2 - 2}$
 
 
 For independent samples from $N(\mu_1, \sigma_1^2)$ and $N(\mu_2, \sigma_2^2)$
-$$F = \frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2} \sim F(n_1-1, n_2-1)$$
+
+$$
+F = \frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2} \sim F(n_1-1, n_2-1)
+$$
 
 If $X_{1},X_{2},\dots,X_{n}\sim b(1,p)$ independently, then:
+
 $$
 Y_{n}=X_{1}+X_{2}+\dots+X_{n}\sim b(n,p)
 $$

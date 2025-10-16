@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Gram-Schmidt Orthogonalization"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-15T04:26:04.316+07:00","published":"2025-10-15T04:26:04.316+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:01","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Gram-Schmidt Orthogonalization"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-15T07:12:18.599+07:00","published":"2025-10-15T07:12:18.599+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 14:01","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
@@ -12,6 +12,13 @@ $$
 where
 - $\langle \mathbf{u}_{i},\mathbf{v}_{j} \rangle=u_{1}v_{1}+u_{2}v_{2}+\dots+u_{r}v_{r}$ ([[3 Reference/def-inner-product_202510061421\|Euclidean Inner Product]])
 - $||\mathbf{v}_{j}||=\sqrt{ v_{1}^{2}+v_{2}^{2}+\dots+v_{r}^{2} }$ ([[3 Reference/def-norm_202510010836\|Norm]])
+
+Continuing, the vector
+$$
+\mathbf{q}_{i} = \frac{1}{||\mathbf{v}_{i}||}\mathbf{v}_{i}
+$$
+form an [[3 Reference/def-orthogonal-and-orthonormal-sets_202510061213\|orthonormal]] set.
+
 ## Definition: Matrices
 
 To transform [[3 Reference/def-linear-independence_202510060445\|linearly independent]] set $\{ A_{1},A_{2},\dots,A_{k} \}$ of [[3 Reference/Def-matrix\|matrices]] into an orthogonal set $\{ B_{1},B_{2},\dots,B_{k} \}$
@@ -30,6 +37,7 @@ If
 $$ C_{i}=||B_{i}||^{-1}B_{i},\quad\forall i=1,\dots,k $$
 
 Then the matrices $C_{1},\dots,C_{k}$ are [[3 Reference/def-orthogonal-and-orthonormal-sets_202510061213\|orthonormal]]
+
 
 ## Example
 
