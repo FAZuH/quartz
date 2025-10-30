@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Central Limit Theorem"],"created":"2025-10-14T04:15:27.046+07:00","modified":"2025-10-14T04:15:27.046+07:00","published":"2025-10-14T04:15:27.046+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-19 09:24","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Central Limit Theorem"],"created":"2025-10-14T04:15:27.046+07:00","modified":"2025-10-17T05:01:35.412+07:00","published":"2025-10-17T05:01:35.412+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-19 09:24","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
@@ -33,3 +33,27 @@
 
 This is $e$
 ![[assets/image-20.png]]
+
+## Example
+
+> Let $\bar{X}$ denote the mean of a [[3 Reference/Def-random-sample\|random sample]] of size $128$ from a [[3 Reference/Continuous Distributions#Gamma distribution\|Gamma distribution]] with $\alpha=2$ and $\beta=4$. 
+> 
+> Approximate $P(7<\bar{X}<9)$
+
+- $\mu = \alpha\beta=2\cdot4 = 8$
+- $\sigma^{2} = \alpha\beta^{2}=2\cdot16 = 32$
+- $\sigma/\sqrt{ n } = \sqrt{ \frac{32}{128} } = \frac{1}{2}$
+
+By central limit theorem,
+$$
+\begin{align}
+P(7<\bar{X}<9) & = P\left( \frac{7-\mu}{\sigma/\sqrt{ n }} < \frac{\bar{X}-\mu}{\sigma/\sqrt{ n }} < \frac{9-\mu}{\sigma/\sqrt{ n }} \right) \\
+ & = P\left( \frac{7-8}{1/2} < Z < \frac{9-2}{1/2} \right) \\
+ & = P\left( -2 < Z < 2 \right) \\
+ & = \Phi(2) - \Phi(-2) \\
+ & = \Phi(2) - [1-\Phi(2)] \\
+ & = 2\cdot \Phi(2) - 1 \\
+ & = 2\cdot 0.977 - 1 \\
+ & = 0.954
+\end{align}
+$$

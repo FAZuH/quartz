@@ -1,8 +1,8 @@
 ---
-{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-10-14T04:15:27.045+07:00","modified":"2025-10-14T04:15:27.045+07:00","published":"2025-10-14T04:15:27.045+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-10-14T04:15:27.045+07:00","modified":"2025-10-17T03:05:13.873+07:00","published":"2025-10-17T03:05:13.873+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
-<< [[3 Reference/mathstat4.4\|4.4 Order Statistics.md]] | [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] >>
+<< [[3 Reference/mathstat4.4\|4.4 Order Statistics]] | [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] >>
 
 To emphasize the fact that we are working with sequences of [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|random variables]], we may place a subscript $n$ on the appropriate random variable, e.g., write sequence of $\bar{X}$ as $\bar{X}_{n}$
 

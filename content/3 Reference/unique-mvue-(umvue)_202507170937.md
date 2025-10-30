@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Unique MVUE (UMVUE)","Lehmann and Scheffe Theorem","UMVUE","UUMVE"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-14T04:15:27.060+07:00","published":"2025-10-14T04:15:27.060+07:00","cssclasses":"","creation-time":"2025-07-17 09:37","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Unique MVUE (UMVUE)","Lehmann and Scheffe Theorem","UMVUE","UUMVE"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-17T10:59:40.279+07:00","published":"2025-10-17T10:59:40.279+07:00","cssclasses":"","creation-time":"2025-07-17 09:37","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
@@ -20,3 +20,79 @@ Then $\phi(Y_{1})$ is the **unique [[3 Reference/def-minimum-variance-unbiased-e
 In the reference book, this theorem is called Lehmann and Scheffe theorem.
 
 The Lehmann-Scheffé theorem states that if $T$ is a **complete sufficient statistic** for a parameter $\theta$, then a function of it is **UMVUE**, if it's **unbiased and exists**
+
+## Example
+
+> Let $X_{1},X_{2},\dots,X_{n}$ represent a [[3 Reference/Def-random-sample\|random sample]] from the discrete distribution with pdf $f(x;\theta)=\theta^x(1-\theta)^{1-x},x=0,1,\;0<\theta< 1$, zero elsewhere.
+> 
+> Show that $Y_{1}=\sum_{i=1}^nX_{i}$ is a complete, sufficient statistic for $\theta$. Find the unique function of $Y_{1}$ that is the unbiased minimum variance estimator for $\theta$
+
+$$
+\begin{align}
+\theta^x(1-\theta)^{1-x} & = \exp[x\ln\theta + (1-x)\ln(1-\theta)] \\
+ & = \exp[x\ln\theta + \ln(1-\theta)-x\ln(1-\theta)] \\
+\end{align}
+$$
+
+Then $f(x;\theta)$ has the form of [[3 Reference/def-regular-exponential-class_202507170942\|regular exponential class]], with
+- $\mathcal{S}=\{ 0,1 \}$ : Independent of $\theta$
+- $p(\theta)=\ln\theta$ : Continuous, nontrivial function
+- $K(x) = x$ : Nontrivial function
+- $H(x) = \ln(1-\theta)$
+- $q(\theta)=x\ln(1-\theta)$
+
+
+By [[3 Reference/theorem-neyman-theorem_202508052229\|Neyman Theorem]], $Y_{1}$ is a [[3 Reference/def-sufficient-statistic_202507170925\|sufficient statistic]]:
+$$
+\begin{align}
+L(\theta) & = \prod_{i=1}^n \theta^x(1-\theta)^{1-x_{i}} \\
+ & = \theta^{nx}(1-\theta)^{n-\sum_{i=1}^nx_{i}}
+\end{align}
+$$
+
+Notice that $X\sim Bernoulli(\theta)$, thus $Y_1 = \sum_{i=1}^nX_{i}\sim Binom(n,\theta)$, and $E(Y_{1})=n\theta$.
+
+So, $Y_{2}=\frac{Y_{1}}{n}$ is an [[3 Reference/Def-unbiased-estimator\|unbiased estimator]] for $\theta$, and becuase $Y_{1}$ is complete sufficient statistic, so is $Y_{2}$.
+
+As a result, by definition of [[3 Reference/unique-mvue-(umvue)_202507170937\|Unique MVUE (UMVUE)]], $Y_{2}$ is an unbiased minimum variance estimator for $\theta$ .
+
+> Let $X_{1},X_{2},\dots,X_{n}$ random sample of size $n$ from distribution of $Gamma(3,\beta)$, with $\beta>0$
+
+$$
+\begin{align}
+\frac{1}{\Gamma(3)\beta^\alpha}x^{\alpha-1}e^{-x/\beta} & = \frac{1}{2\beta^3}x^2e^{-x/\beta} \\
+ & = \exp\left[ -\ln2 + 3\ln\beta + 2\ln x - \frac{x}{\beta} \right]
+\end{align}
+$$
+
+- $p(\beta)=-\frac{1}{\beta}$
+- $K(x)=x$
+- $H(x)=2\ln x$
+- $q(\theta)=-3\ln\beta$
+
+$$
+\begin{align}
+\prod_{i=1}^n \frac{1}{2\beta^3}x^2e^{-x_{i}/\beta} & = \frac{1}{2^n\beta^{3n}}x^{2n}e^{-1/\beta\sum_{i=1}^n x_{i}}
+\end{align}
+$$
+
+
+Since $E(X)=3\beta$, we have $E\left( \frac{X}{3} \right)=\beta$.
+
+Let
+$$
+Y_{2} = \frac{1}{3}\bar{X} = \frac{1}{3n}\sum_{i=1}^n X_{i}
+$$
+
+
+This statistic $Y_{2}$ is unbiased for $\beta$
+$$
+\begin{align}
+E(Y_{2}) & = E\left( \frac{1}{3}\bar{X} \right) \\
+ & = \frac{1}{3}E(\bar{X}) \\
+ & = \frac{1}{3}E(X) \\
+ & = \frac{1}{3} \cdot 3\beta \\
+ & = \beta
+\end{align}
+$$
+

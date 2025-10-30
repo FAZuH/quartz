@@ -1,12 +1,12 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-14T04:15:27.071+07:00","published":"2025-10-14T04:15:27.071+07:00","cssclasses":"","creation-time":"2025-06-24 01:32","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Finding Maximum Likelihood Estimator (MLE)"],"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-17T05:17:54.969+07:00","published":"2025-10-17T05:17:54.969+07:00","cssclasses":"","creation-time":"2025-06-24 01:32","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 ## Performing MLE
-1. Evaluate likelihood function: $L(\theta)$
-2. Evaluate log-likelihood function: $\ln[L(\theta)]$
-3. Derivate log-likelihood function with respect to $\theta$ : $\frac{d}{d\theta}\ln[L(\theta)]$
-4. Maximize the log-likelihood function: Solve for $\theta$ in $\frac{d}{d\theta}\ln[L(\theta)] = 0$
+1. $L(\theta)$
+2. $\ln[L(\theta)]$
+3. $\frac{d}{d\theta}\ln[L(\theta)]$
+4. Solve for $\theta$ in $\frac{d}{d\theta}\ln[L(\theta)] = 0$
 
 $$
 \begin{align}
@@ -36,6 +36,21 @@ You recognize that the samples comes from binomial distribution, which has an ML
 
 So, based on the data, the MLE estimate suggests that the probability of a bulb being defective is $5\%$
 
-## Exercise
+## Example
 
 ![image](assets/image 11.png)
+
+> Let $X_{1},X_{2},\dots,X_{n}$ represent a [[3 Reference/Def-random-sample\|random sample]] from the distribution having hte following [[3 Reference/Def-probability-density-function-(pdf)\|probability density function]]. $f(x;\theta)=\frac{\theta^xe^{-\theta}}{x!}$, $x=0,1,2,\dots;0\leq \theta<\infty$, zero elsewhere, $f(0;0)=1$.
+> 
+> Find $\hat{\theta}$, the mle of $\theta$.
+
+$$
+\begin{align}
+L(\theta) & = \prod \frac{\theta^x_{i} e^{-\theta}}{x_{i}!} \\
+\ln[L(\theta)] & = \sum x_{i}\ln\theta - n \theta \ln e - \sum\ln x_{i}! \\
+ \frac{d}{d\theta}\ln[L(\theta)] & = \frac{\sum x_{i}}{\theta} - n = 0 \\
+\iff & \theta = \frac{\sum x_{i}}{n}
+\end{align}
+$$
+
+So, the MLE of $\theta$, which we will denote $\hat{\theta}$, is $\frac{\sum x_{i}}{n}$

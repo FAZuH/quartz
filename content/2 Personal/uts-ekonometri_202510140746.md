@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["UTS Ekonometri"],"created":"2025-10-14T07:46:50.106+07:00","modified":"2025-10-14T07:48:10.917+07:00","published":"2025-10-14T07:48:10.917+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-14 07:46","status":"baby","parent":["[[ekonometri_202509051027]]"]}
+{"publish":true,"aliases":["UTS Ekonometri"],"created":"2025-10-22T05:58:34.935+07:00","modified":"2025-10-22T05:58:34.936+07:00","published":"2025-10-22T05:58:34.936+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-14 07:46","status":"baby","parent":["[[ekonometri_202509051027]]"]}
 ---
 
 

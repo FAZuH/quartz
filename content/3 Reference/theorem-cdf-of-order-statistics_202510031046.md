@@ -1,9 +1,8 @@
 ---
-{"publish":true,"aliases":["cdf of Order Statistics"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-14T04:15:27.075+07:00","published":"2025-10-14T04:15:27.075+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:46","status":"adult","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["cdf of Order Statistics"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-17T03:04:11.134+07:00","published":"2025-10-17T03:04:11.134+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 10:46","status":"adult","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
-[[3 Reference/Def-random-sample\|Random Sample]]
 ## Theorem
 
 Let 
@@ -26,6 +25,25 @@ $$
 $$
 F_{Y_{n}}(x) = [F_{X}(x)]^n
 $$
+
+## Example
+
+> Let $Y_{1}<Y_{2}<Y_{3}<Y_{4}$ be the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size $4$ from the distribution having [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x)=e^{-x},0<x<\infty$, zero elsewhere.
+>
+> Find $P(3\leq Y_{4})$.
+
+$$
+\begin{align}
+P(3\leq Y_{4}) & = 1 - P(Y_{4}\leq3) \\
+ & = 1 - F_{Y_{4}}(3) \\
+ & = 1 - [F_{X}(3)]^{4} \\
+ & = 1 - \left[ \int_{0}^3 e^{-x}\; dx \right]^4 \\
+ & = \boxed{0.1847}
+\end{align}
+$$
+
+
+
 
 
 [^1]: https://en.wikipedia.org/wiki/Order_statistic#Cumulative_distribution_function_of_order_statistics (Taken in 2025-06-24)

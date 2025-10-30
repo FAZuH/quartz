@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Complete Sufficient Statistic","Complete Sufficient Statistic"],"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-14T04:15:27.038+07:00","published":"2025-10-14T04:15:27.038+07:00","cssclasses":"","creation-time":"2025-07-17 09:31","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Complete Sufficient Statistic"],"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-30T17:20:04.045+07:00","published":"2025-10-30T17:20:04.045+07:00","cssclasses":"","creation-time":"2025-07-17 09:31","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 
@@ -13,10 +13,13 @@ If
 - Family $\{ f_{Y_{1}}(y_{1};\theta): \theta\in \Omega \}$ be [[3 Reference/def-complete-family-of-pdf-pmf_202507170933\|complete]]
 
 Then $Y_{1}$ is a **complete sufficient statistic** for $\theta$
+
 ## Remark
+
 The statement *"$Y_{1}$ is a sufficient statistic for a parameter $\theta$, $\theta\in \Omega$, and that the family $\{ f_{Y_{1}}(y_{1};\theta) : \theta\in \Omega \}$ of probability density functions is complete"* is lengthy and somewhat awkward.
 
-We shall adopt the less descriptive, but more convenient, terminology that $Y_{1}$ is a complete sufficient statistic for $\theta$.
+We shall adopt the less descriptive, but more convenient, terminology that $Y_{1}$ is a **complete sufficient statistic** for $\theta$.
 
 ## Related theorems
 - [[3 Reference/mathstat7.5#Theorem 7.5.2\|Theorem 7.5.2]]
+
