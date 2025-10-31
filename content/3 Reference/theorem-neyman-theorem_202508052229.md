@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Neyman Theorem"],"created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-17T06:36:41.359+07:00","published":"2025-10-17T06:36:41.359+07:00","cssclasses":"","creation-time":"2025-08-05 22:29","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Neyman Theorem"],"created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-31T06:34:51.165+07:00","published":"2025-10-31T06:34:51.165+07:00","cssclasses":"","creation-time":"2025-08-05 22:29","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 
@@ -13,7 +13,7 @@ Let
 Then $Y$ is a [[3 Reference/def-sufficient-statistic_202507170925\|sufficient statistic]] for $\theta$ 
 
 If and only if 
-- $$\exists k,l \ni L(\theta) = k[u(\mathbf{x});\theta]l(\mathbf{x})$$
+- $$\exists k,l \ni L(\theta) = k[u(\mathbf{x});\theta]\cdot l(\mathbf{x})$$
 - $l(\mathbf{x})$ is independent of $\theta$
 
 ## Remark

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["7.5 The Exponential Class of Distributions.md"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-14T04:15:27.064+07:00","published":"2025-10-14T04:15:27.064+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["7.5 The Exponential Class of Distributions.md"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-31T20:34:42.967+07:00","published":"2025-10-31T20:34:42.967+07:00","cssclasses":"","creation-time":"2025-07-10 02:30","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat7.4\|7.4 Completeness and Uniqueness.md]] | [[3 Reference/mathstat7.6_202507171008\|7.6 Functions of Parameter]] >>
@@ -26,8 +26,8 @@
 > Let
 > - $X$ : Random variable, with
 > 	- $f(x ; \theta), \gamma<\theta<\delta$ : pdf/pmf 
-> 	- Distribution is a regular case of the exponential class
+> 	- Distribution is a [[3 Reference/def-regular-exponential-class_202507170942\|regular case of exponential class]]
 > - $X_1, X_2, \ldots, X_n$ : Random sample from the distribution of $X$
 > - $Y_1=\sum_{i=1}^n K\left(X_i\right)$ 
 > 
-> Then $Y_1$ is a [[3 Reference/mathstat7.4#Definition Complete sufficient statistic\|complete sufficient]] statistic for $\theta$
+> Then $Y_1$ is a [[3 Reference/def-complete-sufficient-statistic_202507170931\|complete sufficient statistic]] for $\theta$

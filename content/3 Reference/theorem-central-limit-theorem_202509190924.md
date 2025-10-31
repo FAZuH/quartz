@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Central Limit Theorem"],"created":"2025-10-14T04:15:27.046+07:00","modified":"2025-10-17T05:01:35.412+07:00","published":"2025-10-17T05:01:35.412+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-19 09:24","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Central Limit Theorem"],"created":"2025-10-14T04:15:27.046+07:00","modified":"2025-10-31T05:57:19.609+07:00","published":"2025-10-31T05:57:19.609+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-19 09:24","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
@@ -13,7 +13,7 @@
 > If
 > $$ \begin{align}
 > Y_{n} & = \frac{ \sum_{i=1}^n X_{i} - n\mu }{\sqrt{ n }\sigma} \\
->  & = \frac{(\bar{X}_{n}-\mu)}{\sigma/\sqrt{ n }}
+>  & = \frac{\bar{X}_{n}-\mu}{\sigma/\sqrt{ n }}
 > \end{align} $$
 > 
 > Then
