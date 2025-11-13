@@ -1,7 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import breadcrumbsStyle from "./styles/breadcrumbs.scss"
-import { FullSlug, SimpleSlug, resolveRelative, pathToRoot } from "../util/path"
+import { FullSlug, resolveRelative, pathToRoot } from "../util/path"
 import { classNames } from "../util/lang"
+import { getTitle } from "../util/title"
 
 type CrumbData = {
   displayName: string
@@ -55,7 +56,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     }
     while (parentSlug) {
       const parentFile = allFiles.find((f) =>
-        f.slug === resolveRelative(slug, parentSlug) ||
+        f.slug === parentSlug ||
         f.frontmatter?.title === parentSlug ||
         (f.frontmatter?.aliases && Array.isArray(f.frontmatter.aliases) && f.frontmatter.aliases.includes(parentSlug as string))
       )
@@ -90,24 +91,10 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     }
 
     for (const [i, page] of allCrumbData.entries()) {
-      const aliases = page.frontmatter?.aliases
-      const alias = page.frontmatter?.alias
-      let displayTitle = page.frontmatter?.title ?? page.slug!.split("/").pop()!
-
-      if (aliases && Array.isArray(aliases) && aliases.length > 0) {
-        displayTitle = aliases[0]
-      } else if (alias && typeof alias === 'string') {
-        displayTitle = alias
-      }
-
-      if (displayTitle.endsWith('.md')) {
-        displayTitle = displayTitle.slice(0, -3)
-      }
-
       const isCurrentPage = i === allCrumbData.length - 1
       const crumb = {
-        displayName: displayTitle,
-        path: isCurrentPage && options.showCurrentPage ? "" : resolveRelative(slug, page.slug as SimpleSlug),
+        displayName: getTitle(page),
+        path: isCurrentPage && options.showCurrentPage ? "" : resolveRelative(slug, page.slug as FullSlug),
       }
       crumbs.push(crumb)
     }

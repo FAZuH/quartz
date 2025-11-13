@@ -7,6 +7,7 @@ import { Date, getDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
+import { getTitle } from "../util/title"
 
 interface Options {
   title?: string
@@ -40,7 +41,7 @@ export default ((userOpts?: Partial<Options>) => {
         <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title}</h3>
         <ul class="recent-ul">
           {pages.slice(0, opts.limit).map((page) => {
-            const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+            const title = getTitle(page)
             const tags = page.frontmatter?.tags ?? []
 
             return (
