@@ -87,12 +87,12 @@ function renderTranscludes(
           )
           node.children = [
             {
-              type: "element",
+              type: "element" as const,
               tagName: "p",
               properties: { style: "color: var(--secondary);" },
               children: [
                 {
-                  type: "text",
+                  type: "text" as const,
                   value: `Circular transclusion detected: ${transcludeTarget}`,
                 },
               ],
@@ -125,11 +125,11 @@ function renderTranscludes(
             node.children = [
               normalizeHastElement(blockNode, slug, transcludeTarget),
               {
-                type: "element",
+                type: "element" as const,
                 tagName: "a",
                 properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
                 children: [
-                  { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+                  { type: "text" as const, value: i18n(cfg.locale).components.transcludes.linkToOriginal },
                 ],
               },
             ]
@@ -170,11 +170,11 @@ function renderTranscludes(
               normalizeHastElement(child as Element, slug, transcludeTarget),
             ),
             {
-              type: "element",
+              type: "element" as const,
               tagName: "a",
               properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
               children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+                { type: "text" as const, value: i18n(cfg.locale).components.transcludes.linkToOriginal },
               ],
             },
           ]
@@ -186,12 +186,12 @@ function renderTranscludes(
               ? []
               : [
                   {
-                    type: "element",
+                    type: "element" as const,
                     tagName: "h1",
                     properties: {},
                     children: [
                       {
-                        type: "text",
+                        type: "text" as const,
                         value:
                           page.frontmatter?.title ??
                           i18n(cfg.locale).components.transcludes.transcludeOf({
@@ -205,11 +205,11 @@ function renderTranscludes(
               normalizeHastElement(child as Element, slug, transcludeTarget),
             ),
             {
-              type: "element",
+              type: "element" as const,
               tagName: "a",
               properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
               children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+                { type: "text" as const, value: i18n(cfg.locale).components.transcludes.linkToOriginal },
               ],
             },
           ]
