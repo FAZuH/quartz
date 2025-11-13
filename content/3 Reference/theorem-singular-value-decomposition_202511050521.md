@@ -1,0 +1,134 @@
+---
+{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-11-12T09:02:01.350+07:00","published":"2025-11-12T09:02:01.350+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
+---
+
+The <u>decomposition</u> of any matrix into the product of an orthogonal matrix, a diagonal matrix with nonzero diagonal elements ranked from highest to lowest, and another orthogonal matrix.
+
+## Theorem
+
+Let 
+- $A$ : $m\times n$ [[3 Reference/Def-matrix\|matrix]]
+- $k$ : [[3 Reference/def-rank-and-nullity_202510080316\|Rank]] of $A$
+
+Let
+- $U$ : $m\times m$ matrix
+- $\Sigma$ : $m\times n$ matrix
+- $V$ : $n\times n$ matrix
+
+If
+- $V=\begin{bmatrix}\mathbf{v}_{1} & \dots & \mathbf{v}_{n}\end{bmatrix}$ [[3 Reference/def-orthogonal_202510011638\|orthogonally]] diagonalizes $A^TA$
+- Nonzero diagonal entries of $\Sigma$ are $\sigma_{1}=\sqrt{ \lambda_{1} }$, $\dots$, $\sigma_{k}=\sqrt{ \lambda_{k} }$, where $\lambda_{1},\dots,\lambda_{k}$ are nonzero [[3 Reference/def-eigenvalue-eigenvector_202511050458\|eigenvalues]] of $A^TA$ corresponding to the [[3 Reference/def-row-and-column-vector_202509240741\|column vectors]] of $V$
+- Column vectors of $V$ are ordered so that $\sigma_{1}\geq \dots \geq\sigma_{k}>0$
+- $\mathbf{u}_{i}= \dfrac{A\mathbf{v}_{i}}{||A\mathbf{v}_{i}||}= \dfrac{1}{\sigma_{i}}A\mathbf{v}_{i},\quad i=1,2,\dots,k$
+- $\{ \mathbf{u}_{1},\dots,\mathbf{u}_{k} \}$ is an [[3 Reference/def-orthogonal-and-orthonormal-sets_202510061213\|orthonormal]] [[3 Reference/def-basis_202510061042\|basis]] for $\operatorname{col}(A)$[^1]
+- $\{ \mathbf{u}_{1},\dots,\mathbf{u}_{k},\mathbf{u}_{k+1},\dots,\mathbf{u}_{m} \}$ is an extension of $\{ \mathbf{u}_{1},\dots,\mathbf{u}_{k} \}$ to an orthonormal basis for $R^m$
+
+Then
+$$
+\begin{align}
+A & = U\Sigma V^T \\
+ & = \begin{bmatrix}
+\mathbf{u}_1 & \mathbf{u}_2 & \cdots & \mathbf{u}_k & | & \mathbf{u}_{k+1} & \cdots & \mathbf{u}_m
+\end{bmatrix}
+\left[\begin{array}{cccc|c}
+\sigma_1 & 0 & \cdots & 0 & \\
+0 & \sigma_2 & \cdots & 0 & 0_{k \times (n-k)} \\
+\vdots & \vdots & \ddots & \vdots & \\
+0 & 0 & \cdots & \sigma_k & \\
+\hline
+& 0_{(m-k) \times k} & & & 0_{(m-k) \times (n-k)}
+\end{array}\right]
+\begin{bmatrix}
+\mathbf{v}_1^T \\
+\mathbf{v}_2^T \\
+\vdots \\
+\mathbf{v}_k^T \\
+\hline
+\mathbf{v}_{k+1}^T \\
+\vdots \\
+\mathbf{v}_n^T
+\end{bmatrix}
+\end{align}
+$$
+
+## Procedure
+
+To compute the SVD of an $m \times n$ matrix $A$ with rank $k$:
+
+1. **Compute $A^TA$** (an $n \times n$ symmetric matrix)
+
+2. **Find eigenvalues and eigenvectors of $A^TA$**
+	   - Find all eigenvalues $\lambda_1, \lambda_2, \dots, \lambda_n$ of $A^TA$
+	   - Find corresponding eigenvectors for each eigenvalue
+	   - Normalize the eigenvectors to unit length
+
+3. **Order eigenvalues and eigenvectors**
+	- Order eigenvalues from largest to smallest: $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_k > 0 = \lambda_{k+1} = \cdots = \lambda_n$
+	- Order the corresponding unit eigenvectors accordingly to form $V = [\mathbf{v}_1 \quad \mathbf{v}_2 \quad \cdots \quad \mathbf{v}_n]$
+	
+4. **Construct $\Sigma$** (an $m \times n$ matrix)
+	- Compute singular values: $\sigma_i = \sqrt{\lambda_i}$ for $i = 1, 2, \dots, k$
+	- Place $\sigma_1, \sigma_2, \dots, \sigma_k$ on the diagonal
+	- Fill remaining entries with zeros
+
+5. **Construct $U$** (an $m \times m$ matrix)
+	- For $i = 1, 2, \dots, k$: compute $\mathbf{u}_i = \frac{1}{\sigma_i} A\mathbf{v}_i$
+	- Extend $\{\mathbf{u}_1, \mathbf{u}_2, \dots, \mathbf{u}_k\}$ to an orthonormal basis for $\mathbb{R}^m$ by finding $m-k$ additional orthonormal vectors $\mathbf{u}_{k+1}, \dots, \mathbf{u}_m$ orthogonal to $\operatorname{col}(A)$
+	- Form $U = [\mathbf{u}_1 \quad \mathbf{u}_2 \quad \cdots \quad \mathbf{u}_m]$
+
+6. (Optional) **Verify**: $A = U\Sigma V^T$
+
+In short,
+1. Descending sort eigenvalues ($\sigma_{i}$) & eigenvectors ($\mathbf{v}_{i}$) $A^TA$
+2. $\Sigma=\operatorname{diag}(\sigma_{i}),i=1,\dots,k$
+3. $U:\mathbf{u}_{i}=\frac{1}{\sigma_{i}}A\mathbf{v}_{i}$
+
+## Code implementation
+```python
+import numpy as np
+from scipy.linalg import null_space
+
+np.set_printoptions(precision=2, suppress=True)
+
+
+A = np.array([
+    [2, 3],
+    [4, 5],
+    [6, 7]
+])
+
+print(f"{A=}")
+#|%%--%%| <jIh\n\n{k=}laa2rII|bCEGstAtvo>
+
+k = int(np.linalg.matrix_rank(A))
+m, n = A.shape
+
+ATA = A.T @ A
+
+eigval, eigvec = np.linalg.eig(ATA)
+
+# Descending sort
+idx = np.argsort(eigval)[::-1]
+eigval_sorted = eigval[idx]
+V = eigvec[:, idx]
+sigma = np.sqrt(eigval_sorted[:k])
+
+Sigma = np.zeros((m, n))
+Sigma[:k, :k] = np.diag(sigma)
+
+U_k = np.column_stack([A @ V[:, i] / sigma[i] for i in range(k)])
+if k < m:
+    U = np.column_stack([U_k, null_space(A.T)])
+else:
+    U = U_k
+
+
+#|%%--%%| <bCEGstAtvo|gnwb7rDeUd>
+
+print(U @ Sigma @ V.T)
+print(A)
+print(np.allclose(A, U @ Sigma @ V.T))
+```
+
+
+[^1]: [[3 Reference/def-row-space,-column-space,-null-space_202510061124\|Column Space]]
