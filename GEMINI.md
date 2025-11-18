@@ -6,16 +6,16 @@ This is a [Quartz](https://quartz.jzhao.xyz/) project, a tool for publishing a d
 
 The following commands are available in `package.json`:
 
-*   **`npm run quartz -- <command>`**: Run the Quartz CLI. For example, `npm run quartz -- build` to build the site.
-*   **`npm run docs`**: Build and serve the documentation.
-*   **`npm run check`**: Run type checking and format checking.
-*   **`npm run format`**: Format the code.
-*   **`npm run test`**: Run tests.
+- **`npm run quartz -- <command>`**: Run the Quartz CLI. For example, `npm run quartz -- build` to build the site.
+- **`npm run docs`**: Build and serve the documentation.
+- **`npm run check`**: Run type checking and format checking.
+- **`npm run format`**: Format the code.
+- **`npm run test`**: Run tests.
 
 To build and serve the site, you can use the following command:
 
 ```bash
-npx quartz build --serve
+npx quartz build --serve --concurrency 12
 ```
 
 # Development Conventions
