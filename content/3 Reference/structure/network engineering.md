@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-10-14T04:15:27.070+07:00","published":"2025-10-14T04:15:27.070+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-04-17 19:13","status":"baby","parent":["[[computers]]"],"PassFrontmatter":true}
+{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-11-19T14:01:45.178+07:00","published":"2025-11-19T14:01:45.178+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-04-17 19:13","status":"baby","parent":["[[computers]]"],"PassFrontmatter":true}
 ---
 
 
@@ -11,7 +11,7 @@
 - [Connecting to a Hidden WiFi](Connecting%20to%20a%20Hidden%20WiFi.md)
 
 **Referential**
-- [Tables, Chains, and Rules in iptables](Tables,%20Chains,%20and%20Rules%20in%20iptables.md)
-- [Output of iptables Command](Output%20of%20iptables%20Command.md)
+- [Iptables Concepts](Iptables%20Concepts.md)
+- [Iptables Command](Iptables%20Command.md)
 
 **Category**
