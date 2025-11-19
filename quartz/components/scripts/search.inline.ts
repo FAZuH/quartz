@@ -2,6 +2,7 @@ import FlexSearch, { DefaultDocumentSearchResults } from "flexsearch"
 import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
+import { getTitle } from "../../util/title"
 
 interface Item {
   id: number
@@ -312,7 +313,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     return {
       id,
       slug,
-      title: searchType === "tags" ? data[slug].title : highlight(term, data[slug].title ?? ""),
+      title: searchType === "tags" ? getTitle(data[slug]) : highlight(term, getTitle(data[slug])),
       content: highlight(term, data[slug].content ?? "", true),
       tags: highlightTags(term.substring(1), data[slug].tags),
     }
