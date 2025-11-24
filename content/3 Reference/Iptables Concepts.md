@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.065+07:00","modified":"2025-10-14T04:15:27.065+07:00","published":"2025-10-14T04:15:27.065+07:00","cssclasses":"","creation-time":"2025-06-21 01:47","status":"baby","tags":null,"parent":["[[iptables]]"]}
+{"publish":true,"created":"2025-10-14T04:15:27.065+07:00","modified":"2025-11-20T02:28:02.589+07:00","published":"2025-11-20T02:28:02.589+07:00","cssclasses":"","creation-time":"2025-06-21 01:47","status":"baby","tags":null,"parent":["[[iptables]]"]}
 ---
 
 
@@ -53,6 +53,8 @@ General packet flow order are: PREROUTING -> \[INPUT/FORWARD/OUTPUT\] -> POSTROU
 | FILTER                         |            | ✅     | ✅       | ✅      |             |
 | SECURITY                       |            | ✅     | ✅       | ✅      |             |
 | SNAT                           |            | ✅     |         |        | ✅           |
+
+See also: [[3 Reference/routing-diagram_202511191359\|Routing Diagram]]
 
 ## Rules
 User defined commands to manipulate network traffic.

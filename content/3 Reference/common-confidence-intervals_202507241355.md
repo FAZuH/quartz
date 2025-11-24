@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Common Confidence Intervals"],"created":"2025-10-14T04:15:27.055+07:00","modified":"2025-10-14T04:15:27.055+07:00","published":"2025-10-14T04:15:27.055+07:00","cssclasses":"","creation-time":"2025-07-24 13:55","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Common Confidence Intervals"],"created":"2025-10-14T04:15:27.055+07:00","modified":"2025-11-24T16:04:35.934+07:00","published":"2025-11-24T16:04:35.934+07:00","cssclasses":"","creation-time":"2025-07-24 13:55","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 
@@ -16,13 +16,13 @@
 
 ## Confidence Intervals for Difference in Means ($\mu_X - \mu_Y$)
 
-| Distribution                                             | $\sigma_X^2, \sigma_Y^2$ known? | Sample sizes | $(1-\alpha)100\%$ Confidence interval                                                                                                                                                                                                    |
-| -------------------------------------------------------- | ------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $X \sim N(\mu_X,\sigma_X^2), Y \sim N(\mu_Y,\sigma_Y^2)$ | ✅                               | Any          | $$(\bar{X} - \bar{Y}) \pm z_{\alpha/2}\sqrt{\frac{\sigma_X^2}{n_X} + \frac{\sigma_Y^2}{n_Y}}$$ | 
-| $X, Y$ any distribution                                  | ✅                               | Large        | $$(\bar{X} - \bar{Y}) \pm z_{\alpha/2}\sqrt{\frac{\sigma_X^2}{n_X} + \frac{\sigma_Y^2}{n_Y}}$$ | 
-| $X \sim N(\mu_X,\sigma^2), Y \sim N(\mu_Y,\sigma^2)$     | ❌ (equal variances)             | Small        | $$(\bar{X} - \bar{Y}) \pm t_{\alpha/2,n_X+n_Y-2}S_p\sqrt{\frac{1}{n_X} + \frac{1}{n_Y}}$$ | 
-| $X \sim N(\mu_X,\sigma_X^2), Y \sim N(\mu_Y,\sigma_Y^2)$ | ❌ (unequal variances)           | Small        | $$(\bar{X} - \bar{Y}) \pm t_{\alpha/2,\nu}\sqrt{\frac{S_X^2}{n_X} + \frac{S_Y^2}{n_Y}}$$ |
-| $X, Y$ any distribution                                  | ❌                               | Large        | $$(\bar{X} - \bar{Y}) \pm z_{\alpha/2}\sqrt{\frac{S_X^2}{n_X} + \frac{S_Y^2}{n_Y}}$$ |
+| Distribution                                             | $\sigma_X^2, \sigma_Y^2$ known? | Sample sizes | $(1-\alpha)100\%$ Confidence interval                                                          |
+| -------------------------------------------------------- | ------------------------------- | ------------ | ---------------------------------------------------------------------------------------------- |
+| $X \sim N(\mu_X,\sigma_X^2), Y \sim N(\mu_Y,\sigma_Y^2)$ | ✅                               | Any          | $$(\bar{X} - \bar{Y}) \pm z_{\alpha/2}\sqrt{\frac{\sigma_X^2}{n_X} + \frac{\sigma_Y^2}{n_Y}}$$ |
+| $X, Y$ any distribution                                  | ✅                               | Large        | $$(\bar{X} - \bar{Y}) \pm z_{\alpha/2}\sqrt{\frac{\sigma_X^2}{n_X} + \frac{\sigma_Y^2}{n_Y}}$$ |
+| $X \sim N(\mu_X,\sigma^2), Y \sim N(\mu_Y,\sigma^2)$     | ❌ (equal variances)             | Small        | $$(\bar{X} - \bar{Y}) \pm t_{\alpha/2,n_X+n_Y-2}S_p\sqrt{\frac{1}{n_X} + \frac{1}{n_Y}}$$      |
+| $X \sim N(\mu_X,\sigma_X^2), Y \sim N(\mu_Y,\sigma_Y^2)$ | ❌ (inequal variances)           | Small        | $$(\bar{X} - \bar{Y}) \pm t_{\alpha/2,\nu}\sqrt{\frac{S_X^2}{n_X} + \frac{S_Y^2}{n_Y}}$$       |
+| $X, Y$ any distribution                                  | ❌                               | Large        | $$(\bar{X} - \bar{Y}) \pm z_{\alpha/2}\sqrt{\frac{S_X^2}{n_X} + \frac{S_Y^2}{n_Y}}$$           |
 
 
 **Notes:**

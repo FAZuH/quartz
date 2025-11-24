@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["categorical data analysis"],"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-10-14T04:15:27.070+07:00","published":"2025-10-14T04:15:27.070+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-15 07:01","status":"baby","parent":["[[statistics]]"]}
+{"publish":true,"aliases":["categorical data analysis"],"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-11-24T08:59:36.747+07:00","published":"2025-11-24T08:59:36.747+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-15 07:01","status":"baby","parent":["[[statistics]]"]}
 ---
 
 
@@ -17,6 +17,8 @@
 	- *[[3 Reference/def-specificity-and-sensitivity_202510060632\|Specificity and Sensitivity]]*
 	- *[[3 Reference/def-odds_202509221037\|Odds]]*
 	- *[[3 Reference/def-odds-ratio_202509221037\|Odds Ratio]]*
+- **Tests**
+	- [[3 Reference/cochran-mantel-haenszel-test-of-conditional-independence_202511240859\|Cochran-Mantel-Haenszel Test of Conditional Independence]]
 
 ## In progress
 

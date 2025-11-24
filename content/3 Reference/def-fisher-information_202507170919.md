@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Fisher Information"],"created":"2025-10-14T04:15:27.047+07:00","modified":"2025-10-21T07:57:15.030+07:00","published":"2025-10-21T07:57:15.030+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Fisher Information"],"created":"2025-10-14T04:15:27.047+07:00","modified":"2025-11-20T17:25:07.037+07:00","published":"2025-11-20T17:25:07.037+07:00","cssclasses":"","creation-time":"2025-07-17 09:19","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 
@@ -27,7 +27,9 @@ $$
 
 This equation is derived under [[3 Reference/mathstat6.1#Assumptions 6.1.1 Regularity conditions\|Regularity conditions]]: $$I(\theta) = -E\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right]$$
 
-For a [[3 Reference/Def-random-sample\|random sample]] $X_1, X_2, \ldots, X_n$, the Fisher information is: $$I_n(\theta) = nI(\theta)$$
+For a [[3 Reference/Def-random-sample\|random sample]] $X_1, X_2, \ldots, X_n$, the Fisher information is: 
+$$
+I_n(\theta) = nI(\theta) =  -nE\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right] $$
 
 > [!note]
 > Fisher information measures the amount of information that the sample carries about the parameter $\theta$. It is the weighted mean of $\left(\frac{\partial}{\partial \theta} \ln f(x;\theta)\right)^2$, where the weights are given by the pdf $f(x;\theta)$. 

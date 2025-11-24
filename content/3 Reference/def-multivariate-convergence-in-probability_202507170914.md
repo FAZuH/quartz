@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Multivariate Convergence in Probability","Multivariate Convergence in Probability"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","cssclasses":"","creation-time":"2025-07-17 09:14","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+{"publish":true,"aliases":["Multivariate Convergence in Probability"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-11-24T06:40:37.453+07:00","published":"2025-11-24T06:40:37.453+07:00","cssclasses":"","creation-time":"2025-07-17 09:14","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
 ---
 
 

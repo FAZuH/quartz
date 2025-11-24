@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-14T04:15:27.075+07:00","published":"2025-10-14T04:15:27.075+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-11-20T17:57:38.723+07:00","published":"2025-11-20T17:57:38.723+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 ## Chapter 4
@@ -673,6 +673,7 @@ $$
 $$ \frac{1}{nI(\theta)} = \frac{1}{n(4/\theta^2)} = \frac{\theta^2}{4n} $$
 
 Karena $\operatorname{Var}(\hat{\theta})=\dfrac{1}{nI(\theta)}$, maka berdasarkan [[3 Reference/mathstat6.2#Corollary 6.2.1 Rao-Cramér bound for unbiased estimators\|Corollary 6.2.1 Rao-Cramér bound for unbiased estimators]], $\dfrac{\theta^2}{4n}$ adalah penaksir efisien untuk $\theta$.
+
 
 ### 8.27
 If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x;\theta)=3\theta^3(x+\theta)^{-4}$, $0<x<\theta$, zero elsewhere, where $0<\theta$, show that $Y=2X$ is an [[3 Reference/Def-unbiased-estimator\|unbiased estimator]] of $\theta$ and determine its [[3 Reference/mathstat6.2#^def-efficiency\|efficiency]].
