@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Row Space, Column Space, Null Space","Row Space","Column Space","Null Space"],"created":"2025-10-14T04:15:27.060+07:00","modified":"2025-10-15T03:43:40.361+07:00","published":"2025-10-15T03:43:40.361+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:24","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+{"publish":true,"aliases":["Row Space, Column Space, Null Space","Row Space","Column Space","Null Space"],"created":"2025-12-03T07:29:32.382+07:00","modified":"2025-12-03T07:31:30.222+07:00","published":"2025-12-03T07:31:30.222+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:24","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
 ---
 
 
@@ -143,3 +143,33 @@ $$
 According to [[3 Reference/def-row-space,-column-space,-null-space_202510061124#Finding basis of column/row space]], 
 - $C(A)=\operatorname{span}\{ [1,2,1]^T,[3,5,2]^T \}$
 - $R(A)=\operatorname{span}\{ [1,2,3],[2,4,5] \}$
+
+## Example: Finding null space
+
+i.e., finding the solution space of $A^T$:
+
+$$
+A^T = \begin{bmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 3 & 5 & 2 \end{bmatrix}
+$$
+
+Row reduce $A^T$ to RREF:
+
+$$
+\begin{bmatrix} 1 & 2 & 1 \\ 2 & 4 & 2 \\ 3 & 5 & 2 \end{bmatrix} \xrightarrow{R_2 - 2R_1} \begin{bmatrix} 1 & 2 & 1 \\ 0 & 0 & 0 \\ 3 & 5 & 2 \end{bmatrix} \xrightarrow{R_3 - 3R_1} \begin{bmatrix} 1 & 2 & 1 \\ 0 & 0 & 0 \\ 0 & -1 & -1 \end{bmatrix}
+$$
+
+$$
+\xrightarrow{R_2 \leftrightarrow R_3} \begin{bmatrix} 1 & 2 & 1 \\ 0 & -1 & -1 \\ 0 & 0 & 0 \end{bmatrix} \xrightarrow{-R_2} \begin{bmatrix} 1 & 2 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 0 \end{bmatrix} \xrightarrow{R_1 - 2R_2} \begin{bmatrix} 1 & 0 & -1 \\ 0 & 1 & 1 \\ 0 & 0 & 0 \end{bmatrix}
+$$
+
+Columns 1 and 2 have pivots (basic variables x₁, x₂). Column 3 has no pivot (free variable x₃).
+
+Set x₃ = 1:
+
+- x₁ - 1 = 0 → x₁ = 1
+- x₂ + 1 = 0 → x₂ = -1
+
+Solution space: 
+$$
+\text{null}(A^T) = \text{span}\left\{\begin{bmatrix} 1 \\ -1 \\ 1 \end{bmatrix}\right\}
+$$

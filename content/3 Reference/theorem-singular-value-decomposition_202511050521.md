@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-11-12T09:02:01.350+07:00","published":"2025-11-12T09:02:01.350+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-03T07:22:51.815+07:00","published":"2025-12-03T07:22:51.815+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
 ---
 
 The <u>decomposition</u> of any matrix into the product of an orthogonal matrix, a diagonal matrix with nonzero diagonal elements ranked from highest to lowest, and another orthogonal matrix.
@@ -73,15 +73,16 @@ To compute the SVD of an $m \times n$ matrix $A$ with rank $k$:
 
 5. **Construct $U$** (an $m \times m$ matrix)
 	- For $i = 1, 2, \dots, k$: compute $\mathbf{u}_i = \frac{1}{\sigma_i} A\mathbf{v}_i$
-	- Extend $\{\mathbf{u}_1, \mathbf{u}_2, \dots, \mathbf{u}_k\}$ to an orthonormal basis for $\mathbb{R}^m$ by finding $m-k$ additional orthonormal vectors $\mathbf{u}_{k+1}, \dots, \mathbf{u}_m$ orthogonal to $\operatorname{col}(A)$
+	- Extend $\{\mathbf{u}_1, \mathbf{u}_2, \dots, \mathbf{u}_k\}$ to an orthonormal basis for $\mathbb{R}^m$ by finding $m-k$ additional orthonormal vectors $\mathbf{u}_{k+1}, \dots, \mathbf{u}_m$ orthogonal to $\operatorname{col}(A)$ (also known as $\operatorname{null}(A^T)$, i.e., [[3 Reference/def-solution-space_202510061127\|solution space]] of $A^T\mathbf{x}=\mathbf{0}$)
 	- Form $U = [\mathbf{u}_1 \quad \mathbf{u}_2 \quad \cdots \quad \mathbf{u}_m]$
 
 6. (Optional) **Verify**: $A = U\Sigma V^T$
 
 In short,
-1. Descending sort eigenvalues ($\sigma_{i}$) & eigenvectors ($\mathbf{v}_{i}$) $A^TA$
+1. Descending sort eigenvalues ($\sigma_{i}$) & eigenvectors ($\mathbf{v}_{i}$) of $A^TA$
 2. $\Sigma=\operatorname{diag}(\sigma_{i}),i=1,\dots,k$
 3. $U:\mathbf{u}_{i}=\frac{1}{\sigma_{i}}A\mathbf{v}_{i}$
+4. Column stack $U$ with $\operatorname{null}(A^T)$ if $k<m$
 
 ## Code implementation
 ```python

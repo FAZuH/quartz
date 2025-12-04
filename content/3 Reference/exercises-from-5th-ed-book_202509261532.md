@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-11-20T17:57:38.723+07:00","published":"2025-11-20T17:57:38.723+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-12-04T17:16:10.977+07:00","published":"2025-12-04T17:16:10.977+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 ## Chapter 4
@@ -53,9 +53,9 @@ $\therefore$ Terbukti bahwa $Z_1 = Y_2$ dan $Z_2 = Y_4 - Y_2$ adalah independen.
 ## Chapter 5
 ### 5.7
 
-Let $Y_{n}$ : Sequence of [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|random variable]], with $Y_{n}\sim b(n,p)$ ([[3 Reference/Discrete Distributions#Binomial distribution\|check here]])
-
-Prove that $1-Y_{n}/n$ [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|converges in probability]] to $1-p$
+> Let $Y_{n}$ : Sequence of [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|random variable]], with $Y_{n}\sim b(n,p)$ ([[3 Reference/Discrete Distributions#Binomial distribution\|check here]])
+> 
+> Prove that $1-Y_{n}/n$ [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|converges in probability]] to $1-p$
 
 **Answer**
 
@@ -123,9 +123,9 @@ $\therefore$ Terbukti bahwa $n S_n^2/(n-1)$ konvergen dalam probabilitas ke $\si
 
 ### 5.10
 
-Let $Y_{n}$ : $n$-th [[3 Reference/mathstat4.4#Definition Order statistics\|Order statistic]] from [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|random sample]] of size $n$, with $Y_{n}\sim U(0,\theta)$
-
-Prove that $Z_{n}=\sqrt{ Y_{n} }$ converges in probability to $\sqrt{ \theta }$
+> Let $Y_{n}$ : $n$-th [[3 Reference/mathstat4.4#Definition Order statistics\|Order statistic]] from [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|random sample]] of size $n$, with $Y_{n}\sim U(0,\theta)$
+> 
+> Prove that $Z_{n}=\sqrt{ Y_{n} }$ converges in probability to $\sqrt{ \theta }$
 
 **Answer**
 
@@ -161,11 +161,11 @@ $\therefore$ Distribusi limit dari $Y_n$ adalah distribusi degenerate di $\beta$
 
 ### 5.12
 
-Let
-- $Z_{n}$ : Sequence of random variables, with $Z_{n}\sim\chi^2(n)$
-- $W_{n} = Z_{n}/n^2$
-
-Find the limiting distribution of $W_{n}$
+> Let
+> - $Z_{n}$ : Sequence of random variables, with $Z_{n}\sim\chi^2(n)$
+> - $W_{n} = Z_{n}/n^2$
+> 
+> Find the limiting distribution of $W_{n}$
 
 **Answer**
 
@@ -200,19 +200,19 @@ Misalkan $X$ variabel acak dengan mgf $M_{X}(t)$. Andaikan $X$ berdistribusi deg
 
 ### 5.13
 
-Let $X$ : Random variable, with $X\sim \chi^2(50)$
-
-Approximate $\operatorname{Pr}(40<X<60)$
+> Let $X$ : Random variable, with $X\sim \chi^2(50)$
+> 
+> Approximate $\operatorname{Pr}(40<X<60)$
 
 **Answer**
 
 ### 5.15
 
-Let 
-- $Z_{n}$ : Sequence of random variable, with $Z_{n}\sim P(n)$
-- $Y_{n}=(Z_{n}-n)/\sqrt{ n }$ 
-
-Show that the limiting distribution of $Y_{n}$ is normal with mean zero and variance $1$.
+> Let 
+> - $Z_{n}$ : Sequence of random variable, with $Z_{n}\sim P(n)$
+> - $Y_{n}=(Z_{n}-n)/\sqrt{ n }$ 
+> 
+> Show that the limiting distribution of $Y_{n}$ is normal with mean zero and variance $1$.
 
 **Answer**
 
@@ -257,9 +257,9 @@ Misalkan $X$ variabel acak dengan berdistribusi $N(0,1)$. Artinya, $M_{X}(t)=e^{
 
 ### 6.23
 
-Let $\bar{X}$ denote the [[3 Reference/Def-mean\|mean]] of a [[3 Reference/Def-random-sample\|random sample]] of size 25 from a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma-type distribution]] with $\alpha=4$ and $\beta>0$. Use the [[3 Reference/mathstat5.3#Theorem 5.3.1 Central limit theorem\|central limit theorem]] to find an approximate 0.954 [[3 Reference/def-confidence-interval_202507220823\|confidence Interval]] for $\mu$, the mean of the gamma distribution.
-
-Hint: Base the confidence interval on the [[3 Reference/Def-random-variable\|random variable]] $(\bar{X}-4\beta)/(4\beta^2/25)^{1/2}=5\bar{X}/2\beta-10$
+> Let $\bar{X}$ denote the [[3 Reference/Def-mean\|mean]] of a [[3 Reference/Def-random-sample\|random sample]] of size 25 from a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma-type distribution]] with $\alpha=4$ and $\beta>0$. Use the [[3 Reference/mathstat5.3#Theorem 5.3.1 Central limit theorem\|central limit theorem]] to find an approximate 0.954 [[3 Reference/def-confidence-interval_202507220823\|confidence Interval]] for $\mu$, the mean of the gamma distribution.
+> 
+> Hint: Base the confidence interval on the [[3 Reference/Def-random-variable\|random variable]] $(\bar{X}-4\beta)/(4\beta^2/25)^{1/2}=5\bar{X}/2\beta-10$
 
 **Answer**
 Untuk distribusi gamma dengan parameter $\alpha = 4$ dan $\beta$, diketahui:
@@ -295,7 +295,7 @@ $\therefore$ Confidence interval 95.4% untuk $\mu$ adalah $\boxed{\left(\frac{5\
 
 ### 6.26
 
-It is known that a [[3 Reference/Def-random-variable\|random variable]] $X$ has a [[3 Reference/Discrete Distributions#Poisson distribution\|Poisson distribution]] with parameter $\mu$. A sample of 200 observations from this population has a [[3 Reference/Def-mean\|mean]] equal to 3.4. Construct an approximate 90 percent [[3 Reference/def-confidence-interval_202507220823\|confidence Interval]] for $\mu$.
+> It is known that a [[3 Reference/Def-random-variable\|random variable]] $X$ has a [[3 Reference/Discrete Distributions#Poisson distribution\|Poisson distribution]] with parameter $\mu$. A sample of 200 observations from this population has a [[3 Reference/Def-mean\|mean]] equal to 3.4. Construct an approximate 90 percent [[3 Reference/def-confidence-interval_202507220823\|confidence Interval]] for $\mu$.
 
 **Answer**
 
@@ -338,11 +338,10 @@ $\therefore$ Confidence interval 90% untuk $\mu$ adalah $\boxed{(3.185, 3.615)}$
 
 ### 6.27
 
-Let $Y_{1}<Y_{2}<\dots<Y_{n}$ denote the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size $n$ from a distribution that has [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x)=3x^2/\theta^3, 0<x<\theta$, zero elsewhere.
-
-(a) Show that $\operatorname{Pr}(c<Y_{n}/\theta<1)=1-c^{3n}$, where $0<c<1$
-(b) If $n$ is 4 and if the observed value of $Y$, is 2.3, what is a 95 percent
-[[3 Reference/def-confidence-interval_202507220823\|confidence interval]] for 8?
+> Let $Y_{1}<Y_{2}<\dots<Y_{n}$ denote the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size $n$ from a distribution that has [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x)=3x^2/\theta^3, 0<x<\theta$, zero elsewhere.
+> 
+> (a) Show that $\operatorname{Pr}(c<Y_{n}/\theta<1)=1-c^{3n}$, where $0<c<1$
+> (b) If $n$ is 4 and if the observed value of $Y$, is 2.3, what is a 95 percent [[3 Reference/def-confidence-interval_202507220823\|confidence interval]] for 8?
 
 **Answer**
 
@@ -395,9 +394,9 @@ $\therefore$ Confidence interval 95% untuk $\theta$ adalah $\boxed{(2.3, 2.896)}
 
 ### 6.29
 
-Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma distribution]] with known parameter $\alpha=3$ and unknown $\beta>0$. Discuss the construction of a [[3 Reference/def-confidence-interval_202507220823\|confidence interval]] for $\beta$. 
-
-Hint: What is the distribution of $2\sum_{i=1}^nX_{i}/\beta$? Follow the procedure outlined in Exercise 6.28.
+> Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma distribution]] with known parameter $\alpha=3$ and unknown $\beta>0$. Discuss the construction of a [[3 Reference/def-confidence-interval_202507220823\|confidence interval]] for $\beta$. 
+> 
+> Hint: What is the distribution of $2\sum_{i=1}^nX_{i}/\beta$? Follow the procedure outlined in Exercise 6.28.
 
 **Answer**
 
@@ -428,9 +427,9 @@ $\therefore$ Confidence interval $(1-\alpha)100\%$ untuk $\beta$ adalah $\boxed{
 
 ### 6.35
 
-Let $X$ and $Y$ be the [[3 Reference/Def-mean\|means]] of two independent [[3 Reference/Def-random-sample\|random sample]], each of size $n$, from the respective distributions $N(\mu_{1},\sigma^2)$ and $N(\mu_{2},\sigma^2)$, where the common variance is known. Find $n$ such that
-
-$$ \operatorname{Pr}(\bar{X}-\bar{Y}-\sigma/5<\mu_{1}-\mu_{2}<\bar{X}-\bar{Y}+\sigma/5)=0.90 $$
+> Let $X$ and $Y$ be the [[3 Reference/Def-mean\|means]] of two independent [[3 Reference/Def-random-sample\|random sample]], each of size $n$, from the respective distributions $N(\mu_{1},\sigma^2)$ and $N(\mu_{2},\sigma^2)$, where the common variance is known. Find $n$ such that
+> 
+> $$ \operatorname{Pr}(\bar{X}-\bar{Y}-\sigma/5<\mu_{1}-\mu_{2}<\bar{X}-\bar{Y}+\sigma/5)=0.90 $$
 
 **Answer**
 
@@ -476,13 +475,13 @@ $\therefore$ Nilai $n$ yang diperlukan adalah $\boxed{n = 136}$ (dibulatkan ke a
 ## Chapter 7
 
 ### 7.40
-Let
-- $X_{1},X_{2},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]], with
-	- distribution $N(\theta,1), -\infty<\theta<\infty$
-
-Find [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] of $\theta^2$
-
-Hint: First determine $E(\bar X^2)$
+> Let
+> - $X_{1},X_{2},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]], with
+> 	- distribution $N(\theta,1), -\infty<\theta<\infty$
+> 
+> Find [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] of $\theta^2$
+> 
+> Hint: First determine $E(\bar X^2)$
 
 **Answer**
 
@@ -520,11 +519,11 @@ Diketahui $\bar{X}$ adalah [[3 Reference/def-complete-sufficient-statistic_20250
 $\therefore$ MVUE dari $\theta^2$ adalah $\boxed{\bar{X}^2-1/n}$
 
 ### 7.41
-Let $X_{1},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]], with distribution $N(0,\theta)$. 
-
-Then $Y=\sum X_{i}^2$ is a [[3 Reference/def-complete-sufficient-statistic_202507170931\|complete sufficient statistic]] for $\theta$.
-
-Find [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] of $\theta^2$
+> Let $X_{1},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]], with distribution $N(0,\theta)$. 
+> 
+> Then $Y=\sum X_{i}^2$ is a [[3 Reference/def-complete-sufficient-statistic_202507170931\|complete sufficient statistic]] for $\theta$.
+> 
+> Find [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] of $\theta^2$
 
 **Answer**
 
@@ -559,7 +558,7 @@ $\therefore$ MVUE dari $\theta^2$ adalah $\boxed{\dfrac{Y^2}{n^2+2n}}$
 
 ### 7.42
 
-In the notation of Example 2 of this section, is there an UMVE of $\operatorname{Pr}(-c\leq X\leq c)$? Here $c>0$.
+> In the notation of Example 2 of this section, is there an UMVE of $\operatorname{Pr}(-c\leq X\leq c)$? Here $c>0$.
 
 **Answer**
 
@@ -598,9 +597,9 @@ $$\boxed{\Phi\left(\sqrt{\frac{n}{n-1}} \cdot (c - \bar{X})\right) - \Phi\left(-
 ## Chapter 8
 
 ### 8.15
-Let $X$ have a [[3 Reference/Continuous Distributions#Gamma distribution\|Gamma distribution]] with $\alpha=4$ and $\beta=\theta>0$.
-a. Find the [[3 Reference/def-fisher-information_202507170919\|Fisher Information]] $I(\theta)$.
-b. If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from this distribution, show that the [[3 Reference/Def-maximum-likelihood-estimator-(mle)\|m.l.e.]] of $\theta$ is an [[3 Reference/def-efficient-estimator_202507170919\|efficient estimator]] of $\theta$.
+> Let $X$ have a [[3 Reference/Continuous Distributions#Gamma distribution\|Gamma distribution]] with $\alpha=4$ and $\beta=\theta>0$.
+> a. Find the [[3 Reference/def-fisher-information_202507170919\|Fisher Information]] $I(\theta)$.
+> b. If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from this distribution, show that the [[3 Reference/Def-maximum-likelihood-estimator-(mle)\|m.l.e.]] of $\theta$ is an [[3 Reference/def-efficient-estimator_202507170919\|efficient estimator]] of $\theta$.
 
 #### 8.15.a
 Diketahui pdf dari distribusi Gamma dengan $\alpha=4$ dan $\beta=\theta$ adalah:
@@ -676,7 +675,7 @@ Karena $\operatorname{Var}(\hat{\theta})=\dfrac{1}{nI(\theta)}$, maka berdasarka
 
 
 ### 8.27
-If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x;\theta)=3\theta^3(x+\theta)^{-4}$, $0<x<\theta$, zero elsewhere, where $0<\theta$, show that $Y=2X$ is an [[3 Reference/Def-unbiased-estimator\|unbiased estimator]] of $\theta$ and determine its [[3 Reference/mathstat6.2#^def-efficiency\|efficiency]].
+> If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x;\theta)=3\theta^3(x+\theta)^{-4}$, $0<x<\theta$, zero elsewhere, where $0<\theta$, show that $Y=2X$ is an [[3 Reference/Def-unbiased-estimator\|unbiased estimator]] of $\theta$ and determine its [[3 Reference/mathstat6.2#^def-efficiency\|efficiency]].
 
 **Jawab**
 
@@ -736,7 +735,7 @@ $$
 \end{align}
 $$
 ### 8.29
-If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from $N(\theta,1)$, find a lower bound of the [[3 Reference/Def-variance\|variance]] of an estimator of $k(\theta)=\theta^2$. Determine an [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|unbiased minimum variance estimator]] of $\theta^2$ and then compute its [[3 Reference/mathstat6.2#^def-efficiency\|efficiency]].
+> If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from $N(\theta,1)$, find a lower bound of the [[3 Reference/Def-variance\|variance]] of an estimator of $k(\theta)=\theta^2$. Determine an [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|unbiased minimum variance estimator]] of $\theta^2$ and then compute its [[3 Reference/mathstat6.2#^def-efficiency\|efficiency]].
 
 **Jawab**
 
@@ -786,7 +785,7 @@ $$
 
 ### 9.6
 
-Let $X_{1},X_{2},\dots,X_{10}$ be a [[3 Reference/Def-random-sample\|random sample]] from a distribution that is $N(\theta_{1},\theta_{2})$[^1]. Find a [[3 Reference/def-best-critical-region_202508052110\|best test]] of the [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|simple hypothesis]] $H_{0}: \theta_{1}=\theta_{1}'=0,\; \theta_{2}=\theta_{2}'=1$ against the [[3 Reference/def-hypothesis_202508050806\|alternative simple hypothesis]] $H_{1}: \theta_{1}=\theta_{1}''=1,\; \theta_{2}=\theta_{2}''=4$.
+> Let $X_{1},X_{2},\dots,X_{10}$ be a [[3 Reference/Def-random-sample\|random sample]] from a distribution that is $N(\theta_{1},\theta_{2})$[^1]. Find a [[3 Reference/def-best-critical-region_202508052110\|best test]] of the [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|simple hypothesis]] $H_{0}: \theta_{1}=\theta_{1}'=0,\; \theta_{2}=\theta_{2}'=1$ against the [[3 Reference/def-hypothesis_202508050806\|alternative simple hypothesis]] $H_{1}: \theta_{1}=\theta_{1}''=1,\; \theta_{2}=\theta_{2}''=4$.
 
 **Answer**
 
@@ -844,7 +843,7 @@ $\therefore$ Best test untuk hipotesis yang diberikan adalah tolak $H_0$ jika $3
 
 ### 9.10
 
-Let $X_{1},X_{2},\dots,X_{10}$ denote a [[3 Reference/Def-random-sample\|random sample]] of size $10$ from a [[3 Reference/Discrete Distributions#Poisson distribution\|Poisson distribution]] with [[3 Reference/Def-mean\|mean]] $\theta$. Show that the [[3 Reference/def-test_202508050827\|critical region]] $C$ defined by $\sum_{i=1}^{10}x_{i}\geq 3$ is a [[3 Reference/def-best-critical-region_202508052110\|best critical region]] for [[3 Reference/def-test_202508050827\|testing]] $H_{0}: \theta=0.1$ against $H_{1}: \theta=0.5$. Determine, for this test, the [[3 Reference/def-size-of-critical-region_202507291323\|significance level]] $\alpha$ and [[3 Reference/def-power-of-a-test_202508050833\|power]] at $\theta=0.5$.
+> Let $X_{1},X_{2},\dots,X_{10}$ denote a [[3 Reference/Def-random-sample\|random sample]] of size $10$ from a [[3 Reference/Discrete Distributions#Poisson distribution\|Poisson distribution]] with [[3 Reference/Def-mean\|mean]] $\theta$. Show that the [[3 Reference/def-test_202508050827\|critical region]] $C$ defined by $\sum_{i=1}^{10}x_{i}\geq 3$ is a [[3 Reference/def-best-critical-region_202508052110\|best critical region]] for [[3 Reference/def-test_202508050827\|testing]] $H_{0}: \theta=0.1$ against $H_{1}: \theta=0.5$. Determine, for this test, the [[3 Reference/def-size-of-critical-region_202507291323\|significance level]] $\alpha$ and [[3 Reference/def-power-of-a-test_202508050833\|power]] at $\theta=0.5$.
 
 **Jawab**
 
@@ -917,7 +916,7 @@ $\therefore$ Critical region $C: \sum_{i=1}^{10} x_i \geq 3$ adalah best critica
 
 ### 9.21
 
-Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x;\theta)=\theta x^{\theta-1},0<x<\infty$, zero elsewhere, where $\theta>0$. Find a [[3 Reference/def-sufficient-statistic_202507170925\|sufficient statistic]] for $\theta$ and show that a [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}: \theta=6$ against $H_{1}: \theta<6$ is based on this [[3 Reference/Def-statistic\|statistic]].
+> Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x;\theta)=\theta x^{\theta-1},0<x<\infty$, zero elsewhere, where $\theta>0$. Find a [[3 Reference/def-sufficient-statistic_202507170925\|sufficient statistic]] for $\theta$ and show that a [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}: \theta=6$ against $H_{1}: \theta<6$ is based on this [[3 Reference/Def-statistic\|statistic]].
 
 **Jawab**
 
@@ -980,7 +979,7 @@ $\therefore$ Statistik cukup untuk $\theta$ adalah $Y_{1} = \prod_{i=1}^n X_i$. 
 
 ### 9.28
 
-Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from the [[3 Reference/Continuous Distributions#Normal distribution\|normal distribution]] $N(\theta,1)$. Show that the [[3 Reference/Def-likelihood-function\|likelihood]] ratio principle for testing $H_{0}: \theta=\theta'$, where $\theta'$ is specified, against $H_{1}: \theta\neq \theta'$ leads to the inequality $|\bar{x}-\theta'|\geq c$. Is this a [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}$ against $H_{1}$?
+> Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from the [[3 Reference/Continuous Distributions#Normal distribution\|normal distribution]] $N(\theta,1)$. Show that the [[3 Reference/Def-likelihood-function\|likelihood]] ratio principle for testing $H_{0}: \theta=\theta'$, where $\theta'$ is specified, against $H_{1}: \theta\neq \theta'$ leads to the inequality $|\bar{x}-\theta'|\geq c$. Is this a [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}$ against $H_{1}$?
 
 **Jawab**
 
@@ -1045,9 +1044,9 @@ $\therefore$  Diperoleh $|\bar{x}-\theta'| \geq c$, tetapi test ini bukan UMPT k
 
 ### 9.47
 
-Consider a [[3 Reference/Def-random-sample\|random sample]] $X_{1},X_{2},\dots,X_{n}$ from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x;\theta)=\theta(1-x)^{\theta-1},\; 0<x<1$, zero elsewhere, where $\theta>0$.
-1. Find the form of the [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}: \theta=1$ against $H_{1}: \theta>1$.
-2. What is the [[3 Reference/Def-likelihood-function\|likelihood]] ratio for $\lambda$ for testing $H_{0}: \theta=1$ against $H_{1}: \theta\neq 1$?
+> Consider a [[3 Reference/Def-random-sample\|random sample]] $X_{1},X_{2},\dots,X_{n}$ from a distribution with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x;\theta)=\theta(1-x)^{\theta-1},\; 0<x<1$, zero elsewhere, where $\theta>0$.
+> 1. Find the form of the [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}: \theta=1$ against $H_{1}: \theta>1$.
+> 2. What is the [[3 Reference/Def-likelihood-function\|likelihood]] ratio for $\lambda$ for testing $H_{0}: \theta=1$ against $H_{1}: \theta\neq 1$?
 
 #### 9.47.1
 
