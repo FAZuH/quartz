@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Kernel and Range","Kernel","Range"],"created":"2025-11-05T06:57:25.788+07:00","modified":"2025-11-05T07:13:26.971+07:00","published":"2025-11-05T07:13:26.971+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 06:57","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Kernel and Range","Kernel","Range"],"created":"2025-11-05T06:57:25.788+07:00","modified":"2025-12-10T11:32:07.967+07:00","published":"2025-12-10T11:32:07.967+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 06:57","status":"baby","parent":["[[matrices]]"]}
 ---
 
 
@@ -16,7 +16,6 @@ Then
 If $R(T_{A})$ is the set of all vectors in $R^m$ that are images under $\mathbf{x}\xrightarrow{T_{A}}\{ \mathbf{0} \}$ of at least one vector in $R^n$
 
 Then we call $R^n$ the **range** of $T_{A}$
-
 
 
 > [!note]

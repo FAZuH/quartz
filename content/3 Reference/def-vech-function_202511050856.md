@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Vech Function"],"created":"2025-11-05T08:56:34.781+07:00","modified":"2025-11-05T09:03:29.947+07:00","published":"2025-11-05T09:03:29.947+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:56","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Vech Function"],"created":"2025-11-05T08:56:34.781+07:00","modified":"2025-12-10T11:35:09.086+07:00","published":"2025-12-10T11:35:09.086+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:56","status":"baby","parent":["[[matrices]]"]}
 ---
 
 
@@ -9,7 +9,7 @@ Let $A$ : $n\times n$ [[3 Reference/def-symmetric-matrix_202509241413\|symmetric
 
 Then **vech function** is defined as
 $$
-\operatorname{vech} = \begin{bmatrix}
+\operatorname{vech}(A) = \begin{bmatrix}
 a_{11} \\
 a_{21}  \\
 \vdots \\

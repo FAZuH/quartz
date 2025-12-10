@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-03T07:22:51.815+07:00","published":"2025-12-03T07:22:51.815+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T13:19:09.252+07:00","published":"2025-12-10T13:19:09.252+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
 ---
 
 The <u>decomposition</u> of any matrix into the product of an orthogonal matrix, a diagonal matrix with nonzero diagonal elements ranked from highest to lowest, and another orthogonal matrix.
@@ -55,35 +55,199 @@ $$
 
 To compute the SVD of an $m \times n$ matrix $A$ with rank $k$:
 
-1. **Compute $A^TA$** (an $n \times n$ symmetric matrix)
+1. Compute **$A^TA$** (an $n \times n$ symmetric matrix)
 
-2. **Find eigenvalues and eigenvectors of $A^TA$**
+2. Find **eigenvalues and eigenvectors of** $A^TA$
 	   - Find all eigenvalues $\lambda_1, \lambda_2, \dots, \lambda_n$ of $A^TA$
 	   - Find corresponding eigenvectors for each eigenvalue
-	   - Normalize the eigenvectors to unit length
+	   
+3. **Normalize** the eigenvectors to unit length
 
-3. **Order eigenvalues and eigenvectors**
+4. **Order** eigenvalues and eigenvectors
 	- Order eigenvalues from largest to smallest: $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_k > 0 = \lambda_{k+1} = \cdots = \lambda_n$
 	- Order the corresponding unit eigenvectors accordingly to form $V = [\mathbf{v}_1 \quad \mathbf{v}_2 \quad \cdots \quad \mathbf{v}_n]$
 	
-4. **Construct $\Sigma$** (an $m \times n$ matrix)
+5. Construct **$\Sigma$** (an $m \times n$ matrix)
 	- Compute singular values: $\sigma_i = \sqrt{\lambda_i}$ for $i = 1, 2, \dots, k$
 	- Place $\sigma_1, \sigma_2, \dots, \sigma_k$ on the diagonal
 	- Fill remaining entries with zeros
 
-5. **Construct $U$** (an $m \times m$ matrix)
+6. Construct **$U$** (an $m \times m$ matrix)
 	- For $i = 1, 2, \dots, k$: compute $\mathbf{u}_i = \frac{1}{\sigma_i} A\mathbf{v}_i$
-	- Extend $\{\mathbf{u}_1, \mathbf{u}_2, \dots, \mathbf{u}_k\}$ to an orthonormal basis for $\mathbb{R}^m$ by finding $m-k$ additional orthonormal vectors $\mathbf{u}_{k+1}, \dots, \mathbf{u}_m$ orthogonal to $\operatorname{col}(A)$ (also known as $\operatorname{null}(A^T)$, i.e., [[3 Reference/def-solution-space_202510061127\|solution space]] of $A^T\mathbf{x}=\mathbf{0}$)
+	- If $m>k$, extend $U$ with [[3 Reference/def-solution-space_202510061127\|solution space]] of $A^T\mathbf{x}=0$
 	- Form $U = [\mathbf{u}_1 \quad \mathbf{u}_2 \quad \cdots \quad \mathbf{u}_m]$
 
-6. (Optional) **Verify**: $A = U\Sigma V^T$
+7. (Optional) **Verify**: $A = U\Sigma V^T$
 
 In short,
-1. Descending sort eigenvalues ($\sigma_{i}$) & eigenvectors ($\mathbf{v}_{i}$) of $A^TA$
+1. Descending sort normalized eigenvalues ($\sigma_{i}^{2}$) & eigenvectors ($\mathbf{v}_{i}$) of $A^TA$
 2. $\Sigma=\operatorname{diag}(\sigma_{i}),i=1,\dots,k$
 3. $U:\mathbf{u}_{i}=\frac{1}{\sigma_{i}}A\mathbf{v}_{i}$
 4. Column stack $U$ with $\operatorname{null}(A^T)$ if $k<m$
 
+> [!tip]
+> Based on [[3 Reference/def-rank-and-nullity_202510080316#Number of Nonzero Eigenvalues Theorem\|Number of Nonzero Eigenvalues Theorem]] and [[3 Reference/def-rank-and-nullity_202510080316#Tranpose product rank theorem\|Tranpose product rank theorem]] $$\operatorname{rank}(A^TA)=\operatorname{rank}(A)=k$$
+
+
+## Example
+
+Let $A = \begin{bmatrix} 1 & 1 \\ 0 & 1 \\ 1 & 0 \end{bmatrix}$
+
+### Step 1: Compute $A^TA$
+
+$$
+\begin{align}
+A^TA &= \begin{bmatrix} 1 & 0 & 1 \\ 1 & 1 & 0 \end{bmatrix}\begin{bmatrix} 1 & 1 \\ 0 & 1 \\ 1 & 0 \end{bmatrix} \\
+&= \begin{bmatrix} 1+0+1 & 1+0+0 \\ 1+0+0 & 1+1+0 \end{bmatrix} \\
+&= \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}
+\end{align}
+$$
+
+### Step 2: Find eigenvalues and eigenvectors of $A^TA$
+
+**Finding eigenvalues:**
+
+$$
+\begin{align}
+\det(A^TA - \lambda I) &= \det\begin{bmatrix} 2-\lambda & 1 \\ 1 & 2-\lambda \end{bmatrix} = 0 \\
+(2-\lambda)^2 - 1 &= 0 \\
+4 - 4\lambda + \lambda^2 - 1 &= 0 \\
+\lambda^2 - 4\lambda + 3 &= 0 \\
+(\lambda - 3)(\lambda - 1) &= 0 \\ \\
+
+\lambda_1 &= 3, \quad \lambda_2 = 1
+\end{align}
+$$
+
+Thus, $\operatorname{rank}(A)=k=2$
+
+**Finding normalized eigenvectors:**
+
+For $\lambda_1 = 3$:
+
+$$
+\begin{align}
+\begin{bmatrix} 2-3 & 1 \\ 1 & 2-3 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} &= \begin{bmatrix} 0 \\ 0 \end{bmatrix} \\
+\begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} &= \begin{bmatrix} 0 \\ 0 \end{bmatrix} \\ \\
+
+-x_1 + x_2 &= 0 \\
+x_2 &= x_1
+\end{align}
+$$
+
+
+For $\lambda_2 = 1$:
+
+$$
+\begin{align}
+\begin{bmatrix} 2-1 & 1 \\ 1 & 2-1 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} &= \begin{bmatrix} 0 \\ 0 \end{bmatrix} \\
+\begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} &= \begin{bmatrix} 0 \\ 0 \end{bmatrix} \\
+x_1 + x_2 &= 0 \\
+x_2 &= -x_1
+\end{align}
+$$
+
+Suppose $x_{1}=1$. The unnormalized eigenvectors are:
+$$
+\begin{align}
+\mathbf{w}_{1} & = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \\
+\mathbf{w}_{2} & = \begin{bmatrix} 1 \\ -1 \end{bmatrix}
+\end{align}
+$$
+
+### Step 3: Normalize the eigenvectors to unit length
+
+For $\lambda_{1}=3$
+$$
+\begin{align}
+\|\mathbf{w}_1\| &= \sqrt{1^2 + 1^2} = \sqrt{2} \\
+\mathbf{v}_1 &= \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix}
+\end{align}
+$$
+
+For $\lambda_{2}=1$
+$$
+\begin{align}
+\|\mathbf{w}_2\| &= \sqrt{1^2 + (-1)^2} = \sqrt{2} \\
+\mathbf{v}_2 &= \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \\ -1 \end{bmatrix} = \begin{bmatrix} \frac{1}{\sqrt{2}} \\ -\frac{1}{\sqrt{2}} \end{bmatrix}
+\end{align}
+$$
+
+
+### Step 4: Order eigenvalues and eigenvectors
+
+$$
+V = \begin{bmatrix} \mathbf{v}_{1} & \mathbf{v}_{2} \end{bmatrix} =  \begin{bmatrix} \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} \end{bmatrix}
+$$
+
+### Step 5: Construct $\Sigma$
+
+$$
+\begin{align}
+\sigma_1 &= \sqrt{\lambda_1} = \sqrt{3} \\
+\sigma_2 &= \sqrt{\lambda_2} = 1 \\ \\
+
+\Sigma &= \begin{bmatrix} \sqrt{3} & 0 \\ 0 & 1 \\ 0 & 0 \end{bmatrix}
+\end{align}
+$$
+
+### Step 6: Construct $U$
+
+For $i = 1, 2$: compute $\mathbf{u}_i = \frac{1}{\sigma_i} A\mathbf{v}_i$
+
+For $i=1$
+$$
+\begin{align}
+\mathbf{u}_1 &= \frac{1}{\sqrt{3}}\begin{bmatrix} 1 & 1 \\ 0 & 1 \\ 1 & 0 \end{bmatrix}\begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} \\
+&= \frac{1}{\sqrt{3}}\begin{bmatrix} \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{2}} \\ 0 + \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} + 0 \end{bmatrix} \\
+&= \frac{1}{\sqrt{3}}\begin{bmatrix} \sqrt{2} \\ \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} \\
+&= \begin{bmatrix} \sqrt{\frac{2}{3}} \\ \frac{1}{\sqrt{6}} \\ \frac{1}{\sqrt{6}} \end{bmatrix}
+\end{align}
+$$
+
+For $i=2$
+$$
+\begin{align}
+\mathbf{u}_2 &= \frac{1}{1}\begin{bmatrix} 1 & 1 \\ 0 & 1 \\ 1 & 0 \end{bmatrix}\begin{bmatrix} \frac{1}{\sqrt{2}} \\ -\frac{1}{\sqrt{2}} \end{bmatrix} \\
+&= \begin{bmatrix} \frac{1}{\sqrt{2}} - \frac{1}{\sqrt{2}} \\ 0 - \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} - 0 \end{bmatrix} \\
+&= \begin{bmatrix} 0 \\ -\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix}
+\end{align}
+$$
+
+Notice that $3=m>k=2$. Thus we extend $U$ with $\operatorname{null}(A^T)$:
+
+Find $\mathbf{u}_3$ in $\operatorname{null}(A^T)$:
+
+$$
+\begin{align}
+A^T\mathbf{x} &= \mathbf{0} \\
+\begin{bmatrix} 1 & 0 & 1 \\ 1 & 1 & 0 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} &= \begin{bmatrix} 0 \\ 0 \end{bmatrix} \\ \\
+
+x_1 + x_3 &= 0 \\
+x_1 + x_2 &= 0
+\end{align}
+$$
+
+So $x_3 = -x_1$ and $x_2 = -x_1$. Suppose $x_{1}=1$
+
+Unnormalized vector: $\begin{bmatrix} 1 \\ -1 \\ -1 \end{bmatrix}$
+
+$$
+\begin{align}
+\|\mathbf{u}_3\| &= \sqrt{1^2 + (-1)^2 + (-1)^2} = \sqrt{3} \\
+\mathbf{u}_3 &= \frac{1}{\sqrt{3}}\begin{bmatrix} 1 \\ -1 \\ -1 \end{bmatrix} = \begin{bmatrix} \frac{1}{\sqrt{3}} \\ -\frac{1}{\sqrt{3}} \\ -\frac{1}{\sqrt{3}} \end{bmatrix}
+\end{align}
+$$
+
+$$
+U = \begin{bmatrix} \sqrt{\frac{2}{3}} & 0 & \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{6}} & -\frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{6}} & \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{3}} \end{bmatrix}
+$$
+
+### Step 7: Verify
+
+$$
+A = U\Sigma V^T = \begin{bmatrix} \sqrt{\frac{2}{3}} & 0 & \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{6}} & -\frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{6}} & \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{3}} \end{bmatrix}\begin{bmatrix} \sqrt{3} & 0 \\ 0 & 1 \\ 0 & 0 \end{bmatrix}\begin{bmatrix} \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} \end{bmatrix}
+$$
 ## Code implementation
 ```python
 import numpy as np

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-11-12T06:51:36.236+07:00","published":"2025-11-12T06:51:36.236+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
+{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-12-10T11:35:45.147+07:00","published":"2025-12-10T11:35:45.147+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
 ---
 
 
@@ -16,6 +16,8 @@
 - *[[3 Reference/Def-matrix-scalar-multiplication\|Matrix Scalar Multiplication]]*
 - *[[3 Reference/Def-matrix-product\|Matrix Product]]*
 - **[[3 Reference/theorem-properties-of-matrix-arithmetic_202509240827\|Properties of Matrix Arithmetic]]**
+- *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
+	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
 
 ### Function/transformation of matrices
 
@@ -29,14 +31,20 @@
 	- **[[3 Reference/theorem-properties-of-transpose-matrix_202509241322\|Properties of Transpose Matrix]]**
 	- **[[3 Reference/theorem-transpose-of-invertible-matrix_202509241326\|Transpose of Invertible Matrix]]**
 	- **[[3 Reference/theorem-product-of-a-matrix-with-its-transpose-is-symmetric_202509242112\|Product of a Matrix with its Transpose is Symmetric]]**
-- *[[3 Reference/def-powers-of-a-matrix_202509241316\|Powers of a Matrix]]*
-	- **[[3 Reference/theorem-properties-of-negative-exponents-of-matrix_202509241318\|Properties of Negative Exponents of Matrix]]**
 - *[[3 Reference/def-generalized-inverse-matrix_202510080304\|Generalized Inverse Matrix]]*
 - *[[3 Reference/def-inverse-matrix_202509241225\|Inverse Matrix]]*
 	- **[[3 Reference/theorem-matrix-invertibility_202509241243\|Matrix Invertibility]]**
 	- **[[3 Reference/theorem-inverse-of-matrix-product_202509241252\|Inverse of Matrix Product]]**
 - **[[3 Reference/theorem-gram-schmidt-orthogonalization_202510061401\|Gram-Schmidt Orthogonalization]]**
 	- **[[3 Reference/theorem-qr-decomposition_202510150641\|QR Decomposition]]**
+- *[[3 Reference/def-kronecker-product_202511050822\|Kronecker Product]]*
+- *[[3 Reference/def-kernel-and-range_202511050657\|Kernel]]*
+- *[[3 Reference/def-kernel-and-range_202511050657\|Range]]*
+- *[[3 Reference/def-vec-function_202511050853\|Vec Function]]*
+- *[[3 Reference/def-vech-function_202511050856\|Vech Function]]*
+- *[[3 Reference/def-matrix-transformation_202511050658\|Matrix Transformation]]*
+- Decomposition
+	- **[[3 Reference/theorem-singular-value-decomposition_202511050521\|Singular Value Decomposition]]**
 
 ### Matrix forms
 
@@ -67,22 +75,12 @@
 
 - *[[3 Reference/def-linear-space_202509170852\|Linear Space]]*
 
-
-- *[[3 Reference/def-vec-function_202511050853\|Vec Function]]*
-- *[[3 Reference/def-vech-function_202511050856\|Vech Function]]*
-- *[[3 Reference/def-matrix-transformation_202511050658\|Matrix Transformation]]*
-- *[[3 Reference/def-kernel-and-range_202511050657\|Kernel]]*
-- *[[3 Reference/def-kernel-and-range_202511050657\|Range]]*
 - *[[3 Reference/def-eigenvalue-eigenvector_202511050458\|Eigenvalue]]*
 - [[3 Reference/def-eigenvalue-eigenvector_202511050458\|Eigenvector]]
+
 - *[[3 Reference/def-hessian-matrix_202511050509\|Hessian Matrix]]*
 
 - *[[3 Reference/def-similar-matrices_202511050717\|Similar Matrices]]*
-
-
-- *[[3 Reference/def-kronecker-product_202511050822\|Kronecker Product]]*
-
-- **[[3 Reference/theorem-singular-value-decomposition_202511050521\|Singular Value Decomposition]]**
 
 - **[[3 Reference/theorem-matrix-integration_202511050510\|Matrix Integration]]**
 ![[assets/matrices 2025-11-05 04.58.10.excalidraw]]
