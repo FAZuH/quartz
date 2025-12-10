@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-12-10T11:35:45.147+07:00","published":"2025-12-10T11:35:45.147+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
+{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-12-10T14:05:38.451+07:00","published":"2025-12-10T14:05:38.451+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
 ---
 
 
@@ -67,6 +67,7 @@
 - *[[3 Reference/def-idempotent-matrix_202509242256\|Idempotent Matrix]]*
 - [[3 Reference/Def-augmented-matrix\|Augmented Matrix]]
 - *[[3 Reference/def-orthogonal-matrix_202509242301\|Orthogonal Matrix]]*
+- *[[3 Reference/def-positive-definite-matrix_202512101405\|Positive Definite Matrix]]*
 
 
 

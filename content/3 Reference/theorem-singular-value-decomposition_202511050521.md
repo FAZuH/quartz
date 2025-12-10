@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T13:38:32.844+07:00","published":"2025-12-10T13:38:32.844+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T13:55:30.243+07:00","published":"2025-12-10T13:55:30.243+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
 ---
 
 The <u>decomposition</u> of any matrix into the product of an orthogonal matrix, a diagonal matrix with nonzero diagonal elements ranked from highest to lowest, and another orthogonal matrix.
@@ -58,10 +58,10 @@ To compute the SVD of an $m \times n$ matrix $A$ with rank $k$:
 1. Compute **$A^TA$** (an $n \times n$ symmetric matrix)
 
 2. Find **eigenvalues and eigenvectors of** $A^TA$
-	   - Find all eigenvalues $\lambda_1, \lambda_2, \dots, \lambda_n$ of $A^TA$
-	   - Find corresponding eigenvectors for each eigenvalue
+	- Find all eigenvalues $\lambda_1, \lambda_2, \dots, \lambda_n$ of $A^TA$
+	- Find corresponding eigenvectors for each eigenvalue
 	   
-3. **Normalize** the eigenvectors to unit length
+3. **Normalize** the eigenvectors
 
 4. **Order** eigenvalues and eigenvectors
 	- Order eigenvalues from largest to smallest: $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_k > 0 = \lambda_{k+1} = \cdots = \lambda_n$
@@ -88,9 +88,11 @@ In short,
 
 > [!tip]
 > Based on [[3 Reference/def-rank-and-nullity_202510080316#Tranpose product rank theorem\|Tranpose product rank theorem]] 
+>
 > $$\operatorname{rank}(A^TA)=\operatorname{rank}(A)=k$$
 > 
 > Based on [[3 Reference/def-rank-and-nullity_202510080316#Number of Nonzero Eigenvalues Theorem\|Number of Nonzero Eigenvalues Theorem]]
+>
 > $$ \operatorname{rank}(A)=k=\text{number of nonzero eigenvalues (counting multiplicity/duplicates)} $$
 
 ## Example
@@ -119,7 +121,7 @@ $$
 
 Thus, $\operatorname{rank}(A)=k=2$
 
-**Finding normalized eigenvectors:**
+**Finding eigenvectors:**
 
 For $\lambda_1 = 4$:
 
