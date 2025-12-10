@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Positive Definite Matrix","Positive Semidefinite Matrix","Negative Definite Matrix","Negative Semidefinite Matrix","Indefinite Matrix"],"created":"2025-12-10T14:05:36.710+07:00","modified":"2025-12-10T14:08:31.872+07:00","published":"2025-12-10T14:08:31.872+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:05","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Positive Definite Matrix","Positive Semidefinite Matrix","Negative Definite Matrix","Negative Semidefinite Matrix","Indefinite Matrix","Definite Matrix"],"created":"2025-12-10T14:05:36.710+07:00","modified":"2025-12-10T14:12:18.765+07:00","published":"2025-12-10T14:12:18.765+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:05","status":"baby","parent":["[[matrices]]"]}
 ---
 
 
@@ -30,6 +30,14 @@ Similarly:
 - $A$ is negative definite if and only if all eigenvalues are negative
 - $A$ is negative semidefinite if and only if all eigenvalues are nonpositive
 
+| Definiteness  | All eigenvalues $\lambda_i$ satisfy           |
+| ------------- | --------------------------------------------- |
+| Positive      | $\lambda_i > 0$                               |
+| Positive semi | $\lambda_i \geq 0$                            |
+| Negative      | $\lambda_i < 0$                               |
+| Negative semi | $\lambda_i \leq 0$                            |
+| Indefinite    | Some $\lambda_i > 0$ and some $\lambda_j < 0$ |
+
 ### Principal Minors Theorem (Sylvester's Criterion)
 
 $A$ is positive definite if and only if all leading principal minors are positive.
@@ -58,7 +66,7 @@ For any $n \times n$ matrix $B$, $B^TB$ is positive semidefinite.
 If $B$ has full column rank, then $B^TB$ is positive definite.
 
 > [!note]
-> This is why $A^TA$ in [[Def-singular-value-decomposition-(svd)\|SVD]] always has nonnegative eigenvalues.
+> This is why $A^TA$ in [[3 Reference/theorem-singular-value-decomposition_202511050521\|Singular Value Decomposition]] always has nonnegative eigenvalues.
 
 ## Examples
 
@@ -142,7 +150,8 @@ $$
 \begin{align}
 \det(A - \lambda I) &= (1-\lambda)^2 - 1 = 0 \\
 \lambda^2 - 2\lambda &= 0 \\
-\lambda(\lambda - 2) &= 0 \\
+\lambda(\lambda - 2) &= 0 \\ \\
+
 \lambda_1 &= 2, \quad \lambda_2 = 0
 \end{align}
 $$

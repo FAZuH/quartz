@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Singular Value Decomposition"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T13:55:30.243+07:00","published":"2025-12-10T13:55:30.243+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Singular Value Decomposition","SVD"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T14:44:22.460+07:00","published":"2025-12-10T14:44:22.460+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
 ---
 
 The <u>decomposition</u> of any matrix into the product of an orthogonal matrix, a diagonal matrix with nonzero diagonal elements ranked from highest to lowest, and another orthogonal matrix.
@@ -267,6 +267,96 @@ $$
 $$
 A = U\Sigma V^T = \begin{bmatrix} \frac{1}{\sqrt{3}} & 0 & \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} & \sqrt{\frac{2}{3}} & -\frac{1}{\sqrt{3}} \\ 0 & -\sqrt{\frac{2}{3}} & -\frac{1}{\sqrt{3}} \end{bmatrix}\begin{bmatrix} 2 & 0 & 0 \\ 0 & \sqrt{2} & 0 \\ 0 & 0 & 0 \end{bmatrix}\begin{bmatrix} \frac{1}{\sqrt{3}} & -\frac{1}{\sqrt{3}} & -\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}} \end{bmatrix}
 $$
+
+## Related theorems
+
+
+### Eigenvalues of $X^TX$ and $XX^T$
+
+Let $X$ be an $m \times n$ matrix.
+
+The nonzero eigenvalues of $X^TX$ and $XX^T$ are identical.
+
+> [!note]
+> This explains why we can compute SVD using either $X^TX$ or $XX^T$ - they share the same nonzero eigenvalues, which determine the singular values.
+
+### Existence of SVD
+
+Let $X$ be an $m \times n$ matrix with $\operatorname{rank}(X) = s \leq n$.
+
+Then $X$ can be written as:
+
+$$
+X = L^T \begin{bmatrix} \Lambda^{1/2} & \mathbf{0} \\ \mathbf{0} & \mathbf{0} \end{bmatrix} M^T
+$$
+
+where:
+- $L$ and $M$ are orthogonal matrices
+- $\Lambda$ is a diagonal matrix containing the nonzero eigenvalues of $XX^T$ or $X^TX$, ordered from largest to smallest
+
+> [!note]
+> This is equivalent to the standard SVD form $X = U\Sigma V^T$, where $U = L^T$, $\Sigma = \begin{bmatrix} \Lambda^{1/2} & \mathbf{0} \\ \mathbf{0} & \mathbf{0} \end{bmatrix}$, and $V^T = M^T$.
+
+### Rank and Nonzero Eigenvalues
+
+For any matrix $X$:
+
+$$
+\operatorname{rank}(X) = \text{number of nonzero eigenvalues of } X^TX \text{ (or } XX^T\text{)}
+$$
+
+Equivalently, the column rank and row rank equal the number of nonzero singular values.
+
+> [!note]
+> This connects [[3 Reference/def-rank-and-nullity_202510080316\|Rank]] to eigenvalues through SVD, providing a computational method for determining rank.
+
+### Rank of Kronecker Product
+
+Let $A$ be an $m \times n$ matrix and $B$ be a $p \times q$ matrix.
+
+Then:
+
+$$
+\operatorname{rank}(A \otimes B) = \operatorname{rank}(A) \times \operatorname{rank}(B)
+$$
+
+where $\otimes$ denotes the Kronecker product.
+
+### Non-negative Definite Characterization
+
+Let $A$ be an $n \times n$ symmetric matrix.
+
+Then $A$ is positive semidefinite if and only if:
+
+$$
+\operatorname{tr}(AB) \geq 0
+$$
+
+for all positive semidefinite matrices $B$.
+
+where $\operatorname{tr}(\cdot)$ denotes the trace of a matrix.
+
+### Rayleigh Quotient Bounds
+
+Let $A$ be an $m \times m$ [[Def-positive-definite-matrix\|positive semidefinite matrix]] with nonzero eigenvalues ordered as $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_s > 0$.
+
+For any nonzero vector $\mathbf{x} \in \mathbb{R}^m$:
+
+**Case 1:** If $s = m$ (full rank):
+$$
+\lambda_s \leq \frac{\mathbf{x}^T A \mathbf{x}}{\mathbf{x}^T \mathbf{x}} \leq \lambda_1
+$$
+
+**Case 2:** If $s < m$ (rank deficient):
+$$
+0 \leq \frac{\mathbf{x}^T A \mathbf{x}}{\mathbf{x}^T \mathbf{x}} \leq \lambda_1
+$$
+
+> [!note]
+> The quantity $\frac{\mathbf{x}^T A \mathbf{x}}{\mathbf{x}^T \mathbf{x}}$ is called the Rayleigh quotient. This theorem shows that:
+> - The largest eigenvalue $\lambda_1$ is the maximum value of the Rayleigh quotient
+> - The smallest nonzero eigenvalue $\lambda_s$ is the minimum value (when $A$ is full rank)
+> - When $A$ is rank deficient, the Rayleigh quotient can reach 0
 
 ## Code implementation
 ```python

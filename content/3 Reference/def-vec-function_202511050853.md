@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Vec Function"],"created":"2025-11-05T08:53:29.803+07:00","modified":"2025-11-05T08:57:13.776+07:00","published":"2025-11-05T08:57:13.776+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:53","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Vec Function"],"created":"2025-11-05T08:53:29.803+07:00","modified":"2025-12-10T14:26:21.811+07:00","published":"2025-12-10T14:26:21.811+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:53","status":"baby","parent":["[[matrices]]"]}
 ---
 
 
@@ -7,9 +7,19 @@
 
 Let 
 - $A$ : $n\times m$ [[3 Reference/Def-matrix\|matrix]]
-- $c_{1},\dots,c_{m}$ : [[3 Reference/def-row-and-column-vector_202509240741\|Column vectors]]
+- $c_{1},\dots,c_{m}$ : [[3 Reference/def-row-and-column-vector_202509240741\|Column vectors]] of $A$
 
 Then **Vec function** is defined as
 $$
-\operatorname{vec}(A) = \begin{bmatrix} c_{1}^T \\ \vdots \\ c_{m}^T \end{bmatrix}
+\operatorname{vec}(A) = \begin{bmatrix} c_{1} \\ \vdots \\ c_{m} \end{bmatrix}
+$$
+
+## Example
+
+Let $A = \begin{bmatrix} \colorbox{blue}1 & \colorbox{green}3 & \colorbox{red}5 \\ \colorbox{blue}2 & \colorbox{green}4 & \colorbox{red}6 \end{bmatrix}$
+
+Then $c_1 = \begin{bmatrix} \colorbox{blue}1 \\ \colorbox{blue}2 \end{bmatrix}$, $c_2 = \begin{bmatrix} \colorbox{green}3 \\ \colorbox{green}4 \end{bmatrix}$, $c_3 = \begin{bmatrix} \colorbox{red}5 \\ \colorbox{red}6 \end{bmatrix}$
+
+$$
+\operatorname{vec}(A) = \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix} = \begin{bmatrix} \colorbox{blue}1 \\ \colorbox{blue}2 \\ \colorbox{green}3 \\ \colorbox{green}4 \\ \colorbox{red}5 \\ \colorbox{red}6 \end{bmatrix}
 $$

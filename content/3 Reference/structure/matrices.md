@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-12-10T14:05:38.451+07:00","published":"2025-12-10T14:05:38.451+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
+{"publish":true,"aliases":["matrices"],"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-12-10T14:42:57.813+07:00","published":"2025-12-10T14:42:57.813+07:00","tags":["type/category","linker-exclude"],"cssclasses":"","creation-time":"2025-09-17 07:43","status":"baby","parent":["[[mathematics]]","[[linear-algebra]]"]}
 ---
 
 
@@ -67,7 +67,7 @@
 - *[[3 Reference/def-idempotent-matrix_202509242256\|Idempotent Matrix]]*
 - [[3 Reference/Def-augmented-matrix\|Augmented Matrix]]
 - *[[3 Reference/def-orthogonal-matrix_202509242301\|Orthogonal Matrix]]*
-- *[[3 Reference/def-positive-definite-matrix_202512101405\|Positive Definite Matrix]]*
+- *[[3 Reference/def-positive-definite-matrix_202512101405\|Definite Matrix]]*
 
 
 
@@ -84,4 +84,14 @@
 - *[[3 Reference/def-similar-matrices_202511050717\|Similar Matrices]]*
 
 - **[[3 Reference/theorem-matrix-integration_202511050510\|Matrix Integration]]**
+
+- *[[3 Reference/def-vector-function_202512101441\|Vector Function]]*
+
+- *[[3 Reference/def-gradient-operator_202512101441\|Gradient Operator]]*
+
+- *[[3 Reference/def-jacobian-matrix_202512101442\|Jacobian Matrix]]*
+
+- *[[3 Reference/def-hessian-matrix_202512101442\|Hessian Matrix]]*
+
+- **[[3 Reference/theorem-matrix-differentiation-properties_202512101442\|Matrix Differentiation Properties]]**
 ![[assets/matrices 2025-11-05 04.58.10.excalidraw]]
