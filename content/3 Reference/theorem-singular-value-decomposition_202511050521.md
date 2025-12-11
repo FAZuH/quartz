@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Singular Value Decomposition","SVD"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T14:44:22.460+07:00","published":"2025-12-10T14:44:22.460+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
+{"publish":true,"aliases":["Singular Value Decomposition","SVD"],"created":"2025-11-05T05:21:38.518+07:00","modified":"2025-12-10T14:46:09.048+07:00","published":"2025-12-10T14:46:09.048+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 05:21","status":"baby","parent":["[[matrices]]"]}
 ---
 
 The <u>decomposition</u> of any matrix into the product of an orthogonal matrix, a diagonal matrix with nonzero diagonal elements ranked from highest to lowest, and another orthogonal matrix.
@@ -338,7 +338,7 @@ where $\operatorname{tr}(\cdot)$ denotes the trace of a matrix.
 
 ### Rayleigh Quotient Bounds
 
-Let $A$ be an $m \times m$ [[Def-positive-definite-matrix\|positive semidefinite matrix]] with nonzero eigenvalues ordered as $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_s > 0$.
+Let $A$ be an $m \times m$ [[3 Reference/def-positive-definite-matrix_202512101405\|Positive Semidefinite Matrix]] with nonzero eigenvalues ordered as $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_s > 0$.
 
 For any nonzero vector $\mathbf{x} \in \mathbb{R}^m$:
 

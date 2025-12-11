@@ -1,600 +1,16 @@
 ---
-{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-12-04T17:16:10.977+07:00","published":"2025-12-04T17:16:10.977+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Exercises from 5th ed Book"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-12-11T14:10:28.599+07:00","published":"2025-12-11T14:10:28.599+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-26 15:32","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
-## Chapter 4
 
-### 4.59
+- [[3 Reference/chapter-4-exercises_202512111408\|Chapter 4 Exercises]]
+- [[3 Reference/chapter-5-exercises_202512111408\|Chapter 5 Exercises]]
+- [[3 Reference/chapter-6-exercises_202512111408\|Chapter 6 Exercises]]
+- [[3 Reference/chapter-7-exercises_202512111408\|Chapter 7 Exercises]]
+- [[3 Reference/chapter-8-exercises_202512111408\|Chapter 8 Exercises]]
+- [[3 Reference/chapter-9-exercises_202512111409\|Chapter 9 Exercises]]
 
 
-> Let $Y_1 < Y_2 < Y_3 < Y_4 < Y_5$ denote the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size 5 from a distribution having [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x) = e^{-x}$, $0 < x < \infty$, zero elsewhere. Show that $Z_1 = Y_2$ and $Z_2 = Y_4 - Y_2$ are independent.
-> 
-> Hint: First find the joint p.d.f. of $Y_2$ and $Y_4$.
-
-**Answer**
-
-Diketahui $f(x) = e^{-x}$ untuk $x > 0$, merupakan [[3 Reference/Continuous Distributions#Exponential distribution\|distribusi exponential]] dengan parameter $\lambda = 1$.
-
-cdf dari distribusi eksponensial adalah: $$F(x) = 1 - e^{-x}, \quad x > 0$$
-
-Berdasarkan teorema [[3 Reference/mathstat4.4#Marginal pdf of order statistics\|marginal pdf of order statistics]], joint marginal pdf dari $Y_i$ dan $Y_j$ dengan $i < j$ adalah:
-$$
-g_{i j}\left(y_i, y_j\right) = \begin{cases}
-    \frac{n!}{(i-1)!(j-i-1)!(n-j)!}\left[F\left(y_i\right)\right]^{i-1}\left[F\left(y_j\right)-F\left(y_i\right)\right]^{j-i-1}\left[1-F\left(y_j\right)\right]^{n-j} f\left(y_i\right) f\left(y_j\right) & a<y_i<y_j<b \\ 
-    0 & \text { elsewhere }
-\end{cases}
-$$
-
-Untuk $Y_2$ dan $Y_4$ dengan $n = 5$, $i = 2$, $j = 4$:
-
-$$
-\begin{align}
-g_{2,4}(y_2, y_4) & = \frac{5!}{(2-1)!(4-2-1)!(5-4)!} [F(y_2)]^{2-1} [F(y_4)-F(y_2)]^{4-2-1} [1-F(y_4)]^{5-4} f(y_2)f(y_4) \\
-& = 120(1-e^{-u})(e^{-u}-e^{-v})(e^{-v})(e^{-u})(e^{-v}) \\
-& = 120(1-e^{-u})(e^{-u}-e^{-v})e^{-u-2v}
-\end{align}
-$$
-
-Misalkan $z_1 = u$ dan $z_2 = v - u$. Dapat diperoleh
-$$
-\begin{align}
-g_{2,4}(y_2, y_4) & = 120(1-e^{-z_1})(e^{-z_1}-e^{-(z_1+z_2)})e^{-z_1-2(z_1+z_2)} \\
-& = 120(1-e^{-z_1})(e^{-z_1}-e^{-z_1}e^{-z_2})e^{-3z_1-2z_2} \\
-& = 120(1-e^{-z_1})e^{-z_1}(1-e^{-z_2})e^{-3z_1-2z_2} \\
-& = 120(1-e^{-z_1})e^{-4z_1}(1-e^{-z_2})e^{-2z_2} \\
-& = [120(1-e^{-z_1})e^{-4z_1}] \cdot [(1-e^{-z_2})e^{-2z_2}]
-\end{align}
-$$ 
-
-Karena joint pdf $g_{2,4}(y_2, y_4)$ dapat diekspresikan sebagai $g(z_1) \cdot h(z_2)$, maka $Z_1$ dan $Z_2$ adalah independen.
-
-$\therefore$ Terbukti bahwa $Z_1 = Y_2$ dan $Z_2 = Y_4 - Y_2$ adalah independen.
-
-## Chapter 5
-### 5.7
-
-> Let $Y_{n}$ : Sequence of [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|random variable]], with $Y_{n}\sim b(n,p)$ ([[3 Reference/Discrete Distributions#Binomial distribution\|check here]])
-> 
-> Prove that $1-Y_{n}/n$ [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|converges in probability]] to $1-p$
-
-**Answer**
-
-Karena $Y_{n}\sim b(n,p)$, berarti $E[Y_{n}]=np$ dan $\operatorname{Var}(Y_{n})=np(1-p)$. Misalkan $\bar{Y}_{n}=\frac{Y_{n}}{n}$. Maka,
-
-- $E[\bar{Y_n}] = \frac{E[Y_n]}{n} = \frac{np}{n} = p$
-- $\text{Var}(\bar{Y_n}) = \frac{\text{Var}(Y_n)}{n^2} = \frac{np(1-p)}{n^2} = \frac{p(1-p)}{n}$
-
-Misalkan $k=\frac{\epsilon}{\sigma}$. Berdasarkan [[3 Reference/mathstat1.10#Theorem 1.10.3 Chebyshev’s inequality\|teorema Chebyshev]], 
-$$
-\begin{align}
-P\left(\left|\bar{Y}_{n}-E[X]\right| > k\sigma \right) & \leq \frac{1}{k^2} \\
-
-P\left(\left| \frac{Y_{n}}{n} - p \right| > \epsilon \right) & \leq \frac{\sigma^2}{\epsilon^2}  \\
- 
- & \leq \frac{\operatorname{Var}(\bar{Y}_{n})}{\epsilon^2} = \frac{p(1-p)}{n\epsilon^2} \\
-
-\lim_{n \to \infty} P\left(\left|\frac{Y_n}{n} - p\right| > \epsilon\right)  & \leq \lim_{n \to \infty} \frac{p(1-p)}{n\epsilon^2} = 0
-\end{align}
-$$
-
-Sehingga diperoleh
-$$
-\lim_{n \to \infty} P\left(\left|1 - \frac{Y_n}{n} - (1-p)\right| > \epsilon\right) = 0
-$$
-
-Berdasarkan [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|definisi konvergen dalam probabilitas]], terbukti bahwa $1-\frac{Y_{n}}{n}\xrightarrow P 1-p$
-
-### 5.8
-
-> Let $S_n^2$ denote the [[3 Reference/Def-variance\|variance]] of a [[3 Reference/Def-random-sample\|random sample]] of size $n$ from a distribution that is $N(\mu, \sigma^2)$. Prove that $nS_n^2/(n-1)$ [[3 Reference/Def-convergence-in-probability\|converges in probability]] to $\sigma^2$.
-
-**Answer**
-
-Diketahui $S_n^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X})^2$ adalah [[3 Reference/Def-variance\|varians]] sampel dari distribusi $N(\mu, \sigma^2)$ dengan $S_{n}^{2}\sim N\left( \sigma^{2}, \frac{2\sigma^4}{n-1} \right)$.
-
-Misalkan $T_n = \frac{n S_n^2}{n-1}$. Maka,
-$$
-\begin{align}
-E[T_n] & = E\left[\frac{n S_n^2}{n-1}\right] \\
- & = \frac{n}{n-1} E[S_n^2] \\
- & = \frac{n}{n-1} \sigma^2 \\
-
-
-\text{Var}(T_n) & = \text{Var}\left(\frac{n S_n^2}{n-1}\right)  \\
- & = \left(\frac{n}{n-1}\right)^2 \text{Var}(S_n^2)  \\
- & = \left(\frac{n}{n-1}\right)^2 \frac{2\sigma^4}{n-1}  \\
- & = \frac{2n^2 \sigma^4}{(n-1)^3}.
-\end{align}
-$$
-
-Berdasarkan [[3 Reference/mathstat1.10#Theorem 1.10.3 Chebyshev’s inequality\|teorema Chebyshev]], untuk setiap $\epsilon > 0$ berlaku
-$$
-P\left(\left|T_n - \sigma^2\right| > \epsilon\right) \leq \frac{\text{Var}(T_n)}{\epsilon^2} = \frac{2n^2 \sigma^4}{(n-1)^3 \epsilon^2}.
-$$
-
-Karena $\lim_{n \to \infty} \frac{2n^2 \sigma^4}{(n-1)^3 \epsilon^2} = 0$, maka:
-$$
-\lim_{n \to \infty} P\left(\left|T_n - \sigma^2\right| > \epsilon\right) = 0.
-$$
-
-Berdasarkan [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|definisi konvergen dalam probabilitas]], terbukti bahwa $\frac{n S_n^2}{n-1} \xrightarrow{P} \sigma^2$.
-
-$\therefore$ Terbukti bahwa $n S_n^2/(n-1)$ konvergen dalam probabilitas ke $\sigma^2$.
-
-### 5.10
-
-> Let $Y_{n}$ : $n$-th [[3 Reference/mathstat4.4#Definition Order statistics\|Order statistic]] from [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|random sample]] of size $n$, with $Y_{n}\sim U(0,\theta)$
-> 
-> Prove that $Z_{n}=\sqrt{ Y_{n} }$ converges in probability to $\sqrt{ \theta }$
-
-**Answer**
-
-> [!quote] Dari Example 1 Section 5.1
-> $Y_{n}$ converges in distribution to a random variable that has a  degenerate distribution at the point $y=\theta$.
-
-Artinya, $Y_{n}\xrightarrow D \theta$. Berdasarkan [[3 Reference/mathstat5.2#Theorem 5.2.2\|teorema 5.2.2]], diperoleh $Y_{n}\xrightarrow P \theta$. Misalkan $Z_{n} = g(Y_{n}) = \sqrt{ Y_{n} }$. Berdasarkan [[3 Reference/mathstat5.1#Theorem 5.1.4\|teorema 5.1.4]], diperoleh $Z_{n}\xrightarrow P \theta$, sehingga terbukti bahwa $Z_{n}=\sqrt{ Y_{n} }$ konvergen dalam probabilitas ke $\sqrt{ \theta }$
-
-### 5.11
-
-> Let $X_n$ have a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma distribution]] with parameter $\alpha = n$ and $\beta$, where $\beta$ is not a function of $n$. Let $Y_n = X_n/n$. Find the [[3 Reference/Def-convergence-in-distribution\|limiting distribution]] of $Y_n$.
-
-**Answer**
-
-Diketahui $X_n \sim \Gamma(n, \beta)$, memiliki [[3 Reference/Def-moment-generating-function-(mgf)\|mgf]] $M_{X_n}(t) = (1 - \beta t)^{-n}$, untuk $t < \frac{1}{\beta}$. 
-
-Misalkan $Y_n = \frac{X_n}{n}$. mgf dari $Y_n$ adalah:
-$$
-\begin{align}
-M_{Y_n}(t) &= E[e^{t Y_n}]  \\
- & = E\left[e^{t \cdot \frac{X_n}{n}}\right]  \\
- & = M_{X_n}\left(\frac{t}{n}\right) \\
-&= \left(1 - \beta \frac{t}{n}\right)^{-n}  \\
- & = \left(1 - \frac{\beta t}{n}\right)^{-n}.
-\end{align}
-$$
-
-Karena $\lim_{ n \to \infty } \left( 1+\frac{b}{n} \right)^{cn} = e^{bc}$, maka $\lim_{n \to \infty} M_{Y_n}(t) = e^{\beta t}$
-
-Misalkan $X$ adalah variabel acak dengan mgf $M_X(t) = e^{\beta t}$. $X$ adalah mgf dari [[3 Reference/Def-degenerate-distribution\|distribusi degenerate]] di $\beta$, yaitu $P(X = \beta) = 1$. Berdasarkan [[3 Reference/mathstat5.2#Theorem 5.2.10 MGF technique\|teorema teknik mgf]], karena $\lim_{n \to \infty} M_{Y_n}(t) = M_X(t)$, maka $Y_n \xrightarrow{D} X$.
-
-$\therefore$ Distribusi limit dari $Y_n$ adalah distribusi degenerate di $\beta$.
-
-### 5.12
-
-> Let
-> - $Z_{n}$ : Sequence of random variables, with $Z_{n}\sim\chi^2(n)$
-> - $W_{n} = Z_{n}/n^2$
-> 
-> Find the limiting distribution of $W_{n}$
-
-**Answer**
-
-Diketahui mgf dari [[3 Reference/Continuous Distributions#Chi-square distribution\|distribusi Chi-square]] adalah $M_{Z_{n}}(t)=(1-2t)^{-n/2}$, untuk $t< \frac{1}{2}$. Karena $W_{n}=\frac{Z_{n}}{n^2}$, mgf dari $W_{n}$ dapat diperoleh dengan
-$$
-\begin{align}
-M_{W_{t}}  & = E[e^{tW_{n}}] \\
- & = E\left[e^{\frac{t}{n^2}Z_{n}}\right] \\
- & = M_{Z_{n}}\left( \frac{t}{n^2} \right) \\
- & = \left( 1- \frac{2t}{n^2} \right)^{-n/2}, \quad \text{Untuk } \frac{t}{n^2} < \frac{1}{2}\\
-\end{align}
-$$
-
-Karena $\lim_{ n \to \infty }\left( 1+\frac{b}{n} \right)^{cn}=e^{bc}$, dengan memisalkan $b=-2t$, $c=1$, dan $n=n^2$, dapat diperoleh
-$$
-\begin{align}
-M_{W_{n}}(t) & = \left( 1 - \frac{2t}{n^2} \right)^{-n/2} \\
-
-& = \left[ \left( 1-\frac{2t}{n^2} \right)^{n^2} \right]^{-1/(2n)} \\
-
-\lim_{ n \to \infty }M_{W_{n}}(t)  & = \lim_{ n \to \infty } \left(e^{-2t}\right)^{-1/(2n)}\\
-
- & = \lim_{ n \to \infty } e^{t/n} \\
- 
- & = e^{0} \\
- 
- & = 1
-\end{align}
-$$
-
-Misalkan $X$ variabel acak dengan mgf $M_{X}(t)$. Andaikan $X$ berdistribusi degenerate ke $0$, yang berakibat $M_{X}(t)=E\left[e^{tX}\right]=e^{t\cdot 0} = 1$. Karena $\lim_{ n \to \infty }M_{W_{n}}(t) = M_{X}(t)$, berdasarkan [[3 Reference/mathstat5.2#Theorem 5.2.10 MGF technique\|teorema 5.2.10]], diperoleh $W_{n}\xrightarrow D X$. Terbukti bahwa limiting distribution dari $W_{n}$ adalah $X$.
-
-### 5.13
-
-> Let $X$ : Random variable, with $X\sim \chi^2(50)$
-> 
-> Approximate $\operatorname{Pr}(40<X<60)$
-
-**Answer**
-
-### 5.15
-
-> Let 
-> - $Z_{n}$ : Sequence of random variable, with $Z_{n}\sim P(n)$
-> - $Y_{n}=(Z_{n}-n)/\sqrt{ n }$ 
-> 
-> Show that the limiting distribution of $Y_{n}$ is normal with mean zero and variance $1$.
-
-**Answer**
-
-Diketahui mgf dari distribusi $P(n)$ adalah $M_{Z_{n}}=e^{n(e^t-1)}$. Dapat diperoleh mgf dari $M_{Y_{n}}$:
-$$
-\begin{align}
-M_{Y_{n}}(t) & = E\left[e^{tY_{n}}\right] \\
- & = E\left[e^{t\cdot \frac{Z_{n}-n}{\sqrt{ n }} }\right] \\
- & = e^{-t\sqrt{ n }}E\left[e^{ t/\sqrt{ n }Z_{n} }\right] \\
- & = e^{-t\sqrt{ n }}M_{Z_{n}}\left( \frac{t}{\sqrt{ n }} \right) \\
- & = e^{-t\sqrt{ n }}e^{n(e^{t/\sqrt{ n }}-1)}
-\end{align}
-$$
-
-Menggunakan [[3 Reference/Taylor Series#Extra Maclaurun series\|Maclaurun series]] pada $f(x)=e^x$, perluaskan $e^{t/\sqrt{ n }}$ menjadi
-$$
-e^{t/\sqrt{ n }} = 1+\frac{t}{\sqrt{ n }} + \frac{t^2}{2n} + o\left( \frac{1}{n} \right) = \sum_{n=0}^\infty \frac{(t/\sqrt{ n })^n}{n!}
-$$
-
-Sehingga diperoleh
-$$
-\begin{align}
-
-M_{Y_{n}}(t) & = e^{-t\sqrt{ n }}e^{n(e^{t/\sqrt{ n }}-1)} \\
-
-& = e^{-t\sqrt{ n }} e^{n\left( t/\sqrt{ n } + t^2/2n + o(1/n) \right)} \\
-
-& = e^{-t\sqrt{ n }} e^{t\sqrt{ n }+t^2/2+o(1)} \\
-
-& = e^{t^2/2+o(1)} \\
-
-\lim_{ n \to \infty } M_{Y_{n}}(t) & = \lim_{ n \to \infty } e^{t^2/2+o(1)} \\
-
-& = e^{t^2/2}
-
-\end{align}
-$$
-
-Misalkan $X$ variabel acak dengan berdistribusi $N(0,1)$. Artinya, $M_{X}(t)=e^{t^2/2}$. Berdasarkan [[3 Reference/mathstat5.2#Theorem 5.2.10 MGF technique\|teorema 5.2.10]], karena $\lim_{ n \to \infty }M_{Y_{n}}(t)=M_{X}(t)$, maka $Y_{n}\xrightarrow D X$, sehingga $Y_{n}\xrightarrow D N(0,1)$. Terbukti bahwa limiting distribution dari $Y_{n}$ adalah distribusi normal dengan mean $0$ dan variansi $1$.
-
-## Chapter 6
-
-### 6.23
-
-> Let $\bar{X}$ denote the [[3 Reference/Def-mean\|mean]] of a [[3 Reference/Def-random-sample\|random sample]] of size 25 from a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma-type distribution]] with $\alpha=4$ and $\beta>0$. Use the [[3 Reference/mathstat5.3#Theorem 5.3.1 Central limit theorem\|central limit theorem]] to find an approximate 0.954 [[3 Reference/def-confidence-interval_202507220823\|confidence Interval]] for $\mu$, the mean of the gamma distribution.
-> 
-> Hint: Base the confidence interval on the [[3 Reference/Def-random-variable\|random variable]] $(\bar{X}-4\beta)/(4\beta^2/25)^{1/2}=5\bar{X}/2\beta-10$
-
-**Answer**
-Untuk distribusi gamma dengan parameter $\alpha = 4$ dan $\beta$, diketahui:
-$$
-\begin{align} E[X] &= \alpha\beta = 4\beta = \mu\\
-\text{Var}(X) &= \alpha\beta^2 = 4\beta^2 
-\end{align}
-$$
-
-Berdasarkan [[3 Reference/mathstat5.3#Theorem 5.3.1 Central limit theorem\|teorema limit pusat]], untuk sampel berukuran $n = 25$:
-$$
-\begin{align}
-\frac{\bar{X} - \mu}{\sqrt{\text{Var}(\bar{X})}} & = \frac{\bar{X} - 4\beta}{\sqrt{4\beta^2/25}}  \\
- & = \frac{\bar{X} - 4\beta}{2\beta/5} \\
-& = \frac{5\bar{X}}{2\beta}-10 \xrightarrow{D} N(0,1)
-\end{align}
-$$
-
-Karena diketahui $\mu=4\beta$, untuk confidence interval 95.4%, dengan $z_{0.023} = 2$, dapat diperoleh:
-$$
-\begin{align}
-0.954  & = P\left(-2 < \frac{5\bar{X}}{2\beta} - 10 < 2\right)\\
-&= P\left(-2 < \frac{5\bar{X}}{2\beta} - 10 < 2 \right)\\
-&= P\left(8 < \frac{5\bar{X}}{2\beta} < 12 \right)\\
-&= P\left(\frac{16\beta}{5} < \bar{X} < \frac{24\beta}{5} \right)\\
-&= P\left(\frac{5\bar{X}}{24} < \beta < \frac{5\bar{X}}{16} \right)\\
-&= P\left(\frac{5\bar{X}}{6} < 4\beta < \frac{5\bar{X}}{4} \right)\\
-&= P\left(\frac{5\bar{X}}{6} < \mu < \frac{5\bar{X}}{4} \right)
-\end{align}
-$$
-
-$\therefore$ Confidence interval 95.4% untuk $\mu$ adalah $\boxed{\left(\frac{5\bar{X}}{6}, \frac{5\bar{X}}{4}\right)}$
-
-### 6.26
-
-> It is known that a [[3 Reference/Def-random-variable\|random variable]] $X$ has a [[3 Reference/Discrete Distributions#Poisson distribution\|Poisson distribution]] with parameter $\mu$. A sample of 200 observations from this population has a [[3 Reference/Def-mean\|mean]] equal to 3.4. Construct an approximate 90 percent [[3 Reference/def-confidence-interval_202507220823\|confidence Interval]] for $\mu$.
-
-**Answer**
-
-Untuk distribusi [[3 Reference/Discrete Distributions#Poisson distribution\|Poisson]] dengan parameter $\mu$, diketahui:
-$$
-\begin{align}
-E[X] &= \mu\\
-\text{Var}(X) &= \mu
-\end{align}
-$$
-
-Berdasarkan [[3 Reference/mathstat5.3#Theorem 5.3.1 Central limit theorem\|teorema limit pusat]], untuk sampel berukuran besar $n = 200$:
-$$\frac{\bar{X} - \mu}{\sqrt{\mu/n}} \xrightarrow{D} N(0,1)$$
-
-Untuk confidence interval 90%, dengan $\alpha = 0.10$ sehingga $z_{0.05} = 1.645$, dapat diperoleh:
-$$P\left(-1.645 < \frac{\bar{X} - \mu}{\sqrt{\mu/n}} < 1.645\right) = 0.90$$
-
-Dengan $\bar{x} = 3.4$ dan $n = 200$, kita perlu menyelesaikan:
-$$
-\begin{align}
--1.645 &< \frac{3.4 - \mu}{\sqrt{\mu/200}} < 1.645\\
--1.645\sqrt{\frac{\mu}{200}} &< 3.4 - \mu < 1.645\sqrt{\frac{\mu}{200}}
-\end{align}
-$$
-
-Karena $n$ besar, dapat diaproksimasikan dengan
-$$\sqrt{\mu/n} \approx \sqrt{\bar{x}/n} = \sqrt{3.4/200} = \sqrt{0.017} = 0.1304$$
-
-Sehingga:
-$$
-\begin{align}
--1.645(0.1304) &< 3.4 - \mu < 1.645(0.1304)\\
--0.2145 &< 3.4 - \mu < 0.2145\\
-3.4 - 0.2145 &< \mu < 3.4 + 0.2145\\
-3.1855 &< \mu < 3.6145
-\end{align}
-$$
-
-$\therefore$ Confidence interval 90% untuk $\mu$ adalah $\boxed{(3.185, 3.615)}$
-
-### 6.27
-
-> Let $Y_{1}<Y_{2}<\dots<Y_{n}$ denote the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size $n$ from a distribution that has [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] $f(x)=3x^2/\theta^3, 0<x<\theta$, zero elsewhere.
-> 
-> (a) Show that $\operatorname{Pr}(c<Y_{n}/\theta<1)=1-c^{3n}$, where $0<c<1$
-> (b) If $n$ is 4 and if the observed value of $Y$, is 2.3, what is a 95 percent [[3 Reference/def-confidence-interval_202507220823\|confidence interval]] for 8?
-
-**Answer**
-
-#### 6.27.a
-
-Diketahui cdf dari $X$:
-
-$$F(x) = \int_0^x \frac{3t^2}{\theta^3} dt = \frac{x^3}{\theta^3}, \quad 0 < x < \theta$$
-
-Berdasarkan [[3 Reference/mathstat4.4#CDF of order statistics\|CDF of order statistics]], maksimum $Y_n$ distribusinya adalah:
-$$F_{Y_n}(y) = [F(y)]^n = \left(\frac{y^3}{\theta^3}\right)^n = \frac{y^{3n}}{\theta^{3n}}$$
-
-Maka:
-$$
-\begin{align}
-P(c < Y_n/\theta < 1) &= P(c\theta < Y_n < \theta)\\
-&= F_{Y_n}(\theta) - F_{Y_n}(c\theta)\\
-&= \frac{\theta^{3n}}{\theta^{3n}} - \frac{(c\theta)^{3n}}{\theta^{3n}}\\
-&= \boxed{1 - c^{3n}}
-\end{align}
-$$
-
-$\therefore$ Terbukti bahwa $\operatorname{Pr}(c<Y_{n}/\theta<1)=1-c^{3n}$
-
-#### 6.27.b
-
-Untuk $n = 4$ dan confidence itnerval 95%, berarti:
-$$
-\begin{align}
-P(c < Y_4/\theta < 1) & = 1 - c^{12} = 0.95 \\
-\iff c^{12} & = 0.05 \\
-\iff c & = (0.05)^{1/12}  \\
- & = 0.7943
-\end{align}
-$$
-
-
-Karena $P(c < Y_4/\theta < 1) = 0.95$ dan $Y_{4}=2.3$, dapat peroleh:
-$$
-\begin{align} \\
-c &< \frac{Y_4}{\theta} < 1\\
-\frac{Y_4}{1} &< \theta < \frac{Y_4}{c} \\
- Y_4 &< \theta < \frac{Y_4}{0.7943} \\
-2.3 &< \theta < \frac{2.3}{0.7943}  \\
-2.3 &< \theta < 2.896 
-\end{align}
-$$
-
-$\therefore$ Confidence interval 95% untuk $\theta$ adalah $\boxed{(2.3, 2.896)}$
-
-### 6.29
-
-> Let $X_{1},X_{2},\dots,X_{n}$ be a [[3 Reference/Def-random-sample\|random sample]] from a [[3 Reference/Continuous Distributions#Gamma distribution\|gamma distribution]] with known parameter $\alpha=3$ and unknown $\beta>0$. Discuss the construction of a [[3 Reference/def-confidence-interval_202507220823\|confidence interval]] for $\beta$. 
-> 
-> Hint: What is the distribution of $2\sum_{i=1}^nX_{i}/\beta$? Follow the procedure outlined in Exercise 6.28.
-
-**Answer**
-
-Dari [[3 Reference/common-distribution-equations_202507221712#Gamma Distribution Relationships\|Gamma Distribution Relationships]], diketahui bahwa jika $X_i \sim \text{Gamma}(\alpha, \beta)$, maka:
-$$\frac{2X_i}{\beta} \sim \chi^2(2\alpha)$$
-
-Sehingga untuk $\alpha = 3$:
-$$\frac{2X_i}{\beta} \sim \chi^2(6)$$
-
-Karena $X_1, X_2, \ldots, X_n$ saling bebas, maka:
-$$
-\begin{align}
-\frac{2\sum_{i=1}^n X_i}{\beta} &= \sum_{i=1}^n \frac{2X_i}{\beta}\\
-&\sim \chi^2(6n)
-\end{align}
-$$
-
-Untuk konstruksi confidence interval $(1-\alpha)100\%$ :
-$$
-\begin{align}
-1-\alpha & = P\left(\chi^2_{\alpha/2, 6n} < \frac{2\sum_{i=1}^n X_i}{\beta} < \chi^2_{1-\alpha/2, 6n}\right) \\
-&= P\left( \chi^2_{\alpha/2, 6n} < \frac{2\sum_{i=1}^n X_i}{\beta} < \chi^2_{1-\alpha/2, 6n} \right)\\
-&= \boxed{P\left( \frac{2\sum_{i=1}^n X_i}{\chi^2_{1-\alpha/2, 6n}} < \beta < \frac{2\sum_{i=1}^n X_i}{\chi^2_{\alpha/2, 6n}} \right)}
-\end{align}
-$$
-
-$\therefore$ Confidence interval $(1-\alpha)100\%$ untuk $\beta$ adalah $\boxed{\left(\frac{2\sum_{i=1}^n X_i}{\chi^2_{1-\alpha/2, 6n}}, \frac{2\sum_{i=1}^n X_i}{\chi^2_{\alpha/2, 6n}}\right)}$
-
-### 6.35
-
-> Let $X$ and $Y$ be the [[3 Reference/Def-mean\|means]] of two independent [[3 Reference/Def-random-sample\|random sample]], each of size $n$, from the respective distributions $N(\mu_{1},\sigma^2)$ and $N(\mu_{2},\sigma^2)$, where the common variance is known. Find $n$ such that
-> 
-> $$ \operatorname{Pr}(\bar{X}-\bar{Y}-\sigma/5<\mu_{1}-\mu_{2}<\bar{X}-\bar{Y}+\sigma/5)=0.90 $$
-
-**Answer**
-
-Karena $\bar{X} \sim N(\mu_1, \sigma^2/n)$ dan $\bar{Y} \sim N(\mu_2, \sigma^2/n)$ saling bebas, maka:
-$$
-\begin{align}
-E[\bar{X} - \bar{Y}] &= \mu_1 - \mu_2\\ \\
-\text{Var}(\bar{X} - \bar{Y}) &= \text{Var}(\bar{X}) + \text{Var}(\bar{Y})\\
-&= \frac{\sigma^2}{n} + \frac{\sigma^2}{n}\\
-&= \frac{2\sigma^2}{n}
-\end{align}
-$$
-
-Sehingga $\bar{X} - \bar{Y} \sim N\left(\mu_1 - \mu_2, \frac{2\sigma^2}{n}\right)$
-
-Perhatikan bahwa
-$$\frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{\sqrt{2\sigma^2/n}} = \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{\sigma\sqrt{2/n}} \sim N(0,1)$$
-
-Sehingga
-$$
-\begin{align}
-0.90 & = P(\bar{X}-\bar{Y}-\sigma/5<\mu_{1}-\mu_{2}<\bar{X}-\bar{Y}+\sigma/5) \\
- & = P(-\sigma/5 < (\bar{X}-\bar{Y}) - (\mu_{1}-\mu_{2}) < \sigma/5)\\
- &= P\left(\frac{-\sigma/5}{\sigma\sqrt{2/n}} < \frac{(\bar{X}-\bar{Y}) - (\mu_{1}-\mu_{2})}{\sigma\sqrt{2/n}} < \frac{\sigma/5}{\sigma\sqrt{2/n}}\right)\\
- &= P\left(\frac{-1/5}{\sqrt{2/n}} < Z < \frac{1/5}{\sqrt{2/n}}\right)\\
- &= P\left(-\frac{\sqrt{n}}{5\sqrt{2}} < Z < \frac{\sqrt{n}}{5\sqrt{2}}\right)
-\end{align}
-$$
-
-Untuk confidence interval 90%, $z_{0.05} = 1.645$. Sehingga:
-$$
-\begin{align}
-\frac{\sqrt{n}}{5\sqrt{2}} &= 1.645\\
-\sqrt{n} &= 1.645 \times 5\sqrt{2}\\
-\sqrt{n} &= 8.225\sqrt{2}\\
-\sqrt{n} &= 11.632\\
-n &= 135.3
-\end{align}
-$$
-
-$\therefore$ Nilai $n$ yang diperlukan adalah $\boxed{n = 136}$ (dibulatkan ke atas)
-
-## Chapter 7
-
-### 7.40
-> Let
-> - $X_{1},X_{2},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]], with
-> 	- distribution $N(\theta,1), -\infty<\theta<\infty$
-> 
-> Find [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] of $\theta^2$
-> 
-> Hint: First determine $E(\bar X^2)$
-
-**Answer**
-
-Diketahui $\operatorname{Var}(X_{i})=1$, dan $\bar{X}=\frac{1}{n}\sum_{i=1}^nX_{i}$ adalah [[3 Reference/Def-unbiased-estimator\|statistik tak bias]] untuk $\theta$. Maka $E(\bar{X})=\theta$. Perhatikan bahwa 
-$$
-\begin{align}
-\operatorname{Var}(\bar{X}) & = \operatorname{Var}\left[ \left( \frac{1}{n}\sum_{i=1}^nX_{i} \right) \right] \\
- & = \frac{1}{n^2}\sum_{i=1}^n\operatorname{Var}(X_{i}) \\
- & = \frac{1}{n^2} \sum_{i=1}^n 1 \\
- & = \frac{1}{n^2}\cdot n \\
- & = \frac{1}{n}
-\end{align}
-$$
-Sehingga dapat diperoleh
-$$
-\begin{align}
-\operatorname{Var}(\bar{X}) & = E(\bar{X}^2)-[E(\bar{X})]^2 \\
-\iff E(\bar{X}^2) & =  \operatorname{Var}(\bar{X})+[E(\bar{X})]^2 \\
- & = \frac{1}{n} + \theta^2
-\end{align}
-$$
-
-Misalkan $Y=\bar{X}^2-1/n$. Maka, dapat diperoleh
-$$
-\begin{align}
-E(Y) & = E\left( \bar{X}^2- \frac{1}{n} \right) \\
- & = E(\bar{X}^2)-\frac{1}{n} \\
- & = \left( \frac{1}{n} + \theta^2 \right) -\frac{1}{n} \\
- & = \theta^2
-\end{align}
-$$
-
-Diketahui $\bar{X}$ adalah [[3 Reference/def-complete-sufficient-statistic_202507170931\|statistik cukup yang komplit]]. Ingat bahwa $Y$ adalah fungsi dari $\bar{X}$, sehingga berdasarkan teorema [[3 Reference/unique-mvue-(umvue)_202507170937\|Lehmann-Scheffé]], $Y=\bar{X}^2-1/n$ adalah [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] untuk $\theta^2$.
-
-$\therefore$ MVUE dari $\theta^2$ adalah $\boxed{\bar{X}^2-1/n}$
-
-### 7.41
-> Let $X_{1},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]], with distribution $N(0,\theta)$. 
-> 
-> Then $Y=\sum X_{i}^2$ is a [[3 Reference/def-complete-sufficient-statistic_202507170931\|complete sufficient statistic]] for $\theta$.
-> 
-> Find [[3 Reference/def-minimum-variance-unbiased-estimator-(mvue)_202507170925\|MVUE]] of $\theta^2$
-
-**Answer**
-
-Karena $X_{i}\sim N(0,\theta)$, dapat diperoleh
-
-$$
-\begin{align}
- & X_{i}\sim N(0,\theta) \\
-\iff & \frac{X_{i}}{\sqrt{ \theta }}\sim N(0,1) \\
-\iff & \frac{X_{i}^2}{\theta}\sim \chi^2(1) \\
-\iff & \sum_{i=1}^n \frac{X_{i}^2}{\theta}\sim \chi^2(n) \\
-\iff & \frac{Y}{\theta}\sim \chi^2(n)
-\end{align}
-$$
-
-Jadi, 
-- $E\left[\frac{Y}{\theta}\right] = n$ 
-- $\text{Var}\left(\frac{Y}{\theta}\right) = 2n\iff \operatorname{Var}(Y)=\theta^2\cdot 2n$
-
-Perhatikan bahwa
-$$
-\begin{align}
-E[Y^2] & = \text{Var}(Y) + (E[Y])^2 \\
- & = 2n\theta^2+n^2\theta^2 \\
- & = (n^2+2n)\theta^2 \\
- \iff E\left[ \frac{Y^2}{n^2+2n} \right] & = \theta^2
-\end{align}
-$$
-Karena $\dfrac{Y^2}{n^2+2n}$ adalah fungsi dari statistik cukup yang komplit $Y$, berdasarkan teorema Lehmann-Scheffé, $\dfrac{Y^2}{n^2+2n}$ adalah MVUE untuk $\theta^2$.
-
-$\therefore$ MVUE dari $\theta^2$ adalah $\boxed{\dfrac{Y^2}{n^2+2n}}$ 
-
-### 7.42
-
-> In the notation of Example 2 of this section, is there an UMVE of $\operatorname{Pr}(-c\leq X\leq c)$? Here $c>0$.
-
-**Answer**
-
-Untuk $X \sim N(\theta, 1)$ dapat diperoleh
-$$\Pr(-c \leq X \leq c) = \Pr(X \leq c) - \Pr(X \leq -c) = \Phi(c - \theta) - \Phi(-c - \theta)$$
-
-Misalkan
-$$
-u(X_1) = \begin{cases}
-1 & \text{if } -c \leq X_1 \leq c  \\
- 0 & \text{lainnya}
-\end{cases}
-$$
-
-Maka, $$E[u(X_1)] = \Pr(-c \leq X_1 \leq c) = \Phi(c - \theta) - \Phi(-c - \theta)$$
-
-Berdasarkan teorema [[3 Reference/mathstat7.3#Theorem 7.3.1 Rao-Blackwell\|Rao-Blackwell]] dan [[3 Reference/unique-mvue-(umvue)_202507170937\|Lehmann and Scheffe Theorem]],  $\varphi(\bar{X}) = E[u(X_1)|\bar{X} = \bar{x}]$ adalah UMVUE.
-
-Diberikan $\bar X  = \bar x$, $X_1$ memiliki distribusi kondisional, $N\left(\theta + \frac{\rho\sigma_1}{\sigma_2}(\bar x - \theta), \sigma_1^2(1 - \rho^2)\right)$ dimana:
- - $\rho = \frac{1}{\sqrt{n}}$ (koefisien korelasi)
-- $\sigma_1^2 = 1$, $\sigma_2^2 = \frac{1}{n}$
-
-Sehingga diperoleh $X_1|\bar{X} = \bar{x} \sim N\left(\bar{x}, \frac{n-1}{n}\right)$. Akibatnya,
-$$
-\begin{align}
-\varphi(\bar{x}) & = \Pr(-c \leq X_1 \leq c | \bar{X} = \bar{x}) \\
- & = \Pr\left(\frac{-c - \bar{x}}{\sqrt{\frac{n-1}{n}}} \leq \frac{X_1 - \bar{x}}{\sqrt{\frac{n-1}{n}}} \leq \frac{c - \bar{x}}{\sqrt{\frac{n-1}{n}}}\right) \\
- & = \Phi\left(\sqrt{\frac{n}{n-1}} \cdot (c - \bar{x})\right) - \Phi\left(\sqrt{\frac{n}{n-1}} \cdot (-c - \bar{x})\right) \\
- & = \Phi\left(\sqrt{\frac{n}{n-1}} \cdot (c - \bar{x})\right) - \Phi\left(-\sqrt{\frac{n}{n-1}} \cdot (c + \bar{x})\right)
-\end{align}
-$$
-
-$\therefore$ Jadi, UMVUE dari $\Pr(-c \leq X \leq c)$ adalah
-$$\boxed{\Phi\left(\sqrt{\frac{n}{n-1}} \cdot (c - \bar{X})\right) - \Phi\left(-\sqrt{\frac{n}{n-1}} \cdot (c + \bar{X})\right)}$$
-
-## Chapter 8
 
 ### 8.15
 > Let $X$ have a [[3 Reference/Continuous Distributions#Gamma distribution\|Gamma distribution]] with $\alpha=4$ and $\beta=\theta>0$.
@@ -672,6 +88,98 @@ $$
 $$ \frac{1}{nI(\theta)} = \frac{1}{n(4/\theta^2)} = \frac{\theta^2}{4n} $$
 
 Karena $\operatorname{Var}(\hat{\theta})=\dfrac{1}{nI(\theta)}$, maka berdasarkan [[3 Reference/mathstat6.2#Corollary 6.2.1 Rao-Cramér bound for unbiased estimators\|Corollary 6.2.1 Rao-Cramér bound for unbiased estimators]], $\dfrac{\theta^2}{4n}$ adalah penaksir efisien untuk $\theta$.
+
+### 8.16
+
+> Let $X$ be $N(0,\theta)$, $0<\theta<\infty$
+> - a. Find the [[3 Reference/def-fisher-information_202507170919\|Fisher Information]] $I(\theta)$.
+> - b. If $X_{1},X_{2},\dots,X_{n}$ is a [[3 Reference/Def-random-sample\|random sample]] from this distribution, show that the [[3 Reference/Def-maximum-likelihood-estimator-(mle)\|m.l.e]] of $\theta$ is an [[3 Reference/def-efficient-estimator_202507170919\|efficient estimator]] of $\theta$.
+
+#### 8.16.a
+
+Diketahui [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] dari [[3 Reference/Continuous Distributions#Normal distribution\|distribusi normal]] $N(0,\theta)$ adalah
+$$
+\begin{align}
+f(X;\theta) & = \frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{(X-\mu)^2}{2\sigma^2}\right) \\
+ & = \frac{1}{\theta\sqrt{2\pi}}\exp\left(-\frac{x^2}{2\theta^2}\right) \\
+\end{align}
+$$
+
+Dapat diperoleh
+$$
+\begin{align}
+\ln f(X;\theta) & = \ln\left[\frac{1}{\theta\sqrt{2\pi}}\exp\left(-\frac{x^2}{2\theta^2}\right)\right] \\
+ & = \ln\left(\frac{1}{\theta\sqrt{2\pi}}\right) + \ln\left[\exp\left(-\frac{x^2}{2\theta^2}\right)\right] \\
+ & = \ln(1) - \ln(\theta) - \ln(\sqrt{2\pi}) - \frac{x^2}{2\theta^2} \\
+ & = -\ln\theta - \frac{1}{2}\ln(2\pi) - \frac{x^2}{2\theta^2}
+\end{align}
+$$
+
+[[3 Reference/def-fisher-information_202507170919\|Fisher information]] untuk $n$ sampel adalah:
+$$
+\begin{align}
+I_n(\theta) & = nI(\theta) \\
+ & = -nE\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right] \\
+ & = -nE\left[\frac{\partial^2}{\partial \theta^2}\left(-\ln\theta - \frac{x^2}{2\theta^2}\right)\right] \\
+ & = -nE\left[\frac{\partial}{\partial \theta}\left(-\frac{1}{\theta} + \frac{x^2}{\theta^3}\right)\right] \\
+ & = -nE\left[\frac{1}{\theta^2} - \frac{3x^2}{\theta^4}\right] \\
+ & = -n\left[\frac{1}{\theta^2} - \frac{3E(X^2)}{\theta^4}\right] \\
+ & = -n\left[\frac{1}{\theta^2} - \frac{3\theta^2}{\theta^4}\right] \\
+ & = -n\left[\frac{1}{\theta^2} - \frac{3}{\theta^2}\right] \\
+ & = \frac{2n}{\theta^2}
+\end{align}
+$$
+
+#### 8.16.b
+
+Dari [[3 Reference/exercises-from-5th-ed-book_202509261532#8.16.a]] diperoleh
+$$
+\begin{align}
+\ln f(X;\theta) & = -\ln\theta - \frac{1}{2}\ln(2\pi) - \frac{x^2}{2\theta^2}
+\end{align}
+$$
+Perhatikan bahwa
+$$
+\begin{align}
+\frac{d}{d\theta}\ln f(X;\theta) & = \frac{d}{d\theta}\left(-\ln\theta - \frac{1}{2}\ln(2\pi) - \frac{x^2}{2\theta^2}\right) \\
+ & = -\frac{1}{\theta} - 0 - \frac{x^2}{2} \cdot \frac{d}{d\theta}(\theta^{-2}) \\
+ & = -\frac{1}{\theta} - \frac{x^2}{2} \cdot (-2\theta^{-3}) \\
+ & = -\frac{1}{\theta} + \frac{x^2}{\theta^3}
+\end{align}
+$$
+
+Untuk sampel $X_1, X_2, \dots, X_n$, log-likelihood adalah:
+$$
+\ln L(\theta) = \sum_{i=1}^{n} \ln f(X_i;\theta) = -n\ln\theta - \frac{n}{2}\ln(2\pi) - \frac{1}{2\theta^2}\sum_{i=1}^{n}X_i^2
+$$
+
+Turunan pertama terhadap $\theta$:
+$$
+\begin{align}
+\frac{d}{d\theta}\ln L(\theta) & = -\frac{n}{\theta} + \frac{1}{\theta^3}\sum_{i=1}^{n}X_i^2 \\
+0 & = -\frac{n}{\theta} + \frac{1}{\theta^3}\sum_{i=1}^{n}X_i^2 \\
+\frac{n}{\theta} & = \frac{1}{\theta^3}\sum_{i=1}^{n}X_i^2 \\
+n\theta^2 & = \sum_{i=1}^{n}X_i^2 \\
+\theta^2 & = \frac{1}{n}\sum_{i=1}^{n}X_i^2
+\end{align}
+$$
+
+Berdasarkan definisi [[3 Reference/Def-maximum-likelihood-estimator-(mle)\|MLE]] untuk $\theta$ adalah
+$$
+\hat{\theta} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}X_i^2}
+$$
+
+Variansi dari statistik $Y=\hat{\theta}$ adalah
+$$
+\operatorname{Var}(Y) = \operatorname{Var}\left(\sqrt{\frac{1}{n}\sum_{i=1}^{n}X_i^2}\right) = \frac{\theta^2}{2n}
+$$
+
+Andaikan berlaku [[3 Reference/mathstat6.1#Assumptions 6.1.1 Regularity conditions\|asumsi regularitas]] dan [[3 Reference/mathstat6.2#Assumptions 6.2.1 Additional regularity conditions 1\|asumsi regularitas tambahan 1]] berlaku, maka [[3 Reference/def-rao-cramer-lower-bound_202507171109\|Rao-Cramer Lower Bound]] adalah
+$$
+\text{CRLB} = \frac{1}{I_n(\theta)} = \frac{\theta^2}{2n}
+$$
+
+Karena $\operatorname{Var}(\hat{\theta}) = \text{CRLB}$, maka $\hat{\theta}$ adalah [[3 Reference/def-efficient-estimator_202507170919\|efficient estimator]] dari $\theta$.
 
 
 ### 8.27
@@ -913,6 +421,143 @@ $$
 
 $\therefore$ Critical region $C: \sum_{i=1}^{10} x_i \geq 3$ adalah best critical region dengan significane level $\alpha \approx 0.0803$ dan power $\approx 0.875$
 
+### 9.12
+
+> Let $X$ have a [[3 Reference/Def-probability-density-function-(pdf)\|p.d.f.]] of the form $f(x;\theta)=1/\theta$, $0<x<\theta$, zero elsewhere. Let $Y_{1}<Y_{2}<Y_{3}<Y_{4}$ denote the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size $4$ from this distribution. Let the observed value of $Y_{4}$ be $y_{4}$. We reject $H_{0}:\theta=1$ and accept $H_{1}:\theta \neq 1$ if either $y_{4} \leq \frac{1}{2}$ or $y_{4}\geq 1$. Find the [[3 Reference/def-power-function_202508050833\|power function]] $K(\theta)$, $0<\theta$, of the [[3 Reference/def-test_202508050827\|test]].
+
+**Answer**
+
+Diketahui $f(x;\theta)$ berasal dari [[3 Reference/Continuous Distributions#Uniform distribution\|distribusi uniform]] $U(0, \theta)$. CDF-nya adalah $F(x) = x/\theta$ untuk $0 < x < \theta$.
+
+CDF dari statistik terurut terbesar, $Y_4$, dari sampel ukuran $n=4$ adalah:
+$$ G(y_4) = [F(y_4)]^4 = (y_4/\theta)^4, \quad 0 < y_4 < \theta $$
+
+Daerah penolakan adalah $C = \{y_4 : y_4 \leq 1/2 \text{ atau } y_4 \geq 1\}$.
+$$ K(\theta) = P(Y_4 \leq 1/2 | \theta) + P(Y_4 \geq 1 | \theta) $$
+
+**Kasus 1: $0 < \theta \leq 1/2$**
+- $P(Y_4 \leq 1/2) = 1$
+- $P(Y_4 \geq 1) = 0$, karena $Y_4 < \theta \leq 1/2$.
+Jadi, $K(\theta) = 1$.
+
+**Kasus 2: $1/2 < \theta < 1$**
+- $P(Y_4 \leq 1/2) = G(1/2) = ( (1/2)/\theta )^4 = 1/(16\theta^4)$.
+- $P(Y_4 \geq 1) = 0$, karena $Y_4 < \theta < 1$.
+Jadi, $K(\theta) = 1/(16\theta^4)$.
+
+**Kasus 3: $\theta \geq 1$**
+- $P(Y_4 \leq 1/2) = G(1/2) = ( (1/2)/\theta )^4 = 1/(16\theta^4)$.
+- $P(Y_4 \geq 1) = 1 - P(Y_4 < 1) = 1 - G(1) = 1 - (1/\theta)^4$.
+Jadi, $K(\theta) = \frac{1}{16\theta^4} + 1 - \frac{1}{\theta^4} = 1 - \frac{15}{16\theta^4}$.
+
+Menggabungkan semua kasus, fungsi power adalah:
+$$ K(\theta) = \begin{cases} 1 & 0 < \theta \leq 1/2 \\ 1/(16\theta^4) & 1/2 < \theta < 1 \\ 1 - 15/(16\theta^4) & \theta \geq 1 \end{cases} $$
+
+$\therefore$ Fungsi power dari tes tersebut adalah $\boxed{K(\theta) = \begin{cases} 1 & 0 < \theta \leq 1/2 \\ 1/(16\theta^4) & 1/2 < \theta < 1 \\ 1 - 15/(16\theta^4) & \theta \geq 1 \end{cases}}$.
+
+### 9.14
+
+> Consider the two [[3 Reference/Continuous Distributions#Normal distribution\|normal distributions]] $N(\mu_{1},400)$ and $N(\mu_{2},225)$. Let $\theta=\mu_{1}-\mu_2$. Let $\bar{x}$ and $\bar{y}$ denote the observed [[3 Reference/Def-mean\|means]] of two independent [[3 Reference/Def-random-sample\|random samples]], each of size $n$, from these two distributions. We reject $H_{0}:\theta=0$ and accept $H_{1}:\theta>0$ if and only if $\bar{x}-\bar{y} \geq c$. If $K(\theta)$ is the [[3 Reference/def-power-function_202508050833\|power function]] of this test, find $n$ and $c$ so that $K(0)=0.05$ and $K(10)=0.90$, approximately.
+
+**Answer**
+
+Diketahui $\bar{X}\sim N(\mu_1, 400/n)$ dan $\bar{Y}\sim N(\mu_2, 225/n)$.
+
+Misalkan $W = \bar{X}-\bar{Y}$. Karena $\bar{X}$ dan $\bar{Y}$ independen, $W$ berdistribusi normal dengan:
+- $E[W] = E[\bar{X}]-E[\bar{Y}] = \mu_1-\mu_2 = \theta$
+- $\text{Var}(W) = \text{Var}(\bar{X})+\text{Var}(\bar{Y}) = \frac{400}{n} + \frac{225}{n} = \frac{625}{n}$
+Sehingga, $W \sim N(\theta, 625/n)$.
+
+[[3 Reference/def-power-function_202508050833\|Fungsi power]] $K(\theta)$ dari tes yang menolak $H_0$ jika $W \geq c$ adalah:
+$$ K(\theta) = P(W \geq c) = P\left(\frac{W-\theta}{\sqrt{625/n}} \geq \frac{c-\theta}{\sqrt{625/n}}\right) = P\left(Z \geq \frac{c-\theta}{25/\sqrt{n}}\right) $$
+dimana $Z \sim N(0,1)$.
+
+Diberikan dua kondisi:
+
+1. $K(0) = 0.05$
+   
+   $P\left(Z \geq \frac{c}{25/\sqrt{n}}\right) = 0.05$.
+   
+   Dari tabel normal standar, $z_{0.05} \approx 1.645$.
+   
+   Maka, $\frac{c}{25/\sqrt{n}} = 1.645 \implies c = 1.645 \frac{25}{\sqrt{n}}$ (1)
+
+2. $K(10) = 0.90$.
+
+   $P\left(Z \geq \frac{c-10}{25/\sqrt{n}}\right) = 0.90$.
+   
+   Dari tabel, nilai z yang sesuai adalah $z_{0.90} = -z_{0.10} \approx -1.282$.
+   
+   Maka, $\frac{c-10}{25/\sqrt{n}} = -1.282 \implies c-10 = -1.282 \frac{25}{\sqrt{n}}$ (2)
+
+Substitusikan (1) ke dalam (2):
+$$
+\begin{align}
+1.645 \frac{25}{\sqrt{n}} - 10 &= -1.282 \frac{25}{\sqrt{n}} \\
+(1.645 + 1.282) \frac{25}{\sqrt{n}} &= 10 \\
+2.927 \frac{25}{\sqrt{n}} &= 10 \\
+\sqrt{n} &= \frac{2.927 \times 25}{10} = 7.3175 \\
+n &= (7.3175)^2 \approx 53.54
+\end{align}
+$$
+Karena $n$ harus bilangan bulat, $n$ dapat dibulatkan ke atas menjadi $n=54$.
+
+Lalu, $c$ dapat dicari menggunakan $n=54$ dalam persamaan (1):
+$$ c = 1.645 \frac{25}{\sqrt{54}} \approx 1.645 \times \frac{25}{7.348} \approx 5.596 $$
+
+$\therefore$ Nilai $n$ dan $c$ yang memenuhi adalah $\boxed{n=54}$ dan $\boxed{c \approx 5.596}$.
+
+### 9.18
+
+> Let $X_{1},X_{2},\dots,X_{n}$ denote a [[3 Reference/Def-random-sample\|random sample]] from a [[3 Reference/Continuous Distributions#Normal distribution\|normal distribution]] $N(\theta,16)$. Find the sample size $n$ and a [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test]] of $H_{0}:\theta=25$ against $H_{1}:\theta<25$ with [[3 Reference/def-power-function_202508050833\|power function]] $K(\theta)$ so that approximately $K(25)=0.10$ and $K(23)=0.90$.
+
+**Answer**
+
+Diketahui $X_i \sim N(\theta, 16)$, sehingga mean sampel $\bar{X} \sim N(\theta, 16/n)$.
+
+Berdasarkan Teorema Karlin-Rubin (karena keluarga distribusi normal memiliki [[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]]), [[3 Reference/def-uniformly-most-powerful-test_202508052119\|uniformly most powerful test ]] adalah dengan menolak $H_0$ jika statistik cukup $\bar{X}$ kurang dari suatu nilai kritis $c$.
+
+Bentuk tes UMP: Tolak $H_0$ jika $\bar{X} \leq c$.
+
+[[3 Reference/def-power-function_202508050833\|Fungsi power]] $K(\theta)$ adalah:
+$$ K(\theta) = P(\bar{X} \leq c | \theta) = P\left(\frac{\bar{X}-\theta}{4/\sqrt{n}} \leq \frac{c-\theta}{4/\sqrt{n}}\right) = \Phi\left(\frac{c-\theta}{4/\sqrt{n}}\right) $$
+dimana $\Phi$ adalah CDF dari distribusi normal standar.
+
+Diberikan dua kondisi:
+
+1. $K(25)=0.10$ (tingkat signifikansi $\alpha$).
+
+   $\Phi\left(\frac{c-25}{4/\sqrt{n}}\right) = 0.10$.
+   
+   Dari tabel normal, $z_{0.10} \approx -1.282$.
+   
+   Maka, $\frac{c-25}{4/\sqrt{n}} = -1.282 \implies c = 25 - 1.282 \frac{4}{\sqrt{n}}$ (1)
+
+2. $K(23)=0.90$.
+
+   $\Phi\left(\frac{c-23}{4/\sqrt{n}}\right) = 0.90$.
+   
+   Dari tabel normal, $z_{0.90} \approx 1.282$.
+   
+   Maka, $\frac{c-23}{4/\sqrt{n}} = 1.282 \implies c = 23 + 1.282 \frac{4}{\sqrt{n}}$ (2)
+
+Sehingga dapat diperoleh
+$$
+\begin{align}
+25 - 1.282 \frac{4}{\sqrt{n}} &= 23 + 1.282 \frac{4}{\sqrt{n}} \\
+2 &= 2 \left(1.282 \frac{4}{\sqrt{n}}\right) \\
+1 &= \frac{5.128}{\sqrt{n}} \\
+\sqrt{n} &= 5.128 \\
+n &= (5.128)^2 \approx 26.29
+\end{align}
+$$
+
+Karena $n$ harus bilangan bulat, kita bulatkan ke atas menjadi $n=27$.
+
+Cari nilai $c$ menggunakan $n=27$ dalam persamaan (2):
+$$ c = 23 + 1.282 \frac{4}{\sqrt{27}} \approx 23 + 1.282 \frac{4}{5.196} \approx 23 + 0.987 \approx 23.987 $$
+
+$\therefore$ Ukuran sampel yang dibutuhkan adalah $\boxed{n=27}$, dan tes UMP adalah $\boxed{\text{Tolak } H_0 \text{ jika } \bar{X} \leq 24}$.
 
 ### 9.21
 

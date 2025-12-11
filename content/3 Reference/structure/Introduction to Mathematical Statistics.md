@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-10-14T04:15:27.070+07:00","published":"2025-10-14T04:15:27.070+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
+{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-12-11T13:41:49.947+07:00","published":"2025-12-11T13:41:49.947+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
 ---
 
 - *italic*: Definition
@@ -163,54 +163,59 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 	- *[[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]]*	
 
 ## Definition hierarchy
-- [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]]
-	- [[3 Reference/mathstat4.4#Definition Order statistics\|Order Statistics]]
-	- [[3 Reference/mathstat7.2#Definition 7.2.1 Sufficient statistic\|Sufficient Statistic]] : $\frac{f}{f_{Y_{1}}}$ does not depend on $\theta$
-		- [[3 Reference/mathstat7.4#Definition Complete sufficient statistic\|Complete Sufficient Statistic]] 
-		- [[3 Reference/def-jointly-sufficient-statistic_202507171021\|Jointly Sufficient Statistic]]
-	- [[3 Reference/Def-estimator\|Estimator]]
-		- [[3 Reference/mathstat4.1#Definition 4.1.3 Unbiased estimator\|Unbiased estimator]] : $E(T)=\theta$
-			- [[3 Reference/mathstat7.4#Definition 7.4.1 Unique unbiased minimum variance estimator (UMVUE)\|UMVUE]] : $Y$ complete sufficient, $\delta(Y)$ unbiased exist
-			- [[3 Reference/mathstat6.2#Definition 6.2.1 Efficient estimator\|Efficient Estimator]] : Attains [[3 Reference/mathstat6.2#Theorem 6.2.1 Rao-Cramér lower bound\|Rao-Cramér lower bound]]; i.e., $Y$ unbiased, $nI(\theta)\cdot \operatorname{Var}(Y)=1$
-		- [[3 Reference/mathstat5.1#Definition 5.1.2 Consistent estimator\|Consistent Estimator]] : $T\xrightarrow P \theta$
-		- [[3 Reference/mathstat6.1#Definition 6.1.1 Maximum Likelihood Estimator\|Maximum Likelihood Estimator]] : $\hat{\theta} = \operatorname{Argmax} L(\theta)$
-		- [[3 Reference/mathstat7.1#Definition 7.1.1 Minimum variance unbiased estimator (MVUE)\|MVUE]] : $Y$ unbiased, with lowest variance
-			- [[3 Reference/mathstat7.4#Definition 7.4.1 Unique unbiased minimum variance estimator (UMVUE)\|UMVUE]] : $Y$ complete sufficient, $\delta(Y)$ unbiased exist
-- [[3 Reference/Def-random-variable\|Random Variable]]
-	- [[3 Reference/Def-discrete-random-variable\|Discrete Random Variable]]
-	- [[3 Reference/Def-continuous-random-variable\|Continuous Random Variable]]
-- [[3 Reference/Def-expectation\|Expectation]]
-	- [[3 Reference/Def-mean\|Mean]]
-	- [[3 Reference/Def-variance\|Variance]]
-	- [[3 Reference/Def-moments\|Moments]]
 
-- **Point estimation methods**
-	- [[3 Reference/Maximum Likelihood Estimation (MLE)]] : $\hat{\theta} = \operatorname{Argmax} L(\theta)$
-	- [[3 Reference/Method of Moments]] : $\mu'_{k}=m'_{k}$
-
+### Probability Fundamentals
+- **Random Variables**
+	- [[3 Reference/Def-random-variable\|Random Variable]]
+		- [[3 Reference/Def-discrete-random-variable\|Discrete Random Variable]]
+		- [[3 Reference/Def-continuous-random-variable\|Continuous Random Variable]]
+		- [[3 Reference/Def-degenerate-distribution\|Degenerate Distribution]]
+- **Expectation & Moments**
+	- [[3 Reference/Def-expectation\|Expectation]]
+		- [[3 Reference/Def-mean\|Mean]]
+		- [[3 Reference/Def-variance\|Variance]]
+		- [[3 Reference/Def-moments\|Moments]]
 - **Convergence**
 	- [[3 Reference/Def-convergence-in-probability\|Convergence in Probability]]
-	    - [[3 Reference/Def-consistent-estimator\|Consistent estimator]] : $T\xrightarrow P \theta$
 	- [[3 Reference/Def-convergence-in-distribution\|Convergence in Distribution]]
+	- [[3 Reference/def-almost-surely\|Almost Sure Convergence]]
 
-- **Distribution Family**
-	- [[3 Reference/def-complete-family-of-pdf-pmf_202507170933\|Complete Family of pdf/pmf]]
-	    - [[3 Reference/def-complete-sufficient-statistic_202507170931\|Complete sufficient statistic]] 
-	- [[3 Reference/def-regular-exponential-class_202507170942\|Regular Exponential Class]]
-		- [[3 Reference/def-regular-exponential-class-on-random-vectors_202507171021\|Regular Exponential Class on Random Vectors]]
-	
-- **Information theory**
+### Statistical Inference
+- **Statistics**
+	- [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]]
+		- [[3 Reference/mathstat4.4#Definition Order statistics\|Order Statistics]]
+		- [[3 Reference/mathstat7.2#Definition 7.2.1 Sufficient statistic\|Sufficient Statistic]] : $\frac{f}{f_{Y_{1}}}$ does not depend on $\theta$
+			- [[3 Reference/mathstat7.4#Definition Complete sufficient statistic\|Complete Sufficient Statistic]]
+			- [[3 Reference/def-jointly-sufficient-statistic_202507171021\|Jointly Sufficient Statistic]]
+- **Estimation**
+	- [[3 Reference/Def-estimator\|Estimator]]
+		- [[3 Reference/mathstat4.1#Definition 4.1.3 Unbiased estimator\|Unbiased estimator]] : $E(T)=\theta$
+			- [[3 Reference/mathstat7.1#Definition 7.1.1 Minimum variance unbiased estimator (MVUE)\|MVUE]] : $Y$ unbiased, lowest variance
+			- [[3 Reference/mathstat7.4#Definition 7.4.1 Unique unbiased minimum variance estimator (UMVUE)\|UMVUE]] : $Y$ complete sufficient, $\delta(Y)$ unbiased
+			- [[3 Reference/mathstat6.2#Definition 6.2.1 Efficient estimator\|Efficient Estimator]] : Attains Rao-Cramér bound ($nI(\theta)\cdot \operatorname{Var}(Y)=1$)
+		- [[3 Reference/mathstat5.1#Definition 5.1.2 Consistent estimator\|Consistent Estimator]] : $T\xrightarrow P \theta$
+	- **Methods**
+		- [[3 Reference/Maximum Likelihood Estimation (MLE)]] / [[3 Reference/mathstat6.1#Definition 6.1.1 Maximum Likelihood Estimator\|Maximum Likelihood Estimator]] : $\hat{\theta} = \operatorname{Argmax} L(\theta)$
+		- [[3 Reference/Method of Moments]] : $\mu'_{k}=m'_{k}$
+- **Information Theory**
 	- [[3 Reference/def-score-function_202507170918\|Score Function]]
 	- [[3 Reference/def-fisher-information_202507170919\|Fisher Information]]
-	    - [[3 Reference/def-efficient-estimator_202507170919\|Efficient estimator]] 
 
-- [[3 Reference/def-test_202508050827\|Critical region]]
-	- [[3 Reference/def-best-critical-region_202508052110\|Best Critical Region]]
-	- [[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|Uniformly Most Powerful Critical Region]]
+### Hypothesis Testing
+
 - [[3 Reference/def-test_202508050827\|Test]]
-	- [[3 Reference/def-best-critical-region_202508052110\|Best Test]]
+	- [[3 Reference/def-test_202508050827\|Critical region]]
+	- [[3 Reference/def-best-critical-region_202508052110\|Best Critical Region (Best Test)]]
+	- [[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|Uniformly Most Powerful (UMP) Critical Region]]
 	- [[3 Reference/def-unbiased-test_202508071550\|Unbiased Test]]
-	- [[3 Reference/def-uniformly-most-powerful-test_202508052119\|Uniformly Most Powerful Test]]
+
+### Distribution Families
+- [[3 Reference/def-complete-family-of-pdf-pmf_202507170933\|Complete Family of pdf/pmf]]
+- [[3 Reference/def-regular-exponential-class_202507170942\|Regular Exponential Class]]
+	- [[3 Reference/def-regular-exponential-class-on-random-vectors_202507171021\|Regular Exponential Class on Random Vectors]]
+
+### Miscellaneous
+- [[3 Reference/Combination and Permutation]]
 	
 ## Cheatsheets
 - [Continuous Distributions](Continuous%20Distributions)
@@ -221,14 +226,6 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 
 ## Exercises
 - [[3 Reference/exercises-from-5th-ed-book_202509261532\|Exercises from 5th ed Book]]
-
-## Others
-- [[3 Reference/def-almost-surely\|Definition of Almost Surely]]
-- [[3 Reference/Maximum Likelihood Estimation (MLE)]]
-- [[3 Reference/Method of Moments]]
-- [Combination and Permutation](Combination%20and%20Permutation)
-- [Transformation of Random Variable](Transformation%20of%20Random%20Variable)
-- [[3 Reference/Def-degenerate-distribution]]
 
 ## References
 
