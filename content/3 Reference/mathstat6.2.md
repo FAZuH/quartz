@@ -1,9 +1,9 @@
 ---
-{"publish":true,"aliases":["6.2 Rao-Cramér Lower Bound and Efficiency.md"],"created":"2025-10-14T04:15:27.052+07:00","modified":"2025-10-14T04:15:27.052+07:00","published":"2025-10-14T04:15:27.052+07:00","cssclasses":"","creation-time":"2025-07-06 23:56","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["6.2 Rao-Cramér Lower Bound and Efficiency.md"],"created":"2025-10-14T04:15:27.052+07:00","modified":"2025-12-11T17:22:45.009+07:00","published":"2025-12-11T17:22:45.009+07:00","cssclasses":"","creation-time":"2025-07-06 23:56","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 
-<< [[3 Reference/mathstat6.1\|6.1 Maximum Likelihood Estimation.md]] | [[3 Reference/mathstat7.1\|7.1 Measures of Quality Estimators.md]] >>
+<< [[3 Reference/mathstat6.1\|6.1 Maximum Likelihood Estimation.md]] | [[3 Reference/6.3-maximum-likelihood-tests_202512111523\|6.3 Maximum Likelihood Tests]] >>
 
 ## Assumptions 6.2.1: Additional regularity conditions 1
 > - $(\mathbf{R3})$ : The pdf $f(x;\theta)$ is twice differentiable as a function of $\theta$.

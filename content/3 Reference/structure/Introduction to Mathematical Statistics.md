@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-12-11T13:41:49.947+07:00","published":"2025-12-11T13:41:49.947+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
+{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-12-11T16:38:20.893+07:00","published":"2025-12-11T16:38:20.893+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
 ---
 
 - *italic*: Definition
@@ -133,6 +133,8 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 	- *[[3 Reference/def-fisher-information_202507170919\|Fisher Information]]*
 	- *[[3 Reference/def-efficient-estimator_202507170919\|Efficient Estimator]]*
 	- *[[3 Reference/def-rao-cramer-lower-bound_202507171109\|Rao-Cramer Lower Bound]]*
+	- [[3 Reference/regularity-conditions_202512111638\|Regularity Conditions]]
+- [[3 Reference/6.3-maximum-likelihood-tests_202512111523\|6.3 Maximum Likelihood Tests]]
 
 ### Chapter 7: Sufficiency
 - [[3 Reference/mathstat7.1\|7.1 Measures of Quality Estimators]]
@@ -161,6 +163,9 @@ If you're looking for summaries, you may be interested in [[3 Reference/structur
 	- *[[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|Uniformly Most Powerful Critical Region]]*
 	- *[[3 Reference/def-uniformly-most-powerful-test_202508052119\|Uniformly Most Powerful Test]]*
 	- *[[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]]*	
+- [[3 Reference/8.3-likelihood-ratio-tests_202512111515\|8.3 Likelihood Ratio Tests]]
+	- *[[3 Reference/def-likelihood-ratio-test_202512111531\|Likelihood Ratio Test]]*
+	- *[[3 Reference/def-central-t-distribution_202512111516\|Central t-Distribution]]*
 
 ## Definition hierarchy
 
