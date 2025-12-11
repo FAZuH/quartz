@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-10-22T05:58:34.930+07:00","modified":"2025-10-22T05:58:34.930+07:00","published":"2025-10-22T05:58:34.930+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
+{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-10-22T05:58:34.930+07:00","modified":"2025-12-12T06:16:51.721+07:00","published":"2025-12-12T06:16:51.721+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
 ---
 
 
@@ -125,6 +125,12 @@ $$
 	5. If $X$ [[3 Reference/Def-discrete-random-variable\|discrete random variable]], then
 		1. $K'_{j}(x)$ are all nontrivial functions of $x\in \mathcal{S}$, not homogeneous linear function of the others
 
+< Before UTS
+
+---
+
+\> After UTS
+
 **6_8.2**
 - [[3 Reference/def-fisher-information_202507170919\|Fisher Information]]
 $$
@@ -176,7 +182,7 @@ $$
 - [[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]] : If $\frac{L(\theta_{1},\mathbf{x})}{L(\theta_{2},\mathbf{x})},\forall \theta_{1}<\theta_{2}$ monotonic function of $y=u(\mathbf{x})$, then $L(\theta,\mathbf{x})$ has MLR in $y=u(\mathbf{x})$
 
 **14_9.3**
-
+- [[3 Reference/def-likelihood-ratio-test_202512111531\|Likelihood Ratio Test]]
 
 ### Also,
 - [[3 Reference/Discrete Distributions]]

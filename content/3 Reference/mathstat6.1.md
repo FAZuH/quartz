@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["6.1 Maximum Likelihood Estimation.md"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-10-14T04:15:27.074+07:00","published":"2025-10-14T04:15:27.074+07:00","cssclasses":"","creation-time":"2025-07-02 13:53","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["6.1 Maximum Likelihood Estimation.md"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-12-11T15:47:01.672+07:00","published":"2025-12-11T15:47:01.672+07:00","cssclasses":"","creation-time":"2025-07-02 13:53","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
 << [[3 Reference/mathstat5.4\|5.4 Extensions to Multivariate Distributions.md]] | [[3 Reference/mathstat6.2\|6.2 Rao-Cramér Lower Bound and Efficiency.md]] >>
@@ -21,6 +21,13 @@
 > $$
 > \lim_{ n \to \infty } P_{\theta_{0}}[L(\theta_{0},\mathbf{X})>L(\theta,\mathbf{X})] = 1, \quad \forall \theta \neq \theta_{0}
 > $$
+
+> [!note]
+> This theorem states that 
+> 
+> If $\theta_{0}$ is true value of $\theta$,
+> 
+> Then, asymptotically, $L(\theta_{0})$ is the maximum value of $L(\theta)$.
 
 ## Definition 6.1.1: Maximum Likelihood Estimator
 ![[3 Reference/Def-maximum-likelihood-estimator-(mle)#Definition]]
