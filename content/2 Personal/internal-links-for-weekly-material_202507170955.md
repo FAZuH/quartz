@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-10-22T05:58:34.930+07:00","modified":"2025-12-12T06:16:51.721+07:00","published":"2025-12-12T06:16:51.721+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
+{"publish":true,"aliases":["Internal Links for Weekly Material","Materi Statmat 2"],"created":"2025-10-22T05:58:34.930+07:00","modified":"2025-12-12T07:48:22.900+07:00","published":"2025-12-12T07:48:22.900+07:00","cssclasses":"","creation-time":"2025-07-17 09:55","status":"baby","tags":null,"parent":["[[Statistika Matematika 2]]"]}
 ---
 
 
@@ -177,12 +177,11 @@ $$
 	- $$ \frac{L(\theta';\mathbf{x})}{L(\theta'';\mathbf{x})} \leq k, \quad \forall \mathbf{x}\in C $$
 
 **12_9.2**
-- [[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|UMPCR]] : $C$ from test simple $H_{0}$ vs composite $H_{1}$. If $C$ BCR from test simple $H_{0}$ vs all simple $H_{1}$, then $C$ UMPCR
-- [[3 Reference/def-uniformly-most-powerful-test_202508052119\|UMPT]]: If $C$ UMPCR, then its test UMPT
+- [[3 Reference/def-uniformly-most-powerful-critical-region_202508052119\|UMPCR]], [[3 Reference/def-uniformly-most-powerful-test_202508052119\|UMPT]] : $C$ from test simple $H_{0}$ vs composite $H_{1}$. If $C$ BCR from test simple $H_{0}$ vs all simple $H_{1}$, then $C$ UMPCR. Its test is called UMPT
 - [[3 Reference/def-monotone-likelihood-ration-(mlr)_202508071604\|Monotone Likelihood Ration (mlr)]] : If $\frac{L(\theta_{1},\mathbf{x})}{L(\theta_{2},\mathbf{x})},\forall \theta_{1}<\theta_{2}$ monotonic function of $y=u(\mathbf{x})$, then $L(\theta,\mathbf{x})$ has MLR in $y=u(\mathbf{x})$
 
 **14_9.3**
-- [[3 Reference/def-likelihood-ratio-test_202512111531\|Likelihood Ratio Test]]
+- [[3 Reference/def-likelihood-ratio-test_202512111531\|Likelihood Ratio Test]]: Generalization of [[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]] for composite hypotheses
 
 ### Also,
 - [[3 Reference/Discrete Distributions]]

@@ -1,13 +1,12 @@
 ---
-{"publish":true,"aliases":["Likelihood Ratio Test","Likelihood Ratio"],"created":"2025-12-11T15:31:51.946+07:00","modified":"2025-12-11T17:21:55.180+07:00","published":"2025-12-11T17:21:55.180+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-11 15:31","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+{"publish":true,"aliases":["Likelihood Ratio Test","Likelihood Ratio"],"created":"2025-12-11T15:31:51.946+07:00","modified":"2025-12-12T08:00:25.972+07:00","published":"2025-12-12T08:00:25.972+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-11 15:31","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
 ---
 
+
+> [!tip]
+> Likelihood ratio test can be thought of as a generalization of [[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]] for [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|composite hypotheses]]
 
 ## Definition
-
-Not quite. The definition has some logical issues. Here's the corrected version:
-
----
 
 Let
 
@@ -16,10 +15,13 @@ Let
 - $\omega_0$ : Parameter space under $H_0$
 - $\Omega$ : Complete parameter space (under $H_1$ or unrestricted)
 
-Define the **likelihood ratio** as: $$ \lambda = \frac{L(\hat{\boldsymbol{\theta}}_0)}{L(\hat{\boldsymbol{\theta}}_1)} = \frac{\max_{\boldsymbol{\theta} \in \omega_0} L(\boldsymbol{\theta})}{\max_{\boldsymbol{\theta} \in \Omega} L(\boldsymbol{\theta})} $$ where:
-
+Let
 - $L(\hat{\boldsymbol{\theta}})_{0}$ : [[3 Reference/Def-maximum-likelihood-estimator-(mle)\|Maximum likelihood]] under $H_{0}$
 - $L(\hat{\boldsymbol{\theta}})_{1}$ : Maximum likelihood under $H_{1}$ (or over $\Omega$)
+
+
+Define the **likelihood ratio** as:
+$$ \lambda = \frac{L(\hat{\boldsymbol{\theta}}_0)}{L(\hat{\boldsymbol{\theta}}_1)} = \frac{\max_{\boldsymbol{\theta} \in \omega_0} L(\boldsymbol{\theta})}{\max_{\boldsymbol{\theta} \in \Omega} L(\boldsymbol{\theta})} $$
 
 Then the **likelihood ratio test** is defined as follows: reject $H_{0}$ if $$ \lambda \leq k $$ where $k$ is a constant chosen such that the test has [[3 Reference/def-size-of-critical-region_202507291323\|significance level]] $\alpha$.
 
@@ -50,6 +52,10 @@ Then the **likelihood ratio test** is defined as follows: reject $H_{0}$ if $$ \
 
 - Test menolak $H_0$ ketika $\lambda \leq k$ untuk konstanta $k$ yang dipilih berdasarkan tingkat signifikansi $\alpha$
 - Alternatif: gunakan $-2\ln\lambda$ yang berdistribusi asimtotik $\chi^2$ dengan derajat bebas = (jumlah parameter di $\Omega$) - (jumlah parameter di $\omega_0$)
+
+> [!tip]
+> - If one of the hypotheses is a [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|simple hypothesis]], then the likelihood function is simply $L(\theta')$, where $\theta'$ is the hypothesized value
+
 
 **Catatan penting:**
 
