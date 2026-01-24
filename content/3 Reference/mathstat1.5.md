@@ -1,16 +1,57 @@
 ---
-{"publish":true,"aliases":["1.5 Random Variables"],"created":"2025-10-14T04:15:27.059+07:00","modified":"2025-10-14T04:15:27.059+07:00","published":"2025-10-14T04:15:27.059+07:00","cssclasses":"","creation-time":"2025-06-18 18:15","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 1.5 Random Variables
+created: 2025-10-14T04:15:27.059+07:00
+modified: 2025-10-14T04:15:27.059+07:00
+published: 2025-10-14T04:15:27.059+07:00
+cssclasses: ""
+creation-time: 2025-06-18 18:15
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 << [[3 Reference/mathstat1.4\|1.4 Conditional Probability and Independence]] | [[3 Reference/mathstat1.6\|1.6 Discrete Random Variables]] >>
 
 ## Definition 1.5.1: Random variable
 
-![[3 Reference/Def-random-variable#Definition]]
+## Definition
+
+Let
+- $\mathcal{C}$ : [[3 Reference/Def-sample-space\|Sample space]]
+- $X$ : Function
+
+If $X$ assigns each element $c\in \mathcal{C}$ one and only one number $X(c)=x$
+
+Then we say $X$ is a **random variable**
+
 
 
 ## Definition 1.5.2:  Cumulative distribution function (cdf)
-![[3 Reference/Def-cumulative-distribution-function-(cdf)]]
+
+
+## Definition
+Let $X$ : [[3 Reference/Def-random-variable\|Random variable]]
+
+If
+$$
+\begin{align}
+F_X(x)
+&= P_X\big((-\infty,x]\big)\\
+&= P(\set{c \in \mathcal C : X(c) \leq x})\\
+&= P(X\leq x)\\
+&= \int_{-\infty}^x f_X(t)\ dt
+\end{align}
+$$
+
+Then we say $F_{X}(x)$ is the **cumulative distribution function** (cdf) of $X$.
+
+## Remark
+We often shorten
+- $P(\{ c\in \mathcal{C}:X(c)\leq x \})$ to $P(X\leq x)$
+- "Cumulative distribution function" to "**distribution function**" or "**cdf**"
 
 ## Definition: Equal in distribution
 > Let $X,Y$ : two random variables

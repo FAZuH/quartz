@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Similar Matrices"],"created":"2025-11-05T07:17:04.207+07:00","modified":"2025-11-05T07:19:56.405+07:00","published":"2025-11-05T07:19:56.405+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 07:17","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Similar Matrices
+created: 2025-11-05T07:17:04.207+07:00
+modified: 2025-11-05T07:19:56.405+07:00
+published: 2025-11-05T07:19:56.405+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 07:17
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

@@ -1,11 +1,39 @@
 ---
-{"publish":true,"aliases":["5.2 Convergence in Distribution.md"],"created":"2025-10-14T04:15:27.071+07:00","modified":"2025-10-17T02:58:41.600+07:00","published":"2025-10-17T02:58:41.600+07:00","cssclasses":"","creation-time":"2025-06-24 04:00","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 5.2 Convergence in Distribution.md
+created: 2025-10-14T04:15:27.071+07:00
+modified: 2025-10-17T02:58:41.600+07:00
+published: 2025-10-17T02:58:41.600+07:00
+cssclasses: ""
+creation-time: 2025-06-24 04:00
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 << [[3 Reference/mathstat5.1\|5.1 Convergence in Probability.md]] | [[3 Reference/mathstat5.3\|5.3 Central Limit Theorem.md]] >>
 
 ## Definition 5.2.1: Converges in distribution
-![[3 Reference/Def-convergence-in-distribution#Definition]]
+## Definition
+
+Let
+- $\set{X_n}$ : Sequence of [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|random variables]], with
+	- $F_{X_{n}}$ : [[3 Reference/mathstat1.5#Definition 1.5.2 Cumulative distribution function\|cdf]] of $X_{n}$
+- $X$ : Random variable
+	- $F_{X}$ : cdf of $X$
+- $C(F_{X})$ denote the set of all points where $F_{X}$ is [[3 Reference/5.1 Continuous Functions#5.1.1 Definition Continuous function at a point\|continuous]]
+
+If
+$$
+\lim_{ x \to \infty } F_{X_{n}}(x) = F_{X}(x), \quad \forall x\in C(F_{X})
+$$
+
+Then
+- We say $X_n$ **converges in distribution** to $X$
+- We write $X_n \xrightarrow{D}X$
+
 
 ## Remark 5.2.2: Stirling's formula
 > In advanced calculus, the following approximation is derived:
@@ -20,7 +48,7 @@
 > $$X_{n}\xrightarrow{D}b \iff X_{n}\xrightarrow{P}b$$
 
 > [!note]
-> Although in ![[3 Reference/structure/Introduction to Mathematical Statistics#^reference-mathematicalstatistics-1]] it is said stated that $X_{n}\xrightarrow{D}b \implies X_{n}\xrightarrow{P}b$, the converse is actually true. So we use $\iff$ instead.
+> Although in - Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). _Introduction to Mathematical Statistics_ (8th ed.). Pearson.  it is said stated that $X_{n}\xrightarrow{D}b \implies X_{n}\xrightarrow{P}b$, the converse is actually true. So we use $\iff$ instead.
 
 ## Theorem 5.2.3
 > Suppose
@@ -59,7 +87,18 @@
 
 
 ## Definition 5.2.2: Bounded in probability
-![[3 Reference/Def-bounded-in-probability#Definition]]
+## Definition
+
+Let
+- $\{ X_{n} \}$ : Sequence of [[3 Reference/Def-random-variable\|Random variables]]
+
+If
+$$
+\forall \epsilon>0,\exists B_{\epsilon}>0, N_{\epsilon}\in \mathbb{N} \ni n\geq N_{\varepsilon}\implies P[|X_{n}|\leq B_{\varepsilon}]\geq 1-\epsilon
+$$
+
+Then we say $\{ X_{n} \}$ is **bounded in probability**
+
 
 ## Theorem 5.2.6
 > Let

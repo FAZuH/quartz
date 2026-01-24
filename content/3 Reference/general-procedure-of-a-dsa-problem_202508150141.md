@@ -1,5 +1,15 @@
 ---
-{"publish":true,"aliases":["General Procedure of a DSA Problem"],"created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-14T04:15:27.067+07:00","published":"2025-10-14T04:15:27.067+07:00","cssclasses":"","creation-time":"2025-08-15 01:41","status":"baby","tag":null,"parent":"[[data structures and algorithms]]"}
+publish: true
+aliases:
+  - General Procedure of a DSA Problem
+created: 2025-10-14T04:15:27.067+07:00
+modified: 2025-10-14T04:15:27.067+07:00
+published: 2025-10-14T04:15:27.067+07:00
+cssclasses: ""
+creation-time: 2025-08-15 01:41
+status: baby
+tag:
+parent: "[[data structures and algorithms]]"
 ---
 
 ## Procedure

@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Principal Submatrix"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-14T04:15:27.057+07:00","published":"2025-10-14T04:15:27.057+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 14:06","status":"adult","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Principal Submatrix
+created: 2025-10-14T04:15:27.057+07:00
+modified: 2025-10-14T04:15:27.057+07:00
+published: 2025-10-14T04:15:27.057+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-09-24 14:06
+status: adult
+parent:
+  - "[[matrices]]"
 ---
 
 

@@ -1,5 +1,15 @@
 ---
-{"publish":true,"aliases":["Setting up an x11 VNC on an Ubuntu Machine"],"created":"2025-10-14T04:15:27.053+07:00","modified":"2025-10-14T04:15:27.053+07:00","published":"2025-10-14T04:15:27.053+07:00","cssclasses":"","creation-time":"2025-08-11 23:46","status":"baby","tag":null,"parent":"[[linux]]"}
+publish: true
+aliases:
+  - Setting up an x11 VNC on an Ubuntu Machine
+created: 2025-10-14T04:15:27.053+07:00
+modified: 2025-10-14T04:15:27.053+07:00
+published: 2025-10-14T04:15:27.053+07:00
+cssclasses: ""
+creation-time: 2025-08-11 23:46
+status: baby
+tag:
+parent: "[[linux]]"
 ---
 
 

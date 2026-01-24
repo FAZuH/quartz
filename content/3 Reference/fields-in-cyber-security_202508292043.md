@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Fields in Cyber Security"],"created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-14T04:15:27.067+07:00","published":"2025-10-14T04:15:27.067+07:00","tags":[null],"cssclasses":"","creation-time":"2025-08-29 20:43","status":"baby","parent":["[[cyber security]]"]}
+publish: true
+aliases:
+  - Fields in Cyber Security
+created: 2025-10-14T04:15:27.067+07:00
+modified: 2025-10-14T04:15:27.067+07:00
+published: 2025-10-14T04:15:27.067+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-08-29 20:43
+status: baby
+parent:
+  - "[[cyber security]]"
 ---
 
 > [!warning]

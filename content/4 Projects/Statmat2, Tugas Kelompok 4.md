@@ -1,5 +1,14 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.038+07:00","modified":"2025-10-14T04:15:27.038+07:00","published":"2025-10-14T04:15:27.038+07:00","cssclasses":"","creation-time":"2025-07-10 10:43","status":"archived","tags":null,"parent":["[[Statistika Matematika 2]]"]}
+publish: true
+created: 2025-10-14T04:15:27.038+07:00
+modified: 2025-10-14T04:15:27.038+07:00
+published: 2025-10-14T04:15:27.038+07:00
+cssclasses: ""
+creation-time: 2025-07-10 10:43
+status: archived
+tags:
+parent:
+  - "[[Statistika Matematika 2]]"
 ---
 
 

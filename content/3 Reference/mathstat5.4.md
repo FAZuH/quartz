@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["5.4 Extensions to Multivariate Distributions.md"],"created":"2025-10-14T04:15:27.039+07:00","modified":"2025-10-14T04:15:27.039+07:00","published":"2025-10-14T04:15:27.039+07:00","cssclasses":"","creation-time":"2025-07-02 12:58","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 5.4 Extensions to Multivariate Distributions.md
+created: 2025-10-14T04:15:27.039+07:00
+modified: 2025-10-14T04:15:27.039+07:00
+published: 2025-10-14T04:15:27.039+07:00
+cssclasses: ""
+creation-time: 2025-07-02 12:58
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 << [[3 Reference/mathstat5.3\|5.3 Central Limit Theorem.md]] | [[3 Reference/mathstat6.1\|6.1 Maximum Likelihood Estimation.md]] >>
@@ -34,7 +45,21 @@ $$
 > $$
 
 ## Definition 5.4.1: Multivariate converges in probability
-![[3 Reference/def-multivariate-convergence-in-probability_202507170914#Definition]]
+## Definition
+
+Let
+- $\mathbf{X}$ : [[3 Reference/def-random-vector_202507171028\|Random vector]]
+- $\{ \mathbf{X}_{n} \}$ : Sequence of $p$-dimensional vectors
+- $\{ X_{n} \}$ and $\mathbf{X}$ defined on the same sample [[3 Reference/def-space_202507171031\|space]]
+
+If
+$$
+\lim_{ n \to \infty } P\left[||\mathbf{X}_{n} - \mathbf{X}||\geq \epsilon\right] = 0, \quad \forall \epsilon > 0
+$$
+
+Then
+- We say $\{ \mathbf{X}_{n} \}$ **[[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|converges in probability]]** to $\mathbf{X}$
+- We write $\mathbf{X}_{n}\xrightarrow P \mathbf{X}$
 
 ## Theorem 5.4.1
 > Let
@@ -52,7 +77,23 @@ $$
 
 
 ## Definition 5.4.2: Multivariate convergence in distribution
-![[3 Reference/def-multivariate-convergence-in-distribution_202507170914#Definition]]
+## Definition
+
+Let
+- $\{ \mathbf{X}_{n} \}$ : Sequence of $p$-dimensional vectors, with
+	- $F_{n}(\mathbf{x})$ : [[3 Reference/mathstat1.5#Definition 1.5.2 Cumulative distribution function (cdf)\|cdf]] of $\mathbf{X}_{n}$
+- $\mathbf{X}$ : [[3 Reference/def-random-vector_202507171028\|Random vector]], with
+	- $F(\mathbf{x})$ : cdf of $\mathbf{X}$
+- $C(F)$ denote the set of all points where $F$ is [[3 Reference/5.1 Continuous Functions#5.1.1 Definition Continuous function at a point\|continuous]]
+
+If
+$$
+\lim_{ n \to \infty } F_{n}(\mathbf{x}) = F(\mathbf{x}), \quad \forall \mathbf{x}\in C(F)
+$$
+
+Then
+- We say $\{ \mathbf{X}_{n} \}$ **[[3 Reference/mathstat5.2#Definition 5.2.1 Converges in distribution\|converges in distribution]]** to $\mathbf{X}$
+- We write $\mathbf{X}_{n}\xrightarrow D \mathbf{X}$
 
 ## Theorem 5.4.2
 > Let

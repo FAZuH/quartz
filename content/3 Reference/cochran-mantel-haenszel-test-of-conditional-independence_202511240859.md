@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Cochran-Mantel-Haenszel Test of Conditional Independence"],"created":"2025-11-24T08:59:32.966+07:00","modified":"2025-11-24T09:33:13.085+07:00","published":"2025-11-24T09:33:13.085+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-24 08:59","status":"baby","parent":["[[categorical-data-analysis]]"]}
+publish: true
+aliases:
+  - Cochran-Mantel-Haenszel Test of Conditional Independence
+created: 2025-11-24T08:59:32.966+07:00
+modified: 2025-11-24T09:33:13.085+07:00
+published: 2025-11-24T09:33:13.085+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-24 08:59
+status: baby
+parent:
+  - "[[categorical-data-analysis]]"
 ---
 
 

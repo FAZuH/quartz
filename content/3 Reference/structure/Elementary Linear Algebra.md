@@ -1,5 +1,16 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-10-14T04:15:27.068+07:00","published":"2025-10-14T04:15:27.068+07:00","cssclasses":"","creation-time":"2025-03-06 20:32","tags":null,"parent":["[[mathematics]]","[[book summaries]]"],"sources":["Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley"]}
+publish: true
+created: 2025-10-14T04:15:27.068+07:00
+modified: 2025-10-14T04:15:27.068+07:00
+published: 2025-10-14T04:15:27.068+07:00
+cssclasses: ""
+creation-time: 2025-03-06 20:32
+tags:
+parent:
+  - "[[mathematics]]"
+  - "[[book summaries]]"
+sources:
+  - Anton, H., & Rorres, C. (2014). Elementary Linear Algebra (11th ed., Applications Version). Wiley
 ---
 
 

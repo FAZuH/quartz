@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["De Morgan's Laws for Set Difference"],"created":"2025-10-14T04:15:27.057+07:00","modified":"2025-10-14T04:15:27.057+07:00","published":"2025-10-14T04:15:27.057+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-03 01:42","status":"adult","parent":["[[sets]]"]}
+publish: true
+aliases:
+  - De Morgan's Laws for Set Difference
+created: 2025-10-14T04:15:27.057+07:00
+modified: 2025-10-14T04:15:27.057+07:00
+published: 2025-10-14T04:15:27.057+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-10-03 01:42
+status: adult
+parent:
+  - "[[sets]]"
 ---
 
 

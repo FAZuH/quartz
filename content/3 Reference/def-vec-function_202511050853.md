@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Vec Function"],"created":"2025-11-05T08:53:29.803+07:00","modified":"2025-12-10T14:26:21.811+07:00","published":"2025-12-10T14:26:21.811+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:53","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Vec Function
+created: 2025-11-05T08:53:29.803+07:00
+modified: 2025-12-10T14:26:21.811+07:00
+published: 2025-12-10T14:26:21.811+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 08:53
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

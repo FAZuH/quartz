@@ -1,5 +1,18 @@
 ---
-{"publish":true,"aliases":["Identity Matrix"],"created":"2025-10-14T04:15:27.067+07:00","modified":"2025-10-14T04:15:27.067+07:00","published":"2025-10-14T04:15:27.067+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-24 12:04","status":"adult","parent":["[[linear-algebra|linear algebra]]","[[matrices]]"]}
+publish: true
+aliases:
+  - Identity Matrix
+created: 2025-10-14T04:15:27.067+07:00
+modified: 2025-10-14T04:15:27.067+07:00
+published: 2025-10-14T04:15:27.067+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-09-24 12:04
+status: adult
+parent:
+  - "[[linear-algebra|linear algebra]]"
+  - "[[matrices]]"
 ---
 
 

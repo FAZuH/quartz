@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["Cheap Self-Hosting Service Recommendations"],"created":"2025-10-14T04:15:27.052+07:00","modified":"2025-10-14T04:15:27.052+07:00","published":"2025-10-14T04:15:27.052+07:00","cssclasses":"","creation-time":"2025-07-23 17:23","status":"baby","tags":null,"parent":["[[self-hosting]]"]}
+publish: true
+aliases:
+  - Cheap Self-Hosting Service Recommendations
+created: 2025-10-14T04:15:27.052+07:00
+modified: 2025-10-14T04:15:27.052+07:00
+published: 2025-10-14T04:15:27.052+07:00
+cssclasses: ""
+creation-time: 2025-07-23 17:23
+status: baby
+tags:
+parent:
+  - "[[self-hosting]]"
 ---
 
 - Why self-hosted: You have unrestricted control over what you use

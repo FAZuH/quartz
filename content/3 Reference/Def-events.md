@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Events"],"created":"2025-10-14T04:15:27.048+07:00","modified":"2025-10-14T04:15:27.048+07:00","published":"2025-10-14T04:15:27.048+07:00","cssclasses":"","creation-time":"2025-07-15 01:06","status":"adult","tags":null,"parent":["[[Introduction to Real Analysis]]"]}
+publish: true
+aliases:
+  - Events
+  - Event
+created: 2025-10-14T04:15:27.048+07:00
+modified: 2025-12-16T07:03:00.410+07:00
+published: 2025-12-16T07:03:00.410+07:00
+cssclasses: ""
+creation-time: 2025-07-15 01:06
+status: adult
+tags:
+parent:
+  - "[[Introduction to Real Analysis]]"
 ---
 
 

@@ -1,11 +1,45 @@
 ---
-{"publish":true,"aliases":["1.8 Expectation of Random Variable"],"created":"2025-10-14T04:15:27.059+07:00","modified":"2025-10-14T04:15:27.059+07:00","published":"2025-10-14T04:15:27.059+07:00","cssclasses":"","creation-time":"2025-06-28 18:05","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 1.8 Expectation of Random Variable
+created: 2025-10-14T04:15:27.059+07:00
+modified: 2025-10-14T04:15:27.059+07:00
+published: 2025-10-14T04:15:27.059+07:00
+cssclasses: ""
+creation-time: 2025-06-28 18:05
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 << [[3 Reference/mathstat1.7\|1.7 Continuous Random Variables]] | [[3 Reference/mathstat1.9\|1.9 Some Special Expectations.md]] >>
 
 ## Definition 1.8.1: Expectation
-![[3 Reference/Def-expectation#Definition]]
+## Definition
+
+### Continuous random variable
+Let
+- $X$ : [[3 Reference/mathstat1.7#Definition 1.7.1 Continuous random variable\|Continuous random variable]]
+- $f(x)$ : [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] of $X$
+- $\int_{-\infty}^\infty |x|\ f(x)\ dx < \infty$
+
+If
+$E(X) = \int_{-\infty}^\infty x\ f(x)\ dx$$
+
+Then we say $E(X)$ is the **expectation** of $X$
+
+### Discrete random variable
+ Let
+- $X$ : [[3 Reference/mathstat1.6\|Discrete random variable]]
+- $p(x)$ : [[3 Reference/mathstat1.6#Definition 1.6.2 Probability mass function (pmf)\|pmf]] of $X$
+- $\sum_{x}|x|p(x)<\infty$
+
+If
+$E(X) = \sum_{x}xp(x)$$
+
+Then we say $E(X)$ is the **expectation** of $X$
+
 
 ## Theorem 1.8.1: Expectation of a function
 > Let

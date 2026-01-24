@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Vech Function"],"created":"2025-11-05T08:56:34.781+07:00","modified":"2025-12-10T14:25:32.732+07:00","published":"2025-12-10T14:25:32.732+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:56","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Vech Function
+created: 2025-11-05T08:56:34.781+07:00
+modified: 2025-12-10T14:25:32.732+07:00
+published: 2025-12-10T14:25:32.732+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 08:56
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

@@ -1,5 +1,15 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.042+07:00","modified":"2025-10-14T04:15:27.042+07:00","published":"2025-10-14T04:15:27.042+07:00","cssclasses":"","creation-time":"2025-02-28 16:55","status":"ongoing","tags":null,"parent":["[[studying]]","[[philosophy]]"]}
+publish: true
+created: 2025-10-14T04:15:27.042+07:00
+modified: 2025-10-14T04:15:27.042+07:00
+published: 2025-10-14T04:15:27.042+07:00
+cssclasses: ""
+creation-time: 2025-02-28 16:55
+status: ongoing
+tags:
+parent:
+  - "[[studying]]"
+  - "[[philosophy]]"
 ---
 
 

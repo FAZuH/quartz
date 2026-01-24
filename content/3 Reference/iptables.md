@@ -1,5 +1,15 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.039+07:00","modified":"2025-11-19T14:01:45.162+07:00","published":"2025-11-19T14:01:45.162+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-06-21 03:27","status":"baby","parent":["[[network engineering]]"]}
+publish: true
+created: 2025-10-14T04:15:27.039+07:00
+modified: 2025-11-19T14:01:45.162+07:00
+published: 2025-11-19T14:01:45.162+07:00
+tags:
+  - type/category
+cssclasses: ""
+creation-time: 2025-06-21 03:27
+status: baby
+parent:
+  - "[[network engineering]]"
 ---
 
 

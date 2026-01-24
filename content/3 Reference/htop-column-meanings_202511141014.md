@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Htop Column Meanings"],"created":"2025-11-14T10:14:50.806+07:00","modified":"2025-11-14T10:16:01.611+07:00","published":"2025-11-14T10:16:01.611+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-14 10:14","status":"baby","parent":["[[linux]]"]}
+publish: true
+aliases:
+  - Htop Column Meanings
+created: 2025-11-14T10:14:50.806+07:00
+modified: 2025-11-14T10:16:01.611+07:00
+published: 2025-11-14T10:16:01.611+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-14 10:14
+status: baby
+parent:
+  - "[[linux]]"
 ---
 
 - **PRI**: NI + 20 for normal processes. Internal value used by the kernel scheduler

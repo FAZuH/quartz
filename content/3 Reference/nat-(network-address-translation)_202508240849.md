@@ -1,5 +1,15 @@
 ---
-{"publish":true,"aliases":["NAT (Network Address Translation)"],"created":"2025-10-14T04:15:27.040+07:00","modified":"2025-10-14T04:15:27.040+07:00","published":"2025-10-14T04:15:27.040+07:00","cssclasses":"","creation-time":"2025-08-24 08:49","status":"baby","tag":null,"parent":"[[network engineering]]"}
+publish: true
+aliases:
+  - NAT (Network Address Translation)
+created: 2025-10-14T04:15:27.040+07:00
+modified: 2025-10-14T04:15:27.040+07:00
+published: 2025-10-14T04:15:27.040+07:00
+cssclasses: ""
+creation-time: 2025-08-24 08:49
+status: baby
+tag:
+parent: "[[network engineering]]"
 ---
 
 

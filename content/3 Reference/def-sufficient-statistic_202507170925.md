@@ -1,5 +1,15 @@
 ---
-{"publish":true,"aliases":["Sufficient Statistic"],"created":"2025-10-14T04:15:27.059+07:00","modified":"2025-10-17T05:37:28.054+07:00","published":"2025-10-17T05:37:28.054+07:00","cssclasses":"","creation-time":"2025-07-17 09:25","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+publish: true
+aliases:
+  - Sufficient Statistic
+created: 2025-10-14T04:15:27.059+07:00
+modified: 2025-10-17T05:37:28.054+07:00
+published: 2025-10-17T05:37:28.054+07:00
+cssclasses: ""
+creation-time: 2025-07-17 09:25
+status: baby
+tag:
+parent: "[[Introduction to Mathematical Statistics]]"
 ---
 
 

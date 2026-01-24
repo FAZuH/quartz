@@ -1,5 +1,18 @@
 ---
-{"publish":true,"aliases":" Joint Complete Sufficient Statistics","created":"2025-11-13T19:48:34.500+07:00","modified":"2025-11-13T22:05:43.760+07:00","published":"2025-11-13T22:05:43.760+07:00","tags":["definition"],"cssclasses":"","creation-time":"2025-11-13 12:00","status":"seedling","tag":"definition","parent":"[[7.7-the-case-of-several-parameters_202507171019]]","alias":["Joint Complete Sufficient Statistics"]}
+publish: true
+aliases: " Joint Complete Sufficient Statistics"
+created: 2025-11-13T19:48:34.500+07:00
+modified: 2025-11-13T22:05:43.760+07:00
+published: 2025-11-13T22:05:43.760+07:00
+tags:
+  - definition
+cssclasses: ""
+creation-time: 2025-11-13 12:00
+status: seedling
+tag: definition
+parent: "[[7.7-the-case-of-several-parameters_202507171019]]"
+alias:
+  - Joint Complete Sufficient Statistics
 ---
 
 ## Definition

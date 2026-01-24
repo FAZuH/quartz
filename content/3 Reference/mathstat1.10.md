@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["1.10 Important Inequalities.md"],"created":"2025-10-14T04:15:27.055+07:00","modified":"2025-10-14T04:15:27.055+07:00","published":"2025-10-14T04:15:27.055+07:00","cssclasses":"","creation-time":"2025-06-24 01:06","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 1.10 Important Inequalities.md
+created: 2025-10-14T04:15:27.055+07:00
+modified: 2025-10-14T04:15:27.055+07:00
+published: 2025-10-14T04:15:27.055+07:00
+cssclasses: ""
+creation-time: 2025-06-24 01:06
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 
@@ -8,16 +19,62 @@
 This page will show overview of some famous inequalities involving expectations.
 
 ## Theorem 1.10.1: Existence of lower order moments
-![[3 Reference/theorem-existence-of-lower-order-moments_202509071843#Theorem]]
+## Theorem
+
+> Let:
+> - $X$ random variable
+> - $m \in \mathbb{P}$
+> - $k\in \mathbb{P}, \quad k\leq m$
+> 
+> If $E(X^m)$ exists, then $E(X^k)$ exists
+
+If a higher-order moment exists, then all lower-order moments must also exist
+
 
 ## Theorem 1.10.2: Markov’s inequality
-![[3 Reference/theorem-markov's-inequality_202509071843#Theorem\|Theorem]]
+## Theorem
+> Let:
+> - $X$ random variable
+> - $u(X) \to \mathbb{P}$
+> - $E[u(X)]$ exists $\forall c\in \mathbb{P}$
+> 
+> Then
+> $$
+> P[u(X)\geq c] \leq \frac{E[u(X)]}{c}
+> $$
+
+
 
 ## Theorem 1.10.3: Chebyshev’s inequality
-![[3 Reference/theorem-chebyshev's-inequality_202509071843#Theorem\|Theorem]]
+## Theorem
+
+Let:
+- $X$ [[3 Reference/Def-random-variable\|Random Variable]]
+- $\sigma^2\in \mathbb{R}$ [[3 Reference/Def-variance\|Variance]] of $X$
+- $\mu=E(X)$ (by [[3 Reference/theorem-existence-of-lower-order-moments_202509071843\|Existence of Lower Order Moments]], $\sigma^2\in \mathbb{R}$ implies that $E(X)$ exists)
+
+Then, for every $k > 0$
+$$
+P(|X - \mu| \geq k\sigma) \leq \frac{1}{k^2}
+$$
+
+Or equivalently,
+$$
+P(|X - \mu| < k\sigma) \geq 1 - \frac{1}{k^2}
+$$
+
 
 ## Definition 1.10.1: Convex function
-![[3 Reference/Def-convex-function#Definition]]
+## Definition
+Let $\phi$ : Function defined on interval $(a,b)$, where $-\infty \leq a < b \leq \infty$
+
+If 
+$ \phi[\gamma x + (1-\gamma)y] \leq \gamma\phi(x) + (1-\gamma)\phi(y),\quad\forall x,y\in(a,b), 0<\gamma<1 $$
+
+Then we say $\phi$ is a **convex function**
+
+> [!note]
+> If the inequality is strict (i.e., $<$ instead of $\leq$), then we say $\phi$ is **strictly convex**.
 
 ## Theorem 1.10.4
 > If $\phi$ is differentiable on $(a,b)$
@@ -33,4 +90,17 @@ This page will show overview of some famous inequalities involving expectations.
 > - $\phi$ is strictly convex $\iff \phi''(x) > 0,\quad \forall a<x<b$
 
 ## Theorem 1.10.5: Jensen's inequality
-![[3 Reference/theorem-jensen's-inequality_202509071845#Theorem\|Theorem]]
+## Theorem
+
+> Let
+> - $\phi$ is convex on an open interval $I$
+> - $X$ : Random variable
+> - $\mathcal{S}_{X}$ : Support of $X$
+> 
+> If
+> - $\mathcal{S}_{X} \subseteq I$
+> - $E(X)$ is finite
+> 
+> Then
+> $ \phi[E(X)]\leq E[\phi(X)] $$
+

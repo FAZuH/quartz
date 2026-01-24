@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Maximum Likelihood Estimator (mle)","MLE"],"created":"2025-10-14T04:15:27.075+07:00","modified":"2025-10-21T08:01:49.900+07:00","published":"2025-10-21T08:01:49.900+07:00","cssclasses":"","creation-time":"2025-07-15 08:01","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - Maximum Likelihood Estimator (mle)
+  - MLE
+created: 2025-10-14T04:15:27.075+07:00
+modified: 2025-10-21T08:01:49.900+07:00
+published: 2025-10-21T08:01:49.900+07:00
+cssclasses: ""
+creation-time: 2025-07-15 08:01
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 

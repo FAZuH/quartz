@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Hessian Matrix"],"created":"2025-12-10T14:42:33.299+07:00","modified":"2025-12-10T14:42:42.709+07:00","published":"2025-12-10T14:42:42.709+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:42","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Hessian Matrix
+created: 2025-12-10T14:42:33.299+07:00
+modified: 2025-12-10T14:42:42.709+07:00
+published: 2025-12-10T14:42:42.709+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-10 14:42
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

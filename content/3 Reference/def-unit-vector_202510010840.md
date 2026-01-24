@@ -1,5 +1,19 @@
 ---
-{"publish":true,"aliases":["Unit Vector","Normalize","Normalizing"],"created":"2025-10-14T04:15:27.051+07:00","modified":"2025-10-14T04:15:27.051+07:00","published":"2025-10-14T04:15:27.051+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-01 08:40","status":"adult","parent":["[[Elementary Linear Algebra]]"]}
+publish: true
+aliases:
+  - Unit Vector
+  - Normalize
+  - Normalizing
+created: 2025-10-14T04:15:27.051+07:00
+modified: 2025-10-14T04:15:27.051+07:00
+published: 2025-10-14T04:15:27.051+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-10-01 08:40
+status: adult
+parent:
+  - "[[Elementary Linear Algebra]]"
 ---
 
 

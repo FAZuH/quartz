@@ -1,5 +1,15 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-11-12T18:38:41.785+07:00","published":"2025-11-12T18:38:41.785+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-03-06 20:48","parent":null,"PassFrontmatter":true,"aliases":null}
+publish: true
+created: 2025-10-14T04:15:27.070+07:00
+modified: 2026-01-13T19:39:18.824+07:00
+published: 2026-01-13T19:39:18.824+07:00
+tags:
+  - type/category
+cssclasses: ""
+creation-time: 2025-03-06 20:48
+parent:
+PassFrontmatter: true
+aliases:
 ---
 
 
@@ -25,7 +35,6 @@
 - [[3 Reference/structure/hardware\|hardware]]
 - [[3 Reference/structure/linux]]
 - [[3 Reference/structure/network engineering]]
-- [[3 Reference/structure/object oriented programming]]
 - [[3 Reference/structure/self-hosting]]
 - [[3 Reference/structure/software architecture]]
 - [[3 Reference/structure/system administration]]

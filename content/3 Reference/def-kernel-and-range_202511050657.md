@@ -1,5 +1,19 @@
 ---
-{"publish":true,"aliases":["Kernel and Range","Kernel","Range"],"created":"2025-11-05T06:57:25.788+07:00","modified":"2025-12-10T11:32:07.967+07:00","published":"2025-12-10T11:32:07.967+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 06:57","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Kernel and Range
+  - Kernel
+  - Range
+created: 2025-11-05T06:57:25.788+07:00
+modified: 2025-12-10T11:32:07.967+07:00
+published: 2025-12-10T11:32:07.967+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 06:57
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

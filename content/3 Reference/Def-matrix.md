@@ -1,5 +1,23 @@
 ---
-{"publish":true,"aliases":["Matrix","Scalar","Square Matrix","Main Diagonal","Entry","Entries","Order"],"created":"2025-10-14T04:15:27.064+07:00","modified":"2025-10-14T04:15:27.065+07:00","published":"2025-10-14T04:15:27.065+07:00","cssclasses":"","creation-time":"2025-07-15 02:13","status":"adult","tag":null,"parent":["[[matrices]]","[[linear-algebra|linear algebra]]"]}
+publish: true
+aliases:
+  - Matrix
+  - Scalar
+  - Square Matrix
+  - Main Diagonal
+  - Entry
+  - Entries
+  - Order
+created: 2025-10-14T04:15:27.064+07:00
+modified: 2025-10-14T04:15:27.065+07:00
+published: 2025-10-14T04:15:27.065+07:00
+cssclasses: ""
+creation-time: 2025-07-15 02:13
+status: adult
+tag:
+parent:
+  - "[[matrices]]"
+  - "[[linear-algebra|linear algebra]]"
 ---
 
 

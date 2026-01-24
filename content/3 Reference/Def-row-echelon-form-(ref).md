@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["Row Echelon Form (REF)"],"created":"2025-10-14T04:15:27.049+07:00","modified":"2025-10-14T04:15:27.049+07:00","published":"2025-10-14T04:15:27.049+07:00","cssclasses":"","creation-time":"2025-07-15 01:57","status":"adult","tags":null,"parent":["[[linear-algebra|linear algebra]]"]}
+publish: true
+aliases:
+  - Row Echelon Form (REF)
+created: 2025-10-14T04:15:27.049+07:00
+modified: 2025-10-14T04:15:27.049+07:00
+published: 2025-10-14T04:15:27.049+07:00
+cssclasses: ""
+creation-time: 2025-07-15 01:57
+status: adult
+tags:
+parent:
+  - "[[linear-algebra|linear algebra]]"
 ---
 
 

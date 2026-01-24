@@ -1,10 +1,25 @@
 ---
-{"publish":true,"aliases":["Likelihood Ratio Test","Likelihood Ratio"],"created":"2025-12-11T15:31:51.946+07:00","modified":"2025-12-12T08:00:25.972+07:00","published":"2025-12-12T08:00:25.972+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-11 15:31","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - Likelihood Ratio Test
+  - Likelihood Ratio
+created: 2025-12-11T15:31:51.946+07:00
+modified: 2025-12-19T14:35:35.796+07:00
+published: 2025-12-19T14:35:35.796+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-11 15:31
+status: baby
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 
 > [!tip]
-> Likelihood ratio test can be thought of as a generalization of [[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]] for [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|composite hypotheses]]
+> **Likelihood Ratio Test** (LRT) can be thought of as a generalization of [[3 Reference/theorem-neyman-pearson-theorem_202508052132\|Neyman-Pearson Theorem]] for [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|composite hypotheses]].
+> 
+> The main difference is that the [[3 Reference/Def-likelihood-function\|likelihood function]] which represents the [[3 Reference/def-types-of-statistical-hypotheses_202508051003\|composite hypothesis]] uses an estimated value obtained using [[3 Reference/Maximum Likelihood Estimation (MLE)]].
 
 ## Definition
 

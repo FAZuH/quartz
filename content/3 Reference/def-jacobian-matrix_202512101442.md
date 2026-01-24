@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Jacobian Matrix"],"created":"2025-12-10T14:42:16.451+07:00","modified":"2025-12-10T14:42:24.705+07:00","published":"2025-12-10T14:42:24.705+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:42","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Jacobian Matrix
+created: 2025-12-10T14:42:16.451+07:00
+modified: 2025-12-10T14:42:24.705+07:00
+published: 2025-12-10T14:42:24.705+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-10 14:42
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

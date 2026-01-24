@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Mean Squared Error (MSE)"],"created":"2025-10-14T04:15:27.061+07:00","modified":"2025-10-14T04:15:27.061+07:00","published":"2025-10-14T04:15:27.061+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-23 11:24","status":"baby","parent":["[[econometrics]]"]}
+publish: true
+aliases:
+  - Mean Squared Error (MSE)
+created: 2025-10-14T04:15:27.061+07:00
+modified: 2025-10-14T04:15:27.061+07:00
+published: 2025-10-14T04:15:27.061+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-09-23 11:24
+status: baby
+parent:
+  - "[[econometrics]]"
 ---
 
 Mean squared error <u>measures error in a model</u>. If a model does not have any errors, then $MSE=0$. As the error goes up, MSE goes up.

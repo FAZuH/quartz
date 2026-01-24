@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Simple Linear Model"],"created":"2025-10-14T04:15:27.042+07:00","modified":"2025-10-14T04:15:27.042+07:00","published":"2025-10-14T04:15:27.042+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-09 13:14","status":"baby","parent":["[[Linear Model]]"]}
+publish: true
+aliases:
+  - Simple Linear Model
+created: 2025-10-14T04:15:27.042+07:00
+modified: 2025-10-14T04:15:27.042+07:00
+published: 2025-10-14T04:15:27.042+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-09-09 13:14
+status: baby
+parent:
+  - "[[Linear Model]]"
 ---
 
 

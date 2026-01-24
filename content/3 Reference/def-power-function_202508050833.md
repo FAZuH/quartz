@@ -1,8 +1,19 @@
 ---
-{"publish":true,"aliases":["Power Function"],"created":"2025-10-14T04:15:27.055+07:00","modified":"2025-10-14T04:15:27.055+07:00","published":"2025-10-14T04:15:27.055+07:00","cssclasses":"","creation-time":"2025-08-05 08:33","status":"baby","tag":null,"parent":"[[Introduction to Mathematical Statistics]]"}
+publish: true
+aliases:
+  - Power Function
+created: 2025-10-14T04:15:27.055+07:00
+modified: 2025-12-12T08:37:59.839+07:00
+published: 2025-12-12T08:37:59.839+07:00
+cssclasses: ""
+creation-time: 2025-08-05 08:33
+status: baby
+tag:
+parent: "[[Introduction to Mathematical Statistics]]"
 ---
 
 
+Power function is a function that returns the [[3 Reference/def-power-of-a-test_202508050833\|power of a test]]
 
 ## Definition
 

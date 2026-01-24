@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Matrix Differentiation Properties"],"created":"2025-12-10T14:42:55.823+07:00","modified":"2025-12-10T14:43:03.835+07:00","published":"2025-12-10T14:43:03.835+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:42","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Matrix Differentiation Properties
+created: 2025-12-10T14:42:55.823+07:00
+modified: 2025-12-10T14:43:03.835+07:00
+published: 2025-12-10T14:43:03.835+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-10 14:42
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

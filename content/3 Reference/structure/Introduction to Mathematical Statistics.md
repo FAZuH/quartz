@@ -1,5 +1,20 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.070+07:00","modified":"2025-12-11T16:38:20.893+07:00","published":"2025-12-11T16:38:20.893+07:00","cssclasses":"","creation-time":"2025-06-18 18:09","status":"baby","tags":null,"parent":["[[mathematics]]","[[book summaries|book summaries]]"],"PassFrontmatter":true,"aliases":null,"sources":["Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson","Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall."]}
+publish: true
+created: 2025-10-14T04:15:27.070+07:00
+modified: 2025-12-11T16:38:20.893+07:00
+published: 2025-12-11T16:38:20.893+07:00
+cssclasses: ""
+creation-time: 2025-06-18 18:09
+status: baby
+tags:
+parent:
+  - "[[mathematics]]"
+  - "[[book summaries|book summaries]]"
+PassFrontmatter: true
+aliases:
+sources:
+  - Hogg, R. V., McKean, J. W., & Craig, A. T. (2019). Introduction to Mathematical Statistics (8th ed.). Pearson
+  - Hogg, R. V., & Craig, A. T. (1995). Introduction to mathematical statistics (5th ed.). Prentice Hall.
 ---
 
 - *italic*: Definition

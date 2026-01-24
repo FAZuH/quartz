@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["6.1 Maximum Likelihood Estimation.md"],"created":"2025-10-14T04:15:27.074+07:00","modified":"2025-12-11T15:47:01.672+07:00","published":"2025-12-11T15:47:01.672+07:00","cssclasses":"","creation-time":"2025-07-02 13:53","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 6.1 Maximum Likelihood Estimation.md
+created: 2025-10-14T04:15:27.074+07:00
+modified: 2025-12-11T15:47:01.672+07:00
+published: 2025-12-11T15:47:01.672+07:00
+cssclasses: ""
+creation-time: 2025-07-02 13:53
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 << [[3 Reference/mathstat5.4\|5.4 Extensions to Multivariate Distributions.md]] | [[3 Reference/mathstat6.2\|6.2 Rao-Cramér Lower Bound and Efficiency.md]] >>
@@ -30,7 +41,16 @@
 > Then, asymptotically, $L(\theta_{0})$ is the maximum value of $L(\theta)$.
 
 ## Definition 6.1.1: Maximum Likelihood Estimator
-![[3 Reference/Def-maximum-likelihood-estimator-(mle)#Definition]]
+## Definition
+Let
+- $\mathbf{X}$ : Observed data
+- $\theta$ : Parameter
+- $L(\theta;\mathbf{X})$ : [[3 Reference/mathstat4.1#Definition Likelihood function\|Likelihood function]] 
+
+If $\hat{\theta}=\operatorname{Argmax}L(\theta;\mathbf{X})$
+
+Then $\hat{\theta}$ is a **maximum likelihood [[3 Reference/mathstat4.1#Definition Estimator\|estimator]]** (mle) of $\theta$
+
 
 ## Theorem 6.1.2
 > Let

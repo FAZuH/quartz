@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Derivative Cheatsheet"],"created":"2025-12-12T05:34:56.174+07:00","modified":"2025-12-12T05:43:50.037+07:00","published":"2025-12-12T05:43:50.037+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-12 05:34","status":"baby","parent":["[[calculus]]"]}
+publish: true
+aliases:
+  - Derivative Cheatsheet
+created: 2025-12-12T05:34:56.174+07:00
+modified: 2025-12-12T05:43:50.037+07:00
+published: 2025-12-12T05:43:50.037+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-12 05:34
+status: baby
+parent:
+  - "[[calculus]]"
 ---
 
 

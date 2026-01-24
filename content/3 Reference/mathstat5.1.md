@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["5.1 Convergence in Probability"],"created":"2025-10-14T04:15:27.045+07:00","modified":"2025-10-17T03:05:13.873+07:00","published":"2025-10-17T03:05:13.873+07:00","cssclasses":"","creation-time":"2025-06-24 07:59","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 5.1 Convergence in Probability
+created: 2025-10-14T04:15:27.045+07:00
+modified: 2025-10-17T03:05:13.873+07:00
+published: 2025-10-17T03:05:13.873+07:00
+cssclasses: ""
+creation-time: 2025-06-24 07:59
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 << [[3 Reference/mathstat4.4\|4.4 Order Statistics]] | [[3 Reference/mathstat5.2\|5.2 Convergence in Distribution.md]] >>
@@ -8,11 +19,38 @@ To emphasize the fact that we are working with sequences of [[3 Reference/mathst
 
 ## Definition 5.1.1: Convergence in probability
 
-![[3 Reference/Def-convergence-in-probability#Definition]]
+## Definition
+
+Let
+- $\{ X_{n} \}$ : Sequence of [[3 Reference/Def-random-variable\|Random variables]]
+- $X$ : Random variable
+
+If
+$ \lim_{ n \to \infty } P[|X_{n}-X|\geq \epsilon] = 0, \quad \forall \epsilon>0$$
+- Or equivalently
+$ \lim_{ n \to \infty } P[|X_{n}-X| < \epsilon] = 1, \quad \forall \epsilon>0 $$
+
+Then
+- We say $\{ X_{n} \}$ **converges in probability** to $X$
+- We write
+$ X_{n} \xrightarrow P X $$
+
 
 ## Theorem 5.1.1: Weak law of large numbers
 
-![[3 Reference/theorem-weak-law-of-large-numbers_202510031058#Theorem]]
+## Theorem
+
+Let
+- $\{ X_{n} \}$ : Sequence of [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|random samples]], with
+	- Common mean $\mu$
+	- Common variance $\sigma^2<\infty$
+- $\bar{X}_{n}=\frac{1}{n}\sum_{i=1}^nX_{i}$$
+
+Then
+$$
+\bar{X}_{n} \xrightarrow{P}\mu
+$$
+
 
 In the following sections ([[3 Reference/mathstat5.1#Theorem 5.1.2]] to [[3 Reference/mathstat5.1#Theorem 5.1.5]]) we describe some theorems related to convergence of sequence of random variables. For brevity, we implicitly let:
 
@@ -59,7 +97,21 @@ In the following sections ([[3 Reference/mathstat5.1#Theorem 5.1.2]] to [[3 Refe
 > $$
 
 ## Definition 5.1.2: Consistent estimator
-![[3 Reference/Def-consistent-estimator#Definition]]
+## Definition
+
+Let
+- $X$ : [[3 Reference/Def-random-variable\|Random variable]], with
+	- $\Omega$ : Parameter space
+	- [[3 Reference/mathstat1.5#Definition 1.5.2 Cumulative distribution function (cdf)\|cdf]] $F(x;\theta\in \Omega)$
+- $X_{1},\dots, X_{n}$  : [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|Random sample]] of $X$
+- $T_{n}$ : [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]]
+
+If
+$$
+T_{n}\xrightarrow P \theta
+$$
+
+Then we say $T_{n}$ is a **consistent** [[3 Reference/Def-estimator\|estimator]] of $\theta$
 
 ## Theorem: Law of large numbers for sample variance
 
@@ -77,7 +129,20 @@ In the following sections ([[3 Reference/mathstat5.1#Theorem 5.1.2]] to [[3 Refe
 Before stating the strong law of large numbers, we need to introduce the concept of almost sure convergence, which is a stronger form of convergence than convergence in probability.
 
 ## Definition: Almost sure convergence
-![[3 Reference/Def-almost-sure-convergence#Definition]]
+## Definition
+
+
+Let
+
+- ${ X_{n} }$ : Sequence of [[3 Reference/Def-random-variable\|Random variables]]
+- $X$ : Random variable
+
+If $ P\left[\lim_{n \to \infty} X_{n} = X\right] = 1 $$
+
+Then
+
+- We say ${ X_{n} }$ **converges almost surely** to $X$
+- We write $ X_{n} \xrightarrow{a.s.} X $$
 
 ## Theorem: Strong law of large numbers
 

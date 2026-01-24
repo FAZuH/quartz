@@ -1,5 +1,18 @@
 ---
-{"publish":true,"aliases":["Matrix Transformation","Matrix Operator"],"created":"2025-11-05T06:58:33.734+07:00","modified":"2025-11-05T07:14:56.587+07:00","published":"2025-11-05T07:14:56.587+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 06:58","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Matrix Transformation
+  - Matrix Operator
+created: 2025-11-05T06:58:33.734+07:00
+modified: 2025-11-05T07:14:56.587+07:00
+published: 2025-11-05T07:14:56.587+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 06:58
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

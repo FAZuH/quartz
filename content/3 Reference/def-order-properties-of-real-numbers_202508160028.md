@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Order Properties of Real Numbers","Tricothomy Property"],"created":"2025-10-14T04:15:27.039+07:00","modified":"2025-10-14T04:15:27.039+07:00","published":"2025-10-14T04:15:27.039+07:00","cssclasses":"","creation-time":"2025-08-16 00:28","status":"baby","tags":null,"parent":["[[Introduction to Real Analysis]]"]}
+publish: true
+aliases:
+  - Order Properties of Real Numbers
+  - Tricothomy Property
+created: 2025-10-14T04:15:27.039+07:00
+modified: 2025-10-14T04:15:27.039+07:00
+published: 2025-10-14T04:15:27.039+07:00
+cssclasses: ""
+creation-time: 2025-08-16 00:28
+status: baby
+tags:
+parent:
+  - "[[Introduction to Real Analysis]]"
 ---
 
 

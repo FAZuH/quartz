@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Logarithm Cheatsheet"],"created":"2025-12-12T05:25:22.523+07:00","modified":"2025-12-12T05:30:43.877+07:00","published":"2025-12-12T05:30:43.877+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-12 05:25","status":"baby","parent":["[[calculus]]"]}
+publish: true
+aliases:
+  - Logarithm Cheatsheet
+created: 2025-12-12T05:25:22.523+07:00
+modified: 2025-12-12T05:30:43.877+07:00
+published: 2025-12-12T05:30:43.877+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-12 05:25
+status: baby
+parent:
+  - "[[calculus]]"
 ---
 
 

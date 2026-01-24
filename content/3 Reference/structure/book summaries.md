@@ -1,5 +1,15 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.068+07:00","modified":"2025-10-14T04:15:27.068+07:00","published":"2025-10-14T04:15:27.068+07:00","tags":["type/category"],"cssclasses":"","creation-time":"2025-09-09 11:05","status":"baby","parent":null,"aliases":null}
+publish: true
+created: 2025-10-14T04:15:27.068+07:00
+modified: 2025-10-14T04:15:27.068+07:00
+published: 2025-10-14T04:15:27.068+07:00
+tags:
+  - type/category
+cssclasses: ""
+creation-time: 2025-09-09 11:05
+status: baby
+parent:
+aliases:
 ---
 
 - [[3 Reference/a-second-course-in-statistics-regression-analysis_202509091310\|A Second Course in Statistics: Regression Analysis ]]

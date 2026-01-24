@@ -1,5 +1,18 @@
 ---
-{"publish":true,"aliases":["Eigenvalue","Eigenvector"],"created":"2025-11-05T04:58:52.232+07:00","modified":"2025-12-10T12:38:24.577+07:00","published":"2025-12-10T12:38:24.577+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 04:58","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Eigenvalue
+  - Eigenvector
+created: 2025-11-05T04:58:52.232+07:00
+modified: 2025-12-10T12:38:24.577+07:00
+published: 2025-12-10T12:38:24.577+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 04:58
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

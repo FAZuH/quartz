@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Conceptual Material"],"created":"2025-11-14T20:40:25.761+07:00","modified":"2025-11-14T20:44:13.011+07:00","published":"2025-11-14T20:44:13.011+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-14 20:40","status":"baby","parent":["[[learning-methods_202510032125]]"]}
+publish: true
+aliases:
+  - Conceptual Material
+created: 2025-11-14T20:40:25.761+07:00
+modified: 2025-11-14T20:44:13.011+07:00
+published: 2025-11-14T20:44:13.011+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-14 20:40
+status: baby
+parent:
+  - "[[learning-methods_202510032125]]"
 ---
 
 

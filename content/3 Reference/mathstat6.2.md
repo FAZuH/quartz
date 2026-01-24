@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["6.2 Rao-Cramér Lower Bound and Efficiency.md"],"created":"2025-10-14T04:15:27.052+07:00","modified":"2025-12-11T17:22:45.009+07:00","published":"2025-12-11T17:22:45.009+07:00","cssclasses":"","creation-time":"2025-07-06 23:56","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 6.2 Rao-Cramér Lower Bound and Efficiency.md
+created: 2025-10-14T04:15:27.052+07:00
+modified: 2025-12-11T17:22:45.009+07:00
+published: 2025-12-11T17:22:45.009+07:00
+cssclasses: ""
+creation-time: 2025-07-06 23:56
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 
@@ -10,13 +21,50 @@
 > - $(\mathbf{R4})$ : The integral $\int f(x;\theta)$ can be differentiated twice under the integral sign as a function of $\theta$.
 
 ## Definition: Score function
-![[3 Reference/def-score-function_202507170918#Definition]]
+## Definition
+
+Let
+- $X$ : [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|Random variable]], with
+    - [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta)$, for $\theta \in \Omega$
+
+Then the **score function** is defined as
+ $S(x;\theta) = \frac{\partial}{\partial \theta} \ln f(x;\theta)$$
+
 
 ## Definition: Fisher information
-![[3 Reference/def-fisher-information_202507170919#Definition]]
+## Definition
+
+Let
+
+- $X$ : [[3 Reference/Def-random-variable\|Random variable]], with
+    - [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta)$, for $\theta \in \Omega$
+- $S(X;\theta)$ : [[3 Reference/def-score-function_202507170918\|Score Function]]
+
+Then the **Fisher information** is defined as: 
+$$
+\begin{align}
+I(\theta) & = E\left[S(X;\theta)^2\right] \\
+ & = E\left[\left(\frac{\partial}{\partial \theta} \ln f(X;\theta)\right)^2\right] \\
+ & = -E\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right]
+\end{align}
+$$
+
 
 ## Theorem 6.2.1: Rao-Cramér lower bound
-![[3 Reference/def-rao-cramer-lower-bound_202507171109#Definition^]]
+## Definition
+
+Let
+- $X_{1},\dots,X_{n}$: [[3 Reference/mathstat4.1#Definition 4.1.1 Random sample\|Random sample]], with [[3 Reference/mathstat1.7#Definition Probability density function (pdf)\|pdf]] $f(x;\theta),\theta\in \Omega$
+- $Y=u(X_{1},X_{2},\dots,X_{n})$ : [[3 Reference/mathstat4.1#Definition 4.1.2 Statistic\|Statistic]]
+- $k(\theta)=E(Y)$[^1]
+- $I(\theta)$ : [[3 Reference/def-fisher-information_202507170919\|Fisher information]]
+
+Assume [[3 Reference/mathstat6.1#Assumptions 6.1.1 Regularity conditions\|regularity conditions]] and [[3 Reference/mathstat6.2#Assumptions 6.2.1 Additional regularity conditions 1\|additional regularity conditions 1]] hold.
+
+Then
+$ \operatorname{Var}(Y)\geq \boxed{\frac{[k'(\theta)]^2}{nI(\theta)}} $$
+- We say $[k'(\theta)]^2/nI(\theta)$ is the **Rao-Cramer lower bound** of $Y$
+
 
 ## Corollary 6.2.1: Rao-Cramér bound for unbiased estimators
 > Under the same conditions as [[3 Reference/mathstat6.2#Theorem 6.2.1 Rao-Cramér lower bound]]
@@ -38,7 +86,12 @@
 ^def-efficiency
 
 ## Definition 6.2.1: Efficient estimator
-![[3 Reference/def-efficient-estimator_202507170919#Definition]]
+## Definition
+
+Let $Y$ : [[3 Reference/Def-unbiased-estimator\|Unbiased estimator]] of parameter $\theta$
+
+Then $Y$ is an **efficient estimator** $\iff$ $Y$ attains the [[3 Reference/mathstat6.2#Theorem 6.2.1 Rao-Cramér lower bound\|Rao-Cramér lower bound]]
+
 
 ## Assumptions 6.2.2: Additional regularity conditions 2
 > - $(\mathbf{R5})$ : The pdf $f(x;\theta)$ is three times differentiable as a function of $\theta$. Further, for all $\theta \in \Omega$, there exist a constant $c$ and a function $M(x)$ such that $$

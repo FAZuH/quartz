@@ -1,5 +1,20 @@
 ---
-{"publish":true,"aliases":["Row Space, Column Space, Null Space","Row Space","Column Space","Null Space"],"created":"2025-12-03T07:29:32.382+07:00","modified":"2025-12-03T07:31:30.222+07:00","published":"2025-12-03T07:31:30.222+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-06 11:24","status":"baby","parent":["[[Elementary Linear Algebra]]"]}
+publish: true
+aliases:
+  - Row Space, Column Space, Null Space
+  - Row Space
+  - Column Space
+  - Null Space
+created: 2025-12-03T07:29:32.382+07:00
+modified: 2025-12-03T07:31:30.222+07:00
+published: 2025-12-03T07:31:30.222+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-10-06 11:24
+status: baby
+parent:
+  - "[[Elementary Linear Algebra]]"
 ---
 
 

@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Tugas Rangkuman 1"],"created":"2025-10-14T04:15:27.035+07:00","modified":"2025-10-14T04:15:27.035+07:00","published":"2025-10-14T04:15:27.035+07:00","tags":[null],"cssclasses":"","creation-time":"2025-09-07 18:19","status":"archived","parent":["[[statistika-matematika-2-(take-3)_202509071819]]"]}
+publish: true
+aliases:
+  - Tugas Rangkuman 1
+created: 2025-10-14T04:15:27.035+07:00
+modified: 2025-10-14T04:15:27.035+07:00
+published: 2025-10-14T04:15:27.035+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-09-07 18:19
+status: archived
+parent:
+  - "[[statistika-matematika-2-(take-3)_202509071819]]"
 ---
 
 ## Soal
@@ -84,10 +96,99 @@ $$
 
 
 Explain using:
-![[3 Reference/theorem-chebyshev's-inequality_202509071843\|Chebyshev's Inequality]]
+
+
+## Theorem
+
+Let:
+- $X$ [[3 Reference/Def-random-variable\|Random Variable]]
+- $\sigma^2\in \mathbb{R}$ [[3 Reference/Def-variance\|Variance]] of $X$
+- $\mu=E(X)$ (by [[3 Reference/theorem-existence-of-lower-order-moments_202509071843\|Existence of Lower Order Moments]], $\sigma^2\in \mathbb{R}$ implies that $E(X)$ exists)
+
+Then, for every $k > 0$
+$$
+P(|X - \mu| \geq k\sigma) \leq \frac{1}{k^2}
+$$
+
+Or equivalently,
+$$
+P(|X - \mu| < k\sigma) \geq 1 - \frac{1}{k^2}
+$$
+
+## Example
+
+> If $X$ is a [[3 Reference/Def-random-variable\|random variable]] such that $E(X)=3$ and $E(X^{2})=13$, use Chebyshev's inequality to determine a lower bound for the probability $P(-2<X<8)$
+
+We have,
+- $\mu=E(X)=3$
+- $\sigma^{2}=E(X^{2})-[E(X)]^{2}=13-3^{2}=4$
+- $\sigma=\sqrt{ \sigma^{2} }=\sqrt{ 4 }=2$
+
+Then
+$$
+\begin{align}
+P(-2<X<8) & = P(-2-3<X-3<8-3) \\
+ & = P(-5<X-3<5) \\
+ & = P(|X-3|<5)
+\end{align}
+$$
+
+By Chebyshev's inequality, the form $P(|X-3|<5)$ has to satisfy $P(|X-\mu|<k\sigma)$. Thus
+$$
+\begin{align}
+k\sigma & = 5 \\
+k\cdot2 & = 5 \\
+k & = \frac{5}{2}
+\end{align}
+$$
+
+As a result, the lower bound for $P(-2<X<8)$ is:
+$$
+\begin{align}
+P(-2<X<8) & = P(|X-3|<5) \\
+ & = 1 - \frac{1}{k^{2}}  \\
+ & = 1 - \frac{1}{\left( \frac{5}{2} \right)^{2}} \\
+ & = 1 - \frac{4}{25} \\
+ & = \boxed{0.84}
+\end{align}
+$$
 
 **Example 1**
-![[3 Reference/mathstat5.2#Hogg & Craig 5th ed. 5.7.\|Hogg & Craig 5th ed. 5.7.]]
+### Hogg & Craig 5th ed. 5.7.
+
+Let
+- $Y_{n}$ : Sequence of [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|random variable]], with
+	- $Y_{n}\sim b(n,p)$ ([[3 Reference/Discrete Distributions#Discrete distribution cheatsheet\|check here]])
+
+Prove that $1-Y_{n}/n$ [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|converges in probability]] to $1-p$
+
+**Answer**
+
+Karena $Y_{n}\sim b(n,p)$, berarti $E[Y_{n}]=np$ dan $\operatorname{Var}(Y_{n})=np(1-p)$. Misalkan $\bar{Y}_{n}=\frac{Y_{n}}{n}$. Maka,
+
+- $E[\bar{Y_n}] = \frac{E[Y_n]}{n} = \frac{np}{n} = p$
+- $\text{Var}(\bar{Y_n}) = \frac{\text{Var}(Y_n)}{n^2} = \frac{np(1-p)}{n^2} = \frac{p(1-p)}{n}$
+
+Misalkan $k=\frac{\epsilon}{\sigma}$. Berdasarkan [[3 Reference/mathstat1.10#Theorem 1.10.3 Chebyshev’s inequality\|teorema Chebyshev]], 
+$$
+\begin{align}
+P\left(\left|\bar{Y}_{n}-E[X]\right| > k\sigma \right) & \leq \frac{1}{k^2} \\
+
+P\left(\left| \frac{Y_{n}}{n} - p \right| > \epsilon \right) & \leq \frac{\sigma^2}{\epsilon^2}  \\
+ 
+ & \leq \frac{\operatorname{Var}(\bar{Y}_{n})}{\epsilon^2} = \frac{p(1-p)}{n\epsilon^2} \\
+
+\lim_{n \to \infty} P\left(\left|\frac{Y_n}{n} - p\right| > \epsilon\right)  & \leq \lim_{n \to \infty} \frac{p(1-p)}{n\epsilon^2} = 0
+\end{align}
+$$
+
+Sehingga diperoleh
+$$
+\lim_{n \to \infty} P\left(\left|1 - \frac{Y_n}{n} - (1-p)\right| > \epsilon\right) = 0
+$$
+
+Berdasarkan [[3 Reference/mathstat5.1#Definition 5.1.1 Convergence in probability\|definisi konvergen dalam probabilitas]], terbukti bahwa $1-\frac{Y_{n}}{n}\xrightarrow P 1-p$
+
 
 **Example 2**
 Use proving [[3 Reference/mathstat5.1#Theorem 5.1.1 Weak law of large numbers\|Theorem 5.1.1 Weak law of large numbers]]

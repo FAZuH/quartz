@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Kronecker Product"],"created":"2025-11-05T08:22:42.153+07:00","modified":"2025-11-05T08:40:57.521+07:00","published":"2025-11-05T08:40:57.521+07:00","tags":[null],"cssclasses":"","creation-time":"2025-11-05 08:22","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Kronecker Product
+created: 2025-11-05T08:22:42.153+07:00
+modified: 2025-11-05T08:40:57.521+07:00
+published: 2025-11-05T08:40:57.521+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-11-05 08:22
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

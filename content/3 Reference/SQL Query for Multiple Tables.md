@@ -1,5 +1,15 @@
 ---
-{"publish":true,"created":"2025-10-14T04:15:27.061+07:00","modified":"2025-10-14T04:15:27.061+07:00","published":"2025-10-14T04:15:27.061+07:00","tags":["content-type/referential"],"cssclasses":"","creation-time":"2025-03-06 09:17","status":"adult","parent":["[[sql]]"]}
+publish: true
+created: 2025-10-14T04:15:27.061+07:00
+modified: 2025-10-14T04:15:27.061+07:00
+published: 2025-10-14T04:15:27.061+07:00
+tags:
+  - content-type/referential
+cssclasses: ""
+creation-time: 2025-03-06 09:17
+status: adult
+parent:
+  - "[[sql]]"
 ---
 
 

@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Central t-Distribution"],"created":"2025-12-11T15:16:54.013+07:00","modified":"2025-12-11T15:21:07.558+07:00","published":"2025-12-11T15:21:07.558+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-11 15:16","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - Central t-Distribution
+created: 2025-12-11T15:16:54.013+07:00
+modified: 2025-12-11T15:21:07.558+07:00
+published: 2025-12-11T15:21:07.558+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-11 15:16
+status: baby
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 

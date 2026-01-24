@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Vector Function"],"created":"2025-12-10T14:41:37.867+07:00","modified":"2025-12-10T14:41:45.771+07:00","published":"2025-12-10T14:41:45.771+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:41","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Vector Function
+created: 2025-12-10T14:41:37.867+07:00
+modified: 2025-12-10T14:41:45.771+07:00
+published: 2025-12-10T14:41:45.771+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-10 14:41
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

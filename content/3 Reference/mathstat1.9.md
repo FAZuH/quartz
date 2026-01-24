@@ -1,18 +1,60 @@
 ---
-{"publish":true,"aliases":["1.9 Some Special Expectations.md"],"created":"2025-10-14T04:15:27.047+07:00","modified":"2025-10-14T04:15:27.047+07:00","published":"2025-10-14T04:15:27.047+07:00","cssclasses":"","creation-time":"2025-06-24 01:28","status":"baby","tags":null,"parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - 1.9 Some Special Expectations.md
+created: 2025-10-14T04:15:27.047+07:00
+modified: 2025-10-14T04:15:27.047+07:00
+published: 2025-10-14T04:15:27.047+07:00
+cssclasses: ""
+creation-time: 2025-06-24 01:28
+status: baby
+tags:
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 
 << [[3 Reference/mathstat1.8\|1.8 Expectation of Random Variable]] | [[3 Reference/mathstat1.10\|1.10 Important Inequalities.md]] >>
 
 ## Definition 1.9.1: Mean
-![[3 Reference/Def-mean#Definition]]
+## Definition
+Let
+- $X$ : [[3 Reference/mathstat1.5#Definition 1.5.1 Random variable\|Random variable]]
+- [[3 Reference/mathstat1.8#Expectation definition\|Expectation]] of $X$ exists
+
+If
+$$
+\mu = E(X)
+$$
+
+Then we say $\mu$ is the **mean** value of $X$
+
 
 ## Definition 1.9.2: Variance
-![[3 Reference/Def-variance#Definition]]
+## Definition
+Let
+- $X$ : [[3 Reference/Def-random-variable\|Random variable]], with
+	- Finite [[3 Reference/Def-mean\|mean]] $\mu$
+	- Finite $E[(X-\mu)^2]$
+
+If
+$$
+\sigma^2=\operatorname{Var}(X) = E[(X-\mu)^2]
+$$
+
+Then we say $\sigma^2$ is the **variance** of $X$
+
 
 ## Definition: Moments
-![[3 Reference/Def-moments#Definition]]
+## Definition
+
+In general, if $m$ is a positive integer, and if $M^{(m)}(t)$ means the $m$-th derivative of $M(t)$, we have, by repeated differentiation with respect to $t$,
+$M^{(m)}(0) = E(X^m)$$
+
+Now
+$E(X^m) = \int_{-\infty}^\infty x^m f(x)\,dx \quad \text{or}\quad \sum_{x}x^m p(x),$$
+and in mechanics, the integrals (or sums) of this sort are called **moments**.
+
 
 ## Theorem 1.9.1: Constant multiplication and addition with variance
 > Let
@@ -27,7 +69,17 @@
 > $$
 
 ## Definition 1.9.3: Moment generating function (mgf)
-![[3 Reference/Def-moment-generating-function-(mgf)#Definition]]
+## Definition
+
+Let $X$ : [[3 Reference/Def-random-variable\|Random variable]]
+
+If
+$$
+\exists h>0\ni E(e^{tX}) <\infty,\; \forall t\in(-h,h)
+$$
+
+Then we say $M_{X}(t)=E(e^{tX})$ is the **moment generating function** (mgf) of $X$
+
 
 ## Theorem 1.9.2: Uniqueness of mgf
 > Let

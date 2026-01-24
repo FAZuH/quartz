@@ -1,5 +1,22 @@
 ---
-{"publish":true,"aliases":["Positive Definite Matrix","Positive Semidefinite Matrix","Negative Definite Matrix","Negative Semidefinite Matrix","Indefinite Matrix","Definite Matrix"],"created":"2025-12-10T14:05:36.710+07:00","modified":"2025-12-10T14:12:18.765+07:00","published":"2025-12-10T14:12:18.765+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-10 14:05","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - Positive Definite Matrix
+  - Positive Semidefinite Matrix
+  - Negative Definite Matrix
+  - Negative Semidefinite Matrix
+  - Indefinite Matrix
+  - Definite Matrix
+created: 2025-12-10T14:05:36.710+07:00
+modified: 2025-12-10T14:12:18.765+07:00
+published: 2025-12-10T14:12:18.765+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-10 14:05
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

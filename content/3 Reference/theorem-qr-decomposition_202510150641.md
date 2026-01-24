@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["QR Decomposition"],"created":"2025-10-15T06:41:15.911+07:00","modified":"2025-10-15T07:18:33.086+07:00","published":"2025-10-15T07:18:33.086+07:00","tags":[null],"cssclasses":"","creation-time":"2025-10-15 06:41","status":"baby","parent":["[[matrices]]"]}
+publish: true
+aliases:
+  - QR Decomposition
+created: 2025-10-15T06:41:15.911+07:00
+modified: 2025-10-15T07:18:33.086+07:00
+published: 2025-10-15T07:18:33.086+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-10-15 06:41
+status: baby
+parent:
+  - "[[matrices]]"
 ---
 
 

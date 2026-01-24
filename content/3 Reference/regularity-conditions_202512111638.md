@@ -1,5 +1,17 @@
 ---
-{"publish":true,"aliases":["Regularity Conditions"],"created":"2025-12-11T16:38:18.672+07:00","modified":"2025-12-11T16:39:41.241+07:00","published":"2025-12-11T16:39:41.241+07:00","tags":[null],"cssclasses":"","creation-time":"2025-12-11 16:38","status":"baby","parent":["[[Introduction to Mathematical Statistics]]"]}
+publish: true
+aliases:
+  - Regularity Conditions
+created: 2025-12-11T16:38:18.672+07:00
+modified: 2025-12-11T16:39:41.241+07:00
+published: 2025-12-11T16:39:41.241+07:00
+tags:
+  - 
+cssclasses: ""
+creation-time: 2025-12-11 16:38
+status: baby
+parent:
+  - "[[Introduction to Mathematical Statistics]]"
 ---
 
 ## Assumptions

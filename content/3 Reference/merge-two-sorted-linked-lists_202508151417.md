@@ -1,5 +1,16 @@
 ---
-{"publish":true,"aliases":["Merge Two Sorted Linked Lists"],"created":"2025-10-14T04:15:27.041+07:00","modified":"2025-10-14T04:15:27.041+07:00","published":"2025-10-14T04:15:27.041+07:00","cssclasses":"","creation-time":"2025-08-15 14:17","status":"baby","tags":null,"parent":["[[dsa-problems_202508172322|dsa problems]]"]}
+publish: true
+aliases:
+  - Merge Two Sorted Linked Lists
+created: 2025-10-14T04:15:27.041+07:00
+modified: 2025-10-14T04:15:27.041+07:00
+published: 2025-10-14T04:15:27.041+07:00
+cssclasses: ""
+creation-time: 2025-08-15 14:17
+status: baby
+tags:
+parent:
+  - "[[dsa-problems_202508172322|dsa problems]]"
 ---
 
 You are given the heads of two sorted linked lists `list1` and `list2`.
