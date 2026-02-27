@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Internal Links for Weekly Material
   - Materi Statmat 2
-created: 2025-10-22T05:58:34.930+07:00
-modified: 2025-12-12T07:48:22.900+07:00
-published: 2025-12-12T07:48:22.900+07:00
+created: 2026-02-22T19:23:58.241+07:00
+modified: 2026-02-22T19:23:58.242+07:00
+published: 2026-02-22T19:23:58.242+07:00
 cssclasses: ""
 creation-time: 2025-07-17 09:55
 status: baby

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 1.3 The Probability Set Function
-created: 2025-10-14T04:15:27.055+07:00
-modified: 2025-10-14T04:15:27.056+07:00
-published: 2025-10-14T04:15:27.056+07:00
+created: 2026-02-22T19:24:22.048+07:00
+modified: 2026-02-22T19:24:22.055+07:00
+published: 2026-02-22T19:24:22.055+07:00
 cssclasses: ""
 creation-time: 2025-06-18 18:15
 status: adult

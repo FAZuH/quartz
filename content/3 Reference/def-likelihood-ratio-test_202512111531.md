@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Likelihood Ratio Test
   - Likelihood Ratio
-created: 2025-12-11T15:31:51.946+07:00
-modified: 2025-12-19T14:35:35.796+07:00
-published: 2025-12-19T14:35:35.796+07:00
+created: 2026-02-22T19:23:58.396+07:00
+modified: 2026-02-22T19:23:58.396+07:00
+published: 2026-02-22T19:23:58.396+07:00
 tags:
   - 
 cssclasses: ""

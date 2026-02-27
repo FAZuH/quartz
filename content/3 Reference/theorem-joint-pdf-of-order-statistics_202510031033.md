@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Joint pdf of Order Statistics
-created: 2025-10-14T04:15:27.076+07:00
-modified: 2025-10-14T04:15:27.076+07:00
-published: 2025-10-14T04:15:27.076+07:00
+created: 2026-02-22T19:24:22.814+07:00
+modified: 2026-02-22T19:24:22.815+07:00
+published: 2026-02-22T19:24:22.815+07:00
 tags:
   - 
 cssclasses: ""

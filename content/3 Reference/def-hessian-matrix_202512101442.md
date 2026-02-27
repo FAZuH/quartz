@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Hessian Matrix
-created: 2025-12-10T14:42:33.299+07:00
-modified: 2025-12-10T14:42:42.709+07:00
-published: 2025-12-10T14:42:42.709+07:00
+created: 2026-02-22T19:23:58.389+07:00
+modified: 2026-02-22T19:23:58.389+07:00
+published: 2026-02-22T19:23:58.389+07:00
 tags:
   - 
 cssclasses: ""

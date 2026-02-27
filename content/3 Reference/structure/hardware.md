@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - hardware
-created: 2025-11-12T18:34:55.981+07:00
-modified: 2025-11-12T18:34:56.001+07:00
-published: 2025-11-12T18:34:56.001+07:00
+created: 2026-02-22T19:24:22.353+07:00
+modified: 2026-02-22T19:24:22.354+07:00
+published: 2026-02-22T19:24:22.354+07:00
 tags:
   - type/category
 cssclasses: ""

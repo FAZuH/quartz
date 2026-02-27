@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Best Critical Region
   - Best Test
-created: 2025-10-14T04:15:27.064+07:00
-modified: 2025-12-11T15:33:15.289+07:00
-published: 2025-12-11T15:33:15.289+07:00
+created: 2026-02-22T19:23:58.380+07:00
+modified: 2026-02-22T19:23:58.380+07:00
+published: 2026-02-22T19:23:58.380+07:00
 cssclasses: ""
 creation-time: 2025-08-05 21:10
 status: baby

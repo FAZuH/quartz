@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2025-10-14T04:15:27.069+07:00
-modified: 2026-01-13T20:42:31.138+07:00
-published: 2026-01-13T20:42:31.138+07:00
+created: 2026-02-22T19:24:22.646+07:00
+modified: 2026-02-22T19:24:22.650+07:00
+published: 2026-02-22T19:24:22.650+07:00
 tags:
   - type/category
 cssclasses: ""

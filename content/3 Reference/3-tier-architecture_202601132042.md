@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 3-Tier Architecture
-created: 2026-01-13T20:42:57.008+07:00
-modified: 2026-01-13T20:44:24.178+07:00
-published: 2026-01-13T20:44:24.178+07:00
+created: 2026-02-22T19:23:58.311+07:00
+modified: 2026-02-22T19:23:58.311+07:00
+published: 2026-02-22T19:23:58.311+07:00
 tags:
   - 
 cssclasses: ""

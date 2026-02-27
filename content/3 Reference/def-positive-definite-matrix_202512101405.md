@@ -7,9 +7,9 @@ aliases:
   - Negative Semidefinite Matrix
   - Indefinite Matrix
   - Definite Matrix
-created: 2025-12-10T14:05:36.710+07:00
-modified: 2025-12-10T14:12:18.765+07:00
-published: 2025-12-10T14:12:18.765+07:00
+created: 2026-02-22T19:23:58.404+07:00
+modified: 2026-02-22T19:23:58.404+07:00
+published: 2026-02-22T19:23:58.404+07:00
 tags:
   - 
 cssclasses: ""

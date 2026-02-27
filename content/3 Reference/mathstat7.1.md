@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 7.1 Measures of Quality Estimators.md
-created: 2025-10-14T04:15:27.057+07:00
-modified: 2025-12-11T17:23:05.028+07:00
-published: 2025-12-11T17:23:05.028+07:00
+created: 2026-02-22T19:24:22.103+07:00
+modified: 2026-02-22T19:24:22.111+07:00
+published: 2026-02-22T19:24:22.111+07:00
 cssclasses: ""
 creation-time: 2025-07-03 13:05
 status: baby

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 6.2 Rao-Cramér Lower Bound and Efficiency.md
-created: 2025-10-14T04:15:27.052+07:00
-modified: 2025-12-11T17:22:45.009+07:00
-published: 2025-12-11T17:22:45.009+07:00
+created: 2026-02-22T19:24:22.102+07:00
+modified: 2026-02-22T19:24:22.103+07:00
+published: 2026-02-22T19:24:22.103+07:00
 cssclasses: ""
 creation-time: 2025-07-06 23:56
 status: baby

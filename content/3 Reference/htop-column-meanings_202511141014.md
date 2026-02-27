@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Htop Column Meanings
-created: 2025-11-14T10:14:50.806+07:00
-modified: 2025-11-14T10:16:01.611+07:00
-published: 2025-11-14T10:16:01.611+07:00
+created: 2026-02-22T19:24:21.977+07:00
+modified: 2026-02-22T19:24:21.978+07:00
+published: 2026-02-22T19:24:21.978+07:00
 tags:
   - 
 cssclasses: ""

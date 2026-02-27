@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Chapter 4 Exercises
-created: 2025-12-11T14:08:33.101+07:00
-modified: 2025-12-11T14:09:24.222+07:00
-published: 2025-12-11T14:09:24.222+07:00
+created: 2026-02-22T19:23:58.375+07:00
+modified: 2026-02-22T19:23:58.375+07:00
+published: 2026-02-22T19:23:58.375+07:00
 tags:
   - 
 cssclasses: ""

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Jacobian Matrix
-created: 2025-12-10T14:42:16.451+07:00
-modified: 2025-12-10T14:42:24.705+07:00
-published: 2025-12-10T14:42:24.705+07:00
+created: 2026-02-22T19:23:58.394+07:00
+modified: 2026-02-22T19:23:58.394+07:00
+published: 2026-02-22T19:23:58.394+07:00
 tags:
   - 
 cssclasses: ""

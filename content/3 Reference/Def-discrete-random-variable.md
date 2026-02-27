@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Discrete Random Variable
-created: 2025-10-14T04:15:27.049+07:00
-modified: 2025-10-17T04:06:38.842+07:00
-published: 2025-10-17T04:06:38.842+07:00
+created: 2026-02-22T19:23:58.354+07:00
+modified: 2026-02-22T19:23:58.355+07:00
+published: 2026-02-22T19:23:58.355+07:00
 cssclasses: ""
 creation-time: 2025-07-15 06:20
 status: baby

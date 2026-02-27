@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Common Distribution Equations
-created: 2025-10-14T04:15:27.038+07:00
-modified: 2025-12-19T14:21:33.444+07:00
-published: 2025-12-19T14:21:33.444+07:00
+created: 2026-02-22T19:23:58.377+07:00
+modified: 2026-02-22T19:23:58.377+07:00
+published: 2026-02-22T19:23:58.377+07:00
 cssclasses: ""
 creation-time: 2025-07-22 17:12
 status: baby

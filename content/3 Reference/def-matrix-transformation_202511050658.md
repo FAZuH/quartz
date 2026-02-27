@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Matrix Transformation
   - Matrix Operator
-created: 2025-11-05T06:58:33.734+07:00
-modified: 2025-11-05T07:14:56.587+07:00
-published: 2025-11-05T07:14:56.587+07:00
+created: 2026-02-22T19:23:58.398+07:00
+modified: 2026-02-22T19:23:58.398+07:00
+published: 2026-02-22T19:23:58.398+07:00
 tags:
   - 
 cssclasses: ""

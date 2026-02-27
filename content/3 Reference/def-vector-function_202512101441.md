@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Vector Function
-created: 2025-12-10T14:41:37.867+07:00
-modified: 2025-12-10T14:41:45.771+07:00
-published: 2025-12-10T14:41:45.771+07:00
+created: 2026-02-22T19:23:58.416+07:00
+modified: 2026-02-22T19:23:58.416+07:00
+published: 2026-02-22T19:23:58.416+07:00
 tags:
   - 
 cssclasses: ""

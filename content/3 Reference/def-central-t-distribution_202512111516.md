@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Central t-Distribution
-created: 2025-12-11T15:16:54.013+07:00
-modified: 2025-12-11T15:21:07.558+07:00
-published: 2025-12-11T15:21:07.558+07:00
+created: 2026-02-22T19:23:58.381+07:00
+modified: 2026-02-22T19:23:58.381+07:00
+published: 2026-02-22T19:23:58.381+07:00
 tags:
   - 
 cssclasses: ""

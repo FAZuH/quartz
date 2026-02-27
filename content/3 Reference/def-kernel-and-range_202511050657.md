@@ -4,9 +4,9 @@ aliases:
   - Kernel and Range
   - Kernel
   - Range
-created: 2025-11-05T06:57:25.788+07:00
-modified: 2025-12-10T11:32:07.967+07:00
-published: 2025-12-10T11:32:07.967+07:00
+created: 2026-02-22T19:23:58.394+07:00
+modified: 2026-02-22T19:23:58.394+07:00
+published: 2026-02-22T19:23:58.394+07:00
 tags:
   - 
 cssclasses: ""

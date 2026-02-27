@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Eigenvalue
   - Eigenvector
-created: 2025-11-05T04:58:52.232+07:00
-modified: 2025-12-10T12:38:24.577+07:00
-published: 2025-12-10T12:38:24.577+07:00
+created: 2026-02-22T19:23:58.386+07:00
+modified: 2026-02-22T19:23:58.386+07:00
+published: 2026-02-22T19:23:58.386+07:00
 tags:
   - 
 cssclasses: ""

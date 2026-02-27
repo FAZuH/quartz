@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Regularity Conditions
-created: 2025-12-11T16:38:18.672+07:00
-modified: 2025-12-11T16:39:41.241+07:00
-published: 2025-12-11T16:39:41.241+07:00
+created: 2026-02-22T19:24:22.221+07:00
+modified: 2026-02-22T19:24:22.223+07:00
+published: 2026-02-22T19:24:22.223+07:00
 tags:
   - 
 cssclasses: ""

@@ -5,9 +5,9 @@ aliases:
   - Row Space
   - Column Space
   - Null Space
-created: 2025-12-03T07:29:32.382+07:00
-modified: 2025-12-03T07:31:30.222+07:00
-published: 2025-12-03T07:31:30.222+07:00
+created: 2026-02-22T19:23:58.409+07:00
+modified: 2026-02-22T19:23:58.409+07:00
+published: 2026-02-22T19:23:58.409+07:00
 tags:
   - 
 cssclasses: ""

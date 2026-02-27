@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 1.7 Continuous Random Variables
-created: 2025-10-14T04:15:27.061+07:00
-modified: 2025-10-14T04:15:27.062+07:00
-published: 2025-10-14T04:15:27.062+07:00
+created: 2026-02-22T19:24:22.068+07:00
+modified: 2026-02-22T19:24:22.069+07:00
+published: 2026-02-22T19:24:22.069+07:00
 cssclasses: ""
 creation-time: 2025-07-02 22:36
 status: baby

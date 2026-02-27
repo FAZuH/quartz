@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Using git-crypt to Store Encrypted Files in a Git Repository
-created: 2025-10-14T04:15:27.050+07:00
-modified: 2025-10-14T04:15:27.050+07:00
-published: 2025-10-14T04:15:27.050+07:00
+created: 2026-02-22T19:24:22.931+07:00
+modified: 2026-02-22T19:24:22.939+07:00
+published: 2026-02-22T19:24:22.939+07:00
 cssclasses: ""
 creation-time: 2025-07-22 16:28
 status: baby

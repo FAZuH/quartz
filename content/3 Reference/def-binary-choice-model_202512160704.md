@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Binary Choice Model
-created: 2025-12-16T07:04:58.018+07:00
-modified: 2025-12-16T07:05:25.580+07:00
-published: 2025-12-16T07:05:25.580+07:00
+created: 2026-02-22T19:23:58.380+07:00
+modified: 2026-02-22T19:23:58.380+07:00
+published: 2026-02-22T19:23:58.380+07:00
 tags:
   - 
 cssclasses: ""

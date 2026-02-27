@@ -2,16 +2,16 @@
 publish: true
 aliases:
   - Referential Material
-created: 2025-11-14T20:40:09.605+07:00
-modified: 2025-11-14T20:48:13.835+07:00
-published: 2025-11-14T20:48:13.835+07:00
+created: 2026-02-22T19:24:22.217+07:00
+modified: 2026-02-22T19:24:22.221+07:00
+published: 2026-02-22T19:24:22.221+07:00
 tags:
   - 
 cssclasses: ""
 creation-time: 2025-11-14 20:40
 status: baby
 parent:
-  - "[[learning-methods_202510032125]]"
+  - "[[studying]]"
 ---
 
 

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Matrix Differentiation Properties
-created: 2025-12-10T14:42:55.823+07:00
-modified: 2025-12-10T14:43:03.835+07:00
-published: 2025-12-10T14:43:03.835+07:00
+created: 2026-02-22T19:24:22.821+07:00
+modified: 2026-02-22T19:24:22.822+07:00
+published: 2026-02-22T19:24:22.822+07:00
 tags:
   - 
 cssclasses: ""

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Logarithm Cheatsheet
-created: 2025-12-12T05:25:22.523+07:00
-modified: 2025-12-12T05:30:43.877+07:00
-published: 2025-12-12T05:30:43.877+07:00
+created: 2026-02-22T19:24:22.026+07:00
+modified: 2026-02-22T19:24:22.028+07:00
+published: 2026-02-22T19:24:22.028+07:00
 tags:
   - 
 cssclasses: ""

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - QR Decomposition
-created: 2025-10-15T06:41:15.911+07:00
-modified: 2025-10-15T07:18:33.086+07:00
-published: 2025-10-15T07:18:33.086+07:00
+created: 2026-02-22T19:24:22.883+07:00
+modified: 2026-02-22T19:24:22.889+07:00
+published: 2026-02-22T19:24:22.889+07:00
 tags:
   - 
 cssclasses: ""

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Cochran-Mantel-Haenszel Test of Conditional Independence
-created: 2025-11-24T08:59:32.966+07:00
-modified: 2025-11-24T09:33:13.085+07:00
-published: 2025-11-24T09:33:13.085+07:00
+created: 2026-02-22T19:23:58.377+07:00
+modified: 2026-02-22T19:23:58.377+07:00
+published: 2026-02-22T19:23:58.377+07:00
 tags:
   - 
 cssclasses: ""
