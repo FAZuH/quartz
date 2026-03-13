@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.653+07:00
-modified: 2026-02-22T19:24:22.656+07:00
-published: 2026-02-22T19:24:22.656+07:00
+modified: 2026-03-12T21:41:27.309+07:00
+published: 2026-03-12T21:41:27.309+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -22,3 +22,4 @@ PassFrontmatter: true
 - [[3 Reference/structure/mathematical-statistics\|mathematical statistics]]
 - [[3 Reference/structure/multivariate analysis\|multivariate analysis]]
 - [[3 Reference/structure/sampling methods\|sampling methods]]
+- [[3 Reference/structure/stochastic-model\|stochastic model]]

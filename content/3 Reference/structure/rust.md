@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Rust
 created: 2026-02-22T19:24:22.632+07:00
-modified: 2026-02-27T22:29:58.796+07:00
-published: 2026-02-27T22:29:58.796+07:00
+modified: 2026-02-28T18:36:55.987+07:00
+published: 2026-02-28T18:36:55.987+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -45,6 +45,8 @@ parent:
 	- [[3 Reference/integer-overflow_202602030714\|Integer Overflow]]
 	- [[3 Reference/segmentation-fault-in-rust_202601241918\|Segmentation Fault in Rust]]
 - [[3 Reference/struct-derives_202602272229\|When to use Struct Derives]]
+- [[3 Reference/async-terms_202602281835\|Async Terms]]
+- [[3 Reference/panicking-in-drop_202602281836\|Panicking in Drop]]
 
 **Collections**
 - [[3 Reference/general-notes_202507160127\|General Notes]]

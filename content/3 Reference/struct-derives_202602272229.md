@@ -3,8 +3,8 @@ publish: true
 aliases:
   - When to use Struct Derives
 created: 2026-02-27T22:29:14.481+07:00
-modified: 2026-02-27T22:29:44.596+07:00
-published: 2026-02-27T22:29:44.596+07:00
+modified: 2026-03-01T16:02:18.269+07:00
+published: 2026-03-01T16:02:18.269+07:00
 tags:
   - 
 cssclasses: ""
@@ -27,3 +27,5 @@ parent:
 | `Serialize` / `Deserialize` | When crossing API/file boundaries (via `serde`)                              |
 
 **Practical default**: slap `#[derive(Debug, Clone)]` on almost everything. Add the rest as needed.
+
+Not using common derives may cause problems to our crate users due to orphan rules - we cannot implement external traits (derives in this case) to external structs (our crate), so the user of our crate must do some workarounds such as using wrapper structs (newtype pattern).

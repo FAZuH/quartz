@@ -62,7 +62,7 @@ JOIN authors
   ON books.author_id = authors.id;
 ```
 
-![[assets/inner-join.webp|300]]
+![[inner-join.webp\|300]]
 
 ### Left join
 
@@ -73,4 +73,4 @@ LEFT JOIN table2
   ON table1.column_name = table2.column_name;
 ```
 
-![[assets/left-join.webp|300]]
+![[left-join.webp\|300]]
