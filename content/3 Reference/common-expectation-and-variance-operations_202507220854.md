@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Common Expectation and Variance Operations
 created: 2026-02-22T19:23:58.377+07:00
-modified: 2026-02-22T19:23:58.377+07:00
-published: 2026-02-22T19:23:58.377+07:00
+modified: 2026-03-15T14:40:59.753+07:00
+published: 2026-03-15T14:40:59.753+07:00
 cssclasses: ""
 creation-time: 2025-07-22 08:54
 status: baby
@@ -39,13 +39,16 @@ $$
 \begin{align}
 E[X \pm Y] &= E[X] \pm E[Y] \\
 E[aX + bY] &= aE[X] + bE[Y] \\ \\
+
+E[XY]  & = E[X]E[Y] \\ \\
+
 \text{Var}(X \pm Y) &= \text{Var}(X) + \text{Var}(Y) \pm 2\text{Cov}(X,Y)\\
 \text{Var}(X + Y) &= \text{Var}(X) + \text{Var}(Y) \quad \text{when } X \perp Y\\
 \text{Var}(aX + bY) &= a^2\text{Var}(X) + b^2\text{Var}(Y) + 2ab\text{Cov}(X,Y)\\
 \end{align}
 $$
 
-## Sum of Independent Variables
+## Sum of Variables
 
 
 $$
@@ -66,3 +69,17 @@ $$
 \end{align}
 $$
 
+
+## Covariance
+
+$$
+\begin{align}
+\text{Cov}(X,Y) &= E[(X - E[X])(Y - E[Y])] \\
+\text{Cov}(X,Y) &= E[XY] - E[X]E[Y] \\
+\text{Cov}(X,X) &= \text{Var}(X) \\
+\text{Cov}(X,Y) &= 0 \quad \text{when } X \perp Y \\
+\text{Cov}(aX, bY) &= ab\,\text{Cov}(X,Y) \\
+\text{Cov}(X+a, Y+b) &= \text{Cov}(X,Y) \\
+\text{Cov}(X,Y) &= \text{Cov}(Y,X)
+\end{align}
+$$
