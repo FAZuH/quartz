@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:23:58.369+07:00
-modified: 2026-02-22T19:23:58.369+07:00
-published: 2026-02-22T19:23:58.369+07:00
+modified: 2026-03-16T09:22:35.870+07:00
+published: 2026-03-16T09:22:35.870+07:00
 cssclasses: ""
 creation-time: 2025-03-27 15:46
 status: adult
@@ -38,12 +38,12 @@ But not these:
 
 Defined as $\{e_t\}$, i.i.d. with $E(e_t) = 0$, $\operatorname{Var}(e_t) = \sigma_e^2$:
 
-| Property             | Expression                  |
-|----------------------|-----------------------------|
-| Mean                 | $\mu_t = 0$                 |
-| Autocovariance       | $\gamma_k = \begin{cases} \sigma_e^2 & ,k = 0 \\ 0 & ,k \neq 0 \end{cases}$ |
-| Autocorrelation      | $\rho_k = \begin{cases} 1 & ,k = 0 \\ 0 & ,k \neq 0 \end{cases}$ |
-| Stationarity         | Strict and weak             |
+| Property        | Expression                                                                  |
+| --------------- | --------------------------------------------------------------------------- |
+| Mean            | $\mu_t = 0$                                                                 |
+| Autocovariance  | $\gamma_k = \begin{cases} \sigma_e^2 & ,k = 0 \\ 0 & ,k \neq 0 \end{cases}$ |
+| Autocorrelation | $\rho_k = \begin{cases} 1 & ,k = 0 \\ 0 & ,k \neq 0 \end{cases}$            |
+| Stationarity    | Strict and weak                                                             |
 
 ### Random Cosine Wave
 

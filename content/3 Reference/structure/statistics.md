@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.653+07:00
-modified: 2026-03-12T21:41:27.309+07:00
-published: 2026-03-12T21:41:27.309+07:00
+modified: 2026-03-16T11:00:22.741+07:00
+published: 2026-03-16T11:00:22.741+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -17,7 +17,7 @@ PassFrontmatter: true
 
 **Subcategory**
 - [[3 Reference/structure/categorical-data-analysis\|categorical data analysis]]
-- [[3 Reference/structure/forcasting methods\|forcasting methods]]
+- [[3 Reference/structure/forecasting methods\|forcasting methods]]
 - [[3 Reference/structure/linear model]]
 - [[3 Reference/structure/mathematical-statistics\|mathematical statistics]]
 - [[3 Reference/structure/multivariate analysis\|multivariate analysis]]

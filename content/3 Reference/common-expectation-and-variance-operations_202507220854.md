@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Common Expectation and Variance Operations
 created: 2026-02-22T19:23:58.377+07:00
-modified: 2026-03-15T14:40:59.753+07:00
-published: 2026-03-15T14:40:59.753+07:00
+modified: 2026-03-16T09:58:49.180+07:00
+published: 2026-03-16T09:58:49.180+07:00
 cssclasses: ""
 creation-time: 2025-07-22 08:54
 status: baby
@@ -16,7 +16,7 @@ parent:
 
 ## Notation
 
-- $X, Y, X_i$: [[3 Reference/Def-random-variable\|Random variables]]
+- $X, Y, Z, X_i$: [[3 Reference/Def-random-variable\|Random variables]]
 - $a, b, c, c_i, a_i$: Constants/scalars
 - $X \perp Y$: $X$ and $Y$ are [[3 Reference/Def-independent-events\|independent]]
 - $\text{Cov}(X,Y)$: Covariance between $X$ and $Y$  #TODO: Create def note on covariance
@@ -76,6 +76,7 @@ $$
 \begin{align}
 \text{Cov}(X,Y) &= E[(X - E[X])(Y - E[Y])] \\
 \text{Cov}(X,Y) &= E[XY] - E[X]E[Y] \\
+\text{Cov}(X+Y, Z) & = \text{Cov}(X,Z) + \text{Cov}(Y,Z) \\
 \text{Cov}(X,X) &= \text{Var}(X) \\
 \text{Cov}(X,Y) &= 0 \quad \text{when } X \perp Y \\
 \text{Cov}(aX, bY) &= ab\,\text{Cov}(X,Y) \\
