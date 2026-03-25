@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Welcome to my Notes
-created: 2026-02-22T19:24:24.687+07:00
-modified: 2026-03-15T16:20:31.906+07:00
-published: 2026-03-15T16:20:31.906+07:00
+created: 2026-03-25T18:01:54.334+07:00
+modified: 2026-03-25T18:01:54.334+07:00
+published: 2026-03-25T18:01:54.334+07:00
 tags:
   - linker-exclude
 ---
@@ -12,8 +12,6 @@ tags:
 ![[assets/image-58.png|254]]
 
 Welcome to my notes!
-
-For recent notes, see the bottom of any note.
 
 About me: https://github.com/FAZuH
 
