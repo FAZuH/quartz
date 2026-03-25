@@ -2,27 +2,26 @@
 publish: true
 aliases:
   - Order Statistics
-created: 2026-02-22T19:23:58.358+07:00
-modified: 2026-02-22T19:23:58.358+07:00
-published: 2026-02-22T19:23:58.358+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.644+07:00
+modified: 2026-03-25T15:22:40.644+07:00
+published: 2026-03-25T15:22:40.644+07:00
 creation-time: 2025-07-15 07:25
-status: adult
+status: complete
 tag:
 parent: "[[Introduction to Mathematical Statistics]]"
 ---
 
-
 ## Definition
 
-Let $X_{1} ,\dots, X_{n}$ : [[3 Reference/Def-random-sample\|Random Sample]] with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x)$ and [[3 Reference/Def-support-of-continuous-random-variable\|support]] $(a,b)$
+Let $X\_{1} ,\dots, X\_{n}$ : [[Def-random-sample|Random Sample]] with [[Def-probability-density-function-(pdf)|pdf]] $f(x)$ and [[Def-support-of-continuous-random-variable|support]] $(a,b)$
 
 If
-- $Y_{1} = \min\{X_1, \dots, X_n\}$
-- $Y_{k}$ : $k$-th smallest value of $X_{1},\dots, X_{n}$
-- $Y_{n} = \max\{X_1,\dots, X_n\}$ 
 
-Then we say $Y_{1}, \dots ,Y_{n}$ is **order statistic** of $X_{1},\dots, X_{n}$
+- $Y\_{1} = \min{X\_1, \dots, X\_n}$
+- $Y\_{k}$ : $k$-th smallest value of $X\_{1},\dots, X\_{n}$
+- $Y\_{n} = \max{X\_1,\dots, X\_n}$
+
+Then we say $Y\_{1}, \dots ,Y\_{n}$ is **order statistic** of $X\_{1},\dots, X\_{n}$
 
 ## About order statistics
 
@@ -36,9 +35,10 @@ Now, you wonder:
 
 These sorted values are called **order statistics**.
 
-In a sample of size $n$, the **$k$-th order statistic $Y_k$** is the $k$-th smallest value from your sample.
+In a sample of size $n$, the **$k$-th order statistic $Y\_k$** is the $k$-th smallest value from your sample.
 
 > [!TIP]
 > We are asking questions about:
+>
 > - "What's the probability that the smallest value is $\leq$ 3?"
 > - "What's the expected value of the second-largest number?"

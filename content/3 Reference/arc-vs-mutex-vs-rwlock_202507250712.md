@@ -2,16 +2,14 @@
 publish: true
 aliases:
   - Arc vs Mutex vs RwLock
-created: 2026-02-22T19:23:58.373+07:00
-modified: 2026-02-22T19:23:58.373+07:00
-published: 2026-02-22T19:23:58.373+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.625+07:00
+modified: 2026-03-25T15:22:40.625+07:00
+published: 2026-03-25T15:22:40.625+07:00
 creation-time: 2025-07-25 07:12
-status: baby
+status: in progress
 tag:
 parent: "[[rust]]"
 ---
-
 
 | Type             | Purpose                                                                           | Thread Safety | Use Case                                                                          | Performance                                  |
 | ---------------- | --------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------------------------- | -------------------------------------------- |
@@ -20,6 +18,3 @@ parent: "[[rust]]"
 | **`RwLock<T>`**  | Allow multiple readers or one writer to access shared data.                       | Yes           | Multiple readers with occasional writes; read-heavy workloads.                    | More complex than `Mutex`; read/write locks. |
 | **`Rc<T>`**      | Reference counting for single-threaded use; like `Arc` but not thread-safe.       | No            | Share data within a single thread; cheaper than `Arc`.                            | Lower overhead than `Arc` (non-atomic).      |
 | **`RefCell<T>`** | Single-threaded runtime borrow checking for mutable data.                         | No            | Dynamic borrowing in single-threaded code; pairs with `Rc` for shared mutability. | Runtime borrow checks; no thread safety.     |
-
-
-

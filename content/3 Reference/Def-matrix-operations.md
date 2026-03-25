@@ -2,23 +2,22 @@
 publish: true
 aliases:
   - Matrix Operations
-created: 2026-02-22T19:23:58.357+07:00
-modified: 2026-02-22T19:23:58.357+07:00
-published: 2026-02-22T19:23:58.357+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.639+07:00
+modified: 2026-03-25T15:22:40.640+07:00
+published: 2026-03-25T15:22:40.640+07:00
 creation-time: 2025-07-15 02:13
-status: adult
+status: complete
 tag:
 parent:
   - "[[matrices]]"
 ---
 
-
 ## Definition
 
-Let $A$ and $B$ are [[3 Reference/Def-matrix\|matrices]] of the same size
+Let $A$ and $B$ are [[Def-matrix|matrices]] of the same size
 
 Then
+
 - **Sum** $A+B$ is the matrix obtained by adding the entries of $B$ to the corresponding entries of $B$
 - **Difference** $A-B$ is the matrix obtained by subtracting the entries of $B$ from the corresponding entries of $A$.
-- Matrices of different sizes cannot be added or subtracted. 
+- Matrices of different sizes cannot be added or subtracted.

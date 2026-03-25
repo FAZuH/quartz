@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.369+07:00
-modified: 2026-02-22T19:23:58.370+07:00
-published: 2026-02-22T19:23:58.370+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.638+07:00
+modified: 2026-03-25T15:22:40.638+07:00
+published: 2026-03-25T15:22:40.638+07:00
 creation-time: 2025-03-11 11:43
-status: adult
+status: complete
 tags:
 parent:
   - "[[sampling methods]]"
 ---
-
 
 Strata is a **group of population** based on the variable to be measured.
 

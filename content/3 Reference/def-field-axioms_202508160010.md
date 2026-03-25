@@ -2,16 +2,14 @@
 publish: true
 aliases:
   - Field Axioms
-created: 2026-02-22T19:23:58.387+07:00
-modified: 2026-02-22T19:23:58.387+07:00
-published: 2026-02-22T19:23:58.387+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.603+07:00
+modified: 2026-03-25T15:22:40.603+07:00
+published: 2026-03-25T15:22:40.603+07:00
 creation-time: 2025-08-16 00:10
-status: baby
+status: in progress
 tag:
 parent: "[[Introduction to Real Analysis]]"
 ---
-
 
 ## Definition
 
@@ -23,4 +21,4 @@ parent: "[[Introduction to Real Analysis]]"
 | Inverse Element  | $\forall x, y \in \mathbb R, y \neq 0 \exists (-x), y^{-1} \in \mathbb R$ | $x + (-x) = 0 = (-x) + x$      | $y \cdot y^{-1} = 1 = y^{-1} \cdot y$    |
 | Distributive     | $\forall x,y,z\in \mathbb R$                                              | $x(y + z) = xy + xz = (y+z) x$ |                                          |
 
-==All *familiar* techniques of algebra can be derived from those 9 properties.==
+==All \*familiar\* techniques of algebra can be derived from those 9 properties.==

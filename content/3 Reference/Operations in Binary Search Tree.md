@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.367+07:00
-modified: 2026-02-22T19:23:58.367+07:00
-published: 2026-02-22T19:23:58.367+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.662+07:00
+modified: 2026-03-25T15:22:40.662+07:00
+published: 2026-03-25T15:22:40.662+07:00
 creation-time: 2025-02-27 23:45
-status: elder
+status: complete
 tags:
 parent:
   - "[[Tree]]"
 ---
-
 
 This page describes several simple operations on binary search trees, such as insertion, deletion, and search.
 
@@ -18,7 +16,7 @@ The algorithm below is an unbalanced implementation of a binary search tree.
 
 > [!NOTE]
 > If we insert nodes into the tree from 1 to 7 sequentially, the root would be 1, and all the nodes would be located on the right of the root node.
-> 
+>
 > ```python
 > 1
 >  \\
@@ -34,9 +32,9 @@ The algorithm below is an unbalanced implementation of a binary search tree.
 >            \\
 >             7
 > ```
-> 
+>
 > Some balanced algorithms adjust the tree such that the height of the tree is minimized.
-> 
+>
 > For a balanced binary search tree, look into AVL Tree, Red-Black Tree, B-Trees, B+ Trees, Splay Tree, etc.
 
 ## Insert
@@ -60,16 +58,15 @@ To implement it in code:
 
 1. The public `delete()` method serves as an entry point and calls the recursive helper.
 2. `_delete_helper()` handles the actual deletion:
-    - First, it searches for the node to delete using BST properties
-    - Once found, it handles the three cases:
-        - Leaf node: Simply remove it by returning None
-        - One child: Return the non-null child to maintain the tree structure
-        - Two children: Find successor (smallest value in right subtree), copy its value, then recursively delete the successor
+   - First, it searches for the node to delete using BST properties
+   - Once found, it handles the three cases:
+     - Leaf node: Simply remove it by returning None
+     - One child: Return the non-null child to maintain the tree structure
+     - Two children: Find successor (smallest value in right subtree), copy its value, then recursively delete the successor
 
 ## Display
 
-
-Use [[3 Reference/Binary Tree Traversal Algorithms]]
+Use [[Binary Tree Traversal Algorithms]]
 
 ## Search
 

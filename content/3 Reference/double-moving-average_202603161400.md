@@ -3,25 +3,23 @@ publish: true
 aliases:
   - Double Moving Average
   - DMA
-created: 2026-03-16T11:05:05.471+07:00
-modified: 2026-03-16T11:08:12.224+07:00
-published: 2026-03-16T11:08:12.224+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.596+07:00
+modified: 2026-03-25T15:22:40.596+07:00
+published: 2026-03-25T15:22:40.596+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
-
 
 ## Formula
 
 $$
 \begin{aligned}
-S_{1,t} &= \text{SMA of } X \\
-S_{2,t} &= \text{SMA of } S_1 \\
-F_{t+h} &= A_t + hB_t \\
-A_t &= 2S_{1,t} - S_{2,t} \\
-B_t &= \frac{2}{m-1}(S_{1,t} - S_{2,t})
+S\_{1,t} &= \text{SMA of } X \\
+S\_{2,t} &= \text{SMA of } S\_1 \\
+F\_{t+h} &= A\_t + hB\_t \\
+A\_t &= 2S\_{1,t} - S\_{2,t} \\
+B\_t &= \frac{2}{m-1}(S\_{1,t} - S\_{2,t})
 \end{aligned}
 $$
 

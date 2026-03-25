@@ -2,23 +2,21 @@
 publish: true
 aliases:
   - Properties of Inverse Matrix
-created: 2026-02-22T19:24:22.865+07:00
-modified: 2026-02-22T19:24:22.865+07:00
-published: 2026-02-22T19:24:22.865+07:00
+created: 2026-03-25T15:22:40.638+07:00
+modified: 2026-03-25T15:22:40.638+07:00
+published: 2026-03-25T15:22:40.638+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-24 12:35
-status: adult
+status: complete
 parent:
   - "[[linear-algebra|linear algebra]]"
   - "[[matrices]]"
 ---
 
-
 ## Theorem
 
-If $B$ and $C$ are both [[3 Reference/def-inverse-matrix_202509241225\|inverses]] of the [[3 Reference/Def-matrix\|matrix]] $A$, then $B=C$
+If $B$ and $C$ are both [[def-inverse-matrix_202509241225|inverses]] of the [[Def-matrix|matrix]] $A$, then $B=C$
 
 ## Proof
 
@@ -32,7 +30,7 @@ Thus, $B=C$.
 
 ## Remark
 
-As a consequence of this theorem, if $A$ is [[3 Reference/theorem-matrix-invertibility_202509241243\|invertible]], we simply denote inverse of $A$ as $A^{-1}$. Thus,
+As a consequence of this theorem, if $A$ is [[theorem-matrix-invertibility_202509241243|invertible]], we simply denote inverse of $A$ as $A^{-1}$. Thus,
 $$
 AA^{-1}=A^{-1}A=I
 $$

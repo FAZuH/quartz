@@ -1,20 +1,18 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.367+07:00
-modified: 2026-02-22T19:23:58.367+07:00
-published: 2026-02-22T19:23:58.367+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.617+07:00
+modified: 2026-03-25T15:22:40.617+07:00
+published: 2026-03-25T15:22:40.617+07:00
 creation-time: 2025-02-28 16:31
-status: baby
+status: in progress
 tags:
 parent:
   - "[[object oriented programming]]"
 ---
 
-
 ## Abstraction
 
-- Hide implementation details into a [[3 Reference/Class Levels#High level\|high level]] interface
+- Hide implementation details into a [[Class Levels#High level|high level]] interface
 
 ## Encapsulation
 
@@ -29,5 +27,5 @@ parent:
 
 ## Polymorphism
 
- - Objects that inherits another object can be classified as both
- - Same interface with different implementation
+- Objects that inherits another object can be classified as both
+- Same interface with different implementation

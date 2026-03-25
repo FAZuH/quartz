@@ -1,13 +1,12 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.351+07:00
-modified: 2026-02-22T19:23:58.352+07:00
-published: 2026-02-22T19:23:58.352+07:00
+created: 2026-03-25T15:22:40.595+07:00
+modified: 2026-03-25T15:22:40.595+07:00
+published: 2026-03-25T15:22:40.595+07:00
 tags:
   - content-type/combined
-cssclasses: ""
 creation-time: 2025-05-09 12:24
-status: baby
+status: in progress
 parent:
   - "[[multivariate analysis]]"
 ---
@@ -22,18 +21,18 @@ For example, correspondence plot in [Code output and interpretation](#Code%20out
 
 ## Data on Correspondence Analysis
 
-The data matrix for correspondence analysis is a two-way contingency table with $a$ rows and $b$ columns, containing counts $n_{ij}$ representing the frequency of occurrences for each combination of two categorical variables.
+The data matrix for correspondence analysis is a two-way contingency table with $a$ rows and $b$ columns, containing counts $n\_{ij}$ representing the frequency of occurrences for each combination of two categorical variables.
 
 $$
 \begin{array}{c|cccc|c}
- & 1 & 2 & \cdots & b & \text{Row Total} \\
+& 1 & 2 & \cdots & b & \text{Row Total} \\
 \hline
-1 & n_{11} & n_{12} & \cdots & n_{1b} & n_{1.} \\
-2 & n_{21} & n_{22} & \cdots & n_{2b} & n_{2.} \\
+1 & n\_{11} & n\_{12} & \cdots & n\_{1b} & n\_{1.} \\
+2 & n\_{21} & n\_{22} & \cdots & n\_{2b} & n\_{2.} \\
 \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-a & n_{a1} & n_{a2} & \cdots & n_{ab} & n_{a.} \\
+a & n\_{a1} & n\_{a2} & \cdots & n\_{ab} & n\_{a.} \\
 \hline
-\text{Column Total} & n_{.1} & n_{.2} & \cdots & n_{.b} & n \\
+\text{Column Total} & n\_{.1} & n\_{.2} & \cdots & n\_{.b} & n \\
 \end{array}
 $$
 
@@ -41,40 +40,40 @@ $$
 
 - Rows: Represent the first categorical variable with $a$ categories.
 - Columns: Represent the second categorical variable with $b$ categories.
-- $n_{ij}$ (Cells): Frequency of occurrences where row category $i$ intersects with column category $j$.
-- $n_{i.}=\sum_{j=1}^b n_{ij}$ (Row Totals): Sum of frequencies for row $i$.
-- $n_{.j}=\sum_{i=1}^a n_{ij}$ (Column Totals): Sum of frequencies for column $j$.
-- $n=\sum_{i,j} n_{ij}$ (Grand Total): Total frequency across all cells.
+- $n\_{ij}$ (Cells): Frequency of occurrences where row category $i$ intersects with column category $j$.
+- $n\_{i.}=\sum\_{j=1}^b n\_{ij}$ (Row Totals): Sum of frequencies for row $i$.
+- $n\_{.j}=\sum\_{i=1}^a n\_{ij}$ (Column Totals): Sum of frequencies for column $j$.
+- $n=\sum\_{i,j} n\_{ij}$ (Grand Total): Total frequency across all cells.
 
 ### Transformations
 
 - $\mathbf{P}$ (Correspondence Matrix): Converts counts to relative frequencies
-$$p_{ij}=n_{ij}/n$$
+  $$p\_{ij}=n\_{ij}/n$$
 - $\mathbf{r}_i^{\prime}$ (Row Profiles): Distribution across columns for row $i$.
-$$(p_{i1}/p_{i.}, \ldots, p_{ib}/p_{i.})$$
+  $$(p_{i1}/p\_{i.}, \ldots, p\_{ib}/p\_{i.})$$
 - $\mathbf{c}_j$ (Column Profiles): Distribution across rows for column $j$.
-$$(p_{1j}/p_{.j}, \ldots, p_{aj}/p_{.j})^{\prime}$$
+  $$(p_{1j}/p\_{.j}, \ldots, p\_{aj}/p\_{.j})^{\prime}$$
 
 ## Computing row and column profiles
 
-1. Convert contingency table frequencies $n_{ij}$ to relative frequencies $p_{ij}=n_{ij}/n$, forming the correspondence matrix $\mathbf{P}$.
-2. Calculate row sums $p_{i.}=\sum_{j=1}^b p_{ij}$ as vector $\mathbf{r}$ and column sums $p_{.j}=\sum_{i=1}^a p_{ij}$ as vector $\mathbf{c}^{\prime}$.
-3. Derive row profile $\mathbf{r}_i^{\prime}=(p_{i1}/p_{i.}, \ldots, p_{ib}/p_{i.})$ by dividing each row of $\mathbf{P}$ by $p_{i.}$.
-4. Derive column profile $\mathbf{c}_j=(p_{1j}/p_{.j}, \ldots, p_{aj}/p_{.j})^{\prime}$ by dividing each column of $\mathbf{P}$ by $p_{.j}$.
+1. Convert contingency table frequencies $n\_{ij}$ to relative frequencies $p\_{ij}=n\_{ij}/n$, forming the correspondence matrix $\mathbf{P}$.
+2. Calculate row sums $p\_{i.}=\sum\_{j=1}^b p\_{ij}$ as vector $\mathbf{r}$ and column sums $p\_{.j}=\sum\_{i=1}^a p\_{ij}$ as vector $\mathbf{c}^{\prime}$.
+3. Derive row profile $\mathbf{r}_i^{\prime}=(p_{i1}/p\_{i.}, \ldots, p\_{ib}/p\_{i.})$ by dividing each row of $\mathbf{P}$ by $p\_{i.}$.
+4. Derive column profile $\mathbf{c}_j=(p_{1j}/p\_{.j}, \ldots, p\_{aj}/p\_{.j})^{\prime}$ by dividing each column of $\mathbf{P}$ by $p\_{.j}$.
 
 ## Computing coordinates for plotting
 
-1. Compute $\mathbf{Z}=\mathbf{D}_r^{-1/2}(\mathbf{P}-\mathbf{r}\mathbf{c}^{\prime})\mathbf{D}_c^{-1/2}$, where $\mathbf{D}_r$ and $\mathbf{D}_c$ are diagonal matrices of $\mathbf{r}$ and $\mathbf{c}$.
-2. Perform singular value decomposition $\mathbf{Z}=\mathbf{U}\mathbf{\Lambda}\mathbf{V}^{\prime}$, with $\mathbf{\Lambda}=\operatorname{diag}(\lambda_1, \ldots, \lambda_k)$.
-3. Calculate row coordinates $\mathbf{X}=\mathbf{D}_r^{-1}\mathbf{A}\mathbf{\Lambda}$, where $\mathbf{A}=\mathbf{D}_r^{1/2}\mathbf{U}$.
-4. Calculate column coordinates $\mathbf{Y}=\mathbf{D}_c^{-1}\mathbf{B}\mathbf{\Lambda}$, where $\mathbf{B}=\mathbf{D}_c^{1/2}\mathbf{V}$.
+1. Compute $\mathbf{Z}=\mathbf{D}\_r^{-1/2}(\mathbf{P}-\mathbf{r}\mathbf{c}^{\prime})\mathbf{D}\_c^{-1/2}$, where $\mathbf{D}\_r$ and $\mathbf{D}\_c$ are diagonal matrices of $\mathbf{r}$ and $\mathbf{c}$.
+2. Perform singular value decomposition $\mathbf{Z}=\mathbf{U}\mathbf{\Lambda}\mathbf{V}^{\prime}$, with $\mathbf{\Lambda}=\operatorname{diag}(\lambda\_1, \ldots, \lambda\_k)$.
+3. Calculate row coordinates $\mathbf{X}=\mathbf{D}\_r^{-1}\mathbf{A}\mathbf{\Lambda}$, where $\mathbf{A}=\mathbf{D}\_r^{1/2}\mathbf{U}$.
+4. Calculate column coordinates $\mathbf{Y}=\mathbf{D}\_c^{-1}\mathbf{B}\mathbf{\Lambda}$, where $\mathbf{B}=\mathbf{D}\_c^{1/2}\mathbf{V}$.
 5. Use the **first two columns of $\mathbf{X}$ and $\mathbf{Y}$ for 2D plotting**, first three for 3D, and so on.
 
 ## Evaluating model performance
 
-1. Test independence with chi-square statistic [Formula 16.25](#Core%20Formulas): $\chi^2=n\sum_{i=1}^a\sum_{j=1}^b (p_{ij}-p_{i.}p_{.j})^2/(p_{i.}p_{.j})$.
-2. Compute total inertia as $\chi^2/n=\sum_{i=1}^k \lambda_i^2$ [Formula 16.46](#Core%20Formulas).
-3. Assess dimension contribution with $(\lambda_1^2+\lambda_2^2)/\sum_{i=1}^k \lambda_i^2$ [Formula 16.47](#Core%20Formulas).
+1. Test independence with chi-square statistic [Formula 16.25](#Core%20Formulas): $\chi^2=n\sum\_{i=1}^a\sum\_{j=1}^b (p\_{ij}-p\_{i.}p\_{.j})^2/(p\_{i.}p\_{.j})$.
+2. Compute total inertia as $\chi^2/n=\sum\_{i=1}^k \lambda\_i^2$ [Formula 16.46](#Core%20Formulas).
+3. Assess dimension contribution with $(\lambda\_1^2+\lambda\_2^2)/\sum\_{i=1}^k \lambda\_i^2$ [Formula 16.47](#Core%20Formulas).
 4. Verify rank $k=\min(a-1, b-1)$ for data representation.
 
 ## Interpreting the results
@@ -94,6 +93,7 @@ A column profile shows a column’s row category distribution, summing to 1. Sim
 Inertia and chi-square ($p$-value) indicate association strength; high inertia in the first two dimensions (e.g., >80%) suggests a good 2D fit.
 
 **Inertia** measures the total variance in the contingency table, representing how much the row and column profiles deviate from independence (i.e., dependent). Higher inertia indicates greater association between variables. Each dimension's inertia shows its contribution to the total variance explained.
+
 ## Multiple correspondence analysis
 
 Multiple regression analysis (MCA) extends **correspondence analysis for three-way or higher-order contingency tables**, resulting in 2D plots about the correspondence in the given data.
@@ -112,9 +112,9 @@ Distances between points in the resulting plot are not as meaningful as in corre
 Illustration:
 
 1. Four-way contingency table
-![|500](assets/Pasted image 20250516105832.png)
+   ![|500](assets/Pasted image 20250516105832.png)
 2. $\mathbf{G}$ matrix of the table above
-![|500](assets/Pasted image 20250516105944.png)
+   ![|500](assets/Pasted image 20250516105944.png)
 
 ### Python example
 
@@ -193,6 +193,7 @@ print(coordinates[:, :2])
 Correspondence analysis on $\mathbf{G}$ is equivalent to an anaylsis on $\mathbf{G}^{\prime}\mathbf{G}$. This is because in SVD of $\mathbf{G} = \mathbf{U}\mathbf{\Lambda}\mathbf{V}^{\prime}$, $\mathbf{V}$ contains eigenvectors of $\mathbf{G}^{\prime}\mathbf{G}$. Thus both $\mathbf{V}$ of $\mathbf{G}$ and $\mathbf{G}^{\prime}\mathbf{G}$ can be used for plotting coordinates.
 
 $\mathbf{G}^{\prime}\mathbf{G}$ has:
+
 - Square block on the diagonal of each variable. Each is a diagonal matrix showing frequencies in its corresponding variable.
 - Rectangular block off-diagonal for each pair of vairables. Each is a two-way contingency table for the corresponding pair of variables.
 
@@ -201,15 +202,15 @@ $\mathbf{G}^{\prime}\mathbf{G}$ has:
 ## Assumptions
 
 - Adequate cell frequencies for chi-square.
-#TODO improve
-- Independence testable via $p_{ij}=p_{i.}p_{.j}$ or chi square as in [Evaluating model performance](#Evaluating%20model%20performance).
+  #TODO improve
+- Independence testable via $p\_{ij}=p\_{i.}p\_{.j}$ or chi square as in [Evaluating model performance](#Evaluating%20model%20performance).
 - Two-dimensional projection preserves key relationships.
 
 ## Core formulas
 
-- Formula 16.25 (Chi-square test): $$\chi^2=n\sum_{i=1}^a\sum_{j=1}^b \frac{(p_{ij}-p_{i.}p_{.j})^2}{p_{i.}p_{.j}}$$ 
-- Formula 16.46 (Total inertia): $$\frac{\chi^2}{n}=\sum_{i=1}^k \lambda_i^2$$ 
-- Formula 16.47 (Dimension contribution): $$\frac{\lambda_1^2+\lambda_2^2}{\sum_{i=1}^k \lambda_i^2}$$ 
+- Formula 16.25 (Chi-square test): $$\chi^2=n\sum\_{i=1}^a\sum\_{j=1}^b \frac{(p\_{ij}-p\_{i.}p\_{.j})^2}{p\_{i.}p\_{.j}}$$
+- Formula 16.46 (Total inertia): $$\frac{\chi^2}{n}=\sum\_{i=1}^k \lambda\_i^2$$
+- Formula 16.47 (Dimension contribution): $$\frac{\lambda\_1^2+\lambda\_2^2}{\sum\_{i=1}^k \lambda\_i^2}$$
 
 ## Limitations
 
@@ -314,4 +315,4 @@ Chi-square Statistic (19.4526, $p$-value < 0.001) indicates a moderate associati
 
 ![|500](assets/Pasted image 20250509121557.png)
 
-Proximity in the plot (e.g., 1st class near "No") suggests lower survival for 1st class passengers, while 2nd and 3rd class near "Yes" indicates higher survival. 
+Proximity in the plot (e.g., 1st class near "No") suggests lower survival for 1st class passengers, while 2nd and 3rd class near "Yes" indicates higher survival.

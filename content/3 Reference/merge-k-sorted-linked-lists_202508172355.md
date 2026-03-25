@@ -2,12 +2,11 @@
 publish: true
 aliases:
   - Merge K Sorted Linked Lists
-created: 2026-02-22T19:24:22.133+07:00
-modified: 2026-02-22T19:24:22.139+07:00
-published: 2026-02-22T19:24:22.139+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.592+07:00
+modified: 2026-03-25T15:22:40.592+07:00
+published: 2026-03-25T15:22:40.592+07:00
 creation-time: 2025-08-17 23:55
-status: baby
+status: in progress
 tag:
 parent: "[[dsa-problems_202508172322]]"
 ---
@@ -16,7 +15,7 @@ https://leetcode.com/problems/merge-k-sorted-lists/description/
 
 ## Solution 1
 
- You can copy the algorithm in [[3 Reference/merge-two-sorted-linked-lists_202508151417\|Merge Two Sorted Linked Lists]]:
+You can copy the algorithm in [[merge-two-sorted-linked-lists_202508151417|Merge Two Sorted Linked Lists]]:
 
 ```python
 class Solution:
@@ -79,9 +78,9 @@ class Solution:
 
 ## Solution 2
 
-Rather than merging two lists at a time, you may merge all at once using a similar algorithm as [[3 Reference/merge-k-sorted-linked-lists_202508172355#Solution 1]]:
+Rather than merging two lists at a time, you may merge all at once using a similar algorithm as [[#Solution 1]]:
 
-> [!note] [[3 Reference/merge-k-sorted-linked-lists_202508172355#Solution 1]] is generally faster than this solution
+> [!note] [[#Solution 1]] is generally faster than this solution
 
 ```python
 class Solution:

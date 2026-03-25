@@ -3,22 +3,20 @@ publish: true
 aliases:
   - Single Exponential Smoothing
   - SES
-created: 2026-03-16T11:05:05.498+07:00
-modified: 2026-03-16T11:08:12.224+07:00
-published: 2026-03-16T11:08:12.224+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.608+07:00
+modified: 2026-03-25T15:22:40.608+07:00
+published: 2026-03-25T15:22:40.608+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
-
 
 ## Formula
 
 $$
 \begin{aligned}
-S_t &= \alpha X_t + (1-\alpha)S_{t-1} \\
-F_{t+1} &= S_t
+S\_t &= \alpha X\_t + (1-\alpha)S\_{t-1} \\
+F\_{t+1} &= S\_t
 \end{aligned}
 $$
 

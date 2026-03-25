@@ -2,18 +2,16 @@
 publish: true
 aliases:
   - Matrix Differentiation Properties
-created: 2026-02-22T19:24:22.821+07:00
-modified: 2026-02-22T19:24:22.822+07:00
-published: 2026-02-22T19:24:22.822+07:00
+created: 2026-03-25T15:22:40.617+07:00
+modified: 2026-03-25T15:22:40.617+07:00
+published: 2026-03-25T15:22:40.617+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-12-10 14:42
-status: baby
+status: in progress
 parent:
   - "[[matrices]]"
 ---
-
 
 ## Theorem
 
@@ -67,24 +65,24 @@ $$
 
 **Example 1:** Linear form
 
-Let $\mathbf{a} = \begin{bmatrix} 2 \\ 3 \end{bmatrix}$ and $f(\mathbf{x}) = \mathbf{a}^T\mathbf{x} = 2x_1 + 3x_2$
+Let $\mathbf{a} = \begin{bmatrix} 2 \ 3 \end{bmatrix}$ and $f(\mathbf{x}) = \mathbf{a}^T\mathbf{x} = 2x\_1 + 3x\_2$
 
 $$
-\frac{\partial f}{\partial \mathbf{x}} = \mathbf{a} = \begin{bmatrix} 2 \\ 3 \end{bmatrix}
+\frac{\partial f}{\partial \mathbf{x}} = \mathbf{a} = \begin{bmatrix} 2 \ 3 \end{bmatrix}
 $$
 
 **Example 2:** Quadratic form
 
-Let $A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}$ and $f(\mathbf{x}) = \mathbf{x}^T A \mathbf{x} = 2x_1^2 + 2x_1x_2 + 3x_2^2$
+Let $A = \begin{bmatrix} 2 & 1 \ 1 & 3 \end{bmatrix}$ and $f(\mathbf{x}) = \mathbf{x}^T A \mathbf{x} = 2x\_1^2 + 2x\_1x\_2 + 3x\_2^2$
 
 Since $A$ is symmetric:
 $$
-\frac{\partial f}{\partial \mathbf{x}} = 2A\mathbf{x} = 2\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \begin{bmatrix} 4x_1 + 2x_2 \\ 2x_1 + 6x_2 \end{bmatrix}
+\frac{\partial f}{\partial \mathbf{x}} = 2A\mathbf{x} = 2\begin{bmatrix} 2 & 1 \ 1 & 3 \end{bmatrix}\begin{bmatrix} x\_1 \ x\_2 \end{bmatrix} = \begin{bmatrix} 4x\_1 + 2x\_2 \ 2x\_1 + 6x\_2 \end{bmatrix}
 $$
 
 **Example 3:** Chain rule
 
-Let $\mathbf{g}(\mathbf{x}) = A\mathbf{x}$ where $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$, and $f(\mathbf{g}) = \mathbf{g}^T\mathbf{g}$
+Let $\mathbf{g}(\mathbf{x}) = A\mathbf{x}$ where $A = \begin{bmatrix} 1 & 2 \ 3 & 4 \end{bmatrix}$, and $f(\mathbf{g}) = \mathbf{g}^T\mathbf{g}$
 
 $$
 \begin{align}
@@ -95,13 +93,13 @@ $$
 \end{align}
 $$
 
-Evaluating at $\mathbf{x} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$:
+Evaluating at $\mathbf{x} = \begin{bmatrix} 1 \ 1 \end{bmatrix}$:
 
 $$
 \begin{align}
-A^T A &= \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} = \begin{bmatrix} 10 & 14 \\ 14 & 20 \end{bmatrix} \\
-\frac{\partial f}{\partial \mathbf{x}}\bigg|_{\mathbf{x}=\begin{bmatrix} 1 \\ 1 \end{bmatrix}} &= 2\begin{bmatrix} 1 & 1 \end{bmatrix}\begin{bmatrix} 10 & 14 \\ 14 & 20 \end{bmatrix} = 2\begin{bmatrix} 24 & 34 \end{bmatrix}
+A^T A &= \begin{bmatrix} 1 & 3 \ 2 & 4 \end{bmatrix}\begin{bmatrix} 1 & 2 \ 3 & 4 \end{bmatrix} = \begin{bmatrix} 10 & 14 \ 14 & 20 \end{bmatrix} \\
+\frac{\partial f}{\partial \mathbf{x}}\bigg|\_{\mathbf{x}=\begin{bmatrix} 1 \ 1 \end{bmatrix}} &= 2\begin{bmatrix} 1 & 1 \end{bmatrix}\begin{bmatrix} 10 & 14 \ 14 & 20 \end{bmatrix} = 2\begin{bmatrix} 24 & 34 \end{bmatrix}
 \end{align}
 $$
 
-As a column vector: $\begin{bmatrix} 48 \\ 68 \end{bmatrix}$
+As a column vector: $\begin{bmatrix} 48 \ 68 \end{bmatrix}$

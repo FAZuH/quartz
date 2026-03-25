@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.350+07:00
-modified: 2026-02-22T19:23:58.350+07:00
-published: 2026-02-22T19:23:58.350+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.643+07:00
+modified: 2026-03-25T15:22:40.643+07:00
+published: 2026-03-25T15:22:40.643+07:00
 creation-time: 2025-02-28 16:26
-status: adult
+status: complete
 tags:
 parent:
   - "[[object oriented programming]]"
 ---
-
 
 ## High level
 

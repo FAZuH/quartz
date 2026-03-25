@@ -1,20 +1,19 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.298+07:00
-modified: 2026-02-22T19:23:58.298+07:00
-published: 2026-02-22T19:23:58.298+07:00
+created: 2026-03-25T15:22:40.643+07:00
+modified: 2026-03-25T15:22:40.643+07:00
+published: 2026-03-25T15:22:40.643+07:00
 tags:
   - content-type/conceptual
   - content-type/referential
-cssclasses: ""
 creation-time: 2025-03-27 15:28
-status: adult
+status: complete
 parent:
   - "[[Time Series Analysis With Applications in R]]"
 ---
 
-
 This note covers stochastic processes, and their core concepts:
+
 - Mean
 - Covariance functions
 - Stationary
@@ -24,61 +23,62 @@ This note covers stochastic processes, and their core concepts:
 
 ## About time series and stochastic processes
 
-A **stochastic process** is a sequence of random variables $\{Y_t: t\in\mathbb Z\}$, used to model time series data.
+A **stochastic process** is a sequence of random variables ${Y\_t: t\in\mathbb Z}$, used to model time series data.
 
-Its full probabilistic structure is defined by the joint distributions of all finite subsets of $Y_t$.
+Its full probabilistic structure is defined by the joint distributions of all finite subsets of $Y\_t$.
 
 In practice, we **focus on means, variances, and covariances** (first and second moments) rather than the full distributions.
 
 ## Means, variances, and covariances
 
-For a stochastic process $\{Y_t\}$, its key functions are:
+For a stochastic process ${Y\_t}$, its key functions are:
 
 - **Mean function**
-	$$\mu_t = E(Y_t)$$
-	The expected value at time $t$.
+  $$\mu\_t = E(Y\_t)$$
+  The expected value at time $t$.
 - **Autocovariance function**
-	$$\gamma_{t,s} = \operatorname{Cov}(Y_t, Y_s) = E[(Y_t - \mu_t)(Y_s - \mu_s)]$$
-	Measuring dependence between $Y_t$ and $Y_s$.
+  $$\gamma\_{t,s} = \operatorname{Cov}(Y\_t, Y\_s) = E\[(Y\_t - \mu\_t)(Y\_s - \mu\_s)]$$
+  Measuring dependence between $Y\_t$ and $Y\_s$.
 - **Autocorrelation function**
-	$$\rho_{t,s} = \operatorname{Corr}(Y_t, Y_s) = \frac{\gamma_{t,s}}{\sqrt{\gamma_{t,t} \gamma_{s,s}}}$$
-	Unitless measure of linear dependence.
+  $$\rho\_{t,s} = \operatorname{Corr}(Y\_t, Y\_s) = \frac{\gamma\_{t,s}}{\sqrt{\gamma\_{t,t} \gamma\_{s,s}}}$$
+  Unitless measure of linear dependence.
 
 ### Properties
 
-- $\gamma_{t,t} = \operatorname{Var}(Y_t)$
-- $|\rho_{t,s}| \leq 1$
-- $\rho_{t,t} = 1$
-- $\gamma_{t,s} = \gamma_{s,t},\quad\rho_{t,s} = \rho_{s,t}$ (symmetry)
+- $\gamma\_{t,t} = \operatorname{Var}(Y\_t)$
+- $|\rho\_{t,s}| \leq 1$
+- $\rho\_{t,t} = 1$
+- $\gamma\_{t,s} = \gamma\_{s,t},\quad\rho\_{t,s} = \rho\_{s,t}$ (symmetry)
 
 A key result for covariance of linear combinations is:
 
 $$
-\operatorname{Cov}\left(\sum_{i=1}^m c_i Y_{t_i}, \sum_{j=1}^n d_j Y_{s_j}\right) = \sum_{i=1}^m \sum_{j=1}^n c_i d_j \operatorname{Cov}(Y_{t_i}, Y_{s_j})
+\operatorname{Cov}\left(\sum\_{i=1}^m c\_i Y\_{t\_i}, \sum\_{j=1}^n d\_j Y\_{s\_j}\right) = \sum\_{i=1}^m \sum\_{j=1}^n c\_i d\_j \operatorname{Cov}(Y\_{t\_i}, Y\_{s\_j})
 $$
 
 ## Some stochastic processes
 
 Suppose that
-- $\{ e_{t} \}$ are independent, identically distributed (i.i.d.)
-- $E(e_{t}) = 0$
-- $\operatorname{Var}(e_{t}) = \sigma_{e}^2$
+
+- ${ e\_{t} }$ are independent, identically distributed (i.i.d.)
+- $E(e\_{t}) = 0$
+- $\operatorname{Var}(e\_{t}) = \sigma\_{e}^2$
 
 ### Random walk
 
 $$
 \begin{align}
-Y_t &= e_1 + e_2 + \cdots + e_t\\
-&= \sum_{i=1}^t e_{i} \\
+Y\_t &= e\_1 + e\_2 + \cdots + e\_t\\
+&= \sum\_{i=1}^t e\_{i} \\
 \end{align}
 $$
 
 | Property        | Expression                                             |
 | --------------- | ------------------------------------------------------ |
-| Mean            | $E(Y_t) = 0$                                           |
-| Variance        | $\operatorname{Var}(Y_t) = t \sigma_e^2$               |
-| Autocovariance  | $\gamma_{t,s} = t \sigma_e^2\qquad1 \leq t \leq s$     |
-| Autocorrelation | $\rho_{t,s} = \sqrt{\frac{t}{s}}\qquad1 \leq t \leq s$ |
+| Mean            | $E(Y\_t) = 0$                                           |
+| Variance        | $\operatorname{Var}(Y\_t) = t \sigma\_e^2$               |
+| Autocovariance  | $\gamma\_{t,s} = t \sigma\_e^2\qquad1 \leq t \leq s$     |
+| Autocorrelation | $\rho\_{t,s} = \sqrt{\frac{t}{s}}\qquad1 \leq t \leq s$ |
 
 Notice the variance of the process increases with time.
 
@@ -86,15 +86,15 @@ Random walk also has the inductive form:
 
 $$
 \begin{align}
-Y_{t} = Y_{t-1} + e_{t}
+Y\_{t} = Y\_{t-1} + e\_{t}
 \end{align}
 $$
 
-With "initial state" $Y_{1} = e_{1}$.
+With "initial state" $Y\_{1} = e\_{1}$.
 
 > [!TIP] Intuition
-> If the $e_{t}$ is interpreted as the size of "step" taken at time $t$,
-> then $Y_{t}$ can be interpreted as the position of the "random walker" at time $t$.
+> If the $e\_{t}$ is interpreted as the size of "step" taken at time $t$,
+> then $Y\_{t}$ can be interpreted as the position of the "random walker" at time $t$.
 
 Also notice the following autororrelation values
 
@@ -121,15 +121,15 @@ plt.show()
 ### Moving average
 
 $$
-Y_{t} = \frac{e_{t}+e_{t-1}}{2}
+Y\_{t} = \frac{e\_{t}+e\_{t-1}}{2}
 $$
 
 | Property        | Expression                                                                                                                                                 |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mean            | $E(Y_t) = 0$                                                                                                                                               |
-| Variance        | $\operatorname{Var}(Y_t) = 0.5 \sigma_e^2$                                                                                                                 |
-| Autocovariance  | $$ \gamma_{t,s} = \begin{cases} 0.5 \sigma_e^2 & ,\vert t-s\vert  = 0 \\ 0.25 \sigma_e^2 & ,\vert t-s\vert  = 1 \\ 0 & ,\vert t-s\vert  > 1 \end{cases} $$ |
-| Autocorrelation | $$ \rho_{t,s} = \begin{cases} 1 & ,\vert t-s\vert  = 0 \\ 0.5 & ,\vert t-s\vert  = 1 \\ 0 & ,\vert t-s\vert  > 1 \end{cases} $$                            |
+| Mean            | $E(Y\_t) = 0$                                                                                                                                               |
+| Variance        | $\operatorname{Var}(Y\_t) = 0.5 \sigma\_e^2$                                                                                                                 |
+| Autocovariance  | $$ \gamma\_{t,s} = \begin{cases} 0.5 \sigma\_e^2 & ,\vert t-s\vert  = 0 \ 0.25 \sigma\_e^2 & ,\vert t-s\vert  = 1 \ 0 & ,\vert t-s\vert  > 1 \end{cases} $$ |
+| Autocorrelation | $$ \rho\_{t,s} = \begin{cases} 1 & ,\vert t-s\vert  = 0 \ 0.5 & ,\vert t-s\vert  = 1 \ 0 & ,\vert t-s\vert  > 1 \end{cases} $$                            |
 
 Notice that values of $Y$ at $k$ units of time apart have the same correlation no matter where they occur (for any $t,s$).
 

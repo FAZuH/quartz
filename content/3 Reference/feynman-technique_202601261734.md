@@ -2,14 +2,13 @@
 publish: true
 aliases:
   - Feynman Technique
-created: 2026-02-22T19:23:58.421+07:00
-modified: 2026-02-22T19:23:58.421+07:00
-published: 2026-02-22T19:23:58.421+07:00
+created: 2026-03-25T15:22:40.614+07:00
+modified: 2026-03-25T15:22:40.614+07:00
+published: 2026-03-25T15:22:40.614+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2026-01-26 17:34
-status: baby
+status: in progress
 parent:
   - "[[studying]]"
 ---

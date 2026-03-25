@@ -2,14 +2,13 @@
 publish: true
 aliases:
   - Mean Squared Error (MSE)
-created: 2026-02-22T19:24:22.132+07:00
-modified: 2026-02-22T19:24:22.133+07:00
-published: 2026-02-22T19:24:22.133+07:00
+created: 2026-03-25T15:22:40.618+07:00
+modified: 2026-03-25T15:22:40.618+07:00
+published: 2026-03-25T15:22:40.618+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-23 11:24
-status: baby
+status: in progress
 parent:
   - "[[econometrics]]"
 ---
@@ -17,5 +16,5 @@ parent:
 Mean squared error <u>measures error in a model</u>. If a model does not have any errors, then $MSE=0$. As the error goes up, MSE goes up.
 
 $$
-MSE = \frac{\sum_{i}^n (y_{i}-\hat{y}_{i})^2}{n}
+MSE = \frac{\sum\_{i}^n (y\_{i}-\hat{y}\_{i})^2}{n}
 $$

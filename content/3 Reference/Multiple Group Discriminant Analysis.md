@@ -1,18 +1,16 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.366+07:00
-modified: 2026-02-22T19:23:58.366+07:00
-published: 2026-02-22T19:23:58.366+07:00
+created: 2026-03-25T15:22:40.661+07:00
+modified: 2026-03-25T15:22:40.661+07:00
+published: 2026-03-25T15:22:40.661+07:00
 tags:
   - content-type/combined
-cssclasses: ""
 creation-time: 2025-03-13 06:40
-status: elder
+status: complete
 parent:
   - "[[discriminant analysis]]"
 source:
 ---
-
 
 Multiple-Group Discriminant Analysis (MDA) extends [Two-Group Discriminant Analysis](Two-Group%20Discriminant%20Analysis.md) to **distinguish between three or more groups** using multiple variables.
 
@@ -29,23 +27,24 @@ Unlike two-group analysis, which needs only one function, MDA may require severa
 ## Reason to Do MDA
 
 MDA is ideal when you need to **classify or understand differences across multiple groups**. It reduces complex data into fewer dimensions while preserving distinctions, useful for:
+
 - **Classification**: Sorting new items into categories (e.g., apple, orange, banana).
 - **Visualization**: Plotting high-dimensional data in 2D or 3D to see group patterns.
 - **Simplification**: Condensing many variables into a few key functions (e.g., 5 variables into 2 axes).
-
 
 ## Performing MDA
 
 ### 1: Test Variable Significance
 
 Use an **$F$-test** to check if variables differ across groups:
-- Hypotheses: $H_0: \mu_1 = \mu_2 = \cdots = \mu_G$ vs. $H_a$: At least one pair differs.
+
+- Hypotheses: $H\_0: \mu\_1 = \mu\_2 = \cdots = \mu\_G$ vs. $H\_a$: At least one pair differs.
 - Compute Wilks’ $\Lambda$ or $F$-statistic to confirm discriminatory power.
 
 ### 2: Compute Discriminant Functions
 
-Find functions $Z_i = w_{i1} X_1 + \cdots + w_{ip} X_p$ maximizing:
-$$\lambda_i = \frac{\text{between-groups SS of } Z_i}{\text{within-group SS of } Z_i}$$
+Find functions $Z\_i = w\_{i1} X\_1 + \cdots + w\_{ip} X\_p$ maximizing:
+$$\lambda\_i = \frac{\text{between-groups SS of } Z\_i}{\text{within-group SS of } Z\_i}$$
 
 Steps:
 
@@ -53,11 +52,11 @@ Steps:
 2. Calculate within-group SSCP matrix $\mathbf{W}$.
 3. Calculate between-group SSCP matrix $\mathbf{B}$.
 4. Solve for eigenvalues and eigenvectors of $\mathbf{W}^{-1} \mathbf{B}$.
-5. Use eigenvectors as weights $w_{ij}$.
+5. Use eigenvectors as weights $w\_{ij}$.
 
 ### 3: Classify Observations
 
-Project data onto $Z_i$ and divide the space into $G$ regions with cutoff lines based on maximum $\lambda_i$.
+Project data onto $Z\_i$ and divide the space into $G$ regions with cutoff lines based on maximum $\lambda\_i$.
 
 ## Python Example
 
@@ -96,6 +95,7 @@ print("Group counts:\n", data['group'].value_counts())
 ```
 
 Output:
+
 ```
 Data shape: (150, 2)
 Group counts:
@@ -109,7 +109,7 @@ Name: group, dtype: int64
 
 #### 1.1: Compute Group Means and Overall Mean
 
-$$\mu_i = \frac{1}{n_i} \sum_{j \in G_i} \mathbf{x}_j, \quad \mu = \frac{1}{n} \sum_{i=1}^n \mathbf{x}_i$$
+$$\mu\_i = \frac{1}{n\_i} \sum\_{j \in G\_i} \mathbf{x}_j, \quad \mu = \frac{1}{n} \sum_{i=1}^n \mathbf{x}\_i$$
 
 ```python title:"Group Means" fold
 group_means = data.groupby('group')[['weight', 'color']].mean()
@@ -119,6 +119,7 @@ print("Overall mean:", overall_mean)
 ```
 
 Output:
+
 ```
 Group means:
            weight     color
@@ -131,7 +132,7 @@ Overall mean: [3.976  4.990]
 
 #### 1.2: Compute Within-Group SSCP Matrix (W)
 
-$$\mathbf{W} = \sum_{i=1}^G \sum_{j \in G_i} (\mathbf{x}_j - \mu_i)(\mathbf{x}_j - \mu_i)^T$$
+$$\mathbf{W} = \sum\_{i=1}^G \sum\_{j \in G\_i} (\mathbf{x}\_j - \mu\_i)(\mathbf{x}\_j - \mu\_i)^T$$
 
 ```python title:"Within-Group SSCP" fold
 W = np.zeros((2, 2))
@@ -144,6 +145,7 @@ print("W matrix:\n", W)
 ```
 
 Output:
+
 ```
 W matrix:
  [[  36.398   2.306]
@@ -152,7 +154,7 @@ W matrix:
 
 #### 1.3: Compute Between-Group SSCP Matrix (B)
 
-$$\mathbf{B} = \sum_{i=1}^G n_i (\mu_i - \mu)(\mu_i - \mu)^T$$
+$$\mathbf{B} = \sum\_{i=1}^G n\_i (\mu\_i - \mu)(\mu\_i - \mu)^T$$
 
 ```python title:"Between-Group SSCP" fold
 B = np.zeros((2, 2))
@@ -164,6 +166,7 @@ print("B matrix:\n", B)
 ```
 
 Output:
+
 ```
 B matrix:
  [[  79.458  -43.501]
@@ -172,7 +175,7 @@ B matrix:
 
 #### 1.4: Solve for Eigenvalues and Eigenvectors
 
-$$\mathbf{W}^{-1} \mathbf{B} \mathbf{w}_i = \lambda_i \mathbf{w}_i$$
+$$\mathbf{W}^{-1} \mathbf{B} \mathbf{w}\_i = \lambda\_i \mathbf{w}\_i$$
 
 ```python title:"Eigen Decomposition" fold
 W_inv = np.linalg.inv(W)
@@ -186,6 +189,7 @@ print("Eigenvectors:\n", eigenvectors)
 ```
 
 Output:
+
 ```
 Eigenvalues: [14.609  0.933]
 Eigenvectors:
@@ -193,15 +197,15 @@ Eigenvectors:
  [-0.996 -0.094]]
 ```
 
-- $\lambda_1 = 14.609$, $\mathbf{w}_1 = [-0.094, -0.996]^T$
-- $\lambda_2 = 0.933$, $\mathbf{w}_2 = [0.996, -0.094]^T$
+- $\lambda\_1 = 14.609$, $\mathbf{w}\_1 = \[-0.094, -0.996]^T$
+- $\lambda\_2 = 0.933$, $\mathbf{w}\_2 = \[0.996, -0.094]^T$
 
 #### 1.5: Compute Discriminant Scores
 
-$$Z_i = \mathbf{X} \mathbf{w}_i$$
+$$Z\_i = \mathbf{X} \mathbf{w}\_i$$
 
 First, center the data:
-$$\mathbf{X}_{\text{centered}} = \mathbf{X} - \mu$$
+$$\mathbf{X}\_{\text{centered}} = \mathbf{X} - \mu$$
 
 ```python title:"Discriminant Scores" fold
 X_centered = X - overall_mean
@@ -212,6 +216,7 @@ print("First few scores:\n", data[['weight', 'color', 'group', 'Z1', 'Z2']].head
 ```
 
 Output:
+
 ```
 First few scores:
      weight  color  group      Z1      Z2
@@ -240,5 +245,5 @@ plt.show()
 
 ![[assets/mda_fruit_manual.png|500]]
 
-- **$Z_1$** separates oranges (low color) from apples and bananas (higher color).
-- **$Z_2$** distinguishes bananas (lower weight) from apples (higher weight).
+- **$Z\_1$** separates oranges (low color) from apples and bananas (higher color).
+- **$Z\_2$** distinguishes bananas (lower weight) from apples (higher weight).

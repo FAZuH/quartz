@@ -2,17 +2,16 @@
 publish: true
 aliases:
   - Cast Android Screen to PC
-created: 2026-02-22T19:23:58.375+07:00
-modified: 2026-02-22T19:23:58.375+07:00
-published: 2026-02-22T19:23:58.375+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.592+07:00
+modified: 2026-03-25T15:22:40.592+07:00
+published: 2026-03-25T15:22:40.592+07:00
 creation-time: 2025-07-23 17:46
-status: baby
+status: in progress
 tag:
 parent: "[[software-recommendations_202507231725]]"
 ---
 
-[https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy "https://github.com/Genymobile/scrcpy") 
+[https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy "https://github.com/Genymobile/scrcpy")
 
 Customable: Can cast camera only, audio only, adjust bitrate, limit fps, connect wirelessly, etc.
 

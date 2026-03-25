@@ -2,18 +2,16 @@
 publish: true
 aliases:
   - When to use Struct Derives
-created: 2026-02-27T22:29:14.481+07:00
-modified: 2026-03-01T16:02:18.269+07:00
-published: 2026-03-01T16:02:18.269+07:00
+created: 2026-03-25T15:22:40.619+07:00
+modified: 2026-03-25T15:22:40.619+07:00
+published: 2026-03-25T15:22:40.619+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2026-02-27 22:29
-status: baby
+status: in progress
 parent:
   - "[[rust]]"
 ---
-
 
 | Derive                      | When                                                                         |
 | --------------------------- | ---------------------------------------------------------------------------- |

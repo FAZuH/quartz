@@ -1,20 +1,18 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.368+07:00
-modified: 2026-02-22T19:23:58.368+07:00
-published: 2026-02-22T19:23:58.368+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.643+07:00
+modified: 2026-03-25T15:22:40.643+07:00
+published: 2026-03-25T15:22:40.643+07:00
 creation-time: 2025-03-06 04:58
-status: adult
+status: complete
 tags:
 parent:
   - "[[sql]]"
 ---
 
-
 > [!NOTE]
 > This note only includes description, syntax and examples for commands related to tables.
-> Many statements here also supports other database objects, although not included in the scope of this note. See [[3 Reference/Database Objects]] to read further.
+> Many statements here also supports other database objects, although not included in the scope of this note. See [[Database Objects]] to read further.
 
 ## DDL (Data Definition Language)
 
@@ -53,7 +51,8 @@ CREATE TABLE employees (
 
 Creates a new table.
 
-Example with [[3 Reference/SQL Commands#Column constraints]]
+Example with [[#Column constraints]]
+
 ```sql
 CREATE TABLE table_name (
 	col1 INTEGER PRIMARY KEY,
@@ -62,12 +61,12 @@ CREATE TABLE table_name (
 )
 ```
 
-So, for each column in a create table statement, 
+So, for each column in a create table statement,
 `<column name> <data type> [constraint]`.
 
 ### DROP TABLE statement
 
-Deletes 
+Deletes
 
 ### ALTER TABLE statement
 
@@ -111,7 +110,7 @@ TRUNCATE TABLE table_name;
 
 The column names are optional, but is recommended, as column order can change.
 
-Values can be omitted on columns that has a `DEFAULT` [[3 Reference/SQL Commands#Column constraints\|constraint]].
+Values can be omitted on columns that has a `DEFAULT` [[#Column constraints|constraint]].
 
 String literals has to be defined using single ticks ('). Double ticks (") are reserved for identifiers (column & table names).
 
@@ -162,7 +161,7 @@ Where clause specifies the rows to delete. If omitted, all rows will be deleted.
 
 ## DQL (Data Query Language)
 
-See [[3 Reference/SQL Query]]
+See [[SQL Query]]
 
 ## DCL (Data Control Language)
 
@@ -193,9 +192,8 @@ REVOKE SELECT, INSERT ON table_name FROM user;
 
 ## TCL (Transaction Control Language)
 
-
 ## Others
 
 Other useful SQL commands include:
 
-- [[3 Reference/SQL EXPLAIN and DESCRIBE Command]]
+- [[SQL EXPLAIN and DESCRIBE Command]]

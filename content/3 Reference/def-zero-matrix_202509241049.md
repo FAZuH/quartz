@@ -2,25 +2,23 @@
 publish: true
 aliases:
   - Zero Matrix
-created: 2026-02-22T19:23:58.417+07:00
-modified: 2026-02-22T19:23:58.419+07:00
-published: 2026-02-22T19:23:58.419+07:00
+created: 2026-03-25T15:22:40.640+07:00
+modified: 2026-03-25T15:22:40.640+07:00
+published: 2026-03-25T15:22:40.640+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-24 10:49
-status: adult
+status: complete
 parent:
   - "[[linear-algebra|linear algebra]]"
   - "[[matrices]]"
 ---
 
-
 ## Definition
 
-A [[3 Reference/Def-matrix\|matrix]] whose [[3 Reference/Def-matrix\|entries]] are all zero is called a **zero matrix**.
+A [[Def-matrix|matrix]] whose [[Def-matrix|entries]] are all zero is called a **zero matrix**.
 
-Usually denoted as $0$, or if the sizes are important, $0_{m\times n}$.
+Usually denoted as $0$, or if the sizes are important, $0\_{m\times n}$.
 
 ## Example
 

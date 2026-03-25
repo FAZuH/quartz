@@ -2,19 +2,16 @@
 publish: true
 aliases:
   - Basic Operations in Graph Data Structure
-created: 2026-02-22T19:23:58.374+07:00
-modified: 2026-02-22T19:23:58.374+07:00
-published: 2026-02-22T19:23:58.374+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.612+07:00
+modified: 2026-03-25T15:22:40.612+07:00
+published: 2026-03-25T15:22:40.612+07:00
 creation-time: 2025-08-18 11:47
-status: baby
+status: in progress
 tag:
 parent: "[[Graph]]"
 ---
 
-
-
-In this note are code for basic operations for [[3 Reference/Graph#Graph as adjacency list\|Graph as adjacency list]] and [[3 Reference/Graph#Graph as adjacency matrix\|Graph as adjacency matrix]].
+In this note are code for basic operations for [[Graph#Graph as adjacency list|Graph as adjacency list]] and [[Graph#Graph as adjacency matrix|Graph as adjacency matrix]].
 
 ## Base code
 
@@ -217,4 +214,3 @@ for graph in graph_impls    graph.add_edge(a, b, directed=True)
 
 **Output**
 ![[assets/Pasted image 20250227234017.png]]
-

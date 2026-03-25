@@ -2,44 +2,44 @@
 publish: true
 aliases:
   - Solution of Linear System by Matrix Inversion
-created: 2026-02-22T19:24:22.892+07:00
-modified: 2026-02-22T19:24:22.894+07:00
-published: 2026-02-22T19:24:22.894+07:00
+created: 2026-03-25T15:22:40.647+07:00
+modified: 2026-03-25T15:22:40.647+07:00
+published: 2026-03-25T15:22:40.647+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-10-02 19:38
-status: adult
+status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
-
 ## Theorem
 
-Let 
-- $A$ : [[3 Reference/def-inverse-matrix_202509241225\|Invertible]] $n\times n$ [[3 Reference/Def-matrix\|matrix]]
+Let
+
+- $A$ : [[def-inverse-matrix_202509241225|Invertible]] $n\times n$ [[Def-matrix|matrix]]
 - $\mathbf{b}$ : Any $n\times 1$ matrix
 
-Then the [[3 Reference/Def-linear-system\|linear system]] $A\mathbf{x}=\mathbf{b}$ has exactly one [[3 Reference/Def-solution-of-linear-system\|solution]], namely,
+Then the [[Def-linear-system|linear system]] $A\mathbf{x}=\mathbf{b}$ has exactly one [[Def-solution-of-linear-system|solution]], namely,
 $$
 \mathbf{x}=A^{-1}\mathbf{b}
 $$
 
 ## Proof
 
-Let 
-- $A$ : [[3 Reference/def-inverse-matrix_202509241225\|Invertible]] $n\times n$ [[3 Reference/Def-matrix\|matrix]]
+Let
+
+- $A$ : [[def-inverse-matrix_202509241225|Invertible]] $n\times n$ [[Def-matrix|matrix]]
 - $\mathbf{b}$ : Any $n\times 1$ matrix
 
-Since $A(A^{-1}\mathbf{b})=(AA^{-1})\mathbf{b}=I\mathbf{b}=\mathbf{b}$, by definition of [[3 Reference/Def-solution-of-linear-system\|solution of linear system]], it follows that $\mathbf{x}=A^{-1}\mathbf{b}$ is a solution of $A\mathbf{x}=\mathbf{b}$.
+Since $A(A^{-1}\mathbf{b})=(AA^{-1})\mathbf{b}=I\mathbf{b}=\mathbf{b}$, by definition of [[Def-solution-of-linear-system|solution of linear system]], it follows that $\mathbf{x}=A^{-1}\mathbf{b}$ is a solution of $A\mathbf{x}=\mathbf{b}$.
 
 Let $\mathbf{x}_{0}$ be any solution of $A\mathbf{x}=\mathbf{b}$. Then $A\mathbf{x}_{0}=\mathbf{b}$. Further,
 $$
 \begin{align}
 A\mathbf{x}_{0} & = \mathbf{b} \\
 A^{-1}A\mathbf{x}_{0} & = A^{-1}\mathbf{b} \\
-\mathbf{x}_{0} & = A^{-1}\mathbf{b}
+\mathbf{x}\_{0} & = A^{-1}\mathbf{b}
 \end{align}
 $$
 

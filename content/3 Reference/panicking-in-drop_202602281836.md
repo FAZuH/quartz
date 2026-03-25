@@ -2,18 +2,16 @@
 publish: true
 aliases:
   - Panicking in Drop
-created: 2026-02-28T18:36:04.558+07:00
-modified: 2026-02-28T18:36:46.772+07:00
-published: 2026-02-28T18:36:46.772+07:00
+created: 2026-03-25T15:22:40.615+07:00
+modified: 2026-03-25T15:22:40.615+07:00
+published: 2026-03-25T15:22:40.615+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2026-02-28 18:36
-status: baby
+status: in progress
 parent:
   - "[[rust]]"
 ---
-
 
 | Scenario                         | Result                                              |
 | -------------------------------- | --------------------------------------------------- |
@@ -21,7 +19,6 @@ parent:
 | `drop()` runs during unwinding   | Fine, but `std::thread::panicking()` returns `true` |
 | `drop()` panics during unwinding | Process aborts immediately                          |
 | `drop()` panics normally         | Begins unwinding                                    |
-
 
 ## How Rust Handles Panics
 
@@ -86,4 +83,3 @@ w.write_all(b"data").unwrap();
 // but if it fails, the error is silently discarded
 w.flush().unwrap(); // always flush explicitly before drop
 ```
-

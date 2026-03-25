@@ -1,11 +1,10 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.349+07:00
-modified: 2026-02-22T19:23:58.349+07:00
-published: 2026-02-22T19:23:58.349+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.593+07:00
+modified: 2026-03-25T15:22:40.593+07:00
+published: 2026-03-25T15:22:40.593+07:00
 creation-time: 2025-06-21 14:04
-status: baby
+status: in progress
 tags:
 parent:
   - "[[email administration]]"
@@ -18,4 +17,5 @@ DKIM (DomainKeys Identified Mail) is a mechanism that signs all outbound emails 
 ---
 
 **Reference**
+
 - https://www.youtube.com/watch?v=c9fLp5uIxp8

@@ -2,15 +2,13 @@
 publish: true
 aliases:
   - Time Series Data
-created: 2026-03-16T11:04:35.510+07:00
-modified: 2026-03-16T11:08:24.070+07:00
-published: 2026-03-16T11:08:24.070+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.608+07:00
+modified: 2026-03-25T15:22:40.608+07:00
+published: 2026-03-25T15:22:40.608+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
-
 
 ## About
 

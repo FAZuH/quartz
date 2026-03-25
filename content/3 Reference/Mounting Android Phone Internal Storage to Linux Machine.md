@@ -1,18 +1,16 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.366+07:00
-modified: 2026-02-22T19:23:58.366+07:00
-published: 2026-02-22T19:23:58.366+07:00
+created: 2026-03-25T15:22:40.640+07:00
+modified: 2026-03-25T15:22:40.640+07:00
+published: 2026-03-25T15:22:40.640+07:00
 tags:
   - content-type/procedural
-cssclasses: ""
 creation-time: 2025-03-21 19:05
-status: adult
+status: complete
 parent:
   - "[[linux]]"
   - "[[file systems]]"
 ---
-
 
 The following guide is tested for Archlinux, and is not guaranteed to work on other distributions.
 
@@ -22,9 +20,9 @@ The following guide is tested for Archlinux, and is not guaranteed to work on ot
 2. Prepare an empty directory, e.g. `/mnt/android/`
 3. Attach the Android phone to the linux machine
 4. Switch to USB file transfer mode when prompted on Android
-5. Mount: 
-	```bash
-	aft-mtp-mount /mnt/android
-	```
+5. Mount:
+   ```bash
+   aft-mtp-mount /mnt/android
+   ```
 
 Unmount using `umount /mnt/android` or `fusermount -u /mnt/android`

@@ -2,17 +2,17 @@
 publish: true
 aliases:
   - Indonesian VPS Provider Comparion
-created: 2026-02-22T19:24:21.978+07:00
-modified: 2026-02-22T19:24:21.979+07:00
-published: 2026-02-22T19:24:21.979+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.597+07:00
+modified: 2026-03-25T15:22:40.597+07:00
+published: 2026-03-25T15:22:40.597+07:00
 creation-time: 2025-07-23 18:22
-status: baby
+status: in progress
 tag:
 parent: "[[self-hosting]]"
 ---
 
 As of 2025-07-23
+
 ## Provider VPS Indonesia
 
 | Provider        | vCPU | RAM  | Storage      | Price (IDR/month) |

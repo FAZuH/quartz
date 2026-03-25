@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.349+07:00
-modified: 2026-02-22T19:23:58.349+07:00
-published: 2026-02-22T19:23:58.349+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.662+07:00
+modified: 2026-03-25T15:22:40.662+07:00
+published: 2026-03-25T15:22:40.662+07:00
 creation-time: 2025-03-06 09:06
-status: elder
+status: complete
 tags:
 parent:
   - "[[sql]]"
 ---
-
 
 ## Column references
 

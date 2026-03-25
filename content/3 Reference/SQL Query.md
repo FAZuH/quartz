@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.368+07:00
-modified: 2026-02-22T19:23:58.369+07:00
-published: 2026-02-22T19:23:58.369+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.661+07:00
+modified: 2026-03-25T15:22:40.662+07:00
+published: 2026-03-25T15:22:40.662+07:00
 creation-time: 2025-03-06 08:09
-status: elder
+status: complete
 tags:
 parent:
   - "[[sql]]"
 ---
-
 
 ## SELECT statement
 
@@ -24,7 +22,7 @@ FROM movies;
 ### WHERE clause
 
 Fitler rows to match a condition.
-  
+
 ```sql
 SELECT title
 FROM library
@@ -53,7 +51,7 @@ ORDER BY birth_date DESC;
 ### DISTINCT clause
 
 Removes duplicate rows from the result set
-  
+
 ```sql
 SELECT DISTINCT city
 FROM contact_details;
@@ -113,7 +111,6 @@ FROM students
 WHERE degree IN ("Math", "Statistics", "Computer Science");
 ```
 
-
 ### BETWEEN operator
 
 Filter values based on a range.
@@ -122,7 +119,7 @@ Filter values based on a range.
 SELECT *
 FROM movies
 WHERE year BETWEEN 1980 AND 1990;
-```  
+```
 
 ### LIKE operator
 
@@ -135,5 +132,6 @@ WHERE name LIKE 'Star%';
 ```
 
 > [!NOTE]
+>
 > - `%` wildcard can be used along with `LIKE` to match $\geq$ 0 unspecified characters.
 > - $\_$ wildcard can be used to match 1 unspecified character.

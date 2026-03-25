@@ -1,36 +1,34 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.351+07:00
-modified: 2026-02-22T19:23:58.351+07:00
-published: 2026-02-22T19:23:58.351+07:00
+created: 2026-03-25T15:22:40.645+07:00
+modified: 2026-03-25T15:22:40.645+07:00
+published: 2026-03-25T15:22:40.645+07:00
 tags:
   - content-type/procedural
-cssclasses: ""
 creation-time: 2025-04-17 19:12
-status: adult
+status: complete
 parent:
   - "[[network engineering]]"
 ---
-
 
 Connecting to a hidden Wi-Fi network (one that doesn’t broadcast its SSID) requires manually entering the network details. Here’s how to do it on common devices:
 
 ## General Steps
 
 1. Obtain Network Details:
-    - **SSID** (the hidden network’s name).
-    - **Password** (if the network is password-protected).
-    - **Security Type** (e.g., WPA2, WPA3, or WEP; usually WPA2 or WPA3 for modern networks).
-    - You may need to get these from the network administrator or router settings.
+   - **SSID** (the hidden network’s name).
+   - **Password** (if the network is password-protected).
+   - **Security Type** (e.g., WPA2, WPA3, or WEP; usually WPA2 or WPA3 for modern networks).
+   - You may need to get these from the network administrator or router settings.
 
 2. Access Wi-Fi Settings:
-    Go to the Wi-Fi settings on your device.
+   Go to the Wi-Fi settings on your device.
 
 3. Manually Add the Network:
-    1. Look for an option like “Add Network,” “Other Network,” or “Join Other Network.”
-    2. Enter the SSID exactly as provided (it’s case-sensitive).
-    3. Select the correct security type.
-    4. Enter the password.
+   1. Look for an option like “Add Network,” “Other Network,” or “Join Other Network.”
+   2. Enter the SSID exactly as provided (it’s case-sensitive).
+   3. Select the correct security type.
+   4. Enter the password.
 
 4. Connect:
    Save or connect to the network. The device should join if the details are correct.

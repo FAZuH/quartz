@@ -1,24 +1,22 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.367+07:00
-modified: 2026-02-22T19:23:58.367+07:00
-published: 2026-02-22T19:23:58.367+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.662+07:00
+modified: 2026-03-25T15:22:40.662+07:00
+published: 2026-03-25T15:22:40.662+07:00
 creation-time: 2025-02-28 16:57
-status: elder
+status: complete
 tags:
 parent:
   - "[[studying]]"
   - "[[philosophy]]"
 ---
 
-
 How to organize your digital information into actionable categories for better productivity
 
 ---
 
 > "Your professional success and quality of life depend directly on your quality to manage inforrmation effectively."
-> 
+>
 > - Tiago Forte
 
 Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
@@ -29,8 +27,11 @@ Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
 ## Projects
 
 - **Outcomes that you are working toward** that require dedicated method within a timeframe
+
 - Have a clear goal
+
 - Have an end
+
 - Action oriented, and usually short term
 
 - Examples: Notes, ideas, research, etc.
@@ -38,7 +39,9 @@ Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
 ## Areas
 
 - **Roles or responsibilities**
+
 - Ongoing maintenance
+
 - Very rarely complete
 
 - Examples: Health, relationships, career, etc.
@@ -46,7 +49,9 @@ Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
 ## Resources
 
 - Any topic of ongoing interests or **useful reference**
+
 - Refrence for future projects
+
 - Low on actionable
 
 - Examples: Documentation, books, recipes, etc.
@@ -57,4 +62,4 @@ Source: https://www.youtube.com/watch?v=T6Mfl1OywM8
 
 ## See also
 
-- [[3 Reference/The 10-to-15 Rule]]
+- [[The 10-to-15 Rule]]

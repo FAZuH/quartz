@@ -1,17 +1,15 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.366+07:00
-modified: 2026-02-22T19:23:58.367+07:00
-published: 2026-02-22T19:23:58.367+07:00
+created: 2026-03-25T15:22:40.647+07:00
+modified: 2026-03-25T15:22:40.647+07:00
+published: 2026-03-25T15:22:40.647+07:00
 tags:
   - content-type/combined
-cssclasses: ""
 creation-time: 2025-05-09 06:52
-status: adult
+status: complete
 parent:
   - "[[multivariate analysis]]"
 ---
-
 
 ## About multivariate regression
 
@@ -20,25 +18,27 @@ Multivariate regression models the linear relationship between multiple independ
 The goal is to **predict $Y$ using a linear combination of predictors and understand their collective impact**, such as predicting house prices from features like size and age.
 
 ## Computing regression coefficients
+
 Steps to compute regression coefficients:
+
 1. Prepare the data matrix $X$, adding a column of ones for the intercept.
 2. Calculate coefficients using the least squares method with [Formula 10.5](#Core%20Formulas): $\hat{\beta}=(X'X)^{-1}X'Y$, where $X'$ is the transpose of $X$, and $(X'X)^{-1}$ is the inverse of $X'X$.
 
 The model should look like:
 $$
 \begin{align}
-\begin{pmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{pmatrix} &=
+\begin{pmatrix} y\_1 \ y\_2 \ \vdots \ y\_n \end{pmatrix} &=
 
 \begin{pmatrix}
-1 & x_{11} & x_{12} & \cdots & x_{1q} \\
-1 & x_{21} & x_{22} & \cdots & x_{2q} \\
+1 & x\_{11} & x\_{12} & \cdots & x\_{1q} \\
+1 & x\_{21} & x\_{22} & \cdots & x\_{2q} \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
-1 & x_{n1} & x_{n2} & \cdots & x_{nq}
+1 & x\_{n1} & x\_{n2} & \cdots & x\_{nq}
 \end{pmatrix}
 
-\begin{pmatrix} \beta_0 \\ \beta_1 \\ \vdots \\ \beta_q \end{pmatrix}
-+
-\begin{pmatrix} \epsilon_1 \\ \epsilon_2 \\ \vdots \\ \epsilon_n \end{pmatrix}\\
+\begin{pmatrix} \beta\_0 \ \beta\_1 \ \vdots \ \beta\_q \end{pmatrix}
+\+
+\begin{pmatrix} \epsilon\_1 \ \epsilon\_2 \ \vdots \ \epsilon\_n \end{pmatrix}\\
 
 Y &= X\boldsymbol{\beta} + \boldsymbol{\epsilon}
 \end{align}
@@ -70,13 +70,14 @@ R-squared  shows model fit, while RMSE measures prediction error.
 
 ## Core formulas
 
-- Formula 10.3 (Predicted values): $$\hat{Y}=X\hat{\beta}$$ 
-- Formula 10.5 (Coefficient estimation): $$\hat{\beta}=(X'X)^{-1}X'Y$$ 
-- Formula 10.6 (Sum of squared errors): $$\text{SSE}=(Y-X\hat{\beta})'(Y-X\hat{\beta})$$ 
-- Formula 10.8 (Variance estimate): $$s^2=\frac{\text{SSE}}{n-q-1}$$ 
-- Formula 10.30 (R-squared): $$R^2= \frac{\hat{\beta}'X'Y-n\bar{Y}^2}{Y'Y-n\bar{Y}^2}$$ 
+- Formula 10.3 (Predicted values): $$\hat{Y}=X\hat{\beta}$$
+- Formula 10.5 (Coefficient estimation): $$\hat{\beta}=(X'X)^{-1}X'Y$$
+- Formula 10.6 (Sum of squared errors): $$\text{SSE}=(Y-X\hat{\beta})'(Y-X\hat{\beta})$$
+- Formula 10.8 (Variance estimate): $$s^2=\frac{\text{SSE}}{n-q-1}$$
+- Formula 10.30 (R-squared): $$R^2= \frac{\hat{\beta}'X'Y-n\bar{Y}^2}{Y'Y-n\bar{Y}^2}$$
 
 ## Limitations
+
 - Assumes linear relationships.
 - Sensitive to multicollinearity.
 - Needs $n>q+1$ for stable $X'X$ inversion.

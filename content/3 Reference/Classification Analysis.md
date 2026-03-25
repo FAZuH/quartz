@@ -1,20 +1,18 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.350+07:00
-modified: 2026-02-22T19:23:58.350+07:00
-published: 2026-02-22T19:23:58.350+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.640+07:00
+modified: 2026-03-25T15:22:40.640+07:00
+published: 2026-03-25T15:22:40.640+07:00
 creation-time: 2025-03-21 07:05
-status: adult
+status: complete
 tags: []
 parent:
-  - "[[3 Reference/structure/discriminant analysis]]"
+  - "[[discriminant analysis]]"
 ---
-
 
 Classification analysis **assigns an observation to a group** based on its measured variables, using patterns from known group data.
 
-Imagine sorting fruit into baskets: you measure features (e.g., weight, color), compare them to known apples and oranges, and pick the closest match. 
+Imagine sorting fruit into baskets: you measure features (e.g., weight, color), compare them to known apples and oranges, and pick the closest match.
 
 A new observation vector $\mathbf{y}$ is compared to previous observartions **to predict its group**, often via a discriminant score.
 
@@ -30,42 +28,43 @@ Unlike [[discriminant analysis]], it focuses on allocation, not just separation.
 
 ## Classification procedures
 
-- [[3 Reference/Classifying Observations into Two Groups]]
-- [[3 Reference/Classifying Observations into Several Groups]]
-- [[3 Reference/Nonparametric Classification Procedures]]
+- [[Classifying Observations into Two Groups]]
+- [[Classifying Observations into Several Groups]]
+- [[Nonparametric Classification Procedures]]
 
 ## Estimating misclassification rates
 
 1. Use training data to define the classification rule.
 
-2. Apply the rule to every observation $\mathbf{y}_{ij}$ in the training set to predict its group.
+2. Apply the rule to every observation $\mathbf{y}\_{ij}$ in the training set to predict its group.
 
-3. For each $\mathbf{y}_{ij}$, check if the predicted group matches its actual group.
+3. For each $\mathbf{y}\_{ij}$, check if the predicted group matches its actual group.
 
-4. **Count Misclassifications**: 
-	Use a classification table (such as [[3 Reference/Classification Analysis#^d9b524\|Table 9.1]])
-	
-	For 2 groups: 
-	- $n_{11}$: Correctly classified into $G_1$
-	- $n_{12}$: Misclassified into $G_2$
-	- $n_{21}$: Misclassified into $G_1$
-	- $n_{22}$: Correctly classified into $G_2$.
-	
-	For $k$ groups, sum all off-diagonal counts in the classification table (e.g., $n_{12} + n_{13} + n_{21} + \cdots$).
+4. **Count Misclassifications**:
+   Use a classification table (such as [[#^d9b524|Table 9.1]])
+
+   For 2 groups:
+
+   - $n\_{11}$: Correctly classified into $G\_1$
+   - $n\_{12}$: Misclassified into $G\_2$
+   - $n\_{21}$: Misclassified into $G\_1$
+   - $n\_{22}$: Correctly classified into $G\_2$.
+
+   For $k$ groups, sum all off-diagonal counts in the classification table (e.g., $n\_{12} + n\_{13} + n\_{21} + \cdots$).
 
 5. **Compute Rate (Formula 9.16)**:
-	$$\begin{align}
-	\text{Apparent Error Rate} &= \frac{\text{Total Misclassifications}}{\text{Total Observations}}\\ 
-	 &= \frac{n_{12} + n_{21}}{n_{1} + n_{2}}\\
-	 &= \frac{n_{12} + n_{21}}{n_{11} + n_{12} + n_{21} + n_{22}}\\
-	\end{align}$$
+   $$\begin{align}
+   \text{Apparent Error Rate} &= \frac{\text{Total Misclassifications}}{\text{Total Observations}}\\
+   &= \frac{n\_{12} + n\_{21}}{n\_{1} + n\_{2}}\\
+   &= \frac{n\_{12} + n\_{21}}{n\_{11} + n\_{12} + n\_{21} + n\_{22}}\\
+   \end{align}$$
 
 Classification table example:
 ![[assets/Pasted image 20250321083842.png|300]] ^d9b524
 
 ## Python example
 
-For classification into two groups, see example on [[3 Reference/Two-Group Discriminant Analysis#Python example]]
+For classification into two groups, see example on [[Two-Group Discriminant Analysis#Python example]]
 
 The example below demonstrates 2 classifications into 3 groups, one assuming equal covariance, the other assuming unequal covariance.
 
@@ -115,10 +114,10 @@ print("Predicted group (linear):", group_linear)
 print("Quadratic scores:", list(map(int, Q)))
 print("Predicted group (quadratic):", group_quadratic)
 ```
+
 ```output
 Linear scores: [545, 545, 545]
 Predicted group (linear): 2
 Quadratic scores: [-2, -2, -2]
 Predicted group (quadratic): 2
 ```
-

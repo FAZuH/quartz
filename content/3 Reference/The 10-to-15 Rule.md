@@ -1,25 +1,23 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.370+07:00
-modified: 2026-02-22T19:23:58.370+07:00
-published: 2026-02-22T19:23:58.370+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.638+07:00
+modified: 2026-03-25T15:22:40.638+07:00
+published: 2026-03-25T15:22:40.638+07:00
 creation-time: 2025-02-28 17:03
-status: adult
+status: complete
 tags:
 parent:
   - "[[studying]]"
 ---
-
 
 - Source: https://www.youtube.com/watch?v=anexySaCsgU
 
 ## Step 1: Brainstorm your Lists
 
 - Writing down everything you're working on right now
-    - Check to do lists
-    - Check emails
-    - Check calendars
+  - Check to do lists
+  - Check emails
+  - Check calendars
 
 ## Step 2: Follow 10-15 Rule
 
@@ -29,6 +27,7 @@ parent:
 ## Step 3: Identify False Projects
 
 Common items that sneak into a project list:
+
 - Dreams: Projects with no deadline
 - Hobby: Projects with no specific goal
 - Areas: Ongoing areas of responsibility that don't really end
@@ -41,4 +40,4 @@ Common items that sneak into a project list:
 
 ## See also
 
-- [[3 Reference/PARA Method]]
+- [[PARA Method]]

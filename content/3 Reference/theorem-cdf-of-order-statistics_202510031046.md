@@ -2,62 +2,57 @@
 publish: true
 aliases:
   - cdf of Order Statistics
-created: 2026-02-22T19:24:22.706+07:00
-modified: 2026-02-22T19:24:22.709+07:00
-published: 2026-02-22T19:24:22.709+07:00
+created: 2026-03-25T15:22:40.641+07:00
+modified: 2026-03-25T15:22:40.641+07:00
+published: 2026-03-25T15:22:40.641+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-10-03 10:46
-status: adult
+status: complete
 parent:
   - "[[Introduction to Mathematical Statistics]]"
 ---
 
-
 ## Theorem
 
-Let 
-- $X_{1},\dots,X_{n}$ : [[3 Reference/Def-random-sample\|Random sample]] with [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x)$
-- $Y_{1},\dots,Y_{n}$ : [[3 Reference/Def-order-statistics\|Order statistics]] of $X_{1},\dots,X_{n}$
+Let
 
-Then [[3 Reference/Def-cumulative-distribution-function-(cdf)\|cdf]] of $Y_{1},\dots, Y_{n}$ is given by
+- $X\_{1},\dots,X\_{n}$ : [[Def-random-sample|Random sample]] with [[Def-probability-density-function-(pdf)|pdf]] $f(x)$
+- $Y\_{1},\dots,Y\_{n}$ : [[Def-order-statistics|Order statistics]] of $X\_{1},\dots,X\_{n}$
 
-- $Y_{1}$[^2]
-$$
-F_{Y_{1}}(x) = 1-[1-F_{X}(x)]^n
-$$
+Then [[Def-cumulative-distribution-function-(cdf)|cdf]] of $Y\_{1},\dots, Y\_{n}$ is given by
 
-- $Y_{k}$[^1]
-$$
-F_{Y_{k}}(x) = \sum_{j=k}^n \binom n j [F_{X}(x)]^j[1-F_{X}(x)]^{n-j}
-$$
+- $Y\_{1}$[^2]
+  $$
+  F\_{Y\_{1}}(x) = 1-\[1-F\_{X}(x)]^n
+  $$
 
-- $Y_{n}$[^2]
-$$
-F_{Y_{n}}(x) = [F_{X}(x)]^n
-$$
+- $Y\_{k}$[^1]
+  $$
+  F\_{Y\_{k}}(x) = \sum\_{j=k}^n \binom n j \[F\_{X}(x)]^j\[1-F\_{X}(x)]^{n-j}
+  $$
+
+- $Y\_{n}$[^2]
+  $$
+  F\_{Y\_{n}}(x) = \[F\_{X}(x)]^n
+  $$
 
 ## Example
 
-> Let $Y_{1}<Y_{2}<Y_{3}<Y_{4}$ be the [[3 Reference/Def-order-statistics\|order statistics]] of a [[3 Reference/Def-random-sample\|random sample]] of size $4$ from the distribution having [[3 Reference/Def-probability-density-function-(pdf)\|pdf]] $f(x)=e^{-x},0<x<\infty$, zero elsewhere.
+> Let $Y\_{1}\<Y\_{2}\<Y\_{3}\<Y\_{4}$ be the [[Def-order-statistics|order statistics]] of a [[Def-random-sample|random sample]] of size $4$ from the distribution having [[Def-probability-density-function-(pdf)|pdf]] $f(x)=e^{-x},0\<x<\infty$, zero elsewhere.
 >
-> Find $P(3\leq Y_{4})$.
+> Find $P(3\leq Y\_{4})$.
 
 $$
 \begin{align}
-P(3\leq Y_{4}) & = 1 - P(Y_{4}\leq3) \\
- & = 1 - F_{Y_{4}}(3) \\
- & = 1 - [F_{X}(3)]^{4} \\
- & = 1 - \left[ \int_{0}^3 e^{-x}\; dx \right]^4 \\
- & = \boxed{0.1847}
+P(3\leq Y\_{4}) & = 1 - P(Y\_{4}\leq3) \\
+& = 1 - F\_{Y\_{4}}(3) \\
+& = 1 - \[F\_{X}(3)]^{4} \\
+& = 1 - \left\[ \int\_{0}^3 e^{-x}; dx \right]^4 \\
+& = \boxed{0.1847}
 \end{align}
 $$
 
-
-
-
-
-[^1]: https://en.wikipedia.org/wiki/Order_statistic#Cumulative_distribution_function_of_order_statistics (Taken in 2025-06-24)
+[^1]: https://en.wikipedia.org/wiki/Order_statistic#Cumulative_distribution_function_of_order_statistics "Taken in 2025-06-24"
 
 [^2]: https://www.colorado.edu/amath/sites/default/files/attached-files/order_stats.pdf

@@ -1,17 +1,15 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.352+07:00
-modified: 2026-02-22T19:23:58.352+07:00
-published: 2026-02-22T19:23:58.352+07:00
+created: 2026-03-25T15:22:40.639+07:00
+modified: 2026-03-25T15:22:40.639+07:00
+published: 2026-03-25T15:22:40.639+07:00
 tags:
   - content-type/procedural
-cssclasses: ""
 creation-time: 2025-04-20 14:28
-status: adult
+status: complete
 parent:
   - "[[database]]"
 ---
-
 
 Create a backup of a MySQL database using `mysqldump`.
 
@@ -28,14 +26,14 @@ Create a backup of a MySQL database using `mysqldump`.
 1. Open terminal
 
 2. **Run mysqldump Command**:
-    
-    ```bash
-    mysqldump -u [username] -p [database_name] > backup.sql
-    ```
-    
-    - Replace `[username]` with your MySQL username.
-    - Replace `[database_name]` with the target database.
-    - Enter password when prompted.
+
+   ```bash
+   mysqldump -u [username] -p [database_name] > backup.sql
+   ```
+
+   - Replace `[username]` with your MySQL username.
+   - Replace `[database_name]` with the target database.
+   - Enter password when prompted.
 
 3. **Verify Backup**: Check `backup.sql` exists in the current directory.
 

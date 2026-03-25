@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.368+07:00
-modified: 2026-03-01T22:21:07.868+07:00
-published: 2026-03-01T22:21:07.868+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.640+07:00
+modified: 2026-03-25T15:22:40.640+07:00
+published: 2026-03-25T15:22:40.640+07:00
 creation-time: 2025-02-28 16:43
-status: adult
+status: complete
 tags:
 parent:
   - "[[object oriented programming]]"
 ---
-
 
 ## Single Responsibility
 
@@ -18,53 +16,53 @@ Class should only have one clear reason to change (one responsibility).
 
 ## Open/Closed Principles
 
-Class should be open to extension ([[3 Reference/Pillars of OOP#inheritance\|inheritance]]), but closed for modification.
+Class should be open to extension ([[Pillars of OOP#inheritance|inheritance]]), but closed for modification.
 
 ## Liskov Substitution
 
 Ensures subclass can substitute its superclass.
 
 1. **Parameter** type of overrides should match or more abstract of
- 
-	 `foo(Parent)` to
-	 
-	 ✅`foo(GrandParent)`
-	 
-	 ❌`foo(Child)`
-	
-	Break if client passes `Parent` to `foo`, but `foo` is actually expecting `Child`, tried to access fields not available on `Parent`
+
+   `foo(Parent)` to
+
+   ✅`foo(GrandParent)`
+
+   ❌`foo(Child)`
+
+   Break if client passes `Parent` to `foo`, but `foo` is actually expecting `Child`, tried to access fields not available on `Parent`
 
 2. **Return** type of overrides should **match or subtype** of
- 
-	 `Parent foo()` to
-	 
-	 ✅`Child foo()`
-	 
-	 ❌`GrandParent foo()`
-	
-	Breaks when client tries to access fields on `Parent`, but not available on `GrandParent`
+
+   `Parent foo()` to
+
+   ✅`Child foo()`
+
+   ❌`GrandParent foo()`
+
+   Breaks when client tries to access fields on `Parent`, but not available on `GrandParent`
 
 3. Overriden **shouldn't throw more** than it's base
- 
-	 Breaks when additional exceptions were not expected by client, and were raised
+
+   Breaks when additional exceptions were not expected by client, and were raised
 
 4. Subclass **shouldn't strengthen pre conditions** (increasing requirements established by superclass)
- 
-	 Breaks when client believes the object it's passing satisfies the conditions set by superclass of another object, but the object is actually a subclass of the superclass that needs extra conditions 
+
+   Breaks when client believes the object it's passing satisfies the conditions set by superclass of another object, but the object is actually a subclass of the superclass that needs extra conditions
 
 5. Subclass **shouldn't weaken post conditions** (failing to uphold guarantees established by superclass)
 
-	Breaks when client expects objects that passes certain conditions, but subclass actually doesn't satisfy it
+   Breaks when client expects objects that passes certain conditions, but subclass actually doesn't satisfy it
 
-6. Subclass should **preserve** [[3 Reference/Invariants]] of superclass
+6. Subclass should **preserve** [[Invariants]] of superclass
 
-	Breaks when superclass expects `studentCount` to be non negative, but subclass makes it negative
+   Breaks when superclass expects `studentCount` to be non negative, but subclass makes it negative
 
 7. Subclass **shouldn't modify private fields** of superclass
 
-	Allowing subclasses to access private fields can lead to tight coupling between the superclass and its subclasses
+   Allowing subclasses to access private fields can lead to tight coupling between the superclass and its subclasses
 
-	The superclass may enforce certain [[3 Reference/Invariants\|invariants]] through its public methods. Direct access to private fields by the subclass can bypass these checks
+   The superclass may enforce certain [[Invariants|invariants]] through its public methods. Direct access to private fields by the subclass can bypass these checks
 
 ## Interface Segregation
 
@@ -72,9 +70,9 @@ Break down "fat" interfaces into more specific ones. not all classes are able to
 
 Class shouldn't be forced to conform to its interfaces.
 
-## Dependency Inversion Principle 
+## Dependency Inversion Principle
 
-[[3 Reference/Class Levels#class-levels\|High level]] should depend on abstractions. [[3 Reference/Class Levels#class-levels\|Low level]] should depend on abstractions
+[[Class Levels#class-levels|High level]] should depend on abstractions. [[Class Levels#class-levels|Low level]] should depend on abstractions
 
 On early app development, low level classes are often developed first before high level classes. dependency inversion principle suggests changing the direction of the dependency
 

@@ -2,26 +2,24 @@
 publish: true
 aliases:
   - Uniqueness of a Point in Neighborhoods
-created: 2026-02-22T19:24:22.902+07:00
-modified: 2026-02-22T19:24:22.908+07:00
-published: 2026-02-22T19:24:22.908+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.618+07:00
+modified: 2026-03-25T15:22:40.618+07:00
+published: 2026-03-25T15:22:40.618+07:00
 creation-time: 2025-08-16 00:52
-status: baby
+status: in progress
 tag:
 parent: "[[Introduction to Real Analysis]]"
 ---
-
 
 ## Theorem
 
 Let $a\in\mathbb R$.
 
 Then
-$$ x\in V_{\varepsilon}(a)\implies x=a,\quad \forall \varepsilon>0 $$
+$$ x\in V\_{\varepsilon}(a)\implies x=a,\quad \forall \varepsilon>0 $$
 
 ## Remark
 
-We can make sense of this theorem by imagining even if $\varepsilon$ (or the distance between $x$ and $a$) is infinitesimally small, but $x$ is still in $V_\varepsilon(a)$.
+We can make sense of this theorem by imagining even if $\varepsilon$ (or the distance between $x$ and $a$) is infinitesimally small, but $x$ is still in $V\_\varepsilon(a)$.
 
 This can only happen if the distance between $x$ and $a$ is $0$, which means $x = a$.

@@ -1,28 +1,31 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.372+07:00
-modified: 2026-02-22T19:23:58.372+07:00
-published: 2026-02-22T19:23:58.372+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.603+07:00
+modified: 2026-03-25T15:22:40.603+07:00
+published: 2026-03-25T15:22:40.603+07:00
 creation-time: 2025-02-28 16:28
-status: baby
+status: in progress
 tags:
 parent:
   - "[[object oriented programming]]"
 ---
 
-
 ## Association symbols
 
 - **Extend**: empty triangle head
+
 - **Implement**: empty triangle head, dash line
+
 - **Abstract Name**: italic font
 
 - **Association**: simple arrow
+
 - **Depend**: simple arrow, dash line
+
 - **Composition**: simple arrow, diamond back
-	- Implies ownership
-	- Contained object cannot exist without the container. e.g., `Transport` cannot function without `Engine`
+  - Implies ownership
+  - Contained object cannot exist without the container. e.g., `Transport` cannot function without `Engine`
+
 - **Aggregation**: simple arrow, empty diamond back
 
 In UML, here are the three relationship types with their key differences:

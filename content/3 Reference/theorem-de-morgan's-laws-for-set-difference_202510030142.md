@@ -2,22 +2,20 @@
 publish: true
 aliases:
   - De Morgan's Laws for Set Difference
-created: 2026-02-22T19:24:22.721+07:00
-modified: 2026-02-22T19:24:22.730+07:00
-published: 2026-02-22T19:24:22.730+07:00
+created: 2026-03-25T15:22:40.645+07:00
+modified: 2026-03-25T15:22:40.645+07:00
+published: 2026-03-25T15:22:40.645+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-10-03 01:42
-status: adult
+status: complete
 parent:
   - "[[sets]]"
 ---
 
-
 ## Theorem
 
-Let $A,B,C$ be any [[3 Reference/def-set_202510022014\|set]]
+Let $A,B,C$ be any [[def-set_202510022014|set]]
 
 Then
 $$

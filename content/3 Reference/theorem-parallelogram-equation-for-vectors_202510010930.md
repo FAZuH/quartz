@@ -2,18 +2,16 @@
 publish: true
 aliases:
   - Parallelogram Equation for Vectors
-created: 2026-02-22T19:24:22.847+07:00
-modified: 2026-02-22T19:24:22.854+07:00
-published: 2026-02-22T19:24:22.854+07:00
+created: 2026-03-25T15:22:40.645+07:00
+modified: 2026-03-25T15:22:40.645+07:00
+published: 2026-03-25T15:22:40.645+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-10-01 09:30
-status: adult
+status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
-
 
 ## Theorem
 

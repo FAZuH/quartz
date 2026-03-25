@@ -2,69 +2,66 @@
 publish: true
 aliases:
   - The Multiple Regression Model
-created: 2026-02-22T19:24:22.689+07:00
-modified: 2026-02-22T19:24:22.691+07:00
-published: 2026-02-22T19:24:22.691+07:00
+created: 2026-03-25T15:22:40.614+07:00
+modified: 2026-03-25T15:22:40.614+07:00
+published: 2026-03-25T15:22:40.614+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-09 16:42
-status: baby
+status: in progress
 parent:
   - "[[Linear Model]]"
 ---
 
-
 ## General form of the model
 
 $$
-Y = \beta_0 + \beta_1X_1 + \dots + \beta_k X_k + \epsilon; \quad \epsilon \sim NIID(0, \sigma^2)
+Y = \beta\_0 + \beta\_1X\_1 + \dots + \beta\_k X\_k + \epsilon; \quad \epsilon \sim NIID(0, \sigma^2)
 $$
 
 Where:
 
 - $Y :$  Response variable
-- $X_j :$  $j$-th predictor variable
-- $\beta_0 :$  Intercept
-- $\beta_j :$  $j$-th regression coefficient
+- $X\_j :$  $j$-th predictor variable
+- $\beta\_0 :$  Intercept
+- $\beta\_j :$  $j$-th regression coefficient
 - $\epsilon :$  Error component
 - $k$ : Amount of predictor variables
 
 ## Model assumptions
 
-- $y_i$ mutually indepentent between each other
-- $\operatorname{Var}(y_i) = \sigma^2 :$  The model has constant [[3 Reference/Def-variance\|variance]]
+- $y\_i$ mutually indepentent between each other
+- $\operatorname{Var}(y\_i) = \sigma^2 :$  The model has constant [[Def-variance|variance]]
 - $Y, \epsilon :$  Probabilistic part of the model
-- $E(Y|X) = \beta_0 + \dots+\beta_kX_k :$  Deterministic part of the model
+- $E(Y|X) = \beta\_0 + \dots+\beta\_kX\_k :$  Deterministic part of the model
 
-The assumptions for the error component $\epsilon_{i}$ is the same as the one on simple linear regression model: [[3 Reference/assumptions-for-the-error-component_202509091314\|Assumptions for the Error Component]].
+The assumptions for the error component $\epsilon\_{i}$ is the same as the one on simple linear regression model: [[assumptions-for-the-error-component_202509091314|Assumptions for the Error Component]].
 
 ## Interpretation of model components
 
-- **Slope**: $\beta_0$ is the [[3 Reference/Def-mean\|mean]] value of $Y$ at $X_1=X_2=\dots=X_p = 0$
-- **Regression coefficients**: For an increase in $X_i$ by 1 unit, then mean of $y$ increases by $\beta_i$ (assuming other predictors are constant)
+- **Slope**: $\beta\_0$ is the [[Def-mean|mean]] value of $Y$ at $X\_1=X\_2=\dots=X\_p = 0$
+- **Regression coefficients**: For an increase in $X\_i$ by 1 unit, then mean of $y$ increases by $\beta\_i$ (assuming other predictors are constant)
 
 ## Elasticity
 
-**Elasticity** measures the *relative* change in the dependent variable $Y$ due to a *relative* change in $X_{k}$.
+**Elasticity** measures the _relative_ change in the dependent variable $Y$ due to a _relative_ change in $X\_{k}$.
 
-**Semi-elasticity** measures the *relative* change in the dependent variable $Y$ due to an (absolute) one-unit-change in $X_{k}$.
+**Semi-elasticity** measures the _relative_ change in the dependent variable $Y$ due to an (absolute) one-unit-change in $X\_{k}$.
 
-For a linear regression, the elasticity of $Y$ with respect to $X_{k}$ is
+For a linear regression, the elasticity of $Y$ with respect to $X\_{k}$ is
 $$
 \begin{align}
-\frac{\partial E[y_{i}|x_{i}]/E[y_{i}|x_{i}]}{\partial x_{ik}/x_{ik}} 
-= & \frac{\partial E[y_{i}|x_{i}]}{\partial x_{ik}} \cdot \frac{x_{ik}}{E[y_{i}|x_{i}]} \\
-= &  
-\frac{x_{ik}}{x'_{i}\beta}\beta_{k}
+\frac{\partial E\[y\_{i}|x\_{i}]/E\[y\_{i}|x\_{i}]}{\partial x\_{ik}/x\_{ik}}
+\= & \frac{\partial E\[y\_{i}|x\_{i}]}{\partial x\_{ik}} \cdot \frac{x\_{ik}}{E\[y\_{i}|x\_{i}]} \\
+\= &\
+\frac{x\_{ik}}{x'_{i}\beta}\beta_{k}
 \end{align}
 $$
 
-Linear regression for $\log(y_{i})=x_{i}'\beta+\varepsilon_{i}$, the elasticity of $Y$ with respect to $X_{k}$ is
+Linear regression for $\log(y\_{i})=x\_{i}'\beta+\varepsilon\_{i}$, the elasticity of $Y$ with respect to $X\_{k}$ is
 $$
-\frac{\partial E[y_{i}|x_{i}]/E[y_{i}|x_{i}]}{\partial x_{ik}/x_{ik}}= 
-\beta_{k}x_{ik}
+\frac{\partial E\[y\_{i}|x\_{i}]/E\[y\_{i}|x\_{i}]}{\partial x\_{ik}/x\_{ik}}=
+\beta\_{k}x\_{ik}
 $$
 
-$\beta_{k}$ measures the relative change in $Y$ due to a change in $X_{k}$ by one unit. Here, $b_{k}$ is called the semi-elasticity of $Y$ with respect to $X_{k}$.
-
+$\beta\_{k}$ measures the relative change in $Y$ due to a change in $X\_{k}$ by one unit. Here, $b\_{k}$ is called the semi-elasticity of $Y$ with respect to $X\_{k}$.

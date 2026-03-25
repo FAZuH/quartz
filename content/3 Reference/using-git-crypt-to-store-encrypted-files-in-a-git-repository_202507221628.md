@@ -2,30 +2,33 @@
 publish: true
 aliases:
   - Using git-crypt to Store Encrypted Files in a Git Repository
-created: 2026-02-22T19:24:22.931+07:00
-modified: 2026-02-22T19:24:22.939+07:00
-published: 2026-02-22T19:24:22.939+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.605+07:00
+modified: 2026-03-25T15:22:40.605+07:00
+published: 2026-03-25T15:22:40.605+07:00
 creation-time: 2025-07-22 16:28
-status: baby
+status: in progress
 tag:
 parent: "[[cyber security]]"
 ---
 
 ## Assumptions
+
 1. [git](https://git-scm.com/) is installed, and avaiable on PATH
 2. [git-crypt](https://github.com/AGWA/git-crypt) is installed, and avaiable on PATH
 3. Repository of interest is at `~/repo`
-4. Valid GPG key. See [[3 Reference/Creating Importing and Exporting GPG Keys]] to create/import one
+4. Valid GPG key. See [[Creating Importing and Exporting GPG Keys]] to create/import one
 
 ## Steps
+
 1. Configure your Git repository
+
 ```bash
 cd ~/repo
 git-crypt init
 ```
 
 2. Specify files to encrypt using `.gitattributes` file:
+
 ```
 # Encrypt all files with name secretfile
 secretfile filter=git-crypt diff=git-crypt
@@ -38,6 +41,7 @@ secretdir/** filter=git-crypt diff=git-crypt
 ```
 
 3. Add your GPG key to your repo. Replace `$USER_ID` with your GPG id, e.g., `E1555F86885827379EC58C595EFCCCB6B24FD9FA`
+
 ```bash
 git-crypt add-gpg-user $USER_ID
 ```

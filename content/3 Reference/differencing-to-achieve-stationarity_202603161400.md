@@ -2,24 +2,24 @@
 publish: true
 aliases:
   - Differencing
-created: 2026-03-16T11:24:00.920+07:00
-modified: 2026-03-16T11:24:00.920+07:00
-published: 2026-03-16T11:24:00.920+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.613+07:00
+modified: 2026-03-25T15:22:40.613+07:00
+published: 2026-03-25T15:22:40.613+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
 
-
 ## Procedure
 
-Transforming a non-stationary process $Z_t$ into a stationary one $W_t$ by taking differences.
+Transforming a non-stationary process $Z\_t$ into a stationary one $W\_t$ by taking differences.
 
 ### First Difference
-$$\nabla Z_t = Z_t - Z_{t-1}$$
+
+$$\nabla Z\_t = Z\_t - Z\_{t-1}$$
 Useful for removing a linear trend.
 
 ### Second Difference
-$$\nabla^2 Z_t = \nabla(\nabla Z_t) = (Z_t - Z_{t-1}) - (Z_{t-1} - Z_{t-2}) = Z_t - 2Z_{t-1} + Z_{t-2}$$
+
+$$\nabla^2 Z\_t = \nabla(\nabla Z\_t) = (Z\_t - Z\_{t-1}) - (Z\_{t-1} - Z\_{t-2}) = Z\_t - 2Z\_{t-1} + Z\_{t-2}$$
 Useful for removing a quadratic trend or changing growth rates.

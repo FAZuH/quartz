@@ -2,12 +2,11 @@
 publish: true
 aliases:
   - Design Browser History
-created: 2026-02-22T19:23:58.419+07:00
-modified: 2026-02-22T19:23:58.420+07:00
-published: 2026-02-22T19:23:58.420+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.604+07:00
+modified: 2026-03-25T15:22:40.604+07:00
+published: 2026-03-25T15:22:40.604+07:00
 creation-time: 2025-08-15 21:00
-status: baby
+status: in progress
 tags:
 parent:
   - "[[dsa-problems_202508172322|dsa problems]]"
@@ -44,4 +43,3 @@ class BrowserHistory:
         return self.history[self.pos]
 
 ```
-

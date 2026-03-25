@@ -3,23 +3,21 @@ publish: true
 aliases:
   - Autocovariance
   - Autocorrelation
-created: 2026-03-16T11:04:48.719+07:00
-modified: 2026-03-16T11:08:12.223+07:00
-published: 2026-03-16T11:08:12.223+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.611+07:00
+modified: 2026-03-25T15:22:40.611+07:00
+published: 2026-03-25T15:22:40.611+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
-
 
 ## Definition
 
 $$
 \begin{aligned}
-\mu_t &= E[Y_t] \\
-\gamma_{t,s} &= \operatorname{Cov}(Y_t, Y_s) = E[(Y_t - \mu_t)(Y_s - \mu_s)] \\
-\rho_{t,s} &= \operatorname{Corr}(Y_t, Y_s) = \frac{\gamma_{t,s}}{\sqrt{\gamma_{t,t} \gamma_{s,s}}}
+\mu\_t &= E\[Y\_t] \\
+\gamma\_{t,s} &= \operatorname{Cov}(Y\_t, Y\_s) = E\[(Y\_t - \mu\_t)(Y\_s - \mu\_s)] \\
+\rho\_{t,s} &= \operatorname{Corr}(Y\_t, Y\_s) = \frac{\gamma\_{t,s}}{\sqrt{\gamma\_{t,t} \gamma\_{s,s}}}
 \end{aligned}
 $$
 
@@ -28,9 +26,9 @@ $$
 
 ## Properties
 
-- $\gamma_{t,t} = \operatorname{Var}(Y_t)$
-- $\rho_{t,t} = 1$
-- $\rho_{t,s} = \rho_{s,t}$
-- $\gamma_{t,s} = \gamma_{s,t}$
-- $|\gamma_{t,s}| \leq \sqrt{\gamma_{t,t} \gamma_{s,s}}$
-- $|\rho_{t,s}| \leq 1$
+- $\gamma\_{t,t} = \operatorname{Var}(Y\_t)$
+- $\rho\_{t,t} = 1$
+- $\rho\_{t,s} = \rho\_{s,t}$
+- $\gamma\_{t,s} = \gamma\_{s,t}$
+- $|\gamma\_{t,s}| \leq \sqrt{\gamma\_{t,t} \gamma\_{s,s}}$
+- $|\rho\_{t,s}| \leq 1$

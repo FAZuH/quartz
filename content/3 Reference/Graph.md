@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.364+07:00
-modified: 2026-02-22T19:23:58.364+07:00
-published: 2026-02-22T19:23:58.364+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.662+07:00
+modified: 2026-03-25T15:22:40.662+07:00
+published: 2026-03-25T15:22:40.662+07:00
 creation-time: 2025-02-27 23:42
-status: elder
+status: complete
 tags:
 parent:
   - "[[data structure]]"
 ---
-
 
 ## Definition
 
@@ -45,36 +43,13 @@ Represent graph with a collection of linked lists, where the first element in ea
 
 ### Properties
 
-- Access time complexity: $O[\text{degree}(u)]$
+- Access time complexity: $O\[\text{degree}(u)]$
 - Space complexity: $O(V + E)$
 
 ## Implementation
 
-- [[3 Reference/basic-operations-in-graph-data-structure_202508181147\|Basic Operations in Graph Data Structure]]
+- [[basic-operations-in-graph-data-structure_202508181147|Basic Operations in Graph Data Structure]]
 
 ## Algorithms
 
-
-## List
-
-**Stack**
-- [[3 Reference/valid-parantheses_202508150252\|Valid Parantheses]]
-- [[3 Reference/minimum-stack_202508150406\|Minimum Stack]]
-
-**Singly Linked Lists**
-- [[3 Reference/reverse-linked-list_202508150441\|Reverse Linked List]]
-- [[3 Reference/merge-two-sorted-linked-lists_202508151417\|Merge Two Sorted Linked Lists]]
-- [[3 Reference/Singly Linked List Operations\|Singly Linked List Operations]]
-- [[3 Reference/merge-k-sorted-linked-lists_202508172355\|Merge K Sorted Linked Lists]]
-
-**Doubly Linked List**
-- [[3 Reference/design-linked-list_202508151833\|Design Linked List]]
-- [[3 Reference/design-browser-history_202508152100\|Design Browser History]]
-
-**Queue**
-- [[3 Reference/number-of-students-unable-to-eat-lunch_202508152130\|Number of Students Unable to Eat Lunch]]
-
-## Sorting algorithm
-
-**Bucket sort**
-- [[3 Reference/sort-colors_202508181251\|Sort Colors]]
+![[dsa-problems_202508172322#Graph|Graph]]

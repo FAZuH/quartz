@@ -1,39 +1,36 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.368+07:00
-modified: 2026-02-22T19:23:58.368+07:00
-published: 2026-02-22T19:23:58.368+07:00
+created: 2026-03-25T15:22:40.639+07:00
+modified: 2026-03-25T15:22:40.639+07:00
+published: 2026-03-25T15:22:40.639+07:00
 tags:
   - content-type/conceptual
-cssclasses: ""
 creation-time: 2025-03-21 12:07
-status: adult
+status: complete
 parent:
   - "[[multivariate analysis]]"
 ---
-
-
 
 ## About of prior probabilities
 
 Prior probabilities represent the **proportion of observations in each group** before observing new data.
 
-For $k$ groups $G_1, G_2, \dots, G_k$:
+For $k$ groups $G\_1, G\_2, \dots, G\_k$:
 
-- $p_i$: Proportion of observations in group $G_i$, calculated as:  
-    $$p_i = \frac{n_i}{N}$$
+- $p\_i$: Proportion of observations in group $G\_i$, calculated as:\
+  $$p\_i = \frac{n\_i}{N}$$
 
 **Variables**:
 
-- $n_i$: Number of observations in group $G_i$.
-- $N$: Total number of observations across all groups, $N = n_1 + n_2 + \dots + n_k$.
-- $p_i$: Satisfies $\sum_{i=1}^k p_i = 1$.
+- $n\_i$: Number of observations in group $G\_i$.
+- $N$: Total number of observations across all groups, $N = n\_1 + n\_2 + \dots + n\_k$.
+- $p\_i$: Satisfies $\sum\_{i=1}^k p\_i = 1$.
 
-**Example**:  
+**Example**:
 
-Suppose 70% of freshmen at a university graduate ($G_1$) and 30% do not ($G_2$)
+Suppose 70% of freshmen at a university graduate ($G\_1$) and 30% do not ($G\_2$)
 
 Then:
 
-- $p_1 = 0.7$
-- $p_2 = 1 - p_1 = 0.3$
+- $p\_1 = 0.7$
+- $p\_2 = 1 - p\_1 = 0.3$

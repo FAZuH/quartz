@@ -4,23 +4,21 @@ aliases:
   - Matrix Invertibility
   - Invertible
   - Nonsingular
-created: 2026-02-22T19:24:22.823+07:00
-modified: 2026-02-22T19:24:22.836+07:00
-published: 2026-02-22T19:24:22.836+07:00
+created: 2026-03-25T15:22:40.647+07:00
+modified: 2026-03-25T15:22:40.647+07:00
+published: 2026-03-25T15:22:40.647+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-24 12:43
-status: adult
+status: complete
 parent:
   - "[[linear-algebra|linear algebra]]"
   - "[[matrices]]"
 ---
 
-
 ## Theorem
 
-Let $A$ : [[3 Reference/Def-matrix\|Square matrix]]
+Let $A$ : [[Def-matrix|Square matrix]]
 
 Then $A$ is invertible
 

@@ -2,19 +2,18 @@
 publish: true
 aliases:
   - ARIMA(p,d,q) Model
-created: 2026-03-16T11:24:00.920+07:00
-modified: 2026-03-16T13:34:42.677+07:00
-published: 2026-03-16T13:34:42.677+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.601+07:00
+modified: 2026-03-25T15:22:40.601+07:00
+published: 2026-03-25T15:22:40.601+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
 
-
 ## Definition
 
-Autoregressive Integrated Moving Average model. A process $Z_t$ is ARIMA(p,d,q) if its $d$-th difference $W_t = \nabla^d Z_t$ is a stationary [[3 Reference/armapq-process-model_202603161400\|ARMA(p,q)]] process.
+Autoregressive Integrated Moving Average model. A process $Z\_t$ is ARIMA(p,d,q) if its $d$-th difference $W\_t = \nabla^d Z\_t$ is a stationary [[armapq-process-model_202603161400|ARMA(p,q)]] process.
+
 - $p$: Order of autoregression.
 - $d$: Degree of differencing.
 - $q$: Order of moving average.
@@ -22,51 +21,60 @@ Autoregressive Integrated Moving Average model. A process $Z_t$ is ARIMA(p,d,q) 
 ## Formulations
 
 ### ARIMA(p,1,q)
-A specific case where $d=1$. Let $W_t = Z_t - Z_{t-1}$. The model is:
-$$W_t = \phi_1 W_{t-1} + \dots + \phi_p W_{t-p} + a_t - \theta_1 a_{t-1} - \dots - \theta_q a_{t-q}$$
-Substituting $W_t$:
-$$(Z_t - Z_{t-1}) = \phi_1 (Z_{t-1} - Z_{t-2}) + \dots + \phi_p (Z_{t-p} - Z_{t-p-1}) + a_t - \dots$$
+
+A specific case where $d=1$. Let $W\_t = Z\_t - Z\_{t-1}$. The model is:
+$$W\_t = \phi\_1 W\_{t-1} + \dots + \phi\_p W\_{t-p} + a\_t - \theta\_1 a\_{t-1} - \dots - \theta\_q a\_{t-q}$$
+Substituting $W\_t$:
+$$(Z\_t - Z\_{t-1}) = \phi\_1 (Z\_{t-1} - Z\_{t-2}) + \dots + \phi\_p (Z\_{t-p} - Z\_{t-p-1}) + a\_t - \dots$$
 It resembles an ARMA(p+1, q) model but with one root of the AR polynomial exactly equal to 1.
 
 ## Property: Characteristic Polynomial of ARIMA(p,1,q)
 
-The AR operator using the [[3 Reference/backshift-operator_202603161400\|backshift operator]] $B$ is:
-$$\phi(B)(1-B) Z_t = \theta(B) a_t$$
+The AR operator using the [[backshift-operator_202603161400|backshift operator]] $B$ is:
+$$\phi(B)(1-B) Z\_t = \theta(B) a\_t$$
 The characteristic polynomial is:
 $$\phi(x)(1-x) = 0$$
 This polynomial has one root equal to 1 (the $(1-x)$ factor), which confirms the non-stationarity of the original series. The remaining roots must lie outside the unit circle for the differenced series to be stationary.
 
 ## Constant Term
 
-If the differenced series $W_t = \nabla^d Z_t$ has a non-zero mean $\mu_W$, a constant term $\theta_0$ is added:
-$$\phi(B) W_t = \theta_0 + \theta(B) a_t$$
-where $\theta_0 = \mu_W (1 - \phi_1 - \dots - \phi_p)$.
-- If $d=1$, a constant $\theta_0 \neq 0$ implies a **deterministic linear trend** in the original series $Z_t$.
+If the differenced series $W\_t = \nabla^d Z\_t$ has a non-zero mean $\mu\_W$, a constant term $\theta\_0$ is added:
+$$\phi(B) W\_t = \theta\_0 + \theta(B) a\_t$$
+where $\theta\_0 = \mu\_W (1 - \phi\_1 - \dots - \phi\_p)$.
+
+- If $d=1$, a constant $\theta\_0 \neq 0$ implies a **deterministic linear trend** in the original series $Z\_t$.
 - If $d=2$, it implies a **deterministic quadratic trend**.
 
 ## Sub-models
 
 ### Integrated Moving Average (IMA)
+
 An ARIMA(p,d,q) model where the autoregressive order $p=0$. Denoted as IMA(d,q).
 
 #### IMA(1,1)
-$$\nabla Z_t = a_t - \theta a_{t-1} \quad \text{or} \quad Z_t = Z_{t-1} + a_t - \theta a_{t-1}$$
+
+$$\nabla Z\_t = a\_t - \theta a\_{t-1} \quad \text{or} \quad Z\_t = Z\_{t-1} + a\_t - \theta a\_{t-1}$$
 Non-stationary due to the unit root in the AR part; variance increases linearly with time. Common for series with a stochastic level.
 
 #### IMA(2,2)
-$$\nabla^2 Z_t = a_t - \theta_1 a_{t-1} - \theta_2 a_{t-2} \quad \text{or} \quad Z_t = 2Z_{t-1} - Z_{t-2} + a_t - \theta_1 a_{t-1} - \theta_2 a_{t-2}$$
+
+$$\nabla^2 Z\_t = a\_t - \theta\_1 a\_{t-1} - \theta\_2 a\_{t-2} \quad \text{or} \quad Z\_t = 2Z\_{t-1} - Z\_{t-2} + a\_t - \theta\_1 a\_{t-1} - \theta\_2 a\_{t-2}$$
 Useful for modeling series with a stochastic trend.
 
 ### Autoregressive Integrated (ARI)
+
 An ARIMA(p,d,q) model where the moving average order $q=0$. Denoted as ARI(p,d).
 
 #### ARI(1,1)
-$$\nabla Z_t = \phi \nabla Z_{t-1} + a_t \quad \text{or} \quad Z_t = (1+\phi)Z_{t-1} - \phi Z_{t-2} + a_t$$
+
+$$\nabla Z\_t = \phi \nabla Z\_{t-1} + a\_t \quad \text{or} \quad Z\_t = (1+\phi)Z\_{t-1} - \phi Z\_{t-2} + a\_t$$
 where $|\phi| < 1$ for the differenced series to be stationary.
 
 ##### Procedure: Determining Weights for ARI(1,1)
-Representing an ARI(1,1) process as a [[3 Reference/general-linear-process_202603161400\|general linear process]] $Z_t = \sum \psi_j a_{t-j}$:
-1.  Use the relationship $(1-\phi B)(1-B) \psi(B) = 1$.
-2.  Equate coefficients of $B^k$ on both sides.
-3.  The recursive solution for $\psi_k$ is $\psi_k = (1+\phi)\psi_{k-1} - \phi \psi_{k-2}$ with $\psi_0 = 1$ and $\psi_1 = 1+\phi$.
-4.  The explicit solution is $\psi_k = \frac{1-\phi^{k+1}}{1-\phi}$.
+
+Representing an ARI(1,1) process as a [[general-linear-process_202603161400|general linear process]] $Z\_t = \sum \psi\_j a\_{t-j}$:
+
+1. Use the relationship $(1-\phi B)(1-B) \psi(B) = 1$.
+2. Equate coefficients of $B^k$ on both sides.
+3. The recursive solution for $\psi\_k$ is $\psi\_k = (1+\phi)\psi\_{k-1} - \phi \psi\_{k-2}$ with $\psi\_0 = 1$ and $\psi\_1 = 1+\phi$.
+4. The explicit solution is $\psi\_k = \frac{1-\phi^{k+1}}{1-\phi}$.

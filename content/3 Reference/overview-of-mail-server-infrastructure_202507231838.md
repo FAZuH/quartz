@@ -2,20 +2,18 @@
 publish: true
 aliases:
   - Overview of Mail Server Infrastructure
-created: 2026-02-22T19:24:22.189+07:00
-modified: 2026-02-22T19:24:22.194+07:00
-published: 2026-02-22T19:24:22.194+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.588+07:00
+modified: 2026-03-25T15:22:40.588+07:00
+published: 2026-03-25T15:22:40.588+07:00
 creation-time: 2025-07-23 18:38
-status: baby
+status: in progress
 tag:
 parent: "[[email administration]]"
 ---
 
-
 ## Components of a mail server
 
-The following components are required to create a [complete delivery chain](https://en.wikipedia.org/wiki/Email_agent_(infrastructure)).
+The following components are required to create a [complete delivery chain](https://en.wikipedia.org/wiki/Email_agent_\(infrastructure\)).
 
 ### MUA (Mail User Agent)
 
@@ -23,7 +21,7 @@ Client/program capable of **sending** emails to a mail server;
 while also capable of **fetching** emails from a mail server for presenting them to the end user.
 
 ### MTA (Mail Transfer Agent)
-	
+
 Software dedicated to accepting submitted emails, then **forwarding** them.
 
 If the receiving MTA is responsible for the FQDN the email is sent to, then an MTA is to forward that email to an MDA.

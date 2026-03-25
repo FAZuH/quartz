@@ -1,17 +1,15 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.365+07:00
-modified: 2026-02-22T19:23:58.365+07:00
-published: 2026-02-22T19:23:58.365+07:00
+created: 2026-03-25T15:22:40.647+07:00
+modified: 2026-03-25T15:22:40.647+07:00
+published: 2026-03-25T15:22:40.647+07:00
 tags:
   - content-type/conceptual
-cssclasses: ""
 creation-time: 2025-02-27 21:46
-status: adult
+status: complete
 parent:
   - "[[statistics]]"
 ---
-
 
 A latent variable or latent structure is a concept that refers to an unobserved or **hidden** variable that isn’t directly measured but is **inferred from the relationships** among observed variables.
 

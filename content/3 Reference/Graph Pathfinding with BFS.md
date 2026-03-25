@@ -1,28 +1,25 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.363+07:00
-modified: 2026-02-22T19:23:58.364+07:00
-published: 2026-02-22T19:23:58.364+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.645+07:00
+modified: 2026-03-25T15:22:40.646+07:00
+published: 2026-03-25T15:22:40.646+07:00
 creation-time: 2025-02-28 00:09
-status: adult
+status: complete
 tags:
 parent:
   - "[[Graph]]"
   - "[[algorithm]]"
 ---
 
-
 The idea is that as we traverse through the verteces, we also keep track the path we need to take to get to the vertex. Once we find the target vertex, we can just return the path.
 
 ## Algorithm
 
 1. Prepare variables
-    
-    tovisit queue which contains tuple of vertex, and the path you need to take from source to end up in the corresponding vertex.
-    
-    visited
-    
+
+   tovisit queue which contains tuple of vertex, and the path you need to take from source to end up in the corresponding vertex.
+
+   visited
 
 ## Implementation
 

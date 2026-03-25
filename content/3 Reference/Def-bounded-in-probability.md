@@ -3,31 +3,32 @@ publish: true
 aliases:
   - Bounded in Probability
   - Bounded in Probability
-created: 2026-02-22T19:23:58.353+07:00
-modified: 2026-02-22T19:23:58.353+07:00
-published: 2026-02-22T19:23:58.353+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.598+07:00
+modified: 2026-03-25T15:22:40.598+07:00
+published: 2026-03-25T15:22:40.598+07:00
 creation-time: 2025-07-15 07:35
-status: baby
+status: in progress
 tag:
 parent: "[[Introduction to Mathematical Statistics]]"
 ---
 
-
 ## Definition
 
 Let
-- $\{ X_{n} \}$ : Sequence of [[3 Reference/Def-random-variable\|Random variables]]
+
+- ${ X\_{n} }$ : Sequence of [[Def-random-variable|Random variables]]
 
 If
 $$
-\forall \epsilon>0,\exists B_{\epsilon}>0, N_{\epsilon}\in \mathbb{N} \ni n\geq N_{\varepsilon}\implies P[|X_{n}|\leq B_{\varepsilon}]\geq 1-\epsilon
+\forall \epsilon>0,\exists B\_{\epsilon}>0, N\_{\epsilon}\in \mathbb{N} \ni n\geq N\_{\varepsilon}\implies P\[|X\_{n}|\leq B\_{\varepsilon}]\geq 1-\epsilon
 $$
 
-Then we say $\{ X_{n} \}$ is **bounded in probability**
+Then we say ${ X\_{n} }$ is **bounded in probability**
 
 ## Remark
-Notice the resemblence with [[3 Reference/3.2 Limit Theorems#3.2.1 Definition Bounded sequence\|definition of bounded sequence]].
+
+Notice the resemblence with [[3.2 Limit Theorems#3.2.1 Definition Bounded sequence|definition of bounded sequence]].
 
 ## Related theorems
-- [[3 Reference/mathstat5.2#Theorem 5.2.6\|Theorem 5.2.6]] : If $X_{n}\xrightarrow{D}X$
+
+- [[mathstat5.2#Theorem 5.2.6|Theorem 5.2.6]] : If $X\_{n}\xrightarrow{D}X$

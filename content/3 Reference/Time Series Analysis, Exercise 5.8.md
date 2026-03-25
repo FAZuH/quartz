@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.371+07:00
-modified: 2026-02-22T19:23:58.371+07:00
-published: 2026-02-22T19:23:58.371+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.603+07:00
+modified: 2026-03-25T15:22:40.603+07:00
+published: 2026-03-25T15:22:40.603+07:00
 creation-time: 2025-03-27 21:03
-status: baby
+status: in progress
 tags:
 parent:
   - "[[Time Series Analysis With Applications in R]]"
 ---
-
 
 ![[assets/Pasted image 20250327221126.png]]
 
@@ -20,38 +18,39 @@ parent:
 
 Misal $|\phi| > 1$.
 
-Mulai dengan $Y_t = \phi Y_{t-1} + e_t$ dan $Y_0 = 0$. Didapati,
-- $Y_t = \phi Y_{t-1} + e_t$
-- $Y_{t-1} = \phi Y_{t-2} + e_{t-1}$,
-	jadi $$\begin{align}
-	Y_t &= \phi (\phi Y_{t-2} + e_{t-1}) + e_t \\
-	&= \phi^2 Y_{t-2} + \phi e_{t-1} + e_t
-	\end{align}$$
-- $Y_{t-2} = \phi Y_{t-3} + e_{t-2}$
-	jadi $$\begin{align}
-	Y_t &= \phi^2 (\phi Y_{t-3} + e_{t-2}) + \phi e_{t-1} + e_t \\
-	&= \phi^3 Y_{t-3} + \phi^2 e_{t-2} + \phi e_{t-1} + e_t
-	\end{align}$$
+Mulai dengan $Y\_t = \phi Y\_{t-1} + e\_t$ dan $Y\_0 = 0$. Didapati,
 
-Selanjutnya saat $t = 1$ dengan $Y_1 = \phi Y_0 + e_1 = \phi \cdot 0 + e_1 = e_1$ dan $Y_0 = 0$. Didapati:
+- $Y\_t = \phi Y\_{t-1} + e\_t$
+- $Y\_{t-1} = \phi Y\_{t-2} + e\_{t-1}$,
+  jadi $$\begin{align}
+  Y\_t &= \phi (\phi Y\_{t-2} + e\_{t-1}) + e\_t \\
+  &= \phi^2 Y\_{t-2} + \phi e\_{t-1} + e\_t
+  \end{align}$$
+- $Y\_{t-2} = \phi Y\_{t-3} + e\_{t-2}$
+  jadi $$\begin{align}
+  Y\_t &= \phi^2 (\phi Y\_{t-3} + e\_{t-2}) + \phi e\_{t-1} + e\_t \\
+  &= \phi^3 Y\_{t-3} + \phi^2 e\_{t-2} + \phi e\_{t-1} + e\_t
+  \end{align}$$
+
+Selanjutnya saat $t = 1$ dengan $Y\_1 = \phi Y\_0 + e\_1 = \phi \cdot 0 + e\_1 = e\_1$ dan $Y\_0 = 0$. Didapati:
 $$\begin{align}
-Y_t &= e_t + \phi e_{t-1} + \phi^2 e_{t-2} + \cdots + \phi^{t-1} e_1 + \phi^t Y_0\\
-&= e_t + \phi e_{t-1} + \phi^2 e_{t-2} + \cdots + \phi^{t-1} e_1 \\
-&= \sum_{j=0}^{t-1} \phi^j e_{t-j}
+Y\_t &= e\_t + \phi e\_{t-1} + \phi^2 e\_{t-2} + \cdots + \phi^{t-1} e\_1 + \phi^t Y\_0\\
+&= e\_t + \phi e\_{t-1} + \phi^2 e\_{t-2} + \cdots + \phi^{t-1} e\_1 \\
+&= \sum\_{j=0}^{t-1} \phi^j e\_{t-j}
 \end{align}$$
 
 ## Part (b): Derive an equation similar to Equation (5.1.4)
 
 Misal $|\phi| > 1$.
 
-Dengan $Y_t = \sum_{j=0}^{t-1}\phi^j e_{t-j}$ dari (a), dan karena $\{e_t\}$ adalah white noise, didapati:
+Dengan $Y\_t = \sum\_{j=0}^{t-1}\phi^j e\_{t-j}$ dari (a), dan karena ${e\_t}$ adalah white noise, didapati:
 
 $$
 \begin{align}
-\operatorname{Var}(Y_t) &= \operatorname{Var}\left( \sum_{j=0}^{t-1} \phi^j e_{t-j} \right) \\
-&= \sum_{j=0}^{t-1} \operatorname{Var}(\phi^j e_{t-j}) \\
-&= \sum_{j=0}^{t-1} (\phi^j)^2 \operatorname{Var}(e_{t-j}) \\
-&= \sum_{j=0}^{t-1} \phi^{2j} \sigma_e^2 \\
+\operatorname{Var}(Y\_t) &= \operatorname{Var}\left( \sum\_{j=0}^{t-1} \phi^j e\_{t-j} \right) \\
+&= \sum\_{j=0}^{t-1} \operatorname{Var}(\phi^j e\_{t-j}) \\
+&= \sum\_{j=0}^{t-1} (\phi^j)^2 \operatorname{Var}(e\_{t-j}) \\
+&= \sum\_{j=0}^{t-1} \phi^{2j} \sigma\_e^2 \\
 &= \frac{1 - \phi^{2t}}{1 - \phi^2} \quad \text{(Geometric Series)} \\
 &= \frac{\phi^{2t} - 1}{\phi^2 - 1}
 \end{align}
@@ -62,28 +61,30 @@ $$
 Misal $|\phi| > 1$.
 
 Untuk $k \geq 0$ berlaku:
-- $Y_t = e_t + \phi e_{t-1} + \cdots + \phi^{t-1} e_1$
-- $Y_{t-k} = e_{t-k} + \phi e_{t-k-1} + \cdots + \phi^{t-k-1} e_1$
 
-Karena $E(Y_t) = 0$, maka $\operatorname{Cov}(Y_t, Y_{t-k}) = E(Y_t Y_{t-k})$. Sehingga didapati:  
+- $Y\_t = e\_t + \phi e\_{t-1} + \cdots + \phi^{t-1} e\_1$
+- $Y\_{t-k} = e\_{t-k} + \phi e\_{t-k-1} + \cdots + \phi^{t-k-1} e\_1$
+
+Karena $E(Y\_t) = 0$, maka $\operatorname{Cov}(Y\_t, Y\_{t-k}) = E(Y\_t Y\_{t-k})$. Sehingga didapati:\
 $$\begin{align}
-E(Y_t Y_{t-k}) &= E\left( \sum_{j=0}^{t-1} \phi^j e_{t-j} \sum_{i=0}^{t-k-1} \phi^i e_{t-k-i} \right) \\
-\operatorname{Var}(Y_{t}, Y_{t-k})&= \sum_{j=k}^{t-1} \phi^j \phi^{j-k} \sigma_e^2 \\
-&= \phi^k \sum_{j=k}^{t-1} \phi^{2(j-k)} \sigma_e^2 \\
-&= \frac{\phi^{2(t-k) + k} - \phi^k}{\phi^2 - 1} \sigma_e^2 \\
-&= \frac{\phi^{2t - k} - \phi^k}{\phi^2 - 1} \sigma_e^2
+E(Y\_t Y\_{t-k}) &= E\left( \sum\_{j=0}^{t-1} \phi^j e\_{t-j} \sum\_{i=0}^{t-k-1} \phi^i e\_{t-k-i} \right) \\
+\operatorname{Var}(Y\_{t}, Y\_{t-k})&= \sum\_{j=k}^{t-1} \phi^j \phi^{j-k} \sigma\_e^2 \\
+&= \phi^k \sum\_{j=k}^{t-1} \phi^{2(j-k)} \sigma\_e^2 \\
+&= \frac{\phi^{2(t-k) + k} - \phi^k}{\phi^2 - 1} \sigma\_e^2 \\
+&= \frac{\phi^{2t - k} - \phi^k}{\phi^2 - 1} \sigma\_e^2
 \end{align}$$
 
-## Part (d): Is $\operatorname{Corr}(Y_t, Y_{t-k}) \approx 1$ for large $t$ and moderate $k$?
+## Part (d): Is $\operatorname{Corr}(Y\_t, Y\_{t-k}) \approx 1$ for large $t$ and moderate $k$?
 
 $$\begin{align}
-\operatorname{Corr}(Y_t, Y_{t-k}) &= \frac{\operatorname{Cov}(Y_t, Y_{t-k})}{\sqrt{\operatorname{Var}(Y_t) \operatorname{Var}(Y_{t-k})}}  \\
+\operatorname{Corr}(Y\_t, Y\_{t-k}) &= \frac{\operatorname{Cov}(Y\_t, Y\_{t-k})}{\sqrt{\operatorname{Var}(Y\_t) \operatorname{Var}(Y\_{t-k})}}  \\
 &= \frac{\frac{\phi^{2t - k} - \phi^k}{\phi^2 - 1}}{\sqrt{\frac{\phi^{2t} - 1}{\phi^2 - 1} \cdot \frac{\phi^{2(t-k)} - 1}{\phi^2 - 1}}}  \\
-&= \frac{\phi^{2t - k} - \phi^k}{\sqrt{(\phi^{2t} - 1)(\phi^{2(t-k)} - 1)}} 
+&= \frac{\phi^{2t - k} - \phi^k}{\sqrt{(\phi^{2t} - 1)(\phi^{2(t-k)} - 1)}}
 \end{align}$$
 
 Untuk $t$ besar dan $k$ moderate (tetap), karena $|\phi| > 1$, maka didapati:
+
 - $\phi^{2t} \gg 1$, $\phi^{2t-k} \gg \phi^k$, dan $\phi^{2(t-k)} \gg 1$.
 - Pembilang $\approx \phi^{2t-k}$
 - Penyebut $\approx \sqrt{\phi^{2t} \phi^{2(t-k)}} = \phi^{2t - k}$.
-- $\operatorname{Corr}(Y_t, Y_{t-k}) \approx \frac{\phi^{2t - k}}{\phi^{2t - k}} = 1$.
+- $\operatorname{Corr}(Y\_t, Y\_{t-k}) \approx \frac{\phi^{2t - k}}{\phi^{2t - k}} = 1$.

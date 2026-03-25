@@ -2,19 +2,19 @@
 publish: true
 aliases:
   - Marginal Effects
-created: 2026-02-22T19:24:22.030+07:00
-modified: 2026-02-22T19:24:22.031+07:00
-published: 2026-02-22T19:24:22.031+07:00
+created: 2026-03-25T15:22:40.593+07:00
+modified: 2026-03-25T15:22:40.593+07:00
+published: 2026-03-25T15:22:40.593+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-12-16 07:10
-status: baby
+status: in progress
 parent:
   - "[[econometrics]]"
 ---
 
-The marginal effect of changing $x_{k}$:
-- [[3 Reference/def-probit_202512160705\|Probit]]: $\Phi(x_{i}'\beta)\beta_{k}$
-- [[3 Reference/def-logit_202512160701\|Logit]]: $\dfrac{\exp(x_{i}'\beta)}{[1+\exp(x_{i}'\beta)]^{2}}\beta_{k}$
-- [[3 Reference/def-linear-probability-model-(lpm)_202512160705\|Linear Probability Model]]: $\beta_{k}$ if $x_{i}'\beta \in[0,1]$
+The marginal effect of changing $x\_{k}$:
+
+- [[def-probit_202512160705|Probit]]: $\Phi(x\_{i}'\beta)\beta\_{k}$
+- [[def-logit_202512160701|Logit]]: $\dfrac{\exp(x\_{i}'\beta)}{\[1+\exp(x\_{i}'\beta)]^{2}}\beta\_{k}$
+- [[def-linear-probability-model-(lpm)_202512160705|Linear Probability Model]]: $\beta\_{k}$ if $x\_{i}'\beta \in\[0,1]$

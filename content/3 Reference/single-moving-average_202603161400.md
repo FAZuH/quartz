@@ -3,22 +3,20 @@ publish: true
 aliases:
   - Single Moving Average
   - SMA
-created: 2026-03-16T11:05:05.468+07:00
-modified: 2026-03-16T11:08:12.224+07:00
-published: 2026-03-16T11:08:12.224+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.615+07:00
+modified: 2026-03-25T15:22:40.615+07:00
+published: 2026-03-25T15:22:40.615+07:00
 creation-time: 2026-03-16 14:00
-status: baby
+status: in progress
 parent: "[[forecasting methods]]"
 ---
-
 
 ## Formula
 
 $$
 \begin{aligned}
-S_t &= \frac{1}{m} \sum_{i=t-m+1}^t X_i \\
-F_{t+1} &= S_t
+S\_t &= \frac{1}{m} \sum\_{i=t-m+1}^t X\_i \\
+F\_{t+1} &= S\_t
 \end{aligned}
 $$
 

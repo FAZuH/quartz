@@ -2,24 +2,22 @@
 publish: true
 aliases:
   - Endogeneity
-created: 2026-02-22T19:23:58.387+07:00
-modified: 2026-02-22T19:23:58.387+07:00
-published: 2026-02-22T19:23:58.387+07:00
+created: 2026-03-25T15:22:40.626+07:00
+modified: 2026-03-25T15:22:40.626+07:00
+published: 2026-03-25T15:22:40.626+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-30 11:00
-status: baby
+status: in progress
 parent:
   - "[[econometrics]]"
 ---
-
 
 ## Definition
 
 Problem in regression models where predictor variables $X$ are correlated with the error term $\epsilon$, i.e.,
 $$
-E[X|\epsilon]\neq 0
+E\[X|\epsilon]\neq 0
 $$
 
 ## Common causes
@@ -30,6 +28,4 @@ $$
 
 ## Consequences
 
-[[3 Reference/estimating-the-model_202509091644\|OLS]] [[3 Reference/Def-estimator\|estimator]] becomes [[3 Reference/Def-unbiased-estimator\|biased]] and [[3 Reference/Def-consistent-estimator\|inconsistent]]. Interpretation of coefficient could be incorrect.
-
-
+[[estimating-the-model_202509091644|OLS]] [[Def-estimator|estimator]] becomes [[Def-unbiased-estimator|biased]] and [[Def-consistent-estimator|inconsistent]]. Interpretation of coefficient could be incorrect.

@@ -2,19 +2,19 @@
 publish: true
 aliases:
   - 3-Tier Architecture
-created: 2026-02-22T19:23:58.311+07:00
-modified: 2026-02-22T19:23:58.311+07:00
-published: 2026-02-22T19:23:58.311+07:00
+created: 2026-03-25T15:22:40.611+07:00
+modified: 2026-03-25T15:22:40.611+07:00
+published: 2026-03-25T15:22:40.611+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2026-01-13 20:42
-status: baby
+status: in progress
 parent:
   - "[[n-tier-architecture_202601132042]]"
 ---
 
 ## Layers
+
 **3-Tier Architecture** separates an application into three logical layers, each with distinct responsibilities:
 
 ### 1. Presentation Layer (UI/View)

@@ -2,15 +2,13 @@
 publish: true
 aliases:
   - Conditional pdf
-created: 2026-02-22T19:23:58.382+07:00
-modified: 2026-02-22T19:23:58.382+07:00
-published: 2026-02-22T19:23:58.382+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.605+07:00
+modified: 2026-03-25T15:22:40.606+07:00
+published: 2026-03-25T15:22:40.606+07:00
 creation-time: 2025-07-24 06:07
-status: baby
+status: in progress
 tag:
 parent: "[[Introduction to Mathematical Statistics]]"
 ---
-
 
 ## Definition

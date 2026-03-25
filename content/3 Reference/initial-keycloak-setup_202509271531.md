@@ -2,20 +2,18 @@
 publish: true
 aliases:
   - Initial Keycloak Setup
-created: 2026-02-22T19:24:21.979+07:00
-modified: 2026-02-22T19:24:21.988+07:00
-published: 2026-02-22T19:24:21.988+07:00
+created: 2026-03-25T15:22:40.603+07:00
+modified: 2026-03-25T15:22:40.603+07:00
+published: 2026-03-25T15:22:40.603+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-27 15:31
-status: baby
+status: in progress
 parent:
   - "[[keycloak_202509271530]]"
 ---
 
-
-1. 
+1.
 
 ## docker-compose example
 

@@ -1,90 +1,90 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.371+07:00
-modified: 2026-02-22T19:23:58.371+07:00
-published: 2026-02-22T19:23:58.371+07:00
+created: 2026-03-25T15:22:40.625+07:00
+modified: 2026-03-25T15:22:40.626+07:00
+published: 2026-03-25T15:22:40.626+07:00
 tags:
   - category/exercise
-cssclasses: ""
 creation-time: 2025-03-27 20:22
-status: baby
+status: in progress
 parent:
   - "[[Time Series Analysis With Applications in R]]"
 ---
-
 
 ![[assets/Pasted image 20250327201755.png]]
 
 ---
 
-## (a): Is $\{Y_t\}$ stationary when $A$ and $B$ are constants?
+## (a): Is ${Y\_t}$ stationary when $A$ and $B$ are constants?
 
-Suatu time series $\{Y_t\}$ dikatakan stasioner, apabila mean, variansi, dan autokovariansi independen terhadap $t$.
+Suatu time series ${Y\_t}$ dikatakan stasioner, apabila mean, variansi, dan autokovariansi independen terhadap $t$.
 
-Karena $\{X_t\}$ random walk, maka $E(X_t) = 0$.
+Karena ${X\_t}$ random walk, maka $E(X\_t) = 0$.
 
-Sehingga, $E(Y_{t}) = E(A + Bt + X_{t}) = A + Bt$.
+Sehingga, $E(Y\_{t}) = E(A + Bt + X\_{t}) = A + Bt$.
 
-Karena mean ($E(Y_t)$) bergantung kepada $t$, maka $\{Y_t\}$ tidak stasioner.
+Karena mean ($E(Y\_t)$) bergantung kepada $t$, maka ${Y\_t}$ tidak stasioner.
 
-## (b): Is $\{\nabla Y_t\}$ stationary when $A$ and $B$ are constants?
+## (b): Is ${\nabla Y\_t}$ stationary when $A$ and $B$ are constants?
 
-Hitung $\Delta Y_t$:
+Hitung $\Delta Y\_t$:
 $$
 \begin{align}
-\nabla Y_t &= Y_t - Y_{t-1} \\
-&= (A + Bt + X_t) - (A + B(t-1) + X_{t-1})\\
-&= A + Bt + X_t - A - Bt + B - X_{t-1} \\
-&= B + (X_t - X_{t-1})\\
-&= B + e_t \quad (\text{Karena }X_t = X_{t-1} + e_{t})
+\nabla Y\_t &= Y\_t - Y\_{t-1} \\
+&= (A + Bt + X\_t) - (A + B(t-1) + X\_{t-1})\\
+&= A + Bt + X\_t - A - Bt + B - X\_{t-1} \\
+&= B + (X\_t - X\_{t-1})\\
+&= B + e\_t \quad (\text{Karena }X\_t = X\_{t-1} + e\_{t})
 \end{align}$$
 
 Didapati:
-- $E(\nabla Y_t) = E(B + e_t) = B + 0 = B$.
-- $\operatorname{Var}(\nabla Y_t) = \operatorname{Var}(B + e_t) = \operatorname{Var}(e_t) = \sigma_e^2$.
-- $\operatorname{Cov}(\nabla Y_t, \nabla Y_{t-k}) = \operatorname{Cov}(B + e_t, B + e_{t-k}) = \operatorname{Cov}(e_t, e_{t-k})$.  
 
-Karena $\{e_t\}$ adalah white noise, $\operatorname{Cov}(e_{t}, e_{t-k}) = 0$ saat $k\neq 0$, dan $\operatorname{Var}(e_{t}) = \sigma_{e}^2$ saat $k=0$.
+- $E(\nabla Y\_t) = E(B + e\_t) = B + 0 = B$.
+- $\operatorname{Var}(\nabla Y\_t) = \operatorname{Var}(B + e\_t) = \operatorname{Var}(e\_t) = \sigma\_e^2$.
+- $\operatorname{Cov}(\nabla Y\_t, \nabla Y\_{t-k}) = \operatorname{Cov}(B + e\_t, B + e\_{t-k}) = \operatorname{Cov}(e\_t, e\_{t-k})$.
 
-Karena mean, variansi, dan autokovariansi konstan, maka $\{\Delta Y_{t}\}$ stasioner.
+Karena ${e\_t}$ adalah white noise, $\operatorname{Cov}(e\_{t}, e\_{t-k}) = 0$ saat $k\neq 0$, dan $\operatorname{Var}(e\_{t}) = \sigma\_{e}^2$ saat $k=0$.
 
-## (c): Is $\{Y_t\}$ stationary when $A$ and $B$ are random variables independent of $\{X_t\}$?
+Karena mean, variansi, dan autokovariansi konstan, maka ${\Delta Y\_{t}}$ stasioner.
 
-Misal $E(A) = \mu_A$, $E(B) = \mu_B$, $\operatorname{Var}(A) = \sigma_A^2$, $\operatorname{Var}(B) = \sigma_B^2$, dan $\operatorname{Cov}(A, B) = \sigma_{AB}$.
+## (c): Is ${Y\_t}$ stationary when $A$ and $B$ are random variables independent of ${X\_t}$?
 
-Didapati, $E(Y_t) = E(A + Bt + X_t) = E(A) + E(B)t + E(X_t) = \mu_A + \mu_B t + X_0$.  
+Misal $E(A) = \mu\_A$, $E(B) = \mu\_B$, $\operatorname{Var}(A) = \sigma\_A^2$, $\operatorname{Var}(B) = \sigma\_B^2$, dan $\operatorname{Cov}(A, B) = \sigma\_{AB}$.
 
-Karena mean konstan, maka $\{Y_t\}$ stasioner.
+Didapati, $E(Y\_t) = E(A + Bt + X\_t) = E(A) + E(B)t + E(X\_t) = \mu\_A + \mu\_B t + X\_0$.
 
-## (d): Is $\{\nabla Y_t\}$ stationary when $A$ and $B$ are random variables independent of $\{X_t\}$?
+Karena mean konstan, maka ${Y\_t}$ stasioner.
+
+## (d): Is ${\nabla Y\_t}$ stationary when $A$ and $B$ are random variables independent of ${X\_t}$?
 
 $$\begin{align}
-\nabla Y_t &= Y_t - Y_{t-1} \\
-&= (A + Bt + X_t) - (A + B(t-1) + X_{t-1}) \\
-&= A + Bt + X_t - A - Bt + B - X_{t-1} \\
-&= B + (X_t - X_{t-1}) \\
-&= B + e_t \\
+\nabla Y\_t &= Y\_t - Y\_{t-1} \\
+&= (A + Bt + X\_t) - (A + B(t-1) + X\_{t-1}) \\
+&= A + Bt + X\_t - A - Bt + B - X\_{t-1} \\
+&= B + (X\_t - X\_{t-1}) \\
+&= B + e\_t \\
 \end{align}$$
 
 Didapati:
-- $E(\nabla Y_t) = E(B + e_t) = E(B) + E(e_t) = \mu_B$
-- $\operatorname{Var}(\nabla Y_t) = \operatorname{Var}(B + e_t) = \operatorname{Var}(B) + \operatorname{Var}(e_t) = \sigma_B^2 + \sigma_e^2$.
-- $\operatorname{Cov}(\nabla Y_t, \nabla Y_{t-k}) = \operatorname{Cov}(B + e_t, B + e_{t-k}) = \operatorname{Cov}(B, B) + \operatorname{Cov}(e_t, e_{t-k})$.  
+
+- $E(\nabla Y\_t) = E(B + e\_t) = E(B) + E(e\_t) = \mu\_B$
+- $\operatorname{Var}(\nabla Y\_t) = \operatorname{Var}(B + e\_t) = \operatorname{Var}(B) + \operatorname{Var}(e\_t) = \sigma\_B^2 + \sigma\_e^2$.
+- $\operatorname{Cov}(\nabla Y\_t, \nabla Y\_{t-k}) = \operatorname{Cov}(B + e\_t, B + e\_{t-k}) = \operatorname{Cov}(B, B) + \operatorname{Cov}(e\_t, e\_{t-k})$.
 
 Karena
 $$\begin{align}
-	\operatorname{Cov}(B, B) &= \sigma_B^2\\
-	\operatorname{Cov}(e_t, e_{t-k}) &= \begin{cases}
-		0 &, k \neq 0\\
-		\sigma_e^2 &, k = 0
-	\end{cases}
+\operatorname{Cov}(B, B) &= \sigma\_B^2\\
+\operatorname{Cov}(e\_t, e\_{t-k}) &= \begin{cases}
+0 &, k \neq 0\\
+\sigma\_e^2 &, k = 0
+\end{cases}
 \end{align}$$
 maka,
 $$
-\operatorname{Cov}(\nabla Y_t, \nabla Y_{t-k}) = \begin{cases}
-	\sigma_B^2 &, k = 0\\
-	0 &, k \neq 0
+\operatorname{Cov}(\nabla Y\_t, \nabla Y\_{t-k}) = \begin{cases}
+\sigma\_B^2 &, k = 0\\
+0 &, k \neq 0
 \end{cases}
 $$
 
-Karena mean, variansi, dan autokovariansi konstan, maka $\{\nabla Y_t\}$ stasioner.
+Karena mean, variansi, dan autokovariansi konstan, maka ${\nabla Y\_t}$ stasioner.

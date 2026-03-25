@@ -2,53 +2,50 @@
 publish: true
 aliases:
   - Common Distribution Equations
-created: 2026-02-22T19:23:58.377+07:00
-modified: 2026-02-22T19:23:58.377+07:00
-published: 2026-02-22T19:23:58.377+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.597+07:00
+modified: 2026-03-25T15:22:40.597+07:00
+published: 2026-03-25T15:22:40.597+07:00
 creation-time: 2025-07-22 17:12
-status: baby
+status: in progress
 tag:
 parent: "[[Introduction to Mathematical Statistics]]"
 ---
 
 ## Notations
 
-- $N(\mu, \sigma^2)$ : [[3 Reference/Continuous Distributions#Normal distribution\|Normal distribution]] with [[3 Reference/Def-mean\|mean]] $\mu$ and [[3 Reference/Def-variance\|variance]] $\sigma^2$
-- $\chi^2(k)$ : [[3 Reference/Continuous Distributions#Chi-square distribution\|Chi-square distribution]] with $k$ degrees of freedom
-- $t(r)$ : [[3 Reference/Continuous Distributions#t-distribution\|t-distribution]] with $r$ degrees of freedom
-- $F(r_1, r_2)$ : [[3 Reference/Continuous Distributions#F-distribution\|F-distribution]] with $r_1$ and $r_2$ degrees of freedom
+- $N(\mu, \sigma^2)$ : [[Continuous Distributions#Normal distribution|Normal distribution]] with [[Def-mean|mean]] $\mu$ and [[Def-variance|variance]] $\sigma^2$
+- $\chi^2(k)$ : [[Continuous Distributions#Chi-square distribution|Chi-square distribution]] with $k$ degrees of freedom
+- $t(r)$ : [[Continuous Distributions#t-distribution|t-distribution]] with $r$ degrees of freedom
+- $F(r\_1, r\_2)$ : [[Continuous Distributions#F-distribution|F-distribution]] with $r\_1$ and $r\_2$ degrees of freedom
 - $\bar{X}$ : Sample mean
 - $S^2$ : Sample variance
-- $\xrightarrow{D}$ : [[3 Reference/Def-convergence-in-distribution\|Convergence in distribution]]
+- $\xrightarrow{D}$ : [[Def-convergence-in-distribution|Convergence in distribution]]
 
 ## Sample Mean and Variance Distributions
 
-If $X_1, X_2, \ldots, X_n \sim N(\mu, \sigma^2)$ independently, then:
+If $X\_1, X\_2, \ldots, X\_n \sim N(\mu, \sigma^2)$ independently, then:
 
 $$
 \begin{align}
-\bar{X} & = \frac{1}{n}\sum_{i=1}^n X_i && \sim N\left(\mu, \frac{\sigma^2}{n}\right) \\
+\bar{X} & = \frac{1}{n}\sum\_{i=1}^n X\_i && \sim N\left(\mu, \frac{\sigma^2}{n}\right) \\
 
-S^2 & = \frac{1}{n-1}\sum_{i=1}^n (X_i - \bar{X})^2 && \sim N\left( \sigma^2, \frac{2\sigma^4}{n-1} \right) \\
-\end{align} 
+S^2 & = \frac{1}{n-1}\sum\_{i=1}^n (X\_i - \bar{X})^2 && \sim N\left( \sigma^2, \frac{2\sigma^4}{n-1} \right) \\
+\end{align}
 $$
 
 ## Normal Distribution Relationships
 
-If $X_1, X_2, \ldots, X_n \sim N(\mu, \sigma^2)$ independently, then:
+If $X\_1, X\_2, \ldots, X\_n \sim N(\mu, \sigma^2)$ independently, then:
 
 $$
 \frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)
 $$
 
-
-If $Z_1, Z_2, \ldots, Z_k \sim N(0,1)$ independently, then:
+If $Z\_1, Z\_2, \ldots, Z\_k \sim N(0,1)$ independently, then:
 
 $$
-\sum_{i=1}^k Z_i^2 \sim \chi^2(k)
+\sum\_{i=1}^k Z\_i^2 \sim \chi^2(k)
 $$
-
 
 If $U \sim N(0,1)$ and $V \sim \chi^2(r)$ independently, then:
 
@@ -56,53 +53,50 @@ $$
 T = \frac{U}{\sqrt{V/r}} \sim t(r)
 $$
 
-
-If $U \sim \chi^2(r_1)$ and $V \sim \chi^2(r_2)$ independently, then:
+If $U \sim \chi^2(r\_1)$ and $V \sim \chi^2(r\_2)$ independently, then:
 
 $$
-F = \frac{U/r_1}{V/r_2} \sim F(r_1, r_2)
+F = \frac{U/r\_1}{V/r\_2} \sim F(r\_1, r\_2)
 $$
 
-If $X_1, X_2, \ldots, X_n \sim N(\mu, \sigma^2)$ independently, then:
+If $X\_1, X\_2, \ldots, X\_n \sim N(\mu, \sigma^2)$ independently, then:
 
 $$
 T = \frac{\bar{X} - \mu}{S/\sqrt{n}} \sim t(n-1)
 $$
 
-
-For $X_1, \ldots, X_{n_1} \sim N(\mu_1, \sigma^2)$ and $Y_1, \ldots, Y_{n_2} \sim N(\mu_2, \sigma^2)$ independently:
-
-$$
-T = \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{S_p\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} \sim t(n_1 + n_2 - 2)
-$$
-where $S_p^2 = \frac{(n_1-1)S_X^2 + (n_2-1)S_Y^2}{n_1 + n_2 - 2}$
-
-
-For independent samples from $N(\mu_1, \sigma_1^2)$ and $N(\mu_2, \sigma_2^2)$
+For $X\_1, \ldots, X\_{n\_1} \sim N(\mu\_1, \sigma^2)$ and $Y\_1, \ldots, Y\_{n\_2} \sim N(\mu\_2, \sigma^2)$ independently:
 
 $$
-F = \frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2} \sim F(n_1-1, n_2-1)
+T = \frac{(\bar{X} - \bar{Y}) - (\mu\_1 - \mu\_2)}{S\_p\sqrt{\frac{1}{n\_1} + \frac{1}{n\_2}}} \sim t(n\_1 + n\_2 - 2)
+$$
+where $S\_p^2 = \frac{(n\_1-1)S\_X^2 + (n\_2-1)S\_Y^2}{n\_1 + n\_2 - 2}$
+
+For independent samples from $N(\mu\_1, \sigma\_1^2)$ and $N(\mu\_2, \sigma\_2^2)$
+
+$$
+F = \frac{S\_1^2/\sigma\_1^2}{S\_2^2/\sigma\_2^2} \sim F(n\_1-1, n\_2-1)
 $$
 
-If $X_{1},X_{2},\dots,X_{n}\sim b(1,p)$ independently, then:
+If $X\_{1},X\_{2},\dots,X\_{n}\sim b(1,p)$ independently, then:
 
 $$
-\sum_{i=1}^n X_{i}\sim b(n,p)
+\sum\_{i=1}^n X\_{i}\sim b(n,p)
 $$
 
-If $X_{1},X_{2},\dots,X_{n}\sim \text{Poisson}(\lambda)$ independently, then:
+If $X\_{1},X\_{2},\dots,X\_{n}\sim \text{Poisson}(\lambda)$ independently, then:
 $$
-\sum_{i=1}^n X_{i} \sim \text{Poisson}(n\lambda)
+\sum\_{i=1}^n X\_{i} \sim \text{Poisson}(n\lambda)
 $$
 
-If $X_{1},X_{2},\dots,X_{n}\sim \text{Gamma}(\alpha,\beta)$ independently, then:
+If $X\_{1},X\_{2},\dots,X\_{n}\sim \text{Gamma}(\alpha,\beta)$ independently, then:
 $$
-\sum_{i=1}^n X_{i} \sim \text{Gamma}(n\alpha,\beta)
+\sum\_{i=1}^n X\_{i} \sim \text{Gamma}(n\alpha,\beta)
 $$
 
 ## Central Limit Theorem Results
 
-If $X_1, X_2, \ldots, X_n$ are i.i.d. with $E[X_i] = \mu$ and $\text{Var}(X_i) = \sigma^2$, then: 
+If $X\_1, X\_2, \ldots, X\_n$ are i.i.d. with $E\[X\_i] = \mu$ and $\text{Var}(X\_i) = \sigma^2$, then:
 $$
 \begin{align}
 \frac{\bar{X} - \mu}{\sigma/\sqrt{n}} & \xrightarrow{D} N(0,1) \\
@@ -117,16 +111,15 @@ $$
 
 $$\chi^2(k) = \text{Gamma}\left(\frac{k}{2}, \frac{1}{2}\right)$$
 
-If $X_1, \ldots, X_n \sim \text{Exp}(\lambda)$ independently, then: $$\sum_{i=1}^n X_i \sim \text{Gamma}(n, \lambda)$$
+If $X\_1, \ldots, X\_n \sim \text{Exp}(\lambda)$ independently, then: $$\sum\_{i=1}^n X\_i \sim \text{Gamma}(n, \lambda)$$
 
 ## Order Statistics
 
+For $X\_1, \ldots, X\_n \sim \text{Uniform}(0,1)$:
 
-For $X_1, \ldots, X_n \sim \text{Uniform}(0,1)$:
-
-- $X_{(n)} \sim \text{Beta}(n, 1)$
-- $X_{(1)} \sim \text{Beta}(1, n)$
-- $X_{(k)} \sim \text{Beta}(k, n-k+1)$
+- $X\_{(n)} \sim \text{Beta}(n, 1)$
+- $X\_{(1)} \sim \text{Beta}(1, n)$
+- $X\_{(k)} \sim \text{Beta}(k, n-k+1)$
 
 ## Transformations
 
@@ -136,5 +129,4 @@ If $X \sim N(\mu, \sigma^2)$, then: $$Y = e^X \sim \text{LogNormal}(\mu, \sigma^
 
 **Box-Muller Transformation**
 
-If $U_1, U_2 \sim \text{Uniform}(0,1)$ independently, then: $$Z_1 = \sqrt{-2\ln U_1}\cos(2\pi U_2) \sim N(0,1)$$ $$Z_2 = \sqrt{-2\ln U_1}\sin(2\pi U_2) \sim N(0,1)$$
-
+If $U\_1, U\_2 \sim \text{Uniform}(0,1)$ independently, then: $$Z\_1 = \sqrt{-2\ln U\_1}\cos(2\pi U\_2) \sim N(0,1)$$ $$Z\_2 = \sqrt{-2\ln U\_1}\sin(2\pi U\_2) \sim N(0,1)$$

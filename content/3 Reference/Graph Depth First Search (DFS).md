@@ -1,20 +1,18 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.363+07:00
-modified: 2026-02-22T19:23:58.363+07:00
-published: 2026-02-22T19:23:58.363+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.647+07:00
+modified: 2026-03-25T15:22:40.647+07:00
+published: 2026-03-25T15:22:40.647+07:00
 creation-time: 2025-02-27 23:44
-status: adult
+status: complete
 tags:
 parent:
   - "[[Graph]]"
   - "[[algorithm]]"
 ---
 
-
 - #TODO:
-	- Fill "Recursion" algorithm
+  - Fill "Recursion" algorithm
 
 ---
 
@@ -48,9 +46,9 @@ There are 2 different approaches to implement depth first search in graphs: **st
 ### Stack
 
 1. Prepare variables
-    - `to_visit`: A stack to store verteces that needs to be visited. Initial value is the start vertex.
-    - `visited`: A hash set to store verteces that has already been visited. Initial value is the start vertex.
-    - `path`: A list to store all verteces traversed by `to_visit`.
+   - `to_visit`: A stack to store verteces that needs to be visited. Initial value is the start vertex.
+   - `visited`: A hash set to store verteces that has already been visited. Initial value is the start vertex.
+   - `path`: A list to store all verteces traversed by `to_visit`.
 2. Keep popping `to_visit` stack while it’s not empty. For each popped vertex:
 3. Append the vertex into `path`
 4. Grab the adjacent verteces of the popped vertex. For each adjacent vertex:
@@ -60,7 +58,6 @@ There are 2 different approaches to implement depth first search in graphs: **st
 ### Recursive
 
 ## Implementation
-
 
 To see the complete code, go to [Code](https://www.notion.so/Code-16fa55f037f280108376c14e88852d4c?pvs=21)
 

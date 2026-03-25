@@ -1,20 +1,18 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.366+07:00
-modified: 2026-02-22T19:23:58.366+07:00
-published: 2026-02-22T19:23:58.366+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.638+07:00
+modified: 2026-03-25T15:22:40.638+07:00
+published: 2026-03-25T15:22:40.638+07:00
 creation-time: 2025-03-13 19:15
-status: adult
+status: complete
 tags:
 parent:
   - "[[linux]]"
 ---
 
-
 The configuration file is located on `/etc/default/grub`.
 
-For configuration documentation, see https://www.gnu.org/software/grub/manual/grub/html_node/Simple-configuration.html.
+For configuration documentation, see https://www.gnu.org/software/grub/manual/grub/html\_node/Simple-configuration.html.
 
 Make sure to apply grub config changes using:
 
@@ -35,10 +33,10 @@ Explanation below:
 `GRUB_CMDLINE_LINUX_DEFAULT`
 
 - Unless `GRUB_DISABLE_RECOVERY` is set to ‘true’, two menu entries will be generated for each Linux kernel: one default entry and one entry for recovery mode.
-- This option lists command-line arguments to add only to the default menu entry, after those listed in ‘GRUB_CMDLINE_LINUX’.
+- This option lists command-line arguments to add only to the default menu entry, after those listed in ‘GRUB\_CMDLINE\_LINUX’.
 
 The difference:
 
 - Options in `GRUB_CMDLINE_LINUX` are **always effective**.
-    
+
 - Options in `GRUB_CMDLINE_LINUX_DEFAULT` are **effective ONLY during normal boot** (NOT during recovery mode).

@@ -2,14 +2,13 @@
 publish: true
 aliases:
   - Borrowing Rules
-created: 2026-02-22T19:23:58.374+07:00
-modified: 2026-02-22T19:23:58.374+07:00
-published: 2026-02-22T19:23:58.374+07:00
+created: 2026-03-25T15:22:40.623+07:00
+modified: 2026-03-25T15:22:40.623+07:00
+published: 2026-03-25T15:22:40.623+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2026-02-03 07:22
-status: baby
+status: in progress
 parent:
   - "[[rust]]"
 ---
@@ -24,4 +23,4 @@ parent:
 
 Notice that this is very similar to the defintion of a data race (not to be confused with race condition):
 
-> There is a "data race" when two or more pointers access the same memory location at the same time, where at least one of them is writing, and the operations are not synchronized.[^2]
+> There is a "data race" when two or more pointers access the same memory location at the same time, where at least one of them is writing, and the operations are not synchronized.\[^2]

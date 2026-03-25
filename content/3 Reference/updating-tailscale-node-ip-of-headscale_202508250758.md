@@ -2,23 +2,24 @@
 publish: true
 aliases:
   - Updating Tailscale Node IP of Headscale
-created: 2026-02-22T19:24:22.930+07:00
-modified: 2026-02-22T19:24:22.931+07:00
-published: 2026-02-22T19:24:22.931+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.612+07:00
+modified: 2026-03-25T15:22:40.612+07:00
+published: 2026-03-25T15:22:40.612+07:00
 creation-time: 2025-08-25 07:58
-status: baby
+status: in progress
 tag:
 parent: "[[fleeting]]"
 ---
 
 1. Open sqlite[^1] on `/var/lib/headscale/sqlite.db`
 2. Do
+
 ```bash
 update nodes set ipv4 = 'new-ip' where given_name = 'machine-name';
 ```
 
 For reference, here's schema of `nodes` table as of 2025-08-25:
+
 ```
 sqlite> pragma table_info(nodes);
 0|id|INTEGER|0||1

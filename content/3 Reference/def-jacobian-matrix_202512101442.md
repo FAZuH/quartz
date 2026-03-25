@@ -2,63 +2,61 @@
 publish: true
 aliases:
   - Jacobian Matrix
-created: 2026-02-22T19:23:58.394+07:00
-modified: 2026-02-22T19:23:58.394+07:00
-published: 2026-02-22T19:23:58.394+07:00
+created: 2026-03-25T15:22:40.613+07:00
+modified: 2026-03-25T15:22:40.613+07:00
+published: 2026-03-25T15:22:40.613+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-12-10 14:42
-status: baby
+status: in progress
 parent:
   - "[[matrices]]"
 ---
 
-
 ## Definition
 
-Let $\mathbf{f}: \mathbb{R}^n \to \mathbb{R}^m$ be a vector function with components $f_1, f_2, \ldots, f_m$.
+Let $\mathbf{f}: \mathbb{R}^n \to \mathbb{R}^m$ be a vector function with components $f\_1, f\_2, \ldots, f\_m$.
 
-The **Jacobian matrix** of $\mathbf{f}$ with respect to $\mathbf{x} = \begin{bmatrix} x_1 & \cdots & x_n \end{bmatrix}^T$ is:
+The **Jacobian matrix** of $\mathbf{f}$ with respect to $\mathbf{x} = \begin{bmatrix} x\_1 & \cdots & x\_n \end{bmatrix}^T$ is:
 
 $$
-J_{\mathbf{f}}(\mathbf{x}) = \frac{\partial \mathbf{f}}{\partial \mathbf{x}^T} = \begin{bmatrix}
-\frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \cdots & \frac{\partial f_1}{\partial x_n} \\
-\frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \cdots & \frac{\partial f_2}{\partial x_n} \\
+J\_{\mathbf{f}}(\mathbf{x}) = \frac{\partial \mathbf{f}}{\partial \mathbf{x}^T} = \begin{bmatrix}
+\frac{\partial f\_1}{\partial x\_1} & \frac{\partial f\_1}{\partial x\_2} & \cdots & \frac{\partial f\_1}{\partial x\_n} \\
+\frac{\partial f\_2}{\partial x\_1} & \frac{\partial f\_2}{\partial x\_2} & \cdots & \frac{\partial f\_2}{\partial x\_n} \\
 \vdots & \vdots & \ddots & \vdots \\
-\frac{\partial f_m}{\partial x_1} & \frac{\partial f_m}{\partial x_2} & \cdots & \frac{\partial f_m}{\partial x_n}
+\frac{\partial f\_m}{\partial x\_1} & \frac{\partial f\_m}{\partial x\_2} & \cdots & \frac{\partial f\_m}{\partial x\_n}
 \end{bmatrix}
 $$
 
-This is an $m \times n$ matrix where the $i$-th row is $\nabla f_i^T$.
+This is an $m \times n$ matrix where the $i$-th row is $\nabla f\_i^T$.
 
 ## Example
 
 Let $\mathbf{f}: \mathbb{R}^2 \to \mathbb{R}^3$ be:
 
 $$
-\mathbf{f}\left(\begin{bmatrix} x_1 \\ x_2 \end{bmatrix}\right) = \begin{bmatrix} x_1^2 + x_2 \\ 2x_1x_2 \\ x_2^2 \end{bmatrix}
+\mathbf{f}\left(\begin{bmatrix} x\_1 \ x\_2 \end{bmatrix}\right) = \begin{bmatrix} x\_1^2 + x\_2 \ 2x\_1x\_2 \ x\_2^2 \end{bmatrix}
 $$
 
 $$
 \begin{align}
-J_{\mathbf{f}} &= \begin{bmatrix}
-\frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} \\
-\frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} \\
-\frac{\partial f_3}{\partial x_1} & \frac{\partial f_3}{\partial x_2}
+J\_{\mathbf{f}} &= \begin{bmatrix}
+\frac{\partial f\_1}{\partial x\_1} & \frac{\partial f\_1}{\partial x\_2} \\
+\frac{\partial f\_2}{\partial x\_1} & \frac{\partial f\_2}{\partial x\_2} \\
+\frac{\partial f\_3}{\partial x\_1} & \frac{\partial f\_3}{\partial x\_2}
 \end{bmatrix} \\
 &= \begin{bmatrix}
-2x_1 & 1 \\
-2x_2 & 2x_1 \\
-0 & 2x_2
+2x\_1 & 1 \\
+2x\_2 & 2x\_1 \\
+0 & 2x\_2
 \end{bmatrix}
 \end{align}
 $$
 
-At $\mathbf{x} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$:
+At $\mathbf{x} = \begin{bmatrix} 1 \ 2 \end{bmatrix}$:
 
 $$
-J_{\mathbf{f}}\left(\begin{bmatrix} 1 \\ 2 \end{bmatrix}\right) = \begin{bmatrix}
+J\_{\mathbf{f}}\left(\begin{bmatrix} 1 \ 2 \end{bmatrix}\right) = \begin{bmatrix}
 2 & 1 \\
 4 & 2 \\
 0 & 4

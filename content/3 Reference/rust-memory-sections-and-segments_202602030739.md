@@ -2,14 +2,13 @@
 publish: true
 aliases:
   - Rust Memory Sections and Segments
-created: 2026-02-22T19:24:22.229+07:00
-modified: 2026-02-22T19:24:22.232+07:00
-published: 2026-02-22T19:24:22.232+07:00
+created: 2026-03-25T15:22:40.617+07:00
+modified: 2026-03-25T15:22:40.618+07:00
+published: 2026-03-25T15:22:40.618+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2026-02-03 07:39
-status: baby
+status: in progress
 parent:
   - "[[rust]]"
 ---
@@ -41,10 +40,12 @@ Low addresses (0x0000...)
 ```
 
 **In the binary file (ELF):**
+
 - **Section** = `.text`, `.rodata`, `.data`, `.bss`
 - Stored in the executable file on disk, and is loaded before the heap segment starting at the low address.
 
 **In memory (running process):**
+
 - **Segment** = mapped sections
 - OS loads sections into memory segments
 

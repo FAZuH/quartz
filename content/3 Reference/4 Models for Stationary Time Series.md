@@ -1,11 +1,10 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.333+07:00
-modified: 2026-03-02T12:40:31.021+07:00
-published: 2026-03-02T12:40:31.021+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.643+07:00
+modified: 2026-03-25T15:22:40.643+07:00
+published: 2026-03-25T15:22:40.643+07:00
 creation-time: 2025-03-27 16:56
-status: adult
+status: complete
 tags:
 parent:
   - "[[Time Series Analysis With Applications in R]]"
@@ -22,35 +21,38 @@ It also covers general linear processes, moving average (MA) processes, autoregr
 > A way to represent a stochastic process in summationn
 
 Let
+
 - $t\in N$ : Time index
-- $Y_{t}$ : Process value at time $t$
-- $e_{t}$ : White noise error term at time t t t, i.i.d. with mean 0 and constant variance.
+- $Y\_{t}$ : Process value at time $t$
+- $e\_{t}$ : White noise error term at time t t t, i.i.d. with mean 0 and constant variance.
 
 A general linear process is:
 
-$$ Y_t = e_t + \psi_1 e_{t-1} + \psi_2 e_{t-2} + \cdots $$
+$$ Y\_t = e\_t + \psi\_1 e\_{t-1} + \psi\_2 e\_{t-2} + \cdots $$
 
-Assuming $\psi_0 = 1$, the mean is $E(Y_t) = 0$, and autocovariance is:
-$$ \gamma_k = \sigma_e^2 \sum_{i=0}^\infty \psi_i \psi_{i+k}, \quad k \geq 0 $$
+Assuming $\psi\_0 = 1$, the mean is $E(Y\_t) = 0$, and autocovariance is:
+$$ \gamma\_k = \sigma\_e^2 \sum\_{i=0}^\infty \psi\_i \psi\_{i+k}, \quad k \geq 0 $$
 
-It is convergent if $\sum_{i=1}^\infty \psi_i^2 < \infty$.
+It is convergent if $\sum\_{i=1}^\infty \psi\_i^2 < \infty$.
 
 - Example:
 
-	Suppose $\psi_j = \phi^j$ and $|\phi| < 1$.
-	
-	Then,	
-	$$ \operatorname{Var}(Y_t) = \frac{\sigma_e^2}{1 - \phi^2}, \quad \operatorname{Corr}(Y_t, Y_{t-k}) = \phi^k $$
+  Suppose $\psi\_j = \phi^j$ and $|\phi| < 1$.
+
+  Then,
+  $$ \operatorname{Var}(Y\_t) = \frac{\sigma\_e^2}{1 - \phi^2}, \quad \operatorname{Corr}(Y\_t, Y\_{t-k}) = \phi^k $$
+
 ## Moving average (MA) processes
 
 An MA($q$) process has finite nonzero $\psi$-weights:
 
-$$Y_t = e_t - \sum_{i=1}^q \theta_i e_{t-i}$$
+$$Y\_t = e\_t - \sum\_{i=1}^q \theta\_i e\_{t-i}$$
 where:
+
 - $q\in \mathbb{N}$ : Order of the model. Number of error terms
 - $i\in \mathbb{N}$ : Time lag
-- $\theta_{i}$ : Model parameter for lag $i$
-- $e_{t-i}$ : Lagged error; error at time $t-i$
+- $\theta\_{i}$ : Model parameter for lag $i$
+- $e\_{t-i}$ : Lagged error; error at time $t-i$
 
 These models are called **short memory models**, since the errors doesn't last long into the future. To illustrate:
 
@@ -60,107 +62,110 @@ This goes back to the idea of [stationarity](Stationarity.md), where the depende
 
 ### MA(1) Process
 
-$$Y_t = e_t - \textcolor{red}{\theta e_{t-1}}$$
+$$Y\_t = e\_t - \textcolor{red}{\theta e\_{t-1}}$$
 
 | Property        | Expression                                                      |
 | --------------- | --------------------------------------------------------------- |
-| Mean            | $E(Y_t) = 0$                                                    |
-| Variance        | $\gamma_0 = \sigma_e^2 (1 + \theta^2)$                          |
-| Covariance      | $\gamma_1 = -\theta \sigma_e^2$                                 |
-| Autocorrelation | $\rho_1 = \frac{-\theta}{1 + \theta^2}$, $\rho_k = 0, k \geq 2$ |
+| Mean            | $E(Y\_t) = 0$                                                    |
+| Variance        | $\gamma\_0 = \sigma\_e^2 (1 + \theta^2)$                          |
+| Covariance      | $\gamma\_1 = -\theta \sigma\_e^2$                                 |
+| Autocorrelation | $\rho\_1 = \frac{-\theta}{1 + \theta^2}$, $\rho\_k = 0, k \geq 2$ |
 
-$\rho_1$ ranges from $-0.5$ to $0.5$, at $\theta = -1$ to $1$ respectively.
+$\rho\_1$ ranges from $-0.5$ to $0.5$, at $\theta = -1$ to $1$ respectively.
 
 Simulations show positive $\theta$ yields jagged series, negative $\theta$ smoother series.
 
 ### MA(2) Process
 
-$$Y_t = e_t - \textcolor{red}{\theta_1 e_{t-1}} - \textcolor{yellow}{\theta_2 e_{t-2}}$$
+$$Y\_t = e\_t - \textcolor{red}{\theta\_1 e\_{t-1}} - \textcolor{yellow}{\theta\_2 e\_{t-2}}$$
 
 |**Property**|**Expression**|
 |---|---|
-|**Variance**|$\gamma_0 = \textcolor{#70CFFF}{(1 + \theta_1^2 + \theta_2^2)} \sigma_e^2$|
-|**Covariance**|$\begin{aligned} \gamma_1 &= \textcolor{#FFD700}{(-\theta_1 + \theta_1 \theta_2)} \sigma_e^2 \\ \gamma_2 &= \textcolor{#FFD700}{-\theta_2} \sigma_e^2 \end{aligned}$|
-|**Autocorrelation (ACF)**|$\begin{aligned} \rho_1 &= \dfrac{\textcolor{#FFD700}{-\theta_1 + \theta_1 \theta_2}}{\textcolor{#70CFFF}{1 + \theta_1^2 + \theta_2^2}} \\ \rho_2 &= \dfrac{\textcolor{#FFD700}{-\theta_2}}{\textcolor{#70CFFF}{1 + \theta_1^2 + \theta_2^2}} \\ \rho_k &= 0, \quad k \geq 3 \end{aligned}$|
+|**Variance**|$\gamma\_0 = \textcolor{#70CFFF}{(1 + \theta\_1^2 + \theta\_2^2)} \sigma\_e^2$|
+|**Covariance**|$\begin{aligned} \gamma\_1 &= \textcolor{#FFD700}{(-\theta\_1 + \theta\_1 \theta\_2)} \sigma\_e^2 \ \gamma\_2 &= \textcolor{#FFD700}{-\theta\_2} \sigma\_e^2 \end{aligned}$|
+|**Autocorrelation (ACF)**|$\begin{aligned} \rho\_1 &= \dfrac{\textcolor{#FFD700}{-\theta\_1 + \theta\_1 \theta\_2}}{\textcolor{#70CFFF}{1 + \theta\_1^2 + \theta\_2^2}} \ \rho\_2 &= \dfrac{\textcolor{#FFD700}{-\theta\_2}}{\textcolor{#70CFFF}{1 + \theta\_1^2 + \theta\_2^2}} \ \rho\_k &= 0, \quad k \geq 3 \end{aligned}$|
 
 ### General MA($q$)
 
 |**Property**|**Expression**|
 |---|---|
-|**Model Equation**|$Y_t = e_t - \textcolor{#FF7070}{\theta_1 e_{t-1} - \theta_2 e_{t-2} - \dots - \theta_q e_{t-q}}, \quad e_t \sim WN(0, \sigma_e^2)$|
-|**Mean**|$E(Y_t) = 0$|
-|**Variance**|$\text{Var}(Y_t) = \gamma_0 = \textcolor{#70CFFF}{(1 + \theta_1^2 + \theta_2^2 + \dots + \theta_q^2)}\sigma_e^2$|
-|**Autocovariance**|$\text{Cov}(Y_t, Y_{t-k}) = \gamma_k = \begin{cases} \textcolor{#FFD700}{-\theta_k + \theta_1\theta_{k+1} + \theta_2\theta_{k+2} + \dots + \theta_{q-k}\theta_q}, & \text{for } k = 1, 2, \dots, q \\ 0, & \text{for } k > q \end{cases}$|
-|**Autocorrelation (ACF)**|$\text{Corr}(Y_t, Y_{t-k}) = \rho_k = \begin{cases} 1, & \text{for } k = 0 \\ \dfrac{\textcolor{#FFD700}{-\theta_k + \theta_1\theta_{k+1} + \theta_2\theta_{k+2} + \dots + \theta_{q-k}\theta_q}}{\textcolor{#70CFFF}{1 + \theta_1^2 + \theta_2^2 + \dots + \theta_q^2}}, & \text{for } k = 1, 2, \dots, q \\ 0, & \text{for } k > q \end{cases}$|
-
+|**Model Equation**|$Y\_t = e\_t - \textcolor{#FF7070}{\theta\_1 e\_{t-1} - \theta\_2 e\_{t-2} - \dots - \theta\_q e\_{t-q}}, \quad e\_t \sim WN(0, \sigma\_e^2)$|
+|**Mean**|$E(Y\_t) = 0$|
+|**Variance**|$\text{Var}(Y\_t) = \gamma\_0 = \textcolor{#70CFFF}{(1 + \theta\_1^2 + \theta\_2^2 + \dots + \theta\_q^2)}\sigma\_e^2$|
+|**Autocovariance**|$\text{Cov}(Y\_t, Y\_{t-k}) = \gamma\_k = \begin{cases} \textcolor{#FFD700}{-\theta\_k + \theta\_1\theta\_{k+1} + \theta\_2\theta\_{k+2} + \dots + \theta\_{q-k}\theta\_q}, & \text{for } k = 1, 2, \dots, q \ 0, & \text{for } k > q \end{cases}$|
+|**Autocorrelation (ACF)**|$\text{Corr}(Y\_t, Y\_{t-k}) = \rho\_k = \begin{cases} 1, & \text{for } k = 0 \ \dfrac{\textcolor{#FFD700}{-\theta\_k + \theta\_1\theta\_{k+1} + \theta\_2\theta\_{k+2} + \dots + \theta\_{q-k}\theta\_q}}{\textcolor{#70CFFF}{1 + \theta\_1^2 + \theta\_2^2 + \dots + \theta\_q^2}}, & \text{for } k = 1, 2, \dots, q \ 0, & \text{for } k > q \end{cases}$|
 
 ### See also
 
-- https://www.youtube.com/watch?v=zNLG8tsA_Go
+- https://www.youtube.com/watch?v=zNLG8tsA\_Go
 
 ## Autoregressive (AR) processes
 
 An AR($p$) process satisfies:
 
-$$Y_t = e_t + \sum_{i=1}^p \phi_i Y_{t-i}$$
+$$Y\_t = e\_t + \sum\_{i=1}^p \phi\_i Y\_{t-i}$$
 where:
-- $p\in \mathbb{N}$ : Order of the model. Number of recursions.
-- $\phi_{i}$ : Model parameter for lag $i$
-- $e_{t}$: Error at time $t$
 
-In contrast to the [moving average model](#Moving%20average%20(MA)%20processes), in AR models each observation depends on all previous observation recursively.
+- $p\in \mathbb{N}$ : Order of the model. Number of recursions.
+- $\phi\_{i}$ : Model parameter for lag $i$
+- $e\_{t}$: Error at time $t$
+
+In contrast to the [moving average model](#Moving%20average%20\(MA\)%20processes), in AR models each observation depends on all previous observation recursively.
 
 ### AR(1) Process
 
-For $Y_t = \phi Y_{t-1} + e_t$:
+For $Y\_t = \phi Y\_{t-1} + e\_t$:
 
 | Property        | Expression                                        |
 | --------------- | ------------------------------------------------- |
-| Variance        | $\gamma_0 = \frac{\sigma_e^2}{1 - \phi^2}$        |
-| Autocovariance  | $\gamma_k = \phi^k \frac{\sigma_e^2}{1 - \phi^2}$ |
-| Autocorrelation | $\rho_k = \phi^k$                                 |
+| Variance        | $\gamma\_0 = \frac{\sigma\_e^2}{1 - \phi^2}$        |
+| Autocovariance  | $\gamma\_k = \phi^k \frac{\sigma\_e^2}{1 - \phi^2}$ |
+| Autocorrelation | $\rho\_k = \phi^k$                                 |
 
--  $|\phi| < 1$ -> $\{ Y_{t} \}$ is stationarity:
+- $|\phi| < 1$ -> ${ Y\_{t} }$ is stationarity:
 
 ### AR(2) Process
 
 |**Property**|**Expression**|
 |---|---|
-|**Model Equation**|$Y_t = \phi_1 Y_{t-1} + \phi_2 Y_{t-2} + e_t$|
-|**Stationarity Conditions**|$\begin{cases} \textcolor{#FF7070}{\phi_1 + \phi_2 < 1} \\ \textcolor{#FF7070}{\phi_2 - \phi_1 < 1} \\ \textcolor{#FF7070}{\lvert \phi_2 \rvert < 1} \end{cases}$|
-|**Yule-Walker Equation**|$\rho_k = \phi_1 \rho_{k-1} + \phi_2 \rho_{k-2}, \quad k \geq 1$|
-|**First Lag ACF ($\rho_1$)**|$\rho_1 = \dfrac{\phi_1}{1 - \phi_2}$|
-|**Second Lag ACF ($\rho_2$)**|$\rho_2 = \dfrac{\phi_2 (1 - \phi_2) + \phi_1^2}{1 - \phi_2}$|
-|**Variance ($\gamma_0$)**|$\gamma_0 = \left( \dfrac{1 - \phi_2}{1 + \phi_2} \right) \dfrac{\sigma_e^2}{\textcolor{#70CFFF}{(1 - \phi_2)^2 - \phi_1^2}}$|
+|**Model Equation**|$Y\_t = \phi\_1 Y\_{t-1} + \phi\_2 Y\_{t-2} + e\_t$|
+|**Stationarity Conditions**|$\begin{cases} \textcolor{#FF7070}{\phi\_1 + \phi\_2 < 1} \ \textcolor{#FF7070}{\phi\_2 - \phi\_1 < 1} \ \textcolor{#FF7070}{\lvert \phi\_2 \rvert < 1} \end{cases}$|
+|**Yule-Walker Equation**|$\rho\_k = \phi\_1 \rho\_{k-1} + \phi\_2 \rho\_{k-2}, \quad k \geq 1$|
+|**First Lag ACF ($\rho\_1$)**|$\rho\_1 = \dfrac{\phi\_1}{1 - \phi\_2}$|
+|**Second Lag ACF ($\rho\_2$)**|$\rho\_2 = \dfrac{\phi\_2 (1 - \phi\_2) + \phi\_1^2}{1 - \phi\_2}$|
+|**Variance ($\gamma\_0$)**|$\gamma\_0 = \left( \dfrac{1 - \phi\_2}{1 + \phi\_2} \right) \dfrac{\sigma\_e^2}{\textcolor{#70CFFF}{(1 - \phi\_2)^2 - \phi\_1^2}}$|
+
 ### General AR($p$)
 
 | **Property**              | **Expression**                                                                                  |
 | ------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Autocorrelation (ACF)** | $\rho_k = \textcolor{#FFD700}{\phi_1 \rho_{k-1} + \dots + \phi_p \rho_{k-p}}, \quad k \geq 1$   |
-| **Variance ($\gamma_0$)** | $\gamma_0 = \dfrac{\sigma_e^2}{\textcolor{#70CFFF}{1 - \phi_1 \rho_1 - \dots - \phi_p \rho_p}}$ |
+| **Autocorrelation (ACF)** | $\rho\_k = \textcolor{#FFD700}{\phi\_1 \rho\_{k-1} + \dots + \phi\_p \rho\_{k-p}}, \quad k \geq 1$   |
+| **Variance ($\gamma\_0$)** | $\gamma\_0 = \dfrac{\sigma\_e^2}{\textcolor{#70CFFF}{1 - \phi\_1 \rho\_1 - \dots - \phi\_p \rho\_p}}$ |
 
 ## Autoregressive moving average (ARMA) process
 
 An ARMA($p$,$q$) model is:
 
-$$Y_t = e_t + \sum_{i=1}^p \phi_i Y_{t-i} - \sum_{i=1}^q \theta_ie_{t-i}$$
+$$Y\_t = e\_t + \sum\_{i=1}^p \phi\_i Y\_{t-i} - \sum\_{i=1}^q \theta\_ie\_{t-i}$$
 
 ### ARMA(1,1) Model
-For $Y_t = \phi Y_{t-1} + e_t - \theta e_{t-1}$, $|\phi| < 1$ ensures stationarity:
+
+For $Y\_t = \phi Y\_{t-1} + e\_t - \theta e\_{t-1}$, $|\phi| < 1$ ensures stationarity:
 
 | Property        | Expression                                                                                                                   |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Variance        | $$\gamma_0 = \frac{1 - 2 \phi \theta + \theta^2}{1 - \phi^2} \sigma_e^2$$                                                    |
-| Autocovariance  | $$\begin{align} \gamma_1 &= \phi \gamma_0 - \theta \sigma_e^2 \\ \gamma_k &= \phi \gamma_{k-1}, \quad k \geq 2 \end{align}$$ |
-| Autocorrelation | $$\rho_k = \frac{(1 - \theta \phi)(\phi - \theta)}{1 - 2 \theta \phi + \theta^2} \phi^{k-1}, \quad k \geq 1$$                |
+| Variance        | $$\gamma\_0 = \frac{1 - 2 \phi \theta + \theta^2}{1 - \phi^2} \sigma\_e^2$$                                                    |
+| Autocovariance  | $$\begin{align} \gamma\_1 &= \phi \gamma\_0 - \theta \sigma\_e^2 \ \gamma\_k &= \phi \gamma\_{k-1}, \quad k \geq 2 \end{align}$$ |
+| Autocorrelation | $$\rho\_k = \frac{(1 - \theta \phi)(\phi - \theta)}{1 - 2 \theta \phi + \theta^2} \phi^{k-1}, \quad k \geq 1$$                |
 
 ### General ARMA($p$,$q$)
-Stationarity requires AR roots to exceed 1 in modulus. Autocorrelation satisfies $\rho_k = \phi_1 \rho_{k-1} + \cdots + \phi_p \rho_{k-p}$ for $k > q$.
+
+Stationarity requires AR roots to exceed 1 in modulus. Autocorrelation satisfies $\rho\_k = \phi\_1 \rho\_{k-1} + \cdots + \phi\_p \rho\_{k-p}$ for $k > q$.
 
 ## Invertibility
 
-An MA($q$) process is invertible if it can be written as an infinite AR process, requiring roots of $1 - \theta_1 x - \cdots - \theta_q x^q = 0$ to exceed 1 in modulus.
+An MA($q$) process is invertible if it can be written as an infinite AR process, requiring roots of $1 - \theta\_1 x - \cdots - \theta\_q x^q = 0$ to exceed 1 in modulus.
 
 An MA(1) is invertible, if $|\theta| < 1$ for all of its parameters.
 
-For further reading, see [[3 Reference/Invertability in Time Series Models]].
+For further reading, see [[Invertability in Time Series Models]].

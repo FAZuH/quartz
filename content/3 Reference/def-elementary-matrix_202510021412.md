@@ -2,22 +2,20 @@
 publish: true
 aliases:
   - Elementary Matrix
-created: 2026-02-22T19:23:58.386+07:00
-modified: 2026-02-22T19:23:58.386+07:00
-published: 2026-02-22T19:23:58.386+07:00
+created: 2026-03-25T15:22:40.641+07:00
+modified: 2026-03-25T15:22:40.641+07:00
+published: 2026-03-25T15:22:40.641+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-10-02 14:12
-status: adult
+status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
-
 ## Definition
 
-A [[3 Reference/Def-matrix\|matrix]] $E$ is called an **elementary matrix** if it can be obtained from an [[3 Reference/def-identity-matrix_202509241204\|identity matrix]] by performing a <u>single</u> [[3 Reference/theorem-elementary-row-operation_202510021405\|elementary row operation]].
+A [[Def-matrix|matrix]] $E$ is called an **elementary matrix** if it can be obtained from an [[def-identity-matrix_202509241204|identity matrix]] by performing a <u>single</u> [[theorem-elementary-row-operation_202510021405|elementary row operation]].
 
 ## Example
 

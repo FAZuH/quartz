@@ -2,25 +2,23 @@
 publish: true
 aliases:
   - Identity Matrix
-created: 2026-02-22T19:23:58.389+07:00
-modified: 2026-02-22T19:23:58.390+07:00
-published: 2026-02-22T19:23:58.390+07:00
+created: 2026-03-25T15:22:40.648+07:00
+modified: 2026-03-25T15:22:40.648+07:00
+published: 2026-03-25T15:22:40.648+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-24 12:04
-status: adult
+status: complete
 parent:
   - "[[linear-algebra|linear algebra]]"
   - "[[matrices]]"
 ---
 
-
 ## Definition
 
-A [[3 Reference/Def-matrix\|square matrix]] with $1$'s on the [[3 Reference/Def-matrix\|main diagonal]] and $0$'s elsewhere is called an identity matrix.
+A [[Def-matrix|square matrix]] with $1$'s on the [[Def-matrix|main diagonal]] and $0$'s elsewhere is called an identity matrix.
 
-Usually denoted as $I$, or if the sizes are important, $I_{n}$.
+Usually denoted as $I$, or if the sizes are important, $I\_{n}$.
 
 ## Example
 

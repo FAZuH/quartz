@@ -1,17 +1,15 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.351+07:00
-modified: 2026-02-22T19:23:58.351+07:00
-published: 2026-02-22T19:23:58.351+07:00
+created: 2026-03-25T15:22:40.661+07:00
+modified: 2026-03-25T15:22:40.661+07:00
+published: 2026-03-25T15:22:40.661+07:00
 tags:
   - content-type/procedural
-cssclasses: ""
 creation-time: 2025-04-11 12:33
-status: elder
+status: complete
 parent:
   - "[[statistics]]"
 ---
-
 
 ## Computing correlation matrix
 
@@ -32,13 +30,13 @@ Select the appropriate correlation coefficient based on your data and analysis g
 For a data set with $n$ variables, the correlation matrix is an $n \times n$ symmetric matrix where:
 
 - Diagonal elements are 1 (each variable is perfectly correlated with itself).
-- Off-diagonal elements $r_{ij}$ represent the correlation coefficient between variables $i$ and $j$.
+- Off-diagonal elements $r\_{ij}$ represent the correlation coefficient between variables $i$ and $j$.
 
 Steps:
 
-1. **Calculate Pairwise Correlations**: For each pair of variables $(x_i, x_j)$, compute the correlation coefficient using the chosen method.
-2. **Construct the Matrix**: Arrange coefficients in a matrix where the element at position $(i, j)$ is $r_{ij}$.
-3. **Verify Symmetry**: Ensure $r_{ij} = r_{ji}$, as correlation is symmetric.
+1. **Calculate Pairwise Correlations**: For each pair of variables $(x\_i, x\_j)$, compute the correlation coefficient using the chosen method.
+2. **Construct the Matrix**: Arrange coefficients in a matrix where the element at position $(i, j)$ is $r\_{ij}$.
+3. **Verify Symmetry**: Ensure $r\_{ij} = r\_{ji}$, as correlation is symmetric.
 
 ### 4. Interpret the Results
 
@@ -53,7 +51,6 @@ Steps:
   - $0.60–0.79$: Strong.
   - $0.80–1.00$: Very strong.
 
-
 ### 5. Optional steps
 
 - Compute p-values to assess whether correlations are significant.
@@ -61,49 +58,49 @@ Steps:
 
 ## Correlation measurement formulas
 
-
 ### Pearson Correlation
 
-Measures linear relationships between continuous variables. **Assumes normality**.  
+Measures linear relationships between continuous variables. **Assumes normality**.
 
 $$
-\begin{align*}
-r_{ij} &= \frac{\text{Cov}(X_i, X_j)}{\sqrt{\text{Var}(X_i) \text{Var}(X_j)}} \\
-&= \frac{\sum_{k=1}^n (x_{ik} - \bar{x}_i)(x_{jk} - \bar{x}_j)}{\sqrt{\sum_{k=1}^n (x_{ik} - \bar{x}_i)^2 \sum_{k=1}^n (x_{jk} - \bar{x}_j)^2}}
-\end{align*}
+\begin{align\*}
+r\_{ij} &= \frac{\text{Cov}(X\_i, X\_j)}{\sqrt{\text{Var}(X\_i) \text{Var}(X\_j)}} \\
+&= \frac{\sum\_{k=1}^n (x\_{ik} - \bar{x}_i)(x_{jk} - \bar{x}_j)}{\sqrt{\sum_{k=1}^n (x\_{ik} - \bar{x}_i)^2 \sum_{k=1}^n (x\_{jk} - \bar{x}\_j)^2}}
+\end{align\*}
 $$
 
 **Variables**:
-- $r_{ij}$: Pearson correlation coefficient between variables $X_i$ and $X_j$.
-- $x_{ik}$: $k$-th observation of variable $X_i$.
-- $\bar{x}_i$: Mean of variable $X_i$.
+
+- $r\_{ij}$: Pearson correlation coefficient between variables $X\_i$ and $X\_j$.
+- $x\_{ik}$: $k$-th observation of variable $X\_i$.
+- $\bar{x}\_i$: Mean of variable $X\_i$.
 - $n$: Number of observations.
 
 Where:
 
-- $x_i, y_i$: Observations
+- $x\_i, y\_i$: Observations
 - $\bar{x}, \bar{y}$: Observation means
 
 ### Spearman Correlation
 
-Non-parametric, rank-based method for **monotonic** relationships.  
+Non-parametric, rank-based method for **monotonic** relationships.
 
-$$\rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)}$$  
+$$\rho = 1 - \frac{6 \sum d\_i^2}{n(n^2 - 1)}$$
 
 Where:
 
-- $d_i$: Difference between ranks of $x_i$ and $y_i$
+- $d\_i$: Difference between ranks of $x\_i$ and $y\_i$
 - $n$: Number of observations
 
 ### Kensdall’s Tau
 
-Non-parametric method, suitable for **small samples or ordinal data**.  
+Non-parametric method, suitable for **small samples or ordinal data**.
 
-$$\tau = \frac{2}{n(n-1)} \sum_{i < j} \text{sgn}(x_i - x_j) \text{sgn}(y_i - y_j)$$  
+$$\tau = \frac{2}{n(n-1)} \sum\_{i < j} \text{sgn}(x\_i - x\_j) \text{sgn}(y\_i - y\_j)$$
 
-Where 
+Where
 
-- $\text{sgn}$ is the sign function  #TODO 
+- $\text{sgn}$ is the sign function  #TODO
 - $n$: Number of observations
 - $i, j$: index pairs
 
@@ -111,16 +108,16 @@ Where
 
 A correlation matrix and a covariance matrix are related but distinct.
 
-- Covariance Matrix:  
-	- Diagonals: **Variances** of variables ($s_{ii} = \text{Var}(X_i)$).  
-	- Off-diagonals: **Covariances** between variables ($s_{ij} = \text{Cov}(X_i, X_j)$).  
-	$$\mathbf{S} = \frac{1}{n-1} \mathbf{X}^\top \mathbf{X}$$
-	
-- Correlation Matrix:  
-	- Diagonals: **Always 1** (since a variable’s correlation with itself is 1).  
-	- Off-diagonals: **Pearson correlation** coefficients ($r_{ij} = \frac{\text{Cov}(X_i, X_j)}{\sqrt{\text{Var}(X_i) \text{Var}(X_j)}}$).  
-	$$\mathbf{R} = \text{diag}(\mathbf{S})^{-1/2} \mathbf{S} \text{diag}(\mathbf{S})^{-1/2}$$
-    where $\text{diag}(\mathbf{S})^{-1/2}$ is a diagonal matrix with entries $1/\sqrt{s_{ii}}$.
+- Covariance Matrix:
+  - Diagonals: **Variances** of variables ($s\_{ii} = \text{Var}(X\_i)$).
+  - Off-diagonals: **Covariances** between variables ($s\_{ij} = \text{Cov}(X\_i, X\_j)$).\
+    $$\mathbf{S} = \frac{1}{n-1} \mathbf{X}^\top \mathbf{X}$$
+
+- Correlation Matrix:
+  - Diagonals: **Always 1** (since a variable’s correlation with itself is 1).
+  - Off-diagonals: **Pearson correlation** coefficients ($r\_{ij} = \frac{\text{Cov}(X\_i, X\_j)}{\sqrt{\text{Var}(X\_i) \text{Var}(X\_j)}}$).\
+    $$\mathbf{R} = \text{diag}(\mathbf{S})^{-1/2} \mathbf{S} \text{diag}(\mathbf{S})^{-1/2}$$
+    where $\text{diag}(\mathbf{S})^{-1/2}$ is a diagonal matrix with entries $1/\sqrt{s\_{ii}}$.
 
 The correlation matrix standardizes the covariance matrix by dividing each covariance by the product of the standard deviations, resulting in dimensionless correlation coefficients (ranging from -1 to 1).
 

@@ -2,30 +2,28 @@
 publish: true
 aliases:
   - Scalar Multiples, Transposes, Sums, and Products of Partitioned Matrices
-created: 2026-02-22T19:23:58.410+07:00
-modified: 2026-02-22T19:23:58.410+07:00
-published: 2026-02-22T19:23:58.410+07:00
+created: 2026-03-25T15:22:40.590+07:00
+modified: 2026-03-25T15:22:40.590+07:00
+published: 2026-03-25T15:22:40.590+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-24 23:25
-status: baby
+status: in progress
 parent:
   - "[[matrices]]"
 ---
-
 
 ## Definition
 
 Let
 $$
 A=\begin{bmatrix}
-A_{11} & A_{12} & \dots & A_{1c} \\
-A_{21} & A_{22} & \dots & A_{2c} \\
+A\_{11} & A\_{12} & \dots & A\_{1c} \\
+A\_{21} & A\_{22} & \dots & A\_{2c} \\
 \vdots & \vdots & \ddots & \vdots \\
-A_{r1} & A_{r2} & \dots & A_{rc}
+A\_{r1} & A\_{r2} & \dots & A\_{rc}
 \end{bmatrix}
 $$
-represent a partitioned $m\times n$ matrix whose $ij$-th block $A_{ij}$ is of dimensions $m_{i}\times n_{j}$.
+represent a partitioned $m\times n$ matrix whose $ij$-th block $A\_{ij}$ is of dimensions $m\_{i}\times n\_{j}$.
 
 Then

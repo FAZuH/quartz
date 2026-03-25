@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2026-02-22T19:23:58.369+07:00
-modified: 2026-02-22T19:23:58.369+07:00
-published: 2026-02-22T19:23:58.369+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.640+07:00
+modified: 2026-03-25T15:22:40.640+07:00
+published: 2026-03-25T15:22:40.640+07:00
 creation-time: 2025-04-18 16:38
-status: adult
+status: complete
 tags:
 parent:
   - "[[3 Reference/structure/finance]]"
 ---
-
 
 You can use `--infer-market-prices` to infer from price of a currency from transactions made with `@@`.
 

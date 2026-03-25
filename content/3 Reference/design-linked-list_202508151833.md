@@ -2,19 +2,17 @@
 publish: true
 aliases:
   - Design Linked List
-created: 2026-02-22T19:23:58.420+07:00
-modified: 2026-02-22T19:23:58.420+07:00
-published: 2026-02-22T19:23:58.420+07:00
-cssclasses: ""
+created: 2026-03-25T15:22:40.623+07:00
+modified: 2026-03-25T15:22:40.623+07:00
+published: 2026-03-25T15:22:40.623+07:00
 creation-time: 2025-08-15 18:33
-status: baby
+status: in progress
 tags:
 parent:
   - "[[dsa-problems_202508172322|dsa problems]]"
 ---
 
 https://leetcode.com/problems/design-linked-list/
-
 
 ## Solution
 
@@ -115,4 +113,3 @@ class MyLinkedList(object):
         # ASSUMPTION: prev.next must not be None
         prev.next = prev.next.next
 ```
-

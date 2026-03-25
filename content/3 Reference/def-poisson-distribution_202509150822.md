@@ -2,35 +2,33 @@
 publish: true
 aliases:
   - Poisson Distribution
-created: 2026-02-22T19:23:58.403+07:00
-modified: 2026-02-22T19:23:58.403+07:00
-published: 2026-02-22T19:23:58.403+07:00
+created: 2026-03-25T15:22:40.591+07:00
+modified: 2026-03-25T15:22:40.591+07:00
+published: 2026-03-25T15:22:40.591+07:00
 tags:
   - 
-cssclasses: ""
 creation-time: 2025-09-15 08:22
-status: baby
+status: in progress
 parent:
   - "[[mathematical-statistics]]"
 ---
-
 
 ## Definition
 
 $X \sim \text{Poisson}(\lambda)$
 
-Models number of [[3 Reference/Def-events\|events]] occurring in fixed intervals of time/space when:
+Models number of [[Def-events|events]] occurring in fixed intervals of time/space when:
 
 - Events occur at <u>constant rate</u> $\lambda$
 - Events are independent of one another
-- [[3 Reference/Def-probability-mass-function-(pmf)\|pmf]]: $\dfrac{e^{-\lambda}\lambda^x}{x!}$, $x \in {0,1,2,\ldots}$, $\lambda > 0$
-- [[3 Reference/Def-mean\|mean]]: $\lambda$
-- [[3 Reference/Def-variance\|variance]]: $\lambda$
-- [[3 Reference/Def-moment-generating-function-(mgf)\|mgf]]: $e^{\lambda(e^t-1)}$
+- [[Def-probability-mass-function-(pmf)|pmf]]: $\dfrac{e^{-\lambda}\lambda^x}{x!}$, $x \in {0,1,2,\ldots}$, $\lambda > 0$
+- [[Def-mean|mean]]: $\lambda$
+- [[Def-variance|variance]]: $\lambda$
+- [[Def-moment-generating-function-(mgf)|mgf]]: $e^{\lambda(e^t-1)}$
 
 ## Notes
 
-When modeling count data, use [[3 Reference/def-negative-binomial-distribution_202509150822\|negative binomial distribution]] instead of [[3 Reference/def-poisson-distribution_202509150822\|poisson distribution]] to handle [[3 Reference/overdispersion_202509150835\|overdispersion]].
+When modeling count data, use [[def-negative-binomial-distribution_202509150822|negative binomial distribution]] instead of [[def-poisson-distribution_202509150822|poisson distribution]] to handle [[overdispersion_202509150835|overdispersion]].
 
 Count data refers to numerical data that represents the number of times an event occurs.
 
