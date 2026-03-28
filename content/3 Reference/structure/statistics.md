@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.653+07:00
-modified: 2026-03-24T21:18:54.392+07:00
-published: 2026-03-24T21:18:54.392+07:00
+modified: 2026-03-28T14:49:13.189+07:00
+published: 2026-03-28T14:49:13.189+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:48
@@ -24,3 +24,4 @@ PassFrontmatter: true
 - [[multivariate analysis|multivariate analysis]]
 - [[sampling methods|sampling methods]]
 - [[stochastic-model|stochastic model]]
+- [[survival-model|survival model]]
