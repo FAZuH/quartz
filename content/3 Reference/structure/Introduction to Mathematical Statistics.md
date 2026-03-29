@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-03-25T15:22:40.625+07:00
-modified: 2026-03-25T15:22:40.625+07:00
-published: 2026-03-25T15:22:40.625+07:00
+modified: 2026-03-29T19:27:49.919+07:00
+published: 2026-03-29T19:27:49.919+07:00
 creation-time: 2025-06-18 18:09
 status: in progress
 tags:
@@ -77,6 +77,9 @@ If you're looking for summaries, you may be interested in [[#Cheatsheets]] or [[
 - [[2.3-conditional-distributions-and-expectations_202507240552|2.3 Conditional Distributions and Expectations]]
   - _[[def-conditional-pmf_202507240606|Conditional pmf]]_
   - _[[def-conditional-pdf_202507240607|Conditional pdf]]_
+- [[2.5-the-correlation-coefficient_202603291924|2.5 The Correlation Coefficient]]
+  - _[[2.5-the-correlation-coefficient_202603291924#Definition Covariance|Covariance]]_
+  - _[[2.5-the-correlation-coefficient_202603291924#Definition Correlation Coefficient|Correlation Coefficient]]_
 - [[2.6-extension-to-several-random-variables_202507171031|2.6 Extension to Several Random Variables]]
   - _[[def-space_202507171031|Space]]_ #TODO
 

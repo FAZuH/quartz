@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Moving Average Process
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-29T17:33:47.075+07:00
-published: 2026-03-29T17:33:47.075+07:00
+modified: 2026-03-29T21:07:25.541+07:00
+published: 2026-03-29T21:07:25.541+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -34,7 +34,7 @@ E\[Y\_{t}] & = E\left\[ \frac{e\_{t}+e\_{t-1}}{2} \right] \\
 \end{align}
 $$
 
-For covariance,
+For [[autocovariance-and-autocorrelation_202603161400|covariance]],
 $$
 \begin{align}
 \text{Cov}(Y\_{t},Y\_{t-k}) & = \text{Cov}\left( \frac{e\_{t}+e\_{t-1}}{2}, \frac{e\_{t-k}+e\_{t-k-1}}{2}\right) \\

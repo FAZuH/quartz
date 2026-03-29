@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-03-29T17:37:17.496+07:00
-published: 2026-03-29T17:37:17.496+07:00
+modified: 2026-03-29T22:00:25.799+07:00
+published: 2026-03-29T22:00:25.799+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:32
@@ -45,46 +45,45 @@ PassFrontmatter: true
 
 ### Autoregressive (AR) Processes
 
-- _[[autoregressive-process_202603161400|Autoregressive (AR) Process]]_
-- _[[ar1-process-model_202603161400|AR(1) Process Model]]_
-  - **[[ar1-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(1)]]**
-  - **[[ar1-process-model_202603161400#Autocorrelation Function|Property: ACF of AR(1)]]**
-  - [[ar1-process-model_202603161400#Example: Explosive AR(1) Process|Example: Explosive AR(1) Process]]
-- _[[backshift-operator_202603161400|Backshift Operator (B)]]_
-- _[[ar-characteristic-equation_202603161400|AR Characteristic Equation]]_
 - _[[arp-process-model_202603161400|AR(p) Process Model]]_
   - **[[arp-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(p)]]**
   - **[[arp-process-model_202603161400#Yule-Walker Equations|Property: Yule-Walker Equations for AR(p)]]**
   - **[[arp-process-model_202603161400#Variance|Property: Variance of AR(p)]]**
+  - _[[ar1-process-model_202603161400|AR(1) Process Model]]_
+    - **[[ar1-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(1)]]**
+    - **[[ar1-process-model_202603161400#Autocorrelation Function|Property: ACF of AR(1)]]**
+    - [[ar1-process-model_202603161400#Example: Explosive AR(1) Process|Example: Explosive AR(1) Process]]
+  - _[[ar-characteristic-equation_202603161400|AR Characteristic Equation]]_
+- _[[backshift-operator_202603161400|Backshift Operator (B)]]_
 
 ### Moving Average (MA) Processes
 
 - _[[white-noise_202603161400|White Noise]]_
 - _[[moving-average-process_202603161400|Moving Average Process (Stochastic)]]_
-- _[[moving-average-process-maq_202603161400|Moving Average Process (MA(q))]]_
+- _[[moving-average-process-maq_202603161400|MA(q) Process Model]]_
   - **[[moving-average-process-maq_202603161400#Autocorrelation Function|Property: ACF of MA(q)]]**
-- _[[ma1-process-model_202603161400|MA(1) Process Model]]_
-  - **[[ma1-process-model_202603161400#Autocorrelation Bounds|Property: Bounds of MA(1) Autocorrelation]]**
-  - **[[ma1-process-model_202603161400#Model Non-Uniqueness|Property: Non-uniqueness of MA(1) Model]]**
-  - **[[ma1-process-model_202603161400#Invertibility Condition|Property: Invertibility Condition for MA(1)]]**
-- _[[ma2-process-model_202603161400|MA(2) Process Model]]_
+  - _[[ma1-process-model_202603161400|MA(1) Process Model]]_
+    - **[[ma1-process-model_202603161400#Autocorrelation Bounds|Property: Bounds of MA(1) Autocorrelation]]**
+    - **[[ma1-process-model_202603161400#Model Non-Uniqueness|Property: Non-uniqueness of MA(1) Model]]**
+    - **[[ma1-process-model_202603161400#Invertibility Condition|Property: Invertibility Condition for MA(1)]]**
+  - _[[ma2-process-model_202603161400|MA(2) Process Model]]_
 
 ### Mixed and Integrated Models (ARMA/ARIMA)
 
-- _[[armapq-process-model_202603161400|ARMA(p,q) Process Model]]_
-- _[[arma11-process-model_202603161400|ARMA(1,1) Process Model]]_
-  - **[[arma11-process-model_202603161400#Properties|Property: Variance and ACF of ARMA(1,1)]]**
 - [[rationale-for-non-stationary-models_202603161400|Rationale for Non-Stationary Models]]
+- _[[armapq-process-model_202603161400|ARMA(p,q) Process Model]]_
+  - _[[arma11-process-model_202603161400|ARMA(1,1) Process Model]]_
+    - **[[arma11-process-model_202603161400#Properties|Property: Variance and ACF of ARMA(1,1)]]**
 - _[[arima-pdq-model-definition_202603161400|ARIMA(p,d,q) Model]]_
   - [[arima-pdq-model-definition_202603161400#ARIMA(p,1,q)|ARIMA(p,1,q) Formulation]]
   - **[[arima-pdq-model-definition_202603161400#Property: Characteristic Polynomial of ARIMA(p,1,q)|Property: Characteristic Polynomial of ARIMA(p,1,q)]]**
   - [[arima-pdq-model-definition_202603161400#Constant Term|Constant Term in ARIMA]]
   - _[[arima-pdq-model-definition_202603161400#Integrated Moving Average (IMA)|IMA(d,q) Model]]_
+    - _[[arima-pdq-model-definition_202603161400#IMA(1,1)|IMA(1,1) Model]]_
+    - _[[arima-pdq-model-definition_202603161400#IMA(2,2)|IMA(2,2) Model]]_
   - _[[arima-pdq-model-definition_202603161400#Autoregressive Integrated (ARI)|ARI(p,d) Model]]_
-  - _[[arima-pdq-model-definition_202603161400#IMA(1,1)|IMA(1,1) Model]]_
-  - _[[arima-pdq-model-definition_202603161400#IMA(2,2)|IMA(2,2) Model]]_
-  - _[[arima-pdq-model-definition_202603161400#ARI(1,1)|ARI(1,1) Model]]_
-  - [[arima-pdq-model-definition_202603161400#Procedure: Determining Weights for ARI(1,1)|Procedure: Determining Weights for ARI(1,1)]]
+    - _[[arima-pdq-model-definition_202603161400#ARI(1,1)|ARI(1,1) Model]]_
+    - [[arima-pdq-model-definition_202603161400#Procedure: Determining Weights for ARI(1,1)|Procedure: Determining Weights for ARI(1,1)]]
 
 ## Smoothing Methods
 
@@ -118,3 +117,7 @@ PassFrontmatter: true
 ## Examples
 
 - [[economic-and-natural-time-series-examples_202603161400|Economic and Natural Time Series Examples]]
+
+## Cheatsheets
+
+- [[forecasting-methods-cheatsheet_202603292104|Forecasting Methods Cheatsheet]]

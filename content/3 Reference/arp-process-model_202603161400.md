@@ -2,9 +2,10 @@
 publish: true
 aliases:
   - AR(p) Process Model
+  - Autoregressive Process Process (AR(p))
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-29T17:33:47.073+07:00
-published: 2026-03-29T17:33:47.073+07:00
+modified: 2026-03-29T21:56:45.422+07:00
+published: 2026-03-29T21:56:45.422+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -12,9 +13,12 @@ parent: "[[forecasting methods]]"
 
 ## Definition
 
-The p-th order autoregressive process:
+A process where the current value is a linear combination of its own past [[lag-definition_202603161400|values]] plus a random shock.
 $$Z\_t = \phi\_1 Z\_{t-1} + \phi\_2 Z\_{t-2} + \dots + \phi\_p Z\_{t-p} + a\_t$$
-where ${a\_t}$ is white noise.
+where ${a\_t}$ is [[white-noise_202603161400|white noise]] independent of past $Z$ values.
+
+> [!tip]
+> $$ Z\_{t} = a\_{t} + \sum\_{i=1}^p \phi\_{i} a\_{t-i} $$
 
 ## Stationarity Condition
 
@@ -26,10 +30,10 @@ Necessary (but not sufficient) conditions:
 
 ## Yule-Walker Equations
 
-Linear equations that relate the parameters $\phi\_i$ of an AR(p) process to its autocorrelations $\rho\_k$:
+Linear equations that relate the parameters $\phi\_i$ of an AR(p) process to its [[autocovariance-and-autocorrelation_202603161400|autocorrelations]] $\rho\_k$:
 $$\rho\_k = \phi\_1 \rho\_{k-1} + \phi\_2 \rho\_{k-2} + \dots + \phi\_p \rho\_{k-p}$$
 for $k = 1, 2, \dots, p$.
-Solving these equations allows for estimating the parameters from the sample autocorrelations.
+Solving these equations allows for estimating the parameters from the [[sample-autocorrelation_202603161400|sample autocorrelations]].
 
 ## Variance
 

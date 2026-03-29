@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Common Expectation and Variance Operations
 created: 2026-03-25T15:22:40.615+07:00
-modified: 2026-03-25T15:22:40.615+07:00
-published: 2026-03-25T15:22:40.615+07:00
+modified: 2026-03-29T23:49:38.687+07:00
+published: 2026-03-29T23:49:38.687+07:00
 creation-time: 2025-07-22 08:54
 status: in progress
 tags:
@@ -17,7 +17,8 @@ parent:
 - $X, Y, Z, X\_i$: [[Def-random-variable|Random variables]]
 - $a, b, c, c\_i, a\_i$: Constants/scalars
 - $X \perp Y$: $X$ and $Y$ are [[Def-independent-events|independent]]
-- $\text{Cov}(X,Y)$: Covariance between $X$ and $Y$  #TODO: Create def note on covariance
+- $\text{Cov}(X,Y)$: [[2.5-the-correlation-coefficient_202603291924|Covariance]] between $X$ and $Y$
+- $\text{Corr}(X,Y)$: [[2.5-the-correlation-coefficient_202603291924|Correlation]] between $X$ and $Y$
 
 ## Basic Operations
 
@@ -41,10 +42,12 @@ E\[aX + bY] &= aE\[X] + bE\[Y] \ \\
 E\[XY]  & = E\[X]E\[Y] \ \\
 
 \text{Var}(X \pm Y) &= \text{Var}(X) + \text{Var}(Y) \pm 2\text{Cov}(X,Y)\\
-\text{Var}(X + Y) &= \text{Var}(X) + \text{Var}(Y) \quad \text{when } X \perp Y\\
 \text{Var}(aX + bY) &= a^2\text{Var}(X) + b^2\text{Var}(Y) + 2ab\text{Cov}(X,Y)\\
 \end{align}
 $$
+
+> [!tip]
+> Recall $\text{Cov}(X,Y)=0$ if $X \perp Y$
 
 ## Sum of Variables
 
@@ -61,8 +64,8 @@ $$
 
 $$
 \begin{align}
-\text{Var}(X) &= E\[X^2] - (E\[X])^2\\
-\text{Var}(X) &= E\[(X - E\[X])^2]\\
+\boxed{\text{Var}(X)} &= E\[X^2] - E\[X]^2\\
+&= E\[(X - E\[X])^2]\\
 \end{align}
 $$
 
@@ -70,13 +73,34 @@ $$
 
 $$
 \begin{align}
-\text{Cov}(X,Y) &= E\[(X - E\[X])(Y - E\[Y])] \\
-\text{Cov}(X,Y) &= E\[XY] - E\[X]E\[Y] \\
-\text{Cov}(X+Y, Z) & = \text{Cov}(X,Z) + \text{Cov}(Y,Z) \\
+\boxed{\text{Cov}(X,Y)} &= E\[(X - E\[X])(Y - E\[Y])] \\
+&= E\[XY] - E\[X]E\[Y]
+\end{align}
+$$
+
+$$
+\begin{align}
 \text{Cov}(X,X) &= \text{Var}(X) \\
-\text{Cov}(X,Y) &= 0 \quad \text{when } X \perp Y \\
+\text{Cov}(X,Y) &= \text{Cov}(Y,X) \\
+\text{Cov}(X,Y) &= 0 \quad \text{when } X \perp Y \ \\
+
+\text{Cov}(X+Y, Z) & = \text{Cov}(X,Z) + \text{Cov}(Y,Z) \\
 \text{Cov}(aX, bY) &= ab,\text{Cov}(X,Y) \\
 \text{Cov}(X+a, Y+b) &= \text{Cov}(X,Y) \\
-\text{Cov}(X,Y) &= \text{Cov}(Y,X)
+\end{align}
+$$
+
+## Correlation Coefficient
+
+$$
+\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}}
+$$
+
+**Properties**
+$$
+\begin{align}
+-1 \leq \text{Corr}(X,Y) &\leq 1 \\
+\text{Corr}(X,Y) &= 0 \quad \text{when } X \perp Y \\
+\text{Corr}(X,Y) &= \pm 1 \implies Y = a \pm bX \text{ (linear relationship)}
 \end{align}
 $$

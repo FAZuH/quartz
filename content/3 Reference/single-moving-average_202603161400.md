@@ -4,8 +4,8 @@ aliases:
   - Single Moving Average
   - SMA
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-29T17:33:47.075+07:00
-published: 2026-03-29T17:33:47.075+07:00
+modified: 2026-03-29T21:02:26.518+07:00
+published: 2026-03-29T21:02:26.518+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -21,4 +21,4 @@ F\_{t+1} &= S\_t
 $$
 
 > [!tip]
-> Average of the last $m$ data points. Suitable for stationary data patterns.
+> Average of the last $m$ data points. Suitable for [[weakly-stationary_202603161400|stationary]] data patterns.
