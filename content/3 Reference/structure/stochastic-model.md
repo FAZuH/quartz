@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Stochastic Model
-created: 2026-03-25T15:22:40.622+07:00
-modified: 2026-03-28T17:54:59.105+07:00
-published: 2026-03-28T17:54:59.105+07:00
+created: 2026-03-29T12:54:01.179+07:00
+modified: 2026-03-29T12:54:01.179+07:00
+published: 2026-03-29T12:54:01.179+07:00
 tags:
   - type/category
 creation-time: 2026-03-12 21:41

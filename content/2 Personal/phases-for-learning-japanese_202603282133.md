@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Phases for Learning Japanese
-created: 2026-03-28T21:33:32.634+07:00
-modified: 2026-03-28T21:36:49.986+07:00
-published: 2026-03-28T21:36:49.986+07:00
+created: 2026-03-29T12:54:01.341+07:00
+modified: 2026-03-29T14:18:13.954+07:00
+published: 2026-03-29T14:18:13.954+07:00
 tags:
   - 
 creation-time: 2026-03-28 21:33
@@ -34,8 +34,6 @@ parent:
 - Read **Tae Kim's Grammar Guide** or **Yokubi** — skim for mental map, not memorization
 - Understand: particles (は、が、を、に、で、の), verb conjugations (て-form, た-form, ます/ます forms), basic sentence structure (SOV)
 
----
-
 ## Phase 1 — Core Vocabulary + Early Immersion (3–6 months)
 
 **Kaishi 1.5k**
@@ -60,8 +58,6 @@ parent:
 
 - 100 kanji, ~800 vocabulary words
 - Take practice N5 tests when comfortable; take the actual exam optionally
-
----
 
 ## Phase 2 — Intermediate Immersion + Mining (6–18 months)
 
@@ -90,8 +86,6 @@ parent:
 - N4: 300 kanji, 1,500 vocab → take exam
 - N3: 650 kanji, 3,750 vocab → take exam
 - Use **Nihongo So-Matome** workbooks or **TRY! JLPT** series for exam-specific practice in final 4–8 weeks before each exam
-
----
 
 ## Phase 3 — Upper Intermediate (18 months – 3 years)
 
@@ -122,8 +116,6 @@ parent:
 - Practice exams monthly in final 2 months
 - Pass N2 — this is the professional benchmark
 
----
-
 ## Phase 4 — Advanced / N1 (3–5+ years total)
 
 **Vocabulary**
@@ -152,8 +144,6 @@ parent:
 - Focus weak areas: N1 reading is time-heavy, practice pacing
 - N1 listening: practice on lectures, formal debates at natural speed
 - Pass N1 (~30% pass rate)
-
----
 
 ## Kanji count checkpoints
 

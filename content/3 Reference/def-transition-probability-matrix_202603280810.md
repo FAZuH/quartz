@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Transition Probability Matrix
-created: 2026-03-28T17:47:24.551+07:00
-modified: 2026-03-28T17:47:24.552+07:00
-published: 2026-03-28T17:47:24.552+07:00
+created: 2026-03-29T12:54:01.178+07:00
+modified: 2026-03-29T12:54:01.178+07:00
+published: 2026-03-29T12:54:01.178+07:00
 creation-time: 2026-03-28 08:10
 status: in progress
 parent:

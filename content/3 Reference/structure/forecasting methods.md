@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-03-16T13:35:56.900+07:00
-published: 2026-03-16T13:35:56.900+07:00
+modified: 2026-03-29T17:37:17.496+07:00
+published: 2026-03-29T17:37:17.496+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:32
@@ -17,7 +17,7 @@ PassFrontmatter: true
 - **Bold**: Property / Theorem
 - Standard: Procedure / Example / Cheatsheet
 
-## Fundamentals
+## Basics
 
 - _[[cross-section-data_202603161400|Cross-section Data]]_
 - _[[time-series-data_202603161400|Time Series Data]]_

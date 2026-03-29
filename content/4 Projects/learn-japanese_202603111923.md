@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Learn Japanese
-created: 2026-03-25T15:22:40.584+07:00
-modified: 2026-03-28T21:41:40.844+07:00
-published: 2026-03-28T21:41:40.844+07:00
+created: 2026-03-29T12:54:01.341+07:00
+modified: 2026-03-29T12:54:01.341+07:00
+published: 2026-03-29T12:54:01.341+07:00
 tags:
   - 
 creation-time: 2026-03-11 19:23

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - State vs Sample
-created: 2026-03-28T16:46:56.589+07:00
-modified: 2026-03-28T16:46:56.590+07:00
-published: 2026-03-28T16:46:56.590+07:00
+created: 2026-03-29T12:54:01.177+07:00
+modified: 2026-03-29T12:54:01.177+07:00
+published: 2026-03-29T12:54:01.177+07:00
 creation-time: 2026-03-28 08:02
 status: in progress
 parent:

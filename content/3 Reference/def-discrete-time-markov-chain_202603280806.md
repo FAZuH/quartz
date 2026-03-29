@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Discrete-time Markov Chain
-created: 2026-03-28T17:45:14.351+07:00
-modified: 2026-03-28T17:45:14.352+07:00
-published: 2026-03-28T17:45:14.352+07:00
+created: 2026-03-29T12:54:01.177+07:00
+modified: 2026-03-29T12:54:01.177+07:00
+published: 2026-03-29T12:54:01.177+07:00
 creation-time: 2026-03-28 08:06
 status: in progress
 parent:

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Kosoado (Demonstratives)
-created: 2026-03-28T21:37:48.815+07:00
-modified: 2026-03-29T12:28:26.995+07:00
-published: 2026-03-29T12:28:26.995+07:00
+created: 2026-03-29T12:54:01.801+07:00
+modified: 2026-03-29T12:54:01.801+07:00
+published: 2026-03-29T12:54:01.801+07:00
 tags:
   - 
 creation-time: 2026-03-28 21:37

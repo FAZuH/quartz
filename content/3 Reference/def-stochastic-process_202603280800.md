@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Stochastic Process
-created: 2026-03-28T16:46:56.586+07:00
-modified: 2026-03-28T16:46:56.588+07:00
-published: 2026-03-28T16:46:56.588+07:00
+created: 2026-03-29T12:54:01.178+07:00
+modified: 2026-03-29T12:54:01.178+07:00
+published: 2026-03-29T12:54:01.178+07:00
 creation-time: 2026-03-28 08:00
 status: in progress
 parent:
