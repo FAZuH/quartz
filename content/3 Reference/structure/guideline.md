@@ -14,4 +14,3 @@ parent:
 
 - ## Notes
 - [[3 Reference/development-sprint-initial-release_202510121511.md|Development Sprint: Initial Release]]
-- [[3 Reference/study-procedure_202603131105.md|Study Procedure]]
