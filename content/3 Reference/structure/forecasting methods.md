@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-03-29T22:00:25.799+07:00
-published: 2026-03-29T22:00:25.799+07:00
+modified: 2026-03-30T09:31:24.693+07:00
+published: 2026-03-30T09:31:24.693+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:32
@@ -36,7 +36,6 @@ PassFrontmatter: true
   - **[[strictly-stationary_202603161400#Relationship with Weak Stationarity|Theorem: Strict Stationary implies Weakly Stationary]]**
 - _[[sample-autocorrelation_202603161400|Sample Autocorrelation (ACF)]]_
 - [[correlogram_202603161400|Correlogram]]
-- _[[random-walk_202603161400|Random Walk]]_
 
 ## Parametric Models
 
@@ -54,6 +53,7 @@ PassFrontmatter: true
     - **[[ar1-process-model_202603161400#Autocorrelation Function|Property: ACF of AR(1)]]**
     - [[ar1-process-model_202603161400#Example: Explosive AR(1) Process|Example: Explosive AR(1) Process]]
   - _[[ar-characteristic-equation_202603161400|AR Characteristic Equation]]_
+- _[[random-walk_202603161400|Random Walk]]_
 - _[[backshift-operator_202603161400|Backshift Operator (B)]]_
 
 ### Moving Average (MA) Processes
@@ -117,6 +117,25 @@ PassFrontmatter: true
 ## Examples
 
 - [[economic-and-natural-time-series-examples_202603161400|Economic and Natural Time Series Examples]]
+
+## Stationarity Tests
+
+- [[procedure-visual-stationarity-test_202603300225|Procedure: Visual Stationarity Test]]
+- _[[bartlett's-test-for-acf_202603300222|Bartlett's Test for ACF]]_
+- _[[box-pierce-test_202603300222|Box-Pierce Test]]_
+- _[[ljung-box-test_202603300222|Ljung-Box Test]]_
+- [[about-box-pierce-vs-ljung-box-comparison_202603300226|Box-Pierce vs Ljung-Box Comparison]]
+- _[[dickey-fuller-test_202603300223|Dickey-Fuller Test]]_
+- _[[augmented-dickey-fuller-test_202603300223|Augmented Dickey-Fuller Test]]_
+- [[procedure-adf-test-variants_202603300225|Procedure: ADF Test Variants]]
+
+## Model Specification
+
+- _[[partial-autocorrelation-(pacf)_202603300223|Partial Autocorrelation (PACF)]]_
+- [[procedure-model-identification-via-acf-pacf_202603300227|Procedure: Model Identification via ACF/PACF]]
+- _[[extended-autocorrelation-function-(eacf)_202603300224|Extended Autocorrelation Function (EACF)]]_
+- _[[aic-criterion_202603300224|AIC Criterion]]_
+- _[[bic-criterion_202603300224|BIC Criterion]]_
 
 ## Cheatsheets
 

@@ -4,8 +4,8 @@ aliases:
   - Double Moving Average
   - DMA
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-29T21:05:05.416+07:00
-published: 2026-03-29T21:05:05.416+07:00
+modified: 2026-03-30T09:23:41.294+07:00
+published: 2026-03-30T09:23:41.294+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -22,6 +22,15 @@ A\_t &= 2S\_{1,t} - S\_{2,t} \\
 B\_t &= \frac{2}{m-1}(S\_{1,t} - S\_{2,t})
 \end{aligned}
 $$
+Where:
+
+- $S\_{1,t}$ : first-order <u>[[single-moving-average_202603161400|SMA]] of $X$</u> at time $t$
+- $S\_{2,t}$ : second-order SMA (<u>SMA of $S\_{1,t}$</u>) at time $t$
+- $F\_{t+h}$ : <u>forecast</u> $h$ steps ahead from time $t$
+- $A\_t$ : level estimate at time $t$
+- $B\_t$ : trend (slope) estimate at time $t$
+- $m$ : <u>window</u> size
+- $h$ : forecast horizon (<u>steps ahead</u>)
 
 ```python
 from dataclasses import dataclass

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Weakly Stationary
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-30T01:04:36.113+07:00
-published: 2026-03-30T01:04:36.113+07:00
+modified: 2026-03-30T03:44:47.376+07:00
+published: 2026-03-30T03:44:47.376+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -21,6 +21,14 @@ If it satisfies two conditions:
 1. $E\[Y\_t] = \mu$   (constant [[Def-mean|mean]])
 2. $\operatorname{Cov}(Y\_t, Y\_{t-k}) = \gamma\_k$    ([[2.5-the-correlation-coefficient_202603291924|covariance]] independent of $t$)
 
+## Weakly Stationary Process has Constant Variance
+
+${ Y\_{t} }$ is **weakly stationary**, then $\gamma\_{0} = \text{Cov}(Y\_{t},Y\_{t-0}) = \text{Var}(Y\_{t})$ is constant, independent of $t$.
+
 ## Relationship with Strict Stationarity
 
 ![[strictly-stationary_202603161400#Relationship with Weak Stationarity]]
+
+## Illustration
+
+![[assets/weakly-stationary_202603161400-1774817087203.webp]]

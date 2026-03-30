@@ -3,8 +3,8 @@ publish: true
 aliases:
   - ARMA(p,q) Process Model
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-29T21:58:33.439+07:00
-published: 2026-03-29T21:58:33.439+07:00
+modified: 2026-03-30T09:01:05.917+07:00
+published: 2026-03-30T09:01:05.917+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -18,3 +18,10 @@ where ${a\_t}$ is [[white-noise_202603161400|white noise]]. It provides a parsim
 
 > [!tip]
 > $$ Z\_{t} = a\_{t} + \sum\_{i=1}^p \phi\_{i}Z\_{t-i} - \sum\_{i=1}^q\theta\_{i}a\_{t-1} $$
+
+## Properties
+
+| Property        | Expression                                                                                                                                                                                                  |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Autocovariance  | <br>$$ \gamma\_{k} = \begin{cases}  \dfrac{1-2\theta \phi+\theta^{2}}{1-\phi^{2}}\sigma^{2}_{e}, & k=0  \ \phi \gamma_{0} - \theta \sigma^{2}_{e}, & k=1 \ \phi \gamma_{k-1}, & k\geq 2 \end{cases} $$<br> |
+| Autocorrelation | $$\rho\_k = \frac{(1 - \phi \theta)(\phi - \theta)}{1 - 2 \theta \phi + \theta^2} \phi^{k-1}, \quad k \geq 1$$                                                                                               |

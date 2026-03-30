@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Forecasting Methods Cheatsheet
 created: 2026-03-29T21:04:46.757+07:00
-modified: 2026-03-30T01:17:39.086+07:00
-published: 2026-03-30T01:17:39.086+07:00
+modified: 2026-03-30T02:11:54.565+07:00
+published: 2026-03-30T02:11:54.565+07:00
 creation-time: 2026-03-29 21:04
 status: in progress
 tags:
@@ -91,7 +91,9 @@ $$Z\_t = \phi\_1 Z\_{t-1} + \phi\_2 Z\_{t-2} + \dots + \phi\_p Z\_{t-p} + a\_t$$
 | **Yule-Walker** | $\rho\_k = \phi\_1 \rho\_{k-1} + \dots + \phi\_p \rho\_{k-p}$ for $k = 1, \dots, p$ |
 | **Variance** | $\gamma\_0 = \frac{\sigma\_a^2}{1 - \phi\_1\rho\_1 - \dots - \phi\_p\rho\_p}$ |
 
-### Backshift Operator
+### Backshift Oper
+
+ator
 
 $$B Z\_t = Z\_{t-1} \qquad B^k Z\_t = Z\_{t-k}$$
 
@@ -206,13 +208,13 @@ $$F\_{t+h} = (S\_t + hT\_t) \cdot M\_{t-p+h}$$
 
 ## Accuracy Measures
 
-| Measure | Formula |
-|---------|---------|
-| **MAD/MAE** | $\frac{1}{n}\sum|X\_t - \hat{X}\_t|$ |
-| **MSE/MSD** | $\frac{1}{n}\sum(X\_t - \hat{X}\_t)^2$ |
-| **RMSE** | $\sqrt{\text{MSE}}$ |
-| **MAPE** | $\frac{1}{n}\sum\left|\frac{X\_t - \hat{X}\_t}{X\_t}\right| \times 100%$ |
-| **MPE** | $\frac{1}{n}\sum\frac{X\_t - \hat{X}\_t}{X\_t} \times 100%$ (measures bias) |
+| Measure     | Formula                                                                   |
+| ----------- | ------------------------------------------------------------------------- |
+| **MAD/MAE** | $\frac{1}{n}\sum \lvert X\_t - \hat{X}\_t \rvert$                           |
+| **MSE/MSD** | $\frac{1}{n}\sum(X\_t - \hat{X}\_t)^2$                                      |
+| **RMSE**    | $\sqrt{\text{MSE}}$                                                       |
+| **MAPE**    | $\frac{1}{n}\sum\lvert \frac{X\_t - \hat{X}\_t}{X\_t} \rvert \times 100%$   |
+| **MPE**     | $\frac{1}{n}\sum\frac{X\_t - \hat{X}\_t}{X\_t} \times 100%$ (measures bias) |
 
 ## Stationarity Testing
 
@@ -224,7 +226,7 @@ $$r\_k = \frac{\sum\_{t=k+1}^n (z\_t - \bar{z})(z\_{t-k} - \bar{z})}{\sum\_{t=1}
 
 | Test | Statistic | Purpose |
 |------|-----------|---------|
-| **Bartlett** | $|r\_k| > \frac{1.96}{\sqrt{n}}$ | Individual ACF significance |
+| **Bartlett** | $\lvert r\_k\rvert > \frac{1.96}{\sqrt{n}}$ | Individual ACF significance |
 | **Box-Pierce** | $Q = T\sum\_{k=1}^m r\_k^2 \sim \chi^2\_m$ | All ACF jointly zero |
 | **Ljung-Box** | $LB = n(n+2)\sum r\_k^2/(n-k)$ | Box-Pierce improved for small $n$ |
 | **ADF** | $\tau = \frac{\hat{\pi}}{\text{se}(\hat{\pi})}$ | Unit root test |

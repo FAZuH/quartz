@@ -4,8 +4,8 @@ aliases:
   - AR(p) Process Model
   - Autoregressive Process Process (AR(p))
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-29T21:56:45.422+07:00
-published: 2026-03-29T21:56:45.422+07:00
+modified: 2026-03-30T10:01:11.169+07:00
+published: 2026-03-30T10:01:11.169+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -22,7 +22,8 @@ where ${a\_t}$ is [[white-noise_202603161400|white noise]] independent of past $
 
 ## Stationarity Condition
 
-An AR(p) process is stationary if all roots of its [[ar-characteristic-equation_202603161400|characteristic polynomial]] $1 - \phi\_1 x - \dots - \phi\_p x^p = 0$ lie outside the unit circle ($|x| > 1$).
+An AR(p) process is [[weakly-stationary_202603161400|weakly stationary]] if all roots of its [[ar-characteristic-equation_202603161400|characteristic polynomial]] $1 - \phi\_1 x - \dots - \phi\_p x^p = 0$ lie outside the unit circle ($|x| > 1$).
+
 Necessary (but not sufficient) conditions:
 
 - $\phi\_1 + \dots + \phi\_p < 1$
@@ -35,8 +36,19 @@ $$\rho\_k = \phi\_1 \rho\_{k-1} + \phi\_2 \rho\_{k-2} + \dots + \phi\_p \rho\_{k
 for $k = 1, 2, \dots, p$.
 Solving these equations allows for estimating the parameters from the [[sample-autocorrelation_202603161400|sample autocorrelations]].
 
+## Characteristic Equation
+
+![[ar-characteristic-equation_202603161400|Characteristic Equation]]
+
 ## Variance
 
 The variance $\gamma\_0$ of a stationary AR(p) process is:
 $$\gamma\_0 = \frac{\sigma\_a^2}{1 - \phi\_1 \rho\_1 - \phi\_2 \rho\_2 - \dots - \phi\_p \rho\_p}$$
 where $\sigma\_a^2$ is the variance of the white noise shocks.
+
+## Properties
+
+| Property              | Expression                                                                                      |
+| --------------------- | ----------------------------------------------------------------------------------------------- |
+| Autocorrelation (ACF) | $\rho\_k = \textcolor{#FFD700}{\phi\_1 \rho\_{k-1} + \dots + \phi\_p \rho\_{k-p}}, \quad k \geq 1$   |
+| Variance ($\gamma\_0$) | $\gamma\_0 = \dfrac{\sigma\_e^2}{\textcolor{#70CFFF}{1 - \phi\_1 \rho\_1 - \dots - \phi\_p \rho\_p}}$ |
