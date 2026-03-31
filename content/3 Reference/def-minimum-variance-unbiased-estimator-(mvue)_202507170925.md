@@ -2,12 +2,11 @@
 publish: true
 aliases:
   - Minimum Variance Unbiased Estimator (MVUE)
-  - Minimum Variance Unbiased Estimator (MVUE)
   - MVUE
   - UMVE
 created: 2026-03-25T15:22:40.618+07:00
-modified: 2026-03-25T15:22:40.618+07:00
-published: 2026-03-25T15:22:40.618+07:00
+modified: 2026-03-31T09:13:48.120+07:00
+published: 2026-03-31T09:13:48.120+07:00
 creation-time: 2025-07-17 09:25
 status: in progress
 tags:

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Complete Family of pdf/pmf
 created: 2026-03-25T15:22:40.624+07:00
-modified: 2026-03-25T15:22:40.624+07:00
-published: 2026-03-25T15:22:40.624+07:00
+modified: 2026-03-31T09:27:31.469+07:00
+published: 2026-03-31T09:27:31.469+07:00
 creation-time: 2025-07-17 09:33
 status: in progress
 tag:
@@ -26,7 +26,7 @@ Then the family $h(z;\theta) : \theta\in \Omega$ is called a **complete family**
 
 In short, If $E\[u(Z)] = 0$ for all $\theta$ implies $u(Z) = 0$ ([[def-almost-surely|almost surely]]), then the family is complete.
 
-"Almost surely" means "with probability 1" or equivalently "except possibly on a set of probability zero."
+"Almost surely" means "with probability 1" or equivalently "except possibly on a set of probability zero (impossible to happen)."
 
 The if statement can be reworded as _"If the condition $E\[u(Z)]=0$ for every $\theta\in \Omega$ requries $u(z)=0$, except on a set of points that has probability zero for each $h(z;\theta)$, $\theta\in \Omega$"_
 

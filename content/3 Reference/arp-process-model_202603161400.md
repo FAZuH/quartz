@@ -4,8 +4,8 @@ aliases:
   - AR(p) Process Model
   - Autoregressive Process Process (AR(p))
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-30T10:01:11.169+07:00
-published: 2026-03-30T10:01:11.169+07:00
+modified: 2026-03-30T14:28:55.427+07:00
+published: 2026-03-30T14:28:55.427+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -38,7 +38,7 @@ Solving these equations allows for estimating the parameters from the [[sample-a
 
 ## Characteristic Equation
 
-![[ar-characteristic-equation_202603161400|Characteristic Equation]]
+![[ar-characteristic-equation_202603161400#Definition|AR Characteristic Equation]]
 
 ## Variance
 

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-03-30T09:31:24.693+07:00
-published: 2026-03-30T09:31:24.693+07:00
+modified: 2026-03-30T12:32:25.824+07:00
+published: 2026-03-30T12:32:25.824+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:32
@@ -59,7 +59,6 @@ PassFrontmatter: true
 ### Moving Average (MA) Processes
 
 - _[[white-noise_202603161400|White Noise]]_
-- _[[moving-average-process_202603161400|Moving Average Process (Stochastic)]]_
 - _[[moving-average-process-maq_202603161400|MA(q) Process Model]]_
   - **[[moving-average-process-maq_202603161400#Autocorrelation Function|Property: ACF of MA(q)]]**
   - _[[ma1-process-model_202603161400|MA(1) Process Model]]_
@@ -90,6 +89,7 @@ PassFrontmatter: true
 - [[smoothing-methods_202603161400|Smoothing Methods Overview]]
 - [[naive-method_202603161400|Naive Method]]
 - [[averaging-method_202603161400|Averaging Method]]
+- _[[moving-average-process_202603161400|Moving Average Process (Stochastic)]]_
 - [[single-moving-average_202603161400|Single Moving Average (SMA)]]
 - [[double-moving-average_202603161400|Double Moving Average (DMA)]]
 - [[single-exponential-smoothing_202603161400|Single Exponential Smoothing (SES)]]

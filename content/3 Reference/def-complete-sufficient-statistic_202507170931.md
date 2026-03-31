@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Complete Sufficient Statistic
 created: 2026-03-25T15:22:40.598+07:00
-modified: 2026-03-25T15:22:40.598+07:00
-published: 2026-03-25T15:22:40.598+07:00
+modified: 2026-03-31T10:31:04.027+07:00
+published: 2026-03-31T10:31:04.027+07:00
 creation-time: 2025-07-17 09:31
 status: in progress
 tag:
@@ -17,7 +17,7 @@ Let $X\_{1},\dots,X\_{n}$ : [[mathstat4.1#Definition 4.1.1 Random sample|Random 
 
 If
 
-- $Y\_{1}=u\_{1}(X\_{1},\dots,X\_{n})$ : [[mathstat7.2#Definition 7.2.1 Sufficient statistic|Sufficient statistic]] for $\theta$
+- $Y\_{1}=u\_{1}(X\_{1},\dots,X\_{n})$ : [[mathstat7.2#Definition 7.2.1 Sufficient statistic|Sufficient statistic]] for $\theta$ with pdf/pmf $f\_{Y\_{1}}(y\_{1};\theta)$
 - Family ${ f\_{Y\_{1}}(y\_{1};\theta): \theta\in \Omega }$ be [[def-complete-family-of-pdf-pmf_202507170933|complete]]
 
 Then $Y\_{1}$ is a **complete sufficient statistic** for $\theta$

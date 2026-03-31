@@ -6,8 +6,8 @@ aliases:
   - UMVUE
   - UUMVE
 created: 2026-03-25T15:22:40.618+07:00
-modified: 2026-03-25T15:22:40.618+07:00
-published: 2026-03-25T15:22:40.618+07:00
+modified: 2026-03-31T09:29:09.932+07:00
+published: 2026-03-31T09:29:09.932+07:00
 creation-time: 2025-07-17 09:37
 status: in progress
 tags:
@@ -23,11 +23,17 @@ Let
   - [[Def-probability-density-function-(pdf)|pdf]]/[[Def-probability-mass-function-(pmf)|pmf]] $f(x;\theta)$, $\theta\in \Omega$
 - $Y\_{1}=u\_{1}(X\_{1},\dots,X\_{n})$ : [[def-complete-sufficient-statistic_202507170931|Complete sufficient statistic]] for $\theta$
 
-If $\phi(Y\_{1})$ is an [[mathstat4.1#Definition 4.1.3 Unbiased estimator|unbiased estimator]] of $\theta$
+If $\varphi(Y\_{1})$ is an [[mathstat4.1#Definition 4.1.3 Unbiased estimator|unbiased estimator]] of $\theta$
 
-Then $\phi(Y\_{1})$ is the **unique [[def-minimum-variance-unbiased-estimator-(mvue)_202507170925|MVUE]]** (UMVUE) of $\theta$
+Then $\varphi(Y\_{1})$ is the **unique [[def-minimum-variance-unbiased-estimator-(mvue)_202507170925|MVUE]]** (UMVUE) of $\theta$
 
-![[assets/Pasted image 20250721081812.png]]
+## Proof
+
+By [[mathstat7.3#Theorem 7.3.1 Rao-Blackwell|Rao-Blackwell theorem]], if $Y\_{2}$ is any unbiased estimate of $\theta$, then $E\[Y\_{2}|Y\_{1}]$ is an unbiased estimate of $\theta$ with $\text{Var}(\[E(Y\_{2}|Y\_{1})]) \leq \text{Var}(Y\_{2})$.
+
+But $E\[Y\_{2}|Y\_{1}]$ is a function of $Y\_{1}$, so by [[def-complete-family-of-pdf-pmf_202507170933|completeness]] it must concide with $\varphi(Y\_{1})$.
+
+Thus regardless of the particular value of $\theta$, $\text{Var}_{\theta}\[\varphi(Y_{1})]\leq \text{Var}_{\theta}(Y_{2})$.
 
 ## Remark
 

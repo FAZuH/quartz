@@ -4,8 +4,8 @@ aliases:
   - MA(q) Process Model
   - Moving Average Process (MA(q))
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-30T10:01:00.958+07:00
-published: 2026-03-30T10:01:00.958+07:00
+modified: 2026-03-30T12:54:26.603+07:00
+published: 2026-03-30T12:54:26.603+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -38,7 +38,6 @@ $$\rho\_k = \frac{-\theta\_k + \theta\_1 \theta\_{k+1} + \dots + \theta\_{q-k} \
 
 | Property              | Expression                                                                                                                                                                                                                                                                                                                                        |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Model Equation        | $Y\_t = e\_t - \textcolor{#FF7070}{\theta\_1 e\_{t-1} - \theta\_2 e\_{t-2} - \dots - \theta\_q e\_{t-q}}, \quad e\_t \sim WN(0, \sigma\_e^2)$                                                                                                                                                                                                               |
 | Mean                  | $E(Y\_t) = 0$                                                                                                                                                                                                                                                                                                                                      |
 | Variance              | $\text{Var}(Y\_t) = \gamma\_0 = \textcolor{#70CFFF}{(1 + \theta\_1^2 + \theta\_2^2 + \dots + \theta\_q^2)}\sigma\_e^2$                                                                                                                                                                                                                                  |
 | Autocovariance        | $\text{Cov}(Y\_t, Y\_{t-k}) = \gamma\_k = \begin{cases} \textcolor{#FFD700}{-\theta\_k + \theta\_1\theta\_{k+1} + \theta\_2\theta\_{k+2} + \dots + \theta\_{q-k}\theta\_q}, & \text{for } k = 1, 2, \dots, q \ 0, & \text{for } k > q \end{cases}$                                                                                                         |
