@@ -4,8 +4,8 @@ aliases:
   - Double Moving Average
   - DMA
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-30T09:23:41.294+07:00
-published: 2026-03-30T09:23:41.294+07:00
+modified: 2026-03-31T16:02:11.845+07:00
+published: 2026-03-31T16:02:11.845+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -14,14 +14,16 @@ parent: "[[forecasting methods]]"
 ## Formula
 
 $$
-\begin{aligned}
+\begin{align}
 S\_{1,t} &= \text{SMA of } X \\
 S\_{2,t} &= \text{SMA of } S\_1 \\
-F\_{t+h} &= A\_t + hB\_t \\
 A\_t &= 2S\_{1,t} - S\_{2,t} \\
-B\_t &= \frac{2}{m-1}(S\_{1,t} - S\_{2,t})
-\end{aligned}
+B\_t &= \frac{2}{m-1}(S\_{1,t} - S\_{2,t}) \ \\
+
+F\_{t+h} &= A\_t + hB\_t \\
+\end{align}
 $$
+
 Where:
 
 - $S\_{1,t}$ : first-order <u>[[single-moving-average_202603161400|SMA]] of $X$</u> at time $t$

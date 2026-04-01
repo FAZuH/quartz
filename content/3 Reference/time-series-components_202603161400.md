@@ -3,12 +3,17 @@ publish: true
 aliases:
   - Time Series Components
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-29T17:33:47.075+07:00
-published: 2026-03-29T17:33:47.075+07:00
+modified: 2026-03-31T15:15:01.557+07:00
+published: 2026-03-31T15:15:01.557+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
 ---
+
+- **Trend**: Long-term <u>direction</u>
+- **Seasonal**: Predictable patterns with <u>fixed period</u>
+- **Cyclical**: Long-term waves with <u>no fixed period</u>
+- **Irregular**: <u>Unpredictable</u> random deviations
 
 ## About
 

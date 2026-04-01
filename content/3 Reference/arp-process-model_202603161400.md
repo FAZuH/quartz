@@ -4,8 +4,8 @@ aliases:
   - AR(p) Process Model
   - Autoregressive Process Process (AR(p))
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-30T14:28:55.427+07:00
-published: 2026-03-30T14:28:55.427+07:00
+modified: 2026-03-31T22:19:03.162+07:00
+published: 2026-03-31T22:19:03.162+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -48,7 +48,7 @@ where $\sigma\_a^2$ is the variance of the white noise shocks.
 
 ## Properties
 
-| Property              | Expression                                                                                      |
-| --------------------- | ----------------------------------------------------------------------------------------------- |
-| Autocorrelation (ACF) | $\rho\_k = \textcolor{#FFD700}{\phi\_1 \rho\_{k-1} + \dots + \phi\_p \rho\_{k-p}}, \quad k \geq 1$   |
-| Variance ($\gamma\_0$) | $\gamma\_0 = \dfrac{\sigma\_e^2}{\textcolor{#70CFFF}{1 - \phi\_1 \rho\_1 - \dots - \phi\_p \rho\_p}}$ |
+| Property              | Expression                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------ |
+| Variance ($\gamma\_0$) | $\dfrac{\sigma\_e^2}{\textcolor{#70CFFF}{1 - \phi\_1 \rho\_1 - \dots - \phi\_p \rho\_p}}$ |
+| Autocorrelation (ACF) | $\textcolor{#FFD700}{\phi\_1 \rho\_{k-1} + \dots + \phi\_p \rho\_{k-p}}, \quad k \geq 1$ |

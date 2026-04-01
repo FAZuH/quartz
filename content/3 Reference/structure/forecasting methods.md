@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-03-30T12:32:25.824+07:00
-published: 2026-03-30T12:32:25.824+07:00
+modified: 2026-03-31T22:07:27.643+07:00
+published: 2026-03-31T22:07:27.643+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:32
@@ -16,6 +16,10 @@ PassFrontmatter: true
 - _italic_: Definition / About
 - **Bold**: Property / Theorem
 - Standard: Procedure / Example / Cheatsheet
+
+## Cheatsheets
+
+- [[forecasting-methods-cheatsheet_202603292104|Forecasting Methods Cheatsheet]]
 
 ## Basics
 
@@ -59,8 +63,10 @@ PassFrontmatter: true
 ### Moving Average (MA) Processes
 
 - _[[white-noise_202603161400|White Noise]]_
+
+- _[[invertible-ma(q)-process_202603311948|Invertible MA(q) Process]]_
+
 - _[[moving-average-process-maq_202603161400|MA(q) Process Model]]_
-  - **[[moving-average-process-maq_202603161400#Autocorrelation Function|Property: ACF of MA(q)]]**
   - _[[ma1-process-model_202603161400|MA(1) Process Model]]_
     - **[[ma1-process-model_202603161400#Autocorrelation Bounds|Property: Bounds of MA(1) Autocorrelation]]**
     - **[[ma1-process-model_202603161400#Model Non-Uniqueness|Property: Non-uniqueness of MA(1) Model]]**
@@ -127,7 +133,6 @@ PassFrontmatter: true
 - [[about-box-pierce-vs-ljung-box-comparison_202603300226|Box-Pierce vs Ljung-Box Comparison]]
 - _[[dickey-fuller-test_202603300223|Dickey-Fuller Test]]_
 - _[[augmented-dickey-fuller-test_202603300223|Augmented Dickey-Fuller Test]]_
-- [[procedure-adf-test-variants_202603300225|Procedure: ADF Test Variants]]
 
 ## Model Specification
 
@@ -136,7 +141,3 @@ PassFrontmatter: true
 - _[[extended-autocorrelation-function-(eacf)_202603300224|Extended Autocorrelation Function (EACF)]]_
 - _[[aic-criterion_202603300224|AIC Criterion]]_
 - _[[bic-criterion_202603300224|BIC Criterion]]_
-
-## Cheatsheets
-
-- [[forecasting-methods-cheatsheet_202603292104|Forecasting Methods Cheatsheet]]

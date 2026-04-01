@@ -3,8 +3,8 @@ publish: true
 aliases:
   - MA(1) Process Model
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-30T01:50:04.259+07:00
-published: 2026-03-30T01:50:04.259+07:00
+modified: 2026-03-31T19:49:18.752+07:00
+published: 2026-03-31T19:49:18.752+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -30,23 +30,7 @@ To ensure uniqueness, we impose the invertibility condition ($|\theta| < 1$).
 
 ## Invertibility Condition
 
-An MA(1) process is **invertible** if it can be represented as an infinite-order [[arp-process-model_202603161400|AR process]]. This requires:
+An MA(1) process is [[invertible-ma(q)-process_202603311948 1|invertible]] if it can be represented as an infinite-order [[arp-process-model_202603161400|AR process]].
+
+This requires:
 $$|\theta| < 1$$
-Invertibility allows us to express current shocks $a\_t$ as a function of current and past observations $Z\_t$.
-
-## Inverting MA(1) to AR(infty)
-
-Let $Z\_{t} = a\_{t} - \theta a\_{t-1}$
-
-Then $a\_{t} = Z\_{t} + \theta a\_{t-1}$
-
-Substituting into $Z\_{t}$,
-$$
-\begin{align}
-Z\_{t} & = a\_{t} - \theta(Z\_{t-1} + \theta a\_{t-2}) \\
-& = a\_{t} - \theta Z\_{t-1} - \theta^{2}a\_{t-2} \\
-& = a\_{t} - \theta Z\_{t-1} - \theta^{2}Z\_{t-2} - \dots - \theta^nZ\_{t-n}
-\end{align}
-$$
-
-Notice that the value of $Z\_{t}$ converges if $|\theta|<1$, since every subsequent regression/step will result in a smaller value of $\theta^n$.

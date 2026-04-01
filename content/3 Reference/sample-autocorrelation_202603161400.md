@@ -2,10 +2,10 @@
 publish: true
 aliases:
   - Sample Autocorrelation
-  - Autocorrelation Function
+  - Sample ACF
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-30T02:33:50.089+07:00
-published: 2026-03-30T02:33:50.089+07:00
+modified: 2026-03-31T16:03:07.861+07:00
+published: 2026-03-31T16:03:07.861+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
