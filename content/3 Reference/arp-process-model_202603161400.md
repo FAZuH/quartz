@@ -4,8 +4,8 @@ aliases:
   - AR(p) Process Model
   - Autoregressive Process Process (AR(p))
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-31T22:19:03.162+07:00
-published: 2026-03-31T22:19:03.162+07:00
+modified: 2026-04-02T11:57:08.527+07:00
+published: 2026-04-02T11:57:08.527+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -39,12 +39,6 @@ Solving these equations allows for estimating the parameters from the [[sample-a
 ## Characteristic Equation
 
 ![[ar-characteristic-equation_202603161400#Definition|AR Characteristic Equation]]
-
-## Variance
-
-The variance $\gamma\_0$ of a stationary AR(p) process is:
-$$\gamma\_0 = \frac{\sigma\_a^2}{1 - \phi\_1 \rho\_1 - \phi\_2 \rho\_2 - \dots - \phi\_p \rho\_p}$$
-where $\sigma\_a^2$ is the variance of the white noise shocks.
 
 ## Properties
 

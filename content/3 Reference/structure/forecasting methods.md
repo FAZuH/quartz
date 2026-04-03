@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-03-31T22:07:27.643+07:00
-published: 2026-03-31T22:07:27.643+07:00
+modified: 2026-04-02T11:56:59.476+07:00
+published: 2026-04-02T11:56:59.476+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:32
@@ -51,7 +51,7 @@ PassFrontmatter: true
 - _[[arp-process-model_202603161400|AR(p) Process Model]]_
   - **[[arp-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(p)]]**
   - **[[arp-process-model_202603161400#Yule-Walker Equations|Property: Yule-Walker Equations for AR(p)]]**
-  - **[[arp-process-model_202603161400#Variance|Property: Variance of AR(p)]]**
+  - **[[arp-process-model_202603161400#Properties|Property: Variance of AR(p)]]**
   - _[[ar1-process-model_202603161400|AR(1) Process Model]]_
     - **[[ar1-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(1)]]**
     - **[[ar1-process-model_202603161400#Autocorrelation Function|Property: ACF of AR(1)]]**

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - ARMA(1,1) Process Model
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-31T21:05:20.412+07:00
-published: 2026-03-31T21:05:20.412+07:00
+modified: 2026-04-02T11:54:50.088+07:00
+published: 2026-04-02T11:54:50.088+07:00
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
@@ -26,10 +26,10 @@ $$Z\_t = \phi Z\_{t-1} + a\_t - \theta a\_{t-1}$$
 
 | Property        | Expression                                                                                                                                                                                    |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Autocovariance  | <br>$$\begin{cases}  \dfrac{1-2\theta \phi+\theta^{2}}{1-\phi^{2}}\sigma^{2}_{e}, & k=0  \ \phi \gamma_{0} - \theta \sigma^{2}_{e}, & k=1 \ \phi \gamma_{k-1}, & k\geq 2 \end{cases} $$<br> |
-| Autocorrelation | $$\frac{(1 - \phi \theta)(\phi - \theta)}{1 - 2 \theta \phi + \theta^2} \phi^{k-1}, \quad k \geq 1$$                                                                                          |
+| Autocovariance  | <br>$$\begin{cases}  \dfrac{ \textcolor{cyan}{1-2\theta \phi+\theta^{2}}}{1-\phi^{2}}\sigma^{2}_{e}, & k=0  \ \phi \gamma_{0} - \theta \sigma^{2}_{e}, & k=1 \ \phi \gamma_{k-1}, & k\geq 2 \end{cases} $$<br> |
+| Autocorrelation | $$\frac{(1 - \phi \theta)(\phi - \theta)}{\textcolor{cyan}{1 - 2 \theta \phi + \theta^2}} \phi^{k-1}, \quad k \geq 1$$                                                                                          |
 
-The ACF decays exponentially like an [[arp-process-model_202603161400|AR(1)]] but starting from $\rho\_1$ instead of $\rho\_0$.
+The ACF decays exponentially like an [[arp-process-model_202603161400|AR(1)]] but starting from $\rho\_1$ instead of $\rho\_0$ like [[ma1-process-model_202603161400|MA(1)]].
 
 ## General Linear Process Representation
 

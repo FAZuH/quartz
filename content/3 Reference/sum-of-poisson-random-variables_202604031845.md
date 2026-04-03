@@ -1,0 +1,41 @@
+---
+publish: true
+aliases:
+  - Sum of Poisson Random Variables
+created: 2026-04-03T18:45:13.021+07:00
+modified: 2026-04-03T19:12:53.153+07:00
+published: 2026-04-03T19:12:53.153+07:00
+tags:
+  - type/theorem
+creation-time: 2026-04-03 18:45
+status: in progress
+parent:
+  - "[[stochastic-model]]"
+---
+
+## Theorem
+
+> Let $X$ and $Y$ be independent [[def-poisson-distribution_202509150822|Poisson random variables]] with parameters $\mu$ and $\nu$ respectively.
+>
+> Then $X + Y \sim \text{Po}(\mu + \nu)$.
+
+> [!TIP] Interpretation
+> If two independent sources each produce events at Poisson rates, combining them gives a Poisson with the sum of the rates. The sum of independent Poissons is Poisson.
+
+## Proof
+
+By MGF convolution:
+$$
+\begin{align}
+\phi\_{X+Y}(t) &= \phi\_X(t) \cdot \phi\_Y(t) \\
+&= e^{\mu(e^t - 1)} \cdot e^{\nu(e^t - 1)} \\
+&= e^{(\mu + \nu)(e^t - 1)}
+\end{align}
+$$
+
+This is the MGF of $\text{Po}(\mu + \nu)$, so $X + Y \sim \text{Po}(\mu + \nu)$.
+
+## Related
+
+- [[def-poisson-distribution_202509150822|Poisson Distribution]]
+- [[poisson-binomial-distribution_202604031845|Poisson-Binomial Distribution]]
