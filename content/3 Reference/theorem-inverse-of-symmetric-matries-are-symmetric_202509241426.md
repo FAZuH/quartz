@@ -7,19 +7,20 @@ modified: 2026-03-25T15:22:40.600+07:00
 published: 2026-03-25T15:22:40.600+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 14:26
 status: in progress
 parent:
   - "[[matrices]]"
 ---
 
+
 ## Theorem
 
-Let $A$ : [[Def-matrix|Matrix]]
+Let $A$ : [[3 Reference/Def-matrix\|Matrix]]
 
 If
-
-- $A$ is [[def-inverse-matrix_202509241225|invertible]]
-- $A$ is [[def-symmetric-matrix_202509241413|symmetric]]
+- $A$ is [[3 Reference/def-inverse-matrix_202509241225\|invertible]]
+- $A$ is [[3 Reference/def-symmetric-matrix_202509241413\|symmetric]]
 
 Then $A^{-1}$ is symmetric

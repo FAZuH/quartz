@@ -7,33 +7,34 @@ modified: 2026-04-03T19:13:30.081+07:00
 published: 2026-04-03T19:13:30.081+07:00
 tags:
   - type/theorem
+cssclasses: ""
 creation-time: 2026-04-03 18:46
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Theorem
 
-> Let ${N(t), t \geq 0}$ be a [[poisson-process_202604031845|Poisson process]] of rate $\lambda$. Each event is independently classified as type I with probability $p$ or type II with probability $1-p$.
+> Let $\{N(t), t \geq 0\}$ be a [[3 Reference/poisson-process_202604031845\|Poisson process]] of rate $\lambda$. Each event is independently classified as type I with probability $p$ or type II with probability $1-p$.
 >
-> Let $N\_1(t)$ and $N\_2(t)$ count type I and type II events respectively. Then:
->
-> 1. ${N\_1(t), t \geq 0}$ is a Poisson process with rate $\lambda p$
-> 2. ${N\_2(t), t \geq 0}$ is a Poisson process with rate $\lambda(1-p)$
-> 3. $N\_1$ and $N\_2$ are **independent**
+> Let $N_1(t)$ and $N_2(t)$ count type I and type II events respectively. Then:
+> 1. $\{N_1(t), t \geq 0\}$ is a Poisson process with rate $\lambda p$
+> 2. $\{N_2(t), t \geq 0\}$ is a Poisson process with rate $\lambda(1-p)$
+> 3. $N_1$ and $N_2$ are **independent**
 
 > [!TIP] Interpretation
 > Splitting a Poisson process randomly produces two independent Poisson processes. The independence is non-obvious — you might expect that more type I events means fewer type II events, but the randomness of the total count balances this out.
 
 ## Proof Sketch
 
-Verify ${N\_1(t)}$ satisfies the axiomatic definition of a [[poisson-process_202604031845|Poisson process]]:
+Verify $\{N_1(t)\}$ satisfies the axiomatic definition of a [[3 Reference/poisson-process_202604031845\|Poisson process]]:
 
-1. $N\_1(0) = 0$ (inherited from $N(0) = 0$)
+1. $N_1(0) = 0$ (inherited from $N(0) = 0$)
 2. Independent and stationary increments inherited from $N(t)$
-3. $P(N\_1(h) = 1) = p(\lambda h + o(h)) + o(h) = \lambda p h + o(h)$
-4. $P(N\_1(h) \geq 2) \leq P(N(h) \geq 2) = o(h)$
+3. $P(N_1(h) = 1) = p(\lambda h + o(h)) + o(h) = \lambda p h + o(h)$
+4. $P(N_1(h) \geq 2) \leq P(N(h) \geq 2) = o(h)$
 
 Independence follows because the classification of each event is independent of everything else, so knowledge of type II event times gives no information about type I events.
 
@@ -45,5 +46,5 @@ $$P(\text{no English immigrants}) = e^{-10/3}$$
 
 ## Related
 
-- [[poisson-process_202604031845|Poisson Process]]
-- [[thinning-(poisson)_202604031846|Thinning]]
+- [[3 Reference/poisson-process_202604031845\|Poisson Process]]
+- [[3 Reference/thinning-(poisson)_202604031846\|Thinning]]

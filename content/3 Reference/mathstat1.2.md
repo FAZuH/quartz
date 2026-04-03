@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.645+07:00
 modified: 2026-03-25T15:22:40.645+07:00
 published: 2026-03-25T15:22:40.645+07:00
+cssclasses: ""
 creation-time: 2025-07-14 23:30
 status: complete
 tags:
@@ -12,4 +13,5 @@ parent:
   - "[[Introduction to Mathematical Statistics]]"
 ---
 
-<< [[mathstat1.1|1.1 Introduction]] | [[mathstat1.3|1.3 The Probability Set Function]] >>
+<< [[3 Reference/mathstat1.1\|1.1 Introduction]] | [[3 Reference/mathstat1.3\|1.3 The Probability Set Function]] >>
+

@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.612+07:00
 modified: 2026-03-25T15:22:40.612+07:00
 published: 2026-03-25T15:22:40.612+07:00
+cssclasses: ""
 creation-time: 2025-06-24 01:32
 status: in progress
 tags:
@@ -13,26 +14,25 @@ parent:
 ---
 
 ## Performing MLE
-
 1. $L(\theta)$
-2. $\ln\[L(\theta)]$
-3. $\frac{d}{d\theta}\ln\[L(\theta)]$
-4. Solve for $\theta$ in $\frac{d}{d\theta}\ln\[L(\theta)] = 0$
+2. $\ln[L(\theta)]$
+3. $\frac{d}{d\theta}\ln[L(\theta)]$
+4. Solve for $\theta$ in $\frac{d}{d\theta}\ln[L(\theta)] = 0$
 
 $$
 \begin{align}
-L(\theta)  & = \prod\_{i=1}^n f(x\_i;\theta) \\
-\frac{d}{d\theta}\ln\[L(\theta)]  & = 0
+L(\theta)  & = \prod_{i=1}^n f(x_i;\theta) \\
+\frac{d}{d\theta}\ln[L(\theta)]  & = 0
 \end{align}
 $$
 
 > [!note]
-> MLE can be extended from 1 parameter to multiple parameters, as shown in [[mathstat6.1#MLE on normal distribution with multiple parameters|this example]].
+> MLE can be extended from 1 parameter to multiple parameters, as shown in [[3 Reference/mathstat6.1#MLE on normal distribution with multiple parameters\|this example]].
 
 > [!warning]
-> Step $(2)$ is done because the logarithm turns a product of probabilities into a sum, making the derivative of the function usually easier to compute on step $(3)$.
->
-> Note that depending on the form of $L(\theta)$, **applying step $(2)$ might overcomplicate the equation instead**. In such cases, step $(2)$ may be skipped, and we would maximize $L(\theta)$ instead of $\ln\[L(\theta)]$.
+> Step $(2)$ is done because the logarithm turns a product of probabilities into a sum, making the derivative of the function usually easier to compute on step $(3)$. 
+> 
+> Note that depending on the form of $L(\theta)$, **applying step $(2)$ might overcomplicate the equation instead**. In such cases, step $(2)$ may be skipped, and we would maximize $L(\theta)$ instead of $\ln[L(\theta)]$.
 
 ## About MLE
 
@@ -45,23 +45,23 @@ Suppose you're working in a factory that produces light bulbs. You want to estim
 
 You recognize that the samples comes from binomial distribution, which has an MLE estimate $\hat p = k/n = 5/100 =0.05$
 
-So, based on the data, the MLE estimate suggests that the probability of a bulb being defective is $5%$
+So, based on the data, the MLE estimate suggests that the probability of a bulb being defective is $5\%$
 
 ## Example
 
 ![image](assets/image 11.png)
 
-> Let $X\_{1},X\_{2},\dots,X\_{n}$ represent a [[Def-random-sample|random sample]] from the distribution having hte following [[Def-probability-density-function-(pdf)|probability density function]]. $f(x;\theta)=\frac{\theta^xe^{-\theta}}{x!}$, $x=0,1,2,\dots;0\leq \theta<\infty$, zero elsewhere, $f(0;0)=1$.
->
+> Let $X_{1},X_{2},\dots,X_{n}$ represent a [[3 Reference/Def-random-sample\|random sample]] from the distribution having hte following [[3 Reference/Def-probability-density-function-(pdf)\|probability density function]]. $f(x;\theta)=\frac{\theta^xe^{-\theta}}{x!}$, $x=0,1,2,\dots;0\leq \theta<\infty$, zero elsewhere, $f(0;0)=1$.
+> 
 > Find $\hat{\theta}$, the mle of $\theta$.
 
 $$
 \begin{align}
-L(\theta) & = \prod \frac{\theta^x\_{i} e^{-\theta}}{x\_{i}!} \\
-\ln\[L(\theta)] & = \sum x\_{i}\ln\theta - n \theta \ln e - \sum\ln x\_{i}! \\
-\frac{d}{d\theta}\ln\[L(\theta)] & = \frac{\sum x\_{i}}{\theta} - n = 0 \\
-\iff & \theta = \frac{\sum x\_{i}}{n}
+L(\theta) & = \prod \frac{\theta^x_{i} e^{-\theta}}{x_{i}!} \\
+\ln[L(\theta)] & = \sum x_{i}\ln\theta - n \theta \ln e - \sum\ln x_{i}! \\
+ \frac{d}{d\theta}\ln[L(\theta)] & = \frac{\sum x_{i}}{\theta} - n = 0 \\
+\iff & \theta = \frac{\sum x_{i}}{n}
 \end{align}
 $$
 
-So, the MLE of $\theta$, which we will denote $\hat{\theta}$, is $\frac{\sum x\_{i}}{n}$
+So, the MLE of $\theta$, which we will denote $\hat{\theta}$, is $\frac{\sum x_{i}}{n}$

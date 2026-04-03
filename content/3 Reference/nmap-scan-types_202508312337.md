@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.599+07:00
 published: 2026-03-25T15:22:40.599+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-08-31 23:37
 status: in progress
 parent:
@@ -45,6 +46,8 @@ sometimes combined with other options like `-O` (OS detection), `-sV` (version d
 
 ---
 
+
+
 ### Nmap Scan Types (`-s` Options) and Their Usage
 
 Nmap's `-s` flags define the **scan technique** used to probe target ports. Each method has distinct advantages, stealth levels, and requirements. Below is a comprehensive breakdown:
@@ -52,7 +55,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **1. TCP SYN Scan (`-sS`)**
-
 - **Description**: Sends SYN packets and analyzes responses without completing the TCP handshake (half-open scan).
 - **Port States**:
   - **Open**: SYN/ACK response.
@@ -63,7 +65,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Stealthy**: Avoids full connection, reducing logging.
   - **Fast**: Efficient for large networks.
 - **Requirements**: Root/admin privileges (raw socket access).
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sS 192.168.1.1
   ```
@@ -71,7 +73,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **2. TCP Connect Scan (`-sT`)**
-
 - **Description**: Completes the full TCP 3-way handshake (SYN → SYN/ACK → ACK).
 - **Port States**:
   - **Open**: Connection established.
@@ -82,7 +83,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Reliable**: Works on all systems but slower.
   - **Noisy**: Easily logged by firewalls/IDS.
 - **Requirements**: No special privileges.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sT example.com
   ```
@@ -90,7 +91,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **3. UDP Scan (`-sU`)**
-
 - **Description**: Sends UDP packets to target ports.
 - **Port States**:
   - **Open**: UDP response received.
@@ -101,7 +101,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Slow**: UDP is connectionless; timeouts are long.
   - **Challenging**: Many systems rate-limit ICMP responses.
 - **Requirements**: Root privileges.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sU --top-ports 100 192.168.1.1
   ```
@@ -109,7 +109,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **4. SCTP INIT Scan (`-sY`)**
-
 - **Description**: Sends SCTP INIT packets (SCTP is a transport protocol like TCP/UDP).
 - **Port States**:
   - **Open**: INIT-ACK response.
@@ -119,7 +118,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - Targets SCTP services (e.g., telecom systems).
   - **Stealthy**: Half-open scan for SCTP.
 - **Requirements**: Root privileges.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sY 192.168.1.1
   ```
@@ -127,7 +126,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **5. TCP NULL/FIN/Xmas Scans (`-sN`, `-sF`, `-sX`)**
-
 - **Description**: Sends malformed TCP packets to bypass firewalls:
   - **NULL (`-sN`)**: No flags set.
   - **FIN (`-sF`)**: FIN flag only.
@@ -140,7 +138,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Evasion**: Bypass stateless firewalls/IDS.
   - **Limited**: Only works on RFC-compliant systems (e.g., Linux, BSD). Windows ignores these packets.
 - **Requirements**: Root privileges.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sN 192.168.1.1
   ```
@@ -148,7 +146,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **6. TCP ACK Scan (`-sA`)**
-
 - **Description**: Sends ACK packets (regardless of port state).
 - **Port States**:
   - **Unfiltered**: RST response (port reachable).
@@ -157,7 +154,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Firewall Mapping**: Identifies firewall rules (e.g., which ports are blocked).
   - **Not for Open Ports**: Cannot distinguish open/closed ports.
 - **Requirements**: Root privileges.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sA 192.168.1.1
   ```
@@ -165,7 +162,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **7. TCP Window Scan (`-sW`)**
-
 - **Description**: Similar to ACK scan but analyzes TCP window size in RST responses.
 - **Port States**:
   - **Open**: Positive window size (some systems).
@@ -175,7 +171,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Bypass Firewalls**: Works where ACK scans fail (e.g., stateful firewalls).
   - **System-Specific**: Relies on target OS behavior.
 - **Requirements**: Root privileges.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sW 192.168.1.1
   ```
@@ -183,7 +179,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **8. Idle Scan (`-sI <zombie IP>`)**
-
 - **Description**: Uses a "zombie" host to spoof scan origin.
 - **Port States**:
   - **Open**: Zombie IP ID increments.
@@ -192,7 +187,7 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
   - **Ultimate Stealth**: Hides attacker's IP.
   - **Complex**: Requires an idle zombie with predictable IP ID sequences.
 - **Requirements**: Root privileges + zombie host.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sI 192.168.1.10 192.168.1.1
   ```
@@ -200,13 +195,12 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **9. Ping Scan (`-sP` or `-sn`)**
-
 - **Description**: Host discovery without port scanning.
 - **Usage**:
   - **Live Host Detection**: Uses ARP (local), ICMP, or TCP probes.
   - **Fast**: Maps network topology quickly.
 - **Requirements**: None.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sn 192.168.1.0/24
   ```
@@ -214,13 +208,12 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 #### **10. List Scan (`-sL`)**
-
 - **Description**: Lists targets without sending packets.
 - **Usage**:
   - **DNS Enumeration**: Resolves hostnames.
   - **Pre-scan Check**: Validates target IPs/domains.
 - **Requirements**: None.
-- **Example**:
+- **Example**:  
   ```bash
   nmap -sL example.com/24
   ```
@@ -228,7 +221,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 ### **Summary Table**
-
 | **Scan Type** | **Flag** | **Privileges** | **Speed** | **Stealth** | **Best For** |
 |---------------|----------|----------------|-----------|-------------|--------------|
 | TCP SYN       | `-sS`    | Root           | Fast      | High        | General port scanning |
@@ -245,7 +237,6 @@ Nmap's `-s` flags define the **scan technique** used to probe target ports. Each
 ---
 
 ### **Key Considerations**
-
 1. **Privileges**: Most advanced scans (`-sS`, `-sU`, `-sN`, etc.) require root/admin access.
 2. **Firewall Evasion**: Use `-sN`, `-sF`, `-sX`, or `-sI` to bypass simple firewalls.
 3. **Performance**: UDP scans (`-sU`) are slow; limit ports with `--top-ports` or `-p`.

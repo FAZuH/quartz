@@ -5,11 +5,13 @@ modified: 2026-03-25T15:22:40.645+07:00
 published: 2026-03-25T15:22:40.645+07:00
 tags:
   - content-type/referential
+cssclasses: ""
 creation-time: 2025-03-06 09:17
 status: complete
 parent:
   - "[[sql]]"
 ---
+
 
 ## Primary key
 
@@ -60,7 +62,7 @@ JOIN authors
   ON books.author_id = authors.id;
 ```
 
-![[inner-join.webp|300]]
+![[inner-join.webp\|300]]
 
 ### Left join
 
@@ -71,4 +73,4 @@ LEFT JOIN table2
   ON table1.column_name = table2.column_name;
 ```
 
-![[left-join.webp|300]]
+![[left-join.webp\|300]]

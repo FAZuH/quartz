@@ -5,14 +5,15 @@ modified: 2026-03-25T15:22:40.639+07:00
 published: 2026-03-25T15:22:40.639+07:00
 tags:
   - content-type/procedural
+cssclasses: ""
 creation-time: 2025-04-19 13:59
 status: complete
 parent:
   - "[[cyber security]]"
 ---
 
-## Creating
 
+## Creating
 ```bash
 gpg --full-generate-key
 ```

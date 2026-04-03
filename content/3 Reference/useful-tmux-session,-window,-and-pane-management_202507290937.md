@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-25T15:22:40.603+07:00
 modified: 2026-03-25T15:22:40.604+07:00
 published: 2026-03-25T15:22:40.604+07:00
+cssclasses: ""
 creation-time: 2025-07-29 09:37
 status: in progress
 tag:
 parent: "[[computers]]"
 ---
+
 
 ## Navigating Panes
 
@@ -51,3 +53,4 @@ parent: "[[computers]]"
 - Tiled: `Ctrl-b + Alt-5`
 
 The `Alt-1` through `Alt-5` shortcuts are the fastest way to manage layouts and get even spacing between panes.
+

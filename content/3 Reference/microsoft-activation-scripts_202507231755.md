@@ -5,12 +5,13 @@ aliases:
 created: 2026-03-25T15:22:40.604+07:00
 modified: 2026-03-25T15:22:40.604+07:00
 published: 2026-03-25T15:22:40.604+07:00
+cssclasses: ""
 creation-time: 2025-07-23 17:55
 status: in progress
 tag:
 parent: "[[software-recommendations_202507231725]]"
 ---
 
-[https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts "https://github.com/massgravel/Microsoft-Activation-Scripts")
+[https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts "https://github.com/massgravel/Microsoft-Activation-Scripts") 
 
 Activation for Microsoft, Office, etc.

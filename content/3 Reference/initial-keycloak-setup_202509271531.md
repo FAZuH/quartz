@@ -7,13 +7,15 @@ modified: 2026-03-25T15:22:40.603+07:00
 published: 2026-03-25T15:22:40.603+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-27 15:31
 status: in progress
 parent:
   - "[[keycloak_202509271530]]"
 ---
 
-1.
+
+1. 
 
 ## docker-compose example
 

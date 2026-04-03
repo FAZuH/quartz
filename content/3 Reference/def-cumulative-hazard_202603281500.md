@@ -5,16 +5,18 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
 
+
 ## Definition
 
-**Cumulative Hazard $H(t)$**:
-$$H(t) = \int\_0^t h(u)du = -\ln S(t)$$
+**Cumulative Hazard $H(t)$**: 
+$$H(t) = \int_0^t h(u)du = -\ln S(t)$$
 
 Total hazard <u>accumulated up to time $t$</u>.
 
@@ -38,5 +40,5 @@ By day 60, survival probability is $e^{-3.6} \approx 0.027$, meaning only 2.7% o
 
 ## Related
 
-- [[def-hazard-function_202603281500|Hazard Function]]
-- [[def-survival-function_202603281500|Survival Function]]
+- [[3 Reference/def-hazard-function_202603281500\|Hazard Function]]
+- [[3 Reference/def-survival-function_202603281500\|Survival Function]]

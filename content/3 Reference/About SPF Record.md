@@ -3,6 +3,7 @@ publish: true
 created: 2026-03-25T15:22:40.594+07:00
 modified: 2026-03-25T15:22:40.594+07:00
 published: 2026-03-25T15:22:40.594+07:00
+cssclasses: ""
 creation-time: 2025-06-21 13:51
 status: in progress
 tags:
@@ -11,7 +12,6 @@ parent:
 ---
 
 ## About SPF records
-
 SPF (Sender Policy Framework) specifies servers/hosts authorized to send email on behalf of a domain.
 
 Consider the following illustration:
@@ -26,9 +26,7 @@ If the "Sending Mail Server" is not specified in the SPF record, `google.com` ei
 ---
 
 **Read further**
-
-- https://open-spf.org/SPF\_Record\_Syntax/
+- https://open-spf.org/SPF_Record_Syntax/
 
 **Reference**
-
 - https://www.youtube.com/watch?v=c9fLp5uIxp8

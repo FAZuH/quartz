@@ -3,6 +3,7 @@ publish: true
 created: 2026-03-25T15:22:40.626+07:00
 modified: 2026-03-25T15:22:40.626+07:00
 published: 2026-03-25T15:22:40.626+07:00
+cssclasses: ""
 creation-time: 2025-03-27 16:53
 status: in progress
 tags:
@@ -10,18 +11,19 @@ parent:
   - "[[Nextcloud]]"
 ---
 
+
 You can’t access files because they are locked and you find such errors in your logfile:
 
 `{"reqId":"0DijSqEkfOg2iyh9VD8J","remoteAddr":"xx.xx.xx.xx","app":"webdav","message":"Exception: {\"Message\":\"HTTP\\\/1.1 423 \\\"path\\\/file.extension\\\" is locked\",\"Exception\":\"OCA\\\\DAV\\\\Connector\\\\Sabre\\\\Exception\\\\FileLocked\",\"Code\":0,\"Trace\":\"#0`
 
 **Manually disable locking state:**
 
-1. Put Nextcloud in maintenance mode: edit `config/config.php` and change this line:\
-   `'maintenance' => true,`
-2. Empty table `oc_file_locks`: Use tools such as phpmyadmin or connect directly to your database and run (the default table prefix is `oc_`, this prefix can be different or even empty):\
-   `DELETE FROM db_name.oc_file_locks WHERE true;`\
-   or if you are connected to your database already, the table name is enough:\
-   `DELETE FROM oc_file_locks WHERE true;`
+1. Put Nextcloud in maintenance mode: edit `config/config.php` and change this line:  
+    `'maintenance' => true,`
+2. Empty table `oc_file_locks`: Use tools such as phpmyadmin or connect directly to your database and run (the default table prefix is `oc_`, this prefix can be different or even empty):  
+    `DELETE FROM db_name.oc_file_locks WHERE true;`  
+    or if you are connected to your database already, the table name is enough:  
+    `DELETE FROM oc_file_locks WHERE true;`
 3. Disable maintenance mode (undo first step).
 
 **Tips**:

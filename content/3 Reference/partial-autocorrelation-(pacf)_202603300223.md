@@ -6,6 +6,7 @@ aliases:
 created: 2026-03-30T02:23:37.097+07:00
 modified: 2026-03-30T02:30:22.377+07:00
 published: 2026-03-30T02:30:22.377+07:00
+cssclasses: ""
 creation-time: 2026-03-30 02:23
 status: in progress
 tags:
@@ -13,38 +14,38 @@ parent:
   - "[[forecasting methods]]"
 ---
 
+
 ## Definition
 
-The **partial autocorrelation** $\phi\_{kk}$ measures the correlation between $Y\_t$ and $Y\_{t-k}$ after removing the linear effects of the intermediate variables $Y\_{t-1}, Y\_{t-2}, \dots, Y\_{t-k+1}$.
+The **partial autocorrelation** $\phi_{kk}$ measures the correlation between $Y_t$ and $Y_{t-k}$ after removing the linear effects of the intermediate variables $Y_{t-1}, Y_{t-2}, \dots, Y_{t-k+1}$.
 
-$$\phi\_{kk} = \operatorname{Corr}(Y\_t - \hat{Y}_t, Y_{t-k} - \hat{Y}\_{t-k})$$
+$$\phi_{kk} = \operatorname{Corr}(Y_t - \hat{Y}_t, Y_{t-k} - \hat{Y}_{t-k})$$
 
 where $\hat{Y}_t$ and $\hat{Y}_{t-k}$ are linear predictors based on intermediate values.
 
 ### Convention
 
-$$\phi\_{11} = \rho\_1 \quad \text{(first lag PACF equals ACF)}$$
+$$\phi_{11} = \rho_1 \quad \text{(first lag PACF equals ACF)}$$
 
 ### Formula for Lag 2
 
-$$\phi\_{22} = \frac{\rho\_2 - \rho\_1^2}{1 - \rho\_1^2}$$
+$$\phi_{22} = \frac{\rho_2 - \rho_1^2}{1 - \rho_1^2}$$
 
 > [!TIP] Key Distinction
->
 > - **ACF** measures total correlation (direct + indirect)
-> - **PACF** measures only direct correlation between $Y\_t$ and $Y\_{t-k}$
+> - **PACF** measures only direct correlation between $Y_t$ and $Y_{t-k}$
 
 ## Properties by Model
 
 ### AR(1)
 
-$$\phi\_{11} = \phi, \quad \phi\_{kk} = 0 \text{ for } k > 1$$
+$$\phi_{11} = \phi, \quad \phi_{kk} = 0 \text{ for } k > 1$$
 
 **PACF cuts off after lag 1.**
 
 ### MA(1)
 
-$$\phi\_{22} = \frac{-\theta^2}{1 + \theta^2 + \theta^4}$$
+$$\phi_{22} = \frac{-\theta^2}{1 + \theta^2 + \theta^4}$$
 
 **PACF never exactly zero but decays exponentially.**
 
@@ -58,7 +59,7 @@ $$\phi\_{22} = \frac{-\theta^2}{1 + \theta^2 + \theta^4}$$
 
 ## Related
 
-- [[sample-autocorrelation_202603161400|Sample Autocorrelation (ACF)]]
-- [[autocovariance-and-autocorrelation_202603161400|Autocovariance and Autocorrelation]]
-- [[arp-process-model_202603161400|AR(p) Process Model]]
-- [[ma1-process-model_202603161400|MA(1) Process Model]]
+- [[3 Reference/sample-autocorrelation_202603161400\|Sample Autocorrelation (ACF)]]
+- [[3 Reference/autocovariance-and-autocorrelation_202603161400\|Autocovariance and Autocorrelation]]
+- [[3 Reference/arp-process-model_202603161400\|AR(p) Process Model]]
+- [[3 Reference/ma1-process-model_202603161400\|MA(1) Process Model]]

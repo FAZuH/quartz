@@ -5,19 +5,20 @@ aliases:
 created: 2026-03-30T13:58:25.262+07:00
 modified: 2026-03-30T13:58:25.262+07:00
 published: 2026-03-30T13:58:25.262+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
 
+
 ## Theorem
 
 > Let:
->
 > - $f(t)$ = probability density function
 > - $S(t)$ = survival function
->
+> 
 > Then
 > $$h(t) = \frac{f(t)}{S(t)}$$
 
@@ -25,17 +26,17 @@ parent:
 
 $$
 \begin{align}
-h(t) & = \lim\_{\Delta t \to 0} \frac{1}{\Delta t} \cdot \frac{\Pr(t < T \leq t+\Delta t)}{\Pr(T > t)} \\
-& = \lim\_{\Delta t \to 0} \frac{F(t+\Delta t) - F(t)}{\Delta t \cdot S(t)}
+h(t) & = \lim_{\Delta t \to 0} \frac{1}{\Delta t} \cdot \frac{\Pr(t < T \leq t+\Delta t)}{\Pr(T > t)} \\
+& = \lim_{\Delta t \to 0} \frac{F(t+\Delta t) - F(t)}{\Delta t \cdot S(t)}
 \end{align}
 $$
 
-The limit $\lim\_{\Delta t \to 0} \frac{F(t+\Delta t) - F(t)}{\Delta t}$ is by definition $F'(t) = f(t)$.
+The limit $\lim_{\Delta t \to 0} \frac{F(t+\Delta t) - F(t)}{\Delta t}$ is by definition $F'(t) = f(t)$.
 
 Therefore:
 $$\boxed{h(t) = \frac{f(t)}{S(t)}}$$
 
 ## Related
 
-- [[def-hazard-function_202603281500|Hazard Function]]
-- [[def-survival-function_202603281500|Survival Function]]
+- [[3 Reference/def-hazard-function_202603281500\|Hazard Function]]
+- [[3 Reference/def-survival-function_202603281500\|Survival Function]]

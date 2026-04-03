@@ -7,21 +7,23 @@ modified: 2026-03-25T15:22:40.643+07:00
 published: 2026-03-25T15:22:40.643+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-02 18:47
 status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
+
 ## Theorem
 
-Solution of a [[Def-linear-system|linear system]] is either of the following:
-
+Solution of a [[3 Reference/Def-linear-system\|linear system]] is either of the following:
 1. Zero solution
 2. One solution
 3. Infinitely many solutions
 
 There are no other possibilities.
+
 
 ![[assets/Pasted image 20250713060325.png]]
 
@@ -33,33 +35,33 @@ Assume that $A\mathbf{x}=\mathbf{b}$ has more than one solution.
 
 Let $\mathbf{x}_{1}$ and $\mathbf{x}_{2}$ be any two distinct solutions (i.e., $\mathbf{x}_{1}\neq \mathbf{x}_{2}$) of $A\mathbf{x}=\mathbf{b}$.
 
-Let $\mathbf{x}_{0}=\mathbf{x}_{1}-\mathbf{x}\_{2}$.
+Let $\mathbf{x}_{0}=\mathbf{x}_{1}-\mathbf{x}_{2}$.
 
-Because $\mathbf{x}_{1}\neq \mathbf{x}_{2}$, $\mathbf{x}_{0}$ is nonzero (therefore a [[Def-trivial-solution|nontrivial solution]]); moreover,
+Because $\mathbf{x}_{1}\neq \mathbf{x}_{2}$, $\mathbf{x}_{0}$ is nonzero (therefore a [[3 Reference/Def-trivial-solution\|nontrivial solution]]); moreover,
 $$
 \begin{align}
 A\mathbf{x}_{0} & = A(\mathbf{x}_{1}-\mathbf{x}_{2}) \\
-& = A\mathbf{x}_{1} - A\mathbf{x}_{2} \\
-& = \mathbf{b} - \mathbf{b} \\
-& = \mathbf{0}
+ & = A\mathbf{x}_{1} - A\mathbf{x}_{2} \\
+ & = \mathbf{b} - \mathbf{b} \\
+ & = \mathbf{0}
 \end{align}
 $$
-thus $\mathbf{x}\_{0}$ is a nontrivial solution to a [[Def-homogeneous-linear-system|homogeneous linear system]].
+thus $\mathbf{x}_{0}$ is a nontrivial solution to a [[3 Reference/Def-homogeneous-linear-system\|homogeneous linear system]].
 
-Let $k$ be any [[Def-matrix|scalar]]. Then,
+Let $k$ be any [[3 Reference/Def-matrix\|scalar]]. Then,
 $$
 \begin{align}
 A(\mathbf{x}_{1}+k\mathbf{x}_{0}) & = A\mathbf{x}_{1}+A(k\mathbf{x}_{0}) \\
-& = A\mathbf{x}_{1} + k(A\mathbf{x}_{0}) \\
-& = \mathbf{b}+k\mathbf{0} \\
-& = \mathbf{b} + \mathbf{0} \\
-& = \mathbf{b}
+ & = A\mathbf{x}_{1} + k(A\mathbf{x}_{0}) \\
+ & = \mathbf{b}+k\mathbf{0} \\
+ & = \mathbf{b} + \mathbf{0} \\
+ & = \mathbf{b}
 \end{align}
 $$
 
 By definition of solution, we have found that $\mathbf{x}_{1}+k\mathbf{x}_{0}$ is a solution of $A\mathbf{x}=\mathbf{b}$.
 
-Since $\mathbf{x}_{0}$ is nonzero and there are infinitely many choices for $k$, therefore the system of $A\mathbf{x}=\mathbf{b}$ has infinitely many solutions (i.e., we can choose any arbitrary $k$ and $A(\mathbf{x}_{1}+k\mathbf{x}\_{0})=\mathbf{b}$ will be true).
+Since $\mathbf{x}_{0}$ is nonzero and there are infinitely many choices for $k$, therefore the system of $A\mathbf{x}=\mathbf{b}$ has infinitely many solutions (i.e., we can choose any arbitrary $k$ and $A(\mathbf{x}_{1}+k\mathbf{x}_{0})=\mathbf{b}$ will be true).
 
 Therefore, If $A\mathbf{x}=\mathbf{b}$ has more than one solution, then it has infinitely many solutions.
 

@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-25T15:22:40.592+07:00
 modified: 2026-03-25T15:22:40.592+07:00
 published: 2026-03-25T15:22:40.592+07:00
+cssclasses: ""
 creation-time: 2025-08-24 08:49
 status: in progress
 tag:
 parent: "[[network engineering]]"
 ---
+
 
 **NAT** is a method used to <u>modify IP addresses in packets while they are in transit</u> across a router or firewall. The main goal of NAT is to map private IP addresses to a public IP address, enabling devices in a private network to access the internet through a single public IP.
 
@@ -19,4 +21,4 @@ parent: "[[network engineering]]"
 
 > [!note] Definition of masquerading (verb)
 > pretend to be someone one is not.
-> _"a journalist **masquerading as** a man in distress"_
+> *"a journalist **masquerading as** a man in distress"*

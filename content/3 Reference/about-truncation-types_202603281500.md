@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 ## About Truncation Types
 
@@ -20,7 +22,6 @@ parent:
 Subject <u>enters study after time 0</u>; only observed if $T \geq L$.
 
 **Examples:**
-
 - Nursing home: Subjects must survive long enough to enter
 - Life insurance: Policyholders must be alive when signing up
 
@@ -39,5 +40,5 @@ Subject <u>exits study before event</u>; only observed if $T \leq R$.
 
 ## Related
 
-- [[def-truncated-data_202603281500|Truncated Data]]
-- [[about-censoring-types_202603281500|Types of Censoring]]
+- [[3 Reference/def-truncated-data_202603281500\|Truncated Data]]
+- [[3 Reference/about-censoring-types_202603281500\|Types of Censoring]]

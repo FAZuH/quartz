@@ -7,32 +7,34 @@ modified: 2026-03-25T15:22:40.640+07:00
 published: 2026-03-25T15:22:40.640+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-02 20:40
 status: complete
 parent:
   - "[[Introduction to Mathematical Statistics]]"
 ---
 
+
 ## Theorem
 
-Let ${ C\_{n} }$ : Any [[3.1 Sequences and Their Limits#3.1.1 Definition Sequence of real numbers|sequence]] of [[Def-events|events]]
+Let $\{ C_{n} \}$ : Any [[3 Reference/3.1 Sequences and Their Limits#3.1.1 Definition Sequence of real numbers\|sequence]] of [[3 Reference/Def-events\|events]]
 
 Then
 $$
-P\left(\bigcup\_{n=1}^\infty C\_{n}\right)\leq \sum\_{n=1}^\infty P(C\_{n})
+P\left(\bigcup_{n=1}^\infty C_{n}\right)\leq \sum_{n=1}^\infty P(C_{n})
 $$
 
 ## Proof
 
-Let $D\_{n} = \bigcup\_{i=1}^n C\_{i}$. Then ${ D\_{n} }$ is an [[def-monotone-sequence_202510030252|increasing sequence]] of [[Def-events|events]] that go up to $\bigcup\_{n=1}^\infty C\_{n}$.
+Let $D_{n} = \bigcup_{i=1}^n C_{i}$. Then $\{ D_{n} \}$ is an [[3 Reference/def-monotone-sequence_202510030252\|increasing sequence]] of [[3 Reference/Def-events\|events]] that go up to $\bigcup_{n=1}^\infty C_{n}$.
 
-Also, for all $j$, $D\_{j}=D\_{j-1}\cup C\_{j}$. Hence, by point 5 of [[theorem-property-of-probability-set-function_202510022034|Property of Probability Set Function]],
+Also, for all $j$, $D_{j}=D_{j-1}\cup C_{j}$. Hence, by point 5 of [[3 Reference/theorem-property-of-probability-set-function_202510022034\|Property of Probability Set Function]],
 $$
-P(D\_{j})\leq P(D\_{j-1})+P(C\_{j})
+P(D_{j})\leq P(D_{j-1})+P(C_{j})
 $$
 that is,
 $$
-P(D\_{j})-P(D\_{j-1})\leq P(C\_{j})
+P(D_{j})-P(D_{j-1})\leq P(C_{j})
 $$
 
-In this case, the $C\_{i}$s are replaced by the $D\_{i}$s in expression
+In this case, the $C_{i}$s are replaced by the $D_{i}$s in expression

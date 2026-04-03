@@ -5,15 +5,17 @@ aliases:
 created: 2026-03-29T12:54:01.178+07:00
 modified: 2026-03-29T12:54:01.178+07:00
 published: 2026-03-29T12:54:01.178+07:00
+cssclasses: ""
 creation-time: 2026-03-28 09:00
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Example: Social Class Problem
 
-Given [[def-transition-probability-matrix_202603280810|TPM]]:
+Given [[3 Reference/def-transition-probability-matrix_202603280810\|TPM]]:
 
 $$\mathbf{P} = \begin{bmatrix}
 \frac{1}{2} & \frac{1}{2} & 0 \\
@@ -21,10 +23,10 @@ $$\mathbf{P} = \begin{bmatrix}
 0 & \frac{1}{2} & \frac{1}{2}
 \end{bmatrix}$$
 
-Solving $\pi = \pi \mathbf{P}$ for the [[def-stationary-distribution_202603280834|stationary distribution]]:
+Solving $\pi = \pi \mathbf{P}$ for the [[3 Reference/def-stationary-distribution_202603280834\|stationary distribution]]:
 
-$$\begin{bmatrix} \pi\_{1} & \pi\_{2} & \pi\_{3} \end{bmatrix} =
-\begin{bmatrix} \pi\_{1} & \pi\_{2} & \pi\_{3} \end{bmatrix}
+$$\begin{bmatrix} \pi_{1} & \pi_{2} & \pi_{3} \end{bmatrix} = 
+\begin{bmatrix} \pi_{1} & \pi_{2} & \pi_{3} \end{bmatrix}
 \begin{bmatrix}
 \frac{1}{2} & \frac{1}{2} & 0 \\
 \frac{1}{4} & \frac{1}{2} & \frac{1}{4} \\
@@ -35,25 +37,25 @@ $$\begin{bmatrix} \pi\_{1} & \pi\_{2} & \pi\_{3} \end{bmatrix} =
 
 $$
 \begin{aligned}
-\pi\_1 &= \frac{1}{2}\pi\_1 + \frac{1}{4}\pi\_2 \\
-\pi\_2 &= \frac{1}{2}\pi\_1 + \frac{1}{2}\pi\_2 + \frac{1}{2}\pi\_3 \\
-\pi\_3 &= \frac{1}{4}\pi\_2 + \frac{1}{2}\pi\_3
+\pi_1 &= \frac{1}{2}\pi_1 + \frac{1}{4}\pi_2 \\
+\pi_2 &= \frac{1}{2}\pi_1 + \frac{1}{2}\pi_2 + \frac{1}{2}\pi_3 \\
+\pi_3 &= \frac{1}{4}\pi_2 + \frac{1}{2}\pi_3
 \end{aligned}
 $$
 
 ## Solution
 
-From equation 1: $\frac{1}{2}\pi\_1 = \frac{1}{4}\pi\_2 \Rightarrow \pi\_2 = 2\pi\_1$
+From equation 1: $\frac{1}{2}\pi_1 = \frac{1}{4}\pi_2 \Rightarrow \pi_2 = 2\pi_1$
 
-From equation 3: $\frac{1}{2}\pi\_3 = \frac{1}{4}\pi\_2 \Rightarrow \pi\_3 = \frac{1}{2}\pi\_2 = \pi\_1$
+From equation 3: $\frac{1}{2}\pi_3 = \frac{1}{4}\pi_2 \Rightarrow \pi_3 = \frac{1}{2}\pi_2 = \pi_1$
 
-Substituting into $\pi\_1 + \pi\_2 + \pi\_3 = 1$:
+Substituting into $\pi_1 + \pi_2 + \pi_3 = 1$:
 
-$$\pi\_1 + 2\pi\_1 + \pi\_1 = 1 \Rightarrow 4\pi\_1 = 1 \Rightarrow \pi\_1 = \frac{1}{4}$$
+$$\pi_1 + 2\pi_1 + \pi_1 = 1 \Rightarrow 4\pi_1 = 1 \Rightarrow \pi_1 = \frac{1}{4}$$
 
-Therefore: $\pi\_2 = \frac{1}{2}$, $\pi\_3 = \frac{1}{4}$
+Therefore: $\pi_2 = \frac{1}{2}$, $\pi_3 = \frac{1}{4}$
 
 ## Related
 
-- [[def-stationary-distribution_202603280834|Stationary Distribution]]
-- [[theorem-limiting-distribution_202603280833|Limiting Distribution Theorem]]
+- [[3 Reference/def-stationary-distribution_202603280834\|Stationary Distribution]]
+- [[3 Reference/theorem-limiting-distribution_202603280833\|Limiting Distribution Theorem]]

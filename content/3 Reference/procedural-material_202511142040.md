@@ -7,11 +7,13 @@ modified: 2026-03-25T15:22:40.607+07:00
 published: 2026-03-25T15:22:40.607+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-11-14 20:40
 status: in progress
 parent:
   - "[[studying]]"
 ---
+
 
 ## Definition
 
@@ -22,5 +24,4 @@ It is based on [this](https://docs.github.com/en/contributing/style-guide-and-co
 ## Implementation
 
 Titles of these notes begin with a gerund, e.g.,
-
-- [[Mounting Android Phone Internal Storage to Linux Machine]]
+- [[3 Reference/Mounting Android Phone Internal Storage to Linux Machine]]

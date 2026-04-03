@@ -5,14 +5,15 @@ modified: 2026-03-25T15:22:40.627+07:00
 published: 2026-03-25T15:22:40.627+07:00
 tags:
   - type/category
+cssclasses: ""
 creation-time: 2025-09-09 11:05
 status: in progress
 parent:
 aliases:
 ---
 
-- [[a-second-course-in-statistics-regression-analysis_202509091310|A Second Course in Statistics: Regression Analysis ]]
-- [[Elementary Linear Algebra]]
-- [[Introduction to Mathematical Statistics]]
-- [[Introduction to Real Analysis]]
-- [[Time Series Analysis With Applications in R]]
+- [[3 Reference/a-second-course-in-statistics-regression-analysis_202509091310\|A Second Course in Statistics: Regression Analysis ]]
+- [[3 Reference/structure/Elementary Linear Algebra]]
+- [[3 Reference/structure/Introduction to Mathematical Statistics]]
+- [[3 Reference/structure/Introduction to Real Analysis]]
+- [[3 Reference/structure/Time Series Analysis With Applications in R]]

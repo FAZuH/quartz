@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.262+07:00
 modified: 2026-03-30T13:58:25.262+07:00
 published: 2026-03-30T13:58:25.262+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 ## Definition
 
@@ -50,5 +52,5 @@ $$h(t) = \alpha\lambda t^{\alpha-1} = 0.002t$$
 
 ## Related
 
-- [[def-exponential-distribution-survival_202603281500|Exponential Distribution (Survival)]]
-- [[parametric-survival-distributions-cheatsheet_202603281500|Parametric Survival Distributions Cheatsheet]]
+- [[3 Reference/def-exponential-distribution-survival_202603281500\|Exponential Distribution (Survival)]]
+- [[3 Reference/parametric-survival-distributions-cheatsheet_202603281500\|Parametric Survival Distributions Cheatsheet]]

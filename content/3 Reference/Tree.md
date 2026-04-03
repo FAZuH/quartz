@@ -3,6 +3,7 @@ publish: true
 created: 2026-03-25T15:22:40.638+07:00
 modified: 2026-03-25T15:22:40.638+07:00
 published: 2026-03-25T15:22:40.638+07:00
+cssclasses: ""
 creation-time: 2025-02-27 23:29
 status: complete
 tags:
@@ -48,8 +49,11 @@ class Node[T]:
 
 ## Implementation
 
-See [[Operations in Binary Search Tree]]
+See [[3 Reference/Operations in Binary Search Tree]]
 
 ## Algorithms
 
-![[algorithm#Tree|Tree]]
+## Tree
+
+**Binary Tree**
+- [[3 Reference/Binary Tree Traversal Algorithms]]

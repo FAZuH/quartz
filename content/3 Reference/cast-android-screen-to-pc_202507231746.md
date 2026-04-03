@@ -5,13 +5,14 @@ aliases:
 created: 2026-03-25T15:22:40.592+07:00
 modified: 2026-03-25T15:22:40.592+07:00
 published: 2026-03-25T15:22:40.592+07:00
+cssclasses: ""
 creation-time: 2025-07-23 17:46
 status: in progress
 tag:
 parent: "[[software-recommendations_202507231725]]"
 ---
 
-[https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy "https://github.com/Genymobile/scrcpy")
+[https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy "https://github.com/Genymobile/scrcpy") 
 
 Customable: Can cast camera only, audio only, adjust bitrate, limit fps, connect wirelessly, etc.
 

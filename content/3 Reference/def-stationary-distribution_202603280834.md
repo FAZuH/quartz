@@ -5,20 +5,22 @@ aliases:
 created: 2026-03-29T12:54:01.178+07:00
 modified: 2026-03-29T12:54:01.178+07:00
 published: 2026-03-29T12:54:01.178+07:00
+cssclasses: ""
 creation-time: 2026-03-28 08:34
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Definition
 
-A probability vector $\pi = (\pi\_0, \pi\_1, \dots)$ is a **stationary distribution** if it satisfies:
+A probability vector $\pi = (\pi_0, \pi_1, \dots)$ is a **stationary distribution** if it satisfies:
 
-$$\pi = \pi \mathbf{P} \quad \text{and} \quad \sum\_j \pi\_j = 1$$
+$$\pi = \pi \mathbf{P} \quad \text{and} \quad \sum_j \pi_j = 1$$
 
 > [!TIP] Interpretation
-> If the initial [[def-state-stochastic_202603280801|state]] $X\_0$ is chosen according to $\pi$, then the probability of being in state $j$ at any time $n$ is also $\pi\_j$ (i.e., $P(X\_n = j) = \pi\_j$ for all $n$).
+> If the initial [[3 Reference/def-state-stochastic_202603280801\|state]] $X_0$ is chosen according to $\pi$, then the probability of being in state $j$ at any time $n$ is also $\pi_j$ (i.e., $P(X_n = j) = \pi_j$ for all $n$).
 
 ## Properties
 
@@ -28,14 +30,14 @@ $$\pi = \pi \mathbf{P} \quad \text{and} \quad \sum\_j \pi\_j = 1$$
 
 ## Example
 
-For TPM $\mathbf{P} = \begin{bmatrix}\frac{1}{2} & \frac{1}{2} & 0 \ \frac{1}{4} & \frac{1}{2} & \frac{1}{4} \ 0 & \frac{1}{2} & \frac{1}{2}\end{bmatrix}$, solving $\pi = \pi \mathbf{P}$:
+For TPM $\mathbf{P} = \begin{bmatrix}\frac{1}{2} & \frac{1}{2} & 0 \\ \frac{1}{4} & \frac{1}{2} & \frac{1}{4} \\ 0 & \frac{1}{2} & \frac{1}{2}\end{bmatrix}$, solving $\pi = \pi \mathbf{P}$:
 
-- $\pi\_1 = \frac{1}{4}$
-- $\pi\_2 = \frac{1}{2}$
-- $\pi\_3 = \frac{1}{4}$
+- $\pi_1 = \frac{1}{4}$
+- $\pi_2 = \frac{1}{2}$
+- $\pi_3 = \frac{1}{4}$
 
 ## Related
 
-- [[def-limiting-probability_202603280831|Limiting Probability]]
-- [[theorem-limiting-distribution_202603280833|Limiting Distribution Theorem]]
-- [[def-ergodic-state_202603280835|Ergodic State]]
+- [[3 Reference/def-limiting-probability_202603280831\|Limiting Probability]]
+- [[3 Reference/theorem-limiting-distribution_202603280833\|Limiting Distribution Theorem]]
+- [[3 Reference/def-ergodic-state_202603280835\|Ergodic State]]

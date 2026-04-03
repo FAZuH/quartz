@@ -5,62 +5,64 @@ aliases:
 created: 2026-03-29T17:33:47.075+07:00
 modified: 2026-03-29T21:07:25.541+07:00
 published: 2026-03-29T21:07:25.541+07:00
+cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
 ---
 
+
 ## Definition
 
-Let ${ e\_{t} }$ : [[white-noise_202603161400|White noise]]
+Let $\{ e_{t} \}$ : [[3 Reference/white-noise_202603161400\|White noise]]
 
 A **moving average process** is defined as:
 $$
-Y\_{t} = \frac{e\_{t}+e\_{t-1}}{2}
+Y_{t} = \frac{e_{t}+e_{t-1}}{2}
 $$
 
 ## Properties
 
 $$
 \begin{align}
-E\[Y\_{t}] & = E\left\[ \frac{e\_{t}+e\_{t-1}}{2} \right] \\
-& = \frac{E\[e\_{t}]+E\[e\_{t-1}]}{2} \\
+E[Y_{t}] & = E\left[ \frac{e_{t}+e_{t-1}}{2} \right] \\
+& = \frac{E[e_{t}]+E[e_{t-1}]}{2} \\
 & = 0 \\
 \\
-\text{Var}(Y\_{t})  & = \text{Var}\left( \frac{e\_{t}+e\_{t-1}}{2} \right) \\
-& = \frac{1}{4} \[\text{Var}(e\_{t})+\text{Var}(e\_{t-1})] \\
+\text{Var}(Y_{t})  & = \text{Var}\left( \frac{e_{t}+e_{t-1}}{2} \right) \\
+& = \frac{1}{4} [\text{Var}(e_{t})+\text{Var}(e_{t-1})] \\
 & = \frac{1}{4} \cdot 2\sigma^{2}_{e} \\
-& = \frac{1}{2}\sigma^{2}_{e}
+& = \frac{1}{2}\sigma^{2}_{e} 
 \end{align}
 $$
 
-For [[autocovariance-and-autocorrelation_202603161400|covariance]],
+For [[3 Reference/autocovariance-and-autocorrelation_202603161400\|covariance]],
 $$
 \begin{align}
-\text{Cov}(Y\_{t},Y\_{t-k}) & = \text{Cov}\left( \frac{e\_{t}+e\_{t-1}}{2}, \frac{e\_{t-k}+e\_{t-k-1}}{2}\right) \\
-& = \frac{1}{4}\text{Cov}(e\_{t}+e\_{t-1},e\_{t-k}+e\_{t-k-1}) \\
-& = \frac{1}{4}\[\text{Cov}(e\_{t},e\_{t-k}) + \text{Cov}(e\_{t},e\_{t-k-1}) + \text{Cov}(e\_{t-1},e\_{t-k}) + \text{Cov}(e\_{t-1},e\_{t-k-1})]\\
+\text{Cov}(Y_{t},Y_{t-k}) & = \text{Cov}\left( \frac{e_{t}+e_{t-1}}{2}, \frac{e_{t-k}+e_{t-k-1}}{2}\right) \\
+ & = \frac{1}{4}\text{Cov}(e_{t}+e_{t-1},e_{t-k}+e_{t-k-1}) \\
+ & = \frac{1}{4}[\text{Cov}(e_{t},e_{t-k}) + \text{Cov}(e_{t},e_{t-k-1}) + \text{Cov}(e_{t-1},e_{t-k}) + \text{Cov}(e_{t-1},e_{t-k-1})]\\
 \end{align}
 $$
 
-Notice that $\text{Cov}(e\_{s},e\_{s})=\text{Var}(e\_{s})=\sigma\_{e}^{2},\quad\forall s$
+Notice that $\text{Cov}(e_{s},e_{s})=\text{Var}(e_{s})=\sigma_{e}^{2},\quad\forall s$
 
 Consider all cases for $k$:
 
 If $k=0$, then
 $$
 \begin{align}
-\text{Cov}(Y\_{t},Y\_{t-k}) & = \frac{1}{4} \[\sigma^{2}_{e} + 0 + 0 + \sigma^{2}_{e}] \\
-\text{Var}(Y\_{t}) & = \frac{1}{2}\sigma^{2}\_{e}
+\text{Cov}(Y_{t},Y_{t-k}) & = \frac{1}{4} [\sigma^{2}_{e} + 0 + 0 + \sigma^{2}_{e}] \\
+ \text{Var}(Y_{t}) & = \frac{1}{2}\sigma^{2}_{e}
 \end{align}
 $$
 
 If $k=1$, then
 $$
-\text{Cov}(Y\_{t},Y\_{t-k})  = \frac{1}{4}\[0 + 0 + \sigma^{2}_{e} + 0] = \frac{1}{4}\sigma^{2}_{e}
+\text{Cov}(Y_{t},Y_{t-k})  = \frac{1}{4}[0 + 0 + \sigma^{2}_{e} + 0] = \frac{1}{4}\sigma^{2}_{e}
 $$
 
 Otherwise, if $k\geq2$
 $$
-\text{Cov}(Y\_{t},Y\_{t-k})  = \frac{1}{4}\[0 + 0 + 0 + 0] = 0
+\text{Cov}(Y_{t},Y_{t-k})  = \frac{1}{4}[0 + 0 + 0 + 0] = 0
 $$

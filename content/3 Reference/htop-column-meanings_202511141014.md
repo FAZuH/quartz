@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.604+07:00
 published: 2026-03-25T15:22:40.604+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-11-14 10:14
 status: in progress
 parent:
@@ -21,3 +22,4 @@ parent:
 - **S**: Status (\[R]unning, \[S]leep, \[D]isk, \[Z]ombie, \[T]opped)
 - **TIME+**: Cumulative time a process has used the CPU (Not to be confused with uptime)
 - **Tasks**: thr (threads), kthr (kernel threads)
+

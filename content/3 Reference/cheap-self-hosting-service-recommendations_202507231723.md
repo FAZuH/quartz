@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.606+07:00
 modified: 2026-03-25T15:22:40.606+07:00
 published: 2026-03-25T15:22:40.606+07:00
+cssclasses: ""
 creation-time: 2025-07-23 17:23
 status: in progress
 tags:
@@ -18,12 +19,10 @@ parent:
 ## Paid
 
 **Providers**
-
-- https://contabo.com: Singapore Ubuntu VPS with 150GB SSD, 8GB RAM, 3vCPU
-- https://cloudflare.com: Domain registrar (.com):
+-  https://contabo.com: Singapore Ubuntu VPS with 150GB SSD, 8GB RAM, 3vCPU
+-  https://cloudflare.com: Domain registrar (.com):
 
 **Costs** (as of 2025-07-23)
-
 - VPS monthly fee: 6.80 GBP/129,885.44 IDR
 - Domain (.com) yearly fee: 10.44 USD/170,132.88 IDR
 
@@ -42,8 +41,8 @@ All may be set up using Docker (except 1Panel)
 - ⭐ Cloud storage: https://nextcloud.com
 - ⭐ Mail server: https://mailcow.email/  (Advanced. Full mail stack including web-mail, backup/restore script, health notifications, etc.)
 - ⭐ Database admin panel: https://www.phpmyadmin.net/
-- ⭐ Web server: https://nginxui.com/guide/about
-  Planning on migrating to https://github.com/nginx-proxy/nginx-proxy, although not beginner friendly
+- ⭐ Web server: https://nginxui.com/guide/about 
+	Planning on migrating to https://github.com/nginx-proxy/nginx-proxy, although not beginner friendly
 - ⭐ Automatic backups: https://autorestic.vercel.app/ + https://rclone.org/
 - ⭐ Monitoring: https://uptime.kuma.pet/
 - ⭐ VPN: https://tailscale.com/

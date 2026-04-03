@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.641+07:00
 modified: 2026-03-25T15:22:40.641+07:00
 published: 2026-03-25T15:22:40.641+07:00
+cssclasses: ""
 creation-time: 2025-07-15 02:13
 status: complete
 tag:
@@ -13,14 +14,14 @@ parent:
   - "[[linear-algebra]]"
 ---
 
+
 ## Definition
 
 Let
+- $A$ : [[3 Reference/Def-matrix\|Matrix]]
+- $c$ : [[3 Reference/Def-matrix#^def-scalar\|Scalar]]
 
-- $A$ : [[Def-matrix|Matrix]]
-- $c$ : [[Def-matrix#^def-scalar|Scalar]]
-
-Then
-
+Then 
 - **Product** $cA$ is the matrix obtained by multiplying entry of $A$ by $c$
 - We say $cA$ a **scalar multiple** of $A$
+

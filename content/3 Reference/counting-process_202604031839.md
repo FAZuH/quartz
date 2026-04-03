@@ -7,18 +7,19 @@ modified: 2026-04-03T19:12:20.860+07:00
 published: 2026-04-03T19:12:20.860+07:00
 tags:
   - type/definition
+cssclasses: ""
 creation-time: 2026-04-03 18:39
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Definition
 
-A **Counting Process** is a [[def-stochastic-process_202603280800|stochastic process]] ${N(t), t \geq 0}$ where $N(t)$ represents the total number of "events" that occur by time $t$.
+A **Counting Process** is a [[3 Reference/def-stochastic-process_202603280800\|stochastic process]] $\{N(t), t \geq 0\}$ where $N(t)$ represents the total number of "events" that occur by time $t$.
 
 The process must satisfy:
-
 1. $N(t) \geq 0$
 2. $N(t)$ is integer valued
 3. If $s < t$, then $N(s) \leq N(t)$ (non-decreasing)
@@ -35,5 +36,5 @@ The process must satisfy:
 
 ## Related
 
-- [[poisson-process_202604031845|Poisson Process]] — the most important counting process
-- [[independent-and-stationary-increments_202604031839|Independent and Stationary Increments]] — properties many counting processes possess
+- [[3 Reference/poisson-process_202604031845\|Poisson Process]] — the most important counting process
+- [[3 Reference/independent-and-stationary-increments_202604031839\|Independent and Stationary Increments]] — properties many counting processes possess

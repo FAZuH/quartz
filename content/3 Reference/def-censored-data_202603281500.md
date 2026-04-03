@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 ## Definition
 
@@ -18,7 +20,7 @@ parent:
 - Event did not occur until end of study
 - Sample unit no longer collectable before end of study
 
-> <u>Mostly about not having enough information.</u>
+><u>Mostly about not having enough information.</u>
 
 ## Types of Censoring
 
@@ -26,9 +28,9 @@ parent:
 |------|-------------|---------------------|
 | Right censored | Survived until time $C$ | If/when event occurred after $C$ |
 | Left censored | Event occurred before study | Exactly when |
-| Interval censored | Event occurred in $\[L, R]$ | Exact time |
+| Interval censored | Event occurred in $[L, R]$ | Exact time |
 
 ##Related
 
-- [[def-truncated-data_202603281500|Truncated Data]]
-- [[about-censoring-types_202603281500|Types of Censoring in Detail]]
+- [[3 Reference/def-truncated-data_202603281500\|Truncated Data]]
+- [[3 Reference/about-censoring-types_202603281500\|Types of Censoring in Detail]]

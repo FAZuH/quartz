@@ -5,46 +5,46 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
 
+
 ## Definition
 
 **Kaplan-Meier Estimator** for survival function:
 
-$$\hat{S}(t) = \prod\_{t\_i \leq t} \left(1 - \frac{d\_i}{Y\_i}\right)$$
+$$\hat{S}(t) = \prod_{t_i \leq t} \left(1 - \frac{d_i}{Y_i}\right)$$
 
 where:
-
-- $d\_i$ = number of events at time $t\_i$
-- $Y\_i$ = number at risk just before $t\_i$
+- $d_i$ = number of events at time $t_i$
+- $Y_i$ = number at risk just before $t_i$
 
 ## About Kaplan-Meier Approach
 
 The Kaplan-Meier estimator builds the survival curve step-by-step, calculating the conditional probability of surviving past each observed event time.
 
 **Timeline and Definitions:**
-
-- $n = Y\_0$: Total number of subjects at the start
-- $Y\_i$: Number at risk just before time $t\_i$
-- $d\_i$: Number of events at time $t\_i$
-- $c\_i$: Number censored between $t\_i$ and $t\_{i+1}$
+- $n = Y_0$: Total number of subjects at the start
+- $Y_i$: Number at risk just before time $t_i$
+- $d_i$: Number of events at time $t_i$
+- $c_i$: Number censored between $t_i$ and $t_{i+1}$
 
 **Step-by-step Intuition:**
 
-1. **At time $t\_0$**: Everyone is alive.
-   $$S(t\_0) = \Pr(T > t\_0) = 1$$
+1. **At time $t_0$**: Everyone is alive.
+   $$S(t_0) = \Pr(T > t_0) = 1$$
 
-2. **At time $t\_1$**: $Y\_1$ people at risk. $d\_1$ events.
-   $$S(t\_1) = S(t\_0) \times \left(1 - \frac{d\_1}{Y\_1}\right)$$
+2. **At time $t_1$**: $Y_1$ people at risk. $d_1$ events.
+   $$S(t_1) = S(t_0) \times \left(1 - \frac{d_1}{Y_1}\right)$$
 
-3. **At time $t\_2$**: $Y\_2 = n - d\_1 - c\_1$ people at risk.
-   $$S(t\_2)= S(t\_1) \times \left(1 - \frac{d\_2}{Y\_2}\right)$$
+3. **At time $t_2$**: $Y_2 = n - d_1 - c_1$ people at risk.
+   $$S(t_2)= S(t_1) \times \left(1 - \frac{d_2}{Y_2}\right)$$
 
 ## Related
 
-- [[def-nelson-aalen-estimator_202603281500|Nelson-Aalen Estimator]]
-- [[def-survival-function_202603281500|Survival Function]]
+- [[3 Reference/def-nelson-aalen-estimator_202603281500\|Nelson-Aalen Estimator]]
+- [[3 Reference/def-survival-function_202603281500\|Survival Function]]

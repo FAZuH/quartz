@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.640+07:00
 published: 2026-03-25T15:22:40.640+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 10:49
 status: complete
 parent:
@@ -14,11 +15,12 @@ parent:
   - "[[matrices]]"
 ---
 
+
 ## Definition
 
-A [[Def-matrix|matrix]] whose [[Def-matrix|entries]] are all zero is called a **zero matrix**.
+A [[3 Reference/Def-matrix\|matrix]] whose [[3 Reference/Def-matrix\|entries]] are all zero is called a **zero matrix**.
 
-Usually denoted as $0$, or if the sizes are important, $0\_{m\times n}$.
+Usually denoted as $0$, or if the sizes are important, $0_{m\times n}$.
 
 ## Example
 

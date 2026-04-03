@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.597+07:00
 modified: 2026-03-25T15:22:40.597+07:00
 published: 2026-03-25T15:22:40.597+07:00
+cssclasses: ""
 creation-time: 2025-07-23 18:22
 status: in progress
 tag:
@@ -12,7 +13,6 @@ parent: "[[self-hosting]]"
 ---
 
 As of 2025-07-23
-
 ## Provider VPS Indonesia
 
 | Provider        | vCPU | RAM  | Storage      | Price (IDR/month) |

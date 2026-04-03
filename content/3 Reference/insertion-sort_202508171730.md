@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.612+07:00
 modified: 2026-03-25T15:22:40.612+07:00
 published: 2026-03-25T15:22:40.612+07:00
+cssclasses: ""
 creation-time: 2025-08-17 17:30
 status: in progress
 tags:
@@ -12,8 +13,9 @@ parent:
   - "[[sorting-algorithms_202508172342|sorting algorithms]]"
 ---
 
-## Implementation
 
+
+## Implementation
 ```python
 class InsertionSort(Sort[int]):
     def sort(self, array: list[int]):

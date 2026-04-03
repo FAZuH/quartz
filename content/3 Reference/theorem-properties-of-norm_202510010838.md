@@ -7,21 +7,21 @@ modified: 2026-03-25T15:22:40.646+07:00
 published: 2026-03-25T15:22:40.646+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-01 08:38
 status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
+
 ## Theorem
 
-Let
-
+Let 
 - $\mathbf{v}$ vector in $R^n$
-- $k$ any [[Def-matrix|scalar]]
+- $k$ any [[3 Reference/Def-matrix\|scalar]]
 
 Then
-
 - $||\mathbf{v}||\geq 0$
 - $||\mathbf{v}|| = 0\iff \mathbf{v}=0$
-- $||k\mathbf{v}||=|k|; ||\mathbf{v}||$
+- $||k\mathbf{v}||=|k|\; ||\mathbf{v}||$

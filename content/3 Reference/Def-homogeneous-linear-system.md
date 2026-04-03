@@ -6,6 +6,7 @@ aliases:
 created: 2026-03-25T15:22:40.628+07:00
 modified: 2026-03-25T15:22:40.628+07:00
 published: 2026-03-25T15:22:40.628+07:00
+cssclasses: ""
 creation-time: 2025-07-15 01:58
 status: in progress
 tags:
@@ -13,20 +14,19 @@ parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
+
 ## Definition
+**Homogeneous linear system** is defined as a [[3 Reference/Def-linear-system\|linear system]] with $b_{i}=0$, for all $i=1,\dots,n$.
 
-**Homogeneous linear system** is defined as a [[Def-linear-system|linear system]] with $b\_{i}=0$, for all $i=1,\dots,n$.
-
-It is written as
+It is written as 
 $$ \begin{matrix}
-a\_{11}x\_{1} & + & a\_{12}x\_{2} & + & \dots & + &  a\_{1n}x\_{n} & = & 0 \\
-a\_{21}x\_{1} & + & a\_{22}x\_{2} & + & \dots & + &  a\_{2n}x\_{n} & = & 0 \\
+a_{11}x_{1} & + & a_{12}x_{2} & + & \dots & + &  a_{1n}x_{n} & = & 0 \\
+a_{21}x_{1} & + & a_{22}x_{2} & + & \dots & + &  a_{2n}x_{n} & = & 0 \\
 \vdots & & \vdots & &&  & \vdots &  & \vdots \\
-a\_{m1}x\_{1} & + & a\_{m2}x\_{2} & + & \dots & + &  a\_{mn}x\_{n} & = & 0 \\
+a_{m1}x_{1} & + & a_{m2}x_{2} & + & \dots & + &  a_{mn}x_{n} & = & 0 \\
 \end{matrix} $$
 
 ## Related theorems
-
-- [[1.2 Gaussian Elimination#Theorem Solution of homogeneous linear system]]
-- [[1.2 Gaussian Elimination#Theorem 1.2.1 Free variable for homogeneous system]]
-- [[1.2 Gaussian Elimination#Theorem 1.2.2]]
+- [[3 Reference/1.2 Gaussian Elimination#Theorem Solution of homogeneous linear system]]
+- [[3 Reference/1.2 Gaussian Elimination#Theorem 1.2.1 Free variable for homogeneous system]]
+- [[3 Reference/1.2 Gaussian Elimination#Theorem 1.2.2]]

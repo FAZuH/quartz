@@ -6,6 +6,7 @@ aliases:
 created: 2026-03-25T15:22:40.645+07:00
 modified: 2026-03-25T15:22:40.645+07:00
 published: 2026-03-25T15:22:40.645+07:00
+cssclasses: ""
 creation-time: 2025-07-14 23:32
 status: complete
 tags:
@@ -15,13 +16,13 @@ categories:
   - "[[sets]]"
 ---
 
+
 ## Definition
 
-Let $A,B$ : [[def-set_202510022014|Set]]
+Let $A,B$ : [[3 Reference/def-set_202510022014\|Set]]
 
 If $A,B$ contains the same elements
 
 Then
-
 - We say $A$ and $B$ are **equal**
 - We write $A=B$

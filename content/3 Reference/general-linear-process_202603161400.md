@@ -6,81 +6,83 @@ aliases:
 created: 2026-03-31T14:31:16.152+07:00
 modified: 2026-03-31T19:53:19.749+07:00
 published: 2026-03-31T19:53:19.749+07:00
+cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
 ---
 
+
 ## Definition
 
-A process ${Z\_t}$ is a **general linear process** if it can be represented as a weighted linear combination of current and past [[white-noise_202603161400|white noise]] shocks:
-$$Z\_t = a\_t + \psi\_1 a\_{t-1} + \psi\_2 a\_{t-2} + \dots = \sum\_{j=0}^\infty \psi\_j a\_{t-j}$$
-where $\psi\_0 = 1$ and ${a\_t}$ is white noise.
+A process $\{Z_t\}$ is a **general linear process** if it can be represented as a weighted linear combination of current and past [[3 Reference/white-noise_202603161400\|white noise]] shocks:
+$$Z_t = a_t + \psi_1 a_{t-1} + \psi_2 a_{t-2} + \dots = \sum_{j=0}^\infty \psi_j a_{t-j}$$
+where $\psi_0 = 1$ and $\{a_t\}$ is white noise.
 
 ## Stationarity Condition
 
-For a general linear process to be [[weakly-stationary_202603161400|stationary]], the weights must satisfy:
-$$\sum\_{j=0}^\infty \psi\_j^2 < \infty$$
-This ensures the [[autocovariance-and-autocorrelation_202603161400|variance]] of the process is finite.
+For a general linear process to be [[3 Reference/weakly-stationary_202603161400\|stationary]], the weights must satisfy:
+$$\sum_{j=0}^\infty \psi_j^2 < \infty$$
+This ensures the [[3 Reference/autocovariance-and-autocorrelation_202603161400\|variance]] of the process is finite.
 
 ## Example: Representing AR(1) as GLP
 
-Let ${ Z\_{t} }$ be defined as
+Let $\{ Z_{t} \}$ be defined as
 $$
-Z\_{t}  =  a\_{t} + \phi Z\_{t-1}
+Z_{t}  =  a_{t} + \phi Z_{t-1}
 $$
-where ${ a\_{t} }$ is white noise.
+where $\{ a_{t} \}$ is white noise.
 
 Expanding:
 $$
 \begin{align}
-Z\_{t} & = a\_{t} + \phi Z\_{t -1}  \\
-& = a\_{t} +  \phi ( a\_{t-1} + \phi Z\_{t-2}) \\
-& = a\_{t} + \phi a\_{t-1} + \phi^{2}Z\_{t-2}  \\
-& = a\_{t} + \phi a\_{t-1} + \phi^{2}(a\_{t-2} + \phi Z\_{t-3})  \\
-& = a\_{t} + \phi a\_{t-1} + \phi^{2}a\_{t-2} + \phi^3 Z\_{t-3}  \\
-& \quad\quad\quad\vdots \\
-& = \sum\_{j=0}^\infty \phi^j a\_{t-j}
+Z_{t} & = a_{t} + \phi Z_{t -1}  \\
+ & = a_{t} +  \phi ( a_{t-1} + \phi Z_{t-2}) \\
+  & = a_{t} + \phi a_{t-1} + \phi^{2}Z_{t-2}  \\
+  & = a_{t} + \phi a_{t-1} + \phi^{2}(a_{t-2} + \phi Z_{t-3})  \\
+  & = a_{t} + \phi a_{t-1} + \phi^{2}a_{t-2} + \phi^3 Z_{t-3}  \\
+   & \quad\quad\quad\vdots \\
+    & = \sum_{j=0}^\infty \phi^j a_{t-j}
 \end{align}
 $$
 
-The process above can be represented as GLM with $\psi\_{j} = \phi^j$
+The process above can be represented as GLM with $\psi_{j} = \phi^j$
 
 ## Example: Representing AR(2) as GLP
 
-Let ${ Z\_{t} }$ be defined as
+Let $\{ Z_{t} \}$ be defined as
 $$
-Z\_{t}  =  a\_{t} + \phi\_{1} Z\_{t-1} + \phi\_{2} Z\_{t-2}
+Z_{t}  =  a_{t} + \phi_{1} Z_{t-1} + \phi_{2} Z_{t-2}
 $$
-where ${ a\_{t} }$ is white noise.
+where $\{ a_{t} \}$ is white noise.
 
 Expanding:
 $$
 \begin{align}
-Z\_{t}  & =  a\_{t} + \textcolor{lime}{\phi\_{1}} Z\_{t-1} + \textcolor{cyan}{\phi\_{2}} Z\_{t-2} \\
-& = a\_{t} + \textcolor{lime}{\phi\_{1}}(a\_{t-1} + \textcolor{lime}{\phi\_{1}} Z\_{t-2} + \textcolor{cyan}{\phi\_{2}} Z\_{t-3}) + \textcolor{cyan}{\phi\_{2}}(a\_{t-2} + \textcolor{lime}{\phi\_{1}} Z\_{t-3} + \textcolor{cyan}{\phi\_{2}} Z\_{t-4}) \\
-& = a\_{t} + \[\textcolor{lime}{\phi\_{1}} a\_{t-1} + \textcolor{lime}{\phi\_{1}}^{2}Z\_{t-2} + \textcolor{lime}{\phi\_{1}}\textcolor{cyan}{\phi\_{2}}Z\_{t-3}] + \[\textcolor{cyan}{\phi\_{2}}a\_{t-2} + \textcolor{lime}{\phi\_{1}}\textcolor{cyan}{\phi\_{2}}Z\_{t-3} + \textcolor{cyan}{\phi\_{2}}^{2}Z\_{t-4}] \\
-& = a\_{t} + \textcolor{lime}{\phi\_{1}} a\_{t-1} + \textcolor{cyan}{\phi\_{2}} a\_{t-2} + \textcolor{lime}{\phi\_{1}}^{2}Z\_{t-2} + 2\textcolor{lime}{\phi\_{1}}\textcolor{cyan}{\phi\_{2}}Z\_{t-3} + \textcolor{cyan}{\phi\_{2}}^{2}Z\_{t-4} \\
-& = a\_{t} + \textcolor{lime}{\phi\_{1}}a\_{t-1} + \textcolor{cyan}{\phi\_{2}}a\_{t-2} + \textcolor{lime}{\phi\_{1}}^{2} (a\_{t-2} + \textcolor{lime}{\phi\_{1}}Z\_{t-3} + \textcolor{cyan}{\phi\_{2}}Z\_{t-4}) + 2\textcolor{lime}{\phi\_{1}}\textcolor{cyan}{\phi\_{2}}Z\_{t-3} + \textcolor{cyan}{\phi\_{2}}^{2}Z\_{t-4} \\
-& = a\_{t} + \textcolor{lime}{\phi\_{1}}a\_{t-1} + \textcolor{cyan}{\phi\_{2}}a\_{t-2} + \textcolor{lime}{\phi\_{1}}^{2}a\_{t-2} + \textcolor{lime}{\phi\_{1}}^{3}Z\_{t-3} + \textcolor{lime}{\phi\_{1}}^{2}\textcolor{cyan}{\phi\_{2}}Z\_{t-4} + 2\textcolor{lime}{\phi\_{1}}\textcolor{cyan}{\phi\_{2}}Z\_{t-3} + \textcolor{cyan}{\phi\_{2}}^{2}Z\_{t-4} \\
-& = a\_{t} + \textcolor{lime}{\phi\_{1}}a\_{t-1} + (\textcolor{lime}{\phi\_{1}}^{2} + \textcolor{cyan}{\phi\_{2}})a\_{t-2} + (\textcolor{lime}{\phi\_{1}}^{3} + 2\textcolor{lime}{\phi\_{1}}\textcolor{cyan}{\phi\_{2}})Z\_{t-3} + (\textcolor{lime}{\phi\_{1}}^{2}\textcolor{cyan}{\phi\_{2}} + \textcolor{cyan}{\phi\_{2}}^{2})Z\_{t-4} \\
+Z_{t}  & =  a_{t} + \textcolor{lime}{\phi_{1}} Z_{t-1} + \textcolor{cyan}{\phi_{2}} Z_{t-2} \\
+& = a_{t} + \textcolor{lime}{\phi_{1}}(a_{t-1} + \textcolor{lime}{\phi_{1}} Z_{t-2} + \textcolor{cyan}{\phi_{2}} Z_{t-3}) + \textcolor{cyan}{\phi_{2}}(a_{t-2} + \textcolor{lime}{\phi_{1}} Z_{t-3} + \textcolor{cyan}{\phi_{2}} Z_{t-4}) \\
+& = a_{t} + [\textcolor{lime}{\phi_{1}} a_{t-1} + \textcolor{lime}{\phi_{1}}^{2}Z_{t-2} + \textcolor{lime}{\phi_{1}}\textcolor{cyan}{\phi_{2}}Z_{t-3}] + [\textcolor{cyan}{\phi_{2}}a_{t-2} + \textcolor{lime}{\phi_{1}}\textcolor{cyan}{\phi_{2}}Z_{t-3} + \textcolor{cyan}{\phi_{2}}^{2}Z_{t-4}] \\
+& = a_{t} + \textcolor{lime}{\phi_{1}} a_{t-1} + \textcolor{cyan}{\phi_{2}} a_{t-2} + \textcolor{lime}{\phi_{1}}^{2}Z_{t-2} + 2\textcolor{lime}{\phi_{1}}\textcolor{cyan}{\phi_{2}}Z_{t-3} + \textcolor{cyan}{\phi_{2}}^{2}Z_{t-4} \\
+& = a_{t} + \textcolor{lime}{\phi_{1}}a_{t-1} + \textcolor{cyan}{\phi_{2}}a_{t-2} + \textcolor{lime}{\phi_{1}}^{2} (a_{t-2} + \textcolor{lime}{\phi_{1}}Z_{t-3} + \textcolor{cyan}{\phi_{2}}Z_{t-4}) + 2\textcolor{lime}{\phi_{1}}\textcolor{cyan}{\phi_{2}}Z_{t-3} + \textcolor{cyan}{\phi_{2}}^{2}Z_{t-4} \\
+& = a_{t} + \textcolor{lime}{\phi_{1}}a_{t-1} + \textcolor{cyan}{\phi_{2}}a_{t-2} + \textcolor{lime}{\phi_{1}}^{2}a_{t-2} + \textcolor{lime}{\phi_{1}}^{3}Z_{t-3} + \textcolor{lime}{\phi_{1}}^{2}\textcolor{cyan}{\phi_{2}}Z_{t-4} + 2\textcolor{lime}{\phi_{1}}\textcolor{cyan}{\phi_{2}}Z_{t-3} + \textcolor{cyan}{\phi_{2}}^{2}Z_{t-4} \\
+& = a_{t} + \textcolor{lime}{\phi_{1}}a_{t-1} + (\textcolor{lime}{\phi_{1}}^{2} + \textcolor{cyan}{\phi_{2}})a_{t-2} + (\textcolor{lime}{\phi_{1}}^{3} + 2\textcolor{lime}{\phi_{1}}\textcolor{cyan}{\phi_{2}})Z_{t-3} + (\textcolor{lime}{\phi_{1}}^{2}\textcolor{cyan}{\phi_{2}} + \textcolor{cyan}{\phi_{2}}^{2})Z_{t-4} \\
 & \quad\quad\quad\vdots \\
 \end{align}
 $$
 
-Notice that the equation above can be written as $Z\_{t} = \sum\_{j=0}^\infty a\_{t-j}\psi\_{j}$, where
+Notice that the equation above can be written as $Z_{t} = \sum_{j=0}^\infty a_{t-j}\psi_{j}$, where
 $$
 \begin{align}
-\psi\_{0} & = \textcolor{red}{1} \\
-\psi\_{1} & = \textcolor{lime}{\phi\_{1}} \\
-\psi\_{2} & = \textcolor{cyan}{\phi\_{1}^{2}+\phi\_{2}} & &  = \phi\_{1}(\textcolor{lime}{\phi\_{1}}) + \phi\_{2}(\textcolor{red}{1})   \\
-\psi\_{3} & = \phi\_{1}^{3}+2\phi\_{1}\phi\_{2} & &  = \phi\_{1}(\textcolor{cyan}{\phi\_{1}^{2} + \phi\_{2}}) + \phi\_{2}(\textcolor{lime}{\phi\_{1}}) \\
-& \quad\quad\quad\vdots \\
-\psi\_{j} & = \phi\_{1}\psi\_{j-1} + \phi\_{2}\psi\_{j-2}
+\psi_{0} & = \textcolor{red}{1} \\
+\psi_{1} & = \textcolor{lime}{\phi_{1}} \\
+\psi_{2} & = \textcolor{cyan}{\phi_{1}^{2}+\phi_{2}} & &  = \phi_{1}(\textcolor{lime}{\phi_{1}}) + \phi_{2}(\textcolor{red}{1})   \\
+\psi_{3} & = \phi_{1}^{3}+2\phi_{1}\phi_{2} & &  = \phi_{1}(\textcolor{cyan}{\phi_{1}^{2} + \phi_{2}}) + \phi_{2}(\textcolor{lime}{\phi_{1}}) \\
+ & \quad\quad\quad\vdots \\
+ \psi_{j} & = \phi_{1}\psi_{j-1} + \phi_{2}\psi_{j-2}
 \end{align}
 $$
 
 $\therefore$ So, AR(2) process can be represented as GLM as:
 $$
-Z\_{t} = \sum\_{j=0}^\infty \psi\_{j} a\_{t-j},\quad\psi\_{j} = \phi\_{1}\psi\_{j-1} + \phi\_{2}\psi\_{j-2},\quad j\geq 2
+Z_{t} = \sum_{j=0}^\infty \psi_{j} a_{t-j},\quad\psi_{j} = \phi_{1}\psi_{j-1} + \phi_{2}\psi_{j-2},\quad j\geq 2
 $$

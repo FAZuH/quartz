@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.646+07:00
 published: 2026-03-25T15:22:40.646+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 12:16
 status: complete
 parent:
@@ -14,11 +15,11 @@ parent:
   - "[[matrices]]"
 ---
 
+
 ## Theorem
 
-Let $R$ : [[Def-reduced-row-echelon-form-(rref)|Reduced Row Echelon Form (RREF)]] of matrix of size $n\times n$.
+Let $R$ : [[3 Reference/Def-reduced-row-echelon-form-(rref)\|Reduced Row Echelon Form (RREF)]] of matrix of size $n\times n$.
 
 Then either
-
 1. $R$ has row of $0$'s, or
-2. $R$ is the [[def-identity-matrix_202509241204|identity matrix]] $I\_{n}$
+2. $R$ is the [[3 Reference/def-identity-matrix_202509241204\|identity matrix]] $I_{n}$

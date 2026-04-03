@@ -9,24 +9,26 @@ modified: 2026-03-25T15:22:40.597+07:00
 published: 2026-03-25T15:22:40.597+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-08 03:16
 status: in progress
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
+
 ## Definition
 
 Let $A$ : Matrix
 
-Then
 
-- $n=\operatorname{dim}\[R(A)]=\operatorname{dim}\[C(A)]$
+Then 
+- $n=\operatorname{dim}[R(A)]=\operatorname{dim}[C(A)]$ 
 - We call $n$ the **rank** of $A$
 - We denote $n=\operatorname{rank}(A)$
-- We call $\operatorname{dim}\[N(A)]$ the **nullity** of $A$
+- We call $\operatorname{dim}[N(A)]$ the **nullity** of $A$
 
-\[^1]
+[^1]
 
 ## Theorems
 
@@ -40,10 +42,9 @@ $$
 
 ### Row Echelon Form Theorem
 
-Let $R$ : [[Def-row-echelon-form-(ref)|REF]] (or [[Def-reduced-row-echelon-form-(rref)|RREF]]) of $A$
+Let $R$ : [[3 Reference/Def-row-echelon-form-(ref)\|REF]] (or [[3 Reference/Def-reduced-row-echelon-form-(rref)\|RREF]]) of $A$ 
 
 Then
-
 - $\operatorname{rank}(A) = \text{number of nonzero rows in } R$
 - $\operatorname{rank}(A)$ equals the number of pivot positions in $A$.
 
@@ -53,12 +54,14 @@ $$
 \operatorname{rank}(A) = \operatorname{rank}(A^T)
 $$
 
+
 > [!note]
-> This follows from $\operatorname{dim}\[R(A)] = \operatorname{dim}\[C(A)]$.
+> This follows from $\operatorname{dim}[R(A)] = \operatorname{dim}[C(A)]$.
 
 ### Tranpose product rank theorem
 
 $$\operatorname{rank}(A^TA) = \operatorname{rank}(A)$$
+
 
 **Proof**
 
@@ -68,7 +71,7 @@ If $A^TA\mathbf{x} = \mathbf{0}$, then $\mathbf{x}^TA^TA\mathbf{x} = (A\mathbf{x
 
 Since $N(A^TA) = N(A)$, we have $\operatorname{nullity}(A^TA) = \operatorname{nullity}(A)$.
 
-Both $A^TA$ and $A$ have $n$ columns, so by [[#Rank-Nullity Theorem]]:
+Both $A^TA$ and $A$ have $n$ columns, so by [[3 Reference/def-rank-and-nullity_202510080316#Rank-Nullity Theorem]]:
 
 $$\operatorname{rank}(A^TA) = n - \operatorname{nullity}(A^TA) = n - \operatorname{nullity}(A) = \operatorname{rank}(A)$$
 
@@ -78,12 +81,12 @@ Let $B$ : $n \times p$ matrix
 
 Then
 $$
-\operatorname{rank}(AB) \leq \min{\operatorname{rank}(A), \operatorname{rank}(B)}
+\operatorname{rank}(AB) \leq \min\{\operatorname{rank}(A), \operatorname{rank}(B)\}
 $$
 
 ### Invertible Matrix Rank Theorem
 
-Suppose $m=n$, i.e., $A$ be a [[Def-matrix|square matrix]] of order $n$
+Suppose $m=n$, i.e., $A$ be a [[3 Reference/Def-matrix\|square matrix]] of order $n$
 
 Then $A$ is invertible if and only if $\operatorname{rank}(A) = n$.
 
@@ -94,19 +97,18 @@ Equivalently, $A$ is invertible if and only if $\operatorname{nullity}(A) = 0$.
 Let $A$ be an $m \times n$ matrix.
 
 Then
-
 - $A$ has **full column rank** if $\operatorname{rank}(A) = n$ (number of columns)
-  - This occurs if and only if the columns of $A$ are linearly independent
-  - This occurs if and only if $\operatorname{nullity}(A) = 0$
-
+	- This occurs if and only if the columns of $A$ are linearly independent
+	- This occurs if and only if $\operatorname{nullity}(A) = 0$
+  
 - $A$ has **full row rank** if $\operatorname{rank}(A) = m$ (number of rows)
-  - This occurs if and only if the rows of $A$ are linearly independent
+	- This occurs if and only if the rows of $A$ are linearly independent
 
 ### Equality of Row and Column Space Dimensions Theorem
 
 Let $A$ : Matrix
 
-Then $\operatorname{dim}\[R(A)] = \operatorname{dim}\[C(A)]$
+Then $\operatorname{dim}[R(A)] = \operatorname{dim}[C(A)]$
 
 ## Theorems: Rank with eigenvalues and eigenvectors
 
@@ -127,9 +129,9 @@ If and only if $A$ is singular (rank-deficient)
 
 The geometric multiplicity of $\lambda = 0$ (dimension of its eigenspace) equals $\operatorname{nullity}(A)$.
 
-Since the eigenspace for $\lambda = 0$ is ${\mathbf{x} : A\mathbf{x} = 0\mathbf{x}} = N(A)$:
+Since the eigenspace for $\lambda = 0$ is $\{\mathbf{x} : A\mathbf{x} = 0\mathbf{x}\} = N(A)$:
 
-$$\operatorname{dim}(\text{eigenspace of } \lambda = 0) = \operatorname{dim}\[N(A)] = \operatorname{nullity}(A)$$
+$$\operatorname{dim}(\text{eigenspace of } \lambda = 0) = \operatorname{dim}[N(A)] = \operatorname{nullity}(A)$$
 
 ### Rank via Rank-Nullity Theorem
 
@@ -137,4 +139,4 @@ For an $n \times n$ matrix:
 
 $$\operatorname{rank}(A) = n - \operatorname{nullity}(A) = n - \text{geometric multiplicity of } \lambda = 0$$
 
-\[^1]: [[def-row-space,-column-space,-null-space_202510061124|Column space]], [[def-row-space,-column-space,-null-space_202510061124|Row space]], [[def-row-space,-column-space,-null-space_202510061124|Null space]], [[def-dimension_202510080329|Dimension]]
+[^1]: [[3 Reference/def-row-space,-column-space,-null-space_202510061124\|Column space]], [[3 Reference/def-row-space,-column-space,-null-space_202510061124\|Row space]], [[3 Reference/def-row-space,-column-space,-null-space_202510061124\|Null space]], [[3 Reference/def-dimension_202510080329\|Dimension]]

@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.262+07:00
 modified: 2026-03-30T13:58:25.262+07:00
 published: 2026-03-30T13:58:25.262+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 # Cheatsheet: Parametric Survival Distributions
 

@@ -7,11 +7,13 @@ modified: 2026-03-29T17:18:07.982+07:00
 published: 2026-03-29T17:18:07.982+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2026-03-13 11:05
 status: in progress
 parent:
   - "[[guideline]]"
 ---
+
 
 ## Checklist
 
@@ -68,11 +70,10 @@ Produce a single consolidated reference for the material. This serves as the hum
 Create flashcards with format matched to unit type:
 
 - **Conceptual** → Explain-in-own-words prompt (Feynman-style)
-- **Referential** → Cloze or basic Q\&A; straight recall for formulas
+- **Referential** → Cloze or basic Q&A; straight recall for formulas
 - **Procedural** → "Given X, what are the steps?" or reverse-engineer from result
 
 Rare:
-
 - **Collection** → Enumerate the set, or "what are all cases of X?"
 - **Example** → "What technique applies here?" or "demonstrate Y on this input"
 

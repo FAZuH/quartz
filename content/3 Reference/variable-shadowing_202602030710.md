@@ -7,11 +7,13 @@ modified: 2026-03-25T15:22:40.618+07:00
 published: 2026-03-25T15:22:40.618+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2026-02-03 07:10
 status: in progress
 parent:
   - "[[rust]]"
 ---
+
 
 > When a variable is "overridden" or "stacked on top of" another variable due to having the same name.
 

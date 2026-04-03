@@ -5,11 +5,13 @@ modified: 2026-03-25T15:22:40.600+07:00
 published: 2026-03-25T15:22:40.600+07:00
 tags:
   - content-type/procedural
+cssclasses: ""
 creation-time: 2025-04-20 14:27
 status: in progress
 parent:
   - "[[database]]"
 ---
+
 
 Create a physical hot backup of a MariaDB database without interrupting operations.
 
@@ -26,32 +28,31 @@ Create a physical hot backup of a MariaDB database without interrupting operatio
 ## Procedure
 
 1.Open terminal
-
+    
 2. **Create Backup Directory**:
-
-   ```bash
-   mkdir /backup/mariadb
-   chmod 700 /backup/mariadb
-   ```
-
+    
+    ```bash
+    mkdir /backup/mariadb
+    chmod 700 /backup/mariadb
+    ```
+    
 3. **Run MariaBackup Command**:
-
-   ```bash
-   mariadb-backup --backup --user=[username] --password=[password] --target-dir=/backup/mariadb
-   ```
-
-   - Replace `[username]` with your MariaDB username.
-   - Replace `[password]` with your password.
-   - `--target-dir`: Specifies backup location.
-
+    
+    ```bash
+    mariadb-backup --backup --user=[username] --password=[password] --target-dir=/backup/mariadb
+    ```
+    
+    - Replace `[username]` with your MariaDB username.
+    - Replace `[password]` with your password.
+    - `--target-dir`: Specifies backup location.
 4. **Prepare Backup** (make it consistent):
-
-   ```bash
-   mariadb-backup --prepare --target-dir=/backup/mariadb
-   ```
-
+    
+    ```bash
+    mariadb-backup --prepare --target-dir=/backup/mariadb
+    ```
+    
 5. **Verify Backup**: Check `/backup/mariadb` for data files and logs.
-
+    
 6. Optionally, secure backup by moving it to a safe location and restrict file permissions (`chmod 600 backup.sql`)
 
 ## Optional Flags
@@ -66,8 +67,8 @@ Create a physical hot backup of a MariaDB database without interrupting operatio
 - Use for InnoDB and Aria tables; minimal locking for hot backups.
 - Schedule with `cron` for automation (e.g., `0 2 * * *` for daily at 2 AM).
 - Test restore process:
-  1. Stop MariaDB: `systemctl stop mariadb`.
-  2. Copy backup to data directory: `mariadb-backup --copy-back --target-dir=/backup/mariadb`.
-  3. Fix permissions: `chown -R mysql:mysql /var/lib/mysql`.
-  4. Start MariaDB: `systemctl start mariadb`.
+    1. Stop MariaDB: `systemctl stop mariadb`.
+    2. Copy backup to data directory: `mariadb-backup --copy-back --target-dir=/backup/mariadb`.
+    3. Fix permissions: `chown -R mysql:mysql /var/lib/mysql`.
+    4. Start MariaDB: `systemctl start mariadb`.
 - Monitor disk space and backup duration for large databases.

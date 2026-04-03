@@ -5,17 +5,19 @@ aliases:
 created: 2026-03-29T12:54:01.178+07:00
 modified: 2026-03-29T12:54:01.178+07:00
 published: 2026-03-29T12:54:01.178+07:00
+cssclasses: ""
 creation-time: 2026-03-28 09:10
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Example: Random Walk Model
 
-A [[def-discrete-time-markov-chain_202603280806|Markov chain]] whose [[def-state-stochastic_202603280801|state space]] is given by the integers $i = 0, \pm 1, \pm 2, \dots$ is said to be a random walk if, for some number $0 < p < 1$:
+A [[3 Reference/def-discrete-time-markov-chain_202603280806\|Markov chain]] whose [[3 Reference/def-state-stochastic_202603280801\|state space]] is given by the integers $i = 0, \pm 1, \pm 2, \dots$ is said to be a random walk if, for some number $0 < p < 1$:
 
-$$P\_{i,i+1} = p = 1 - P\_{i,i-1}, \quad i = 0, \pm 1, \dots$$
+$$P_{i,i+1} = p = 1 - P_{i,i-1}, \quad i = 0, \pm 1, \dots$$
 
 ## Interpretation
 
@@ -23,10 +25,10 @@ Think of it as a model for an individual walking on a straight line who at each 
 
 ## Transition Probabilities
 
-- $P\_{i,i+1} = p$ — probability of moving right
-- $P\_{i,i-1} = 1 - p$ — probability of moving left
+- $P_{i,i+1} = p$ — probability of moving right
+- $P_{i,i-1} = 1 - p$ — probability of moving left
 
 ## Related
 
-- [[def-random-walk-markov-chain_202603280814|Random Walk Markov Chain]]
-- [[example-gambling-model_202603280856|Gambling Model]]
+- [[3 Reference/def-random-walk-markov-chain_202603280814\|Random Walk Markov Chain]]
+- [[3 Reference/example-gambling-model_202603280856\|Gambling Model]]

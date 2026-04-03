@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.605+07:00
 modified: 2026-03-25T15:22:40.605+07:00
 published: 2026-03-25T15:22:40.605+07:00
+cssclasses: ""
 creation-time: 2025-08-24 13:58
 status: in progress
 tag:
@@ -12,14 +13,12 @@ parent: "[[linux]]"
 ---
 
 ## Source
-
 - https://www.youtube.com/watch?v=7TLPExkUHqw
 - https://linux.die.net/man/8/dropbear
 - https://wiki.debian.org/DropBear
 - https://www.kernel.org/doc/Documentation/filesystems/nfs/nfsroot.txt
 
 ## Code
-
 ```bash
 # Install Dropbear
 sudo apt update
@@ -37,3 +36,4 @@ nvim /etc/dropbear/initramfs/authorized_keys
 
 sudo update-initramfs -uv
 ```
+

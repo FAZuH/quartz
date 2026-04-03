@@ -5,25 +5,27 @@ aliases:
 created: 2026-03-29T12:54:01.178+07:00
 modified: 2026-03-29T12:54:01.178+07:00
 published: 2026-03-29T12:54:01.178+07:00
+cssclasses: ""
 creation-time: 2026-03-28 08:07
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Definition
 
-Suppose the conditional probability of $X\_{n+1}$ being in [[def-state-stochastic_202603280801|state]] $j$ given that $X\_n$ is in [[def-state-stochastic_202603280801|state]] $i$ is constant over time:
+Suppose the conditional probability of $X_{n+1}$ being in [[3 Reference/def-state-stochastic_202603280801\|state]] $j$ given that $X_n$ is in [[3 Reference/def-state-stochastic_202603280801\|state]] $i$ is constant over time:
 
-$$P\_{ij} = P(X\_{n+1} = j \mid X\_n = i), \quad \text{for all } n$$
+$$P_{ij} = P(X_{n+1} = j \mid X_n = i), \quad \text{for all } n$$
 
-Then $P\_{ij}$ is called the **one-step transition probability**.
+Then $P_{ij}$ is called the **one-step transition probability**.
 
 > [!TIP] Interpretation
-> Transition probability $P\_{ij}$ is the probability of transitioning from state $i$ to state $j$ in one time step.
+> Transition probability $P_{ij}$ is the probability of transitioning from state $i$ to state $j$ in one time step.
 
 ## Related
 
-- [[def-transition-probability-matrix_202603280810|Transition Probability Matrix]]
-- [[def-n-step-transition-matrix_202603280812|n-step Transition Matrix]]
-- [[def-chapman-kolmogorov_202603280811|Chapman-Kolmogorov Equation]]
+- [[3 Reference/def-transition-probability-matrix_202603280810\|Transition Probability Matrix]]
+- [[3 Reference/def-n-step-transition-matrix_202603280812\|n-step Transition Matrix]]
+- [[3 Reference/def-chapman-kolmogorov_202603280811\|Chapman-Kolmogorov Equation]]

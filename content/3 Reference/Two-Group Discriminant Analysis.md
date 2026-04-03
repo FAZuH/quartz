@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.612+07:00
 modified: 2026-03-25T15:22:40.612+07:00
 published: 2026-03-25T15:22:40.612+07:00
+cssclasses: ""
 creation-time: 2025-03-06 14:09
 status: in progress
 tags:
 parent:
   - "[[discriminant analysis]]"
 ---
+
 
 Two-group discriminant analysis is a statistical technique used to:
 
@@ -24,16 +26,16 @@ Two-group discriminant analysis is a statistical technique used to:
 
 The geometric view is like **looking at a plot to figure out how to split two groups**—like “most-admired” and “least-admired” companies—based on some measurements (e.g., their profits or sales).
 
-Univariate (Some other method):
+Univariate (Some other method): 
 
-- Imagine sorting apples and oranges by weight. You put each fruit on a scale and check the number.
+- Imagine sorting apples and oranges by weight. You put each fruit on a scale and check the number. 
 - Apples might weigh around 5 ounces, and oranges around 4 ounces.
 - But some apples are light (4 oz), and some oranges are heavy (5 oz), so there’s overlap. **Weight alone isn’t enough** to tell them apart perfectly.
 
-Multivariate (This method):
+Multivariate (This method): 
 
 - Now, imagine checking the fruit’s color (red for apples, orange for oranges).
-- By **combining weight _and_ color, it’s way easier to sort them**—light red fruits are apples, heavy orange ones are oranges.
+- By **combining weight *and* color, it’s way easier to sort them**—light red fruits are apples, heavy orange ones are oranges.
 
 ## About discriminant function: Finding the magic line
 
@@ -42,12 +44,12 @@ Multivariate (This method):
 - This linear **combination function creates a new score for each company**, called the discriminant score.
 - Think of it like **giving each fruit a “sorting score” based on weight and color combined**. The line is drawn so most-admired companies get high scores and least-admired get low scores.
 
-This line isn’t random—it’s the _best_ line that puts the most space between the groups while keeping each group’s dots close together.
+This line isn’t random—it’s the *best* line that puts the most space between the groups while keeping each group’s dots close together.
 
 ### About classification using the discriminant function
 
 - Pick a middle score to split the groups. If a company’s score is above the middle score, it’s most-admired; below, it’s least-admired.
-- Imagine your fruit scores: Apples get 8 or 9, oranges get 2 or 3.
+- Imagine your fruit scores: Apples get 8 or 9, oranges get 2 or 3. 
 - You set 5 as the middle score. Fruit with score higher than 5 is an apple, otherwise it's an orange.
 - On the graph, the middle score is a line cutting across, splitting the map into two zones.
 
@@ -61,7 +63,7 @@ This line isn’t random—it’s the _best_ line that puts the most space betwe
 
 Selects the best subset of variables when many are available.
 
-Some methods include:
+Some methods include: 
 
 - Forward, backward, or stepwise selection.
 - Criteria like Wilks’ Lambda, Rao’s V, or Mahalanobis distance.
@@ -70,7 +72,7 @@ Some methods include:
 
 ## About model accuracy validation
 
-Model validation **ensures the trained model can be generalized**, used for future data, as classification accuracy on the training sample may be biased.
+ Model validation **ensures the trained model can be generalized**, used for future data, as classification accuracy on the training sample may be biased.
 
 - Holdout: Split sample into training and test sets.
 - U-Method: Leave-one-out cross-validation.
@@ -82,22 +84,21 @@ Model validation **ensures the trained model can be generalized**, used for futu
 
 Two-group discriminant analysis can be reformulated as a multiple regression problem with a binary dependent variable (e.g., 0 for least-admired, 1 for most-admired). The resulting $R = 0.897$ matches the canonical correlation, but normality assumptions may be violated.
 
+
 ## Python example
 
-See
+See 
 
 - [Step 2](#2.%20Compute%20discriminant%20function): For actual discriminant function.
 - [Step 3](#3.%20Compute%20discriminant%20score): For computing discriminant score based on discriminant function.
 - [Step 4](#4.%20Set%20cutoff%20and%20classify): Classifying new data
 
-#TODO
-
+#TODO 
 - Add descriptions to each step
 - Refer formulas from the original book (LaTeX & formula numbers)
 - Show output
 
 ### 0. Setup
-
 ```python
 # Import
 import numpy as np

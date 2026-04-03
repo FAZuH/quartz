@@ -7,59 +7,59 @@ modified: 2026-03-25T15:22:40.607+07:00
 published: 2026-03-25T15:22:40.607+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-08 10:27
 status: in progress
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
+
 ## Definition
 
 Let
-
-- $\mathbf{u}=(u\_{1},u\_{2},u\_{3})$ vectors in 3-space
-- $\mathbf{v}=(v\_{1},v\_{2},v\_{3})$ vectors in 3-space
+- $\mathbf{u}=(u_{1},u_{2},u_{3})$ vectors in 3-space
+- $\mathbf{v}=(v_{1},v_{2},v_{3})$ vectors in 3-space
 
 Then
-
 - We define the **cross product** $u\times v$ as
-  $$
-  \begin{align}
-  u\times v & = (u\_{2}v\_{3}-u\_{3}v\_{2},u\_{3}v\_{1}-u\_{1}v\_{3},u\_{1}v\_{2}-u\_{2}v\_{1}) \\
-  & = \left(\begin{vmatrix}
-  u\_{2} & u\_{3} \\
-  v\_{2} & v\_{3}
-  \end{vmatrix},-\begin{vmatrix}
-  u\_{1} & u\_{3} \\
-  v\_{1} & v\_{3}
-  \end{vmatrix},\begin{vmatrix}
-  u\_{1} & u\_{2} \\
-  v\_{1} & v\_{2}
-  \end{vmatrix}\right)
-  \end{align}
-  $$
+$$
+\begin{align}
+u\times v & = (u_{2}v_{3}-u_{3}v_{2},u_{3}v_{1}-u_{1}v_{3},u_{1}v_{2}-u_{2}v_{1}) \\
+ & = \left(\begin{vmatrix}
+u_{2} & u_{3} \\
+v_{2} & v_{3}
+\end{vmatrix},-\begin{vmatrix}
+u_{1} & u_{3} \\
+v_{1} & v_{3}
+\end{vmatrix},\begin{vmatrix}
+u_{1} & u_{2} \\
+v_{1} & v_{2}
+\end{vmatrix}\right)
+\end{align}
+$$
 
 ## Tip: Memorization
 
 Look at the determinant form
 $$
 u\times v = \left(\begin{vmatrix}
-u\_{2} & u\_{3} \\
-v\_{2} & v\_{3}
+u_{2} & u_{3} \\
+v_{2} & v_{3}
 \end{vmatrix},-\begin{vmatrix}
-u\_{1} & u\_{3} \\
-v\_{1} & v\_{3}
+u_{1} & u_{3} \\
+v_{1} & v_{3}
 \end{vmatrix},\begin{vmatrix}
-u\_{1} & u\_{2} \\
-v\_{1} & v\_{2}
+u_{1} & u_{2} \\
+v_{1} & v_{2}
 \end{vmatrix}\right)
 $$
 
-Imagine
+Imagine 
 $$
 \begin{bmatrix}
-u\_{1} & u\_{2} & u\_{3} \\
-v\_{1} & v\_{2} & v\_{3}
+u_{1} & u_{2} & u_{3} \\
+v_{1} & v_{2} & v_{3}
 \end{bmatrix}
 $$
 

@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.644+07:00
 modified: 2026-03-25T15:22:40.644+07:00
 published: 2026-03-25T15:22:40.644+07:00
+cssclasses: ""
 creation-time: 2025-02-28 00:06
 status: complete
 tags:
 parent:
-  - "[[Graph]]"
+  - "[[3 Reference/Graph]]"
 ---
+
 
 1. **Pick the starting node** and visit it.
 2. **Visit all the unvisited neighbors** of the current node (in order).
@@ -38,9 +40,9 @@ DFS vs BFS
 There is one primary approach to implement a breadth first search for graphs, that is, using a queue.
 
 1. Prepare variables
-   - `to_visit`: Stack to store verteces that needs to be visited. Initial value is the start vertex.
-   - `visited`: Hash set to store verteces that has already been visited.
-   - `path`: List to store all verteces traversed by `to_visit`.
+    - `to_visit`: Stack to store verteces that needs to be visited. Initial value is the start vertex.
+    - `visited`: Hash set to store verteces that has already been visited.
+    - `path`: List to store all verteces traversed by `to_visit`.
 2. Keep dequeueing `to_visit` queue while it’s not empty. For each vertex.
 3. If the current vertex is already in `visited`, we skip it.
 4. If not, we add the vertex to `visited` and `path`.

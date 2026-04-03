@@ -7,14 +7,15 @@ modified: 2026-03-25T15:22:40.616+07:00
 published: 2026-03-25T15:22:40.616+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-23 11:53
 status: in progress
 parent:
   - "[[econometrics]]"
 ---
 
-## Formula
 
+## Formula
 $$SE(\hat{\boldsymbol{\beta}}) = \sqrt{\text{diag}(\hat{\sigma}^2 (\mathbf{x}'\mathbf{x})^{-1})}$$
 
 Where:
@@ -22,7 +23,7 @@ Where:
 $$
 \begin{align}
 \hat{\sigma}^2 & = \frac{SSE}{n-k} \\
-SSE & = \sum\_{i=1}^{n} (y\_i - \hat{y}\_i)^2
+SSE & = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 \end{align}
 $$
 

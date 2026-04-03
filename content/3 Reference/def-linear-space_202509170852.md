@@ -7,27 +7,27 @@ modified: 2026-03-25T15:22:40.593+07:00
 published: 2026-03-25T15:22:40.593+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-17 08:52
 status: in progress
 parent:
   - "[[matrices]]"
 ---
 
+
 ## Definition
 
 Let $\mathcal{V}$ : Nonempty set of equally sized matrices
 
 If
-
-1. $\mathbf{A}+\mathbf{B}\in \mathcal{V},; \forall \mathbf{A},\mathbf{B}\in \mathcal{V}$
-2. $k\mathbf{A}\in \mathcal{V},;\forall \mathbf{A}\in \mathcal{V},\forall k\in \mathbb{R}$
+1. $\mathbf{A}+\mathbf{B}\in \mathcal{V},\; \forall \mathbf{A},\mathbf{B}\in \mathcal{V}$
+2. $k\mathbf{A}\in \mathcal{V},\;\forall \mathbf{A}\in \mathcal{V},\forall k\in \mathbb{R}$
 
 Then $\mathcal{V}$ is a **linear space**
 
 ## Alternative definition
-
 $$
-\forall \mathbf{A}_{1},\mathbf{A}_{2},\dots,\mathbf{A}_{m}\in \mathcal{V},; \forall k_{1},k\_{2},\dots,k\_{m}\in \mathbb{R} \implies k\_{1}\mathbf{A}_{1}+k_{2}\mathbf{A}_{2}+\dots+k_{m}\mathbf{A}\_{m}\in \mathcal{V}
+\forall \mathbf{A}_{1},\mathbf{A}_{2},\dots,\mathbf{A}_{m}\in \mathcal{V},\; \forall k_{1},k_{2},\dots,k_{m}\in \mathbb{R} \implies k_{1}\mathbf{A}_{1}+k_{2}\mathbf{A}_{2}+\dots+k_{m}\mathbf{A}_{m}\in \mathcal{V}
 $$
 
 ![[assets/image-18.png]]

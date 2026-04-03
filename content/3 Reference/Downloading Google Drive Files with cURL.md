@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.597+07:00
 modified: 2026-03-25T15:22:40.597+07:00
 published: 2026-03-25T15:22:40.597+07:00
+cssclasses: ""
 creation-time: 2025-03-21 18:31
 status: in progress
 tags:
 parent:
   - "[[computers]]"
 ---
+
 
 Make sure the google drive link is accessible to the public
 
@@ -22,3 +24,4 @@ Replace `FILE_ID` with the id you want to download.
 
 e.g., on `https://drive.google.com/file/d/1mVGL7ghqicXzHNyY7OPpzTL5M3PJKWn3/view?usp=sharing`
 the `FILE_ID` here is `1mVGL7ghqicXzHNyY7OPpzTL5M3PJKWn3`.
+

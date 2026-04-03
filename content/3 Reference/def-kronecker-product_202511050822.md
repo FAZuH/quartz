@@ -7,20 +7,22 @@ modified: 2026-03-25T15:22:40.617+07:00
 published: 2026-03-25T15:22:40.617+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-11-05 08:22
 status: in progress
 parent:
   - "[[matrices]]"
 ---
 
+
 ## Definition
 
-**Kronecker multiplication**, denoted by $\otimes$, is defined for any two [[Def-matrix|matrices]] $A\_{n\times m}$ and $B\_{p\times q}$ as
+**Kronecker multiplication**, denoted by $\otimes$, is defined for any two [[3 Reference/Def-matrix\|matrices]] $A_{n\times m}$ and $B_{p\times q}$ as
 $$
 A\otimes B = \begin{bmatrix}
-a\_{11}B & \dots & a\_{1m}B \\
+a_{11}B & \dots & a_{1m}B \\
 \vdots & \ddots & \vdots \\
-a\_{n1}B & \dots & a\_{nm}B
+a_{n1}B & \dots & a_{nm}B
 \end{bmatrix}
 $$
 

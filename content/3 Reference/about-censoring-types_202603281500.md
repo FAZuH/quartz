@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 ## About CensoringTypes
 
@@ -21,8 +23,8 @@ Event time is <u>beyond</u> a certain point.
 
 1. **Type I (Time Censoring)**: Study ends at a pre-determined time $\tau$.
    - Fixed: All subjects stop at the same time $\tau$
-   - Progressive: Different fixed censoring times $C\_i$ assigned at start
-
+   - Progressive: Different fixed censoring times $C_i$ assigned at start
+   
 2. **Type II (Failure Censoring)**: Study ends when $d$ events occur among $n$ subjects.
    - Simple: Stops at the $d$-th failure
    - Progressive: Some survivors removed at intermediate event times
@@ -35,7 +37,7 @@ Event occurred <u>before</u> study started but exact time unknown.
 
 ### Interval Censoring
 
-Event known to occur within an <u>interval</u> $\[L, R]$.
+Event known to occur within an <u>interval</u> $[L, R]$.
 
 ### Double Censoring
 
@@ -51,5 +53,5 @@ Dataset contains both left-censored and right-censored observations.
 
 ## Related
 
-- [[def-censored-data_202603281500|Censored Data]]
-- [[about-truncation-types_202603281500|Types of Truncation]]
+- [[3 Reference/def-censored-data_202603281500\|Censored Data]]
+- [[3 Reference/about-truncation-types_202603281500\|Types of Truncation]]

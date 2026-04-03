@@ -5,14 +5,17 @@ aliases:
 created: 2026-03-25T15:22:40.617+07:00
 modified: 2026-03-25T15:22:40.617+07:00
 published: 2026-03-25T15:22:40.617+07:00
+cssclasses: ""
 creation-time: 2025-07-16 23:35
 status: in progress
 tag:
 parent: "[[cyber security]]"
 ---
 
-## 1. Create and trust root CA certificates
 
+
+## 1. Create and trust root CA certificates
+	
 ```bash
 openssl req -x509 -newkey rsa:4096 -sha256 -days 3560 -nodes \
 	-subj "/CN=*.fazuh/C=US/L=City" \
@@ -24,21 +27,19 @@ openssl genrsa -out server.key 4096
 ## 2. Trust root CA certificates
 
 **Archlinux**
-
 ```bash
 sudo cp rootCA.crt /etc/ca-certificates/trust-source/anchors/
 sudo update-ca-trust
 ```
 
 **Ubuntu**
-
 ```bash
 sudo cp rootCA.crt /usr/local/share/ca-certificates/
 sudo update-ca-certificates
 ```
 
 Your device (including your browser) should detect these certificates automatically.
-
+	
 To remove, simply delete the `rootCA.crt` file in `/etc/ca-certificates/trust-source/anchors`, and update using `sudo update-ca-trust`.
 
 ## 2. Create subdomain certificates
@@ -63,7 +64,6 @@ openssl x509 -req -in server-"$SUBDOMAIN".csr \
 ```
 
 Use for nginx:
-
 1. `ssl_certificate` : `server-<subdomain>.crt`
 2. `ssl_certificate_key` : `server.key`
 
@@ -72,6 +72,6 @@ Use for nginx:
 - Source: https://devopscube.com/create-self-signed-certificates-openssl/
 
 **Author notes**
-
 - `ssl_certificate /etc/nginx/ssl/SUBDOMAIN.fazuh/fullchain.cer;`
 - `ssl_certificate_key /etc/nginx/ssl/SUBDOMAIN.fazuh/private.key;`
+

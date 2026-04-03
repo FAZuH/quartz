@@ -7,13 +7,15 @@ modified: 2026-04-03T19:12:24.470+07:00
 published: 2026-04-03T19:12:24.470+07:00
 tags:
   - type/about
+cssclasses: ""
 creation-time: 2026-04-03 18:39
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
-A [[counting-process_202604031839|counting process]] can possess two important properties regarding how events accumulate over time.
+
+A [[3 Reference/counting-process_202604031839\|counting process]] can possess two important properties regarding how events accumulate over time.
 
 ## Independent Increments
 
@@ -33,4 +35,4 @@ The distribution of the number of events in any interval depends **only on the l
 
 ## Key Insight
 
-Not all [[counting-process_202604031839|counting processes]] possess both properties. The [[poisson-process_202604031845|Poisson Process]] is the canonical example that has both.
+Not all [[3 Reference/counting-process_202604031839\|counting processes]] possess both properties. The [[3 Reference/poisson-process_202604031845\|Poisson Process]] is the canonical example that has both.

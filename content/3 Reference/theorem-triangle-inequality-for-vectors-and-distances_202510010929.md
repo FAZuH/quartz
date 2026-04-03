@@ -7,17 +7,18 @@ modified: 2026-03-25T15:22:40.642+07:00
 published: 2026-03-25T15:22:40.642+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-01 09:29
 status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
 
+
 ## Theorem
 
 Let $\mathbf{u},\mathbf{v},\mathbf{w}$ vectors in $R^n$
 
 Then
-
-- $||\mathbf{u}+\mathbf{v} \leq ||\mathbf{u}|| + ||\mathbf{v}||$ ([[theorem-triangle-inequality_202508160051|Triangle inequality]] for vectors)
+- $||\mathbf{u}+\mathbf{v} \leq ||\mathbf{u}|| + ||\mathbf{v}||$ ([[3 Reference/theorem-triangle-inequality_202508160051\|Triangle inequality]] for vectors)
 - $d(\mathbf{u},\mathbf{v})\leq d(\mathbf{u},\mathbf{w})+d(\mathbf{w},\mathbf{v})$ ( Triangle inequality for distances)

@@ -7,11 +7,13 @@ modified: 2026-03-25T15:22:40.642+07:00
 published: 2026-03-25T15:22:40.642+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-06 06:49
 status: complete
 parent:
   - "[[categorical-data-analysis]]"
 ---
+
 
 ## Definition
 

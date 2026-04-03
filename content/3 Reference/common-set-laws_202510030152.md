@@ -7,14 +7,16 @@ modified: 2026-03-25T15:22:40.607+07:00
 published: 2026-03-25T15:22:40.607+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-03 01:52
 status: in progress
 parent:
   - "[[sets]]"
 ---
 
-## Idempotent Laws
 
+
+## Idempotent Laws
 $$
 \begin{align}
 A \cup A  & = A \\
@@ -23,7 +25,6 @@ A \cap A  & = A
 $$
 
 ## Commutative Laws
-
 $$
 \begin{align}
 A \cup B & = B \cup A \\
@@ -32,7 +33,6 @@ A \cap B & = B \cap A
 $$
 
 ## Associative Laws
-
 $$
 \begin{align}
 (A \cup B) \cup C &= A \cup (B \cup C) \\
@@ -41,7 +41,6 @@ $$
 $$
 
 ## Distributive Laws
-
 $$
 \begin{align}
 A \cup (B \cap C) & = (A \cup B) \cap (A \cup C) \\
@@ -50,7 +49,6 @@ A \cap (B \cup C) & = (A \cap B) \cup (A \cap C)
 $$
 
 ## Identity Laws
-
 $$
 \begin{align}
 A \cup \emptyset & = A \\
@@ -58,8 +56,8 @@ A \cap U & = A
 \end{align}
 $$
 
-## Domination Laws
 
+## Domination Laws
 $$
 \begin{align}
 A \cup U & = U \\
@@ -68,7 +66,6 @@ A \cap \emptyset & = \emptyset
 $$
 
 ## Complement Laws
-
 $$
 \begin{align}
 A \cup A^C & = U \\
@@ -80,7 +77,6 @@ U^C & = \emptyset \\
 $$
 
 ## De Morgan's Laws
-
 $$
 \begin{align}
 (A \cup B)^C & = A^C \cap B^C \\
@@ -89,7 +85,6 @@ $$
 $$
 
 ## Absorption Laws
-
 $$
 \begin{align}
 A \cup (A \cap B) & = A \\
@@ -98,11 +93,10 @@ A \cap (A \cup B) & = A
 $$
 
 ## Set Difference Laws
-
 $$
 \begin{align}
 A - (B \cup C) & = (A - B) \cap (A - C) \\
 A - (B \cap C) & = (A - B) \cup (A - C) \\
-A - B & = A \cap B^C
+A - B & = A \cap B^C 
 \end{align}
 $$

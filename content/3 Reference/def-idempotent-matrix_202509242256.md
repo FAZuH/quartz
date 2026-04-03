@@ -7,18 +7,19 @@ modified: 2026-03-25T15:22:40.639+07:00
 published: 2026-03-25T15:22:40.639+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 22:56
 status: complete
 parent:
   - "[[matrices]]"
 ---
 
+
 ## Definition
 
-**Idempotent matrix** is a [[Def-matrix|square matrix]] $A$ such that $A^2=A$.
+**Idempotent matrix** is a [[3 Reference/Def-matrix\|square matrix]] $A$ such that $A^2=A$.
 
 ## Example
-
 $$
 \begin{bmatrix}
 1 & 0 & 0 \\
@@ -30,8 +31,7 @@ $$
 0 & 1 & 0 \\
 0 & 0 & 0
 \end{bmatrix}
-=============
-
+=
 \begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\

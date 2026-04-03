@@ -5,20 +5,21 @@ aliases:
 created: 2026-03-29T12:54:01.178+07:00
 modified: 2026-03-29T12:54:01.178+07:00
 published: 2026-03-29T12:54:01.178+07:00
+cssclasses: ""
 creation-time: 2026-03-28 08:14
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Definition
 
-A **Random Walk** is a [[def-discrete-time-markov-chain_202603280806|Markov chain]] whose [[def-state-stochastic_202603280801|state space]] is given by the integers $i = 0, \pm 1, \pm 2, \dots$ where at each point in time the process either moves:
-
+A **Random Walk** is a [[3 Reference/def-discrete-time-markov-chain_202603280806\|Markov chain]] whose [[3 Reference/def-state-stochastic_202603280801\|state space]] is given by the integers $i = 0, \pm 1, \pm 2, \dots$ where at each point in time the process either moves:
 - One step to the right with probability $p$
 - One step to the left with probability $1 - p = q$
 
-$$P\_{i,i+1} = p, \quad P\_{i,i-1} = 1 - p$$
+$$P_{i,i+1} = p, \quad P_{i,i-1} = 1 - p$$
 
 where $0 < p < 1$.
 
@@ -27,9 +28,9 @@ where $0 < p < 1$.
 
 ## Example
 
-See [[example-random-walk-model_202603280910|Random Walk Model Example]] and [[example-gambling-model_202603280856|Gambling Model Example]].
+See [[3 Reference/example-random-walk-model_202603280910\|Random Walk Model Example]] and [[3 Reference/example-gambling-model_202603280856\|Gambling Model Example]].
 
 ## Related
 
-- [[def-discrete-time-markov-chain_202603280806|Discrete-time Markov Chain]]
-- [[example-gambling-model_202603280856|Gambling Model]]
+- [[3 Reference/def-discrete-time-markov-chain_202603280806\|Discrete-time Markov Chain]]
+- [[3 Reference/example-gambling-model_202603280856\|Gambling Model]]

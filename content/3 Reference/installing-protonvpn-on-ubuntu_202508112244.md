@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.591+07:00
 modified: 2026-03-25T15:22:40.591+07:00
 published: 2026-03-25T15:22:40.591+07:00
+cssclasses: ""
 creation-time: 2025-08-11 22:44
 status: in progress
 tag:
@@ -15,7 +16,7 @@ https://protonvpn.com/support/official-linux-vpn-ubuntu
 
 ## Installing
 
-ProtonVPN in Linux is a GUI app. See [[setting-up-an-x11-vnc-on-an-ubuntu-machine_202508112346|Setting up an x11 VNC on an Ubuntu Machine]] to set up VNC if you're on a headless server.
+ProtonVPN in Linux is a GUI app. See [[3 Reference/setting-up-an-x11-vnc-on-an-ubuntu-machine_202508112346\|Setting up an x11 VNC on an Ubuntu Machine]] to set up VNC if you're on a headless server.
 
 ```bash
 wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb

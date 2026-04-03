@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.628+07:00
 published: 2026-03-25T15:22:40.628+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-08-29 20:43
 status: in progress
 parent:
@@ -15,6 +16,7 @@ parent:
 
 > [!warning]
 > The contents in this page is written by AI. You may want to double-check the information here.
+
 
 Cybersecurity is a **broad field** with many specialized areas. Here are the main ones, grouped into practical domains:
 
@@ -60,3 +62,4 @@ Responsibilities
 - **IoT Security** → Protecting connected devices (smart homes, medical devices).
 - **Mobile Security** → Protecting Android/iOS apps and devices.
 - **AI/ML Security** → Securing and attacking machine learning systems.
+

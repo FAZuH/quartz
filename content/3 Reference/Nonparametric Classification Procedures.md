@@ -3,6 +3,7 @@ publish: true
 created: 2026-03-25T15:22:40.606+07:00
 modified: 2026-03-25T15:22:40.606+07:00
 published: 2026-03-25T15:22:40.606+07:00
+cssclasses: ""
 creation-time: 2025-03-21 10:06
 status: in progress
 tags:
@@ -10,74 +11,73 @@ parent:
   - "[[Classification Analysis]]"
 ---
 
+
 When data deviates from normality, nonparametric methods classify observations without assuming a specific distribution.
 
 This note will describe 4 nonparametric classification procecures.
 
-Each uses sample data directly to assign $\mathbf{y\_{0}}$ to one of $k$ groups.
+Each uses sample data directly to assign $\mathbf{y_{0}}$ to one of $k$ groups.
 
 ## Multinomial classification
 
 Treats variables as categorical (e.g., counts or discrete levels), comparing observed frequencies to expected ones per group.
 
-For an observation $\mathbf{y}$ with frequency $q\_{hi}$ in group $G\_h$:
-
-- Assign to $G\_1$ if $\frac{q\_{1i}}{q\_{2i}} > \frac{p\_2}{p\_1}$ (Formula 9.17, two groups), else $G\_2$.
-- For $k > 2$, assign to group $h$ maximizing $p\_h q\_{hi}$ (generalized rule).
+For an observation $\mathbf{y}$ with frequency $q_{hi}$ in group $G_h$:
+- Assign to $G_1$ if $\frac{q_{1i}}{q_{2i}} > \frac{p_2}{p_1}$ (Formula 9.17, two groups), else $G_2$.
+- For $k > 2$, assign to group $h$ maximizing $p_h q_{hi}$ (generalized rule).
 
 Steps:
 
 1. **Categorize Data**: Convert continuous $\mathbf{y}$ into discrete levels (e.g., bins) or use naturally categorical data.
-2. **Count Frequencies**: For each category $i$ in $\mathbf{y}$, count occurrences $q\_{hi}$ in training data for group $G\_h$.
-3. **Estimate Priors**: Set [[Prior Probability|prior probability]] $p\_h$ (e.g., $p\_h = n\_h / N$ or equal if unspecified).
-4. **Compute Ratios (2 Groups)**: For each category $i$, calculate $\frac{q\_{1i}}{q\_{2i}}$ and compare to $\frac{p\_2}{p\_1}$.
-5. **Classify**: If ratio > threshold, assign to $G\_1$; else $G\_2$. For $k > 2$, compute $p\_h q\_{hi}$ for all $h$ and pick max.
+2. **Count Frequencies**: For each category $i$ in $\mathbf{y}$, count occurrences $q_{hi}$ in training data for group $G_h$.
+3. **Estimate Priors**: Set [[3 Reference/Prior Probability\|prior probability]] $p_h$ (e.g., $p_h = n_h / N$ or equal if unspecified).
+4. **Compute Ratios (2 Groups)**: For each category $i$, calculate $\frac{q_{1i}}{q_{2i}}$ and compare to $\frac{p_2}{p_1}$.
+5. **Classify**: If ratio > threshold, assign to $G_1$; else $G_2$. For $k > 2$, compute $p_h q_{hi}$ for all $h$ and pick max.
 
 ## Classification based on density estimators
 
-Estimates the probability density $f\_h(\mathbf{y})$ for each group using a kernel (e.g., normal) and assigns $\mathbf{y}$ to the group with the highest density.
+Estimates the probability density $f_h(\mathbf{y})$ for each group using a kernel (e.g., normal) and assigns $\mathbf{y}$ to the group with the highest density.
 
 Steps
 
 1. Compute **kernel density estimate** (9.23):
-   $$
-   \hat{f}(\mathbf{y}_{0}) = \frac{1}{nh_{1}h\_{2}\dots h\_{p}}
-   \sum\_{i=1}^n K\left( \frac{y\_{01}-y\_{i1}}{h\_{1}}, \dots, \frac{y\_{0p}-y\_{ip}}{h\_{p}} \right)
-   $$
-   where
-   - $K(u)$: Kernel (e.g., normal)
-   - $h$: Smoothing parameter (e.g., $h=2$ from Table 9.8)
-   - $p$: Amount of variables
-   - $n$: Sample size
+	$$
+	\hat{f}(\mathbf{y}_{0}) = \frac{1}{nh_{1}h_{2}\dots h_{p}}
+	\sum_{i=1}^n K\left( \frac{y_{01}-y_{i1}}{h_{1}}, \dots, \frac{y_{0p}-y_{ip}}{h_{p}} \right)
+	$$
+	where
+	- $K(u)$: Kernel (e.g., normal)
+	- $h$: Smoothing parameter (e.g., $h=2$ from Table 9.8)
+	- $p$: Amount of variables
+	- $n$: Sample size
 
-2. **Assign to group $h$** which has the maximum $p\_i \hat{f}(\mathbf{y\_{0}}|G\_{i})$ (9.28), where $p\_i$ is the $i$-th prior probability.
+2. **Assign to group $h$** which has the maximum $p_i \hat{f}(\mathbf{y_{0}}|G_{i})$ (9.28), where $p_i$ is the $i$-th prior probability.
 
 ## Nearest neighbor classificaton rule
 
-Assigns $\mathbf{y}\_{i}$ to the group most common among its $k$ closest observations, based on distance.
+Assigns $\mathbf{y}_{i}$ to the group most common among its $k$ closest observations, based on distance.
 
 Steps:
 
 1. **Compute distances** of $\mathbf{y}_{i}$ to other points using the distance function:
-   $$
-   (\mathbf{y}_{i} - \mathbf{y}_{j})'\mathbf{S}_{pl}^{-1}(\mathbf{y}_{i} - \mathbf{y}_{j}), \qquad i \neq j
-   $$
+	$$
+	(\mathbf{y}_{i} - \mathbf{y}_{j})'\mathbf{S}_{pl}^{-1}(\mathbf{y}_{i} - \mathbf{y}_{j}), \qquad i \neq j
+	$$
 2. **Assign to group** with highest count among $k$ nearest neighbors.
-   For 2 groups, assign $\mathbf{y}_{i}$ to $G\_1$ if:
-   $$
-   \frac{k_{1}}{n\_{1}} > \frac{k\_{2}}{n\_{2}}
-   $$
-   Or for further refinement, use prior probabilities:
-   $$
-   \frac{k\_{1} / n\_{1}}{k\_{2} / n\_{2}} > \frac{p\_{2}}{p\_{1}}
-   $$
+	For 2 groups, assign $\mathbf{y}_{i}$ to $G_1$ if:
+	$$
+	\frac{k_{1}}{n_{1}} > \frac{k_{2}}{n_{2}}
+	$$
+	Or for further refinement, use prior probabilities:
+	$$
+	\frac{k_{1} / n_{1}}{k_{2} / n_{2}} > \frac{p_{2}}{p_{1}}
+	$$
 
-   For $i$ groups, assign the observation to the group that has the highest $\frac{k\_{i}}{n\_{i}}$
-   Where:
+	For $i$ groups, assign the observation to the group that has the highest $\frac{k_{i}}{n_{i}}$
+	Where:
+	- $k_i$ number of observations from $G_i$ among the $k$ nearest neighbors of the observation in question.
 
-   - $k\_i$ number of observations from $G\_i$ among the $k$ nearest neighbors of the observation in question.
-
-We suggest choosing $k$ nearing $\sqrt{n\_i}$.
+We suggest choosing $k$ nearing $\sqrt{n_i}$.
 
 In practice, one could test several values of $k$, and use one with the best error rate.
 
@@ -85,94 +85,92 @@ When data deviates from normality, nonparametric methods classify observations w
 
 This note will describe 4 nonparametric classification procecures.
 
-Each uses sample data directly to assign $\mathbf{y\_{0}}$ to one of $k$ groups.
+Each uses sample data directly to assign $\mathbf{y_{0}}$ to one of $k$ groups.
 
 ## Multinomial classification
 
 Treats variables as categorical (e.g., counts or discrete levels), comparing observed frequencies to expected ones per group.
 
-For an observation $\mathbf{y}$ with frequency $q\_{hi}$ in group $G\_h$:
-
-- Assign to $G\_1$ if $\frac{q\_{1i}}{q\_{2i}} > \frac{p\_2}{p\_1}$ (Formula 9.17, two groups), else $G\_2$.
-- For $k > 2$, assign to group $h$ maximizing $p\_h q\_{hi}$ (generalized rule).
+For an observation $\mathbf{y}$ with frequency $q_{hi}$ in group $G_h$:
+- Assign to $G_1$ if $\frac{q_{1i}}{q_{2i}} > \frac{p_2}{p_1}$ (Formula 9.17, two groups), else $G_2$.
+- For $k > 2$, assign to group $h$ maximizing $p_h q_{hi}$ (generalized rule).
 
 Steps:
 
 1. **Categorize Data**: Convert continuous $\mathbf{y}$ into discrete levels (e.g., bins) or use naturally categorical data.
-2. **Count Frequencies**: For each category $i$ in $\mathbf{y}$, count occurrences $q\_{hi}$ in training data for group $G\_h$.
-3. **Estimate Priors**: Set [[Prior Probability|prior probability]] $p\_h$ (e.g., $p\_h = n\_h / N$ or equal if unspecified).
-4. **Compute Ratios (2 Groups)**: For each category $i$, calculate $\frac{q\_{1i}}{q\_{2i}}$ and compare to $\frac{p\_2}{p\_1}$.
-5. **Classify**: If ratio > threshold, assign to $G\_1$; else $G\_2$. For $k > 2$, compute $p\_h q\_{hi}$ for all $h$ and pick max.
+2. **Count Frequencies**: For each category $i$ in $\mathbf{y}$, count occurrences $q_{hi}$ in training data for group $G_h$.
+3. **Estimate Priors**: Set [[3 Reference/Prior Probability\|prior probability]] $p_h$ (e.g., $p_h = n_h / N$ or equal if unspecified).
+4. **Compute Ratios (2 Groups)**: For each category $i$, calculate $\frac{q_{1i}}{q_{2i}}$ and compare to $\frac{p_2}{p_1}$.
+5. **Classify**: If ratio > threshold, assign to $G_1$; else $G_2$. For $k > 2$, compute $p_h q_{hi}$ for all $h$ and pick max.
 
 ## Classification based on density estimators
 
-Estimates the probability density $f\_h(\mathbf{y})$ for each group using a kernel (e.g., normal) and assigns $\mathbf{y}$ to the group with the highest density.
+Estimates the probability density $f_h(\mathbf{y})$ for each group using a kernel (e.g., normal) and assigns $\mathbf{y}$ to the group with the highest density.
 
 Steps
 
 1. Compute **kernel density estimate** (9.23):
-   $$
-   \hat{f}(\mathbf{y}_{0}) = \frac{1}{nh_{1}h\_{2}\dots h\_{p}}
-   \sum\_{i=1}^n K\left( \frac{y\_{01}-y\_{i1}}{h\_{1}}, \dots, \frac{y\_{0p}-y\_{ip}}{h\_{p}} \right)
-   $$
-   where
-   - $K(u)$: Kernel (e.g., normal)
-   - $h$: Smoothing parameter (e.g., $h=2$ from Table 9.8)
-   - $p$: Amount of variables
-   - $n$: Sample size
+	$$
+	\hat{f}(\mathbf{y}_{0}) = \frac{1}{nh_{1}h_{2}\dots h_{p}}
+	\sum_{i=1}^n K\left( \frac{y_{01}-y_{i1}}{h_{1}}, \dots, \frac{y_{0p}-y_{ip}}{h_{p}} \right)
+	$$
+	where
+	- $K(u)$: Kernel (e.g., normal)
+	- $h$: Smoothing parameter (e.g., $h=2$ from Table 9.8)
+	- $p$: Amount of variables
+	- $n$: Sample size
 
-2. **Assign to group $h$** which has the maximum $p\_i \hat{f}(\mathbf{y\_{0}}|G\_{i})$ (9.28), where $p\_i$ is the $i$-th prior probability.
+2. **Assign to group $h$** which has the maximum $p_i \hat{f}(\mathbf{y_{0}}|G_{i})$ (9.28), where $p_i$ is the $i$-th prior probability.
 
 ## Nearest neighbor classificaton rule
 
-Assigns $\mathbf{y}\_{i}$ to the group most common among its $k$ closest observations, based on distance.
+Assigns $\mathbf{y}_{i}$ to the group most common among its $k$ closest observations, based on distance.
 
 Steps:
 
 1. **Compute distances** of $\mathbf{y}_{i}$ to other points using the distance function:
-   $$
-   (\mathbf{y}_{i} - \mathbf{y}_{j})'\mathbf{S}_{pl}^{-1}(\mathbf{y}_{i} - \mathbf{y}_{j}), \qquad i \neq j
-   $$
+	$$
+	(\mathbf{y}_{i} - \mathbf{y}_{j})'\mathbf{S}_{pl}^{-1}(\mathbf{y}_{i} - \mathbf{y}_{j}), \qquad i \neq j
+	$$
 2. **Assign to group** with highest count among $k$ nearest neighbors.
-   For 2 groups, assign $\mathbf{y}_{i}$ to $G\_1$ if:
-   $$
-   \frac{k_{1}}{n\_{1}} > \frac{k\_{2}}{n\_{2}}
-   $$
-   Or for further refinement, use prior probabilities:
-   $$
-   \frac{k\_{1} / n\_{1}}{k\_{2} / n\_{2}} > \frac{p\_{2}}{p\_{1}}
-   $$
+	For 2 groups, assign $\mathbf{y}_{i}$ to $G_1$ if:
+	$$
+	\frac{k_{1}}{n_{1}} > \frac{k_{2}}{n_{2}}
+	$$
+	Or for further refinement, use prior probabilities:
+	$$
+	\frac{k_{1} / n_{1}}{k_{2} / n_{2}} > \frac{p_{2}}{p_{1}}
+	$$
 
-   For $i$ groups, assign the observation to the group that has the highest $\frac{k\_{i}}{n\_{i}}$
-   Where:
+	For $i$ groups, assign the observation to the group that has the highest $\frac{k_{i}}{n_{i}}$
+	Where:
+	- $k_i$ number of observations from $G_i$ among the $k$ nearest neighbors of the observation in question.
 
-   - $k\_i$ number of observations from $G\_i$ among the $k$ nearest neighbors of the observation in question.
-
-We suggest choosing $k$ nearing $\sqrt{n\_i}$.
+We suggest choosing $k$ nearing $\sqrt{n_i}$.
 
 In practice, one could test several values of $k$, and use one with the best error rate.
 
 ## Classification Trees
 
-Builds a decision tree by recursively splitting data into nodes based on predictor variables, assigning $\mathbf{y}\_0$ to the group most common in its terminal node.
+Builds a decision tree by recursively splitting data into nodes based on predictor variables, assigning $\mathbf{y}_0$ to the group most common in its terminal node.
 
 Steps:
 
 1. **Start at root node**: Place all $n$ observations (training data) in one group (root node).
 
-2. **Choose split**: For each predictor variable $x\_j$, test all possible cutoffs to split the node into two child nodes ($A\_L$ and $A\_R$):
-   - Compute impurity $I\_A = \sum\_{i=1}^k p\_{i|A}(1 - p\_{i|A})$ (Gini index, 9.32) for the parent node $A$, where $p\_{i|A} = \frac{p\_{i}(n\_{iA} / n\_{i})}{\sum\_{i=1}^k{p\_{i}(n\_{iA} / n\_{i})}}$ (9.35).
-   - Compute impurity for child nodes $I\_{A\_L}$ and $I\_{A\_R}$.
-   - Calculate change in impurity: $\Delta I = p\_A I\_A - (p\_{A\_L} I\_{A\_L} + p\_{A\_R} I\_{A\_R})$ (9.36), where $p\_A = \frac{n\_A}{n}$.
-   - Select the variable and cutoff maximizing $\Delta I$ (best split).
+2. **Choose split**: For each predictor variable $x_j$, test all possible cutoffs to split the node into two child nodes ($A_L$ and $A_R$):
+	- Compute impurity $I_A = \sum_{i=1}^k p_{i|A}(1 - p_{i|A})$ (Gini index, 9.32) for the parent node $A$, where $p_{i|A} = \frac{p_{i}(n_{iA} / n_{i})}{\sum_{i=1}^k{p_{i}(n_{iA} / n_{i})}}$ (9.35).
+	- Compute impurity for child nodes $I_{A_L}$ and $I_{A_R}$.
+	- Calculate change in impurity: $\Delta I = p_A I_A - (p_{A_L} I_{A_L} + p_{A_R} I_{A_R})$ (9.36), where $p_A = \frac{n_A}{n}$.
+	- Select the variable and cutoff maximizing $\Delta I$ (best split).
 
-3. **Repeat recursively**: Apply step 2 to each child node (e.g., $A\_L$, $A\_R$) until a stopping rule (e.g., cross-validation) determines the optimal tree size. Nodes that stop splitting are terminal nodes.
+3. **Repeat recursively**: Apply step 2 to each child node (e.g., $A_L$, $A_R$) until a stopping rule (e.g., cross-validation) determines the optimal tree size. Nodes that stop splitting are terminal nodes.
 
-4. **Assign groups**: For each terminal node, assign the group $G\_i$ with the highest count.
+4. **Assign groups**: For each terminal node, assign the group $G_i$ with the highest count.
 
-5. **Classify $\mathbf{y}\_0$**: Traverse the tree with $\mathbf{y}\_0$'s values:
-   - Start at the root, follow splits (e.g., if eyehd < 11.95, go left).
-   - Reach a terminal node and assign $\mathbf{y}\_0$ to its group.
+5. **Classify $\mathbf{y}_0$**: Traverse the tree with $\mathbf{y}_0$'s values:
+	- Start at the root, follow splits (e.g., if eyehd < 11.95, go left).
+	- Reach a terminal node and assign $\mathbf{y}_0$ to its group.
 
 ![[assets/Pasted image 20250321132055.png|400]]
 
@@ -264,7 +262,6 @@ print("Nearest neighbor counts for groups 1,2,3 (k=5):", counts[1:])
 print("Predicted group (nearest neighbor):", group_nn)
 print("Predicted group (tree):", group_tree)
 ```
-
 ```output
 Multinomial scores: ['3.333333e-03', '3.366667e-01', '3.333333e-03']
 Predicted group (multinomial): 2
@@ -274,3 +271,4 @@ Nearest neighbor counts for groups 1,2,3 (k=5): [0 4 1]
 Predicted group (nearest neighbor): 2
 Predicted group (tree): 2
 ```
+

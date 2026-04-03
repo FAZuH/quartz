@@ -5,139 +5,126 @@ modified: 2026-04-02T11:56:59.476+07:00
 published: 2026-04-02T11:56:59.476+07:00
 tags:
   - type/category
+cssclasses: ""
 creation-time: 2025-03-06 20:32
 parent:
   - "[[statistics]]"
 PassFrontmatter: true
 ---
 
+
 # Forecasting Methods
 
-- _italic_: Definition / About
+- *italic*: Definition / About
 - **Bold**: Property / Theorem
 - Standard: Procedure / Example / Cheatsheet
 
 ## Cheatsheets
-
-- [[forecasting-methods-cheatsheet_202603292104|Forecasting Methods Cheatsheet]]
+- [[3 Reference/forecasting-methods-cheatsheet_202603292104\|Forecasting Methods Cheatsheet]]
 
 ## Basics
-
-- _[[cross-section-data_202603161400|Cross-section Data]]_
-- _[[time-series-data_202603161400|Time Series Data]]_
-- _[[panel-pooled-data_202603161400|Panel/Pooled Data]]_
-- _[[stochastic-process_202603161400|Stochastic Process]]_
-- _[[time-series-components_202603161400|Time Series Components]]_
-- _[[lag-definition_202603161400|Lag]]_
-- [[univariate-vs-multivariate-models_202603161400|Univariate vs Multivariate Models]]
+- *[[3 Reference/cross-section-data_202603161400\|Cross-section Data]]*
+- *[[3 Reference/time-series-data_202603161400\|Time Series Data]]*
+- *[[3 Reference/panel-pooled-data_202603161400\|Panel/Pooled Data]]*
+- *[[3 Reference/stochastic-process_202603161400\|Stochastic Process]]*
+- *[[3 Reference/time-series-components_202603161400\|Time Series Components]]*
+- *[[3 Reference/lag-definition_202603161400\|Lag]]*
+- [[3 Reference/univariate-vs-multivariate-models_202603161400\|Univariate vs Multivariate Models]]
 
 ## Stationarity and Moments
-
-- _[[autocovariance-and-autocorrelation_202603161400|Autocovariance and Autocorrelation]]_
-- _[[weakly-stationary_202603161400|Weakly Stationary]]_
-  - **[[weakly-stationary_202603161400#Relationship with Strict Stationarity|Theorem: Strict Stationary implies Weakly Stationary]]**
-- _[[strictly-stationary_202603161400|Strictly Stationary]]_
-  - **[[strictly-stationary_202603161400#Relationship with Weak Stationarity|Theorem: Strict Stationary implies Weakly Stationary]]**
-- _[[sample-autocorrelation_202603161400|Sample Autocorrelation (ACF)]]_
-- [[correlogram_202603161400|Correlogram]]
+- *[[3 Reference/autocovariance-and-autocorrelation_202603161400\|Autocovariance and Autocorrelation]]*
+- *[[3 Reference/weakly-stationary_202603161400\|Weakly Stationary]]*
+	- **[[3 Reference/weakly-stationary_202603161400#Relationship with Strict Stationarity\|Theorem: Strict Stationary implies Weakly Stationary]]**
+- *[[3 Reference/strictly-stationary_202603161400\|Strictly Stationary]]*
+	- **[[3 Reference/strictly-stationary_202603161400#Relationship with Weak Stationarity\|Theorem: Strict Stationary implies Weakly Stationary]]**
+- *[[3 Reference/sample-autocorrelation_202603161400\|Sample Autocorrelation (ACF)]]*
+- [[3 Reference/correlogram_202603161400\|Correlogram]]
 
 ## Parametric Models
-
-- _[[general-linear-process_202603161400|General Linear Process]]_
-  - **[[general-linear-process_202603161400#Stationarity Condition|Property: Stationarity Condition for General Linear Process]]**
-
+- *[[3 Reference/general-linear-process_202603161400\|General Linear Process]]*
+	- **[[3 Reference/general-linear-process_202603161400#Stationarity Condition\|Property: Stationarity Condition for General Linear Process]]**
 ### Autoregressive (AR) Processes
-
-- _[[arp-process-model_202603161400|AR(p) Process Model]]_
-  - **[[arp-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(p)]]**
-  - **[[arp-process-model_202603161400#Yule-Walker Equations|Property: Yule-Walker Equations for AR(p)]]**
-  - **[[arp-process-model_202603161400#Properties|Property: Variance of AR(p)]]**
-  - _[[ar1-process-model_202603161400|AR(1) Process Model]]_
-    - **[[ar1-process-model_202603161400#Stationarity Condition|Property: Stationarity Condition for AR(1)]]**
-    - **[[ar1-process-model_202603161400#Autocorrelation Function|Property: ACF of AR(1)]]**
-    - [[ar1-process-model_202603161400#Example: Explosive AR(1) Process|Example: Explosive AR(1) Process]]
-  - _[[ar-characteristic-equation_202603161400|AR Characteristic Equation]]_
-- _[[random-walk_202603161400|Random Walk]]_
-- _[[backshift-operator_202603161400|Backshift Operator (B)]]_
-
+- *[[3 Reference/arp-process-model_202603161400\|AR(p) Process Model]]*
+	- **[[3 Reference/arp-process-model_202603161400#Stationarity Condition\|Property: Stationarity Condition for AR(p)]]**
+	- **[[3 Reference/arp-process-model_202603161400#Yule-Walker Equations\|Property: Yule-Walker Equations for AR(p)]]**
+	- **[[3 Reference/arp-process-model_202603161400#Properties\|Property: Variance of AR(p)]]**
+	- *[[3 Reference/ar1-process-model_202603161400\|AR(1) Process Model]]*
+		- **[[3 Reference/ar1-process-model_202603161400#Stationarity Condition\|Property: Stationarity Condition for AR(1)]]**
+		- **[[3 Reference/ar1-process-model_202603161400#Autocorrelation Function\|Property: ACF of AR(1)]]**
+		- [[3 Reference/ar1-process-model_202603161400#Example: Explosive AR(1) Process\|Example: Explosive AR(1) Process]]
+	- *[[3 Reference/ar-characteristic-equation_202603161400\|AR Characteristic Equation]]*
+- *[[3 Reference/random-walk_202603161400\|Random Walk]]*
+- *[[3 Reference/backshift-operator_202603161400\|Backshift Operator (B)]]*
+	
 ### Moving Average (MA) Processes
+- *[[3 Reference/white-noise_202603161400\|White Noise]]*
 
-- _[[white-noise_202603161400|White Noise]]_
-
-- _[[invertible-ma(q)-process_202603311948|Invertible MA(q) Process]]_
-
-- _[[moving-average-process-maq_202603161400|MA(q) Process Model]]_
-  - _[[ma1-process-model_202603161400|MA(1) Process Model]]_
-    - **[[ma1-process-model_202603161400#Autocorrelation Bounds|Property: Bounds of MA(1) Autocorrelation]]**
-    - **[[ma1-process-model_202603161400#Model Non-Uniqueness|Property: Non-uniqueness of MA(1) Model]]**
-    - **[[ma1-process-model_202603161400#Invertibility Condition|Property: Invertibility Condition for MA(1)]]**
-  - _[[ma2-process-model_202603161400|MA(2) Process Model]]_
+- *[[3 Reference/invertible-ma(q)-process_202603311948\|Invertible MA(q) Process]]*
+- *[[3 Reference/moving-average-process-maq_202603161400\|MA(q) Process Model]]*
+	- *[[3 Reference/ma1-process-model_202603161400\|MA(1) Process Model]]*
+		- **[[3 Reference/ma1-process-model_202603161400#Autocorrelation Bounds\|Property: Bounds of MA(1) Autocorrelation]]**
+		- **[[3 Reference/ma1-process-model_202603161400#Model Non-Uniqueness\|Property: Non-uniqueness of MA(1) Model]]**
+		- **[[3 Reference/ma1-process-model_202603161400#Invertibility Condition\|Property: Invertibility Condition for MA(1)]]**
+	- *[[3 Reference/ma2-process-model_202603161400\|MA(2) Process Model]]*
 
 ### Mixed and Integrated Models (ARMA/ARIMA)
-
-- [[rationale-for-non-stationary-models_202603161400|Rationale for Non-Stationary Models]]
-- _[[armapq-process-model_202603161400|ARMA(p,q) Process Model]]_
-  - _[[arma11-process-model_202603161400|ARMA(1,1) Process Model]]_
-    - **[[arma11-process-model_202603161400#Properties|Property: Variance and ACF of ARMA(1,1)]]**
-- _[[arima-pdq-model-definition_202603161400|ARIMA(p,d,q) Model]]_
-  - [[arima-pdq-model-definition_202603161400#ARIMA(p,1,q)|ARIMA(p,1,q) Formulation]]
-  - **[[arima-pdq-model-definition_202603161400#Property: Characteristic Polynomial of ARIMA(p,1,q)|Property: Characteristic Polynomial of ARIMA(p,1,q)]]**
-  - [[arima-pdq-model-definition_202603161400#Constant Term|Constant Term in ARIMA]]
-  - _[[arima-pdq-model-definition_202603161400#Integrated Moving Average (IMA)|IMA(d,q) Model]]_
-    - _[[arima-pdq-model-definition_202603161400#IMA(1,1)|IMA(1,1) Model]]_
-    - _[[arima-pdq-model-definition_202603161400#IMA(2,2)|IMA(2,2) Model]]_
-  - _[[arima-pdq-model-definition_202603161400#Autoregressive Integrated (ARI)|ARI(p,d) Model]]_
-    - _[[arima-pdq-model-definition_202603161400#ARI(1,1)|ARI(1,1) Model]]_
-    - [[arima-pdq-model-definition_202603161400#Procedure: Determining Weights for ARI(1,1)|Procedure: Determining Weights for ARI(1,1)]]
+- [[3 Reference/rationale-for-non-stationary-models_202603161400\|Rationale for Non-Stationary Models]]
+- *[[3 Reference/armapq-process-model_202603161400\|ARMA(p,q) Process Model]]*
+	- *[[3 Reference/arma11-process-model_202603161400\|ARMA(1,1) Process Model]]*
+		- **[[3 Reference/arma11-process-model_202603161400#Properties\|Property: Variance and ACF of ARMA(1,1)]]**
+- *[[3 Reference/arima-pdq-model-definition_202603161400\|ARIMA(p,d,q) Model]]*
+	- [[3 Reference/arima-pdq-model-definition_202603161400#ARIMA(p,1,q)\|ARIMA(p,1,q) Formulation]]
+	- **[[3 Reference/arima-pdq-model-definition_202603161400#Property: Characteristic Polynomial of ARIMA(p,1,q)\|Property: Characteristic Polynomial of ARIMA(p,1,q)]]**
+	- [[3 Reference/arima-pdq-model-definition_202603161400#Constant Term\|Constant Term in ARIMA]]
+	- *[[3 Reference/arima-pdq-model-definition_202603161400#Integrated Moving Average (IMA)\|IMA(d,q) Model]]*
+		- *[[3 Reference/arima-pdq-model-definition_202603161400#IMA(1,1)\|IMA(1,1) Model]]*
+		- *[[3 Reference/arima-pdq-model-definition_202603161400#IMA(2,2)\|IMA(2,2) Model]]*
+	- *[[3 Reference/arima-pdq-model-definition_202603161400#Autoregressive Integrated (ARI)\|ARI(p,d) Model]]*
+		- *[[3 Reference/arima-pdq-model-definition_202603161400#ARI(1,1)\|ARI(1,1) Model]]*
+		- [[3 Reference/arima-pdq-model-definition_202603161400#Procedure: Determining Weights for ARI(1,1)\|Procedure: Determining Weights for ARI(1,1)]]
 
 ## Smoothing Methods
-
-- [[smoothing-methods_202603161400|Smoothing Methods Overview]]
-- [[naive-method_202603161400|Naive Method]]
-- [[averaging-method_202603161400|Averaging Method]]
-- _[[moving-average-process_202603161400|Moving Average Process (Stochastic)]]_
-- [[single-moving-average_202603161400|Single Moving Average (SMA)]]
-- [[double-moving-average_202603161400|Double Moving Average (DMA)]]
-- [[single-exponential-smoothing_202603161400|Single Exponential Smoothing (SES)]]
-- [[double-exponential-smoothing_202603161400|Double Exponential Smoothing (Holt's Linear Trend)]]
-- [[holt-winter-seasonal-method_202603161400|Holt-Winter Seasonal Method]]
+- [[3 Reference/smoothing-methods_202603161400\|Smoothing Methods Overview]]
+- [[3 Reference/naive-method_202603161400\|Naive Method]]
+- [[3 Reference/averaging-method_202603161400\|Averaging Method]]
+- *[[3 Reference/moving-average-process_202603161400\|Moving Average Process (Stochastic)]]*
+- [[3 Reference/single-moving-average_202603161400\|Single Moving Average (SMA)]]
+- [[3 Reference/double-moving-average_202603161400\|Double Moving Average (DMA)]]
+- [[3 Reference/single-exponential-smoothing_202603161400\|Single Exponential Smoothing (SES)]]
+- [[3 Reference/double-exponential-smoothing_202603161400\|Double Exponential Smoothing (Holt's Linear Trend)]]
+- [[3 Reference/holt-winter-seasonal-method_202603161400\|Holt-Winter Seasonal Method]]
 
 ## Strategy and Estimation
-
-- [[forecasting-model-accuracy-measures_202603161400|Forecasting Model Accuracy Measures]]
-- [[selecting-a-model-using-data-splitting_202603161400|Model Selection via Data Splitting]]
-- [[building-models-with-the-box-jenkins-strategy_202603161400|Box-Jenkins Strategy]]
-- [[estimating-constant-mean_202603161400|Estimating Constant Mean]]
-- [[least-squares-for-linear-trend-estimation_202603161400|Least Squares for Linear Trend Estimation]]
-- [[least-squares-for-quadratic-trend-estimation_202603161400|Least Squares for Quadratic Trend Estimation]]
+- [[3 Reference/forecasting-model-accuracy-measures_202603161400\|Forecasting Model Accuracy Measures]]
+- [[3 Reference/selecting-a-model-using-data-splitting_202603161400\|Model Selection via Data Splitting]]
+- [[3 Reference/building-models-with-the-box-jenkins-strategy_202603161400\|Box-Jenkins Strategy]]
+- [[3 Reference/estimating-constant-mean_202603161400\|Estimating Constant Mean]]
+- [[3 Reference/least-squares-for-linear-trend-estimation_202603161400\|Least Squares for Linear Trend Estimation]]
+- [[3 Reference/least-squares-for-quadratic-trend-estimation_202603161400\|Least Squares for Quadratic Trend Estimation]]
 
 ## Trends and Transformations
-
-- _[[stochastic-vs-deterministic-trend_202603161400|Stochastic vs Deterministic Trend]]_
-- _[[linear-and-quadratic-deterministic-trends_202603161400|Linear and Quadratic Deterministic Trends]]_
-- [[seasonal-average-model_202603161400|Seasonal Average Model]]
-- [[differencing-to-achieve-stationarity_202603161400|Procedure: Differencing to Achieve Stationarity]]
-- [[log-transformation-for-variance-stabilization_202603161400|Procedure: Log Transformation for Variance Stabilization]]
-- [[percentage-changes-transformation_202603161400|Procedure: Percentage Changes Transformation]]
+- *[[3 Reference/stochastic-vs-deterministic-trend_202603161400\|Stochastic vs Deterministic Trend]]*
+- *[[3 Reference/linear-and-quadratic-deterministic-trends_202603161400\|Linear and Quadratic Deterministic Trends]]*
+- [[3 Reference/seasonal-average-model_202603161400\|Seasonal Average Model]]
+- [[3 Reference/differencing-to-achieve-stationarity_202603161400\|Procedure: Differencing to Achieve Stationarity]]
+- [[3 Reference/log-transformation-for-variance-stabilization_202603161400\|Procedure: Log Transformation for Variance Stabilization]]
+- [[3 Reference/percentage-changes-transformation_202603161400\|Procedure: Percentage Changes Transformation]]
 
 ## Examples
-
-- [[economic-and-natural-time-series-examples_202603161400|Economic and Natural Time Series Examples]]
+- [[3 Reference/economic-and-natural-time-series-examples_202603161400\|Economic and Natural Time Series Examples]]
 
 ## Stationarity Tests
-
-- [[procedure-visual-stationarity-test_202603300225|Procedure: Visual Stationarity Test]]
-- _[[bartlett's-test-for-acf_202603300222|Bartlett's Test for ACF]]_
-- _[[box-pierce-test_202603300222|Box-Pierce Test]]_
-- _[[ljung-box-test_202603300222|Ljung-Box Test]]_
-- [[about-box-pierce-vs-ljung-box-comparison_202603300226|Box-Pierce vs Ljung-Box Comparison]]
-- _[[dickey-fuller-test_202603300223|Dickey-Fuller Test]]_
-- _[[augmented-dickey-fuller-test_202603300223|Augmented Dickey-Fuller Test]]_
+- [[3 Reference/procedure-visual-stationarity-test_202603300225\|Procedure: Visual Stationarity Test]]
+- *[[3 Reference/bartlett's-test-for-acf_202603300222\|Bartlett's Test for ACF]]*
+- *[[3 Reference/box-pierce-test_202603300222\|Box-Pierce Test]]*
+- *[[3 Reference/ljung-box-test_202603300222\|Ljung-Box Test]]*
+- [[3 Reference/about-box-pierce-vs-ljung-box-comparison_202603300226\|Box-Pierce vs Ljung-Box Comparison]]
+- *[[3 Reference/dickey-fuller-test_202603300223\|Dickey-Fuller Test]]*
+- *[[3 Reference/augmented-dickey-fuller-test_202603300223\|Augmented Dickey-Fuller Test]]*
 
 ## Model Specification
-
-- _[[partial-autocorrelation-(pacf)_202603300223|Partial Autocorrelation (PACF)]]_
-- [[procedure-model-identification-via-acf-pacf_202603300227|Procedure: Model Identification via ACF/PACF]]
-- _[[extended-autocorrelation-function-(eacf)_202603300224|Extended Autocorrelation Function (EACF)]]_
-- _[[aic-criterion_202603300224|AIC Criterion]]_
-- _[[bic-criterion_202603300224|BIC Criterion]]_
+- *[[3 Reference/partial-autocorrelation-(pacf)_202603300223\|Partial Autocorrelation (PACF)]]*
+- [[3 Reference/procedure-model-identification-via-acf-pacf_202603300227\|Procedure: Model Identification via ACF/PACF]]
+- *[[3 Reference/extended-autocorrelation-function-(eacf)_202603300224\|Extended Autocorrelation Function (EACF)]]*
+- *[[3 Reference/aic-criterion_202603300224\|AIC Criterion]]*
+- *[[3 Reference/bic-criterion_202603300224\|BIC Criterion]]*

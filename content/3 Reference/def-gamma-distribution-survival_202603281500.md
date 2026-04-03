@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 ## Definition
 
@@ -21,5 +23,5 @@ $$E(T) = \frac{\alpha}{\lambda}, \quad V(T) = \frac{\alpha}{\lambda^2}$$
 
 ## Related
 
-- [[def-exponential-distribution-survival_202603281500|Exponential Distribution (Survival)]]
-- [[parametric-survival-distributions-cheatsheet_202603281500|Parametric Survival Distributions Cheatsheet]]
+- [[3 Reference/def-exponential-distribution-survival_202603281500\|Exponential Distribution (Survival)]]
+- [[3 Reference/parametric-survival-distributions-cheatsheet_202603281500\|Parametric Survival Distributions Cheatsheet]]

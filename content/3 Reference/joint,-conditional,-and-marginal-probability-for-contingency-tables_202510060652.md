@@ -7,11 +7,13 @@ modified: 2026-03-25T15:22:40.616+07:00
 published: 2026-03-25T15:22:40.616+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-06 06:52
 status: in progress
 parent:
   - "[[categorical-data-analysis]]"
 ---
+
 
 Suppose responses $(X,Y)$ of randomly chosen subjects have a probability distribution.
 
@@ -19,17 +21,17 @@ Suppose responses $(X,Y)$ of randomly chosen subjects have a probability distrib
 
 ## Joint probability
 
-Let $\pi\_{ij}$ be the probability that $(X,Y)$ occurs at row $i$ column $j$ in the [[def-contingency-table_202510060649|contingency table]]. It is also referred to as the **joint probability** of $X$ and $Y$.
+Let $\pi_{ij}$ be the probability that $(X,Y)$ occurs at row $i$ column $j$ in the [[3 Reference/def-contingency-table_202510060649\|contingency table]]. It is also referred to as the **joint probability** of $X$ and $Y$.
 
 After sampling, let
-
-- $n\_{ij}$ : Cell frequencies
+- $n_{ij}$ : Cell frequencies
 - $n$ : Total sample size
 
 Then the sample joint probability is
 $$
-p\_{ij}=\frac{n\_{ij}}{n}
+p_{ij}=\frac{n_{ij}}{n}
 $$
+
 
 ## Marginal probability
 
@@ -37,13 +39,13 @@ The **marginal distributions** are the row and column totals that result from su
 
 $$
 \begin{align}
-\pi\_{i+} & = \sum\_j \pi\_{ij} \\
-\pi\_{+j} & = \sum\_i \pi\_{ij}
+\pi_{i+} & = \sum_j \pi_{ij} \\
+\pi_{+j} & = \sum_i \pi_{ij}
 \end{align}
 $$
 
-## Conditional probability
+ ## Conditional probability
 
 $$
-\pi\_{j|i} = \frac{\pi\_{ij}}{\pi\_{i+}}
+\pi_{j|i} = \frac{\pi_{ij}}{\pi_{i+}}
 $$

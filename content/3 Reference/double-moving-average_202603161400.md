@@ -6,31 +6,32 @@ aliases:
 created: 2026-03-29T17:33:47.075+07:00
 modified: 2026-03-31T16:02:11.845+07:00
 published: 2026-03-31T16:02:11.845+07:00
+cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
 ---
 
+
 ## Formula
 
 $$
 \begin{align}
-S\_{1,t} &= \text{SMA of } X \\
-S\_{2,t} &= \text{SMA of } S\_1 \\
-A\_t &= 2S\_{1,t} - S\_{2,t} \\
-B\_t &= \frac{2}{m-1}(S\_{1,t} - S\_{2,t}) \ \\
+S_{1,t} &= \text{SMA of } X \\
+S_{2,t} &= \text{SMA of } S_1 \\
+A_t &= 2S_{1,t} - S_{2,t} \\
+B_t &= \frac{2}{m-1}(S_{1,t} - S_{2,t}) \\ \\
 
-F\_{t+h} &= A\_t + hB\_t \\
+F_{t+h} &= A_t + hB_t \\
 \end{align}
 $$
 
 Where:
-
-- $S\_{1,t}$ : first-order <u>[[single-moving-average_202603161400|SMA]] of $X$</u> at time $t$
-- $S\_{2,t}$ : second-order SMA (<u>SMA of $S\_{1,t}$</u>) at time $t$
-- $F\_{t+h}$ : <u>forecast</u> $h$ steps ahead from time $t$
-- $A\_t$ : level estimate at time $t$
-- $B\_t$ : trend (slope) estimate at time $t$
+- $S_{1,t}$ : first-order <u>[[3 Reference/single-moving-average_202603161400\|SMA]] of $X$</u> at time $t$
+- $S_{2,t}$ : second-order SMA (<u>SMA of $S_{1,t}$</u>) at time $t$
+- $F_{t+h}$ : <u>forecast</u> $h$ steps ahead from time $t$
+- $A_t$ : level estimate at time $t$
+- $B_t$ : trend (slope) estimate at time $t$
 - $m$ : <u>window</u> size
 - $h$ : forecast horizon (<u>steps ahead</u>)
 
@@ -69,4 +70,4 @@ def double_moving_average(x: list[float], m: int, h: int) -> list[DMAResult]:
 ```
 
 > [!tip]
-> [[single-moving-average_202603161400|SMA]] process performed twice. Suitable for data with trends.
+> [[3 Reference/single-moving-average_202603161400\|SMA]] process performed twice. Suitable for data with trends.

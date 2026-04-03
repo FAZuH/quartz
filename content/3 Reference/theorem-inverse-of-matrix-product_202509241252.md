@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.638+07:00
 published: 2026-03-25T15:22:40.638+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 12:52
 status: complete
 parent:
@@ -14,9 +15,10 @@ parent:
   - "[[matrices]]"
 ---
 
+
 ## Theorem
 
-Let $A,B$ : [[def-inverse-matrix_202509241225|Invertible matrices]] of the same size
+Let $A,B$ : [[3 Reference/def-inverse-matrix_202509241225\|Invertible matrices]] of the same size
 
 Then $AB$ is invertible and
 $$
@@ -38,18 +40,18 @@ Then
 $$
 \begin{align}
 (AB)(B^{-1}A^{-1}) & = A(BB^{-1})A^{-1} \\
-& = AIA^{-1} \\
-& = AA^{-1} \\
-& = I
+ & = AIA^{-1} \\
+ & = AA^{-1} \\
+ & = I
 \end{align}
 $$
 and
 $$
 \begin{align}
 (B^{-1}A^{-1})(AB) & = B^{-1}(A^{-1}A)B \\
-& = B^{-1}IB \\
-& = B^{-1}B \\
-& = I
+ & = B^{-1}IB \\
+ & = B^{-1}B \\
+ & = I
 \end{align}
 $$
 

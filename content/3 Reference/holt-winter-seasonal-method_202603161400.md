@@ -5,39 +5,39 @@ aliases:
 created: 2026-03-29T17:33:47.075+07:00
 modified: 2026-03-29T21:08:33.024+07:00
 published: 2026-03-29T21:08:33.024+07:00
+cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
 parent: "[[forecasting methods]]"
 ---
 
+
 ## Formula
 
-Smoothing method for data with [[seasonal-average-model_202603161400|seasonal]] patterns with period length $p$.
+Smoothing method for data with [[3 Reference/seasonal-average-model_202603161400\|seasonal]] patterns with period length $p$.
 
 ### Additive
-
 $$
 \begin{aligned}
-S\_t &= \alpha(X\_t - M\_{t-p}) + (1-\alpha)(S\_{t-1} + T\_{t-1}) \\
-T\_t &= \gamma(S\_t - S\_{t-1}) + (1-\gamma)T\_{t-1} \\
-M\_t &= \delta(X\_t - S\_t) + (1-\delta)M\_{t-p} \\
-F\_{t+h} &= S\_t + hT\_t + M\_{t-p+h}
+S_t &= \alpha(X_t - M_{t-p}) + (1-\alpha)(S_{t-1} + T_{t-1}) \\
+T_t &= \gamma(S_t - S_{t-1}) + (1-\gamma)T_{t-1} \\
+M_t &= \delta(X_t - S_t) + (1-\delta)M_{t-p} \\
+F_{t+h} &= S_t + hT_t + M_{t-p+h}
 \end{aligned}
 $$
 
 > [!tip]
-> Used when the [[seasonal-average-model_202603161400|seasonal]] component is constant relative to the level.
+> Used when the [[3 Reference/seasonal-average-model_202603161400\|seasonal]] component is constant relative to the level.
 
 ### Multiplicative
-
 $$
 \begin{aligned}
-S\_t &= \alpha(X\_t / M\_{t-p}) + (1-\alpha)(S\_{t-1} + T\_{t-1}) \\
-T\_t &= \gamma(S\_t - S\_{t-1}) + (1-\gamma)T\_{t-1} \\
-M\_t &= \delta(X\_t / S\_t) + (1-\delta)M\_{t-p} \\
-F\_{t+h} &= (S\_t + hT\_t)M\_{t-p+h}
+S_t &= \alpha(X_t / M_{t-p}) + (1-\alpha)(S_{t-1} + T_{t-1}) \\
+T_t &= \gamma(S_t - S_{t-1}) + (1-\gamma)T_{t-1} \\
+M_t &= \delta(X_t / S_t) + (1-\delta)M_{t-p} \\
+F_{t+h} &= (S_t + hT_t)M_{t-p+h}
 \end{aligned}
 $$
 
 > [!tip]
-> Used when [[seasonal-average-model_202603161400|seasonal]] variation changes along with the data level.
+> Used when [[3 Reference/seasonal-average-model_202603161400\|seasonal]] variation changes along with the data level.

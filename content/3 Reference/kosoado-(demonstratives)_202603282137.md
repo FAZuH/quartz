@@ -7,11 +7,13 @@ modified: 2026-03-31T12:29:54.008+07:00
 published: 2026-03-31T12:29:54.008+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2026-03-28 21:37
 status: in progress
 parent:
   - "[[learn-japanese_202603111923]]"
 ---
+
 
 Japanese demonstratives follow a 4-way distance pattern based on the **ko-so-a-do** stems:
 
@@ -21,7 +23,6 @@ Japanese demonstratives follow a 4-way distance pattern based on the **ko-so-a-d
 | そ (so) | Near <u>listener</u> | that / there       |
 | あ (a)  | <u>Far</u> from both | that (over there)  |
 | ど (do) | <u>Question</u>      | which / where      |
-
 ## Cheatsheet
 
 |                             | **Speaker** (ko-)          | **Listener** (so-)          | **Far** from both (a-)            | **Question** (do-)            |
@@ -36,8 +37,8 @@ Japanese demonstratives follow a 4-way distance pattern based on the **ko-so-a-d
 
 | | ko | so | a | do |
 |--|----|----|---|----|
-| **Thing** | これ<br>_this one_ | それ<br>_that one_ | あれ<br>_that one (far)_ | どれ<br>_which one?_ |
-| **な-adj modifier** | この<br>_this ~_ | その<br>_that ~_ | あの<br>_that ~ (far)_ | どの<br>_which ~?_ |
+| **Thing** | これ<br>*this one* | それ<br>*that one* | あれ<br>*that one (far)* | どれ<br>*which one?* |
+| **な-adj modifier** | この<br>*this ~* | その<br>*that ~* | あの<br>*that ~ (far)* | どの<br>*which ~?* |
 
 - れ suffix: これ、それ、あれ、どれ → <u>stand alone</u> ("this one", "that one")
 - の suffix: この、その、あの、どの → must be <u>followed by a noun</u> ("this book", "that car")
@@ -46,13 +47,13 @@ Japanese demonstratives follow a 4-way distance pattern based on the **ko-so-a-d
 
 | | ko | so | a | do |
 |--|----|----|---|----|
-| **Place** | ここ<br>_here_ | そこ<br>_there_ | あそこ<br>_over there_ | どこ<br>_where?_ |
+| **Place** | ここ<br>*here* | そこ<br>*there* | あそこ<br>*over there* | どこ<br>*where?* |
 
 ## Direction
 
 | | ko | so | a | do |
 |--|----|----|---|----|
-| **Direction** | こちら<br>_this way_ | そちら<br>_that way_ | あちら<br>_that way (far)_ | どちら<br>_which way?_ |
+| **Direction** | こちら<br>*this way* | そちら<br>*that way* | あちら<br>*that way (far)* | どちら<br>*which way?* |
 
 Casual forms: こっち、そっち、あっち、どっち
 
@@ -63,7 +64,7 @@ Casual forms: こっち、そっち、あっち、どっち
 
 | | ko | so | a | do |
 |--|----|----|---|----|
-| **Manner** | こう<br>_like this_ | そう<br>_like that_ | ああ<br>_like that (far)_ | どう<br>_how?_ |
+| **Manner** | こう<br>*like this* | そう<br>*like that* | ああ<br>*like that (far)* | どう<br>*how?* |
 
 - こう → "this way / like this"
 - そう → "that way / like that" — also used for agreement: そうです (that's right)
@@ -74,5 +75,5 @@ Casual forms: こっち、そっち、あっち、どっち
 - **その** — the listener knows what you're talking about (shared context in conversation)
 - **あの** — both speaker AND listener know (shared memory/common knowledge)
 
-> あの映画、覚えてる？ — "That movie (we both know), remember it?"\
+> あの映画、覚えてる？ — "That movie (we both know), remember it?"  
 > その本は何？ — "What's that book (near you)?"

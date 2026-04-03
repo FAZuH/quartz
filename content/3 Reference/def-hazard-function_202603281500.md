@@ -5,17 +5,19 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
 
+
 ## Definition
 
 **Hazard Function $h(t)$**: Instantaneous failure rate at time $t$ given survival until $t$.
 
-$$h(t) = \lim\_{\Delta t \to 0} \frac{\Pr(t < T \leq t+\Delta t \mid T > t)}{\Delta t} = \frac{f(t)}{S(t)}$$
+$$h(t) = \lim_{\Delta t \to 0} \frac{\Pr(t < T \leq t+\Delta t \mid T > t)}{\Delta t} = \frac{f(t)}{S(t)}$$
 
 ## About Hazard Function
 
@@ -29,7 +31,6 @@ The "instantaneous" part means you're shrinking the window to a single point in 
 ## Properties
 
 Can be:
-
 - Increasing
 - Decreasing
 - Constant
@@ -45,5 +46,5 @@ At $t=1000$, survivors are failing at a rate of 0.05 per hour.
 
 ## Related
 
-- [[def-survival-function_202603281500|Survival Function]]
-- [[theorem-hazard-function-derivation_202603281500|Hazard Function Derivation]]
+- [[3 Reference/def-survival-function_202603281500\|Survival Function]]
+- [[3 Reference/theorem-hazard-function-derivation_202603281500\|Hazard Function Derivation]]

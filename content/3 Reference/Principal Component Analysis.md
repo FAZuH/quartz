@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.661+07:00
 modified: 2026-03-25T15:22:40.661+07:00
 published: 2026-03-25T15:22:40.661+07:00
+cssclasses: ""
 creation-time: 2025-02-20 16:07
 status: complete
 tags:
 parent:
   - "[[multivariate analysis]]"
 ---
+
 
 PCA simplifies a dataset while minimizing lost off information. PCA does this by "transforming" the data and reducing the variables, such the majority of "information" contained in the data are "highlighted"  or "retained" as much as possible.
 
@@ -28,8 +30,7 @@ PCA is used to simplify data while minimizing loss of information.
 
 PCA does this by projecting the data onto a smaller set of principal components that retain the majority of the information (variance).
 
-This reduction is valuable for
-
+This reduction is valuable for 
 - **Visualization** (e.g., plotting 2D views of 100D data)
 - **Speeding up computations** (fewer dimensions mean less processing)
 - **Improving model performance** (reducing the amount of compuattion required for the model to think)
@@ -42,25 +43,25 @@ See [Python example: PCA computation](#1.%20PCA%20computation) for an overview o
 
 Centering the data shifts its mean to zero. Without this step, variance calculations could be skewed by the data’s absolute position rather than its spread, undermining PCA’s goal of finding directions of maximum variability.
 
-For a dataset $\mathbf{Y}$ with $n$ samples and $p$ features:
+For a dataset $\mathbf{Y}$ with $n$ samples and $p$ features:  
 
 1. **Sample mean**
-   Compute the mean vector $\mathbf{\bar{Y}}$ across all samples for each feature:\
-   $$\mathbf{\bar{Y}} = \frac{1}{n} \sum\_{i=1}^{n} \mathbf{Y}\_i$$\
-   where $\mathbf{Y}\_i$ represents the $i$-th sample.
+	Compute the mean vector $\mathbf{\bar{Y}}$ across all samples for each feature:  
+	$$\mathbf{\bar{Y}} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{Y}_i$$  
+	where $\mathbf{Y}_i$ represents the $i$-th sample.  
 
 2. **Centering**
-   Subtract $\mathbf{\bar{Y}}$ from each sample to obtain the centered data $\mathbf{Y}_{\text{centered}}$:\
-   $$\mathbf{Y}_{\text{centered}} = \mathbf{Y} - \mathbf{\bar{Y}}$$
+	Subtract $\mathbf{\bar{Y}}$ from each sample to obtain the centered data $\mathbf{Y}_{\text{centered}}$:  
+	$$\mathbf{Y}_{\text{centered}} = \mathbf{Y} - \mathbf{\bar{Y}}$$  
 
-This ensures each feature’s mean is zero in $\mathbf{Y}\_{\text{centered}}$, setting the stage for PCA to analyze variance purely based on data dispersion.
+This ensures each feature’s mean is zero in $\mathbf{Y}_{\text{centered}}$, setting the stage for PCA to analyze variance purely based on data dispersion.
 
 ### 2: Compute the sample covariance matrix
 
 With the data centered, computing the covariance matrix captures how features vary together. This step quantifies relationships between variables, providing PCA with the structure needed to identify the most significant directions of spread.
 
 - Sample covariance matrix:
-  $$\mathbf{S} = \frac{1}{n-1} \mathbf{Y}_{\text{centered}}^T \mathbf{Y}_{\text{centered}}$$
+	$$\mathbf{S} = \frac{1}{n-1} \mathbf{Y}_{\text{centered}}^T \mathbf{Y}_{\text{centered}}$$  
 
 This matrix serves as the allows PCA to extract principal directions of variance.
 
@@ -72,19 +73,18 @@ This step is crucial for PCA because it provides the optimal axes—eigenvectors
 
 The eigen decomposition is as follows:
 
-$$\mathbf{S} = \mathbf{C} \boldsymbol{\Lambda} \mathbf{C}^T$$\
-where $\boldsymbol{\Lambda} = \text{diag}(\lambda\_1, \lambda\_2, \dots, \lambda\_p)$ contains the eigenvalues, and $\mathbf{C}$ has eigenvectors as columns.
+$$\mathbf{S} = \mathbf{C} \boldsymbol{\Lambda} \mathbf{C}^T$$  
+where $\boldsymbol{\Lambda} = \text{diag}(\lambda_1, \lambda_2, \dots, \lambda_p)$ contains the eigenvalues, and $\mathbf{C}$ has eigenvectors as columns.  
 
 Each column of $\mathbf{C}$ is an **eigenvector**. PCA uses these as the principal components—new axes that capture the data’s spread.
 
-**Eigenvalues $\lambda\_i$ quantify the variance along each eigenvector**, and $\mathbf{C}$ is orthogonal ($\mathbf{C}^T \mathbf{C} = \mathbf{I}$).
+**Eigenvalues $\lambda_i$ quantify the variance along each eigenvector**, and $\mathbf{C}$ is orthogonal ($\mathbf{C}^T \mathbf{C} = \mathbf{I}$).
 
 **Orthogonality ensures the principal components are independent** (uncorrelated), a key property for PCA to separate variance contributions cleanly—without it, overlapping directions would disturb the analysis.
 
 This step identifies all possible principal components, setting up the prioritization process.
 
 For further reading, read
-
 - https://zief0002.github.io/matrix-algebra/eigenvalues-and-eigenvectors.html
 - https://zief0002.github.io/matrix-algebra/spectral-decompostion.html
 
@@ -94,7 +94,7 @@ Sorting the eigenvalues and eigenvectors orders the principal components by impo
 
 This ensures PCA focuses on **directions with the largest variance first**, aligning with its objective of efficient dimensionality reduction.
 
-For the eigenvalues $\boldsymbol{\lambda}$ and eigenvectors $\mathbf{C}$, arrange the eigenvalues in descending order ($\lambda\_1 \geq \lambda\_2 \geq \dots \geq \lambda\_p$) and reorder the corresponding eigenvectors in $\mathbf{C}$ accordingly.
+For the eigenvalues $\boldsymbol{\lambda}$ and eigenvectors $\mathbf{C}$, arrange the eigenvalues in descending order ($\lambda_1 \geq \lambda_2 \geq \dots \geq \lambda_p$) and reorder the corresponding eigenvectors in $\mathbf{C}$ accordingly.  
 
 ### 5: Rotate the axes to principal components
 
@@ -102,10 +102,11 @@ Rotating the data onto the principal components transforms it into a new coordin
 
 This final step aligns the data with the directions of maximum variance.
 
-1. Use the sorted $\mathbf{C}$ (or its transpose $\mathbf{A} = \mathbf{C}^T$) where each column of $\mathbf{C}$ is a principal component direction.
+1. Use the sorted $\mathbf{C}$ (or its transpose $\mathbf{A} = \mathbf{C}^T$) where each column of $\mathbf{C}$ is a principal component direction.  
 2. Project the centered data onto these directions to obtain the transformed data $\mathbf{Z}$
-   $$\mathbf{Z} = \mathbf{Y}\_{\text{centered}} \mathbf{C}$$\
+   $$\mathbf{Z} = \mathbf{Y}_{\text{centered}} \mathbf{C}$$  
    where $\mathbf{Z}$ is an $n \times p$ matrix of principal component scores.
+
 
 ## Python example
 
@@ -115,7 +116,7 @@ The goal here is to **visualize a multi-dimensional dataset into a lower-dimensi
 
 ### 0. Setup
 
-We will demonstrate PCA in Python using [load\_iris()](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html) method from [scikit-learn](https://scikit-learn.org/) library.
+We will demonstrate PCA in Python using [load_iris()](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html) method from [scikit-learn](https://scikit-learn.org/) library.
 
 The data has 4 variables with 150 observations.
 
@@ -135,7 +136,6 @@ print("\nFirst 3 samples:\n", Y[:3, :])
 ```
 
 Output
-
 ```
 Dataset shape: (150, 4)
 
@@ -150,6 +150,7 @@ First 3 samples:
 ### 1. PCA computation
 
 Next we will compute the principal components based on [Performing PCA](#Performing%20PCA) section.
+
 
 ```python title:"PCA computation" fold
 # 1. Center the data
@@ -171,7 +172,6 @@ C = C[:, sorted_idx]
 A = C.T
 Z = np.dot(Y_i, A)
 ```
-
 ### 2. Reduce the dimensions
 
 Since we want to visualize a 2d and 3d plot from our 4d data, we will chose eigenvectors with the highest eigenvalues for our new axis in 2d and 3d.
@@ -203,7 +203,7 @@ Output
 [0.92461872 0.97768521 0.99478782 1.        ]
 ```
 
-We can see from the output that the top 2 eigenvalues already explain $97.7%$ of the variance in the data. The top 3 explains $99.4%$.
+We can see from the output that the top 2 eigenvalues already explain $97.7\%$ of the variance in the data. The top 3 explains $99.4\%$.
 
 ### 3. Visualize the result
 

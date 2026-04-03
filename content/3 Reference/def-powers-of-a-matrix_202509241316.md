@@ -7,27 +7,29 @@ modified: 2026-03-25T15:22:40.639+07:00
 published: 2026-03-25T15:22:40.639+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 13:16
 status: complete
 parent:
   - "[[linear-algebra|linear algebra]]"
 ---
 
+
 ## Definition
 
-Let $A$ : [[Def-matrix|Square matrix]]
+Let $A$ : [[3 Reference/Def-matrix\|Square matrix]]
 
 Then
 $$
 \begin{align}
 A^0 & = I \\
-A^n & = AA\dots A\quad \text{\[n factors]}
+A^n & = AA\dots A\quad \text{[n factors]}
 \end{align}
 $$
 
-If $A$ is [[def-inverse-matrix_202509241225|invertible]]
+If $A$ is [[3 Reference/def-inverse-matrix_202509241225\|invertible]]
 
 Then
 $$
-A^{-n} = (A^{-1})^n=A^{-1}A^{-1}\dots A^{-1}\quad\text{\[n factosr]}
+A^{-n} = (A^{-1})^n=A^{-1}A^{-1}\dots A^{-1}\quad\text{[n factosr]}
 $$

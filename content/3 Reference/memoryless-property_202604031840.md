@@ -7,11 +7,13 @@ modified: 2026-04-03T19:12:29.200+07:00
 published: 2026-04-03T19:12:29.200+07:00
 tags:
   - type/about
+cssclasses: ""
 creation-time: 2026-04-03 18:40
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
+
 
 A random variable $X$ is **memoryless** if:
 
@@ -25,7 +27,7 @@ If the lifetime of an item is memoryless, an item that has been in use for $t$ h
 
 ## Uniqueness
 
-The [[def-exponential-distribution-survival_202603281500|exponential distribution]] is the **only** continuous distribution with this property. This is why it appears so frequently in stochastic process modeling — it's the natural choice when "the future doesn't depend on the past."
+The [[3 Reference/def-exponential-distribution-survival_202603281500\|exponential distribution]] is the **only** continuous distribution with this property. This is why it appears so frequently in stochastic process modeling — it's the natural choice when "the future doesn't depend on the past."
 
 ## Everyday Illustration
 
@@ -34,10 +36,10 @@ The [[def-exponential-distribution-survival_202603281500|exponential distributio
 
 ## Connection to Stochastic Processes
 
-The memoryless property of the [[def-exponential-distribution-survival_202603281500|exponential distribution]] is what makes the [[poisson-process_202604031845|Poisson Process]] "restart" probabilistically at each event. This is why inter-arrival times are i.i.d. exponential — each event resets the clock.
+The memoryless property of the [[3 Reference/def-exponential-distribution-survival_202603281500\|exponential distribution]] is what makes the [[3 Reference/poisson-process_202604031845\|Poisson Process]] "restart" probabilistically at each event. This is why inter-arrival times are i.i.d. exponential — each event resets the clock.
 
 ## Related
 
-- [[def-exponential-distribution-survival_202603281500|Exponential Distribution]]
-- [[inter-arrival-times_202604031845|Inter-arrival Times]]
-- [[failure-rate-function_202604031840|Failure Rate Function]]
+- [[3 Reference/def-exponential-distribution-survival_202603281500\|Exponential Distribution]]
+- [[3 Reference/inter-arrival-times_202604031845\|Inter-arrival Times]]
+- [[3 Reference/failure-rate-function_202604031840\|Failure Rate Function]]

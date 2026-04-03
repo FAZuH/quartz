@@ -6,12 +6,14 @@ aliases:
 created: 2026-03-25T15:22:40.596+07:00
 modified: 2026-03-25T15:22:40.596+07:00
 published: 2026-03-25T15:22:40.596+07:00
+cssclasses: ""
 creation-time: 2025-08-16 00:28
 status: in progress
 tags:
 parent:
   - "[[Introduction to Real Analysis]]"
 ---
+
 
 ## Definition
 
@@ -20,11 +22,11 @@ There exists a nonempty subset $\mathbb P$ of $\mathbb R$, called the set of **p
 1. $a,b\in \mathbb{P} \implies a+b \in \mathbb{P}$
 2. $a,b\in \mathbb{P} \implies ab\in \mathbb{P}$
 3. If $a\in \mathbb{R}$, then exactly one of the following holds: ^a
-   $$
-   a \in \mathbb P, \qquad
-   a = 0, \qquad
-   -a \in \mathbb P
-   $$
+$$
+a \in \mathbb P, \qquad
+a = 0, \qquad
+-a \in \mathbb P
+$$ 
 
 The first two properties ensure compatibility with addition and multiplication operations.
 

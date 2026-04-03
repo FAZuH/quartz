@@ -5,23 +5,23 @@ aliases:
 created: 2026-03-25T15:22:40.614+07:00
 modified: 2026-03-25T15:22:40.614+07:00
 published: 2026-03-25T15:22:40.614+07:00
+cssclasses: ""
 creation-time: 2025-08-16 00:37
 status: in progress
 tag:
 parent: "[[Introduction to Real Analysis]]"
 ---
 
+
 ## Theorem
 
 If $ab > 0$, then either
-
 1. $a > 0$ and $b > 0$, or
 2. $a < 0$ and $b < 0$.
 
 ## Corollary
 
 If $ab < 0$, then either
-
 1. $a < 0$ and $b > 0$, or
 2. $a > 0$ and $b < 0$.
 

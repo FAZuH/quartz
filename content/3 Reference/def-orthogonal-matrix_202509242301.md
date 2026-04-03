@@ -7,19 +7,21 @@ modified: 2026-03-25T15:22:40.638+07:00
 published: 2026-03-25T15:22:40.638+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 23:01
 status: complete
 parent:
   - "[[matrices]]"
 ---
 
+
 ## Definition
 
-Let $A$ : [[def-inverse-matrix_202509241225|Invertible]]
+Let $A$ : [[3 Reference/def-inverse-matrix_202509241225\|Invertible]]
 
 If $A^{-1}=A^T$ or equivalently, if $AA^T=A^TA=I$
 
-Then we say $A$ is an **[[def-orthogonal_202510011638|orthogonal]]** [[Def-matrix|matrix]]
+Then we say $A$ is an **[[3 Reference/def-orthogonal_202510011638\|orthogonal]]** [[3 Reference/Def-matrix\|matrix]]
 
 ## Alternative definition
 
@@ -37,8 +39,7 @@ $$
 \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \\
 \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2}
 \end{bmatrix}
-=============
-
+=
 \begin{bmatrix}
 1 & 0 \\
 0 & 1

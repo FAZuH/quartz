@@ -7,17 +7,18 @@ modified: 2026-03-25T15:22:40.617+07:00
 published: 2026-03-25T15:22:40.617+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 14:20
 status: in progress
 parent:
   - "[[matrices]]"
 ---
 
+
 ## Theorem
 
-Let
-
-- $A,B$ : [[def-symmetric-matrix_202509241413|Symmetric matrices]] of same size
-- $k$ : Any [[Def-matrix|scalar]]
+Let 
+- $A,B$ : [[3 Reference/def-symmetric-matrix_202509241413\|Symmetric matrices]] of same size
+- $k$ : Any [[3 Reference/Def-matrix\|scalar]]
 
 Then $A^{T}$, $A\pm B$ and $kA$ is symmetric

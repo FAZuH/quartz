@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.611+07:00
 modified: 2026-03-25T15:22:40.611+07:00
 published: 2026-03-25T15:22:40.611+07:00
+cssclasses: ""
 creation-time: 2025-07-14 23:58
 status: in progress
 tags:
@@ -15,8 +16,7 @@ parent:
 ## Definition
 
 Let
-
-- $\mathcal{C}$ : [[Def-sample-space|Sample space]]
+- $\mathcal{C}$ : [[3 Reference/Def-sample-space\|Sample space]]
 - $X$ : Function
 
 If $X$ assigns each element $c\in \mathcal{C}$ one and only one number $X(c)=x$
@@ -25,7 +25,7 @@ Then we say $X$ is a **random variable**
 
 ## Remark
 
-We denote the space/range of $X$ as $\mathcal{D}={ x:x=X(c),c\in \mathcal{C} }$. So,
+We denote the space/range of $X$ as $\mathcal{D}=\{ x:x=X(c),c\in \mathcal{C} \}$. So,
 $$
 X:\mathcal{C}\to \mathcal{D}
 $$

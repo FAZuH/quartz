@@ -5,28 +5,30 @@ aliases:
 created: 2026-03-29T12:54:01.177+07:00
 modified: 2026-03-29T12:54:01.177+07:00
 published: 2026-03-29T12:54:01.177+07:00
+cssclasses: ""
 creation-time: 2026-03-28 08:31
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Definition
 
-For a [[def-discrete-time-markov-chain_202603280806|Markov chain]] ${X\_n, n \geq 0}$, the **limiting probability** $\pi\_j$ of [[def-state-stochastic_202603280801|state]] $j$ represents the long-run probability that the process will be in [[def-state-stochastic_202603280801|state]] $j$, independent of the initial [[def-state-stochastic_202603280801|state]] $i$:
+For a [[3 Reference/def-discrete-time-markov-chain_202603280806\|Markov chain]] $\{X_n, n \geq 0\}$, the **limiting probability** $\pi_j$ of [[3 Reference/def-state-stochastic_202603280801\|state]] $j$ represents the long-run probability that the process will be in [[3 Reference/def-state-stochastic_202603280801\|state]] $j$, independent of the initial [[3 Reference/def-state-stochastic_202603280801\|state]] $i$:
 
-$$\pi\_j = \lim\_{n \to \infty} P\_{ij}^n$$
+$$\pi_j = \lim_{n \to \infty} P_{ij}^n$$
 
-where $P\_{ij}^n$ is the [[def-n-step-transition-matrix_202603280812|n-step transition probability]] from [[def-state-stochastic_202603280801|state]] $i$ to [[def-state-stochastic_202603280801|state]] $j$.
+where $P_{ij}^n$ is the [[3 Reference/def-n-step-transition-matrix_202603280812\|n-step transition probability]] from [[3 Reference/def-state-stochastic_202603280801\|state]] $i$ to [[3 Reference/def-state-stochastic_202603280801\|state]] $j$.
 
 ## Relation to Mean Recurrence Time
 
-The limiting probability is related to the **mean recurrence time** $\mu\_{jj}$ (expected time to return to state $j$ starting from $j$):
+The limiting probability is related to the **mean recurrence time** $\mu_{jj}$ (expected time to return to state $j$ starting from $j$):
 
-$$\pi\_j = \frac{1}{\mu\_{jj}}$$
+$$\pi_j = \frac{1}{\mu_{jj}}$$
 
 ## Related
 
-- [[def-stationary-distribution_202603280834|Stationary Distribution]]
-- [[theorem-limiting-distribution_202603280833|Limiting Distribution Theorem]]
-- [[comparison-limiting-vs-hitting_202603280836|Limiting vs Hitting Probability]]
+- [[3 Reference/def-stationary-distribution_202603280834\|Stationary Distribution]]
+- [[3 Reference/theorem-limiting-distribution_202603280833\|Limiting Distribution Theorem]]
+- [[3 Reference/comparison-limiting-vs-hitting_202603280836\|Limiting vs Hitting Probability]]

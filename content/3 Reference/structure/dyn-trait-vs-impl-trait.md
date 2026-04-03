@@ -5,12 +5,15 @@ aliases:
 created: 2026-03-25T15:22:40.620+07:00
 modified: 2026-03-25T15:22:40.620+07:00
 published: 2026-03-25T15:22:40.620+07:00
+cssclasses: ""
 creation-time: 2026-02-03 08:34
 status: in progress
 tags:
 parent:
   - "[[rust]]"
 ---
+
+
 
 > | Feature          | `impl Trait`              | `dyn Trait`           |
 > | ---------------- | ------------------------- | --------------------- |
@@ -45,7 +48,7 @@ fn process<T: Display>(x: T) { }
 
 ## Examples
 
-### `dyn Trait`
+### `dyn Trait` 
 
 When: Heterogeneous collections or runtime type choice
 
@@ -121,12 +124,12 @@ println!("{}", x);
 ```
 
 > [!NOTE]
-> It is called _dynamic_ because the compiler doesn't know which function it's calling until runtime, when it follows the vtable pointer.
->
+> It is called *dynamic* because the compiler doesn't know which function it's calling until runtime, when it follows the vtable pointer.
+> 
 > Each type has its own implementation of the trait methods. The vtable stores pointers to these different implementations.
 
 > [!NOTE]
-> Vtables are created at compile time and stored in the binary's read-only data section. Each vtable correspond to a single trait impl definition.
+>Vtables are created at compile time and stored in the binary's read-only data section. Each vtable correspond to a single trait impl definition.
 
 Runtime:
 
@@ -168,4 +171,4 @@ For brevity, `&` implies `&mut` here.
 
 - `&dyn Display`: 2 words (data ptr + vtable ptr) - **fat pointer**
 - `&impl Display`: 1 word (just the pointer to the value) - **thin pointer**
-- `impl Display` : size\_of::\<ConcreteDisplay>()
+- `impl Display` : size_of::\<ConcreteDisplay>()

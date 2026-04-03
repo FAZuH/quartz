@@ -3,6 +3,7 @@ publish: true
 created: 2026-03-25T15:22:40.637+07:00
 modified: 2026-03-25T15:22:40.638+07:00
 published: 2026-03-25T15:22:40.638+07:00
+cssclasses: ""
 creation-time: 2025-02-27 23:31
 status: complete
 tags:
@@ -10,6 +11,7 @@ parent:
   - "[[Tree]]"
   - "[[algorithm]]"
 ---
+
 
 ![[assets/Pasted image 20250227233237.png|600]]
 
@@ -30,9 +32,9 @@ Algorithm:
 
 1. Create a queue, starting with the root node.
 2. While the queue is not empty:
-   3\. Dequeue a node from the queue.
-   4\. Print the node.
-   5\. Add nodes left and right of the dequeued node to the queue.
+	3. Dequeue a node from the queue.
+	4. Print the node.
+	5. Add nodes left and right of the dequeued node to the queue.
 
 ## Implementation
 

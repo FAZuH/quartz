@@ -6,6 +6,7 @@ aliases:
 created: 2026-03-25T15:22:40.605+07:00
 modified: 2026-03-25T15:22:40.605+07:00
 published: 2026-03-25T15:22:40.605+07:00
+cssclasses: ""
 creation-time: 2025-07-23 17:36
 status: in progress
 tags:
@@ -13,9 +14,9 @@ parent:
   - "[[software-recommendations_202507231725]]"
 ---
 
-[https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file](https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file "https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file")
+[https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file](https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file "https://github.com/yt-dlp/yt-dlp/tree/master?tab=readme-ov-file") 
 
-Video downloader.
+Video downloader. 
 
 Supports thousands of websites: YouTube, Instagram, Twitter, etc.
 

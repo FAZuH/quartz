@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.641+07:00
 modified: 2026-03-25T15:22:40.641+07:00
 published: 2026-03-25T15:22:40.641+07:00
+cssclasses: ""
 creation-time: 2025-03-11 08:07
 status: complete
 tag:
 parent:
   - "[[dsa problems]]"
 ---
+
 
 - Source: https://neetcode.io/problems/is-anagram
 
@@ -64,7 +66,7 @@ public:
 - Time complexity: $O(n + m)$
 - Space complexity: $O(1)$   (`s` and `t` has 26 possible values a-z)
 
-Faster than [[#My solution]].
+Faster than [[3 Reference/Valid Anagram#My solution]].
 
 Because `s` and `t` has 26 possible values, we can use a vector `count` with initial value 26 of `0` elements.
 

@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.642+07:00
 modified: 2026-03-25T15:22:40.642+07:00
 published: 2026-03-25T15:22:40.642+07:00
+cssclasses: ""
 creation-time: 2025-07-15 01:57
 status: complete
 tags:
@@ -12,17 +13,17 @@ parent:
   - "[[linear-algebra|linear algebra]]"
 ---
 
+
 ## Definition
 
-**Row echelon form** is defined as the [[1.1 Introduction to Systems of Linear Equations#Definition Augmented matrix|augmented matrix]] of a [[1.1 Introduction to Systems of Linear Equations#Definition Linear system|linear system]] with the following properties:
-
+**Row echelon form** is defined as the [[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Augmented matrix\|augmented matrix]] of a [[3 Reference/1.1 Introduction to Systems of Linear Equations#Definition Linear system\|linear system]] with the following properties:
 1. If a row does not consist entirely of zeros, then the first nonzero number in the row is a 1. We call this a **leading 1.** ^def-leading1
-2. If there are any rows that consist entirely of zeros, then they are grouped together at the bottom of the [[Def-matrix|matrix]].
-3. In any two successive rows that do not consist entirely of zeros, the leading 1 in the lower row occurs farther to the right than the leading 1 in the higher row.
+2. If there are any rows that consist entirely of zeros, then they are grouped together at the bottom of the [[3 Reference/Def-matrix\|matrix]]. 
+3. In any two successive rows that do not consist entirely of zeros, the leading 1 in the lower row occurs farther to the right than the leading 1 in the higher row. 
 
 ## Remark
 
-For example,
+For example, 
 $$
 \begin{bmatrix}
 1 & 0 &  3 & -1 \\
@@ -30,11 +31,11 @@ $$
 \end{bmatrix}
 $$
 
-The above augmented matrix correspond to the linear system
+The above augmented matrix correspond to the linear system 
 $$
 \begin{matrix}
 x &  & +\ 3z & = & -1 \\
-& y & -\ 4z & = & 2
+ & y & -\ 4z & = & 2
 \end{matrix}
 $$
 

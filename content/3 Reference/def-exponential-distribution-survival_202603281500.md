@@ -5,11 +5,13 @@ aliases:
 created: 2026-03-30T13:58:25.260+07:00
 modified: 2026-03-30T13:58:25.260+07:00
 published: 2026-03-30T13:58:25.260+07:00
+cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
 parent:
   - "[[survival-model]]"
 ---
+
 
 ## Definition
 
@@ -29,9 +31,9 @@ $$
 
 ## Property: Constant Hazard
 
-Notice that $h(t) = \lambda$ is constant. We can interpret $\lambda$ as the hazard rate—see [[def-hazard-function_202603281500|hazard function interpretation]].
+Notice that $h(t) = \lambda$ is constant. We can interpret $\lambda$ as the hazard rate—see [[3 Reference/def-hazard-function_202603281500\|hazard function interpretation]].
 
 ## Related
 
-- [[def-weibull-distribution-survival_202603281500|Weibull Distribution (Survival)]]
-- [[parametric-survival-distributions-cheatsheet_202603281500|Parametric Survival Distributions Cheatsheet]]
+- [[3 Reference/def-weibull-distribution-survival_202603281500\|Weibull Distribution (Survival)]]
+- [[3 Reference/parametric-survival-distributions-cheatsheet_202603281500\|Parametric Survival Distributions Cheatsheet]]

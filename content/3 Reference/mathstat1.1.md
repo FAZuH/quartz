@@ -5,22 +5,32 @@ aliases:
 created: 2026-03-25T15:22:40.644+07:00
 modified: 2026-03-25T15:22:40.644+07:00
 published: 2026-03-25T15:22:40.644+07:00
+cssclasses: ""
 creation-time: 2025-07-14 23:29
 status: complete
 tags:
 parent: "[[Introduction to Mathematical Statistics]]"
 ---
 
-[[mathstat1.2|1.2 Sets]] >>
+
+[[3 Reference/mathstat1.2\|1.2 Sets]] >>
 
 ## Definition: Random experiment
-
-![[Def-random-experiment#Definition]]
+## Definition
+**Random experiment** is any repeatable procedure that results in one out of a well-defined set of possible outcomes.
 
 ## Definition: Sample space
+## Definition
+**Sample space** is the [[3 Reference/def-set_202510022014\|set]] of all possible outcomes from a given [[3 Reference/Def-random-experiment\|random experiment]]
 
-![[Def-sample-space#Definition]]
+It is usually denoted as $\mathcal{C}$ and specified using set notation.
 
 ## Definition: Events
+## Definition
+**Events** are [[3 Reference/def-subset_202507240733\|Subset]] of [[3 Reference/Def-sample-space\|sample space]] $\mathcal{C}$.
 
-![[Def-events#Definition]]
+Generally denoted by capitol Roman letters e.g., $A,B,C$.
+
+If the experiment results in an element in an event $A$, we say the event $A$ has **occurred**.
+
+

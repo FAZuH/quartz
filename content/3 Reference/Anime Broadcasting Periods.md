@@ -1,15 +1,17 @@
 ---
 publish: true
+aliases: []
 created: 2026-03-25T15:22:40.618+07:00
 modified: 2026-03-25T15:22:40.618+07:00
 published: 2026-03-25T15:22:40.618+07:00
+cssclasses: ""
 creation-time: 2025-04-16 03:19
 status: in progress
 tags:
 parent:
   - "[[anime]]"
-aliases: []
 ---
+
 
 ## Seasons
 

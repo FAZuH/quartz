@@ -11,6 +11,7 @@ modified: 2026-03-25T15:22:40.644+07:00
 published: 2026-03-25T15:22:40.644+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-09-24 12:25
 status: complete
 parent:
@@ -18,17 +19,16 @@ parent:
   - "[[matrices]]"
 ---
 
+
 ## Definition
 
-Let
-
-- $A,B$ : Square [[Def-matrix|matrix]]
-- $I$ : [[def-identity-matrix_202509241204|Identity matrix]]
+Let 
+- $A,B$ : Square [[3 Reference/Def-matrix\|matrix]]
+- $I$ : [[3 Reference/def-identity-matrix_202509241204\|Identity matrix]]
 
 If $B$ is such that $AB=BA=I$
 
 Then
-
 - $A$ is called **invertible** (or **nonsingular**)
 - $B$ is called **inverse** of $A$
 

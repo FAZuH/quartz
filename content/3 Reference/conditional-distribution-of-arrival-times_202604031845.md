@@ -7,34 +7,36 @@ modified: 2026-04-03T19:13:10.730+07:00
 published: 2026-04-03T19:13:10.730+07:00
 tags:
   - type/theorem
+cssclasses: ""
 creation-time: 2026-04-03 18:45
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
 
+
 ## Theorem
 
-> Let ${N(t), t \geq 0}$ be a [[poisson-process_202604031845|Poisson process]] of rate $\lambda$.
+> Let $\{N(t), t \geq 0\}$ be a [[3 Reference/poisson-process_202604031845\|Poisson process]] of rate $\lambda$.
 >
-> Given $N(t) = n$, the $n$ arrival times $S\_1, S\_2, \dots, S\_n$ have the same distribution as the **order statistics** of $n$ i.i.d. $\text{Uniform}(0, t)$ random variables.
+> Given $N(t) = n$, the $n$ arrival times $S_1, S_2, \dots, S_n$ have the same distribution as the **order statistics** of $n$ i.i.d. $\text{Uniform}(0, t)$ random variables.
 
 The joint density is:
 
-$$f(s\_1, s\_2, \dots, s\_n \mid N(t) = n) = \frac{n!}{t^n}, \quad 0 < s\_1 < s\_2 < \cdots < s\_n < t$$
+$$f(s_1, s_2, \dots, s_n \mid N(t) = n) = \frac{n!}{t^n}, \quad 0 < s_1 < s_2 < \cdots < s_n < t$$
 
 > [!TIP] Interpretation
-> If you know exactly $n$ events happened in $\[0, t]$, the times at which they occurred are just like $n$ points dropped uniformly at random in the interval — there's no clustering or pattern.
+> If you know exactly $n$ events happened in $[0, t]$, the times at which they occurred are just like $n$ points dropped uniformly at random in the interval — there's no clustering or pattern.
 
 ## Proof
 
-The event ${S\_1 = s\_1, \dots, S\_n = s\_n, N(t) = n}$ is equivalent to ${T\_1 = s\_1, T\_2 = s\_2 - s\_1, \dots, T\_n = s\_n - s\_{n-1}, T\_{n+1} > t - s\_n}$.
+The event $\{S_1 = s_1, \dots, S_n = s_n, N(t) = n\}$ is equivalent to $\{T_1 = s_1, T_2 = s_2 - s_1, \dots, T_n = s_n - s_{n-1}, T_{n+1} > t - s_n\}$.
 
-Using [[inter-arrival-times_202604031845|inter-arrival times]] are i.i.d. $\text{Exp}(\lambda)$:
+Using [[3 Reference/inter-arrival-times_202604031845\|inter-arrival times]] are i.i.d. $\text{Exp}(\lambda)$:
 
 $$
 \begin{align}
-f(s\_1, \dots, s\_n \mid N(t) = n) &= \frac{\lambda e^{-\lambda s\_1} \lambda e^{-\lambda(s\_2 - s\_1)} \cdots \lambda e^{-\lambda(s\_n - s\_{n-1})} e^{-\lambda(t - s\_n)}}{e^{-\lambda t} (\lambda t)^n / n!} \\
+f(s_1, \dots, s_n \mid N(t) = n) &= \frac{\lambda e^{-\lambda s_1} \lambda e^{-\lambda(s_2 - s_1)} \cdots \lambda e^{-\lambda(s_n - s_{n-1})} e^{-\lambda(t - s_n)}}{e^{-\lambda t} (\lambda t)^n / n!} \\
 &= \frac{n!}{t^n}
 \end{align}
 $$
@@ -47,5 +49,5 @@ This is often paraphrased as: given $n$ events in $(0, t)$, the event times cons
 
 ## Related
 
-- [[poisson-process_202604031845|Poisson Process]]
-- [[waiting-times-(poisson)_202604031845|Waiting Times]]
+- [[3 Reference/poisson-process_202604031845\|Poisson Process]]
+- [[3 Reference/waiting-times-(poisson)_202604031845\|Waiting Times]]

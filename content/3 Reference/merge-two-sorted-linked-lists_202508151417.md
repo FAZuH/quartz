@@ -5,6 +5,7 @@ aliases:
 created: 2026-03-25T15:22:40.595+07:00
 modified: 2026-03-25T15:22:40.595+07:00
 published: 2026-03-25T15:22:40.595+07:00
+cssclasses: ""
 creation-time: 2025-08-15 14:17
 status: in progress
 tags:

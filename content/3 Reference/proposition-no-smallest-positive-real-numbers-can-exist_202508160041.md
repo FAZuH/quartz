@@ -5,14 +5,15 @@ aliases:
 created: 2026-03-25T15:22:40.603+07:00
 modified: 2026-03-25T15:22:40.603+07:00
 published: 2026-03-25T15:22:40.603+07:00
+cssclasses: ""
 creation-time: 2025-08-16 00:41
 status: in progress
 tag:
 parent: "[[Introduction to Real Analysis]]"
 ---
 
-## Proposition
 
+## Proposition
 Notice that if $a \in \mathbb P$, and since $\frac 1 2 > 0$, we have
 $$
 0 < \frac 1 2 a < a

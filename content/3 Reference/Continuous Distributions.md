@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.621+07:00
 modified: 2026-03-25T15:22:40.621+07:00
 published: 2026-03-25T15:22:40.621+07:00
+cssclasses: ""
 creation-time: 2025-06-24 00:52
 status: in progress
 tags:
 parent:
   - "[[Introduction to Mathematical Statistics]]"
 ---
+
 
 ## Summary
 
@@ -21,8 +23,8 @@ parent:
 | **Normal** <br> $N(\mu,\sigma^2)$                                                          | $\dfrac{1}{\sigma\sqrt{2\pi}}\exp\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)$                                                                  | $\mu$                                      | $\sigma^2$                           | $\exp\left(\mu t+\dfrac{\sigma^2t^2}{2}\right)$ |
 | **Standard Normal** <br> $Z \sim N(0,1)$                                                   | $\dfrac{1}{\sqrt{2\pi}}\exp\left(-\dfrac{x^2}{2}\right)$                                                                                      | $0$                                        | $1$                                  | $\exp\left(\dfrac{t^2}{2}\right)$               |
 | **t-distribution** <br> $t(\nu)$                                                           | $\dfrac{\Gamma\left(\frac{\nu+1}{2}\right)}{\Gamma\left(\frac{\nu}{2}\right)\sqrt{\nu\pi}}\left(1+\dfrac{x^2}{\nu}\right)^{-\frac{\nu+1}{2}}$ | $0$ (for $\nu > 1$)                        | $\dfrac{\nu}{\nu-2}$ (for $\nu > 2$) | Does not exist                                  |
-| **F-distribution** <br> $F(\nu\_1,\nu\_2)$                                                   | [[#F-distribution\|Here]]                                                                                                                     | $\dfrac{\nu\_2}{\nu\_2-2}$ (for $\nu\_2 > 2$) | [[#F-distribution\|Here]]            | Does not exist                                  |
-| **Bivariate Normal** <br> $N\_2(\mu\_1,\mu\_2,\sigma\_1^2,\sigma\_2^2,\rho)$                    | [[#Bivariate normal distribution\|Here]]                                                                                                      | $(\mu\_1,\mu\_2)$                            | $(\sigma\_1^2,\sigma\_2^2)$            | [[#Bivariate normal distribution\|Here]]        |
+| **F-distribution** <br> $F(\nu_1,\nu_2)$                                                   | [[3 Reference/Continuous Distributions#F-distribution\|Here]]                                                                                                                     | $\dfrac{\nu_2}{\nu_2-2}$ (for $\nu_2 > 2$) | [[3 Reference/Continuous Distributions#F-distribution\|Here]]            | Does not exist                                  |
+| **Bivariate Normal** <br> $N_2(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho)$                    | [[3 Reference/Continuous Distributions#Bivariate normal distribution\|Here]]                                                                                                      | $(\mu_1,\mu_2)$                            | $(\sigma_1^2,\sigma_2^2)$            | [[3 Reference/Continuous Distributions#Bivariate normal distribution\|Here]]        |
 
 ## Uniform distribution
 
@@ -46,7 +48,7 @@ Commonly used to model waiting time until an event occurs
 - var: $\alpha\beta^2$
 - mgf: $(1-\beta t)^{-\alpha}$, $t < \dfrac{1}{\beta}$
 
-> [!note] Gamma function $$\Gamma(\alpha) = (\alpha-1)\Gamma(\alpha-1) = \int\_0^\infty y^{\alpha-1}e^{-y},dy$$ For positive integers: $\Gamma(n) = (n-1)!$
+> [!note] Gamma function $$\Gamma(\alpha) = (\alpha-1)\Gamma(\alpha-1) = \int_0^\infty y^{\alpha-1}e^{-y},dy$$ For positive integers: $\Gamma(n) = (n-1)!$
 
 ## Exponential distribution
 
@@ -124,37 +126,37 @@ Student's t-distribution with $\nu$ degrees of freedom. Used when population var
 
 ## F-distribution
 
-$X \sim F(\nu\_1,\nu\_2)$
+$X \sim F(\nu_1,\nu_2)$
 
-F-distribution with $\nu\_1$ and $\nu\_2$ degrees of freedom. Used to compare variances and in ANOVA.
+F-distribution with $\nu_1$ and $\nu_2$ degrees of freedom. Used to compare variances and in ANOVA.
 
-- pdf: $\dfrac{\Gamma\left(\frac{\nu\_1+\nu\_2}{2}\right)}{\Gamma\left(\frac{\nu\_1}{2}\right)\Gamma\left(\frac{\nu\_2}{2}\right)}\left(\dfrac{\nu\_1}{\nu\_2}\right)^{\frac{\nu\_1}{2}} \dfrac{x^{\frac{\nu\_1}{2}-1}}{\left(1+\dfrac{\nu\_1 x}{\nu\_2}\right)^{\frac{\nu\_1+\nu\_2}{2}}}$, $x > 0$
-- mean: $\dfrac{\nu\_2}{\nu\_2-2}$ (for $\nu\_2 > 2$)
-- var: $\dfrac{2\nu\_2^2(\nu\_1+\nu\_2-2)}{\nu\_1(\nu\_2-2)^2(\nu\_2-4)}$ (for $\nu\_2 > 4$)
+- pdf: $\dfrac{\Gamma\left(\frac{\nu_1+\nu_2}{2}\right)}{\Gamma\left(\frac{\nu_1}{2}\right)\Gamma\left(\frac{\nu_2}{2}\right)}\left(\dfrac{\nu_1}{\nu_2}\right)^{\frac{\nu_1}{2}} \dfrac{x^{\frac{\nu_1}{2}-1}}{\left(1+\dfrac{\nu_1 x}{\nu_2}\right)^{\frac{\nu_1+\nu_2}{2}}}$, $x > 0$
+- mean: $\dfrac{\nu_2}{\nu_2-2}$ (for $\nu_2 > 2$)
+- var: $\dfrac{2\nu_2^2(\nu_1+\nu_2-2)}{\nu_1(\nu_2-2)^2(\nu_2-4)}$ (for $\nu_2 > 4$)
 - mgf: Does not exist
 
 **Key properties:**
 
 - Right-skewed distribution
-- $F(\nu\_1,\nu\_2) = \dfrac{1}{F(\nu\_2,\nu\_1)}$ (reciprocal property)
-- As $\nu\_1, \nu\_2 \to \infty$, approaches normal distribution
+- $F(\nu_1,\nu_2) = \dfrac{1}{F(\nu_2,\nu_1)}$ (reciprocal property)
+- As $\nu_1, \nu_2 \to \infty$, approaches normal distribution
 
-**Construction:** If $U \sim \chi^2(\nu\_1)$ and $V \sim \chi^2(\nu\_2)$ independently, then $F = \dfrac{U/\nu\_1}{V/\nu\_2} \sim F(\nu\_1,\nu\_2)$
+**Construction:** If $U \sim \chi^2(\nu_1)$ and $V \sim \chi^2(\nu_2)$ independently, then $F = \dfrac{U/\nu_1}{V/\nu_2} \sim F(\nu_1,\nu_2)$
 
 ## Bivariate normal distribution
 
-$(X,Y) \sim N\_2(\mu\_1,\mu\_2,\sigma\_1^2,\sigma\_2^2,\rho)$
+$(X,Y) \sim N_2(\mu_1,\mu_2,\sigma_1^2,\sigma_2^2,\rho)$
 
 Joint distribution of two normally distributed variables
 
-- pdf: $\dfrac{1}{2\pi\sigma\_1\sigma\_2\sqrt{1-\rho^2}} \exp\left(\dfrac{-1}{2(1-\rho^2)}\left\[\dfrac{(x-\mu\_1)^2}{\sigma\_1^2} - \dfrac{2\rho(x-\mu\_1)(y-\mu\_2)}{\sigma\_1\sigma\_2} + \dfrac{(y-\mu\_2)^2}{\sigma\_2^2}\right]\right)$
-- mean: $E(X) = \mu\_1$, $E(Y) = \mu\_2$
-- var: $\text{Var}(X) = \sigma\_1^2$, $\text{Var}(Y) = \sigma\_2^2$
-- mgf: $\exp\left(\mu\_1t\_1+\mu\_2t\_2+\dfrac{\sigma\_1^2t\_1^2+2\rho\sigma\_1\sigma\_2t\_1t\_2+\sigma\_2^2t\_2^2}{2}\right)$
+- pdf: $\dfrac{1}{2\pi\sigma_1\sigma_2\sqrt{1-\rho^2}} \exp\left(\dfrac{-1}{2(1-\rho^2)}\left[\dfrac{(x-\mu_1)^2}{\sigma_1^2} - \dfrac{2\rho(x-\mu_1)(y-\mu_2)}{\sigma_1\sigma_2} + \dfrac{(y-\mu_2)^2}{\sigma_2^2}\right]\right)$
+- mean: $E(X) = \mu_1$, $E(Y) = \mu_2$
+- var: $\text{Var}(X) = \sigma_1^2$, $\text{Var}(Y) = \sigma_2^2$
+- mgf: $\exp\left(\mu_1t_1+\mu_2t_2+\dfrac{\sigma_1^2t_1^2+2\rho\sigma_1\sigma_2t_1t_2+\sigma_2^2t_2^2}{2}\right)$
 
 **Independence:** $X$ and $Y$ are independent if and only if $\rho = 0$
 
 **Conditional distributions:**
 
-- $Y|X=x \sim N\left(\mu\_2+\rho\dfrac{\sigma\_2}{\sigma\_1}(x-\mu\_1), \sigma\_2^2(1-\rho^2)\right)$
-- $X|Y=y \sim N\left(\mu\_1+\rho\dfrac{\sigma\_1}{\sigma\_2}(y-\mu\_2), \sigma\_1^2(1-\rho^2)\right)$
+- $Y|X=x \sim N\left(\mu_2+\rho\dfrac{\sigma_2}{\sigma_1}(x-\mu_1), \sigma_2^2(1-\rho^2)\right)$
+- $X|Y=y \sim N\left(\mu_1+\rho\dfrac{\sigma_1}{\sigma_2}(y-\mu_2), \sigma_1^2(1-\rho^2)\right)$

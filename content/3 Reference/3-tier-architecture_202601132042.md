@@ -7,6 +7,7 @@ modified: 2026-03-25T15:22:40.611+07:00
 published: 2026-03-25T15:22:40.611+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2026-01-13 20:42
 status: in progress
 parent:
@@ -14,7 +15,6 @@ parent:
 ---
 
 ## Layers
-
 **3-Tier Architecture** separates an application into three logical layers, each with distinct responsibilities:
 
 ### 1. Presentation Layer (UI/View)

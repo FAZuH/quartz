@@ -3,6 +3,7 @@ publish: true
 created: 2026-03-25T15:23:12.752+07:00
 modified: 2026-03-25T15:25:21.499+07:00
 published: 2026-03-25T15:25:21.499+07:00
+cssclasses: ""
 creation-time: 2025-03-22 17:22
 status: in progress
 tags:
@@ -16,60 +17,59 @@ This note explains how to manually calculate the probability distribution of Wyn
 
 - Let $n$ be the number of ingredients.
 - For each ingredient $i$ (where $i = 1, 2, \ldots, n$):
-  - $a\_i$: Minimum base roll (`minValue`).
-  - $b\_i$: Maximum base roll (`maxValue`).
-  - $p\_i$: Boost percentage (`boost`).
-  - $e\_i = \frac{p\_i + 100}{100}$: Effectiveness multiplier, converting the boost into a decimal factor.
+	- $a_i$: Minimum base roll (`minValue`).
+	- $b_i$: Maximum base roll (`maxValue`).
+	- $p_i$: Boost percentage (`boost`).
+	- $e_i = \frac{p_i + 100}{100}$: Effectiveness multiplier, converting the boost into a decimal factor.
 
 ## Step 1: Generate base ingredient roll values
 
 By "base" we unboosted ingredient roll values.
 
-For each ingredient $i$, generate a vector of 101 base values, linearly spaced from $a\_i$ to $b\_i$.
+For each ingredient $i$, generate a vector of 101 base values, linearly spaced from $a_i$ to $b_i$.
 
 These represent the possible unboosted "roll values" distributed uniformly.
 
 Define the base value for ingredient $i$ at index $j$:
 
 $$
-v\_{i,j} = a\_i + j \cdot \frac{b\_i - a\_i}{100}, \qquad j = 0, 1, \ldots, 100
+v_{i,j} = a_i + j \cdot \frac{b_i - a_i}{100}, \qquad j = 0, 1, \ldots, 100
 $$
 
 So,
-
-- $v\_{i,0} = a\_i$
-- $v\_{i,100} = b\_i$
+- $v_{i,0} = a_i$
+- $v_{i,100} = b_i$
 
 ## Step 2: Compute boosted ingredient roll values
 
-For each base value $v\_{i,j}$, calculate the boosted roll by applying the effectiveness multiplier $e\_i$, rounding to the nearest integer, and then flooring the result:
+For each base value $v_{i,j}$, calculate the boosted roll by applying the effectiveness multiplier $e_i$, rounding to the nearest integer, and then flooring the result:
 
 $$
-r\_{i,j} = \left\lfloor \text{round}(v\_{i,j}) \cdot e\_i \right\rfloor
+r_{i,j} = \left\lfloor \text{round}(v_{i,j}) \cdot e_i \right\rfloor
 $$
 
-$\text{round}(v\_{i,j})$ rounds $v\_{i,j}$ to the nearest integer.
+$\text{round}(v_{i,j})$ rounds $v_{i,j}$ to the nearest integer.
 
-Note that $r\_{i,j}$ is a natural number, i.e., $r\_{i,j} \in \mathbb N$
+Note that $r_{i,j}$ is a natural number, i.e., $r_{i,j} \in \mathbb N$
 
 ## Step 3: Compute roll probability mass function (PMF) for each ingredient
 
-Let $\mathbf{r}\_{i}$ be a vector of boosted ingredient roll values for ingredient $i$.
+Let $\mathbf{r}_{i}$ be a vector of boosted ingredient roll values for ingredient $i$.
 
 For each ingredient $i$, compute the PMF of the boosted rolls.
 
-We do this by counting the occurrences of each boosted roll value in $\mathbf{r}\_i$:
+We do this by counting the occurrences of each boosted roll value in $\mathbf{r}_i$:
 
 $$
-P\_i(s) = \frac{|{j \in {0,1,...,100} : r\_{i,j} = s}|}{101}
+P_i(s) = \frac{|\{j \in \{0,1,...,100\} : r_{i,j} = s\}|}{101}
 $$
 
-Since there are 101 base values, the denominator is 101, assuming a uniform distribution over $\mathbf{v}\_i$.
+Since there are 101 base values, the denominator is 101, assuming a uniform distribution over $\mathbf{v}_i$.
 
-Represent $P\_i$ as a vector $\mathbf{p}\_i$ of length $k\_i$, where:
+Represent $P_i$ as a vector $\mathbf{p}_i$ of length $k_i$, where:
 
 $$
-\mathbf{p}_i\[m] = P\_i(r_{\text{min},i} + m), \quad m = 0, 1, \ldots, k\_i - 1
+\mathbf{p}_i[m] = P_i(r_{\text{min},i} + m), \quad m = 0, 1, \ldots, k_i - 1
 $$
 
 ## Step 5: Compute Total Roll Range
@@ -77,21 +77,21 @@ $$
 The total roll $R$ is the sum of the boosted rolls from all $n$ ingredients:
 
 $$
-R = \sum\_{i=1}^n R\_i
+R = \sum_{i=1}^n R_i
 $$
 
-where $R\_i$ is the random variable representing the boosted roll of ingredient $i$, with PMF $P\_i(r)$.
+where $R_i$ is the random variable representing the boosted roll of ingredient $i$, with PMF $P_i(r)$.
 
 The minimum and maximum possible total rolls are the sums of the individual minima and maxima:
 
 $$
-r\_{\text{min}} = \sum\_{i=1}^n r\_{\text{min},i}, \quad r\_{\text{max}} = \sum\_{i=1}^n r\_{\text{max},i}
+r_{\text{min}} = \sum_{i=1}^n r_{\text{min},i}, \quad r_{\text{max}} = \sum_{i=1}^n r_{\text{max},i}
 $$
 
 The total number of possible roll values is:
 
 $$
-k = r\_{\text{max}} - r\_{\text{min}} + 1
+k = r_{\text{max}} - r_{\text{min}} + 1
 $$
 
 ## Step 6: Compute PMF of Total Roll Using Convolution
@@ -99,71 +99,70 @@ $$
 Since the ingredients’ contributions are independent, the PMF of the total roll $R$ is the convolution of the individual PMFs:
 
 $$
-P\_R(r) = (P\_1 \* P\_2 \* \cdots \* P\_n)(r)
+P_R(r) = (P_1 * P_2 * \cdots * P_n)(r)
 $$
 
 ### Convolution Definition
 
-For two discrete PMFs $P\_X$ and $P\_Y$ with supports starting at $x\_{\text{min}}$ and $y\_{\text{min}}$, the convolution is:
+For two discrete PMFs $P_X$ and $P_Y$ with supports starting at $x_{\text{min}}$ and $y_{\text{min}}$, the convolution is:
 
 $$
-(P\_X \* P\_Y)(k) = \sum\_{m} P\_X(m) \cdot P\_Y(k - m)
+(P_X * P_Y)(k) = \sum_{m} P_X(m) \cdot P_Y(k - m)
 $$
 
-where the sum is over all $m$ where both PMFs are defined. In vector form, if $\mathbf{a}$ and $\mathbf{b}$ are the PMF vectors of lengths $l\_a$ and $l\_b$, the result $\mathbf{c} = \mathbf{a} \* \mathbf{b}$ has length $l\_a + l\_b - 1$, and:
+where the sum is over all $m$ where both PMFs are defined. In vector form, if $\mathbf{a}$ and $\mathbf{b}$ are the PMF vectors of lengths $l_a$ and $l_b$, the result $\mathbf{c} = \mathbf{a} * \mathbf{b}$ has length $l_a + l_b - 1$, and:
 
 $$
-c\[k] = \sum\_{i=\max(0, k - l\_b + 1)}^{\min(l\_a - 1, k)} a\[i] \cdot b\[k - i], \quad k = 0, 1, \ldots, l\_a + l\_b - 2
+c[k] = \sum_{i=\max(0, k - l_b + 1)}^{\min(l_a - 1, k)} a[i] \cdot b[k - i], \quad k = 0, 1, \ldots, l_a + l_b - 2
 $$
 
 ### Iterative Convolution
 
-1. **Initialize**: Start with $\mathbf{c} = \[1.0]$, a unit impulse at roll 0 (length 1).
+1. **Initialize**: Start with $\mathbf{c} = [1.0]$, a unit impulse at roll 0 (length 1).
 2. **For each ingredient $i$**:
-   - Convolve $\mathbf{c}$ with $\mathbf{p}\_i$ to update $\mathbf{c}$.
+   - Convolve $\mathbf{c}$ with $\mathbf{p}_i$ to update $\mathbf{c}$.
    - Adjust the support: After convolving with $\mathbf{p}_i$, the new minimum roll is the previous minimum plus $r_{\text{min},i}$.
 3. **Repeat**: Continue until all $n$ PMFs are convolved.
 
 After convolving all PMFs, $\mathbf{c}$ has length:
 
 $$
-\text{length of } \mathbf{c} = 1 + \sum\_{i=1}^n (k\_i - 1) = r\_{\text{max}} - r\_{\text{min}} + 1
+\text{length of } \mathbf{c} = 1 + \sum_{i=1}^n (k_i - 1) = r_{\text{max}} - r_{\text{min}} + 1
 $$
 
-The final PMF $P\_R(r)$ is:
+The final PMF $P_R(r)$ is:
 
 $$
-P\_R(r) = \mathbf{c}\[r - r\_{\text{min}}], \quad r = r\_{\text{min}}, r\_{\text{min}} + 1, \ldots, r\_{\text{max}}
+P_R(r) = \mathbf{c}[r - r_{\text{min}}], \quad r = r_{\text{min}}, r_{\text{min}} + 1, \ldots, r_{\text{max}}
 $$
 
 ## Final Result
 
-The probability mass function $P\_R(r)$ gives the probability of each total roll $r$ from $r\_{\text{min}}$ to $r\_{\text{max}}$.
+The probability mass function $P_R(r)$ gives the probability of each total roll $r$ from $r_{\text{min}}$ to $r_{\text{max}}$.
 
-This can be stored as a function associating each roll value $r$ with its probability $P\_R(r)$.
+This can be stored as a function associating each roll value $r$ with its probability $P_R(r)$.
 
 ## Example
 
 Suppose $n = 2$ ingredients:
-
-- Ingredient 1: $a\_1 = 10$, $b\_1 = 20$, $p\_1 = 50$ ($e\_1 = 1.5$).
-- Ingredient 2: $a\_2 = 5$, $b\_2 = 10$, $p\_2 = 0$ ($e\_2 = 1.0$).
+- Ingredient 1: $a_1 = 10$, $b_1 = 20$, $p_1 = 50$ ($e_1 = 1.5$).
+- Ingredient 2: $a_2 = 5$, $b_2 = 10$, $p_2 = 0$ ($e_2 = 1.0$).
 
 1. **Base Values**:
-   - $\mathbf{v}\_1$: $\[10, 10.1, \ldots, 20]$.
-   - $\mathbf{v}\_2$: $\[5, 5.05, \ldots, 10]$.
+   - $\mathbf{v}_1$: $[10, 10.1, \ldots, 20]$.
+   - $\mathbf{v}_2$: $[5, 5.05, \ldots, 10]$.
 
 2. **Boosted Rolls**:
-   - $\mathbf{r}_1$: Compute $r_{1,j} = \lfloor \text{round}(v\_{1,j}) \cdot 1.5 \rfloor$, e.g., $15$ to $30$.
-   - $\mathbf{r}_2$: Compute $r_{2,j} = \lfloor \text{round}(v\_{2,j}) \cdot 1.0 \rfloor$, e.g., $5$ to $10$.
+   - $\mathbf{r}_1$: Compute $r_{1,j} = \lfloor \text{round}(v_{1,j}) \cdot 1.5 \rfloor$, e.g., $15$ to $30$.
+   - $\mathbf{r}_2$: Compute $r_{2,j} = \lfloor \text{round}(v_{2,j}) \cdot 1.0 \rfloor$, e.g., $5$ to $10$.
 
 3. **PMFs**:
-   - $P\_1(r)$ from $r\_{\text{min},1} = 15$ to $r\_{\text{max},1} = 30$.
-   - $P\_2(r)$ from $r\_{\text{min},2} = 5$ to $r\_{\text{max},2} = 10$.
+   - $P_1(r)$ from $r_{\text{min},1} = 15$ to $r_{\text{max},1} = 30$.
+   - $P_2(r)$ from $r_{\text{min},2} = 5$ to $r_{\text{max},2} = 10$.
 
-4. **Total Range**: $r\_{\text{min}} = 20$, $r\_{\text{max}} = 40$.
+4. **Total Range**: $r_{\text{min}} = 20$, $r_{\text{max}} = 40$.
 
-5. **Convolution**: Compute $P\_R = P\_1 \* P\_2$ to get probabilities from $20$ to $40$.
+5. **Convolution**: Compute $P_R = P_1 * P_2$ to get probabilities from $20$ to $40$.
 
 ## Code example
 

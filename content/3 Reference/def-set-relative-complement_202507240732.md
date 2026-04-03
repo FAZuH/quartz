@@ -6,6 +6,7 @@ aliases:
 created: 2026-03-25T15:22:40.641+07:00
 modified: 2026-03-25T15:22:40.641+07:00
 published: 2026-03-25T15:22:40.641+07:00
+cssclasses: ""
 creation-time: 2025-07-24 07:32
 status: complete
 tags:
@@ -13,11 +14,12 @@ parent:
   - "[[sets]]"
 ---
 
+
+
 ## Definition
+If $$ A - B:=\{ x:x \in A\text{ and } x \not \in B \} $$
 
-If $$ A - B:={ x:x \in A\text{ and } x \not \in B } $$
-
-Then we say [[def-set_202510022014|set]] $A- B$ is the **complement of $B$ relative to $A$**
+Then we say [[3 Reference/def-set_202510022014\|set]] $A- B$ is the **complement of $B$ relative to $A$**
 
 ## Remark
 

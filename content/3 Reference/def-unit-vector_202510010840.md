@@ -9,11 +9,13 @@ modified: 2026-03-25T15:22:40.643+07:00
 published: 2026-03-25T15:22:40.643+07:00
 tags:
   - 
+cssclasses: ""
 creation-time: 2025-10-01 08:40
 status: complete
 parent:
   - "[[Elementary Linear Algebra]]"
 ---
+
 
 ## Definition
 
@@ -24,11 +26,11 @@ $$
 \mathbf{u}=\frac{1}{||\mathbf{v}||}\mathbf{v}
 $$
 
-Then
-
+Then 
 - We say $\mathbf{u}$ is the **unit vector**
 - We call the process of transforming $\mathbf{v}$ to unit vector $\mathbf{u}$ **normalizing**
 
 ## Remark
 
-A unit vector is a vector with [[def-norm_202510010836|norm]] $1$.
+A unit vector is a vector with [[3 Reference/def-norm_202510010836\|norm]] $1$.
+

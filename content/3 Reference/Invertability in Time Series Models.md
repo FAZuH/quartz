@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.604+07:00
 modified: 2026-03-25T15:22:40.604+07:00
 published: 2026-03-25T15:22:40.604+07:00
+cssclasses: ""
 creation-time: 2025-03-27 17:07
 status: in progress
 tags:
 parent:
   - "[[Time Series Analysis With Applications in R]]"
 ---
+
 
 Invertibility addresses whether a moving average (MA) or autoregressive moving average (ARMA) process can be **reexpressed as an infinite-order autoregressive (AR) process**.
 
@@ -18,51 +20,49 @@ This property ensures a unique mapping between the process and its autocorrelati
 
 For an MA($q$) process:
 
-$$ Y\_t = e\_t - \theta\_1 e\_{t-1} - \theta\_2 e\_{t-2} - \cdots - \theta\_q e\_{t-q} $$
+$$ Y_t = e_t - \theta_1 e_{t-1} - \theta_2 e_{t-2} - \cdots - \theta_q e_{t-q} $$
 
 invertibility allows rewriting it as:
 
-$$ Y\_t = \pi\_1 Y\_{t-1} + \pi\_2 Y\_{t-2} + \pi\_3 Y\_{t-3} + \cdots + e\_t $$
+$$ Y_t = \pi_1 Y_{t-1} + \pi_2 Y_{t-2} + \pi_3 Y_{t-3} + \cdots + e_t $$
 
-with coefficients $\pi\_j$. This is possible when the MA characteristic polynomial:
+with coefficients $\pi_j$. This is possible when the MA characteristic polynomial:
 
-$$ \theta(x) = 1 - \theta\_1 x - \theta\_2 x^2 - \cdots - \theta\_q x^q $$
+$$ \theta(x) = 1 - \theta_1 x - \theta_2 x^2 - \cdots - \theta_q x^q $$
 
 has roots exceeding 1 in modulus ($|\theta|<1$ for MA(1)).
 
 Invertibility resolves nonuniqueness in MA models, where different $\theta$ values yield the same autocorrelation function.
 
 ### MA(1) Example
+Consider $Y_t = e_t - \theta e_{t-1}$. Rewrite as:
 
-Consider $Y\_t = e\_t - \theta e\_{t-1}$. Rewrite as:
-
-$$ e\_t = Y\_t + \theta e\_{t-1} $$
+$$ e_t = Y_t + \theta e_{t-1} $$
 
 Substitute recursively:
 
-$$ e\_t = Y\_t + \theta (Y\_{t-1} + \theta e\_{t-2}) = Y\_t + \theta Y\_{t-1} + \theta^2 e\_{t-2} $$
+$$ e_t = Y_t + \theta (Y_{t-1} + \theta e_{t-2}) = Y_t + \theta Y_{t-1} + \theta^2 e_{t-2} $$
 
 Continuing infinitely:
 
-$$ e\_t = Y\_t + \theta Y\_{t-1} + \theta^2 Y\_{t-2} + \theta^3 Y\_{t-3} + \cdots $$
+$$ e_t = Y_t + \theta Y_{t-1} + \theta^2 Y_{t-2} + \theta^3 Y_{t-3} + \cdots $$
 
 Thus:
 
-$$ Y\_t = -\theta Y\_{t-1} - \theta^2 Y\_{t-2} - \theta^3 Y\_{t-3} - \cdots + e\_t $$
+$$ Y_t = -\theta Y_{t-1} - \theta^2 Y_{t-2} - \theta^3 Y_{t-3} - \cdots + e_t $$
 
-Notice that $Y\_t$ converges if and only if $|\theta| < 1$.
+Notice that $Y_t$ converges if and only if $|\theta| < 1$.
 
-And if $Y\_t$ converges, then $Y\_t$ is invertible.
+And if $Y_t$ converges, then $Y_t$ is invertible.
 
 For $|\theta| \geq 1$, the series diverges, rendering it non-invertible.
 
 ### Nonuniqueness Issue
-
-For MA(1), $\rho\_1 = -\theta / (1 + \theta^2)$. Replacing $\theta$ with $1/\theta$ yields the same $\rho\_1$.
+For MA(1), $\rho_1 = -\theta / (1 + \theta^2)$. Replacing $\theta$ with $1/\theta$ yields the same $\rho_1$.
 
 Example:
 
-$\theta = 2$ and $\theta = 1/2$ both give $\rho\_1 = -0.4$,
+$\theta = 2$ and $\theta = 1/2$ both give $\rho_1 = -0.4$,
 but only $\theta = 0.5$ (root $-2$) is invertible ($|0.5| < 1$),
 while $\theta = 2$ (root $-0.5$) is not ($|2| > 1$).
 
@@ -127,7 +127,6 @@ print(f"ACF (Non-invertible, theta={theta_non}): {acf_non[:3]}")
 ```
 
 ### Explanation
-
-This code simulates two MA(1) processes: one with $\theta = 0.5$ (invertible) and one with $\theta = 2.0$ (non-invertible). It attempts to recover the white noise $e\_t$ using the infinite AR representation. For $\theta = 0.5$, the recovered $e\_t$ closely matches the true noise, while for $\theta = 2.0$, it diverges due to non-invertibility. The autocorrelation functions (ACF) are computed, showing both processes have the same $\rho\_1 \approx -0.4$, illustrating nonuniqueness without invertibility constraints.
+This code simulates two MA(1) processes: one with $\theta = 0.5$ (invertible) and one with $\theta = 2.0$ (non-invertible). It attempts to recover the white noise $e_t$ using the infinite AR representation. For $\theta = 0.5$, the recovered $e_t$ closely matches the true noise, while for $\theta = 2.0$, it diverges due to non-invertibility. The autocorrelation functions (ACF) are computed, showing both processes have the same $\rho_1 \approx -0.4$, illustrating nonuniqueness without invertibility constraints.
 
 Output plots demonstrate the stability of the invertible case versus the explosive behavior of the non-invertible case.

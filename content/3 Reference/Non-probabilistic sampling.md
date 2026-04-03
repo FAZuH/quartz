@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.647+07:00
 modified: 2026-03-25T15:22:40.647+07:00
 published: 2026-03-25T15:22:40.647+07:00
+cssclasses: ""
 creation-time: 2025-03-19 16:29
 tags:
 status: complete
 parent:
   - "[[sampling methods]]"
 ---
+
 
 ## About non-probabilistic sampling
 
@@ -47,16 +49,16 @@ Once the quotas are determined, **participants are selected from each subgroup u
 Steps:
 
 1. Identify Key Characteristics (Subgroups)
-   The researcher identifies key characteristics relevant to the study (e.g., age, gender, occupation, etc.) and divides the population into subgroups (quotas).
-
+	The researcher identifies key characteristics relevant to the study (e.g., age, gender, occupation, etc.) and divides the population into subgroups (quotas).
+    
 2. Determine the Quota for Each Subgroup
-   The researcher determines how many participants are needed from each subgroup to match the proportion of the characteristics in the broader population. For example, if 60% of the population is female, the sample should also include 60% females.
-
+	The researcher determines how many participants are needed from each subgroup to match the proportion of the characteristics in the broader population. For example, if 60% of the population is female, the sample should also include 60% females.
+    
 3. Select Participants within Subgroups
-   Once the quotas are set, the researcher selects participants from each subgroup (often in a non-random way, depending on availability or convenience) until the required number of participants for each group is reached.
-
+	Once the quotas are set, the researcher selects participants from each subgroup (often in a non-random way, depending on availability or convenience) until the required number of participants for each group is reached.
+    
 4. Stop When Quotas Are Met
-   The process continues until the desired number of participants for each subgroup is reached.
+	The process continues until the desired number of participants for each subgroup is reached.
 
 ## About snowball sampling
 

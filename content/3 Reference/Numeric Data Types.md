@@ -3,12 +3,14 @@ publish: true
 created: 2026-03-25T15:22:40.641+07:00
 modified: 2026-03-25T15:22:40.641+07:00
 published: 2026-03-25T15:22:40.641+07:00
+cssclasses: ""
 creation-time: 2025-03-14 11:14
 status: complete
 tags:
 parent:
   - "[[mysql data types]]"
 ---
+
 
 ## Summary
 
@@ -48,7 +50,6 @@ Syntax for each data type above is: `<type>[(M)] [UNSIGNED] [ZEROFILL]`.
 `DECIMAL[(M[,D])] [UNSIGNED] [ZEROFILL]`
 
 Where:
-
 - `M` (precision): Number of **significant digits**. Defaults to 10.
 - `D` (scale): Digits stored **after a decimal** point. Default 0.
 
@@ -65,8 +66,7 @@ When trying to insert a value with more digits than `D`, usually **truncated** (
 `FLOAT(p)`
 
 Where:
-
-- `p`: Precision in bits.
+- `p`: Precision in bits. 
 
 `p` 0-23 results in 4-bytes single precision `FLOAT`.
 `p` 24-54 results in 8-bytes double precision `DOUBLE`.
@@ -77,10 +77,10 @@ Where:
 
 > [!WARNING]
 > Because floating-point values are approximate and not stored as exact values, attempts to treat them as exact in comparisons may lead to problems.
->
+> 
 > Read further: https://dev.mysql.com/doc/refman/8.4/en/problems-with-float.html
 
-## Bit-value
+##  Bit-value
 
 The `BIT` data type is used to store bit values.
 
@@ -89,21 +89,19 @@ Syntax
 `BIT[(M)]`
 
 Where:
-
 - `M`: Number of bits stored. Ranges 1-64. Default 1.
 
-To specify bit values in [[sql]], use  `b'value'`, where the value is binary in zeros and ones, e.g., `b'111'`.
+To specify bit values in [[3 Reference/structure/sql]], use  `b'value'`, where the value is binary in zeros and ones, e.g., `b'111'`.
 
-## AUTO\_INCREMENT attribute
+## AUTO_INCREMENT attribute
 
-[[#Integers|Integer]] types can have `AUTO_INCREMENT` [[SQL Commands#Column attributes|attribute]].
+[[3 Reference/Numeric Data Types#Integers\|Integer]] types can have `AUTO_INCREMENT` [[3 Reference/SQL Commands#Column attributes\|attribute]].
 
 When inserting `NULL`, the **value is set to next sequence value** `value+1`, where `value` is the current largest value.
 
-Note that if `NOT NULL` [[SQL Commands#Column constraints|constraint]] is not specified, **`NULL` will be inserted instead**.
+Note that if `NOT NULL` [[3 Reference/SQL Commands#Column constraints\|constraint]] is not specified, **`NULL` will be inserted instead**.
 
 Also,
-
 - Begins with 1.
 - Negative values not supported.
-- Does not work with [[#Floating-points (approximate value)|floating types]].
+- Does not work with [[3 Reference/Numeric Data Types#Floating-points (approximate value)\|floating types]].

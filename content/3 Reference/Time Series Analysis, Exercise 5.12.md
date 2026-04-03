@@ -5,11 +5,13 @@ modified: 2026-03-25T15:22:40.600+07:00
 published: 2026-03-25T15:22:40.600+07:00
 tags:
   - category/exercise
+cssclasses: ""
 creation-time: 2025-03-28 18:57
 status: in progress
 parent:
   - "[[Time Series Analysis With Applications in R]]"
 ---
+
 
 ![[assets/Pasted image 20250327221623.png]]
 
@@ -31,7 +33,6 @@ Output:
 ![[assets/Pasted image 20250327221758.png]]
 
 Interpretasi:
-
 - Trend naik (perkembangan ekonomi).
 - Variansi yang meningkat.
 - Data nonstasioner

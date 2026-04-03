@@ -7,11 +7,13 @@ modified: 2026-04-03T19:12:57.005+07:00
 published: 2026-04-03T19:12:57.005+07:00
 tags:
   - type/theorem
+cssclasses: ""
 creation-time: 2026-04-03 18:45
 status: in progress
 parent:
   - "[[stochastic-model]]"
 ---
+
 
 ## Theorem
 
@@ -26,10 +28,10 @@ parent:
 
 $$
 \begin{align}
-P(M = k) &= \sum\_{n=k}^{\infty} P(M = k \mid N = n) P(N = n) \\
-&= \sum\_{n=k}^{\infty} \binom{n}{k} p^k (1-p)^{n-k} \cdot \frac{e^{-\mu} \mu^n}{n!} \\
-&= \frac{e^{-\mu} p^k}{k!} \sum\_{n=k}^{\infty} \frac{(\mu(1-p))^{n-k}}{(n-k)!} \mu^k \\
-&= \frac{e^{-\mu} (\mu p)^k}{k!} \sum\_{j=0}^{\infty} \frac{(\mu(1-p))^j}{j!} \\
+P(M = k) &= \sum_{n=k}^{\infty} P(M = k \mid N = n) P(N = n) \\
+&= \sum_{n=k}^{\infty} \binom{n}{k} p^k (1-p)^{n-k} \cdot \frac{e^{-\mu} \mu^n}{n!} \\
+&= \frac{e^{-\mu} p^k}{k!} \sum_{n=k}^{\infty} \frac{(\mu(1-p))^{n-k}}{(n-k)!} \mu^k \\
+&= \frac{e^{-\mu} (\mu p)^k}{k!} \sum_{j=0}^{\infty} \frac{(\mu(1-p))^j}{j!} \\
 &= \frac{e^{-\mu} (\mu p)^k}{k!} e^{\mu(1-p)} \\
 &= \frac{e^{-\mu p} (\mu p)^k}{k!}
 \end{align}
@@ -39,5 +41,5 @@ Thus $M \sim \text{Po}(\mu p)$.
 
 ## Related
 
-- [[def-poisson-distribution_202509150822|Poisson Distribution]]
-- [[sum-of-poisson-random-variables_202604031845|Sum of Poisson Random Variables]]
+- [[3 Reference/def-poisson-distribution_202509150822\|Poisson Distribution]]
+- [[3 Reference/sum-of-poisson-random-variables_202604031845\|Sum of Poisson Random Variables]]
