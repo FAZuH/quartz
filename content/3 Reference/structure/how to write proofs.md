@@ -1,13 +1,13 @@
 ---
 publish: true
-created: 2026-02-22T19:24:22.354+07:00
-modified: 2026-02-22T19:24:22.356+07:00
-published: 2026-02-22T19:24:22.356+07:00
+created: 2026-04-05T18:32:31.100+07:00
+modified: 2026-04-05T18:32:31.101+07:00
+published: 2026-04-05T18:32:31.101+07:00
 tags:
   - type/category
 cssclasses: ""
 creation-time: 2025-03-29 15:41
-status: baby
+"status: in progress":
 parent:
   - "[[logic and proofing]]"
 source: https://zimmer.csufresno.edu/~larryc/proofs/proofs.html

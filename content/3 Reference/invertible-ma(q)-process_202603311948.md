@@ -3,14 +3,15 @@ publish: true
 aliases:
   - Invertible MA(q) Process
 created: 2026-03-31T19:48:12.106+07:00
-modified: 2026-03-31T20:02:46.107+07:00
-published: 2026-03-31T20:02:46.107+07:00
+modified: 2026-04-05T18:27:39.515+07:00
+published: 2026-04-05T18:27:39.515+07:00
 tags:
   - 
 cssclasses: ""
 creation-time: 2026-03-31 19:48
 status: in progress
 parent:
+  - "[[forecasting methods]]"
 ---
 
 

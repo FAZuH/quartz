@@ -19,7 +19,6 @@ About me: https://github.com/FAZuH
 
 ## Top-level categories
 i.e., categories that is not a subcategory/is parentless
-- [[3 Reference/invertible-ma(q)-process_202603311948\|Invertible MA(q) Process]]
 - [[3 Reference/structure/book summaries\|book summaries]]
 - [[3 Reference/structure/computers\|computers]]
 - [[3 Reference/structure/finance\|finance]]
