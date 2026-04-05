@@ -4,8 +4,8 @@ aliases:
   - AR(p) Process Model
   - Autoregressive Process Process (AR(p))
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-04-02T11:57:08.527+07:00
-published: 2026-04-02T11:57:08.527+07:00
+modified: 2026-04-04T22:42:14.959+07:00
+published: 2026-04-04T22:42:14.959+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
@@ -49,9 +49,11 @@ $1 - \phi_1 x - \phi_2 x^2 - \dots - \phi_p x^p = 0$$
 
 ## Properties
 
+Assuming AR(p) is stationary,
+
 | Property              | Expression                                                                           |
 | --------------------- | ------------------------------------------------------------------------------------ |
 | Variance ($\gamma_0$) | $\dfrac{\sigma_e^2}{\textcolor{#70CFFF}{1 - \phi_1 \rho_1 - \dots - \phi_p \rho_p}}$ |
 | Autocorrelation (ACF) | $\textcolor{#FFD700}{\phi_1 \rho_{k-1} + \dots + \phi_p \rho_{k-p}}, \quad k \geq 1$ |
 
- 
+> [!warning] Only valid on stationary AR(p)

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Conditional Distribution of Arrival Times
 created: 2026-04-03T18:45:46.706+07:00
-modified: 2026-04-03T19:13:10.730+07:00
-published: 2026-04-03T19:13:10.730+07:00
+modified: 2026-04-03T19:40:03.505+07:00
+published: 2026-04-03T19:40:03.505+07:00
 tags:
   - type/theorem
 cssclasses: ""
@@ -17,9 +17,11 @@ parent:
 
 ## Theorem
 
-> Let $\{N(t), t \geq 0\}$ be a [[3 Reference/poisson-process_202604031845\|Poisson process]] of rate $\lambda$.
->
-> Given $N(t) = n$, the $n$ arrival times $S_1, S_2, \dots, S_n$ have the same distribution as the **order statistics** of $n$ i.i.d. $\text{Uniform}(0, t)$ random variables.
+Let $\{N(t), t \geq 0\}$ be a [[3 Reference/poisson-process_202604031845\|Poisson process]] of rate $\lambda$.
+
+Given $N(t) = n$, the $n$ arrival times $S_1, S_2, \dots, S_n$ have the same distribution as the **order statistics** of $n$ i.i.d. $\text{Uniform}(0, t)$ random variables.
+
+$\blacksquare$
 
 The joint density is:
 
