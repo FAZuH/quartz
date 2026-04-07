@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-04-02T11:56:59.476+07:00
-published: 2026-04-02T11:56:59.476+07:00
+modified: 2026-04-05T21:30:04.389+07:00
+published: 2026-04-05T21:30:04.389+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -128,3 +128,16 @@ PassFrontmatter: true
 - *[[3 Reference/extended-autocorrelation-function-(eacf)_202603300224\|Extended Autocorrelation Function (EACF)]]*
 - *[[3 Reference/aic-criterion_202603300224\|AIC Criterion]]*
 - *[[3 Reference/bic-criterion_202603300224\|BIC Criterion]]*
+
+## Parameter Estimation
+- *[[3 Reference/method-of-moments_202604052126\|Method of Moments]]*
+- [[3 Reference/parameter-estimation-by-method-of-moments_202604052127\|Parameter Estimation by Method of Moments]]
+- *[[3 Reference/noise-variance-estimation_202604052127\|Noise Variance Estimation]]*
+- *[[3 Reference/conditional-sum-of-squares-function_202604052127\|Conditional Sum of Squares Function]]*
+- [[3 Reference/conditional-least-squares_202604052128\|Conditional Least Squares]]
+- [[3 Reference/least-square-method_202604052128\|Least Square Method]]
+- *[[3 Reference/unconditional-sum-of-squares-function_202604052128\|Unconditional Sum-of-Squares Function]]*
+- [[3 Reference/unconditional-least-squares_202604052128\|Unconditional Least Squares]]
+- *[[3 Reference/maximum-likelihood-method_202604052129\|Maximum Likelihood Method]]*
+- **[[3 Reference/large-sample-properties-of-parameter-estimates_202604052129\|Property: Large Sample Properties of Parameter Estimates]]**
+- [[3 Reference/canadian-hare-abundance-series_202604052129\|Canadian Hare Abundance Series]]

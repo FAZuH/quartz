@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-03-25T15:23:12.752+07:00
-modified: 2026-03-25T15:25:21.499+07:00
-published: 2026-03-25T15:25:21.499+07:00
+modified: 2026-04-06T16:41:30.000+07:00
+published: 2026-04-06T16:41:30.000+07:00
 cssclasses: ""
 creation-time: 2025-03-22 17:22
 status: in progress
@@ -11,7 +11,7 @@ parent:
   - "[[wynncraft]]"
 ---
 
-This note explains how to manually calculate the probability distribution of Wynncraft crafted item roll values.
+Procedure to manually calculate the probability distribution of roll values of Wynncraft crafted items.
 
 ## Notation
 
@@ -26,7 +26,7 @@ This note explains how to manually calculate the probability distribution of Wyn
 
 By "base" we unboosted ingredient roll values.
 
-For each ingredient $i$, generate a vector of 101 base values, linearly spaced from $a_i$ to $b_i$.
+For each ingredient $i$, generate a vector of 101 base values, evenly spaced from $a_i$ to $b_i$.
 
 These represent the possible unboosted "roll values" distributed uniformly.
 

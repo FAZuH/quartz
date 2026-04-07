@@ -3,8 +3,8 @@ publish: true
 aliases:
   - ARMA(1,1) Process Model
 created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-04-02T11:54:50.088+07:00
-published: 2026-04-02T11:54:50.088+07:00
+modified: 2026-04-06T05:29:32.640+07:00
+published: 2026-04-06T05:29:32.640+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
@@ -25,6 +25,8 @@ $$Z_t = \phi Z_{t-1} + a_t - \theta a_{t-1}$$
 [[3 Reference/invertible-ma(q)-process_202603311948 1\|Invertible]] if $|\theta| < 1$.
 
 ## Properties
+
+Assuming the model is stationary,
 
 | Property        | Expression                                                                                                                                                                                    |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

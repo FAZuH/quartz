@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Derivative Cheatsheet
 created: 2026-03-25T15:22:40.604+07:00
-modified: 2026-03-25T15:22:40.604+07:00
-published: 2026-03-25T15:22:40.604+07:00
+modified: 2026-04-07T09:59:03.420+07:00
+published: 2026-04-07T09:59:03.420+07:00
 tags:
   - 
 cssclasses: ""
@@ -14,8 +14,6 @@ parent:
   - "[[calculus]]"
 ---
 
-
-# Cheatsheet: Derivative Rules
 
 ## Basic Definition
 
@@ -50,7 +48,19 @@ $$ \begin{align} \frac{d}{dx}[fg] &= f'g + fg' \quad \text{(product rule)} \\ \f
 
 $$ \begin{align} \frac{d}{dx}[f(g)] &= f'(g) \cdot g' \\ \frac{dy}{dx} &= \frac{dy}{du} \cdot \frac{du}{dx} \quad \text{(where } u = g) \end{align} $$
 
-**Multiple composition**: $$\frac{d}{dx}[f(g(h))] = f'(g(h)) \cdot g'(h) \cdot h'$$
+**Multiple composition**:
+$$\frac{d}{dx}[f(g(h))] = f'(g(h)) \cdot g'(h) \cdot h'$$
+
+> [!example]
+> Let ${\color{yellow}f(t)} = 1 - e^{-t^2}$, and ${\color{cyan}g(t)} = e^{-t^2}$.
+> $$\frac{d}{dt}{\color{cyan}g(t)} = \frac{d}{dt}\textcolor{cyan}{e^{-t^2}} = {\color{lime}e^{-t^2}} \cdot {\color{yellow}(-2t)} = {\color{yellow}-2t}\,{\color{lime}e^{-t^2}}$$
+> Here 
+> - ${\color{cyan}f(g)} = {\color{lime}e^g}$ 
+> - ${\color{yellow}g = -t^2}$
+> 
+> So 
+> - ${\color{cyan}f'(g)} = {\color{lime}e^g}$ 
+> - ${\color{yellow}g' = -2t}$.
 
 ## Exponential and Logarithmic Functions
 

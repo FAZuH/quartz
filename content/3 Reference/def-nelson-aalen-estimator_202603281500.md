@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Nelson-Aalen Estimator
 created: 2026-03-30T13:58:25.262+07:00
-modified: 2026-03-30T13:58:25.262+07:00
-published: 2026-03-30T13:58:25.262+07:00
+modified: 2026-04-07T08:31:32.522+07:00
+published: 2026-04-07T08:31:32.522+07:00
 cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
@@ -37,6 +37,16 @@ The Nelson-Aalen estimator calculates cumulative hazard by summing instantaneous
 
 **Cumulative hazard up to $t_2$:**
 $$H(t_2) = h(t_1) + h(t_2) = \frac{d_1}{Y_1} + \frac{d_2}{Y_2}$$
+
+## Variance
+
+The variance of the Nelson-Aalen estimator:
+
+$$\widehat{\operatorname{Var}}[\hat{H}(t)] = \sum_{t_i \leq t} \frac{d_i}{Y_i^2}$$
+
+## Relationship with Kaplan-Meier
+
+$$\hat{S}_{KM}(t) \approx \exp(-\hat{H}_{NA}(t))$$
 
 ## Related
 
