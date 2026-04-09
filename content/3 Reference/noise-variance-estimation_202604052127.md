@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Noise Variance Estimation
-created: 2026-04-05T21:27:39.607+07:00
-modified: 2026-04-06T03:31:10.273+07:00
-published: 2026-04-06T03:31:10.273+07:00
+created: 2026-04-09T23:07:39.523+07:00
+modified: 2026-04-09T23:07:39.524+07:00
+published: 2026-04-09T23:07:39.524+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:27
 status: in progress

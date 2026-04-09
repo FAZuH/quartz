@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Conditional Sum of Squares Function
-created: 2026-04-05T21:27:46.856+07:00
-modified: 2026-04-05T21:27:46.857+07:00
-published: 2026-04-05T21:27:46.857+07:00
+created: 2026-04-09T23:07:39.064+07:00
+modified: 2026-04-09T23:07:39.065+07:00
+published: 2026-04-09T23:07:39.065+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:27
 status: in progress

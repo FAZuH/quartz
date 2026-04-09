@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Markov Property
-created: 2026-03-29T12:54:01.178+07:00
-modified: 2026-03-29T12:54:01.178+07:00
-published: 2026-03-29T12:54:01.178+07:00
+created: 2026-04-09T23:07:39.209+07:00
+modified: 2026-04-09T23:07:39.210+07:00
+published: 2026-04-09T23:07:39.210+07:00
 cssclasses: ""
 creation-time: 2026-03-28 08:03
 status: in progress

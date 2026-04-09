@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Total Time on Test
-created: 2026-04-07T08:30:26.068+07:00
-modified: 2026-04-07T09:28:24.847+07:00
-published: 2026-04-07T09:28:24.847+07:00
+created: 2026-04-09T23:07:39.740+07:00
+modified: 2026-04-09T23:07:39.741+07:00
+published: 2026-04-09T23:07:39.741+07:00
 cssclasses: ""
 creation-time: 2026-04-07 08:30
 status: in progress

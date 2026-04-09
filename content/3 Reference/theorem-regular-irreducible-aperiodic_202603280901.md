@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Regular Chain is Irreducible and Aperiodic
-created: 2026-03-29T12:54:01.179+07:00
-modified: 2026-03-29T12:54:01.179+07:00
-published: 2026-03-29T12:54:01.179+07:00
+created: 2026-04-09T23:07:39.715+07:00
+modified: 2026-04-09T23:07:39.716+07:00
+published: 2026-04-09T23:07:39.716+07:00
 cssclasses: ""
 creation-time: 2026-03-28 09:01
 status: in progress

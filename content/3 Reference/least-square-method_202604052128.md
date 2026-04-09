@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Least Square Method
-created: 2026-04-05T21:28:29.072+07:00
-modified: 2026-04-05T21:31:55.274+07:00
-published: 2026-04-05T21:31:55.274+07:00
+created: 2026-04-09T23:07:39.441+07:00
+modified: 2026-04-09T23:07:39.442+07:00
+published: 2026-04-09T23:07:39.442+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:28
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Sufficient Statistic
-created: 2026-03-25T15:22:40.617+07:00
-modified: 2026-03-31T10:09:51.195+07:00
-published: 2026-03-31T10:09:51.195+07:00
+created: 2026-04-09T23:07:39.325+07:00
+modified: 2026-04-09T23:07:39.326+07:00
+published: 2026-04-09T23:07:39.326+07:00
 cssclasses: ""
 creation-time: 2025-07-17 09:25
 status: in progress

@@ -4,9 +4,9 @@ aliases:
   - Size of Critical Region
   - Size
   - Significance level
-created: 2026-03-25T15:22:40.591+07:00
-modified: 2026-03-25T15:22:40.591+07:00
-published: 2026-03-25T15:22:40.591+07:00
+created: 2026-04-09T23:07:39.310+07:00
+modified: 2026-04-09T23:07:39.311+07:00
+published: 2026-04-09T23:07:39.311+07:00
 tags:
   - linker-exclude
 cssclasses: ""

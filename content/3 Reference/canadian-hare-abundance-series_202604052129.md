@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Canadian Hare Abundance Series
-created: 2026-04-05T21:29:45.805+07:00
-modified: 2026-04-05T21:29:45.805+07:00
-published: 2026-04-05T21:29:45.805+07:00
+created: 2026-04-09T23:07:39.027+07:00
+modified: 2026-04-09T23:07:39.028+07:00
+published: 2026-04-09T23:07:39.028+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:29
 status: in progress

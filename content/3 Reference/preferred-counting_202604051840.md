@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Preferred Counting
-created: 2026-04-05T18:40:58.103+07:00
-modified: 2026-04-05T18:43:37.994+07:00
-published: 2026-04-05T18:43:37.994+07:00
+created: 2026-04-09T23:07:39.556+07:00
+modified: 2026-04-09T23:07:39.557+07:00
+published: 2026-04-09T23:07:39.557+07:00
 tags:
   - 
 cssclasses: ""

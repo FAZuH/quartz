@@ -4,9 +4,9 @@ aliases:
   - Minimum Variance Unbiased Estimator (MVUE)
   - MVUE
   - UMVE
-created: 2026-03-25T15:22:40.618+07:00
-modified: 2026-03-31T09:13:48.120+07:00
-published: 2026-03-31T09:13:48.120+07:00
+created: 2026-04-09T23:07:39.229+07:00
+modified: 2026-04-09T23:07:39.230+07:00
+published: 2026-04-09T23:07:39.230+07:00
 cssclasses: ""
 creation-time: 2025-07-17 09:25
 status: in progress

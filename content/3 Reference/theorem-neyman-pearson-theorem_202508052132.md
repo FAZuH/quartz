@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Neyman-Pearson Theorem
-created: 2026-03-25T15:22:40.600+07:00
-modified: 2026-03-25T15:22:40.600+07:00
-published: 2026-03-25T15:22:40.600+07:00
+created: 2026-04-09T23:07:39.691+07:00
+modified: 2026-04-09T23:07:39.692+07:00
+published: 2026-04-09T23:07:39.692+07:00
 cssclasses: ""
 creation-time: 2025-08-05 21:32
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - ARIMA(p,d,q) Model
-created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-29T22:19:37.611+07:00
-published: 2026-03-29T22:19:37.611+07:00
+created: 2026-04-09T23:07:38.997+07:00
+modified: 2026-04-09T23:07:38.998+07:00
+published: 2026-04-09T23:07:38.998+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress

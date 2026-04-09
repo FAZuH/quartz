@@ -4,9 +4,9 @@ aliases:
   - Uniformly Most Powerful Critical Region
   - UMP Critical Region
   - UMPCR
-created: 2026-03-25T15:22:40.614+07:00
-modified: 2026-03-25T15:22:40.614+07:00
-published: 2026-03-25T15:22:40.614+07:00
+created: 2026-04-09T23:07:39.345+07:00
+modified: 2026-04-09T23:07:39.346+07:00
+published: 2026-04-09T23:07:39.346+07:00
 cssclasses: ""
 creation-time: 2025-08-05 21:19
 status: in progress

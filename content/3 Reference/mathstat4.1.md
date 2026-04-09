@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 4.1 Sampling and Statistics.md
-created: 2026-03-25T15:22:40.620+07:00
-modified: 2026-03-25T15:22:40.620+07:00
-published: 2026-03-25T15:22:40.620+07:00
+created: 2026-04-09T23:07:39.468+07:00
+modified: 2026-04-09T23:07:39.469+07:00
+published: 2026-04-09T23:07:39.469+07:00
 cssclasses: ""
 creation-time: 2025-06-24 00:53
 status: in progress

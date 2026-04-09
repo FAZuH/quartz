@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Forecasting Methods Cheatsheet
-created: 2026-03-29T21:04:46.757+07:00
-modified: 2026-03-31T19:36:21.701+07:00
-published: 2026-03-31T19:36:21.701+07:00
+created: 2026-04-09T23:07:39.394+07:00
+modified: 2026-04-09T23:07:39.395+07:00
+published: 2026-04-09T23:07:39.395+07:00
 cssclasses: ""
 creation-time: 2026-03-29 21:04
 status: in progress

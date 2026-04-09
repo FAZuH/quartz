@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Partial Autocorrelation
   - PACF
-created: 2026-03-30T02:23:37.097+07:00
-modified: 2026-03-30T02:30:22.377+07:00
-published: 2026-03-30T02:30:22.377+07:00
+created: 2026-04-09T23:07:39.545+07:00
+modified: 2026-04-09T23:07:39.546+07:00
+published: 2026-04-09T23:07:39.546+07:00
 cssclasses: ""
 creation-time: 2026-03-30 02:23
 status: in progress

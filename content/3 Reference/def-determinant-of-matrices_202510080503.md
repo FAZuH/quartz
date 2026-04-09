@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Determinant of Matrices
-created: 2026-03-25T15:22:40.591+07:00
-modified: 2026-03-25T15:22:40.592+07:00
-published: 2026-03-25T15:22:40.592+07:00
+created: 2026-04-09T23:07:39.127+07:00
+modified: 2026-04-09T23:07:39.128+07:00
+published: 2026-04-09T23:07:39.128+07:00
 tags:
   - 
 cssclasses: ""

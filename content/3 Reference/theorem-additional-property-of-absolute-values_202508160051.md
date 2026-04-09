@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Additional Property of Absolute Values
-created: 2026-03-25T15:22:40.591+07:00
-modified: 2026-03-25T15:22:40.591+07:00
-published: 2026-03-25T15:22:40.591+07:00
+created: 2026-04-09T23:07:39.637+07:00
+modified: 2026-04-09T23:07:39.638+07:00
+published: 2026-04-09T23:07:39.638+07:00
 cssclasses: ""
 creation-time: 2025-08-16 00:51
 status: in progress

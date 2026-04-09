@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Appeal to Authority
-created: 2026-04-05T18:35:07.751+07:00
-modified: 2026-04-05T18:35:07.751+07:00
-published: 2026-04-05T18:35:07.751+07:00
+created: 2026-04-09T23:07:38.989+07:00
+modified: 2026-04-09T23:07:38.989+07:00
+published: 2026-04-09T23:07:38.989+07:00
 cssclasses: ""
 creation-time: 2026-04-05 18:35
 status: in progress

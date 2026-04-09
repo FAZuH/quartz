@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - MVVM (Model View ViewModel)
-created: 2026-04-09T15:19:15.217+07:00
-modified: 2026-04-09T15:38:33.423+07:00
-published: 2026-04-09T15:38:33.423+07:00
+created: 2026-04-09T23:07:39.518+07:00
+modified: 2026-04-09T23:07:39.519+07:00
+published: 2026-04-09T23:07:39.519+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:19
 status: in progress

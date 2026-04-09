@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Inverse of Matrix Product
-created: 2026-03-25T15:22:40.638+07:00
-modified: 2026-03-25T15:22:40.638+07:00
-published: 2026-03-25T15:22:40.638+07:00
+created: 2026-04-09T23:07:39.671+07:00
+modified: 2026-04-09T23:07:39.672+07:00
+published: 2026-04-09T23:07:39.672+07:00
 tags:
   - 
 cssclasses: ""

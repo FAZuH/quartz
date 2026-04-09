@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Instrumental Variables
-created: 2026-03-25T15:22:40.591+07:00
-modified: 2026-03-25T15:22:40.591+07:00
-published: 2026-03-25T15:22:40.591+07:00
+created: 2026-04-09T23:07:39.173+07:00
+modified: 2026-04-09T23:07:39.174+07:00
+published: 2026-04-09T23:07:39.174+07:00
 tags:
   - 
 cssclasses: ""

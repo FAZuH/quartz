@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Non-Parametric Estimation Cheatsheet
-created: 2026-04-07T11:08:54.646+07:00
-modified: 2026-04-07T11:23:54.088+07:00
-published: 2026-04-07T11:23:54.088+07:00
+created: 2026-04-09T23:07:39.528+07:00
+modified: 2026-04-09T23:07:39.529+07:00
+published: 2026-04-09T23:07:39.529+07:00
 cssclasses: ""
 creation-time: 2026-04-07 11:08
 status: in progress

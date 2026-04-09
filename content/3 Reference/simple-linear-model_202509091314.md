@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Simple Linear Model
-created: 2026-03-25T15:22:40.596+07:00
-modified: 2026-03-25T15:22:40.596+07:00
-published: 2026-03-25T15:22:40.596+07:00
+created: 2026-04-09T23:07:39.584+07:00
+modified: 2026-04-09T23:07:39.585+07:00
+published: 2026-04-09T23:07:39.585+07:00
 tags:
   - 
 cssclasses: ""

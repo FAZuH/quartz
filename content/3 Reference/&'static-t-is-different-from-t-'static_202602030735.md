@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - "&'static T is different from T: 'static"
-created: 2026-03-25T15:22:40.614+07:00
-modified: 2026-03-25T15:22:40.614+07:00
-published: 2026-03-25T15:22:40.614+07:00
+created: 2026-04-09T23:07:39.602+07:00
+modified: 2026-04-09T23:07:39.603+07:00
+published: 2026-04-09T23:07:39.603+07:00
 tags:
   - 
 cssclasses: ""

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 5.3 Central Limit Theorem.md
-created: 2026-03-25T15:22:40.620+07:00
-modified: 2026-03-25T15:22:40.621+07:00
-published: 2026-03-25T15:22:40.621+07:00
+created: 2026-04-09T23:07:39.472+07:00
+modified: 2026-04-09T23:07:39.473+07:00
+published: 2026-04-09T23:07:39.473+07:00
 cssclasses: ""
 creation-time: 2025-07-02 12:15
 status: in progress

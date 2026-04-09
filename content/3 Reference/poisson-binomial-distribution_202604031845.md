@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Poisson-Binomial Distribution
-created: 2026-04-03T18:45:17.322+07:00
-modified: 2026-04-03T19:12:57.005+07:00
-published: 2026-04-03T19:12:57.005+07:00
+created: 2026-04-09T23:07:39.552+07:00
+modified: 2026-04-09T23:07:39.553+07:00
+published: 2026-04-09T23:07:39.553+07:00
 tags:
   - type/theorem
 cssclasses: ""

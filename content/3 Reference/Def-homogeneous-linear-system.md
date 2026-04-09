@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Homogeneous Linear System
   - Homogeneous Linear System
-created: 2026-03-25T15:22:40.628+07:00
-modified: 2026-03-25T15:22:40.628+07:00
-published: 2026-03-25T15:22:40.628+07:00
+created: 2026-04-09T23:07:39.165+07:00
+modified: 2026-04-09T23:07:39.166+07:00
+published: 2026-04-09T23:07:39.166+07:00
 cssclasses: ""
 creation-time: 2025-07-15 01:58
 status: in progress

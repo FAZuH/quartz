@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Markov Process
-created: 2026-03-29T12:54:01.177+07:00
-modified: 2026-03-29T12:54:01.178+07:00
-published: 2026-03-29T12:54:01.178+07:00
+created: 2026-04-09T23:07:39.207+07:00
+modified: 2026-04-09T23:07:39.208+07:00
+published: 2026-04-09T23:07:39.208+07:00
 cssclasses: ""
 creation-time: 2026-03-28 08:04
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Box-Pierce vs Ljung-Box Comparison
-created: 2026-03-30T02:26:05.692+07:00
-modified: 2026-03-30T03:54:45.699+07:00
-published: 2026-03-30T03:54:45.699+07:00
+created: 2026-04-09T23:07:38.967+07:00
+modified: 2026-04-09T23:07:38.968+07:00
+published: 2026-04-09T23:07:38.968+07:00
 cssclasses: ""
 creation-time: 2026-03-30 02:26
 status: in progress

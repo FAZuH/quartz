@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Conditional Distribution of Arrival Times
-created: 2026-04-03T18:45:46.706+07:00
-modified: 2026-04-03T19:40:03.505+07:00
-published: 2026-04-03T19:40:03.505+07:00
+created: 2026-04-09T23:07:39.061+07:00
+modified: 2026-04-09T23:07:39.061+07:00
+published: 2026-04-09T23:07:39.061+07:00
 tags:
   - type/theorem
 cssclasses: ""

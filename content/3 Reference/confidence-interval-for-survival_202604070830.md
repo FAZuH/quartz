@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Confidence Interval for Survival
-created: 2026-04-07T08:30:31.902+07:00
-modified: 2026-04-07T10:19:56.116+07:00
-published: 2026-04-07T10:19:56.116+07:00
+created: 2026-04-09T23:07:39.065+07:00
+modified: 2026-04-09T23:07:39.066+07:00
+published: 2026-04-09T23:07:39.066+07:00
 cssclasses: ""
 creation-time: 2026-04-07 08:30
 status: in progress

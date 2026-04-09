@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Conditional Least Squares
-created: 2026-04-05T21:28:18.368+07:00
-modified: 2026-04-05T21:31:52.604+07:00
-published: 2026-04-05T21:31:52.604+07:00
+created: 2026-04-09T23:07:39.061+07:00
+modified: 2026-04-09T23:07:39.062+07:00
+published: 2026-04-09T23:07:39.062+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:28
 status: in progress

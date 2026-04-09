@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Derivative Cheatsheet
-created: 2026-03-25T15:22:40.604+07:00
-modified: 2026-04-07T10:23:39.968+07:00
-published: 2026-04-07T10:23:39.968+07:00
+created: 2026-04-09T23:07:39.360+07:00
+modified: 2026-04-09T23:07:39.361+07:00
+published: 2026-04-09T23:07:39.361+07:00
 tags:
   - 
 cssclasses: ""

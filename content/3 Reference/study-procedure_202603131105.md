@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Study Procedure
-created: 2026-03-29T17:17:13.623+07:00
-modified: 2026-04-09T20:07:34.456+07:00
-published: 2026-04-09T20:07:34.456+07:00
+created: 2026-04-09T23:07:39.617+07:00
+modified: 2026-04-09T23:07:39.618+07:00
+published: 2026-04-09T23:07:39.618+07:00
 tags:
   - 
 cssclasses: ""

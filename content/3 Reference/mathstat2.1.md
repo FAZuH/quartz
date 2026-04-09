@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 2.1 Distributions of Two Random Variables.md
-created: 2026-03-25T15:22:40.605+07:00
-modified: 2026-03-25T15:22:40.605+07:00
-published: 2026-03-25T15:22:40.605+07:00
+created: 2026-04-09T23:07:39.467+07:00
+modified: 2026-04-09T23:07:39.468+07:00
+published: 2026-04-09T23:07:39.468+07:00
 cssclasses: ""
 creation-time: 2025-07-02 23:50
 status: in progress

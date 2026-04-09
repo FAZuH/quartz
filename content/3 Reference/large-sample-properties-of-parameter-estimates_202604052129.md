@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Large Sample Properties of Parameter Estimates
-created: 2026-04-05T21:29:34.172+07:00
-modified: 2026-04-05T21:29:34.172+07:00
-published: 2026-04-05T21:29:34.172+07:00
+created: 2026-04-09T23:07:39.437+07:00
+modified: 2026-04-09T23:07:39.438+07:00
+published: 2026-04-09T23:07:39.438+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:29
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Nonhomogeneous Poisson Process
-created: 2026-04-03T18:47:17.497+07:00
-modified: 2026-04-03T19:14:13.807+07:00
-published: 2026-04-03T19:14:13.807+07:00
+created: 2026-04-09T23:07:39.524+07:00
+modified: 2026-04-09T23:07:39.525+07:00
+published: 2026-04-09T23:07:39.525+07:00
 tags:
   - type/definition
 cssclasses: ""

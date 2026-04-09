@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Sum of Poisson Random Variables
-created: 2026-04-03T18:45:13.021+07:00
-modified: 2026-04-03T19:12:53.153+07:00
-published: 2026-04-03T19:12:53.153+07:00
+created: 2026-04-09T23:07:39.618+07:00
+modified: 2026-04-09T23:07:39.620+07:00
+published: 2026-04-09T23:07:39.620+07:00
 tags:
   - type/theorem
 cssclasses: ""

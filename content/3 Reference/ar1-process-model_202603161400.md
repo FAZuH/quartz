@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - AR(1) Process
-created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-03-30T08:19:52.057+07:00
-published: 2026-03-30T08:19:52.057+07:00
+created: 2026-04-09T23:07:38.994+07:00
+modified: 2026-04-09T23:07:38.995+07:00
+published: 2026-04-09T23:07:38.995+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress

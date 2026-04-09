@@ -3,9 +3,9 @@ publish: true
 aliases:
   - AR(p) Process Model
   - Autoregressive Process Process (AR(p))
-created: 2026-03-29T17:33:47.073+07:00
-modified: 2026-04-06T04:31:32.886+07:00
-published: 2026-04-06T04:31:32.886+07:00
+created: 2026-04-09T23:07:39.000+07:00
+modified: 2026-04-09T23:07:39.001+07:00
+published: 2026-04-09T23:07:39.001+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress

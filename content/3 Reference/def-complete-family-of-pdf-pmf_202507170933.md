@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Complete Family of pdf/pmf
-created: 2026-03-25T15:22:40.624+07:00
-modified: 2026-03-31T09:27:31.469+07:00
-published: 2026-03-31T09:27:31.469+07:00
+created: 2026-04-09T23:07:39.107+07:00
+modified: 2026-04-09T23:07:39.109+07:00
+published: 2026-04-09T23:07:39.109+07:00
 cssclasses: ""
 creation-time: 2025-07-17 09:33
 status: in progress

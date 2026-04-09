@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Updating Tailscale Node IP of Headscale
-created: 2026-03-25T15:22:40.612+07:00
-modified: 2026-03-25T15:22:40.612+07:00
-published: 2026-03-25T15:22:40.612+07:00
+created: 2026-04-09T23:07:39.755+07:00
+modified: 2026-04-09T23:07:39.756+07:00
+published: 2026-04-09T23:07:39.756+07:00
 cssclasses: ""
 creation-time: 2025-08-25 07:58
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Gaussian Elimination
-created: 2026-03-25T15:22:40.641+07:00
-modified: 2026-03-25T15:22:40.641+07:00
-published: 2026-03-25T15:22:40.641+07:00
+created: 2026-04-09T23:07:39.661+07:00
+modified: 2026-04-09T23:07:39.662+07:00
+published: 2026-04-09T23:07:39.662+07:00
 cssclasses: ""
 creation-time: 2025-07-15 01:58
 status: complete

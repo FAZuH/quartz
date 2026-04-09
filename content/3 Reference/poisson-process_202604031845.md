@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Poisson Process
-created: 2026-04-03T18:45:09.130+07:00
-modified: 2026-04-09T22:34:38.824+07:00
-published: 2026-04-09T22:34:38.824+07:00
+created: 2026-04-09T23:07:39.554+07:00
+modified: 2026-04-09T23:07:39.555+07:00
+published: 2026-04-09T23:07:39.555+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -28,7 +28,9 @@ If
 Then $\{N(t), t \geq 0\}$ is a **Poisson Process** of rate $\lambda > 0$ 
 
 > [!TIP] Interpretation
-> A Poisson process models events occurring randomly in continuous time at a constant average rate $\lambda$. Conditions 3 and 4 say: in a tiny interval $h$, the chance of exactly one event is proportional to $h$, and the chance of two or more is negligible.
+> A Poisson process models events occurring randomly in continuous time at a constant average rate $\lambda$.
+> 
+>  Conditions 3 and 4 say: in a tiny interval $h$, the chance of exactly one event is proportional to $h$, and the chance of two or more is negligible.
 
 ## Equivalent Definition
 

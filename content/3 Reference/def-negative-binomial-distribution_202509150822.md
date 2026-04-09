@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Negative Binomial Distribution
-created: 2026-03-25T15:22:40.595+07:00
-modified: 2026-03-25T15:22:40.595+07:00
-published: 2026-03-25T15:22:40.595+07:00
+created: 2026-04-09T23:07:39.242+07:00
+modified: 2026-04-09T23:07:39.243+07:00
+published: 2026-04-09T23:07:39.243+07:00
 tags:
   - 
 cssclasses: ""

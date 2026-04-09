@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Reverse Linked List
-created: 2026-03-25T15:22:40.593+07:00
-modified: 2026-03-25T15:22:40.593+07:00
-published: 2026-03-25T15:22:40.593+07:00
+created: 2026-04-09T23:07:39.572+07:00
+modified: 2026-04-09T23:07:39.573+07:00
+published: 2026-04-09T23:07:39.573+07:00
 cssclasses: ""
 creation-time: 2025-08-15 04:41
 status: in progress

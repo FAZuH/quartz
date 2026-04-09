@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Feynman Technique
-created: 2026-03-25T15:22:40.614+07:00
-modified: 2026-03-25T15:22:40.614+07:00
-published: 2026-03-25T15:22:40.614+07:00
+created: 2026-04-09T23:07:39.391+07:00
+modified: 2026-04-09T23:07:39.392+07:00
+published: 2026-04-09T23:07:39.392+07:00
 tags:
   - 
 cssclasses: ""

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Testing Stationarity Visually
-created: 2026-03-30T02:25:20.095+07:00
-modified: 2026-03-30T03:54:16.705+07:00
-published: 2026-03-30T03:54:16.705+07:00
+created: 2026-04-09T23:07:39.563+07:00
+modified: 2026-04-09T23:07:39.564+07:00
+published: 2026-04-09T23:07:39.564+07:00
 cssclasses: ""
 creation-time: 2026-03-30 02:25
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - UI Architectural Patterns
-created: 2026-04-09T15:18:51.028+07:00
-modified: 2026-04-09T15:24:31.069+07:00
-published: 2026-04-09T15:24:31.069+07:00
+created: 2026-04-09T23:07:39.749+07:00
+modified: 2026-04-09T23:07:39.749+07:00
+published: 2026-04-09T23:07:39.749+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:18
 status: in progress

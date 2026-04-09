@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Powers of a Matrix
-created: 2026-03-25T15:22:40.639+07:00
-modified: 2026-03-25T15:22:40.639+07:00
-published: 2026-03-25T15:22:40.639+07:00
+created: 2026-04-09T23:07:39.266+07:00
+modified: 2026-04-09T23:07:39.267+07:00
+published: 2026-04-09T23:07:39.267+07:00
 tags:
   - 
 cssclasses: ""

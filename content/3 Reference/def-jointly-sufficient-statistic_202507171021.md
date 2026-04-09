@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Jointly Sufficient Statistic
-created: 2026-03-25T15:22:40.619+07:00
-modified: 2026-03-25T15:22:40.619+07:00
-published: 2026-03-25T15:22:40.619+07:00
+created: 2026-04-09T23:07:39.182+07:00
+modified: 2026-04-09T23:07:39.183+07:00
+published: 2026-04-09T23:07:39.183+07:00
 cssclasses: ""
 creation-time: 2025-07-17 10:21
 status: in progress

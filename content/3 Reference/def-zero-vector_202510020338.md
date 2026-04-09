@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Zero Vector
-created: 2026-03-25T15:22:40.620+07:00
-modified: 2026-03-25T15:22:40.620+07:00
-published: 2026-03-25T15:22:40.620+07:00
+created: 2026-04-09T23:07:39.359+07:00
+modified: 2026-04-09T23:07:39.360+07:00
+published: 2026-04-09T23:07:39.360+07:00
 tags:
   - 
 cssclasses: ""

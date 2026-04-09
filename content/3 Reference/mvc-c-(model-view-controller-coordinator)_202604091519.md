@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - MVC-C (Model View Controller Coordinator)
-created: 2026-04-09T15:19:49.513+07:00
-modified: 2026-04-09T15:38:33.450+07:00
-published: 2026-04-09T15:38:33.450+07:00
+created: 2026-04-09T23:07:39.514+07:00
+modified: 2026-04-09T23:07:39.515+07:00
+published: 2026-04-09T23:07:39.515+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:19
 status: in progress

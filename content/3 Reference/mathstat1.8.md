@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - 1.8 Expectation of Random Variable
-created: 2026-03-25T15:22:40.615+07:00
-modified: 2026-03-25T15:22:40.615+07:00
-published: 2026-03-25T15:22:40.615+07:00
+created: 2026-04-09T23:07:39.465+07:00
+modified: 2026-04-09T23:07:39.466+07:00
+published: 2026-04-09T23:07:39.466+07:00
 cssclasses: ""
 creation-time: 2025-06-28 18:05
 status: in progress

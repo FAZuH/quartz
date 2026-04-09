@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Thinning (Poisson)
-created: 2026-04-03T18:46:00.813+07:00
-modified: 2026-04-03T19:13:14.105+07:00
-published: 2026-04-03T19:13:14.105+07:00
+created: 2026-04-09T23:07:39.728+07:00
+modified: 2026-04-09T23:07:39.729+07:00
+published: 2026-04-09T23:07:39.729+07:00
 tags:
   - type/definition
 cssclasses: ""

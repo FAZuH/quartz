@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Maximum Likelihood Method
-created: 2026-04-05T21:29:06.215+07:00
-modified: 2026-04-05T21:32:13.197+07:00
-published: 2026-04-05T21:32:13.197+07:00
+created: 2026-04-09T23:07:39.484+07:00
+modified: 2026-04-09T23:07:39.484+07:00
+published: 2026-04-09T23:07:39.484+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:29
 status: in progress

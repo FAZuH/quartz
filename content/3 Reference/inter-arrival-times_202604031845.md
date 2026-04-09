@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Inter-arrival Times
-created: 2026-04-03T18:45:34.638+07:00
-modified: 2026-04-03T19:15:24.948+07:00
-published: 2026-04-03T19:15:24.948+07:00
+created: 2026-04-09T23:07:39.423+07:00
+modified: 2026-04-09T23:07:39.425+07:00
+published: 2026-04-09T23:07:39.425+07:00
 tags:
   - type/definition
 cssclasses: ""

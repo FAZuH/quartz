@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Joint, Conditional, and Marginal Probability for Contingency Tables
-created: 2026-03-25T15:22:40.616+07:00
-modified: 2026-03-25T15:22:40.616+07:00
-published: 2026-03-25T15:22:40.616+07:00
+created: 2026-04-09T23:07:39.433+07:00
+modified: 2026-04-09T23:07:39.434+07:00
+published: 2026-04-09T23:07:39.434+07:00
 tags:
   - 
 cssclasses: ""

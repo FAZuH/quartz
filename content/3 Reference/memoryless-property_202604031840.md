@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Memoryless Property
-created: 2026-04-03T18:40:19.851+07:00
-modified: 2026-04-03T19:12:29.200+07:00
-published: 2026-04-03T19:12:29.200+07:00
+created: 2026-04-09T23:07:39.487+07:00
+modified: 2026-04-09T23:07:39.488+07:00
+published: 2026-04-09T23:07:39.488+07:00
 tags:
   - type/about
 cssclasses: ""

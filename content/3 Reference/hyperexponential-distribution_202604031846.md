@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Hyperexponential Distribution
-created: 2026-04-03T18:46:33.915+07:00
-modified: 2026-04-03T19:13:35.713+07:00
-published: 2026-04-03T19:13:35.713+07:00
+created: 2026-04-09T23:07:39.411+07:00
+modified: 2026-04-09T23:07:39.412+07:00
+published: 2026-04-09T23:07:39.412+07:00
 tags:
   - type/definition
 cssclasses: ""

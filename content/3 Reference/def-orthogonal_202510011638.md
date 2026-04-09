@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Orthogonal
   - Perpendicular
-created: 2026-03-25T15:22:40.644+07:00
-modified: 2026-03-25T15:22:40.644+07:00
-published: 2026-03-25T15:22:40.644+07:00
+created: 2026-04-09T23:07:39.255+07:00
+modified: 2026-04-09T23:07:39.256+07:00
+published: 2026-04-09T23:07:39.256+07:00
 tags:
   - 
 cssclasses: ""

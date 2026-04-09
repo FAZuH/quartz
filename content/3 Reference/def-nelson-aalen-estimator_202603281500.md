@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Nelson-Aalen Estimator
-created: 2026-03-30T13:58:25.262+07:00
-modified: 2026-04-07T10:49:19.013+07:00
-published: 2026-04-07T10:49:19.013+07:00
+created: 2026-04-09T23:07:39.245+07:00
+modified: 2026-04-09T23:07:39.246+07:00
+published: 2026-04-09T23:07:39.246+07:00
 cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress

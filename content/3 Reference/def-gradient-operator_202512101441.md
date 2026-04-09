@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Gradient Operator
-created: 2026-03-25T15:22:40.626+07:00
-modified: 2026-03-25T15:22:40.626+07:00
-published: 2026-03-25T15:22:40.626+07:00
+created: 2026-04-09T23:07:39.158+07:00
+modified: 2026-04-09T23:07:39.159+07:00
+published: 2026-04-09T23:07:39.159+07:00
 tags:
   - 
 cssclasses: ""

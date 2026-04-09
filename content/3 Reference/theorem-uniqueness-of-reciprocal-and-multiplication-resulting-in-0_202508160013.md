@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Uniqueness of Reciprocal and Multiplication Resulting in 0
-created: 2026-03-25T15:22:40.605+07:00
-modified: 2026-03-25T15:22:40.605+07:00
-published: 2026-03-25T15:22:40.605+07:00
+created: 2026-04-09T23:07:39.725+07:00
+modified: 2026-04-09T23:07:39.726+07:00
+published: 2026-04-09T23:07:39.726+07:00
 cssclasses: ""
 creation-time: 2025-08-16 00:13
 status: in progress

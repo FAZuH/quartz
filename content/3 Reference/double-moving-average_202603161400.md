@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Double Moving Average
   - DMA
-created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-31T16:02:11.845+07:00
-published: 2026-03-31T16:02:11.845+07:00
+created: 2026-04-09T23:07:39.371+07:00
+modified: 2026-04-09T23:07:39.372+07:00
+published: 2026-04-09T23:07:39.372+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress

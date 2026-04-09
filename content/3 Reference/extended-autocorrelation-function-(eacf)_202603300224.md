@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Extended Autocorrelation Function
   - EACF
-created: 2026-03-30T02:24:21.115+07:00
-modified: 2026-03-30T08:27:48.244+07:00
-published: 2026-03-30T08:27:48.244+07:00
+created: 2026-04-09T23:07:39.386+07:00
+modified: 2026-04-09T23:07:39.387+07:00
+published: 2026-04-09T23:07:39.387+07:00
 cssclasses: ""
 creation-time: 2026-03-30 02:24
 status: in progress

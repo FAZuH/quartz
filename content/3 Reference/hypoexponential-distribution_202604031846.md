@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Hypoexponential Distribution
-created: 2026-04-03T18:46:38.964+07:00
-modified: 2026-04-03T19:13:39.613+07:00
-published: 2026-04-03T19:13:39.613+07:00
+created: 2026-04-09T23:07:39.412+07:00
+modified: 2026-04-09T23:07:39.413+07:00
+published: 2026-04-09T23:07:39.413+07:00
 tags:
   - type/definition
 cssclasses: ""

@@ -2,9 +2,11 @@
 publish: true
 aliases:
   - Independent and Stationary Increments
-created: 2026-04-03T18:39:58.574+07:00
-modified: 2026-04-09T22:37:13.659+07:00
-published: 2026-04-09T22:37:13.659+07:00
+  - Independent Increments
+  - Stationary Increments
+created: 2026-04-09T23:07:39.415+07:00
+modified: 2026-04-09T23:07:39.416+07:00
+published: 2026-04-09T23:07:39.416+07:00
 tags:
   - type/about
 cssclasses: ""

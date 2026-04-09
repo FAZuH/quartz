@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Bartlett's Test for ACF
-created: 2026-03-30T02:22:17.513+07:00
-modified: 2026-03-31T18:38:30.254+07:00
-published: 2026-03-31T18:38:30.254+07:00
+created: 2026-04-09T23:07:39.010+07:00
+modified: 2026-04-09T23:07:39.011+07:00
+published: 2026-04-09T23:07:39.011+07:00
 cssclasses: ""
 creation-time: 2026-03-30 02:22
 status: in progress

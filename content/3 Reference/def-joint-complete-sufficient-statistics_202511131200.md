@@ -1,9 +1,9 @@
 ---
 publish: true
 aliases: " Joint Complete Sufficient Statistics"
-created: 2026-03-25T15:22:40.611+07:00
-modified: 2026-03-25T15:22:40.611+07:00
-published: 2026-03-25T15:22:40.611+07:00
+created: 2026-04-09T23:07:39.181+07:00
+modified: 2026-04-09T23:07:39.182+07:00
+published: 2026-04-09T23:07:39.182+07:00
 tags:
   - definition
 cssclasses: ""

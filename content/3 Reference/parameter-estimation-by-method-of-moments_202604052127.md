@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Parameter Estimation by Method of Moments
-created: 2026-04-05T21:27:33.242+07:00
-modified: 2026-04-05T21:31:48.416+07:00
-published: 2026-04-05T21:31:48.416+07:00
+created: 2026-04-09T23:07:39.541+07:00
+modified: 2026-04-09T23:07:39.542+07:00
+published: 2026-04-09T23:07:39.542+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:27
 status: in progress

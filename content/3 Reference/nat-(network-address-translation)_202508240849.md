@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - NAT (Network Address Translation)
-created: 2026-03-25T15:22:40.592+07:00
-modified: 2026-03-25T15:22:40.592+07:00
-published: 2026-03-25T15:22:40.592+07:00
+created: 2026-04-09T23:07:39.520+07:00
+modified: 2026-04-09T23:07:39.521+07:00
+published: 2026-04-09T23:07:39.521+07:00
 cssclasses: ""
 creation-time: 2025-08-24 08:49
 status: in progress

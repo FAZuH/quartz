@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Rust Memory Sections and Segments
-created: 2026-03-25T15:22:40.617+07:00
-modified: 2026-03-25T15:22:40.618+07:00
-published: 2026-03-25T15:22:40.618+07:00
+created: 2026-04-09T23:07:39.574+07:00
+modified: 2026-04-09T23:07:39.575+07:00
+published: 2026-04-09T23:07:39.575+07:00
 tags:
   - 
 cssclasses: ""

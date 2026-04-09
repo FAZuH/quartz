@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - MVVM-C (Model View ViewModel Controller)
-created: 2026-04-09T15:19:23.102+07:00
-modified: 2026-04-09T15:38:33.424+07:00
-published: 2026-04-09T15:38:33.424+07:00
+created: 2026-04-09T23:07:39.517+07:00
+modified: 2026-04-09T23:07:39.518+07:00
+published: 2026-04-09T23:07:39.518+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:19
 status: in progress

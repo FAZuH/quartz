@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Waiting Times (Poisson)
-created: 2026-04-03T18:45:39.743+07:00
-modified: 2026-04-03T19:16:27.918+07:00
-published: 2026-04-03T19:16:27.918+07:00
+created: 2026-04-09T23:07:39.770+07:00
+modified: 2026-04-09T23:07:39.771+07:00
+published: 2026-04-09T23:07:39.771+07:00
 tags:
   - type/definition
 cssclasses: ""

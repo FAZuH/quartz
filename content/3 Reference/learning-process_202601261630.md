@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Learning Process
-created: 2026-03-25T15:22:40.600+07:00
-modified: 2026-03-25T15:22:40.600+07:00
-published: 2026-03-25T15:22:40.600+07:00
+created: 2026-04-09T23:07:39.440+07:00
+modified: 2026-04-09T23:07:39.441+07:00
+published: 2026-04-09T23:07:39.441+07:00
 tags:
   - 
 cssclasses: ""

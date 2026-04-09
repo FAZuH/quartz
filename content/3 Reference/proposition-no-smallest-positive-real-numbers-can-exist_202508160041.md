@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Proposition: No "Smallest" Positive Real Numbers Can Exist
-created: 2026-03-25T15:22:40.603+07:00
-modified: 2026-03-25T15:22:40.603+07:00
-published: 2026-03-25T15:22:40.603+07:00
+created: 2026-04-09T23:07:39.565+07:00
+modified: 2026-04-09T23:07:39.566+07:00
+published: 2026-04-09T23:07:39.566+07:00
 cssclasses: ""
 creation-time: 2025-08-16 00:41
 status: in progress

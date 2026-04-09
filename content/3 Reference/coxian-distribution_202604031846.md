@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Coxian Distribution
-created: 2026-04-03T18:46:50.818+07:00
-modified: 2026-04-03T19:14:05.001+07:00
-published: 2026-04-03T19:14:05.001+07:00
+created: 2026-04-09T23:07:39.076+07:00
+modified: 2026-04-09T23:07:39.077+07:00
+published: 2026-04-09T23:07:39.077+07:00
 tags:
   - type/definition
 cssclasses: ""

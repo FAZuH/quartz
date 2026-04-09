@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Distributive Laws of Sets
-created: 2026-03-25T15:22:40.642+07:00
-modified: 2026-03-25T15:22:40.642+07:00
-published: 2026-03-25T15:22:40.642+07:00
+created: 2026-04-09T23:07:39.654+07:00
+modified: 2026-04-09T23:07:39.656+07:00
+published: 2026-04-09T23:07:39.656+07:00
 tags:
   - 
 cssclasses: ""

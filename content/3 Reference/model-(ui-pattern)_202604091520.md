@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Model (UI Pattern)
-created: 2026-04-09T15:20:05.166+07:00
-modified: 2026-04-09T15:38:33.483+07:00
-published: 2026-04-09T15:38:33.483+07:00
+created: 2026-04-09T23:07:39.499+07:00
+modified: 2026-04-09T23:07:39.500+07:00
+published: 2026-04-09T23:07:39.500+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:20
 status: in progress

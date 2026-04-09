@@ -3,9 +3,9 @@ publish: true
 aliases:
   - Score Function
   - Score Function
-created: 2026-03-25T15:22:40.600+07:00
-modified: 2026-03-25T15:22:40.600+07:00
-published: 2026-03-25T15:22:40.600+07:00
+created: 2026-04-09T23:07:39.301+07:00
+modified: 2026-04-09T23:07:39.302+07:00
+published: 2026-04-09T23:07:39.302+07:00
 cssclasses: ""
 creation-time: 2025-07-17 09:18
 status: in progress

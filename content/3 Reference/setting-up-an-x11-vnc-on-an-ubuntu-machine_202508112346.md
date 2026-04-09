@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Setting up an x11 VNC on an Ubuntu Machine
-created: 2026-03-25T15:22:40.609+07:00
-modified: 2026-03-25T15:22:40.609+07:00
-published: 2026-03-25T15:22:40.609+07:00
+created: 2026-04-09T23:07:39.582+07:00
+modified: 2026-04-09T23:07:39.582+07:00
+published: 2026-04-09T23:07:39.582+07:00
 cssclasses: ""
 creation-time: 2025-08-11 23:46
 status: in progress

@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Common Expectation and Variance Operations
-created: 2026-03-25T15:22:40.615+07:00
-modified: 2026-04-05T21:15:17.478+07:00
-published: 2026-04-05T21:15:17.478+07:00
+created: 2026-04-09T23:07:39.051+07:00
+modified: 2026-04-09T23:07:39.052+07:00
+published: 2026-04-09T23:07:39.052+07:00
 cssclasses: ""
 creation-time: 2025-07-22 08:54
 status: in progress

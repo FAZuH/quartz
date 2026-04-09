@@ -4,9 +4,9 @@ aliases:
   - Linear Independence
   - Linearly Independent
   - Linearly Dependent
-created: 2026-03-25T15:22:40.643+07:00
-modified: 2026-03-25T15:22:40.643+07:00
-published: 2026-03-25T15:22:40.643+07:00
+created: 2026-04-09T23:07:39.197+07:00
+modified: 2026-04-09T23:07:39.199+07:00
+published: 2026-04-09T23:07:39.199+07:00
 tags:
   - 
 cssclasses: ""

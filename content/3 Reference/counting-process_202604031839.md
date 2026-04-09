@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Counting Process
-created: 2026-04-03T18:39:54.970+07:00
-modified: 2026-04-09T22:36:32.214+07:00
-published: 2026-04-09T22:36:32.214+07:00
+created: 2026-04-09T23:07:39.074+07:00
+modified: 2026-04-09T23:07:39.074+07:00
+published: 2026-04-09T23:07:39.074+07:00
 tags:
   - type/definition
 cssclasses: ""

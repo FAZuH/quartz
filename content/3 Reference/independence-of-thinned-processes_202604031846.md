@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Independence of Thinned Processes
-created: 2026-04-03T18:46:06.266+07:00
-modified: 2026-04-03T19:13:30.081+07:00
-published: 2026-04-03T19:13:30.081+07:00
+created: 2026-04-09T23:07:39.414+07:00
+modified: 2026-04-09T23:07:39.415+07:00
+published: 2026-04-09T23:07:39.415+07:00
 tags:
   - type/theorem
 cssclasses: ""

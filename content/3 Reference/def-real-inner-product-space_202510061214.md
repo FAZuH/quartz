@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Real Inner Product Space
-created: 2026-03-25T15:22:40.619+07:00
-modified: 2026-03-25T15:22:40.619+07:00
-published: 2026-03-25T15:22:40.619+07:00
+created: 2026-04-09T23:07:39.289+07:00
+modified: 2026-04-09T23:07:39.290+07:00
+published: 2026-04-09T23:07:39.290+07:00
 tags:
   - 
 cssclasses: ""

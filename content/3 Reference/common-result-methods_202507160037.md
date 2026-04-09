@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Common Result Methods
-created: 2026-03-25T15:22:40.618+07:00
-modified: 2026-03-25T15:22:40.618+07:00
-published: 2026-03-25T15:22:40.618+07:00
+created: 2026-04-09T23:07:39.053+07:00
+modified: 2026-04-09T23:07:39.055+07:00
+published: 2026-04-09T23:07:39.055+07:00
 cssclasses: ""
 creation-time: 2025-07-16 00:37
 status: in progress

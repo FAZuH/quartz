@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Unconditional Least Squares
-created: 2026-04-05T21:28:51.064+07:00
-modified: 2026-04-05T21:31:59.063+07:00
-published: 2026-04-05T21:31:59.063+07:00
+created: 2026-04-09T23:07:39.750+07:00
+modified: 2026-04-09T23:07:39.751+07:00
+published: 2026-04-09T23:07:39.751+07:00
 cssclasses: ""
 creation-time: 2026-04-05 21:28
 status: in progress

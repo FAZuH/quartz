@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Dickey-Fuller Test
-created: 2026-03-30T02:23:03.085+07:00
-modified: 2026-03-31T19:05:22.061+07:00
-published: 2026-03-31T19:05:22.061+07:00
+created: 2026-04-09T23:07:39.364+07:00
+modified: 2026-04-09T23:07:39.365+07:00
+published: 2026-04-09T23:07:39.365+07:00
 cssclasses: ""
 creation-time: 2026-03-30 02:23
 status: in progress

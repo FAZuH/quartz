@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Gambler's Fallacy
-created: 2026-04-05T18:35:22.283+07:00
-modified: 2026-04-05T18:35:22.283+07:00
-published: 2026-04-05T18:35:22.283+07:00
+created: 2026-04-09T23:07:39.397+07:00
+modified: 2026-04-09T23:07:39.397+07:00
+published: 2026-04-09T23:07:39.397+07:00
 cssclasses: ""
 creation-time: 2026-04-05 18:35
 status: in progress
