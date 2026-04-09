@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Study Procedure
 created: 2026-03-29T17:17:13.623+07:00
-modified: 2026-03-29T17:18:07.982+07:00
-published: 2026-03-29T17:18:07.982+07:00
+modified: 2026-04-09T20:07:34.456+07:00
+published: 2026-04-09T20:07:34.456+07:00
 tags:
   - 
 cssclasses: ""
@@ -18,19 +18,12 @@ parent:
 ## Checklist
 
 ```
-1. [ ] Collect materials
-2. [ ] Decompose into knowledge units by type:
-	- Conceptual     (intuitive/visual explanation, "why", understanding over correctness)
-	- Referential    (definitions, theorems, properties, formulas)
-	- Procedural     (algorithms, problem-solving steps)
-	- Collection     (cheat-sheets, grouped facts, taxonomies)
-	- Example        (demonstrations, edge cases)
-3. [ ] Process each unit (Feynman for conceptual, verify others), loop back to step 2 as needed
-4. [ ] Expand each unit (fill gaps, add precision)
-5. [ ] Finalize consolidated summary
-6. [ ] Build Anki cards per unit type
-7. [ ] Memorize until all cards pass
-8. [ ] Apply (past exams, exercises, problems)
+- [ ] Collect materials
+- [ ] Decompose into knowledge units
+- [ ] Find knowledge units occurrence frequency, based on past exams
+- [ ] Build Anki cards per unit type
+- [ ] Memorize until all cards pass
+- [ ] Apply (past exams, exercises, problems)
 ```
 
 ## 1. Collect materials

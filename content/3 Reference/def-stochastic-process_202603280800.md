@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Stochastic Process
 created: 2026-03-29T12:54:01.178+07:00
-modified: 2026-03-29T12:54:01.178+07:00
-published: 2026-03-29T12:54:01.178+07:00
+modified: 2026-04-09T20:53:13.604+07:00
+published: 2026-04-09T20:53:13.604+07:00
 cssclasses: ""
 creation-time: 2026-03-28 08:00
 status: in progress
@@ -22,7 +22,9 @@ Let
 A **Stochastic Process** $\{X(t), t \in T\}$ is a collection of [[3 Reference/Def-random-variable\|random variables]] $X(t)$ indexed by $t$.
 
 > [!TIP] Interpretation
-> "Stochastic" means probabilistic, "Process" means depends on time. A stochastic process is a sequence (implies ordering) of random variables indexed by time.
+> "Stochastic" means probabilistic, "Process" means it depends on time. A stochastic process is a sequence (implies ordering) of random variables indexed by time. 
+> 
+> "Process" refers to the entire evolving random system, not just one observation at one time.
 
 ## Classification
 

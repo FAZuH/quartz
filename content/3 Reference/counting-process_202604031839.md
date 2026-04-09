@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Counting Process
 created: 2026-04-03T18:39:54.970+07:00
-modified: 2026-04-03T19:12:20.860+07:00
-published: 2026-04-03T19:12:20.860+07:00
+modified: 2026-04-09T22:36:32.214+07:00
+published: 2026-04-09T22:36:32.214+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -22,11 +22,8 @@ A **Counting Process** is a [[3 Reference/def-stochastic-process_202603280800\|s
 The process must satisfy:
 1. $N(t) \geq 0$
 2. $N(t)$ is integer valued
-3. If $s < t$, then $N(s) \leq N(t)$ (non-decreasing)
+3. If $s < t$, then $N(s) \leq N(t)$ ([[3 Reference/def-monotone-sequence_202510030252\|Monotonically]] increasing)
 4. For $s < t$, $N(t) - N(s)$ equals the number of events that occur in the interval $(s, t]$
-
-> [!TIP] Interpretation
-> Think of a counter that clicks up each time an event happens. It never goes down, only counts upward in whole numbers. Examples: number of customers entering a store, number of goals scored by a player, number of births in a population.
 
 ## Examples
 
