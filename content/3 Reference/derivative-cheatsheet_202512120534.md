@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Derivative Cheatsheet
 created: 2026-03-25T15:22:40.604+07:00
-modified: 2026-04-07T09:59:03.420+07:00
-published: 2026-04-07T09:59:03.420+07:00
+modified: 2026-04-07T10:23:39.968+07:00
+published: 2026-04-07T10:23:39.968+07:00
 tags:
   - 
 cssclasses: ""
@@ -64,7 +64,7 @@ $$\frac{d}{dx}[f(g(h))] = f'(g(h)) \cdot g'(h) \cdot h'$$
 
 ## Exponential and Logarithmic Functions
 
-$$ \begin{align} \frac{d}{dx} e^x &= e^x \\ \frac{d}{dx} a^x &= a^x \ln a \\ \frac{d}{dx} e^f &= e^f f' \\ \frac{d}{dx} \ln x &= \frac{1}{x} \\ \frac{d}{dx} \ln |x| &= \frac{1}{x} \\ \frac{d}{dx} \log_a x &= \frac{1}{x \ln a} \\ \frac{d}{dx} \ln f &= \frac{f'}{f} \end{align} $$
+$$ \begin{align} \frac{d}{dx} e^x &= e^x \\ \frac{d}{dx} a^x &= a^x \ln a \\  \frac{d}{dx} \ln x &= \frac{1}{x} \\ \frac{d}{dx} \ln |x| &= \frac{1}{x} \\ \frac{d}{dx} \log_a x &= \frac{1}{x \ln a} \\ \frac{d}{dx} \ln f &= \frac{f'}{f} \end{align} $$
 
 ## Trigonometric Functions
 

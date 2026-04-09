@@ -3,8 +3,8 @@ publish: true
 aliases:
   - survival model
 created: 2026-03-28T14:48:55.804+07:00
-modified: 2026-04-07T10:11:15.249+07:00
-published: 2026-04-07T10:11:15.249+07:00
+modified: 2026-04-07T11:09:21.377+07:00
+published: 2026-04-07T11:09:21.377+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -54,5 +54,6 @@ parent:
 ## Non-Parametric Estimation
 - *[[3 Reference/def-kaplan-meier-estimator_202603281500\|Kaplan-Meier Estimator]]*
 	- *[[3 Reference/def-greenwood-formula_202603281600\|Greenwood's Formula]]*
-	- *[[def-confidence-interval-survival_202604070830\|Confidence Interval for Survival]]*
+	- *[[3 Reference/confidence-interval-for-survival_202604070830\|Confidence Interval for Survival]]*
 - *[[3 Reference/def-nelson-aalen-estimator_202603281500\|Nelson-Aalen Estimator]]*
+- [[3 Reference/non-parametric-estimation-cheatsheet_202604071108\|Non-Parametric Estimation Cheatsheet]]

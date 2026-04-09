@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.307+07:00
-modified: 2026-02-22T19:24:22.308+07:00
-published: 2026-02-22T19:24:22.308+07:00
+modified: 2026-04-09T15:09:54.311+07:00
+published: 2026-04-09T15:09:54.311+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -41,4 +41,3 @@ aliases:
 
 **Programming languages**
 - [[3 Reference/structure/rust]]
-- [[angular\|angular]]

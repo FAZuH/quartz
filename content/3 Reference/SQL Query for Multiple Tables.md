@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-03-25T15:22:40.645+07:00
-modified: 2026-03-25T15:22:40.645+07:00
-published: 2026-03-25T15:22:40.645+07:00
+created: 2026-04-07T14:57:12.256+07:00
+modified: 2026-04-07T14:57:12.256+07:00
+published: 2026-04-07T14:57:12.256+07:00
 tags:
   - content-type/referential
 cssclasses: ""
@@ -62,7 +62,7 @@ JOIN authors
   ON books.author_id = authors.id;
 ```
 
-![[inner-join.webp\|300]]
+![[inner-join.png\|300]]
 
 ### Left join
 
@@ -73,4 +73,4 @@ LEFT JOIN table2
   ON table1.column_name = table2.column_name;
 ```
 
-![[left-join.webp\|300]]
+![[left-join.png\|300]]

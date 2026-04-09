@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Weakly Stationary
 created: 2026-03-29T17:33:47.075+07:00
-modified: 2026-03-30T03:44:47.376+07:00
-published: 2026-03-30T03:44:47.376+07:00
+modified: 2026-04-07T12:37:40.400+07:00
+published: 2026-04-07T12:37:40.400+07:00
 cssclasses: ""
 creation-time: 2026-03-16 14:00
 status: in progress
@@ -42,4 +42,4 @@ The $\{ Y_{t} \}$ is also [[3 Reference/weakly-stationary_202603161400\|weakly s
 
 ## Illustration
 
-![[assets/weakly-stationary_202603161400-1774817087203.webp]]
+![[assets/weakly-stationary_202603161400-1774817087203.png]]

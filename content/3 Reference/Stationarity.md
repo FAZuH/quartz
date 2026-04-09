@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-03-25T15:22:40.643+07:00
-modified: 2026-03-25T15:22:40.643+07:00
-published: 2026-03-25T15:22:40.643+07:00
+created: 2026-04-07T14:57:22.591+07:00
+modified: 2026-04-07T14:57:22.591+07:00
+published: 2026-04-07T14:57:22.591+07:00
 cssclasses: ""
 creation-time: 2025-03-27 15:46
 status: complete
@@ -19,7 +19,7 @@ In time series, stationarity means dependence of previous observations "declines
 
 For stationary processes, we denote $\gamma_k = \operatorname{Cov}(Y_t, Y_{t-k})$, $\rho_k = \frac{\gamma_k}{\gamma_0}$, with properties: $\gamma_0 = \operatorname{Var}(Y_t)$, $\rho_0 = 1$, $\gamma_k = \gamma_{-k}$, $|\rho_k| \leq 1$.
 
-![[stationaryvsnonstationary.webp\|400]]
+![[stationaryvsnonstationary.png\|400]]
 
 #TODO
 Common solution to stationary data is to use differencing. Differencing works for these:

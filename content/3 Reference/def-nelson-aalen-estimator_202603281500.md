@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Nelson-Aalen Estimator
 created: 2026-03-30T13:58:25.262+07:00
-modified: 2026-04-07T08:31:32.522+07:00
-published: 2026-04-07T08:31:32.522+07:00
+modified: 2026-04-07T10:49:19.013+07:00
+published: 2026-04-07T10:49:19.013+07:00
 cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
@@ -20,7 +20,7 @@ parent:
 $$\hat{H}(t) = \sum_{t_i \leq t} \frac{d_i}{Y_i}$$
 
 where:
-- $d_i$ = number of events at time $t_i$
+- $d_i$ = number of events at time $t_i$ (not occurred)
 - $Y_i$ = number at risk just before $t_i$
 
 ## About Nelson-Aalen Approach

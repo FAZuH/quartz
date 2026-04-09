@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Confidence Interval for Survival
 created: 2026-04-07T08:30:31.902+07:00
-modified: 2026-04-07T08:30:31.902+07:00
-published: 2026-04-07T08:30:31.902+07:00
+modified: 2026-04-07T10:19:56.116+07:00
+published: 2026-04-07T10:19:56.116+07:00
 cssclasses: ""
 creation-time: 2026-04-07 08:30
 status: in progress
@@ -16,9 +16,14 @@ parent:
 
 ## Definition
 
-A **confidence interval for $\hat{S}(t)$** provides uncertainty bounds around the Kaplan-Meier estimate.
+A **confidence interval for $\hat{S}(t)$** provides uncertainty bounds around the [[3 Reference/def-kaplan-meier-estimator_202603281500\|Kaplan-Meier]] estimate.
 
 ## Pointwise Confidence Interval Methods
+
+Let 
+- $z_{\alpha/2}$ : inverse [[3 Reference/Def-cumulative-distribution-function-(cdf)\|cdf]] of [[3 Reference/3.4-the-normal-distribution_202507240800\|Normal Distribution]]
+- $\hat{S}(t)$ : [[3 Reference/def-kaplan-meier-estimator_202603281500\|Kaplan-Meier estimate]]
+- $\widehat{\text{Var}}[\hat{S}(t)]$ : [[3 Reference/def-greenwood-formula_202603281600\|Greenwood's Formula]]
 
 ### Linear Scale (Naive)
 

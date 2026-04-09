@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Greenwood's Formula
 created: 2026-03-30T13:58:25.260+07:00
-modified: 2026-03-30T13:58:25.260+07:00
-published: 2026-03-30T13:58:25.260+07:00
+modified: 2026-04-07T10:18:31.400+07:00
+published: 2026-04-07T10:18:31.400+07:00
 cssclasses: ""
 creation-time: 2026-03-28 16:00
 status: in progress
@@ -15,7 +15,7 @@ parent:
 
 ## Definition
 
-**Greenwood's Formula** estimates the variance of the Kaplan-Meier estimator:
+**Greenwood's Formula** estimates the [[3 Reference/Def-variance\|variance]] of the [[3 Reference/def-kaplan-meier-estimator_202603281500\|Kaplan-Meier estimator]]:
 
 $$\widehat{\operatorname{Var}}[\hat{S}(t)] = [\hat{S}(t)]^2 \sum_{t_i \leq t} \frac{d_i}{Y_i(Y_i - d_i)}$$
 

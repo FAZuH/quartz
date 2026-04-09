@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Kaplan-Meier Estimator
 created: 2026-03-30T13:58:25.260+07:00
-modified: 2026-03-30T13:58:25.260+07:00
-published: 2026-03-30T13:58:25.260+07:00
+modified: 2026-04-07T10:49:02.517+07:00
+published: 2026-04-07T10:49:02.517+07:00
 cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
@@ -20,8 +20,8 @@ parent:
 $$\hat{S}(t) = \prod_{t_i \leq t} \left(1 - \frac{d_i}{Y_i}\right)$$
 
 where:
-- $d_i$ = number of events at time $t_i$
-- $Y_i$ = number at risk just before $t_i$
+- $d_i$ = number of <u>events</u> occurred at time $t_i$ (not censored)
+- $Y_i$ = number <u>at risk</u> just <u>before</u> $t_i$
 
 ## About Kaplan-Meier Approach
 
