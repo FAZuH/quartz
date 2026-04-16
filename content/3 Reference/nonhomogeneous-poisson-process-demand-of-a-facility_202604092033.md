@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Nonhomogeneous Poisson Process Demand of a Facility
-created: 2026-04-09T23:07:39.525+07:00
-modified: 2026-04-09T23:07:39.526+07:00
-published: 2026-04-09T23:07:39.526+07:00
+created: 2026-04-09T23:29:02.803+07:00
+modified: 2026-04-09T23:29:02.804+07:00
+published: 2026-04-09T23:29:02.804+07:00
 cssclasses: ""
 creation-time: 2026-04-09 20:33
 status: in progress

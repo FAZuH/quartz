@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Failure Rate Function
 created: 2026-04-09T23:07:39.387+07:00
-modified: 2026-04-09T23:07:39.388+07:00
-published: 2026-04-09T23:07:39.388+07:00
+modified: 2026-04-10T04:57:15.934+07:00
+published: 2026-04-10T04:57:15.934+07:00
 tags:
   - type/about
 cssclasses: ""

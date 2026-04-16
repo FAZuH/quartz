@@ -2,15 +2,15 @@
 publish: true
 aliases:
   - System with Classified Individuals
-created: 2026-04-09T23:07:39.624+07:00
-modified: 2026-04-09T23:07:39.625+07:00
-published: 2026-04-09T23:07:39.625+07:00
+created: 2026-04-09T23:29:02.810+07:00
+modified: 2026-04-09T23:29:02.810+07:00
+published: 2026-04-09T23:29:02.810+07:00
 cssclasses: ""
 creation-time: 2026-04-09 20:33
 status: in progress
 tags:
 parent:
-  - - - stochastic-model|Stochastic Model
+  - "[[stochastic-model|Stochastic Model]]"
 ---
 
 

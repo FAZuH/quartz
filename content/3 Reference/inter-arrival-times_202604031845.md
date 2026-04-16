@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Inter-arrival Times
 created: 2026-04-09T23:07:39.423+07:00
-modified: 2026-04-09T23:07:39.425+07:00
-published: 2026-04-09T23:07:39.425+07:00
+modified: 2026-04-10T04:33:17.782+07:00
+published: 2026-04-10T04:33:17.782+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -30,9 +30,7 @@ The **Inter-arrival Times** $\{T_n, n = 1, 2, \dots\}$ are defined as:
 
 ## Distribution
 
-Let $T_{n}$ be **Inter-arrival Times**
-
-Then $T_n \stackrel{\text{i.i.d.}}{\sim} \text{Exp}(\lambda)$.
+$$T_n \stackrel{\text{i.i.d.}}{\sim} \text{Exp}(\lambda)$$
 
 ## Proof Sketch
 

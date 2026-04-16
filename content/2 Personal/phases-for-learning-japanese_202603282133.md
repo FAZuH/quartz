@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Phases for Learning Japanese
 created: 2026-03-29T12:54:01.341+07:00
-modified: 2026-03-29T14:18:13.954+07:00
-published: 2026-03-29T14:18:13.954+07:00
+modified: 2026-04-16T22:37:28.906+07:00
+published: 2026-04-16T22:37:28.906+07:00
 tags:
   - 
 cssclasses: ""
@@ -33,7 +33,7 @@ parent:
 
 **Grammar baseline** (do this fast, 1 week max, don't obsess)
 
-- [ ] Read **Tae Kim's Grammar Guide** or **Yokubi** — skim for mental map, not memorization
+- [ ] Read **Yokubi** — skim for mental map, not memorization
 - [ ] Understand: particles (は、が、を、に、で、の), verb conjugations (て-form, た-form, ます/ます forms), basic sentence structure (SOV)
 
 ## Phase 1 — Core Vocabulary + Early Immersion (3–6 months)

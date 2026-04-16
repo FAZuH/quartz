@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Coxian Distribution
 created: 2026-04-09T23:07:39.076+07:00
-modified: 2026-04-09T23:07:39.077+07:00
-published: 2026-04-09T23:07:39.077+07:00
+modified: 2026-04-10T04:50:10.002+07:00
+published: 2026-04-10T04:50:10.002+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -17,7 +17,9 @@ parent:
 
 ## Definition
 
-Let $X_1, \dots, X_m$ be independent [[3 Reference/def-exponential-distribution-survival_202603281500\|exponential random variables]] with distinct rates $\lambda_1, \dots, \lambda_m$. Let $N$ be a discrete random variable independent of these with $P(N = n) = P_n$.
+Let 
+- $X_1, \dots, X_m$ be independent [[3 Reference/def-exponential-distribution-survival_202603281500\|exponential random variables]] with distinct rates $\lambda_1, \dots, \lambda_m$.
+- $N$ be a discrete random variable independent of these with $P(N = n) = P_n$.
 
 The **Coxian Random Variable** is:
 

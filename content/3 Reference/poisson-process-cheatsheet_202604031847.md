@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Poisson Process Cheatsheet
 created: 2026-04-09T23:07:39.555+07:00
-modified: 2026-04-09T23:07:39.556+07:00
-published: 2026-04-09T23:07:39.556+07:00
+modified: 2026-04-10T04:44:48.513+07:00
+published: 2026-04-10T04:44:48.513+07:00
 tags:
   - type/cheatsheet
 cssclasses: ""
@@ -29,12 +29,12 @@ Where $N(t)$ = count by time $t$, $T_n$ = [[3 Reference/inter-arrival-times_2026
 
 ## Key Relationships
 
-| Relationship | Formula |
-|---|---|
-| Count vs Waiting | $N(t) \geq n \iff W_n \leq t$ |
-| Waiting time as sum | $W_n = \sum_{i=1}^n T_i$ |
-| Poisson mean | $E[N(t)] = \lambda t$ |
-| Exponential mean | $E[T_n] = \frac{1}{\lambda}$ |
+| Relationship        | Formula                                                               |
+| ------------------- | --------------------------------------------------------------------- |
+| Count vs Waiting    | $N(t) \geq n \iff W_n \leq t$                                         |
+| Waiting time as sum | $W_n = \sum_{i=1}^n T_i$                                              |
+| Poisson mean        | $E[N(t)] = \lambda t$                                                 |
+| Exponential mean    | $E[T_n] = \frac{1}{\lambda}$                                          |
 | Gamma mean/variance | $E[W_n] = \frac{n}{\lambda}$, $\text{Var}(W_n) = \frac{n}{\lambda^2}$ |
 
 ## Conditional Distribution
@@ -47,24 +47,37 @@ $$f(s_1, \dots, s_n \mid N(t) = n) = \frac{n!}{t^n}, \quad 0 < s_1 < \cdots < s_
 
 Each event classified as type I (prob $p$) or type II (prob $1-p$):
 
-| Process | Rate | Independent? |
-|---|---|---|
-| $N_1(t)$ (type I) | $\lambda p$ | Yes |
-| $N_2(t)$ (type II) | $\lambda(1-p)$ | Yes |
+| Process            | Rate           | Independent? |
+| ------------------ | -------------- | ------------ |
+| $N_1(t)$ (type I)  | $\lambda p$    | Yes          |
+| $N_2(t)$ (type II) | $\lambda(1-p)$ | Yes          |
 
 ## Nonhomogeneous Poisson Process
 
-$$N(t) \sim \text{Po}\left(m(t)\right), \quad m(t) = \int_0^t \lambda(s) \, ds$$
+$$
+\begin{align}
+N(t) \sim \text{Po}\left(m(t)\right) \\ \\
+
+ \quad m(t) = \int_0^t \lambda(s) \, ds
+\end{align}
+$$
 
 ## Compound Poisson Process
 
-$$X(t) = \sum_{i=1}^{N(t)} Y_i, \quad E[X(t)] = \lambda t \cdot E[Y], \quad \text{Var}(X(t)) = \lambda t \cdot E[Y^2]$$
+$$
+\begin{align}
+X(t) & = \sum_{i=0}^{N(t)} Y_{i} \\
+ \\
+E[X(t)] & = \lambda t\cdot E[Y_{i}] \\
+\text{Var}[X(t)] & = \lambda t\cdot E[Y_{i}^{2}]
+\end{align}
+$$
 
 ## Related Distributions
 
-| Distribution | Definition | Failure Rate |
-|---|---|---|
-| [[3 Reference/def-exponential-distribution-survival_202603281500\|Exponential]] | Single stage | $r(t) = \lambda$ (constant) |
-| [[3 Reference/hyperexponential-distribution_202604031846\|Hyperexponential]] | Mixture: pick one | $r(t) \to \min \lambda_i$ |
-| [[3 Reference/hypoexponential-distribution_202604031846\|Hypoexponential]] | Sum of distinct rates | $r(t) \to \min \lambda_i$ |
-| [[3 Reference/coxian-distribution_202604031846\|Coxian]] | Random sum | Discrete $r(n)$ |
+| Distribution                                                        | Definition            | Failure Rate                |
+| ------------------------------------------------------------------- | --------------------- | --------------------------- |
+| [[3 Reference/def-exponential-distribution-survival_202603281500\|Exponential]] | Single stage          | $r(t) = \lambda$ (constant) |
+| [[3 Reference/hyperexponential-distribution_202604031846\|Hyperexponential]]    | Mixture: pick one     | $r(t) \to \min \lambda_i$   |
+| [[3 Reference/hypoexponential-distribution_202604031846\|Hypoexponential]]      | Sum of distinct rates | $r(t) \to \min \lambda_i$   |
+| [[3 Reference/coxian-distribution_202604031846\|Coxian]]                        | Random sum            | Discrete $r(n)$             |

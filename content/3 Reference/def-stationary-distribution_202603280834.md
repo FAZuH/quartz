@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Stationary Distribution
 created: 2026-04-09T23:07:39.318+07:00
-modified: 2026-04-09T23:07:39.318+07:00
-published: 2026-04-09T23:07:39.318+07:00
+modified: 2026-04-10T05:22:31.529+07:00
+published: 2026-04-10T05:22:31.529+07:00
 cssclasses: ""
 creation-time: 2026-03-28 08:34
 status: in progress
@@ -25,7 +25,7 @@ $$\pi = \pi \mathbf{P} \quad \text{and} \quad \sum_j \pi_j = 1$$
 ## Properties
 
 - A stationary distribution may exist without a limiting distribution
-- For an irreducible ergodic Markov chain, the limiting distribution always exists and equals the unique stationary distribution
+- For an [[3 Reference/def-irreducible_202603280823\|irreducible]] [[3 Reference/def-ergodic-state_202603280835\|ergodic]] Markov chain, the limiting distribution always exists and equals the unique stationary distribution
 - Periodic chains can have stationary distributions but no limiting distributions
 
 ## Example

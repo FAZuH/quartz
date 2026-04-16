@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Counting Process
 created: 2026-04-09T23:07:39.074+07:00
-modified: 2026-04-09T23:07:39.074+07:00
-published: 2026-04-09T23:07:39.074+07:00
+modified: 2026-04-10T04:31:41.234+07:00
+published: 2026-04-10T04:31:41.234+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -17,7 +17,7 @@ parent:
 
 ## Definition
 
-A **Counting Process** is a [[3 Reference/def-stochastic-process_202603280800\|stochastic process]] $\{N(t), t \geq 0\}$ where $N(t)$ represents the total number of "events" that occur by time $t$.
+A **Counting Process** is a [[3 Reference/def-stochastic-process_202603280800\|stochastic process]] $\{N(t): t \geq 0\}$ where $N(t)$ represents the total number of "events" that occur by time $t$.
 
 The process must satisfy:
 1. $N(t) \geq 0$

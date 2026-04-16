@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Probability and Random Variables Review
-created: 2026-04-09T23:07:39.560+07:00
-modified: 2026-04-09T23:07:39.561+07:00
-published: 2026-04-09T23:07:39.561+07:00
+created: 2026-04-09T23:29:02.808+07:00
+modified: 2026-04-09T23:29:02.809+07:00
+published: 2026-04-09T23:29:02.809+07:00
 cssclasses: ""
 creation-time: 2026-04-09 20:32
 status: in progress

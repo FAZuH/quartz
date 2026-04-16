@@ -2,15 +2,15 @@
 publish: true
 aliases:
   - Analyzing Greedy Algorithms for the Assignment Problem
-created: 2026-04-09T23:07:38.984+07:00
-modified: 2026-04-09T23:07:38.986+07:00
-published: 2026-04-09T23:07:38.986+07:00
+created: 2026-04-09T23:29:02.773+07:00
+modified: 2026-04-09T23:29:02.774+07:00
+published: 2026-04-09T23:29:02.774+07:00
 cssclasses: ""
 creation-time: 2026-04-09 20:33
 status: in progress
 tags:
 parent:
-  - - - stochastic-model|Stochastic Model
+  - "[[stochastic-model|Stochastic Model]]"
 ---
 
 

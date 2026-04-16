@@ -2,9 +2,9 @@
 publish: true
 aliases:
   - Conditional Probability and Expectation Review
-created: 2026-04-09T23:07:39.063+07:00
-modified: 2026-04-09T23:07:39.064+07:00
-published: 2026-04-09T23:07:39.064+07:00
+created: 2026-04-09T23:29:02.783+07:00
+modified: 2026-04-09T23:29:02.784+07:00
+published: 2026-04-09T23:29:02.784+07:00
 cssclasses: ""
 creation-time: 2026-04-09 20:32
 status: in progress

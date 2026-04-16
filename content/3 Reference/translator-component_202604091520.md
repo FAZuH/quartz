@@ -2,15 +2,15 @@
 publish: true
 aliases:
   - Translator Component
-created: 2026-04-09T23:07:39.742+07:00
-modified: 2026-04-09T23:07:39.743+07:00
-published: 2026-04-09T23:07:39.743+07:00
+created: 2026-04-09T23:29:02.815+07:00
+modified: 2026-04-12T02:22:45.421+07:00
+published: 2026-04-12T02:22:45.421+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:20
 status: in progress
 tags:
 parent:
-  - ui-architectural-patterns_202604091518
+  - "[[ui-architectural-patterns_202604091518|UI Architectural Patterns]]"
 ---
 
 

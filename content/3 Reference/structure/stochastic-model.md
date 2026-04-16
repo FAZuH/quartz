@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Stochastic Model
 created: 2026-03-29T12:54:01.179+07:00
-modified: 2026-04-09T20:36:54.440+07:00
-published: 2026-04-09T20:36:54.440+07:00
+modified: 2026-04-10T05:26:50.987+07:00
+published: 2026-04-10T05:26:50.987+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -82,22 +82,21 @@ parent:
 	- **[[3 Reference/kolmogorovs-criterion_202604092032\|Kolmogorov's Criterion]]**
 - *[[3 Reference/def-markov-chain-monte-carlo_202603280853\|Markov Chain Monte Carlo]]*
 
-## Poisson Processes
+## Counting and Poisson Processes
 
-- *[[3 Reference/mixed-poisson-process_202604092032\|Mixed Poisson Process]]*
-- *[[3 Reference/conditional-poisson-process_202604092032\|Conditional Poisson Process]]*
 - *[[3 Reference/counting-process_202604031839\|Counting Process]]*
 	- *[[3 Reference/independent-and-stationary-increments_202604031839\|Independent and Stationary Increments]]*
 - *[[3 Reference/poisson-process_202604031845\|Poisson Process]]*
 	- **[[3 Reference/sum-of-poisson-random-variables_202604031845\|Sum of Poisson Random Variables]]**
 	- **[[3 Reference/poisson-binomial-distribution_202604031845\|Poisson-Binomial Distribution]]**
+	- *[[3 Reference/compound-poisson-process_202604031847\|Compound Poisson Process]]*
+	- *[[3 Reference/nonhomogeneous-poisson-process_202604031847\|Nonhomogeneous Poisson Process]]*
+	- *[[3 Reference/mixed-poisson-process_202604092032\|Mixed Poisson Process]]*
 - *[[3 Reference/inter-arrival-times_202604031845\|Inter-arrival Times]]*
 - *[[3 Reference/waiting-times-(poisson)_202604031845\|Waiting Times]]*
 - **[[3 Reference/conditional-distribution-of-arrival-times_202604031845\|Conditional Distribution of Arrival Times]]**
 - *[[3 Reference/thinning-(poisson)_202604031846\|Thinning]]*
 	- **[[3 Reference/independence-of-thinned-processes_202604031846\|Independence of Thinned Processes]]**
-- *[[3 Reference/nonhomogeneous-poisson-process_202604031847\|Nonhomogeneous Poisson Process]]*
-- *[[3 Reference/compound-poisson-process_202604031847\|Compound Poisson Process]]*
 
 ## Related Distributions
 
@@ -112,6 +111,7 @@ parent:
 ## Cheatsheets
 
 - [[3 Reference/poisson-process-cheatsheet_202604031847\|Poisson Process Cheatsheet]]
+- [[3 Reference/stochastic-state-relationships_202604100526\|Stochastic State Relationships Cheatsheet]]
 
 ## Examples
 

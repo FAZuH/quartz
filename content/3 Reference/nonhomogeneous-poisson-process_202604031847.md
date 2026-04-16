@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Nonhomogeneous Poisson Process
 created: 2026-04-09T23:07:39.524+07:00
-modified: 2026-04-09T23:07:39.525+07:00
-published: 2026-04-09T23:07:39.525+07:00
+modified: 2026-04-10T04:42:43.049+07:00
+published: 2026-04-10T04:42:43.049+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -14,6 +14,7 @@ parent:
   - "[[stochastic-model]]"
 ---
 
+> Poisson Process with rate $\lambda(t)$ that depends on time
 
 ## Definition
 
@@ -28,11 +29,14 @@ A **Nonhomogeneous Poisson Process** is a [[3 Reference/counting-process_2026040
 > $$m(t) = \int_0^t \lambda(s) \, ds$$
 
 > [!TIP] Interpretation
-> Unlike the standard [[3 Reference/poisson-process_202604031845\|Poisson process]] where the rate $\lambda$ is constant, here the rate varies with time. Think of customer arrivals at a store — more during lunch rush, fewer at 3 AM. The expected count is the area under the rate curve.
+> Unlike the standard [[3 Reference/poisson-process_202604031845\|Poisson process]] where the rate $\lambda$ is constant, here the rate varies with time.
+
+> [!example]
+> Think of customer arrivals at a store — more during lunch rush, fewer at 3 AM. The expected count is the area under the rate curve.
 
 ## Key Difference from Standard Poisson Process
 
-The nonhomogeneous process does **not** have stationary increments — the distribution depends on when the interval starts, not just its length.
+The nonhomogeneous process does **not** have [[3 Reference/independent-and-stationary-increments_202604031839\|stationary increments]] — the distribution depends on when the interval starts, not just its length.
 
 ## Related
 

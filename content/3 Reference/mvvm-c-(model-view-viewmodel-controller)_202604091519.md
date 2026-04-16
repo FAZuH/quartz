@@ -2,15 +2,15 @@
 publish: true
 aliases:
   - MVVM-C (Model View ViewModel Controller)
-created: 2026-04-09T23:07:39.517+07:00
-modified: 2026-04-09T23:07:39.518+07:00
-published: 2026-04-09T23:07:39.518+07:00
+created: 2026-04-09T23:29:02.801+07:00
+modified: 2026-04-12T02:22:23.951+07:00
+published: 2026-04-12T02:22:23.951+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:19
 status: in progress
 tags:
 parent:
-  - ui-architectural-patterns_202604091518
+  - "[[ui-architectural-patterns_202604091518|UI Architectural Patterns]]"
 ---
 
 

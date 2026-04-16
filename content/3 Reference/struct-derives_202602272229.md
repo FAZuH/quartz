@@ -3,8 +3,8 @@ publish: true
 aliases:
   - When to use Struct Derives
 created: 2026-04-09T23:07:39.616+07:00
-modified: 2026-04-09T23:07:39.616+07:00
-published: 2026-04-09T23:07:39.616+07:00
+modified: 2026-04-13T17:47:51.968+07:00
+published: 2026-04-13T17:47:51.968+07:00
 tags:
   - 
 cssclasses: ""
@@ -18,10 +18,10 @@ parent:
 | Derive                      | When                                                                         |
 | --------------------------- | ---------------------------------------------------------------------------- |
 | `Debug`                     | Almost always — enables `{:?}` printing                                      |
-| `Clone`                     | When copying the value makes semantic sense                                  |
+| `Clone`                     | When <u>copying</u> the value makes semantic sense                           |
 | `Copy`                      | When type is small, stack-only, and implicit copy is fine (requires `Clone`) |
-| `PartialEq` / `Eq`          | When equality comparison makes sense                                         |
-| `PartialOrd` / `Ord`        | When ordering makes sense                                                    |
+| `PartialEq` / `Eq`          | When <u>equality</u> comparison makes sense                                  |
+| `PartialOrd` / `Ord`        | When <u>ordering</u> makes sense                                             |
 | `Hash`                      | When used as `HashMap`/`HashSet` key (requires `Eq`)                         |
 | `Default`                   | When a sensible zero/empty value exists                                      |
 | `Serialize` / `Deserialize` | When crossing API/file boundaries (via `serde`)                              |

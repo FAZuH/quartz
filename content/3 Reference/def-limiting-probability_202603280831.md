@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Limiting Probability
 created: 2026-04-09T23:07:39.192+07:00
-modified: 2026-04-09T23:07:39.193+07:00
-published: 2026-04-09T23:07:39.193+07:00
+modified: 2026-04-10T00:09:22.362+07:00
+published: 2026-04-10T00:09:22.362+07:00
 cssclasses: ""
 creation-time: 2026-03-28 08:31
 status: in progress
@@ -21,11 +21,15 @@ $$\pi_j = \lim_{n \to \infty} P_{ij}^n$$
 
 where $P_{ij}^n$ is the [[3 Reference/def-n-step-transition-matrix_202603280812\|n-step transition probability]] from [[3 Reference/def-state-stochastic_202603280801\|state]] $i$ to [[3 Reference/def-state-stochastic_202603280801\|state]] $j$.
 
-## Relation to Mean Recurrence Time
+## Properties
 
-The limiting probability is related to the **mean recurrence time** $\mu_{jj}$ (expected time to return to state $j$ starting from $j$):
-
-$$\pi_j = \frac{1}{\mu_{jj}}$$
+$$
+\begin{align}
+\pi_{j} & = \sum_{k}\pi_{k}P_{kj} \\
+\sum_{j}\pi_{j} & = 1 \\
+\pi_j & = \frac{1}{\mu_{jj}}
+\end{align}
+$$
 
 ## Related
 

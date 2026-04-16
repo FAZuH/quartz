@@ -2,15 +2,15 @@
 publish: true
 aliases:
   - MVC (Model View Controller)
-created: 2026-04-09T23:07:39.515+07:00
-modified: 2026-04-09T23:07:39.516+07:00
-published: 2026-04-09T23:07:39.516+07:00
+created: 2026-04-09T23:29:02.799+07:00
+modified: 2026-04-13T21:24:23.733+07:00
+published: 2026-04-13T21:24:23.733+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:18
 status: in progress
 tags:
 parent:
-  - ui-architectural-patterns_202604091518
+  - "[[ui-architectural-patterns_202604091518|UI Architectural Patterns]]"
 ---
 
 
@@ -32,8 +32,8 @@ flowchart LR
     
     V -->|user input| C
     C -->|updates| M
-    M -.->|notifies| V
     M -->|data| C
+    M -.->|notifies| V
     C -->|formats data| V
 ```
 
@@ -41,7 +41,7 @@ flowchart LR
 
 1. **View** receives user input, notifies **Controller**
 2. **Controller** updates **Model** based on user input
-3. **Model** sends updated data back through the chain
+3. **Model** sends updated data back through the chain (active view)
 
 ## View Types
 
@@ -73,8 +73,8 @@ There are two types of View depending on how it interacts with Model:
 ## Variants
 
 - [[3 Reference/mvc-c-(model-view-controller-coordinator)_202604091519\|MVC-C (with Coordinator)]]
-- [[3 Reference/passive-view_202604091522\|Passive View]]
-- [[3 Reference/active-view_202604091523\|Active View]]
+- [[3 Reference/view-(ui-pattern)_202604091520#Passive View\|Passive View]]
+- [[3 Reference/view-(ui-pattern)_202604091520#Active View\|Active View]]
 
 ## Related
 

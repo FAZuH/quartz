@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Poisson-Binomial Distribution
 created: 2026-04-09T23:07:39.552+07:00
-modified: 2026-04-09T23:07:39.553+07:00
-published: 2026-04-09T23:07:39.553+07:00
+modified: 2026-04-10T04:47:09.867+07:00
+published: 2026-04-10T04:47:09.867+07:00
 tags:
   - type/theorem
 cssclasses: ""
@@ -17,9 +17,11 @@ parent:
 
 ## Theorem
 
-> Let $N \sim \text{Po}(\mu)$ and conditional on $N = n$, let $M \mid N = n \sim \text{Bin}(n, p)$.
->
-> Then $M$ (unconditional on $N$) is Poisson distributed with parameter $\mu p$.
+Let 
+- $N \sim \text{Po}(\mu)$ and conditional on $N = n$
+- $M \mid N = n \sim \text{Bin}(n, p)$.
+
+Then $M$ (unconditional on $N$) is Poisson distributed with parameter $\mu p$.
 
 > [!TIP] Interpretation
 > If you have a Poisson number of trials and each succeeds with probability $p$, the number of successes is still Poisson — just with a scaled-down rate.

@@ -2,15 +2,15 @@
 publish: true
 aliases:
   - MVC-C (Model View Controller Coordinator)
-created: 2026-04-09T23:07:39.514+07:00
-modified: 2026-04-09T23:07:39.515+07:00
-published: 2026-04-09T23:07:39.515+07:00
+created: 2026-04-09T23:29:02.798+07:00
+modified: 2026-04-12T02:22:36.769+07:00
+published: 2026-04-12T02:22:36.769+07:00
 cssclasses: ""
 creation-time: 2026-04-09 15:19
 status: in progress
 tags:
 parent:
-  - ui-architectural-patterns_202604091518
+  - "[[ui-architectural-patterns_202604091518|UI Architectural Patterns]]"
 ---
 
 
