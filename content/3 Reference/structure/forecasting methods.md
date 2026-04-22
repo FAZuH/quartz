@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-04-05T21:30:04.389+07:00
-published: 2026-04-05T21:30:04.389+07:00
+modified: 2026-04-20T12:29:44.248+07:00
+published: 2026-04-20T12:29:44.248+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -141,3 +141,27 @@ PassFrontmatter: true
 - *[[3 Reference/maximum-likelihood-method_202604052129\|Maximum Likelihood Method]]*
 - **[[3 Reference/large-sample-properties-of-parameter-estimates_202604052129\|Property: Large Sample Properties of Parameter Estimates]]**
 - [[3 Reference/canadian-hare-abundance-series_202604052129\|Canadian Hare Abundance Series]]
+
+## Volatility Models (ARCH/GARCH)
+- *[[3 Reference/about-volatility-clustering_202604201222\|Volatility Clustering]]*
+- *[[3 Reference/about-leverage-effect_202604201222\|Leverage Effect]]*
+- *[[3 Reference/about-principle-of-parsimony-in-econometric-modeling_202604201222\|Principle of Parsimony in Econometric Modeling]]*
+- *[[3 Reference/about-arma-vs-arch-garch-relationship_202604201222\|ARMA vs ARCH/GARCH Relationship]]*
+- *[[3 Reference/definition-log-returns_202604201223\|Log-Returns]]*
+- *[[3 Reference/definition-continuously-compounded-return_202604201223\|Continuously Compounded Return]]*
+- *[[3 Reference/definition-conditional-variance_202604201223\|Conditional Variance]]*
+- *[[3 Reference/definition-arch(m)-model_202604201223\|ARCH(m) Model]]*
+	- **[[3 Reference/definition-arch(m)-model_202604201223#Unconditional Mean\|Property: Unconditional Mean of ARCH]]**
+	- **[[3 Reference/definition-arch(m)-model_202604201223#Unconditional Variance\|Property: Unconditional Variance of ARCH]]**
+	- **[[3 Reference/definition-arch(m)-model_202604201223#Kurtosis\|Property: Kurtosis of ARCH (Heavy Tails)]]**
+- *[[3 Reference/definition-garch(m,s)-model_202604201224\|GARCH(m,s) Model]]*
+	- **[[3 Reference/definition-garch(m,s)-model_202604201224#Unconditional Variance\|Property: Unconditional Variance of GARCH]]**
+	- **[[3 Reference/definition-garch(m,s)-model_202604201224#Kurtosis\|Property: Kurtosis of GARCH (Heavy Tails)]]**
+	- **[[3 Reference/definition-garch(m,s)-model_202604201224#Volatility Persistence\|Property: Volatility Persistence]]**
+- *[[3 Reference/definition-standardized-residuals_202604201223\|Standardized Residuals]]*
+- [[3 Reference/procedure-building-a-volatility-model_202604201224\|Building a Volatility Model]]
+- [[3 Reference/procedure-testing-for-arch-effects_202604201225\|Testing for ARCH Effects]]
+- [[3 Reference/procedure-maximum-likelihood-estimation-for-arch-garch_202604201225\|Maximum Likelihood Estimation for ARCH/GARCH]]
+- [[3 Reference/procedure-model-checking-for-arch-garch_202604201225\|Model Checking for ARCH/GARCH]]
+- [[3 Reference/procedure-forecasting-with-arch(m)_202604201226\|Forecasting with ARCH(m)]]
+- [[3 Reference/procedure-forecasting-with-garch(m,s)_202604201226\|Forecasting with GARCH(m,s)]]

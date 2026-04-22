@@ -3,8 +3,8 @@ publish: true
 aliases:
   - logical-fallacies
 created: 2026-04-05T18:34:08.556+07:00
-modified: 2026-04-05T18:37:02.352+07:00
-published: 2026-04-05T18:37:02.352+07:00
+modified: 2026-04-22T10:58:18.133+07:00
+published: 2026-04-22T10:58:18.133+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -35,8 +35,9 @@ parent:
 - [[3 Reference/limited-choice_202604051834\|Limited Choice]]
 - [[3 Reference/loaded-question_202604051835\|Loaded Question]]
 - [[3 Reference/no-true-scotsman_202604051835\|No True Scotsman]]
-- [[3 Reference/personal-attack_202604051834\|Personal Attack]]
+- [[3 Reference/personal-attack_202604051834\|Ad Hominem]]
 - [[3 Reference/slippery-slope_202604051835\|Slippery Slope]]
 - [[3 Reference/straw-man_202604051834\|Straw Man]]
 - [[3 Reference/sunk-cost-fallacy_202604051835\|Sunk Cost Fallacy]]
 - [[3 Reference/tu-quoque_202604051835\|Tu Quoque]]
+
