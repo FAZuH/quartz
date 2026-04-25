@@ -2,8 +2,8 @@
 publish: true
 aliases: []
 created: 2026-04-09T23:07:38.986+07:00
-modified: 2026-04-09T23:07:38.987+07:00
-published: 2026-04-09T23:07:38.987+07:00
+modified: 2026-04-23T20:15:17.362+07:00
+published: 2026-04-23T20:15:17.362+07:00
 cssclasses: ""
 creation-time: 2025-04-16 03:19
 status: in progress
@@ -19,6 +19,8 @@ parent:
 - **Summer**: July-September
 - **Fall**: October-December
 - **Winter**: January-March
+
+> SpSFW
 
 Most anime series run for one cour (about 12-13 episodes, spanning three months), fitting neatly into these seasonal blocks.
 

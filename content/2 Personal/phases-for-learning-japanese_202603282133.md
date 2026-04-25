@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Phases for Learning Japanese
 created: 2026-03-29T12:54:01.341+07:00
-modified: 2026-04-16T22:37:28.906+07:00
-published: 2026-04-16T22:37:28.906+07:00
+modified: 2026-04-23T19:55:20.167+07:00
+published: 2026-04-23T19:55:20.167+07:00
 tags:
   - 
 cssclasses: ""
@@ -26,8 +26,8 @@ parent:
 **Tooling setup**
 
 - [x] Install Anki, configure FSRS algorithm (read the Anki manual basics) (✅ 2026-03-28 21:33)
-- [x] Install Yomitan browser extension + set up with JMdict/JMnedict dictionaries (❌ 2026-03-28 21:34)
-- [x] Link Yomitan → Anki (one-click card creation) (❌ 2026-03-28 21:34)
+- [x] Install Yomitan browser extension + set up with JMdict/JMnedict dictionaries (✅ 2026-04-23 19:55)
+- [x] Link Yomitan → Anki (one-click card creation) (✅ 2026-04-23 19:55)
 - [x] Download **Kaishi 1.5k** deck (current consensus best beginner deck) (✅ 2026-03-28 21:34)
 - [x] Optionally: add **Usagichan Kanji Phonetics** deck alongside Kaishi (✅ 2026-03-28 21:35)
 

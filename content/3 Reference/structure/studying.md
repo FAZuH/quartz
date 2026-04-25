@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.656+07:00
-modified: 2026-02-22T19:24:22.660+07:00
-published: 2026-02-22T19:24:22.660+07:00
+modified: 2026-04-24T13:36:42.888+07:00
+published: 2026-04-24T13:36:42.888+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -34,3 +34,4 @@ PassFrontmatter: true
 - Others:
 	- [[3 Reference/strategies-for-improving-motivation-and-focus_202601261615\|Strategies for Improving Motivation and Focus]]
 	- [[3 Reference/How I studied for 12 hours a day for over a year]]
+	- [[3 Reference/pomodoro-technique_202604241336\|Pomodoro Technique]]
