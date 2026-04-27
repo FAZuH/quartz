@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Rust
 created: 2026-03-25T15:22:40.621+07:00
-modified: 2026-03-25T15:22:40.621+07:00
-published: 2026-03-25T15:22:40.621+07:00
+modified: 2026-04-27T19:14:22.913+07:00
+published: 2026-04-27T19:14:22.913+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -33,6 +33,7 @@ parent:
 	- [[3 Reference/&'static-t-is-different-from-t-'static_202602030735\|&'static T is different from T: 'static]]
 	- [[3 Reference/&'a-t-is-different-from-t-'a_202602030736\|&'a T is different from T: 'a]]
 	- [[3 Reference/structure/dyn-trait-vs-impl-trait\|dyn Trait vs impl Trait]]
+- [[3 Reference/associated-type-vs-type-parameter_202604251729\|Associated Type vs Type Parameter]]
 
 **Referential**
 - [[3 Reference/marker-traits_202507301112\|Marker Traits]]
@@ -47,6 +48,7 @@ parent:
 - [[3 Reference/struct-derives_202602272229\|When to use Struct Derives]]
 - [[3 Reference/async-terms_202602281835\|Async Terms]]
 - [[3 Reference/panicking-in-drop_202602281836\|Panicking in Drop]]
+- [[3 Reference/rust-string-parameter-types_202604271914\|Rust String Parameter Types]]
 
 **Collections**
 - [[3 Reference/general-notes_202507160127\|General Notes]]

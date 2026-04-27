@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.345+07:00
-modified: 2026-04-20T12:29:44.248+07:00
-published: 2026-04-20T12:29:44.248+07:00
+modified: 2026-04-27T13:21:49.253+07:00
+published: 2026-04-27T13:21:49.253+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -110,6 +110,14 @@ PassFrontmatter: true
 - [[3 Reference/log-transformation-for-variance-stabilization_202603161400\|Procedure: Log Transformation for Variance Stabilization]]
 - [[3 Reference/percentage-changes-transformation_202603161400\|Procedure: Percentage Changes Transformation]]
 
+## Forecasting
+- *[[3 Reference/minimum-mean-square-error-forecast_202604271321\|Minimum Mean Square Error Forecast]]*
+- **[[3 Reference/deterministic-trends-forecast_202604271321\|Deterministic Trends Forecast]]**
+- [[3 Reference/arima-forecasting_202604271321\|ARIMA Forecasting]]
+- **[[3 Reference/prediction-limits_202604271321\|Prediction Limits]]**
+- [[3 Reference/updating-arima-forecasts_202604271321\|Updating ARIMA Forecasts]]
+- [[3 Reference/forecasting-transformed-series_202604271321\|Forecasting Transformed Series]]
+
 ## Examples
 - [[3 Reference/economic-and-natural-time-series-examples_202603161400\|Economic and Natural Time Series Examples]]
 
@@ -165,3 +173,11 @@ PassFrontmatter: true
 - [[3 Reference/procedure-model-checking-for-arch-garch_202604201225\|Model Checking for ARCH/GARCH]]
 - [[3 Reference/procedure-forecasting-with-arch(m)_202604201226\|Forecasting with ARCH(m)]]
 - [[3 Reference/procedure-forecasting-with-garch(m,s)_202604201226\|Forecasting with GARCH(m,s)]]
+
+## Seasonal Models (SARIMA)
+- *[[3 Reference/seasonal-ma(q)-model_202604271314\|Seasonal MA(Q) Model]]*
+- *[[3 Reference/seasonal-ar(p)-model_202604271314\|Seasonal AR(P) Model]]*
+- *[[3 Reference/multiplicative-seasonal-arma-model_202604271314\|Multiplicative Seasonal ARMA Model]]*
+- *[[3 Reference/seasonal-differencing_202604271314\|Seasonal Differencing]]*
+- *[[3 Reference/seasonal-arima-model_202604271314\|Seasonal ARIMA Model]]*
+- [[3 Reference/sarima-modeling-for-co2-levels_202604271314\|SARIMA Modeling for CO2 Levels]]
