@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Rust String Parameter Types
 created: 2026-04-27T19:14:20.925+07:00
-modified: 2026-04-27T19:14:31.502+07:00
-published: 2026-04-27T19:14:31.502+07:00
+modified: 2026-05-01T03:10:40.356+07:00
+published: 2026-05-01T03:10:40.356+07:00
 tags:
   - 
 cssclasses: ""
@@ -14,14 +14,14 @@ parent:
   - "[[rust]]"
 ---
 
-|Type|Owned alloc?|Accepts|Use when|
-|---|---|---|---|
-|`&str`|No|string slices only|you only read, no conversion needed|
-|`impl AsRef<str>`|No|`&str`, `String`, `Cow<str>`|read-only, zero-cost generic|
-|`impl Into<String>`|Yes, on call|`&str`, `String`|you need to store/own it|
-|`impl ToString`|Yes, always|anything with `Display`|avoid — always allocates|
-|`Cow<'a, str>`|Sometimes|borrowed or owned|you want to delay allocation|
-|`String`|Yes|`String` only|explicit, just take ownership|
+| Type                | Owned alloc? | Accepts                      | Use when                            |
+| ------------------- | ------------ | ---------------------------- | ----------------------------------- |
+| `&str`              | No           | string slices only           | you only read, no conversion needed |
+| `impl AsRef<str>`   | No           | `&str`, `String`, `Cow<str>` | read-only, zero-cost generic        |
+| `impl Into<String>` | Yes, on call | `&str`, `String`             | you need to store/own it            |
+| `impl ToString`     | Yes, always  | anything with `Display`      | avoid — always allocates            |
+| `Cow<'a, str>`      | Sometimes    | borrowed or owned            | you want to delay allocation        |
+| `String`            | Yes          | `String` only                | explicit, just take ownership       |
 
 **Practical rules:**
 

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.656+07:00
-modified: 2026-04-24T13:36:42.888+07:00
-published: 2026-04-24T13:36:42.888+07:00
+modified: 2026-05-03T18:07:46.962+07:00
+published: 2026-05-03T18:07:46.962+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -25,6 +25,9 @@ PassFrontmatter: true
 	- [[3 Reference/project-based-learning_202510032125\|Project-Based Learning]]
 		- [[3 Reference/task-sprints_202511050435\|Task Sprints]]
 	- [[3 Reference/feynman-technique_202601261734\|Feynman Technique]]
+- Memorization
+	- Anki
+		- [[3 Reference/choosing-recall-difficulty-of-anki-cards_202605031807\|Choosing Recall Difficulty of Anki Cards]]
 - [[3 Reference/learning-process_202601261630\|Learning Process]]
 	- Absorb
 	- Retain
