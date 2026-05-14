@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Phases for Learning Japanese
 created: 2026-03-29T12:54:01.341+07:00
-modified: 2026-04-23T19:55:20.167+07:00
-published: 2026-04-23T19:55:20.167+07:00
+modified: 2026-05-04T13:41:05.855+07:00
+published: 2026-05-04T13:41:05.855+07:00
 tags:
   - 
 cssclasses: ""
@@ -14,6 +14,8 @@ parent:
   - "[[learn-japanese_202603111923]]"
 ---
 
+
+Timce since started learning: ==46 days==
 
 ## Phase 0 — Foundations (2–4 weeks)
 

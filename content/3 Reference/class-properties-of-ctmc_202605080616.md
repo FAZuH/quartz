@@ -1,0 +1,47 @@
+---
+publish: true
+aliases:
+  - Class Properties of CTMC
+created: 2026-05-08T06:23:06.514+07:00
+modified: 2026-05-08T06:23:06.515+07:00
+published: 2026-05-08T06:23:06.515+07:00
+cssclasses: ""
+creation-time: 2026-05-08 06:16
+status: in progress
+tags:
+parent:
+  - "[[stochastic-model]]"
+---
+
+
+## Properties
+
+For a CTMC $\{Y(t) : t \geq 0\}$ and its [[3 Reference/embedded-markov-chain_202605080616\|embedded Markov chain]] $\{X_n\}$, the classification of states is inherited from the embedded chain.
+
+Let $i, j \in S$ and "$\leftrightarrow$" denote the communication property.
+
+## Class Properties
+
+| Property | Statement |
+|----------|-----------|
+| **Communication** | $i \leftrightarrow j$ in the CTMC $\iff$ $i \leftrightarrow j$ in the embedded MC |
+| **State Partition** | Since communication partitions the embedded MC into classes, it also partitions the associated CTMC |
+| **Irreducibility** | The CTMC is irreducible $\iff$ the embedded MC is irreducible |
+| **Recurrence** | State $i$ is recurrent in the CTMC $\iff$ $i$ is recurrent in the embedded MC |
+| **Transience** | State $i$ is transient in the CTMC $\iff$ $i$ is transient in the embedded MC |
+| **Positive Recurrence** | State $i$ is positive recurrent in the CTMC $\iff$ $i$ is positive recurrent in the embedded MC |
+| **Class Property** | Transient and recurrent are class properties of a CTMC |
+
+> [!TIP] Interpretation
+> All structural properties (communication, recurrence, transience, irreducibility) of a CTMC are determined entirely by the behavior of the embedded DTMC. This is because these properties depend only on which states are visited and with what probability — not on how long is spent in each state.
+
+## Periodicity
+
+Since $P_{ii} = 0$ in the embedded MC (the CTMC always changes state at jump times), **periodicity is not possible** in CTMCs. All states have period 1.
+
+## Related
+
+- [[3 Reference/embedded-markov-chain_202605080616\|Embedded Markov Chain]]
+- [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
+- [[3 Reference/def-irreducible_202603280823\|Irreducible]]
+- [[3 Reference/def-recurrent-transient_202603280824\|Recurrent vs Transient]]

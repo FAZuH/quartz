@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Stochastic Model
 created: 2026-03-29T12:54:01.179+07:00
-modified: 2026-04-10T05:26:50.987+07:00
-published: 2026-04-10T05:26:50.987+07:00
+modified: 2026-05-08T06:25:18.086+07:00
+published: 2026-05-08T06:25:18.086+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -108,6 +108,48 @@ parent:
 - *[[3 Reference/hypoexponential-distribution_202604031846\|Hypoexponential Distribution]]*
 - *[[3 Reference/coxian-distribution_202604031846\|Coxian Distribution]]*
 
+## Continuous-Time Markov Chains
+
+- *[[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]*
+  - **[[3 Reference/ctmc-transition-time-distribution_202605080516\|CTMC Transition Time Distribution]]**
+- *[[3 Reference/pure-birth-process_202605080516\|Pure Birth Process]]*
+  - *[[3 Reference/yule-process_202605080517\|Yule Process]]*
+- *[[3 Reference/birth-and-death-process_202605080517\|Birth and Death Process]]*
+  - [[3 Reference/solving-bd-process-balance-equations_202605080618\|Solving BD Process Balance Equations]]
+  - *[[3 Reference/probability-of-population-extinction_202605080618\|Probability of Population Extinction]]*
+    - *[[3 Reference/expected-time-to-extinction_202605080619\|Expected Time to Extinction]]*
+  - *[[3 Reference/stochastic-logistic-growth-process_202605080619\|Stochastic Logistic Growth Process]]*
+- *[[3 Reference/transition-rate-matrix_202605080516\|Transition Rate Matrix]]*
+- *[[3 Reference/embedded-markov-chain_202605080616\|Embedded Markov Chain]]*
+  - **[[3 Reference/class-properties-of-ctmc_202605080616\|Class Properties of CTMC]]**
+- *[[3 Reference/ctmc-transition-probability-function_202605080516\|CTMC Transition Probability Function]]*
+  - **[[3 Reference/ctmc-chapman-kolmogorov-equation_202605080516\|CTMC Chapman-Kolmogorov Equation]]**
+- *[[3 Reference/matrix-exponential_202605080518\|Matrix Exponential]]*
+  - **[[3 Reference/derivative-of-matrix-exponential_202605080518\|Derivative of Matrix Exponential]]**
+- **[[3 Reference/kolmogorov-differential-equations_202605080518\|Kolmogorov Differential Equations]]**
+- *[[3 Reference/ctmc-limit-probabilities_202605080616\|CTMC Limit Probabilities]]*
+  - **[[3 Reference/existence-of-ctmc-limit-probabilities_202605080617\|Existence of CTMC Limit Probabilities]]**
+- *[[3 Reference/ctmc-balance-equations_202605080617\|CTMC Balance Equations]]*
+- *[[3 Reference/time-reversible-ctmc_202605080617\|Time Reversible CTMC]]*
+  - **[[3 Reference/ergodic-birth-and-death-process-is-time-reversible_202605080617\|Ergodic Birth and Death Process is Time Reversible]]**
+  - **[[3 Reference/truncated-time-reversible-ctmc_202605080618\|Truncated Time Reversible CTMC]]**
+- *[[3 Reference/quasistationary-probability-distribution_202605080619\|Quasistationary Probability Distribution]]*
+
+## Queueing Systems
+
+- *[[3 Reference/queueing-system_202605080520\|Queueing System]]*
+  - **[[3 Reference/queueing-formula-l-=-λw_202605080520\|Queueing Formula L = \lambda W]]**
+- *[[3 Reference/m-m-1-queueing-system_202605080520\|M/M/1 Queueing System]]*
+- *[[3 Reference/m-m-s-queueing-system_202605080521\|M/M/s Queueing System]]*
+- *[[3 Reference/m-m-∞-queueing-system_202605080521\|M/M/∞ Queueing System]]*
+- *[[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]*
+- *[[3 Reference/queueing-system-with-balking_202605080521\|Queueing System with Balking]]*
+
+## Biological Epidemic Models
+
+- *[[3 Reference/stochastic-sis-epidemic-model_202605080620\|Stochastic SIS Epidemic Model]]*
+- *[[3 Reference/stochastic-sir-epidemic-model_202605080620\|Stochastic SIR Epidemic Model]]*
+
 ## Cheatsheets
 
 - [[3 Reference/poisson-process-cheatsheet_202604031847\|Poisson Process Cheatsheet]]
@@ -115,7 +157,19 @@ parent:
 
 ## Examples
 
+### Markov Chains
+
+- [[3 Reference/example-transition-matrix_202603280854\|Transition Matrix Example]]
+- [[3 Reference/example-n-step-transition_202603280855\|n-step Transition Matrix Example]]
+- [[3 Reference/example-gambling-model_202603280856\|Gambling Model]]
+- [[3 Reference/example-gambler-ruin-fsa_202603280843\|First Step Analysis - Gambler's Ruin]]
+- [[3 Reference/example-social-class_202603280900\|Social Class Problem Example]]
+- [[3 Reference/example-random-walk-model_202603280910\|Random Walk Model Example]]
 - [[3 Reference/urn-ball-replacement-n-step-transition_202604092035\|Urn Ball Replacement n-step Transition]]
+
+### Poisson Process & Counting
+
+- [[3 Reference/function-o(h)_202604092033\|Function o(h)]]
 - [[3 Reference/exponential-random-variables-and-expected-discounted-returns_202604092033\|Exponential Random Variables and Expected Discounted Returns]]
 - [[3 Reference/time-spent-in-a-bank_202604092033\|Time Spent in a Bank]]
 - [[3 Reference/automobile-accident-damage_202604092033\|Automobile Accident Damage]]
@@ -123,7 +177,6 @@ parent:
 - [[3 Reference/analyzing-greedy-algorithms-for-the-assignment-problem_202604092033\|Analyzing Greedy Algorithms for the Assignment Problem]]
 - [[3 Reference/cells-in-the-body_202604092033\|Cells in the Body]]
 - [[3 Reference/customers-in-line_202604092033\|Customers in Line]]
-- [[3 Reference/function-o(h)_202604092033\|Function o(h)]]
 - [[3 Reference/immigrants-into-a-territory_202604092033\|Immigrants into a Territory]]
 - [[3 Reference/nonnegative-offers_202604092033\|Nonnegative Offers]]
 - [[3 Reference/system-with-classified-individuals_202604092033\|System with Classified Individuals]]
@@ -141,9 +194,15 @@ parent:
 - [[3 Reference/busy-periods-in-single-server-poisson-arrival-queues_202604092034\|Busy Periods in Single Server Poisson Arrival Queues]]
 - [[3 Reference/gamma-density_202604092034\|Gamma Density]]
 - [[3 Reference/insurance-company-policyholders_202604092034\|Insurance Company Policyholders]]
-- [[3 Reference/example-transition-matrix_202603280854\|Transition Matrix Example]]
-- [[3 Reference/example-n-step-transition_202603280855\|n-step Transition Matrix Example]]
-- [[3 Reference/example-gambling-model_202603280856\|Gambling Model]]
-- [[3 Reference/example-gambler-ruin-fsa_202603280843\|First Step Analysis - Gambler's Ruin]]
-- [[3 Reference/example-social-class_202603280900\|Social Class Problem Example]]
-- [[3 Reference/example-random-walk-model_202603280910\|Random Walk Model Example]]
+
+### Continuous-Time Markov Chains
+
+- [[3 Reference/shoe-shine-shop_202605080518\|Shoe Shine Shop]]
+- [[3 Reference/birth-process-with-linear-birth-rate_202605080519\|Birth Process with Linear Birth Rate]]
+- [[3 Reference/linear-growth-model-with-immigration_202605080519\|Linear Growth Model with Immigration]]
+- [[3 Reference/machine-repair-model_202605080620\|Machine Repair Model]]
+
+### Queueing Systems
+
+- [[3 Reference/m-m-1-queue-example_202605080522\|M/M/1 Queue Example]]
+- [[3 Reference/m-m-s-queue-example_202605080522\|M/M/s Queue Example]]

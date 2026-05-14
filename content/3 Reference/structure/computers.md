@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.307+07:00
-modified: 2026-04-09T15:09:54.311+07:00
-published: 2026-04-09T15:09:54.311+07:00
+modified: 2026-05-14T06:52:35.300+07:00
+published: 2026-05-14T06:52:35.300+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -38,6 +38,9 @@ aliases:
 - [[3 Reference/structure/self-hosting]]
 - [[3 Reference/structure/software architecture]]
 - [[3 Reference/structure/system administration]]
+- [[3 Reference/structure/microservices\|microservices]]
+- [[3 Reference/structure/system-design\|system design]]
+
 
 **Programming languages**
 - [[3 Reference/structure/rust]]

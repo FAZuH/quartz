@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.363+07:00
-modified: 2026-02-22T19:24:22.366+07:00
-published: 2026-02-22T19:24:22.366+07:00
+modified: 2026-05-14T06:53:02.120+07:00
+published: 2026-05-14T06:53:02.120+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -12,11 +12,13 @@ parent:
 PassFrontmatter: true
 ---
 
+**Subcategory**
+- [[3 Reference/structure/systemd\|systemd]]
+
 **Conceptual**
 - [[3 Reference/Hardlink vs Symlink\|Hardlink vs Symlink]]
 
 **Referential**
-
 - [[3 Reference/htop-column-meanings_202511141014\|Htop Column Meanings]]
 
 **Procedural**
