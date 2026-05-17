@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.310+07:00
-modified: 2026-02-22T19:24:22.316+07:00
-published: 2026-02-22T19:24:22.316+07:00
+modified: 2026-05-14T13:11:00.495+07:00
+published: 2026-05-14T13:11:00.495+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -14,7 +14,6 @@ PassFrontmatter: true
 
 
 **Referential**
-- [[3 Reference/fields-in-cyber-security_202508292043\|Fields in Cyber Security]]
 - [[3 Reference/nmap-scan-types_202508312337\|Nmap Scan Types]]
 
 **Procedural**

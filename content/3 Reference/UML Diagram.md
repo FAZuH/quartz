@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-09T23:07:39.749+07:00
-modified: 2026-04-09T23:07:39.750+07:00
-published: 2026-04-09T23:07:39.750+07:00
+modified: 2026-05-15T07:58:29.171+07:00
+published: 2026-05-15T07:58:29.171+07:00
 cssclasses: ""
 creation-time: 2025-02-28 16:28
 status: in progress
@@ -27,19 +27,26 @@ parent:
 
 ### Relationship Reference
 
-| Relationship    | Question                                   | Example                  | Key Property                                      |
-|-----------------|--------------------------------------------|--------------------------|---------------------------------------------------|
-| **Association** | "Does A use/know B?"                       | Customer → Order         | A holds a reference to B                          |
-| **Dependency**  | "Does A temporarily use B?"                | Order → TaxCalculator    | B appears only in method param/return, not stored |
-| **Aggregation** | "Does A have B, but B can exist alone?"    | Team → Player            | A contains B; B has independent lifecycle         |
-| **Composition** | "Does A own B, and B cannot exist alone?"  | Car → Engine             | B's lifecycle is bound to A                       |
-| **Inheritance** | "Is A a B?"                                | Dog → Animal             | A is a subtype of B                               |
-| **Realization** | "Does A implement interface B?"            | Dog → IAnimal            | A fulfills the contract defined by B              |
+| Relationship    | Question                                  | Example               | Key Property                                      |
+| --------------- | ----------------------------------------- | --------------------- | ------------------------------------------------- |
+| **Association** | "Does A use/know B?"                      | Customer → Order      | A holds a reference to B                          |
+| **Dependency**  | "Does A temporarily use B?"               | Order → TaxCalculator | B appears only in method param/return, not stored |
+| **Aggregation** | "Does A have B, but B can exist alone?"   | Team → Player         | A contains B; B has independent lifecycle         |
+| **Composition** | "Does A own B, and B cannot exist alone?" | Car → Engine          | B's lifecycle is bound to A                       |
+| **Inheritance** | "Is A a B?"                               | Dog → Animal          | A is a subtype of B                               |
+| **Realization** | "Does A implement interface B?"           | Dog → IAnimal         | A fulfills the contract defined by B              |
 
 ### Notes
 
-- **Composition vs Aggregation**: Both use diamond notation. The difference is lifecycle — in composition, the contained object cannot exist without the container. In aggregation, it can.
-- **Association vs Dependency**: Association implies a persistent reference (field). Dependency implies a transient use (local variable, parameter).
+- **Composition vs Aggregation**: Both use diamond notation. The difference is lifecycle 
+	- Composition: The contained object <u>cannot exist</u> without the container.
+	- Aggregation: It can.
+- **Association vs Dependency**: 
+	- Association: Implies a <u>persistent</u> reference (field)
+	- Dependency: Implies a <u>transient</u> use (local variable, parameter).
+- **Aggregation** vs **Association**:
+	- Aggregation: Requires "whole-part" or "has-a" relationship, e.g., University aggegates Department. Car aggregates Wheel. An object that uses another object as a "tool" or "utility" is not aggregating that object.
+	- Association: otherwise
 - **Inheritance vs Realization**: Inheritance is class→class. Realization is class→interface.
 - **Abstract class**: Name written in *italic* in diagrams.
 - **`<<extend>>` / `<<include>>`**: These are use case diagram relationships, not class diagram relationships. Do not confuse with Inheritance/Realization.

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Pomodoro Technique
 created: 2026-04-24T13:36:40.897+07:00
-modified: 2026-04-24T15:29:21.538+07:00
-published: 2026-04-24T15:29:21.538+07:00
+modified: 2026-05-15T07:21:38.244+07:00
+published: 2026-05-15T07:21:38.244+07:00
 tags:
   - 
 cssclasses: ""
@@ -67,7 +67,31 @@ Cirillo suggests the “inform, negotiate and call back” strategy:
 > INSC
 > Should be easy to remember 
 
+## Personal Notes
+
+2026-05-15 07:17
+
+If I'm in a flow state, I think skipping the pomodoro break session is better - <u>if you're in a flow state, stick in it</u>.
+
+Because when you're in a flow state, you almost don't lose focus, and you're crushing your task with higher-than-usual performance.
+
+(Taken from [[3 Reference/pomodoro-technique_202604241336#^1db86d\|this video, starting at 6.07]])
+
+Having a physical pomodoro timer seems nice. It may feel "more real" and "more imposing". It immerses you more that you're currently in a pomodoro session.
+
+Also if you set pomodoro timer in your device, you may get distacted by other things in the device such as notifications.
+
+(same vid, 8min)
+
+Condition yourself to ==not lose focus in your pomodoro session==.
+
+Classical conditioning is when you associate one stimulus with another stimulus. For example, pomodoro start alarm sound with studying
+
+## Other Sources
+
+-  [The Danger of the Pomodoro Method (why most people are using it wrong)](https://www.youtube.com/@ZachHighley) ^1db86d
 
 [^1]: Biwer, Felicitas; Wiradhany, Wisnu; oude Egbrink, Mirjam G. A.; de Bruin, Anique B. H. (August 2023). ["Understanding effort regulation: Comparing 'Pomodoro' breaks and self-regulated breaks"](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjep.12593). _British Journal of Educational Psychology_. **93** (S2): 353–367. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1111/bjep.12593](https://doi.org/10.1111%2Fbjep.12593). [ISSN](https://en.wikipedia.org/wiki/ISSN_\(identifier\) "ISSN (identifier)") [0007-0998](https://search.worldcat.org/issn/0007-0998). [PMID](https://en.wikipedia.org/wiki/PMID_\(identifier\) "PMID (identifier)") [36859717](https://pubmed.ncbi.nlm.nih.gov/36859717).
 
 [^2]: Ogut, Eren (October 2025). ["Assessing the efficacy of the Pomodoro technique in enhancing anatomy lesson retention during study sessions: a scoping review"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12532815). _BMC Medical Education_. **25** (1440) 1440. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1186/s12909-025-08001-0](https://doi.org/10.1186%2Fs12909-025-08001-0). [PMC](https://en.wikipedia.org/wiki/PMC_\(identifier\) "PMC (identifier)") [12532815](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12532815). [PMID](https://en.wikipedia.org/wiki/PMID_\(identifier\) "PMID (identifier)") [41107936](https://pubmed.ncbi.nlm.nih.gov/41107936).
+

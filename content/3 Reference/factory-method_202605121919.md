@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Factory Method
 created: 2026-05-12T19:19:35.223+07:00
-modified: 2026-05-12T20:08:28.324+07:00
-published: 2026-05-12T20:08:28.324+07:00
+modified: 2026-05-15T08:32:18.359+07:00
+published: 2026-05-15T08:32:18.359+07:00
 tags:
   - 
 cssclasses: ""
@@ -61,6 +61,8 @@ classDiagram
 	Product <|.. ConcreteProductB
 	
 	Creator --> Product
+	
+	Client
 ```
 
 ## Applicability
