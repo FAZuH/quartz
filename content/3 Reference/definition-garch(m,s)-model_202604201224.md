@@ -3,8 +3,8 @@ publish: true
 aliases:
   - GARCH(m,s) Model
 created: 2026-04-20T12:24:17.558+07:00
-modified: 2026-04-20T13:48:29.006+07:00
-published: 2026-04-20T13:48:29.006+07:00
+modified: 2026-05-17T17:36:33.948+07:00
+published: 2026-05-17T17:36:33.948+07:00
 cssclasses: ""
 creation-time: 2026-04-20 12:24
 status: in progress
@@ -25,7 +25,7 @@ $$
 where:
 - $\epsilon_t \sim \text{i.i.d.}(0, 1)$
 - $\alpha_0 > 0$, $\alpha_i \geq 0$ (at least one $\alpha_i > 0$), $\beta_j \geq 0$
-- $\sum_{i=1}^{\max(m,s)} (\alpha_i + \beta_i) < 1$ (stationarity condition)
+- $\sum_{i=1}^{\max(m,s)} (\alpha_i + \beta_i) < 1$ ([[3 Reference/weakly-stationary_202603161400\|Weakly Stationary]])
 
 ## GARCH(1,1) as Special Case
 

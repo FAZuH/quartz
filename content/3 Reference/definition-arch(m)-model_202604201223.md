@@ -3,8 +3,8 @@ publish: true
 aliases:
   - ARCH(m) Model
 created: 2026-04-20T12:23:57.481+07:00
-modified: 2026-04-20T13:20:03.205+07:00
-published: 2026-04-20T13:20:03.205+07:00
+modified: 2026-05-17T17:37:20.414+07:00
+published: 2026-05-17T17:37:20.414+07:00
 cssclasses: ""
 creation-time: 2026-04-20 12:23
 status: in progress
@@ -66,7 +66,7 @@ $$
 This requires $0 \leq \alpha_1^2 < \frac{1}{3}$ for the fourth moment to exist.
 
 > [!TIP] Interpretation
-> The **excess kurtosis** is positive, meaning the tail distribution of $a_t$ is **heavier than normal**—a key stylized fact of financial returns.
+> The **excess kurtosis** is positive, meaning the tail distribution of $a_t$ is **heavier than normal**—a key fact of financial returns.
 
 ## Serial Correlation Properties
 
