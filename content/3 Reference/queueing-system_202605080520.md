@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Queueing System
 created: 2026-05-08T05:33:03.434+07:00
-modified: 2026-05-08T05:33:03.435+07:00
-published: 2026-05-08T05:33:03.435+07:00
+modified: 2026-05-21T21:03:36.242+07:00
+published: 2026-05-21T21:03:36.242+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:20
 status: in progress
@@ -68,3 +68,15 @@ Commonly abbreviated as $A/S/r$ when capacity and population are infinite (FIFO 
 - [[3 Reference/m-m-1-queueing-system_202605080520\|M/M/1 Queueing System]]
 - [[3 Reference/m-m-s-queueing-system_202605080521\|M/M/s Queueing System]]
 - [[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Klasifikasi sistem antrian.** Sebuah loket tiket memiliki 1 petugas, melayani maksimal 2 pelanggan sekaligus (1 dilayani + 1 menunggu). Pelanggan datang Poisson($\lambda = 2$/menit), waktu layanan $\text{Exp}(\mu = 3$/menit). Pelanggan yang datang saat penuh pergi. Tuliskan sistem ini dalam Kendall notation.
+
+> **Jawaban:** M/M/1/2. M = Poisson arrivals, M = exponential service, 1 = satu server, 2 = kapasitas sistem (termasuk yang dilayani).
+
+**Metrik dasar.** Jika $L = 30/49$ dan $\lambda_{\text{eff}} = 2 \cdot (1 - \pi_2) = 2 \cdot \frac{45}{49}$, hitung $W$ menggunakan Little's Law.
+
+> **Jawaban:** $\lambda_{\text{eff}} = \lambda(1 - \pi_2) = 2(1 - \frac{4}{19}) = \frac{30}{19}$ (pakai hasil 2025 Q10). $W = L / \lambda_{\text{eff}} = \frac{30/49}{30/19} = \frac{19}{49}$ menit.

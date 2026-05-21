@@ -3,8 +3,8 @@ publish: true
 aliases:
   - CTMC Transition Time Distribution
 created: 2026-05-08T05:33:03.409+07:00
-modified: 2026-05-08T05:33:03.410+07:00
-published: 2026-05-08T05:33:03.410+07:00
+modified: 2026-05-21T20:58:46.893+07:00
+published: 2026-05-21T20:58:46.893+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:16
 status: in progress
@@ -55,3 +55,15 @@ where $\nu_i$ is the **transition rate** out of state $i$.
 - [[3 Reference/def-exponential-distribution-survival_202603281500\|Exponential Distribution]]
 - [[3 Reference/memoryless-property_202604031840\|Memoryless Property]]
 - [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 5.** Pada reaksi kimia di atas, jika terdapat $j$ molekul A, setiap molekul berubah menjadi B dengan laju $q$. Tentukan ekspektasi waktu hingga semua molekul A habis.
+
+> **Jawaban:** $\sum_{j=1}^N \frac{1}{qj}$. Waktu transisi dari $j$ ke $j-1$ adalah $T_j \sim \text{Exp}(qj)$, sehingga $\mathbb{E}[T_j] = 1/(qj)$. Jumlahkan untuk $j = N, N-1, \ldots, 1$.
+
+**Kuis 2 2024 No. 2a.** Pure birth process dimulai dari $X(0)=0$ dengan $\lambda_0=1$, $\lambda_1=3$, $\lambda_2=2$, $\lambda_3=5$. Tentukan $\mathbb{E}[W_3]$ dan $\text{Var}(W_3)$.
+
+> **Jawaban:** $\mathbb{E}[W_3] = \frac{1}{1} + \frac{1}{3} + \frac{1}{2} = \frac{11}{6}$. $\text{Var}(W_3) = \frac{1}{1^2} + \frac{1}{3^2} + \frac{1}{2^2} = 1 + \frac{1}{9} + \frac{1}{4} = \frac{49}{36}$.

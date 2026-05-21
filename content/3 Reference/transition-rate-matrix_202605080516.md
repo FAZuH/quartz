@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Transition Rate Matrix
 created: 2026-05-08T05:33:03.440+07:00
-modified: 2026-05-08T05:33:03.440+07:00
-published: 2026-05-08T05:33:03.440+07:00
+modified: 2026-05-21T20:59:01.934+07:00
+published: 2026-05-21T20:59:01.934+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:16
 status: in progress
@@ -56,3 +56,15 @@ $$\Pr\{X(t+h) = j \mid X(t) = i\} = \begin{cases} q_{ij}h + o(h), & i \neq j \\ 
 - [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
 - [[3 Reference/ctmc-transition-probability-function_202605080516\|CTMC Transition Probability Function]]
 - [[3 Reference/def-transition-probability-matrix_202603280810\|Transition Probability Matrix]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 3.** Reaksi kimia: $N$ molekul A berubah menjadi B secara irreversibel. Jika ada $j$ molekul, laju transisi per molekul adalah $q$. Tentukan entri matriks generator $Q$ untuk transisi $j \to j-1$.
+
+> **Jawaban:** $q_{j, j-1} = qj$. Karena ada $j$ molekul independen, total laju transisi $j \to j-1$ adalah $qj$. Diagonal: $q_{jj} = -qj$. Semua entri lain nol (hanya transisi $j \to j-1$ yang mungkin).
+
+**Kuis 2 2025 No. 8.** Diberikan $Q = \begin{bmatrix} -2 & 2 & 0 \\ 1 & -3 & 2 \\ 0 & 2 & -2 \end{bmatrix}$ pada $S = \{0, 1, 2\}$. Tentukan $\nu_0, \nu_1, \nu_2$ dan matriks embedded MC $P$.
+
+> **Jawaban:** $\nu_0 = 2$, $\nu_1 = 3$, $\nu_2 = 2$. $P = \begin{bmatrix} 0 & 1 & 0 \\ 1/3 & 0 & 2/3 \\ 0 & 1 & 0 \end{bmatrix}$. Diperoleh dari $P_{ij} = q_{ij}/\nu_i$ untuk $i \neq j$.

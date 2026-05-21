@@ -3,8 +3,8 @@ publish: true
 aliases:
   - CTMC Balance Equations
 created: 2026-05-08T06:23:06.517+07:00
-modified: 2026-05-08T06:23:06.518+07:00
-published: 2026-05-08T06:23:06.518+07:00
+modified: 2026-05-21T21:01:36.153+07:00
+published: 2026-05-21T21:01:36.153+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:17
 status: in progress
@@ -59,3 +59,18 @@ At steady state, the derivative is zero, yielding: $0 = -\pi_j \nu_j + \sum_{k \
 - [[3 Reference/existence-of-ctmc-limit-probabilities_202605080617\|Existence of CTMC Limit Probabilities]]
 - [[3 Reference/solving-bd-process-balance-equations_202605080618\|Solving BD Process Balance Equations]]
 - [[3 Reference/kolmogorov-differential-equations_202605080518\|Kolmogorov Differential Equations]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 10.** M/M/1/2: $\lambda = 2$/menit, $\mu = 3$/menit. Pelanggan yang datang saat sistem penuh (2 pelanggan) pergi (balking). Tuliskan dan selesaikan persamaan balance untuk $\pi_0, \pi_1, \pi_2$.
+
+> **Jawaban:** State $\{0, 1, 2\}$ dengan $\lambda_0 = \lambda_1 = 2$, $\lambda_2 = 0$ (balking), $\mu_1 = \mu_2 = 3$.
+> Balance: $\lambda_0 \pi_0 = \mu_1 \pi_1 \Rightarrow 2\pi_0 = 3\pi_1 \Rightarrow \pi_1 = \frac{2}{3}\pi_0$.
+> $\lambda_1 \pi_1 = \mu_2 \pi_2 \Rightarrow 2\pi_1 = 3\pi_2 \Rightarrow \pi_2 = \frac{2}{3}\pi_1 = \frac{4}{9}\pi_0$.
+> $\pi_0(1 + \frac{2}{3} + \frac{4}{9}) = 1 \Rightarrow \pi_0 = \frac{9}{19}$. $\pi_1 = \frac{6}{19}$, $\pi_2 = \frac{4}{19}$.
+
+**Kuis 2 2024 No. 3.** Taksi tiba rate 1/menit, pelanggan tiba rate 2/menit. Pelanggan pergi jika tidak ada taksi. Modelkan state sebagai jumlah taksi menunggu (bisa 0, 1, 2, ...). Tulis balance equation untuk state $n \geq 1$.
+
+> **Jawaban:** $\lambda = 1$ (taksi), $\mu = 2$ (pelanggan mengambil taksi). Balance: $\lambda \pi_n = \mu \pi_{n+1} \Rightarrow 1 \cdot \pi_n = 2 \cdot \pi_{n+1} \Rightarrow \pi_{n+1} = \frac{1}{2}\pi_n$. $\pi_n = (\frac{1}{2})^n \pi_0$.

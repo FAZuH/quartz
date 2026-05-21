@@ -1,15 +1,14 @@
 ---
 publish: true
 created: 2026-04-09T23:07:39.543+07:00
-modified: 2026-04-09T23:07:39.544+07:00
-published: 2026-04-09T23:07:39.544+07:00
+modified: 2026-05-17T22:03:05.197+07:00
+published: 2026-05-17T22:03:05.197+07:00
 cssclasses: ""
 creation-time: 2025-02-28 16:57
 status: complete
 tags:
 parent:
   - "[[studying]]"
-  - "[[philosophy]]"
 ---
 
 

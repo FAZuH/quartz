@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Existence of CTMC Limit Probabilities
 created: 2026-05-08T06:23:06.529+07:00
-modified: 2026-05-08T06:23:06.529+07:00
-published: 2026-05-08T06:23:06.529+07:00
+modified: 2026-05-21T21:01:14.233+07:00
+published: 2026-05-21T21:01:14.233+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:17
 status: in progress
@@ -48,3 +48,15 @@ Also: $\pi_j = \nu_j / (\sum_{i \in S} \nu_i)$ in terms of the sojourn rates.
 - [[3 Reference/ctmc-balance-equations_202605080617\|CTMC Balance Equations]]
 - [[3 Reference/def-irreducible_202603280823\|Irreducible]]
 - [[3 Reference/def-ergodic-state_202603280835\|Ergodic State]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Cek konvergensi BD process.** Untuk BD process dengan $\lambda_n = \lambda$, $\mu_n = n\mu$ (M/M/∞), periksa apakah limit probabilitas ada.
+
+> **Jawaban:** $\theta_n = \frac{\lambda_0 \cdots \lambda_{n-1}}{\mu_1 \cdots \mu_n} = \frac{\lambda^n}{n! \mu^n} = \frac{(\lambda/\mu)^n}{n!}$. $\sum_{n=0}^{\infty} \theta_n = \sum \frac{(\lambda/\mu)^n}{n!} = e^{\lambda/\mu} < \infty$. Jadi limit probabilitas ada: $\pi_n = \frac{(\lambda/\mu)^n e^{-\lambda/\mu}}{n!}$ (Poisson).
+
+**Kondisi perlu ergodisitas.** Sebutkan dua syarat agar CTMC ergodik.
+
+> **Jawaban:** (1) Irreducible — semua state berkomunikasi. (2) Positive recurrent — expected return time ke setiap state finite. CTMC tidak memiliki masalah periodisitas (selalu aperiodik).

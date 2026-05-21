@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Cox Proportional Hazards Model
 created: 2026-05-05T14:48:39.808+07:00
-modified: 2026-05-05T14:48:39.808+07:00
-published: 2026-05-05T14:48:39.808+07:00
+modified: 2026-05-19T12:10:56.893+07:00
+published: 2026-05-19T12:10:56.893+07:00
 cssclasses: ""
 creation-time: 2026-05-05 14:48
 status: in progress
@@ -16,7 +16,7 @@ parent:
 
 ## Definition
 
-The **Cox Proportional Hazards (Cox-PH) Model** is a semiparametric regression model for survival data that relates hazard to covariates without assuming a distribution for the baseline hazard.
+The **Cox Proportional Hazards (Cox-PH) Model** is a semiparametric regression model for survival data that <u>relates hazard to covariates</u> (the $x_{i}$s) without assuming a distribution for the baseline hazard.
 
 **Model:**
 
@@ -26,7 +26,7 @@ In linear form:
 $$\log\,h(t, \mathbf{x}) = \log\,h_0(t) + \beta_1 x_1 + \cdots + \beta_P x_P$$
 
 where:
-- $h_0(t)$ : **baseline hazard** — the hazard when all covariates equal 0 (or reference level). This is a function of time $t$ only.
+- $h_0(t)$ : **baseline hazard** — the [[3 Reference/def-hazard-function_202603281500\|hazard]] when all covariates equal 0 (or reference level). This is a function of time $t$ only.
 - $\boldsymbol{\beta} = (\beta_1, \ldots, \beta_P)$ : **regression coefficients**, each $\beta_j$ corresponds to covariate $x_j$
 - $\mathbf{x} = (x_1, \ldots, x_P)$ : vector of covariates (can be categorical or numeric)
 
@@ -77,6 +77,52 @@ If the effect of $x_1$ depends on $x_2$, add an interaction term:
 $$h(t, \mathbf{x}) = h_0(t) e^{\beta_1 x_1 + \beta_2 x_2 + \beta_3 x_1 x_2}$$
 
 For interactions between categorical (dummy) and numeric variables, multiply each dummy by the numeric variable.
+
+## Dependency Graph
+
+```mermaid
+graph TD
+    classDef def fill:#1e3a5f,stroke:#90caf9,stroke-width:2px,color:#bbdefb
+    classDef proc fill:#1b3b28,stroke:#a5d6a7,stroke-width:2px,color:#c8e6c9
+    classDef sheet fill:#3d2e15,stroke:#ffcc80,stroke-width:2px,color:#ffe0b2
+
+    subgraph Prereqs["Prerequisites"]
+        ST["Survival Time — def"]:::def
+        CD["Censored Data — def"]:::def
+        HF["Hazard Function — def"]:::def
+        LCD["Likelihood (Censored) — def"]:::def
+        KM["Kaplan-Meier — def"]:::def
+        LR["Log-Rank Test — def"]:::def
+        STR["Stratified Test — def"]:::def
+        
+        ST --> HF
+        CD --> LCD
+        HF --> KM
+        LCD --> KM
+        KM --> LR
+        LR --> STR
+    end
+
+    subgraph CoxPH["Cox Proportional Hazards"]
+        CPH["Cox PH Model — def"]:::def
+        HR["Hazard Ratio — def"]:::def
+        PHC["Checking PH Assumption — proc"]:::proc
+        PL["Partial Likelihood — def"]:::def
+        LWT["Likelihood with Ties — def"]:::def
+        CS["Cox PH Cheatsheet — sheet"]:::sheet
+        
+        CPH --> HR
+        CPH --> PL
+        HR --> PHC
+        PL --> LWT
+        PHC --> CS
+        LWT --> CS
+    end
+
+    HF --> CPH
+    STR --> CPH
+    LCD --> PL
+```
 
 ## Related
 

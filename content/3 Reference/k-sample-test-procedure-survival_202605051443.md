@@ -3,8 +3,8 @@ publish: true
 aliases:
   - K-Sample Test Procedure Survival
 created: 2026-05-05T14:43:10.010+07:00
-modified: 2026-05-05T14:43:10.010+07:00
-published: 2026-05-05T14:43:10.010+07:00
+modified: 2026-05-19T11:11:37.200+07:00
+published: 2026-05-19T11:11:37.200+07:00
 cssclasses: ""
 creation-time: 2026-05-05 14:43
 status: in progress
@@ -94,6 +94,25 @@ fit <- survdiff(Surv(time, status) ~ group)
 fit
 # Output: N, Observed, Expected, (O-E)^2/E, (O-E)^2/V, Chisq, df, p-value
 ```
+
+## Example: Cancer Stages (4 Groups)
+
+**Case**: Larynx cancer patients grouped by disease stage (I, II, III, IV). Question: Does survival differ across stages?
+
+```r
+fit <- survdiff(Surv(time, status) ~ as.factor(stage), data = dat)
+fit  # χ² with 3 df
+```
+
+**Interpretation flow**:
+
+1. **Omnibus test**: `survdiff` gives overall $\chi^2$ with $df = K-1 = 3$. If significant → at least two stages differ.
+2. **Direction check**: KM curves plotted by stage show Stage I (highest) → Stage IV (lowest), suggesting monotonic ordering.
+3. **Follow-up**: If ordering exists, proceed to [[3 Reference/trend-test-survival_202605051407\|Trend Test]] to test whether hazard increases monotonically with stage.
+4. **Partial comparisons**: Test specific pairs (e.g., Stage II vs I) to identify which stages actually differ.
+
+> [!TIP] Interpretation
+> The omnibus k-sample test tells **whether** groups differ. The trend test tells **in what direction**. Always do the omnibus test first, then follow up with a trend test if groups have a natural ordering.
 
 ## Related
 

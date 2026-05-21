@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Stochastic Model
 created: 2026-03-29T12:54:01.179+07:00
-modified: 2026-05-08T06:25:18.086+07:00
-published: 2026-05-08T06:25:18.086+07:00
+modified: 2026-05-18T17:36:16.969+07:00
+published: 2026-05-18T17:36:16.969+07:00
 tags:
   - type/category
 cssclasses: ""
@@ -134,6 +134,7 @@ parent:
   - **[[3 Reference/ergodic-birth-and-death-process-is-time-reversible_202605080617\|Ergodic Birth and Death Process is Time Reversible]]**
   - **[[3 Reference/truncated-time-reversible-ctmc_202605080618\|Truncated Time Reversible CTMC]]**
 - *[[3 Reference/quasistationary-probability-distribution_202605080619\|Quasistationary Probability Distribution]]*
+- *[[3 Reference/uniformization-of-ctmc_202605181736\|Uniformization of CTMC]]*
 
 ## Queueing Systems
 

@@ -3,15 +3,15 @@ publish: true
 aliases:
   - Playing Arknights on Linux via Android Emulator
 created: 2026-05-16T22:02:06.645+07:00
-modified: 2026-05-17T17:12:46.605+07:00
-published: 2026-05-17T17:12:46.605+07:00
+modified: 2026-05-19T12:19:30.010+07:00
+published: 2026-05-19T12:19:30.010+07:00
 tags:
   - 
 cssclasses: ""
 creation-time: 2026-05-16 22:02
 status: in progress
 parent:
-  - "[[archived-text]]"
+  - "[[linux]]"
 ---
 
 Based on https://gist.github.com/aadi58002/ae640e9537cc39596b8bf9b25c54fb87. Archived 2026-05-16 22:03 at [[2 Personal/playing-arknights-on-linux-via-android-emulator_202605162202]]

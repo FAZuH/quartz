@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Birth and Death Process
 created: 2026-05-08T05:33:03.398+07:00
-modified: 2026-05-08T05:33:03.399+07:00
-published: 2026-05-08T05:33:03.399+07:00
+modified: 2026-05-21T20:59:30.403+07:00
+published: 2026-05-21T20:59:30.403+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:17
 status: in progress
@@ -55,3 +55,15 @@ The probability of birth before death at state $i$ follows from the minimum of i
 - [[3 Reference/pure-birth-process_202605080516\|Pure Birth Process]]
 - [[3 Reference/yule-process_202605080517\|Yule Process]]
 - [[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 2.** Reaksi kimia: $N$ molekul A → B irreversibel. Jika ada $j$ molekul, setiap molekul berubah dengan laju $q$. Klasifikasikan $\{X(t)\}$ (banyaknya molekul A) sebagai proses stokastik.
+
+> **Jawaban:** Proses kematian murni (pure death process). Hanya transisi $j \to j-1$ yang mungkin, dengan laju kematian $\mu_j = qj$ dan laju kelahiran $\lambda_j = 0$ untuk semua $j$.
+
+**Kuis 2 2024 No. 3.** Taksi dan pelanggan tiba di stasiun — taksi dengan rate 1/menit, pelanggan dengan rate 2/menit. Taksi selalu menunggu, pelanggan pergi jika tidak ada taksi. Tentukan rate kelahiran $\lambda_n$ dan rate kematian $\mu_n$.
+
+> **Jawaban:** State $n$ = jumlah taksi menunggu (bisa negatif = pelanggan menunggu, tapi pelanggan pergi jika taksi kosong). $\lambda_n = 1$ (taksi tiba), $\mu_n = 2$ untuk $n > 0$ (pelanggan mengambil taksi), tapi $\mu_0$ = hanya kedatangan pelanggan yang langsung pergi. Lebih tepat: model sebagai BD dengan state taksi.

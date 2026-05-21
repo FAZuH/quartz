@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Partial Likelihood Cox PH
 created: 2026-05-05T14:49:51.385+07:00
-modified: 2026-05-05T15:51:22.912+07:00
-published: 2026-05-05T15:51:22.912+07:00
+modified: 2026-05-19T14:43:29.557+07:00
+published: 2026-05-19T14:43:29.557+07:00
 cssclasses: ""
 creation-time: 2026-05-05 14:49
 status: in progress
@@ -14,9 +14,17 @@ parent:
 ---
 
 
-## Definition
+Component of the full likelihood used to estimate $\boldsymbol{\beta}$ in the Cox PH model, treating the baseline hazard $h_0(t)$ as a nuisance parameter.
 
-The **Partial Likelihood** is the component of the full likelihood used to estimate $\boldsymbol{\beta}$ in the Cox PH model, treating the baseline hazard $h_0(t)$ as a nuisance parameter.
+## Partial Likelihood (No Ties)
+
+Let there be $D$ distinct event times: $t_1 < t_2 < \ldots < t_D$. At each $t_j$, let $R_j$ be the **risk set** — all subjects still at risk just before $t_j$.
+
+$$\boxed{L_1(\boldsymbol{\beta}) = \prod_{j=1}^D \frac{e^{\boldsymbol{\beta}'\mathbf{x}_{(j)}}}{\sum_{l \in R_j} e^{\boldsymbol{\beta}'\mathbf{x}_l}}}$$
+
+where:
+- $\mathbf{x}_{(j)}$ : covariate vector of the subject who experiences the event at $t_j$
+- $R_j$ : set of indices of subjects at risk at $t_j$
 
 ## Full Likelihood Factorization
 
@@ -34,16 +42,6 @@ $$L(\boldsymbol{\beta}, h_0(\cdot)) = L_1(\boldsymbol{\beta}) \times L_2(\boldsy
 
 where $L_1(\boldsymbol{\beta})$ is the **partial likelihood** — it depends only on $\boldsymbol{\beta}$ and the event ordering, not on $h_0(t)$.
 
-## Partial Likelihood (No Ties)
-
-Let there be $D$ distinct event times: $t_1 < t_2 < \ldots < t_D$. At each $t_j$, let $R_j$ be the **risk set** — all subjects still at risk just before $t_j$.
-
-$$\boxed{L_1(\boldsymbol{\beta}) = \prod_{j=1}^D \frac{e^{\boldsymbol{\beta}'\mathbf{x}_{(j)}}}{\sum_{l \in R_j} e^{\boldsymbol{\beta}'\mathbf{x}_l}}}$$
-
-where:
-- $\mathbf{x}_{(j)}$ : covariate vector of the subject who experiences the event at $t_j$
-- $R_j$ : set of indices of subjects at risk at $t_j$
-
 ## Intuition
 
 At each event time $t_j$, the contribution to the likelihood is the ratio:
@@ -57,6 +55,27 @@ Since events are assumed independent, multiply across all event times.
 ## Estimation
 
 Maximize $\log L_1(\boldsymbol{\beta})$ to obtain $\hat{\boldsymbol{\beta}}$ (MLE). The score function and information matrix give standard errors. This is done numerically (e.g., Newton-Raphson) in practice.
+
+## Example: Burn Data
+
+**Setup**: 154 burn patients. Model: $h(t, \text{gender}) = h_0(t) e^{\beta_1 \cdot \text{gender}}$, with gender = 1 (female), 0 (male).
+
+**At $t = 4$**: $Y = 145$ at risk (31 female, 114 male). $d = 5$ events (1 female, 4 male).
+
+**Breslow contribution**:
+$$L_{\text{Breslow}}(t=4) = \frac{e^{\beta_1}}{[114 + 31 e^{\beta_1}]^5}$$
+
+**Efron contribution** — total hazard of 5 event subjects: $4 + e^{\beta_1}$:
+$$L_{\text{Efron}}(t=4) = \frac{e^{\beta_1}}{\prod_{j=1}^5 \left[31 e^{\beta_1} + 114 - \frac{j-1}{5}(4 + e^{\beta_1})\right]}$$
+
+**Discrete contribution** — 6 possible gender combinations for 5 events:
+$$\sum_{l=0}^5 \binom{114}{l} \binom{31}{5-l} e^{(5-l)\beta_1}$$
+
+| Method | Accuracy | Speed | R Default? |
+|--------|----------|-------|------------|
+| Breslow | Good for few ties | Fastest | No |
+| **Efron** | Better | Moderate | **Yes** |
+| Discrete | Exact | Slow (combinatorial) | No — use `method = "exact"` |
 
 ## Related
 

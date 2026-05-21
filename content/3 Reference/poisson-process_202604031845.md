@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Poisson Process
 created: 2026-04-09T23:07:39.554+07:00
-modified: 2026-04-10T04:05:32.129+07:00
-published: 2026-04-10T04:05:32.129+07:00
+modified: 2026-05-18T18:30:47.785+07:00
+published: 2026-05-18T18:30:47.785+07:00
 tags:
   - type/definition
 cssclasses: ""
@@ -29,11 +29,11 @@ Then $\{N(t), t \geq 0\}$ is a **Poisson Process** of rate $\lambda > 0$
 
 
 > [!TIP] Interpretation
-> A Poisson process models events occurring randomly in <u>continuous time</u> (unline [[3 Reference/poisson-distribution_202604092032\|Poisson Distribution]] which is discrete) at a constant average rate $\lambda$.
+> A Poisson process models events occurring randomly in <u>continuous time</u> (unlike [[3 Reference/poisson-distribution_202604092032\|Poisson Distribution]] which is discrete) at a constant average rate $\lambda$.
 > 
 
 > [!TIP] About 3rd and 4th condition
-> The MAIN point of condition 3 and 4 is to "concern" ourself only for <u>modeling events occuring one at a time</u>, not two or more at a time (vanishingly small)
+> The MAIN point of conditions 3 and 4 is to "concern" ourselves only with <u>modeling events occurring one at a time</u>, not two or more at a time (the probability of multiple simultaneous events is vanishingly small)
 > 
 >  Conditions 3 and 4 say: in a tiny interval $h$, the chance of exactly one event is proportional to $h$, and the chance of two or more is negligible.
 

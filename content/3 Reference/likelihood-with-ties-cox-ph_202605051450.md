@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Likelihood with Ties Cox PH
 created: 2026-05-05T14:50:23.058+07:00
-modified: 2026-05-05T15:51:28.035+07:00
-published: 2026-05-05T15:51:28.035+07:00
+modified: 2026-05-19T14:40:52.045+07:00
+published: 2026-05-19T14:40:52.045+07:00
 cssclasses: ""
 creation-time: 2026-05-05 14:50
 status: in progress
@@ -14,9 +14,7 @@ parent:
 ---
 
 
-## Definition
-
-When multiple events occur at the same time $t_i$ (**ties**), the partial likelihood must account for the possible event orderings. Three methods exist.
+When multiple events occur at the same time $t_i$ (**ties**), the partial likelihood must account for the possible event orderings. Three methods exist: [[3 Reference/likelihood-with-ties-cox-ph_202605051450#Method 1 Breslow (Approximation)\|breslow]], [[3 Reference/likelihood-with-ties-cox-ph_202605051450#Method 2 Efron (Improved Approximation)\|efron]] and [[3 Reference/likelihood-with-ties-cox-ph_202605051450#Method 3 Discrete (Exact)\|discrete]]
 
 ## Notation
 

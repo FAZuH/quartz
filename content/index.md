@@ -24,7 +24,6 @@ i.e., categories that is not a subcategory/is parentless
 - [[3 Reference/structure/finance\|finance]]
 - [[3 Reference/structure/guideline\|guideline]]
 - [[3 Reference/structure/mathematics\|mathematics]]
-- [[3 Reference/structure/philosophy\|philosophy]]
 - [[3 Reference/structure/statistics\|statistics]]
 - [[3 Reference/structure/studying\|studying]]
 

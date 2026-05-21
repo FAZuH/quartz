@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Queueing System with Balking
 created: 2026-05-08T05:33:03.436+07:00
-modified: 2026-05-08T05:33:03.437+07:00
-published: 2026-05-08T05:33:03.437+07:00
+modified: 2026-05-21T21:04:32.891+07:00
+published: 2026-05-21T21:04:32.891+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:21
 status: in progress
@@ -44,3 +44,15 @@ This is the M/M/1/$N$ queue, where customers finding $N$ in the system are **los
 - [[3 Reference/m-m-1-queueing-system_202605080520\|M/M/1 Queueing System]]
 - [[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]
 - [[3 Reference/queueing-system_202605080520\|Queueing System]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 10.** Loket tiket: 1 petugas, kapasitas 2 (1 dilayani + 1 menunggu). $\lambda = 2$/menit, $\mu = 3$/menit. Pelanggan datang saat penuh → pergi (balking). Tentukan $\pi_0, \pi_1, \pi_2$.
+
+> **Jawaban:** $\lambda_0 = \lambda_1 = 2$, $\lambda_2 = 0$ (balking). $\mu_1 = \mu_2 = 3$. $\pi_1 = \frac{2}{3}\pi_0$, $\pi_2 = \frac{2}{3}\pi_1 = \frac{4}{9}\pi_0$. $\pi_0(1 + \frac{2}{3} + \frac{4}{9}) = 1 \Rightarrow \pi_0 = \frac{9}{19}$, $\pi_1 = \frac{6}{19}$, $\pi_2 = \frac{4}{19}$.
+
+**Kuis 2 2024 No. 3.** Taksi (rate 1/menit) dan pelanggan (rate 2/menit) di stasiun. Taksi selalu menunggu, pelanggan pergi (balking) jika tidak ada taksi. Tentukan rata-rata jumlah taksi menunggu.
+
+> **Jawaban:** State $n$ = jumlah taksi. $\lambda_n = 1$ (taksi tiba), $\mu_n = 2$ untuk $n \geq 1$ (pelanggan ambil taksi). $\pi_n = (\frac{1}{2})^n \pi_0$, $\pi_0 = 1/2$. $L = \sum n \pi_n = \sum n (\frac{1}{2})^{n+1} = \frac{1/2}{(1-1/2)^2} \cdot \frac{1}{2} = 1$ taksi rata-rata.

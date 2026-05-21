@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Solving BD Process Balance Equations
 created: 2026-05-08T06:23:06.543+07:00
-modified: 2026-05-08T06:23:06.544+07:00
-published: 2026-05-08T06:23:06.544+07:00
+modified: 2026-05-21T21:01:53.663+07:00
+published: 2026-05-21T21:01:53.663+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:18
 status: in progress
@@ -59,3 +59,21 @@ $$\sum_{n=1}^{\infty} \frac{\lambda_0\lambda_1 \cdots \lambda_{n-1}}{\mu_1\mu_2 
 - [[3 Reference/ctmc-balance-equations_202605080617\|CTMC Balance Equations]]
 - [[3 Reference/birth-and-death-process_202605080517\|Birth and Death Process]]
 - [[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 6-7.** M/M/1/2: $\lambda = 3$/jam, $\mu = 4$/jam. Tentukan:
+
+(a) Rata-rata jumlah tugas dalam sistem.
+
+> **Jawaban:** $\rho = 3/4$. $\pi_0 = \frac{1}{1+\rho+\rho^2} = \frac{16}{49}$, $\pi_1 = \frac{12}{49}$, $\pi_2 = \frac{9}{49}$. $L = 0 \cdot \frac{16}{49} + 1 \cdot \frac{12}{49} + 2 \cdot \frac{9}{49} = \frac{30}{49}$.
+
+(b) Probabilitas sistem sedang melayani tepat satu tugas.
+
+> **Jawaban:** $P(\text{tepat satu}) = \pi_1 = \frac{12}{49}$.
+
+**Kuis 2 2024 No. 3.** Taksi (rate 1/menit) dan pelanggan (rate 2/menit). Pelanggan pergi jika taksi kosong. Tentukan proporsi pelanggan yang langsung dapat taksi.
+
+> **Jawaban:** Misal state = jumlah taksi menunggu. $\lambda = 1$, $\mu = 2$. $\pi_n = (\frac{1}{2})^n \pi_0$. $\sum \pi_n = 1 \Rightarrow \pi_0 = \frac{1}{2}$. Proporsi pelanggan dapat taksi = $1 - \pi_0 = \frac{1}{2}$ (pelanggan hanya pergi saat state 0).

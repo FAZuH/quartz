@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Types of Censoring
 created: 2026-04-09T23:07:38.968+07:00
-modified: 2026-04-09T23:07:38.969+07:00
-published: 2026-04-09T23:07:38.969+07:00
+modified: 2026-05-19T11:10:35.368+07:00
+published: 2026-05-19T11:10:35.368+07:00
 cssclasses: ""
 creation-time: 2026-03-28 15:00
 status: in progress
@@ -42,6 +42,20 @@ Event known to occur within an <u>interval</u> $[L, R]$.
 ### Double Censoring
 
 Dataset contains both left-censored and right-censored observations.
+
+## Examples
+
+### Right Censoring, Type I (Fixed Time)
+
+**Clinical Trial**: 30 patients treated for heart disease, observed for 6 years. Only 10 had strokes during the study. The other 20 are <u>right-censored (type I)</u> — we know they survived at least 6 years but don't know when (or if) they will have a stroke.
+
+### Right Censoring, Type II (Failure Count)
+
+**Carcinogen Study**: 40 mice injected with carcinogen, observed until 25 show disease symptoms. The remaining 15 mice are <u>right-censored (type II)</u> — they may develop disease later but we stopped before observing it.
+
+### Left Censoring + Right Censoring (Double Censoring)
+
+**Survey**: Children asked when they started using gadgets. Some cannot remember exact time (<u>left-censored</u>), some started during the study (observed), some haven't started yet (<u>right-censored</u>).
 
 ## Comparison with Truncation
 

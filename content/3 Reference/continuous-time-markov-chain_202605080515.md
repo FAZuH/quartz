@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Continuous-Time Markov Chain
 created: 2026-05-08T05:33:03.404+07:00
-modified: 2026-05-08T05:33:03.405+07:00
-published: 2026-05-08T05:33:03.405+07:00
+modified: 2026-05-21T20:58:32.307+07:00
+published: 2026-05-21T20:58:32.307+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:15
 status: in progress
@@ -56,3 +56,13 @@ The [[3 Reference/poisson-process_202604031845\|Poisson Process]] is a CTMC wher
 - [[3 Reference/def-markov-property_202603280803\|Markov Property]]
 - [[3 Reference/pure-birth-process_202605080516\|Pure Birth Process]]
 - [[3 Reference/birth-and-death-process_202605080517\|Birth and Death Process]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 1.** Suatu reaksi kimia mengubah molekul A menjadi B secara irreversibel. Awalnya ada $N$ molekul A. Jika pada waktu $t$ terdapat $j$ molekul A, setiap molekul berubah menjadi B dalam $[t, t+h)$ dengan probabilitas $qh + o(h)$, untuk $q > 0$. Modelkan banyaknya molekul A sebagai CTMC.
+
+Tentukan state-space (ruang keadaan).
+
+> **Jawaban:** $\{0, 1, \ldots, N\}$. Karena awalnya ada $N$ molekul dan reaksi irreversibel (hanya berkurang), jumlah molekul A hanya bisa bernilai $0$ sampai $N$.

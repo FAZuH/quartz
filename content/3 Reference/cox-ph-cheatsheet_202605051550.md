@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Cox PH Cheatsheet
 created: 2026-05-05T15:50:33.214+07:00
-modified: 2026-05-05T15:50:33.214+07:00
-published: 2026-05-05T15:50:33.214+07:00
+modified: 2026-05-19T12:03:26.182+07:00
+published: 2026-05-19T12:03:26.182+07:00
 cssclasses: ""
 creation-time: 2026-05-05 15:50
 status: in progress
@@ -62,6 +62,8 @@ For categorical $X$ with $L$ levels, create $L-1$ dummies, one level as referenc
 **Log-cumulative-hazard plot**: Plot $\ln(-\ln \hat{S}(t))$ by group. Parallel curves → PH holds.
 
 ```r
+library(survival)
+
 fit <- survfit(Surv(time, status) ~ group)
 plot(fit, fun = "cloglog", col = c("blue", "red"))
 ```

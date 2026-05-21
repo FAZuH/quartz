@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Embedded Markov Chain
 created: 2026-05-08T06:23:06.523+07:00
-modified: 2026-05-08T06:23:06.524+07:00
-published: 2026-05-08T06:23:06.524+07:00
+modified: 2026-05-21T21:00:13.637+07:00
+published: 2026-05-21T21:00:13.637+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:16
 status: in progress
@@ -58,3 +58,15 @@ where $P_i$ are CTMC limiting probabilities, $\pi_i$ are embedded DTMC limiting 
 - [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
 - [[3 Reference/transition-rate-matrix_202605080516\|Transition Rate Matrix]]
 - [[3 Reference/class-properties-of-ctmc_202605080616\|Class Properties of CTMC]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 4.** Reaksi kimia: $N$ molekul A → B, laju $qj$ dari state $j$. Tentukan $P_{j, j-1}$ dan $P_{j, j}$ (probabilitas transisi embedded MC).
+
+> **Jawaban:** $P_{j, j-1} = 1$ untuk $j > 0$, $P_{0,0} = 1$ (absorbing). Karena hanya satu transisi yang mungkin ($j \to j-1$), probabilitas embedded MC untuk transisi tersebut adalah 1. $P_{jj} = 0$ untuk semua state non-absorbing (embedded MC selalu berubah state).
+
+**Dari Q ke P.** Diberikan $Q = \begin{bmatrix} -2 & 2 & 0 \\ 1 & -3 & 2 \\ 0 & 2 & -2 \end{bmatrix}$. Tentukan matriks transisi embedded MC $P$.
+
+> **Jawaban:** $\nu_0 = 2$, $P_{01} = 1$. $\nu_1 = 3$, $P_{10} = 1/3$, $P_{12} = 2/3$. $\nu_2 = 2$, $P_{21} = 1$. Jadi $P = \begin{bmatrix} 0 & 1 & 0 \\ 1/3 & 0 & 2/3 \\ 0 & 1 & 0 \end{bmatrix}$.

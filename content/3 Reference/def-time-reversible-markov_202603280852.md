@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Time Reversible Markov Chain
 created: 2026-04-09T23:07:39.334+07:00
-modified: 2026-04-09T23:07:39.335+07:00
-published: 2026-04-09T23:07:39.335+07:00
+modified: 2026-05-18T18:31:52.658+07:00
+published: 2026-05-18T18:31:52.658+07:00
 cssclasses: ""
 creation-time: 2026-03-28 08:52
 status: in progress
@@ -37,7 +37,7 @@ $$P_{i,i_1} P_{i_1,i_2} \dots P_{i_k,i} = P_{i,i_k} P_{i_k,i_{k-1}} \dots P_{i_1
 
 - **Random Walk on Graphs** (with symmetric weights $w_{ij} = w_{ji}$): $P_{ij} = \frac{w_{ij}}{\sum w_{ik}}$ is time reversible
 - **Ehrenfest Urn**: [[3 Reference/def-state-stochastic_202603280801\|State]] $i$ (number of balls in Urn 1) is time reversible with $\pi_i = \binom{M}{i} (\frac{1}{2})^M$
-- **One-closer rule**: Reordering rule that is time reversible, unlike move-to-front
+- **One-closer rule**: A reordering rule where a requested item moves one position closer to the front (rather than jumping all the way to the front as in move-to-front). Unlike move-to-front, the one-closer rule yields a time reversible Markov chain
 
 ## Related
 

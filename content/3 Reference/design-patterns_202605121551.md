@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Design Patterns
 created: 2026-05-12T15:51:02.849+07:00
-modified: 2026-05-15T17:58:03.537+07:00
-published: 2026-05-15T17:58:03.537+07:00
+modified: 2026-05-19T15:47:01.570+07:00
+published: 2026-05-19T15:47:01.570+07:00
 tags:
   - 
 cssclasses: ""
@@ -24,6 +24,7 @@ parent:
 	- [[3 Reference/factory-method-versus-abstract-factory_202605150740\|Factory Method versus Abstract Factory]]
 	- [[3 Reference/prototype_202605150923\|Prototype]]
 	- [[3 Reference/builder_202605151758\|Builder]]
+	- [[3 Reference/singleton_202605191546\|Singleton]]
 - [[3 Reference/structural-design-pattern_202605121843\|Structural Design Pattern]]
 - [[3 Reference/behavioral-design-pattern_202605121844\|Behavioral Design Pattern]]
 

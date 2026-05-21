@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Stochastic SIR Epidemic Model
 created: 2026-05-08T06:23:06.547+07:00
-modified: 2026-05-08T06:23:06.548+07:00
-published: 2026-05-08T06:23:06.548+07:00
+modified: 2026-05-18T18:30:48.136+07:00
+published: 2026-05-18T18:30:48.136+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:20
 status: in progress
@@ -31,7 +31,12 @@ The process $\{(S(t), I(t)) : t \geq 0\}$ has state space $\{(i, j) : i = 0, \ld
 
 ## Transition Rates
 
-$$\begin{aligned} P_{(i,j) \to (i-1, j+1)}(\Delta t) &= \frac{\beta i j}{N} \Delta t + o(\Delta t) \quad \text{(infection)} \\ P_{(i,j) \to (i, j-1)}(\Delta t) &= \gamma j \Delta t + o(\Delta t) \quad \text{(recovery)} \end{aligned}$$
+$$
+\begin{aligned}
+P_{(i,j) \to (i-1, j+1)}(\Delta t) &= \frac{\beta i j}{N} \Delta t + o(\Delta t) \quad \text{(infection)} \\[4pt]
+P_{(i,j) \to (i, j-1)}(\Delta t) &= \gamma j \Delta t + o(\Delta t) \quad \text{(recovery)}
+\end{aligned}
+$$
 
 > [!TIP] Interpretation
 > Unlike the SIS model, the SIR model is not a simple birth-death process — it is **bivariate**. The state $(i, j)$ tracks both susceptibles and infectives. All states with $j = 0$ (no infectives) are absorbing — the epidemic ends.

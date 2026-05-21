@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Kolmogorov Differential Equations
 created: 2026-05-08T05:33:03.414+07:00
-modified: 2026-05-08T05:33:03.414+07:00
-published: 2026-05-08T05:33:03.414+07:00
+modified: 2026-05-21T20:59:40.535+07:00
+published: 2026-05-21T20:59:40.535+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:18
 status: in progress
@@ -53,3 +53,15 @@ The solution is $P(t) = e^{Qt}$, where $e^{Qt}$ is the [[3 Reference/matrix-expo
 - [[3 Reference/transition-rate-matrix_202605080516\|Transition Rate Matrix]]
 - [[3 Reference/matrix-exponential_202605080518\|Matrix Exponential]]
 - [[3 Reference/ctmc-chapman-kolmogorov-equation_202605080516\|CTMC Chapman-Kolmogorov Equation]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 8.** Untuk $Q = \begin{bmatrix} -2 & 2 & 0 \\ 1 & -3 & 2 \\ 0 & 2 & -2 \end{bmatrix}$, tuliskan persamaan forward untuk $P_{00}(t)$.
+
+> **Jawaban:** $\frac{d}{dt}P_{00}(t) = P_{00}(t)q_{00} + P_{01}(t)q_{10} + P_{02}(t)q_{20} = -2P_{00}(t) + P_{01}(t) \cdot 1$.
+
+**CTMC 2-state.** Untuk $Q = \begin{bmatrix} -\lambda & \lambda \\ \mu & -\mu \end{bmatrix}$, selesaikan persamaan backward untuk $P_{00}(t)$.
+
+> **Jawaban:** $\frac{d}{dt}P_{00}(t) = -\lambda P_{00}(t) + \lambda P_{10}(t)$. Dengan $P_{10} = 1 - P_{00}$: $\frac{d}{dt}P_{00} = -\lambda P_{00} + \lambda(1-P_{00}) = \lambda - (\lambda+\mu)P_{00}$. Solusi: $P_{00}(t) = \frac{\mu}{\lambda+\mu} + \frac{\lambda}{\lambda+\mu}e^{-(\lambda+\mu)t}$.

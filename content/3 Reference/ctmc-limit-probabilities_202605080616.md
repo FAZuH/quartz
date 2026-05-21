@@ -3,8 +3,8 @@ publish: true
 aliases:
   - CTMC Limit Probabilities
 created: 2026-05-08T06:23:06.521+07:00
-modified: 2026-05-08T06:23:06.522+07:00
-published: 2026-05-08T06:23:06.522+07:00
+modified: 2026-05-21T21:01:00.770+07:00
+published: 2026-05-21T21:01:00.770+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:16
 status: in progress
@@ -59,3 +59,19 @@ $$\boldsymbol{\pi} P = \boldsymbol{\pi}, \quad \boldsymbol{\pi} Q = \mathbf{0}$$
 - [[3 Reference/ctmc-balance-equations_202605080617\|CTMC Balance Equations]]
 - [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
 - [[3 Reference/def-stationary-distribution_202603280834\|Stationary Distribution]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 9.** Diberikan $Q = \begin{bmatrix} -2 & 2 & 0 \\ 1 & -3 & 2 \\ 0 & 4 & -4 \end{bmatrix}$ pada $S = \{1, 2, 3\}$. Tentukan $\lim_{t \to \infty} P[X_t = 3 \mid X_0 = 1]$.
+
+> **Jawaban:** Selesaikan $\boldsymbol{\pi} Q = \mathbf{0}$ dengan $\sum \pi_i = 1$:
+> $\begin{aligned} -2\pi_1 + \pi_2 &= 0 &\Rightarrow \pi_2 &= 2\pi_1 \\ 2\pi_1 - 3\pi_2 + 4\pi_3 &= 0 &\Rightarrow 2\pi_1 - 6\pi_1 + 4\pi_3 = 0 &\Rightarrow \pi_3 = \pi_1 \\ 2\pi_2 - 4\pi_3 &= 0 &\Rightarrow 4\pi_1 - 4\pi_1 = 0 &\text{(konsisten)} \end{aligned}$
+> $\pi_1 + 2\pi_1 + \pi_1 = 1 \Rightarrow \pi_1 = 1/4$. Jadi $\pi_3 = 1/4$. $\lim_{t \to \infty} P[X_t = 3 \mid X_0 = 1] = \pi_3 = 1/4$.
+
+**Kuis 2 2025 No. 6.** M/M/1/2: $\lambda = 3$/jam, $\mu = 4$/jam. Tentukan rata-rata jumlah tugas dalam sistem ($L$).
+
+> **Jawaban:** $\rho = 3/4$. Untuk M/M/1/2 (kapasitas 2):
+> $\pi_1 = \rho \pi_0$, $\pi_2 = \rho \pi_1 = \rho^2 \pi_0$. $\pi_0(1 + \rho + \rho^2) = 1 \Rightarrow \pi_0 = \frac{1}{1 + 3/4 + 9/16} = \frac{16}{49}$.
+> $L = 0 \cdot \pi_0 + 1 \cdot \pi_1 + 2 \cdot \pi_2 = \frac{12}{49} + \frac{18}{49} = \frac{30}{49}$.

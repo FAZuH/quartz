@@ -3,8 +3,8 @@ publish: true
 aliases:
   - M/M/s Queueing System
 created: 2026-05-08T05:33:03.428+07:00
-modified: 2026-05-08T05:33:03.429+07:00
-published: 2026-05-08T05:33:03.429+07:00
+modified: 2026-05-21T21:05:00.435+07:00
+published: 2026-05-21T21:05:00.435+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:21
 status: in progress
@@ -62,3 +62,15 @@ Then $\pi_0 = 1 / \sum_{j=0}^{\infty} \theta_j$ and $\pi_k = \theta_k \pi_0$.
 - [[3 Reference/m-m-1-queueing-system_202605080520\|M/M/1 Queueing System]]
 - [[3 Reference/m-m-∞-queueing-system_202605080521\|M/M/∞ Queueing System]]
 - [[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**M/M/2 — konstruksi Q.** Dua server identik, $\lambda = 4$/jam, $\mu = 3$/jam per server. Tentukan matriks generator $Q$ untuk state $\{0, 1, 2, 3\}$.
+
+> **Jawaban:** $\lambda_n = 4$ untuk semua $n$. $\mu_1 = 3$, $\mu_2 = 6$, $\mu_3 = 6$. $Q = \begin{bmatrix} -4 & 4 & 0 & 0 \\ 3 & -7 & 4 & 0 \\ 0 & 6 & -10 & 4 \\ 0 & 0 & 6 & -10 \end{bmatrix}$.
+
+**Cek kondisi steady-state.** Kapan M/M/2 mencapai steady-state?
+
+> **Jawaban:** $\rho = \frac{\lambda}{s\mu} = \frac{4}{2 \cdot 3} = \frac{2}{3} < 1$ → steady-state exists.

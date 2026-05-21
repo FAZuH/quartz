@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Class Properties of CTMC
 created: 2026-05-08T06:23:06.514+07:00
-modified: 2026-05-08T06:23:06.515+07:00
-published: 2026-05-08T06:23:06.515+07:00
+modified: 2026-05-21T21:00:27.767+07:00
+published: 2026-05-21T21:00:27.767+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:16
 status: in progress
@@ -45,3 +45,15 @@ Since $P_{ii} = 0$ in the embedded MC (the CTMC always changes state at jump tim
 - [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
 - [[3 Reference/def-irreducible_202603280823\|Irreducible]]
 - [[3 Reference/def-recurrent-transient_202603280824\|Recurrent vs Transient]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Klasifikasi state dari embedded MC.** Untuk $Q = \begin{bmatrix} -2 & 2 & 0 \\ 1 & -3 & 2 \\ 0 & 2 & -2 \end{bmatrix}$, tentukan: (a) kelas komunikasi, (b) irreducible atau tidak, (c) recurrent atau transient.
+
+> **Jawaban:** Embedded MC: $P = \begin{bmatrix} 0 & 1 & 0 \\ 1/3 & 0 & 2/3 \\ 0 & 1 & 0 \end{bmatrix}$. (a) Satu kelas: $\{0, 1, 2\}$ (semua state berkomunikasi — 0↔1, 1↔2, jadi 0↔2 via 1). (b) Irreducible. (c) Semua recurrent (state space finite + irreducible → positive recurrent). Tidak ada periodisitas di CTMC.
+
+**Periodisitas.** Mengapa CTMC tidak memiliki periodisitas?
+
+> **Jawaban:** Karena $P_{ii} = 0$ di embedded MC (selalu berubah state saat transisi), dan waktu holding bersifat eksponensial (kontinu). Transisi dapat terjadi kapan saja → periode selalu 1.

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Time Reversible CTMC
 created: 2026-05-08T06:23:06.551+07:00
-modified: 2026-05-08T06:23:06.552+07:00
-published: 2026-05-08T06:23:06.552+07:00
+modified: 2026-05-21T21:02:10.571+07:00
+published: 2026-05-21T21:02:10.571+07:00
 cssclasses: ""
 creation-time: 2026-05-08 06:17
 status: in progress
@@ -61,3 +61,15 @@ This often provides an easier way to find limiting probabilities than solving ba
 - [[3 Reference/truncated-time-reversible-ctmc_202605080618\|Truncated Time Reversible CTMC]]
 - [[3 Reference/continuous-time-markov-chain_202605080515\|Continuous-Time Markov Chain]]
 - [[3 Reference/def-time-reversible-markov_202603280852\|Time Reversible Markov Chain]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Verifikasi time reversibility.** Untuk BD process ergodik, buktikan bahwa $P_i q_{i,i+1} = P_{i+1} q_{i+1,i}$ (syarat time reversibility) ekuivalen dengan $\lambda_i P_i = \mu_{i+1} P_{i+1}$.
+
+> **Jawaban:** $q_{i,i+1} = \lambda_i$ (birth rate), $q_{i+1,i} = \mu_{i+1}$ (death rate). Jadi $P_i \lambda_i = P_{i+1} \mu_{i+1}$, yang merupakan persamaan detailed balance yang sudah terbukti dari balance equation BD process. Maka semua BD process ergodik bersifat time reversible.
+
+**M/M/1 truncated.** M/M/1 dengan $\lambda = 3$, $\mu = 4$ ditruncate ke state $\{0, 1, 2\}$ (M/M/1/2). Jika original $\pi_n = (1-\rho)\rho^n$ dengan $\rho = 3/4$, tentukan $\pi_n$ untuk truncated chain.
+
+> **Jawaban:** $\pi_n^A = \frac{\pi_n}{\sum_{i=0}^2 \pi_i} = \frac{(1-\rho)\rho^n}{(1-\rho)(1+\rho+\rho^2)} = \frac{\rho^n}{1+\rho+\rho^2}$. $\pi_0 = \frac{16}{49}$, $\pi_1 = \frac{12}{49}$, $\pi_2 = \frac{9}{49}$.

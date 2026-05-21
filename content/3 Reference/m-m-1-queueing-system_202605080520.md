@@ -3,8 +3,8 @@ publish: true
 aliases:
   - M/M/1 Queueing System
 created: 2026-05-08T05:33:03.423+07:00
-modified: 2026-05-08T05:33:03.424+07:00
-published: 2026-05-08T05:33:03.424+07:00
+modified: 2026-05-21T21:04:48.603+07:00
+published: 2026-05-21T21:04:48.603+07:00
 cssclasses: ""
 creation-time: 2026-05-08 05:20
 status: in progress
@@ -70,3 +70,15 @@ As $\rho \to 1$, $L \to \infty$ (the system "blows up"). A well-functioning syst
 - [[3 Reference/m-m-s-queueing-system_202605080521\|M/M/s Queueing System]]
 - [[3 Reference/m-m-∞-queueing-system_202605080521\|M/M/∞ Queueing System]]
 - [[3 Reference/birth-and-death-queueing-models_202605080521\|Birth and Death Queueing Models]]
+
+## Exercises
+
+> [!NOTE] Back to [[4 Projects/kuis-2_202605211907#Roadmap\|Roadmap 📖 → 🃏 → ✏]]
+
+**Kuis 2 2025 No. 10.** M/M/1 dengan kapasitas 2 (finite capacity). $\lambda = 2$/menit, $\mu = 3$/menit. Hitung $\rho$, cek kondisi steady-state, dan tentukan $\pi_n$ untuk $n = 0, 1, 2$.
+
+> **Jawaban:** $\rho = 2/3 < 1$ ✓. Untuk finite capacity, steady-state selalu ada. $\pi_1 = \rho \pi_0$, $\pi_2 = \rho^2 \pi_0$ (dengan $\lambda_2 = 0$). $\pi_0 = \frac{1}{1+\rho+\rho^2} = \frac{9}{19}$, $\pi_1 = \frac{6}{19}$, $\pi_2 = \frac{4}{19}$.
+
+**M/M/1 — metrik performa.** Untuk M/M/1 dengan $\lambda = 4$/jam, $\mu = 6$/jam, hitung $L$ dan $W$.
+
+> **Jawaban:** $\rho = 2/3$. $L = \frac{\rho}{1-\rho} = \frac{2/3}{1/3} = 2$ pelanggan. $W = \frac{1}{\mu-\lambda} = \frac{1}{2} = 0.5$ jam.
