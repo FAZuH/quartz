@@ -36,4 +36,8 @@
 *   Port over **`AGENTS.md`** (renamed from `GEMINI.md` in v4).
 
 ## Deviations from Initial Plan
-*(Add any deviations here as the migration progresses)*
+* **Search Enhancements (Step 3)**: Instead of forking the entire `github:quartz-community/search` plugin (which would be brittle due to internal dependency changes in v5), the `CTRL + /` search shortcut is now injected dynamically as a client-side script via the local `FazuhTweaks` plugin (formerly `TitleAlias`). This preserves the clean update path for the upstream search component.
+
+* **Transclusions & OFM Plugin (Step 6)**: Instead of forking `github:quartz-community/obsidian-flavored-markdown`, the `.embed` class is now appended to all transcludes dynamically using an HTML AST (rehype) visitor inside `FazuhTweaks`. Since all blockquote transcludes in v5 OFM represent embeds natively, this perfectly preserves functionality without brittle plugin forks.
+
+* **ExplicitPublish (Post-migration)**: Switched from `RemoveDrafts` to `ExplicitPublish` to only publish notes with `publish: true`. This was not in the initial plan but was needed to correctly align with the user's publishing workflow.
