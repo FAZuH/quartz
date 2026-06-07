@@ -1,0 +1,11 @@
+{
+  "name": "fazuh-tweaks",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "quartz": {
+    "name": "fazuh-tweaks",
+    "displayName": "FAZuH Tweaks",
+    "description": "Title aliasing, embed transclude class, and Ctrl+/ search shortcut",
+    "category": "transformer"
+  }
+}

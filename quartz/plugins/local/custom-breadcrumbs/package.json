@@ -1,0 +1,24 @@
+{
+  "name": "custom-breadcrumbs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./components": "./components/index.ts",
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "custom-breadcrumbs",
+    "displayName": "Custom Breadcrumbs",
+    "description": "Breadcrumbs based on frontmatter parent links",
+    "category": "component",
+    "components": {
+      "Breadcrumbs": {
+        "name": "Breadcrumbs",
+        "displayName": "Breadcrumbs",
+        "description": "Custom Breadcrumbs component"
+      }
+    }
+  }
+}
