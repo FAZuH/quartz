@@ -1,0 +1,17 @@
+---
+publish: true
+aliases:
+  - Trivial Solution
+  - Nontrivial Solution
+created: 2026-04-09T23:07:39.340+07:00
+modified: 2026-04-09T23:07:39.341+07:00
+published: 2026-04-09T23:07:39.341+07:00
+creation-time: 2025-07-15 01:59
+status: complete
+tag:
+parent: "[[linear-algebra|linear algebra]]"
+---
+
+## Definition
+
+**Trivial solution** is defined as solution of a [[Def-homogeneous-linear-system|homogeneous linear system]] with all that is all $0$. Other solutions are called **nontrivial solution**.

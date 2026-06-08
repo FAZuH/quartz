@@ -1,0 +1,16 @@
+---
+publish: true
+aliases:
+  - Averaging Method
+created: 2026-04-09T23:07:39.009+07:00
+modified: 2026-04-09T23:07:39.010+07:00
+published: 2026-04-09T23:07:39.010+07:00
+creation-time: 2026-03-16 14:00
+status: in progress
+parent: "[[forecasting methods]]"
+---
+
+## Definition
+
+Forecasting is based on the <u>average of all past</u> observations.
+$F_{t+1} = \frac{1}{t} \sum_{i=1}^t X_i$

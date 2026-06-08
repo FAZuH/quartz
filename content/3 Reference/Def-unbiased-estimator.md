@@ -1,0 +1,41 @@
+---
+publish: true
+aliases:
+  - Unbiased Estimator
+  - Unbiased
+created: 2026-04-09T23:07:39.343+07:00
+modified: 2026-04-09T23:07:39.344+07:00
+published: 2026-04-09T23:07:39.344+07:00
+creation-time: 2025-07-15 07:13
+status: in progress
+tag:
+parent: "[[Introduction to Mathematical Statistics]]"
+---
+
+## Definition
+
+Let
+
+- $X_{1},\dots, X_{n}$ : [[Def-random-sample|Random samples]], with
+  - $\Omega$ : Parameter space
+  - [[Def-probability-density-function-(pdf)|pdf]] $f(x;\theta), \quad \theta \in \Omega$
+- $T$ : [[Def-statistic|Statistic]] of $X_{1},\dots, X_{n}$
+
+If
+$E(T)=\theta,\quad \forall \theta\in \Omega$
+
+Then we say $T$ is an **unbiased** estimator of $\theta$
+
+## Remark
+
+More formally, $T$ is called a **point estimator** of $\theta$. We call its realization $t$ an **estimate** of $\theta$.
+
+## Related theorems
+
+**Obtain**
+
+- [[mathstat7.3#Theorem 7.3.1 Rao-Blackwell|Rao-Blackwell]] : $E(Y_{2}|Y_{1}) = \varphi(Y_{1})$, $Y_{2}$ sufficient, $Y_{1}$ unbiased
+
+**Use**
+
+- [[mathstat6.2#Corollary 6.2.1 Rao-Cramér bound for unbiased estimators|Rao-Cramer Lower Bound for Unbiased Estimators]]

@@ -1,0 +1,27 @@
+---
+publish: true
+aliases:
+  - Set Equality
+  - Equal Sets
+created: 2026-04-09T23:07:39.306+07:00
+modified: 2026-04-09T23:07:39.307+07:00
+published: 2026-04-09T23:07:39.307+07:00
+creation-time: 2025-07-14 23:32
+status: complete
+tags:
+parent:
+  - "[[sets]]"
+categories:
+  - "[[sets]]"
+---
+
+## Definition
+
+Let $A,B$ : [[def-set_202510022014|Set]]
+
+If $A,B$ contains the same elements
+
+Then
+
+- We say $A$ and $B$ are **equal**
+- We write $A=B$

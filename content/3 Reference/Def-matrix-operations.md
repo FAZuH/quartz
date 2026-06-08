@@ -1,0 +1,23 @@
+---
+publish: true
+aliases:
+  - Matrix Operations
+created: 2026-04-09T23:07:39.214+07:00
+modified: 2026-04-09T23:07:39.215+07:00
+published: 2026-04-09T23:07:39.215+07:00
+creation-time: 2025-07-15 02:13
+status: complete
+tag:
+parent:
+  - "[[matrices]]"
+---
+
+## Definition
+
+Let $A$ and $B$ are [[Def-matrix|matrices]] of the same size
+
+Then
+
+- **Sum** $A+B$ is the matrix obtained by adding the entries of $B$ to the corresponding entries of $B$
+- **Difference** $A-B$ is the matrix obtained by subtracting the entries of $B$ from the corresponding entries of $A$.
+- Matrices of different sizes cannot be added or subtracted.

@@ -1,0 +1,23 @@
+---
+publish: true
+aliases:
+  - Gauss-Jordan Elimination
+created: 2026-04-09T23:07:39.663+07:00
+modified: 2026-04-09T23:07:39.663+07:00
+published: 2026-04-09T23:07:39.663+07:00
+creation-time: 2025-07-15 01:58
+status: complete
+tag:
+parent:
+  - "[[matrices]]"
+  - "[[linear-algebra|linear algebra]]"
+---
+
+## Theorem
+
+**Gauss-Jordan elimination** is the procedure of using elementary row operation to transform an [[Def-augmented-matrix|augmented matrix]] to [[Def-reduced-row-echelon-form-(rref)|reduced row echelon form]].
+
+This procedure consists of:
+
+1. **Forward phase**: Zeros are introduced below the leading 1’s
+2. **Backward phase**: Zeros are introduced above the leading 1’s

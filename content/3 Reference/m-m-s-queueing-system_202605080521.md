@@ -1,0 +1,77 @@
+---
+publish: true
+aliases:
+  - M/M/s Queueing System
+created: 2026-06-05T03:16:31.394+07:00
+modified: 2026-06-05T03:16:31.395+07:00
+published: 2026-06-05T03:16:31.395+07:00
+creation-time: 2026-05-08 05:21
+status: in progress
+tags:
+parent:
+  - "[[stochastic-model]]"
+---
+
+## Definition
+
+The **M/M/s Queueing System** is a multi-server queue where:
+
+- Customers arrive according to a [[poisson-process_202604031845|Poisson process]] with rate $\lambda$
+- Service times are i.i.d. $\text{Exp}(\mu)$
+- There are **$s$ servers**, each working at rate $\mu$
+- Queue discipline is FIFO
+
+$X(t)$ is a [[birth-and-death-process_202605080517|birth and death process]] with:
+
+$\lambda_n = \lambda, \quad n \geq 0$
+
+$\mu_n = \begin{cases} n\mu, & 1 \leq n \leq s \\ s\mu, & n > s \end{cases}$
+
+> [!TIP] Interpretation
+> When $n \leq s$ customers are in the system, $n$ servers are busy and each works at rate $\mu$, giving total departure rate $n\mu$. When $n > s$, all $s$ servers are busy, giving total departure rate $s\mu$. Customers beyond $s$ wait in queue.
+
+## Key Quantities
+
+- Number of customers in service: $\min\{X(t), s\}$
+- Number of customers in queue: $\max\{X(t) - s, 0\}$
+
+## Traffic Intensity
+
+$\rho = \frac{\lambda}{s\mu}$
+
+Steady state exists only when $\rho < 1$ (the arrival rate is less than the maximum service rate).
+
+## Steady-State Probabilities
+
+The auxiliary quantity:
+
+$\theta_j = \begin{cases} \frac{(\lambda/\mu)^j}{j!}, & j \leq s \\ \frac{(\lambda/\mu)^s}{s!}\left(\frac{\lambda}{s\mu}\right)^{j-s}, & j > s \end{cases}$
+
+Then $\pi_0 = 1 / \sum_{j=0}^{\infty} \theta_j$ and $\pi_k = \theta_k \pi_0$.
+
+## Performance Metrics
+
+- Mean queue length: $L_Q = \sum_{k=s+1}^{\infty} (k-s) \pi_k$
+- Mean waiting time in queue: $W_Q = L_Q / \lambda$
+- Mean time in system: $W = W_Q + 1/\mu$
+- Mean # in system: $L = \lambda W = L_Q + \lambda/\mu$
+
+## Related
+
+- [[m-m-1-queueing-system_202605080520|M/M/1 Queueing System]]
+- [[m-m-∞-queueing-system_202605080521|M/M/∞ Queueing System]]
+- [[birth-and-death-queueing-models_202605080521|Birth and Death Queueing Models]]
+
+## Exercises
+
+> [!NOTE] Back to [[kuis-2_202605211907#Roadmap|Roadmap 📖 → 🃏 → ✏]]
+
+**M/M/2 — konstruksi Q.** Dua server identik, $\lambda = 4$/jam, $\mu = 3$/jam per server. Tentukan matriks generator $Q$ untuk state $\{0, 1, 2, 3\}$.
+
+> [!NOTE]- Jawaban
+> $\lambda_n = 4$ untuk semua $n$. $\mu_1 = 3$, $\mu_2 = 6$, $\mu_3 = 6$. $Q = \begin{bmatrix} -4 & 4 & 0 & 0 \\ 3 & -7 & 4 & 0 \\ 0 & 6 & -10 & 4 \\ 0 & 0 & 6 & -10 \end{bmatrix}$.
+
+**Cek kondisi steady-state.** Kapan M/M/2 mencapai steady-state?
+
+> [!NOTE]- Jawaban
+> $\rho = \frac{\lambda}{s\mu} = \frac{4}{2 \cdot 3} = \frac{2}{3} < 1$ → steady-state exists.

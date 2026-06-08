@@ -1,0 +1,39 @@
+---
+publish: true
+aliases:
+  - Idempotent Matrix
+created: 2026-04-09T23:07:39.167+07:00
+modified: 2026-04-09T23:07:39.168+07:00
+published: 2026-04-09T23:07:39.168+07:00
+tags:
+  - 
+creation-time: 2025-09-24 22:56
+status: complete
+parent:
+  - "[[matrices]]"
+---
+
+## Definition
+
+**Idempotent matrix** is a [[Def-matrix|square matrix]] $A$ such that $A^2=A$.
+
+## Example
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 0
+\end{bmatrix}
+$$

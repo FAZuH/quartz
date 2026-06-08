@@ -1,0 +1,28 @@
+---
+publish: true
+aliases:
+  - Orthogonal Basis Expansion
+created: 2026-04-09T23:07:39.696+07:00
+modified: 2026-04-09T23:07:39.697+07:00
+published: 2026-04-09T23:07:39.697+07:00
+tags:
+  - 
+creation-time: 2025-10-06 12:30
+status: in progress
+parent:
+  - "[[Elementary Linear Algebra]]"
+---
+
+## Theorem
+
+If $S=\{ \mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n} \}$ is an [[def-orthogonal_202510011638|orthogonal]] [[def-basis_202510061042|basis]] of an [[def-real-inner-product-space_202510061214|inner product space]] $V$, and if $\mathbf{u}$ is any vector in $\mathbf{v}$, then
+
+$$
+\mathbf{u} = \frac{\langle \mathbf{u}, \mathbf{v}_1 \rangle}{\| \mathbf{v}_1 \|^2} \mathbf{v}_1 + \frac{\langle \mathbf{u}, \mathbf{v}_2 \rangle}{\| \mathbf{v}_2 \|^2} \mathbf{v}_2 + \cdots + \frac{\langle \mathbf{u}, \mathbf{v}_n \rangle}{\| \mathbf{v}_n \|^2} \mathbf{v}_n
+$$
+
+If $S=\{ \mathbf{v}_{1},\mathbf{v}_{2},\dots,\mathbf{v}_{n} \}$ is an [[def-orthogonal-and-orthonormal-sets_202510061213|orthonormal]] [[def-basis_202510061042|basis]] of an [[def-real-inner-product-space_202510061214|inner product space]] $V$, and if $\mathbf{u}$ is any vector in $\mathbf{v}$, then
+
+$$
+\mathbf{u} = \langle \mathbf{u}, \mathbf{v}_1 \rangle \mathbf{v}_1 + \langle \mathbf{u}, \mathbf{v}_2 \rangle \mathbf{v}_2 + \cdots + \langle \mathbf{u}, \mathbf{v}_n \rangle \mathbf{v}_n
+$$

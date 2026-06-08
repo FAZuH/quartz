@@ -1,0 +1,25 @@
+---
+publish: true
+aliases:
+  - Real Inner Product Space
+created: 2026-04-09T23:07:39.289+07:00
+modified: 2026-04-09T23:07:39.290+07:00
+published: 2026-04-09T23:07:39.290+07:00
+tags:
+  - 
+creation-time: 2025-10-06 12:14
+status: in progress
+parent:
+  - "[[Elementary Linear Algebra]]"
+---
+
+## Definition
+
+An **inner product** on a real [[def-vector-space-axioms_202509240715|vector space]] $V$ is a function that associates a real number $\langle \mathbf{u},\mathbf{v} \rangle$ with each pair of vectors in $V$ in such a way that the following axioms are satisfied for all vectors $\mathbf{u},\mathbf{v},\mathbf{w}\in V$ and all [[Def-matrix|scalars]] $k$.
+
+1. $\langle \mathbf{u},\mathbf{v} \rangle = \langle \mathbf{v},\mathbf{u} \rangle$ (Symmetry axiom)
+2. $\langle \mathbf{u}+\mathbf{v},\mathbf{w} \rangle=\langle \mathbf{u},\mathbf{w} \rangle+\langle \mathbf{v},\mathbf{w} \rangle$ (Additivity axiom)
+3. $\langle k\mathbf{u},\mathbf{v} \rangle=k\langle \mathbf{u},\mathbf{v} \rangle$ (Homogeneity axiom)
+4. $\langle \mathbf{v},\mathbf{v} \rangle\geq 0$ and $\langle \mathbf{v},\mathbf{v} \rangle=0$ if and only if $\mathbf{v}=vf_{0}$ (Positivity axiom)
+
+A real vector space with an inner product is called a **real inner product space**

@@ -1,0 +1,26 @@
+---
+publish: true
+aliases:
+  - Monotone Sequence
+  - Increasing Sequence
+  - Decreasing Sequence
+created: 2026-04-09T23:07:39.234+07:00
+modified: 2026-04-09T23:07:39.236+07:00
+published: 2026-04-09T23:07:39.236+07:00
+tags:
+  - 
+creation-time: 2025-10-03 02:52
+status: in progress
+parent:
+  - "[[Introduction to Real Analysis]]"
+---
+
+## Definition
+
+Let $(x_n)$ be a [[def-sequence-of-real-numbers_202510030255|sequence of real numbers]]
+
+Then
+
+- $(x_{n})$ is **increasing** if it satisfies $x_1 \leq x_2 \leq \dots \leq x_n \leq x_{n+1} \leq \dots$
+- $(x_{n})$ is **decreasing** if it satisfies $x_1 \geq x_2 \geq \dots \geq x_n \geq x_{n+1} \geq \dots$
+- $(x_{n})$ is **monotone** if it's either increasing or decreasing

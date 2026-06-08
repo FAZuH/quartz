@@ -1,0 +1,22 @@
+---
+publish: true
+created: 2026-02-22T19:24:22.339+07:00
+modified: 2026-02-22T19:24:22.339+07:00
+published: 2026-02-22T19:24:22.339+07:00
+tags:
+  - type/category
+creation-time: 2025-03-06 20:32
+parent:
+  - "[[computers]]"
+PassFrontmatter: true
+---
+
+## Referential
+
+- [[3 Reference/Hardlink vs Symlink|Hardlink vs Symlink]]
+
+## Procedural
+
+- [[3 Reference/Mounting Android Phone Internal Storage to Linux Machine|Mounting Android Phone Internal Storage to Linux Machine]]
+- [[3 Reference/Mounting a Windows File System in Linux|Mounting a Windows File System in Linux]]
+- [[mounting-a-remote-directory-through-ssh-using-sshfs_202508162138|Mounting a Remote Directory using SSHFS]]

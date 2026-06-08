@@ -1,0 +1,24 @@
+---
+publish: true
+aliases:
+  - Properties of Negative Exponents of Matrix
+created: 2026-04-09T23:07:39.707+07:00
+modified: 2026-04-09T23:07:39.708+07:00
+published: 2026-04-09T23:07:39.708+07:00
+tags:
+  - 
+creation-time: 2025-09-24 13:18
+status: complete
+parent:
+  - "[[linear-algebra|linear algebra]]"
+---
+
+## Theorem
+
+Let $A$ : [[Def-matrix|Square matrix]]
+
+Then
+
+- $A^{-1}$ is [[def-inverse-matrix_202509241225|invertible]] and $(A^{-1})^{-1}=A$
+- $A^n$ is invertible and $(A^n)^{-1}=(A^{-n})=(A^{-1})^n$
+- For any [[Def-matrix|scalar]] $k\neq 0$, $kA$ is invertible and $(kA)^{-1}=k^{-1}A^{-1}$

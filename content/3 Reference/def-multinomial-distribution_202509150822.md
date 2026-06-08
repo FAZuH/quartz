@@ -1,0 +1,29 @@
+---
+publish: true
+aliases:
+  - Multinomial Distribution
+created: 2026-04-09T23:07:39.236+07:00
+modified: 2026-04-09T23:07:39.238+07:00
+published: 2026-04-09T23:07:39.238+07:00
+tags:
+  - 
+creation-time: 2025-09-15 08:22
+status: in progress
+parent:
+  - "[[mathematical-statistics]]"
+---
+
+## Definition
+
+$\mathbf{X} \sim \text{Multinomial}(n; p_1, p_2, \ldots, p_k)$
+
+Extension of [[def-binomial-distribution_202509150822|binomial distribution]] to $k$ categories.
+
+$x_{i}$ is the number of success in the $i$-th variable.
+
+- [[Def-probability-mass-function-(pmf)|pmf]]: $\dfrac{n!}{x_1!\cdots x_k!}p_1^{x_1}\cdots p_k^{x_k}$
+  - $x_k = n-(x_1+\cdots+x_{k-1})$
+  - $p_k = 1-(p_1+\cdots+p_{k-1})$
+- [[Def-mean|Mean]]: $E(X_i) = np_i$
+- [[Def-variance|Variance]]: $\text{Var}(X_i) = np_i(1-p_i)$
+- Covariance: $\text{Cov}(X_i, X_j) = -np_ip_j$

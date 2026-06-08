@@ -1,0 +1,25 @@
+---
+publish: true
+aliases:
+  - Similar Matrices
+created: 2026-04-09T23:07:39.309+07:00
+modified: 2026-04-09T23:07:39.310+07:00
+published: 2026-04-09T23:07:39.310+07:00
+tags:
+  - 
+creation-time: 2025-11-05 07:17
+status: in progress
+parent:
+  - "[[matrices]]"
+---
+
+## Definition
+
+Let $A,B$ : [[Def-matrix|Square matrices]]
+
+If there exists [[theorem-matrix-invertibility_202509241243|invertible]] matrix $P$ such that $B=P^{-1}AP$
+
+Then we say $B$ is **similar** to $A$
+
+> [!note]
+> Let $A,B$ : Square matrices. $\exists P,\det(P)\neq 0 \ni B=P^{-1}AP\implies B \text{ similar to }A$

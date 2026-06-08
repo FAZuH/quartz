@@ -1,0 +1,18 @@
+---
+publish: true
+aliases:
+  - Solution Space
+created: 2026-04-09T23:07:39.312+07:00
+modified: 2026-04-09T23:07:39.313+07:00
+published: 2026-04-09T23:07:39.313+07:00
+tags:
+  - 
+creation-time: 2025-10-06 11:27
+status: in progress
+parent:
+  - "[[Elementary Linear Algebra]]"
+---
+
+## Definition
+
+The [[Def-solution-of-linear-system|solution]] [[def-set_202510022014|set]] of a [[Def-homogeneous-linear-system|homogeneous system]] in $n$ unknowns is a [[def-subspace_202509240725|subspace]], which we often refer to as the **solution space** of the system.

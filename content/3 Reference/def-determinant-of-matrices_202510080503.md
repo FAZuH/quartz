@@ -1,0 +1,34 @@
+---
+publish: true
+aliases:
+  - Determinant of Matrices
+created: 2026-04-09T23:07:39.127+07:00
+modified: 2026-04-09T23:07:39.128+07:00
+published: 2026-04-09T23:07:39.128+07:00
+tags:
+  - 
+creation-time: 2025-10-08 05:03
+status: in progress
+parent:
+  - "[[Elementary Linear Algebra]]"
+---
+
+## Definition
+
+Let $A$ : [[Def-matrix|Square matrix]] of [[Def-matrix|order]] $n$
+
+Let
+
+- $a_{ij}$ : Element of $A$ at row $i$ column $j$
+- $M_{ij}$ : $(n-1)\times(n-1)$ square submatrix obtained by deleting row $i$ and column $j$ of $A$
+
+Choose any $i \in \{ 1,\dots,n \}$
+
+Then
+
+$$
+\det(A) = \sum_{j=1}^n(-1)^{i+j}a_{ij}\det (M_{ij})
+$$
+
+> [!note]
+> You can choose $j\in \{ 1,\dots,n \}$, and sum over $i=1,\dots,n$ instead

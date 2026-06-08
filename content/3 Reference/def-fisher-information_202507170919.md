@@ -1,0 +1,48 @@
+---
+publish: true
+aliases:
+  - Fisher Information
+created: 2026-04-09T23:07:39.152+07:00
+modified: 2026-04-09T23:07:39.153+07:00
+published: 2026-04-09T23:07:39.153+07:00
+creation-time: 2025-07-17 09:19
+status: in progress
+tag:
+parent: "[[Introduction to Mathematical Statistics]]"
+---
+
+## Definition
+
+Let
+
+- $X$ : [[Def-random-variable|Random variable]], with
+  - [[mathstat1.7#Definition Probability density function (pdf)|pdf]] $f(x;\theta)$, for $\theta \in \Omega$
+- $S(X;\theta)$ : [[def-score-function_202507170918|Score Function]]
+
+Then the **Fisher information** is defined as:
+
+$$
+\begin{align}
+I(\theta) & = E\left[S(X;\theta)^2\right] \\
+ & = E\left[\left(\frac{\partial}{\partial \theta} \ln f(X;\theta)\right)^2\right] \\
+ & = -E\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right]
+\end{align}
+$$
+
+## Remark
+
+> [!important]
+> The bigger the Fisher information $I(\theta)$, the better the information obtained about $\theta$.
+
+This equation is derived under [[mathstat6.1#Assumptions 6.1.1 Regularity conditions|Regularity conditions]]: $I(\theta) = -E\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right]$
+
+For a [[Def-random-sample|random sample]] $X_1, X_2, \ldots, X_n$, the Fisher information is:
+
+$$$
+I_n(\theta) = nI(\theta) =  -nE\left[\frac{\partial^2}{\partial \theta^2} \ln f(X;\theta)\right] $$
+
+> [!note]
+> Fisher information measures the amount of information that the sample carries about the parameter $\theta$. It is the weighted mean of $\left(\frac{\partial}{\partial \theta} \ln f(x;\theta)\right)^2$, where the weights are given by the pdf $f(x;\theta)$. 
+> 
+> The greater these derivatives are on average, the more information we get about $\theta$. If the derivatives were equal to zero (so that $\theta$ would not be in $\ln f(x;\theta)$), there would be zero information about $\theta$.
+$$$
