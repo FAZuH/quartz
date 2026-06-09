@@ -1,2 +1,2 @@
-export { default as Breadcrumbs } from "./Breadcrumbs"
-export type { BreadcrumbOptions } from "./Breadcrumbs"
+export { default as Breadcrumbs } from "./Breadcrumbs.ts"
+export type { BreadcrumbOptions } from "./Breadcrumbs.ts"

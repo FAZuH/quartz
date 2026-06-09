@@ -335,6 +335,14 @@ export async function loadQuartzConfig(
       for (const cat of matchedProcessing) {
         categoryMap[cat].push({ entry, manifest })
       }
+      // Also load components/frames for mixed-category plugins (e.g. transformer + component)
+      const gitSpec = parsePluginSource(entry.source)
+      if (manifest?.components && Object.keys(manifest.components).length > 0) {
+        await loadComponentsFromPackage(gitSpec.name, manifest)
+      }
+      if (manifest?.frames && Object.keys(manifest.frames).length > 0) {
+        await loadFramesFromPackage(gitSpec.name, manifest)
+      }
     } else {
       const gitSpec = parsePluginSource(entry.source)
       const isComponentOnly = categories.length > 0 && categories.every((c) => c === "component")

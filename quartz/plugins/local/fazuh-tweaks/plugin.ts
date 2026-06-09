@@ -1,6 +1,6 @@
-import { QuartzTransformerPlugin } from "../../types"
-import { Root } from "hast"
-import { VFile } from "vfile"
+import type { QuartzTransformerPlugin } from "@quartz-community/types"
+import type { Root } from "hast"
+import type { VFile } from "vfile"
 import { visit } from "unist-util-visit"
 
 export const FazuhTweaks: QuartzTransformerPlugin = () => {
@@ -53,6 +53,12 @@ export const FazuhTweaks: QuartzTransformerPlugin = () => {
     },
     externalResources() {
       return {
+        css: [
+          {
+            content: `blockquote.transclude > h1:first-child { display: none; }`,
+            contentType: "inline",
+          },
+        ],
         js: [
           {
             script: `
