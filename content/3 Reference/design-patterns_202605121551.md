@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Design Patterns
 created: 2026-05-12T15:51:02.849+07:00
-modified: 2026-06-07T18:04:47.063+07:00
-published: 2026-06-07T18:04:47.063+07:00
+modified: 2026-06-08T22:29:03.249+07:00
+published: 2026-06-08T22:29:03.249+07:00
 tags:
   - 
 creation-time: 2026-05-12 15:51
@@ -34,6 +34,7 @@ parent:
   - [[proxy-design-pattern_202606071624|Proxy]]
   - [[adapter-vs-proxy-vs-decorator_202606071804|Adapter vs Proxy vs Decorator]]
 - [[behavioral-design-pattern_202605121844|Behavioral Design Pattern]]
+  - [[chain-of-responsibility_202606082229|Chain of Responsibility]]
 
 ## Resources
 

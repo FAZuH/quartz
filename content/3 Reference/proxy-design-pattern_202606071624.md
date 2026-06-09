@@ -4,8 +4,8 @@ aliases:
   - Proxy Design Pattern
   - Proxy
 created: 2026-06-07T16:24:29.014+07:00
-modified: 2026-06-07T18:23:01.466+07:00
-published: 2026-06-07T18:23:01.466+07:00
+modified: 2026-06-08T22:47:58.274+07:00
+published: 2026-06-08T22:47:58.274+07:00
 tags:
   - 
 creation-time: 2026-06-07 16:24
@@ -49,6 +49,8 @@ classDiagram
 	Client --> ServiceInterface
 	ServiceInterface <|.. Service
 	ServiceInterface <|.. Proxy
+	Proxy *--> Service
+	
 	
 	note for Proxy "operation() {
 		if (self.checkAccess()) {
