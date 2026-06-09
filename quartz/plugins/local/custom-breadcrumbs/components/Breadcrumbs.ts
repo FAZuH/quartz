@@ -3,8 +3,9 @@ import type {
   QuartzComponentConstructor,
   QuartzComponentProps,
 } from "@quartz-community/types"
-import { classNames } from "../../../../util/lang"
-import { FullSlug, resolveRelative } from "../../../../util/path"
+import { classNames, resolveRelative } from "@quartz-community/utils"
+import type { FullSlug } from "@quartz-community/utils"
+import { h } from "preact"
 const style = `.breadcrumb-container {
   margin: 0;
   margin-top: 0.75rem;
@@ -34,24 +35,19 @@ type CrumbData = {
 }
 
 export interface BreadcrumbOptions {
-  /** Symbol between crumbs */
   spacerSymbol: string
-  /** Name of first crumb */
   rootName: string
-  /** Whether to look up frontmatter title for folders */
   resolveFrontmatterTitle: boolean
-  /** Whether to display the current page in the breadcrumbs */
   showCurrentPage: boolean
 }
 
 const defaultOptions: BreadcrumbOptions = {
-  spacerSymbol: "❯",
+  spacerSymbol: "\u276f",
   rootName: "Home",
   resolveFrontmatterTitle: true,
   showCurrentPage: true,
 }
 
-// Helper function to resolve relative path to root directory
 export function pathToRoot(slug: string): string {
   let rootPath = slug
     .split("/")
@@ -140,15 +136,17 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       crumbs.push(crumb)
     }
 
-    return (
-      <nav class={classNames(displayClass, "breadcrumb-container")} aria-label="breadcrumbs">
-        {crumbs.map((crumb, index) => (
-          <div class="breadcrumb-element">
-            <a href={crumb.path}>{crumb.displayName}</a>
-            {index !== crumbs.length - 1 && <p>{` ${options.spacerSymbol} `}</p>}
-          </div>
-        ))}
-      </nav>
+    return h(
+      "nav",
+      { class: classNames(displayClass, "breadcrumb-container"), "aria-label": "breadcrumbs" },
+      crumbs.map((crumb, index) =>
+        h(
+          "div",
+          { class: "breadcrumb-element" },
+          h("a", { href: crumb.path }, crumb.displayName),
+          index !== crumbs.length - 1 && h("p", null, ` ${options.spacerSymbol} `),
+        ),
+      ),
     )
   }
   Breadcrumbs.css = style
