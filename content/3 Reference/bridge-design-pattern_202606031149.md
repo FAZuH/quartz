@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Bridge Design Pattern
 created: 2026-06-03T11:49:49.211+07:00
-modified: 2026-06-03T13:29:39.074+07:00
-published: 2026-06-03T13:29:39.074+07:00
+modified: 2026-06-09T18:25:04.073+07:00
+published: 2026-06-09T18:25:04.073+07:00
 tags:
   - 
 creation-time: 2026-06-03 11:49

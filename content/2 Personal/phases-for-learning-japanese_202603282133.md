@@ -13,7 +13,7 @@ parent:
   - "[[learn-japanese_202603111923]]"
 ---
 
-Timce since started learning: ==72 days==
+Timce since started learning: ==106 days==
 
 ## Phase 0 — Foundations (2–4 weeks)
 

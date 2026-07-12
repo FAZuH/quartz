@@ -1,8 +1,11 @@
 ---
 publish: true
+aliases:
+  - About SPF
+  - SPF
 created: 2026-04-09T23:07:38.974+07:00
-modified: 2026-04-09T23:07:38.975+07:00
-published: 2026-04-09T23:07:38.975+07:00
+modified: 2026-07-12T23:14:28.927+07:00
+published: 2026-07-12T23:14:28.927+07:00
 creation-time: 2025-06-21 13:51
 status: in progress
 tags:

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Abstract Factory
 created: 2026-05-15T07:35:05.862+07:00
-modified: 2026-06-03T11:09:18.119+07:00
-published: 2026-06-03T11:09:18.119+07:00
+modified: 2026-06-09T18:18:25.628+07:00
+published: 2026-06-09T18:18:25.628+07:00
 tags:
   - 
 creation-time: 2026-05-15 07:35
@@ -13,13 +13,11 @@ parent:
   - "[[design-patterns_202605121551|Design Patterns]]"
 ---
 
-## About
-
 Suppose we have different kind of furnitures: Chair, Table, Bed. Each furniture with different variants: Art Deco, Victorian, Modern.
 
 Usually clients wants to buy different furnitures but from one variant only.
 
-**Abstract Factory** is an "extension" of [[factory-method_202605121919|Factory Method]] that allows us to group factory method of the same variants of Products in one place.
+**Abstract Factory** is an "extension" of [[factory-method_202605121919|Factory Method]] that allows us to <u>group factory method of the same variants of Products in one place</u>.
 
 With **Abstract Factory**, clients can choose a factory that can produce different furnitures but only for one variant - each factories "group" different furnitures for a variant.
 
@@ -33,31 +31,34 @@ config:
     hideEmptyMembersBox: true
 ---
 classDiagram
-	class ProductA {
-		<<interface>>
-	}
-	class ProductB {
-		<<interface>>
-	}
-	
-	class ProductA1 { }
-	class ProductB1 { }
-	class ProductA2 { }
-	class ProductB2 { }
-	
-	class Factory {
-		<<interface>>
-		+createProductA() ProductA
-		+createProductB() ProductB
+	namespace product {
+		class ProductA {
+			<<interface>>
+		}
+		class ProductB {
+			<<interface>>
+		}
+		class ConcreteProductA1 { }
+		class ConcreteProductB1 { }
+		class ConcreteProductA2 { }
+		class ConcreteProductB2 { }
 	}
 	
-	class ConcreteFactoryX {
-		+createProductA() ProductA
-		+createProductB() ProductB
-	}
-	class ConcreteFactoryY {
-		+createProductA() ProductA
-		+createProductB() ProductB
+	namespace factory {
+		class Factory {
+			<<interface>>
+			+createProductA() ProductA
+			+createProductB() ProductB
+		}
+	
+		class ConcreteFactoryX {
+			+createProductA() ProductA
+			+createProductB() ProductB
+		}
+		class ConcreteFactoryY {
+			+createProductA() ProductA
+			+createProductB() ProductB
+		}
 	}
 	
 	class Client {
@@ -68,10 +69,10 @@ classDiagram
 	Factory <|.. ConcreteFactoryX
 	Factory <|.. ConcreteFactoryY
 	
-	ProductA <|.. ProductA1
-	ProductB <|.. ProductB1
-	ProductA2 ..|> ProductA
-	ProductB2 ..|> ProductB
+	ProductA <|.. ConcreteProductA1
+	ProductB <|.. ConcreteProductB1
+	ConcreteProductA2 ..|> ProductA
+	ConcreteProductB2 ..|> ProductB
 	
 	Factory ..> ProductA
 	Factory ..> ProductB

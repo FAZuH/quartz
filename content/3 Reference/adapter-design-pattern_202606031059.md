@@ -4,8 +4,8 @@ aliases:
   - Adapter Design Pattern
   - Adapter
 created: 2026-06-03T10:59:05.385+07:00
-modified: 2026-06-07T17:45:44.231+07:00
-published: 2026-06-07T17:45:44.231+07:00
+modified: 2026-06-09T18:22:47.243+07:00
+published: 2026-06-09T18:22:47.243+07:00
 tags:
   - 
 creation-time: 2026-06-03 10:59
@@ -48,28 +48,27 @@ config:
     hideEmptyMembersBox: true
 ---
 classDiagram
-	class Client {
-	}
+	class Client
 	
-	class ClientInterface {
+	class Service {
 		<<interface>>
-		+method(Data data)
+		+method(Data)
 	}
 	
 	class Adapter {
 		-Service adaptee
-		-convertToServiceFormat(Data data) SpecialData
-		+method(Data data)
+		-convertToServiceFormat(Data) SpecialData
+		+method(Data)
 	}
 	
-	class Service {
+	class OtherService {
 		...
-		+serviceMethod(SpecialData specialData)
+		+serviceMethod(SpecialData)
 	}
 	
-	Client --> ClientInterface
-	ClientInterface <|.. Adapter
-	Adapter --> Service
+	Client --> Service
+	Service <|.. Adapter
+	Adapter --> OtherService
 	
 	note for Adapter "specialData = convertToServiceFormat(data)
 	return adaptee.serviceMethod(specialData)"
@@ -91,18 +90,18 @@ classDiagram
 	
 	class ExistingClass {
 		...
-		+method(Data data)
+		+method(Data)
 	}
 	
 	class Service {
 		...
-		+serviceMethod(SpecialData data)
+		+serviceMethod(SpecialData)
 	}
 	
 	class Adapter {
 		...
-		-convertToServiceFormat(Data data) SpecialData
-		+method(Data data)
+		-convertToServiceFormat(Data) SpecialData
+		+method(Data)
 	}
 	
 	Client --> ExistingClass

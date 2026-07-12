@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-02-22T19:24:22.656+07:00
-modified: 2026-05-03T18:07:46.962+07:00
-published: 2026-05-03T18:07:46.962+07:00
+modified: 2026-07-12T22:59:36.116+07:00
+published: 2026-07-12T22:59:36.116+07:00
 tags:
   - type/category
 creation-time: 2025-03-06 20:48
@@ -27,6 +27,7 @@ PassFrontmatter: true
   - Anki
     - [[choosing-recall-difficulty-of-anki-cards_202605031807|Choosing Recall Difficulty of Anki Cards]]
 - [[learning-process_202601261630|Learning Process]]
+  - [[how-to-study-and-learn-really-difficult-subjects_202607122259|How to Study and Learn Really Difficult Subjects]]
   - Absorb
   - Retain
 - Organizing information

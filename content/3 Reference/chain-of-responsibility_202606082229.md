@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Chain of Responsibility
 created: 2026-06-08T22:29:01.260+07:00
-modified: 2026-06-08T22:47:13.548+07:00
-published: 2026-06-08T22:47:13.548+07:00
+modified: 2026-06-09T18:31:53.749+07:00
+published: 2026-06-09T18:31:53.749+07:00
 tags:
   - 
 creation-time: 2026-06-08 22:29
@@ -16,6 +16,8 @@ parent:
 This pattern can be used when you need to send _commands_ to a _chain_ of _handlers_ in a particular order. Each handler decides whether it consumes the command, or passes it to the next handler.
 
 For example, passing an user request to a chain of request handlers, such as auth, validation, caching, security etc.
+
+![[assets/chain-of-responsibility_202606082229-1781004712141.webp]]
 
 ## Structure
 

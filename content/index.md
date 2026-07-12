@@ -19,8 +19,8 @@ About me: https://github.com/FAZuH
 
 i.e., categories that is not a subcategory/is parentless
 
-- [[3 Reference/structure/computers.md|computers]]
 - [[3 Reference/structure/book summaries.md|book summaries]]
+- [[3 Reference/structure/computers.md|computers]]
 - [[3 Reference/structure/finance.md|finance]]
 - [[3 Reference/structure/guideline.md|guideline]]
 - [[3 Reference/structure/mathematics.md|mathematics]]

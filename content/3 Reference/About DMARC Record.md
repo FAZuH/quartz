@@ -1,8 +1,11 @@
 ---
 publish: true
+aliases:
+  - About DMARC
+  - DMARC
 created: 2026-04-09T23:07:38.970+07:00
-modified: 2026-04-09T23:07:38.971+07:00
-published: 2026-04-09T23:07:38.971+07:00
+modified: 2026-07-12T23:14:40.809+07:00
+published: 2026-07-12T23:14:40.809+07:00
 creation-time: 2025-06-21 14:49
 status: in progress
 tags:

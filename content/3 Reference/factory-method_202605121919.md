@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Factory Method
 created: 2026-05-12T19:19:35.223+07:00
-modified: 2026-06-03T11:08:39.223+07:00
-published: 2026-06-03T11:08:39.223+07:00
+modified: 2026-06-09T18:15:20.241+07:00
+published: 2026-06-09T18:15:20.241+07:00
 tags:
   - 
 creation-time: 2026-05-12 19:19
@@ -13,9 +13,7 @@ parent:
   - "[[design-patterns_202605121551]]"
 ---
 
-**Factory Method** is a creational design pattern that provides an interface for creating objects in a supertrait, but allows subtraits to alter the type of objects that will be created.
-
----
+**Factory Method** is a creational design pattern that provides an <u>interface for creating objects in a supertrait, but allows subtraits to alter the type</u> of objects that will be created.
 
 ## Structure
 
